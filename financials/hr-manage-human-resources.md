@@ -16,26 +16,25 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: b5bb86fe4f76d5ebd12aba9279b1c1b6ef9e9d9b
 ms.contentlocale: en-nz
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="human-resources"></a>Human Resources
-In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can keep detailed records of your employees. You can register and maintain employee information, such as employment contracts, confidential information, qualifications, and employee contacts.
+# <a name="human-resources"></a><span data-ttu-id="51b95-103">Human Resources</span><span class="sxs-lookup"><span data-stu-id="51b95-103">Human Resources</span></span>
+<span data-ttu-id="51b95-104">In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can keep detailed records of your employees.</span><span class="sxs-lookup"><span data-stu-id="51b95-104">In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can keep detailed records of your employees.</span></span> <span data-ttu-id="51b95-105">You can register and maintain employee information, such as employment contracts, confidential information, qualifications, and employee contacts.</span><span class="sxs-lookup"><span data-stu-id="51b95-105">You can register and maintain employee information, such as employment contracts, confidential information, qualifications, and employee contacts.</span></span>
 
 > [!NOTE]  
->   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
+>   <span data-ttu-id="51b95-106">This functionality requires that your experience is set to **Suite**.</span><span class="sxs-lookup"><span data-stu-id="51b95-106">This functionality requires that your experience is set to **Suite**.</span></span> <span data-ttu-id="51b95-107">For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).</span><span class="sxs-lookup"><span data-stu-id="51b95-107">For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).</span></span>
 
-To start using the Human Resources functionality, you must set up employees and other basic information. You can then associate various codes to an employee, which allows you to filter information for specific employees.
+<span data-ttu-id="51b95-108">To start using the Human Resources functionality, you must set up employees and other basic information.</span><span class="sxs-lookup"><span data-stu-id="51b95-108">To start using the Human Resources functionality, you must set up employees and other basic information.</span></span> <span data-ttu-id="51b95-109">You can then associate various codes to an employee, which allows you to filter information for specific employees.</span><span class="sxs-lookup"><span data-stu-id="51b95-109">You can then associate various codes to an employee, which allows you to filter information for specific employees.</span></span>
 
-The following table describes a sequence of tasks, with links to the topics that describe them.
+<span data-ttu-id="51b95-110">The following table describes a sequence of tasks, with links to the topics that describe them.</span><span class="sxs-lookup"><span data-stu-id="51b95-110">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>
 
-| To | See |
+| <span data-ttu-id="51b95-111">To</span><span class="sxs-lookup"><span data-stu-id="51b95-111">To</span></span> | <span data-ttu-id="51b95-112">See</span><span class="sxs-lookup"><span data-stu-id="51b95-112">See</span></span> |
 | --- | --- |
-| Register new employees or edit records for existing employees, and attach related information, such as contracts and articles. |[How to: Register Employees](hr-how-register-employees.md) |
+| <span data-ttu-id="51b95-113">Register new employees or edit records for existing employees, and attach related information, such as contracts and articles.</span><span class="sxs-lookup"><span data-stu-id="51b95-113">Register new employees or edit records for existing employees, and attach related information, such as contracts and articles.</span></span> |[<span data-ttu-id="51b95-114">How to: Register Employees</span><span class="sxs-lookup"><span data-stu-id="51b95-114">How to: Register Employees</span></span>](hr-how-register-employees.md) |
 
-## <a name="see-also"></a>See Also
-[Finance](finance.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)        
+## <a name="see-also"></a><span data-ttu-id="51b95-115">See Also</span><span class="sxs-lookup"><span data-stu-id="51b95-115">See Also</span></span>
+[<span data-ttu-id="51b95-116">Finance</span><span class="sxs-lookup"><span data-stu-id="51b95-116">Finance</span></span>](finance.md)  
+<span data-ttu-id="51b95-117">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="51b95-117">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+<span data-ttu-id="51b95-118">[Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)</span><span class="sxs-lookup"><span data-stu-id="51b95-118">[Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)</span></span>        
 

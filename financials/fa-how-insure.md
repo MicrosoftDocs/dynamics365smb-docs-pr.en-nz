@@ -16,108 +16,108 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 421d45e7f35ffdc46801fea85221ba453d52c516
 ms.contentlocale: en-nz
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/11/2017
 
 
 ---
-# <a name="how-to-insure-fixed-assets"></a>How to: Insure Fixed Assets
-An insurance policy for a fixed asset is represented by an insurance card. You can assign one fixed asset to one insurance policy or multiple fixed assets to one insurance policy.
+# <a name="how-to-insure-fixed-assets"></a><span data-ttu-id="92fb6-103">How to: Insure Fixed Assets</span><span class="sxs-lookup"><span data-stu-id="92fb6-103">How to: Insure Fixed Assets</span></span>
+<span data-ttu-id="92fb6-104">An insurance policy for a fixed asset is represented by an insurance card.</span><span class="sxs-lookup"><span data-stu-id="92fb6-104">An insurance policy for a fixed asset is represented by an insurance card.</span></span> <span data-ttu-id="92fb6-105">You can assign one fixed asset to one insurance policy or multiple fixed assets to one insurance policy.</span><span class="sxs-lookup"><span data-stu-id="92fb6-105">You can assign one fixed asset to one insurance policy or multiple fixed assets to one insurance policy.</span></span>
 
-You assign a fixed asset to an insurance policy by posting to the insurance coverage ledger from the **Insurance Journal** window.
+<span data-ttu-id="92fb6-106">You assign a fixed asset to an insurance policy by posting to the insurance coverage ledger from the **Insurance Journal** window.</span><span class="sxs-lookup"><span data-stu-id="92fb6-106">You assign a fixed asset to an insurance policy by posting to the insurance coverage ledger from the **Insurance Journal** window.</span></span>
 
-In addition, you can assign a fixed asset to an insurance policy and create coverage ledger entries when you post its acquisition cost. You do this by posting an acquisition cost from the fixed asset journal with the **Insurance No.** field filled in. The **Automatic Insurance Posting** check box in the **Fixed Asset Setup** window must be selected. For more information, see the "To post a fixed asset acquisition manually with the fixed asset G/L journal" section in [How to: Acquire Fixed Assets](fa-how-acquire.md).
+<span data-ttu-id="92fb6-107">In addition, you can assign a fixed asset to an insurance policy and create coverage ledger entries when you post its acquisition cost.</span><span class="sxs-lookup"><span data-stu-id="92fb6-107">In addition, you can assign a fixed asset to an insurance policy and create coverage ledger entries when you post its acquisition cost.</span></span> <span data-ttu-id="92fb6-108">You do this by posting an acquisition cost from the fixed asset journal with the **Insurance No.**</span><span class="sxs-lookup"><span data-stu-id="92fb6-108">You do this by posting an acquisition cost from the fixed asset journal with the **Insurance No.**</span></span> <span data-ttu-id="92fb6-109">field filled in.</span><span class="sxs-lookup"><span data-stu-id="92fb6-109">field filled in.</span></span> <span data-ttu-id="92fb6-110">The **Automatic Insurance Posting** check box in the **Fixed Asset Setup** window must be selected.</span><span class="sxs-lookup"><span data-stu-id="92fb6-110">The **Automatic Insurance Posting** check box in the **Fixed Asset Setup** window must be selected.</span></span> <span data-ttu-id="92fb6-111">For more information, see the "To post a fixed asset acquisition manually with the fixed asset G/L journal" section in [How to: Acquire Fixed Assets](fa-how-acquire.md).</span><span class="sxs-lookup"><span data-stu-id="92fb6-111">For more information, see the "To post a fixed asset acquisition manually with the fixed asset G/L journal" section in [How to: Acquire Fixed Assets](fa-how-acquire.md).</span></span>
 
-If the **Automatic Insurance Posting** check box in the **Fixed Asset Setup** window is not selected, then posting acquisitions from the fixed asset journal will create lines in the **Insurance Journal** window, which you must then post manually.
+<span data-ttu-id="92fb6-112">If the **Automatic Insurance Posting** check box in the **Fixed Asset Setup** window is not selected, then posting acquisitions from the fixed asset journal will create lines in the **Insurance Journal** window, which you must then post manually.</span><span class="sxs-lookup"><span data-stu-id="92fb6-112">If the **Automatic Insurance Posting** check box in the **Fixed Asset Setup** window is not selected, then posting acquisitions from the fixed asset journal will create lines in the **Insurance Journal** window, which you must then post manually.</span></span>
 
 > [!WARNING]  
->   If you do not select the **Automatic Insurance Posting** check box in the **Fixed Asset Setup** window, then your insurance journal should be based on a journal template without a number series. This is because the inserted document numbers from the fixed asset journal line will otherwise conflict with the number series of the insurance journal. For more information about journal templates and batches, see [How to: Set Up General Fixed Assets Information](fa-how-setup-general.md).
+>   <span data-ttu-id="92fb6-113">If you do not select the **Automatic Insurance Posting** check box in the **Fixed Asset Setup** window, then your insurance journal should be based on a journal template without a number series.</span><span class="sxs-lookup"><span data-stu-id="92fb6-113">If you do not select the **Automatic Insurance Posting** check box in the **Fixed Asset Setup** window, then your insurance journal should be based on a journal template without a number series.</span></span> <span data-ttu-id="92fb6-114">This is because the inserted document numbers from the fixed asset journal line will otherwise conflict with the number series of the insurance journal.</span><span class="sxs-lookup"><span data-stu-id="92fb6-114">This is because the inserted document numbers from the fixed asset journal line will otherwise conflict with the number series of the insurance journal.</span></span> <span data-ttu-id="92fb6-115">For more information about journal templates and batches, see [How to: Set Up General Fixed Assets Information](fa-how-setup-general.md).</span><span class="sxs-lookup"><span data-stu-id="92fb6-115">For more information about journal templates and batches, see [How to: Set Up General Fixed Assets Information](fa-how-setup-general.md).</span></span>
 
-After you have assigned a fixed asset to an insurance policy, the **Insured** check box is selected on the fixed asset card. When you sell the fixed asset, the check box is automatically deselected.
+<span data-ttu-id="92fb6-116">After you have assigned a fixed asset to an insurance policy, the **Insured** check box is selected on the fixed asset card.</span><span class="sxs-lookup"><span data-stu-id="92fb6-116">After you have assigned a fixed asset to an insurance policy, the **Insured** check box is selected on the fixed asset card.</span></span> <span data-ttu-id="92fb6-117">When you sell the fixed asset, the check box is automatically deselected.</span><span class="sxs-lookup"><span data-stu-id="92fb6-117">When you sell the fixed asset, the check box is automatically deselected.</span></span>
 
-## <a name="to-create-or-modify-an-insurance-card"></a>To create or modify an insurance card
-An insurance policy for a fixed asset must be represented by an insurance card.
+## <a name="to-create-or-modify-an-insurance-card"></a><span data-ttu-id="92fb6-118">To create or modify an insurance card</span><span class="sxs-lookup"><span data-stu-id="92fb6-118">To create or modify an insurance card</span></span>
+<span data-ttu-id="92fb6-119">An insurance policy for a fixed asset must be represented by an insurance card.</span><span class="sxs-lookup"><span data-stu-id="92fb6-119">An insurance policy for a fixed asset must be represented by an insurance card.</span></span>
 
-When you receive information about changes in the coverage amount, you must enter the new information in the **Insurance Card** window to ensure that you analyze insurance policy coverage correctly.  
+<span data-ttu-id="92fb6-120">When you receive information about changes in the coverage amount, you must enter the new information in the **Insurance Card** window to ensure that you analyze insurance policy coverage correctly.</span><span class="sxs-lookup"><span data-stu-id="92fb6-120">When you receive information about changes in the coverage amount, you must enter the new information in the **Insurance Card** window to ensure that you analyze insurance policy coverage correctly.</span></span>  
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Insurance**, and then choose the related link.
-2. Choose the **New** action to create a new card for an insurance policy. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Alternatively, select the insurance policy that you want to change, and then choose the **Edit** action.
+1. <span data-ttu-id="92fb6-121">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Insurance**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="92fb6-121">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Insurance**, and then choose the related link.</span></span>
+2. <span data-ttu-id="92fb6-122">Choose the **New** action to create a new card for an insurance policy.</span><span class="sxs-lookup"><span data-stu-id="92fb6-122">Choose the **New** action to create a new card for an insurance policy.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="92fb6-123">Alternatively, select the insurance policy that you want to change, and then choose the **Edit** action.</span><span class="sxs-lookup"><span data-stu-id="92fb6-123">Alternatively, select the insurance policy that you want to change, and then choose the **Edit** action.</span></span>
 
-## <a name="to-assign-a-fixed-asset-to-an-insurance-policy-by-posting-from-the-insurance-journal"></a>To assign a fixed asset to an insurance policy by posting from the insurance journal
-You assign a fixed asset to an insurance policy by posting to the insurance coverage ledger.  
+## <a name="to-assign-a-fixed-asset-to-an-insurance-policy-by-posting-from-the-insurance-journal"></a><span data-ttu-id="92fb6-124">To assign a fixed asset to an insurance policy by posting from the insurance journal</span><span class="sxs-lookup"><span data-stu-id="92fb6-124">To assign a fixed asset to an insurance policy by posting from the insurance journal</span></span>
+<span data-ttu-id="92fb6-125">You assign a fixed asset to an insurance policy by posting to the insurance coverage ledger.</span><span class="sxs-lookup"><span data-stu-id="92fb6-125">You assign a fixed asset to an insurance policy by posting to the insurance coverage ledger.</span></span>  
 
-The following procedure explains how to create an insurance journal line manually. If the **Automatic Insurance Posting** check box is selected in the **FA Setup** window, then insurance journal lines are automatically created when you post acquisition costs. In that case, all you have to do is to post the journal.  
+<span data-ttu-id="92fb6-126">The following procedure explains how to create an insurance journal line manually.</span><span class="sxs-lookup"><span data-stu-id="92fb6-126">The following procedure explains how to create an insurance journal line manually.</span></span> <span data-ttu-id="92fb6-127">If the **Automatic Insurance Posting** check box is selected in the **FA Setup** window, then insurance journal lines are automatically created when you post acquisition costs.</span><span class="sxs-lookup"><span data-stu-id="92fb6-127">If the **Automatic Insurance Posting** check box is selected in the **FA Setup** window, then insurance journal lines are automatically created when you post acquisition costs.</span></span> <span data-ttu-id="92fb6-128">In that case, all you have to do is to post the journal.</span><span class="sxs-lookup"><span data-stu-id="92fb6-128">In that case, all you have to do is to post the journal.</span></span>  
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Insurance Journals**, and then choose the related link.  
-2. Open the relevant journal, and fill in the journal lines as necessary.  
-3. To assign multiple fixed assets to one insurance policy, create journal lines with the same value in the **Insurance No.** field and different values in the **FA No.** field.  
-4. Choose the **Post** action.  
-
-    > [!NOTE]  
->   The entries from an insurance journal are only posted to the insurance coverage ledger.  
-
-## <a name="to-update-the-insurance-value-of-a-fixed-asset"></a>To update the insurance value of a fixed asset
-You can use the **Index Insurance** batch job to update the value of the fixed assets that are covered.  
-
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Index Insurance**, and then choose the related link.
-2. Fill in the fields as necessary.
+1. <span data-ttu-id="92fb6-129">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Insurance Journals**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="92fb6-129">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Insurance Journals**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="92fb6-130">Open the relevant journal, and fill in the journal lines as necessary.</span><span class="sxs-lookup"><span data-stu-id="92fb6-130">Open the relevant journal, and fill in the journal lines as necessary.</span></span>  
+3. <span data-ttu-id="92fb6-131">To assign multiple fixed assets to one insurance policy, create journal lines with the same value in the **Insurance No.**</span><span class="sxs-lookup"><span data-stu-id="92fb6-131">To assign multiple fixed assets to one insurance policy, create journal lines with the same value in the **Insurance No.**</span></span> <span data-ttu-id="92fb6-132">field and different values in the **FA No.**</span><span class="sxs-lookup"><span data-stu-id="92fb6-132">field and different values in the **FA No.**</span></span> <span data-ttu-id="92fb6-133">field.</span><span class="sxs-lookup"><span data-stu-id="92fb6-133">field.</span></span>  
+4. <span data-ttu-id="92fb6-134">Choose the **Post** action.</span><span class="sxs-lookup"><span data-stu-id="92fb6-134">Choose the **Post** action.</span></span>  
 
     > [!NOTE]  
->   In the **Index Figure** field, you enter a decrease of 5%, for example, as 95, whereas you enter an increase of 2% as 102.  
-3. Choose the **OK** button.  
+>   <span data-ttu-id="92fb6-135">The entries from an insurance journal are only posted to the insurance coverage ledger.</span><span class="sxs-lookup"><span data-stu-id="92fb6-135">The entries from an insurance journal are only posted to the insurance coverage ledger.</span></span>  
 
-   The batch job calculates the new amount as a percentage of the total value insured, as stated in the **Insurance Statistics** window, and then creates a line in the insurance journal.  
-4. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Insurance Journals**, and then choose the related link.  
-5. Open the relevant insurance journal, review the created values, and then post them to the insurance coverage ledger.  
+## <a name="to-update-the-insurance-value-of-a-fixed-asset"></a><span data-ttu-id="92fb6-136">To update the insurance value of a fixed asset</span><span class="sxs-lookup"><span data-stu-id="92fb6-136">To update the insurance value of a fixed asset</span></span>
+<span data-ttu-id="92fb6-137">You can use the **Index Insurance** batch job to update the value of the fixed assets that are covered.</span><span class="sxs-lookup"><span data-stu-id="92fb6-137">You can use the **Index Insurance** batch job to update the value of the fixed assets that are covered.</span></span>  
 
-## <a name="to-monitor-insurance-coverage"></a>To monitor insurance coverage
-[!INCLUDE[d365fin](includes/d365fin_md.md)] provides dedicated reports and statistics windows for use in analyzing insurance policies and whether your fixed assets are over- or under-insured.  
+1. <span data-ttu-id="92fb6-138">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Index Insurance**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="92fb6-138">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Index Insurance**, and then choose the related link.</span></span>
+2. <span data-ttu-id="92fb6-139">Fill in the fields as necessary.</span><span class="sxs-lookup"><span data-stu-id="92fb6-139">Fill in the fields as necessary.</span></span>
 
-### <a name="overview-of-insurance-policies"></a>Overview of Insurance Policies
-To get an overview of your insurance policies, preview or print the **Insurance - List** report. The report shows all the policies and the most important fields from the insurance cards.  
+    > [!NOTE]  
+>   <span data-ttu-id="92fb6-140">In the **Index Figure** field, you enter a decrease of 5%, for example, as 95, whereas you enter an increase of 2% as 102.</span><span class="sxs-lookup"><span data-stu-id="92fb6-140">In the **Index Figure** field, you enter a decrease of 5%, for example, as 95, whereas you enter an increase of 2% as 102.</span></span>  
+3. <span data-ttu-id="92fb6-141">Choose the **OK** button.</span><span class="sxs-lookup"><span data-stu-id="92fb6-141">Choose the **OK** button.</span></span>  
 
-### <a name="insurance-coverage"></a>Insurance Coverage
-To see which insurance policies cover each asset and by which amount, you can preview or print the **Insurance - Tot. Value Insured** report.  
+   <span data-ttu-id="92fb6-142">The batch job calculates the new amount as a percentage of the total value insured, as stated in the **Insurance Statistics** window, and then creates a line in the insurance journal.</span><span class="sxs-lookup"><span data-stu-id="92fb6-142">The batch job calculates the new amount as a percentage of the total value insured, as stated in the **Insurance Statistics** window, and then creates a line in the insurance journal.</span></span>  
+4. <span data-ttu-id="92fb6-143">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Insurance Journals**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="92fb6-143">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Insurance Journals**, and then choose the related link.</span></span>  
+5. <span data-ttu-id="92fb6-144">Open the relevant insurance journal, review the created values, and then post them to the insurance coverage ledger.</span><span class="sxs-lookup"><span data-stu-id="92fb6-144">Open the relevant insurance journal, review the created values, and then post them to the insurance coverage ledger.</span></span>  
 
-### <a name="overunder-coverage"></a>Over/Under Coverage
-You can check if fixed assets are over- or under-insured in the following ways:  
+## <a name="to-monitor-insurance-coverage"></a><span data-ttu-id="92fb6-145">To monitor insurance coverage</span><span class="sxs-lookup"><span data-stu-id="92fb6-145">To monitor insurance coverage</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="92fb6-146"> provides dedicated reports and statistics windows for use in analyzing insurance policies and whether your fixed assets are over- or under-insured.</span><span class="sxs-lookup"><span data-stu-id="92fb6-146"> provides dedicated reports and statistics windows for use in analyzing insurance policies and whether your fixed assets are over- or under-insured.</span></span>  
 
-* The **Insurance Statistics** window. A positive amount in the **Over/Under Insured** field means that the fixed asset is over-insured. A negative amount means that it is underinsured.  
-* The **Fixed Asset Statistics** window. Choose the **Total Value Insured** field to view the **Ins. Coverage Ledger Entries** window.  
-* The **Over/Under Coverage** report.  
-* The **Insurance Analysis** report.  
+### <a name="overview-of-insurance-policies"></a><span data-ttu-id="92fb6-147">Overview of Insurance Policies</span><span class="sxs-lookup"><span data-stu-id="92fb6-147">Overview of Insurance Policies</span></span>
+<span data-ttu-id="92fb6-148">To get an overview of your insurance policies, preview or print the **Insurance - List** report.</span><span class="sxs-lookup"><span data-stu-id="92fb6-148">To get an overview of your insurance policies, preview or print the **Insurance - List** report.</span></span> <span data-ttu-id="92fb6-149">The report shows all the policies and the most important fields from the insurance cards.</span><span class="sxs-lookup"><span data-stu-id="92fb6-149">The report shows all the policies and the most important fields from the insurance cards.</span></span>  
 
-### <a name="uninsured-fixed-assets"></a>Uninsured Fixed Assets
-To check if you have forgotten to assign a fixed asset to an insurance policy, you can print or preview the **Insurance - Uninsured FAs** report. This report displays fixed assets for which amounts have not been posted to the insurance coverage ledger.  
+### <a name="insurance-coverage"></a><span data-ttu-id="92fb6-150">Insurance Coverage</span><span class="sxs-lookup"><span data-stu-id="92fb6-150">Insurance Coverage</span></span>
+<span data-ttu-id="92fb6-151">To see which insurance policies cover each asset and by which amount, you can preview or print the **Insurance - Tot. Value Insured** report.</span><span class="sxs-lookup"><span data-stu-id="92fb6-151">To see which insurance policies cover each asset and by which amount, you can preview or print the **Insurance - Tot. Value Insured** report.</span></span>  
 
-## <a name="to-view-insurance-coverage-ledger-entries"></a>To view insurance coverage ledger entries
-You can view the entries that you have made in the insurance coverage ledger.  
+### <a name="overunder-coverage"></a><span data-ttu-id="92fb6-152">Over/Under Coverage</span><span class="sxs-lookup"><span data-stu-id="92fb6-152">Over/Under Coverage</span></span>
+<span data-ttu-id="92fb6-153">You can check if fixed assets are over- or under-insured in the following ways:</span><span class="sxs-lookup"><span data-stu-id="92fb6-153">You can check if fixed assets are over- or under-insured in the following ways:</span></span>  
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Insurance**, and then choose the related link.  
-2. Select the relevant insurance policy, and then choose the **Coverage Ledger Entries** action.  
+* <span data-ttu-id="92fb6-154">The **Insurance Statistics** window.</span><span class="sxs-lookup"><span data-stu-id="92fb6-154">The **Insurance Statistics** window.</span></span> <span data-ttu-id="92fb6-155">A positive amount in the **Over/Under Insured** field means that the fixed asset is over-insured.</span><span class="sxs-lookup"><span data-stu-id="92fb6-155">A positive amount in the **Over/Under Insured** field means that the fixed asset is over-insured.</span></span> <span data-ttu-id="92fb6-156">A negative amount means that it is underinsured.</span><span class="sxs-lookup"><span data-stu-id="92fb6-156">A negative amount means that it is underinsured.</span></span>  
+* <span data-ttu-id="92fb6-157">The **Fixed Asset Statistics** window.</span><span class="sxs-lookup"><span data-stu-id="92fb6-157">The **Fixed Asset Statistics** window.</span></span> <span data-ttu-id="92fb6-158">Choose the **Total Value Insured** field to view the **Ins. Coverage Ledger Entries** window.</span><span class="sxs-lookup"><span data-stu-id="92fb6-158">Choose the **Total Value Insured** field to view the **Ins. Coverage Ledger Entries** window.</span></span>  
+* <span data-ttu-id="92fb6-159">The **Over/Under Coverage** report.</span><span class="sxs-lookup"><span data-stu-id="92fb6-159">The **Over/Under Coverage** report.</span></span>  
+* <span data-ttu-id="92fb6-160">The **Insurance Analysis** report.</span><span class="sxs-lookup"><span data-stu-id="92fb6-160">The **Insurance Analysis** report.</span></span>  
 
-## <a name="to-view-the-total-insurance-value-of-fixed-assets"></a>To view the total insurance value of fixed assets
-A dedicated matrix window shows the insurance values that are registered for each insurance policy for each fixed asset as a result of insurance-related amounts that you have posted.  
+### <a name="uninsured-fixed-assets"></a><span data-ttu-id="92fb6-161">Uninsured Fixed Assets</span><span class="sxs-lookup"><span data-stu-id="92fb6-161">Uninsured Fixed Assets</span></span>
+<span data-ttu-id="92fb6-162">To check if you have forgotten to assign a fixed asset to an insurance policy, you can print or preview the **Insurance - Uninsured FAs** report.</span><span class="sxs-lookup"><span data-stu-id="92fb6-162">To check if you have forgotten to assign a fixed asset to an insurance policy, you can print or preview the **Insurance - Uninsured FAs** report.</span></span> <span data-ttu-id="92fb6-163">This report displays fixed assets for which amounts have not been posted to the insurance coverage ledger.</span><span class="sxs-lookup"><span data-stu-id="92fb6-163">This report displays fixed assets for which amounts have not been posted to the insurance coverage ledger.</span></span>  
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Insurance**, and then choose the related link.  
-2. Select the relevant insurance policy, and then choose the **Total Value Insures per FA** action.  
-3. Fill in the fields as necessary.  
-4. Choose the **Show Matrix** action.  
-5. To see the underlying insurance coverage ledger entries, choose a value in the matrix.  
+## <a name="to-view-insurance-coverage-ledger-entries"></a><span data-ttu-id="92fb6-164">To view insurance coverage ledger entries</span><span class="sxs-lookup"><span data-stu-id="92fb6-164">To view insurance coverage ledger entries</span></span>
+<span data-ttu-id="92fb6-165">You can view the entries that you have made in the insurance coverage ledger.</span><span class="sxs-lookup"><span data-stu-id="92fb6-165">You can view the entries that you have made in the insurance coverage ledger.</span></span>  
 
-## <a name="to-correct-insurance-coverage-entries"></a>To correct insurance coverage entries
-If a fixed asset has been attached to the wrong insurance policy, you can correct it by creating two reclassification entries from the insurance journal.  
+1. <span data-ttu-id="92fb6-166">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Insurance**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="92fb6-166">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Insurance**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="92fb6-167">Select the relevant insurance policy, and then choose the **Coverage Ledger Entries** action.</span><span class="sxs-lookup"><span data-stu-id="92fb6-167">Select the relevant insurance policy, and then choose the **Coverage Ledger Entries** action.</span></span>  
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Insurance Journals**, and then choose the related link.  
-2. Create one journal line for the fixed asset and the correct insurance policy where the value in the **Amount** field is positive.  
-3. Create another journal line for the fixed asset and the incorrect insurance policy where the value in the **Amount** field is negative.  
-4. Choose the **Post** action.  
+## <a name="to-view-the-total-insurance-value-of-fixed-assets"></a><span data-ttu-id="92fb6-168">To view the total insurance value of fixed assets</span><span class="sxs-lookup"><span data-stu-id="92fb6-168">To view the total insurance value of fixed assets</span></span>
+<span data-ttu-id="92fb6-169">A dedicated matrix window shows the insurance values that are registered for each insurance policy for each fixed asset as a result of insurance-related amounts that you have posted.</span><span class="sxs-lookup"><span data-stu-id="92fb6-169">A dedicated matrix window shows the insurance values that are registered for each insurance policy for each fixed asset as a result of insurance-related amounts that you have posted.</span></span>  
 
-The fixed asset will be detached from the incorrect insurance policy, on the second line, and attached to the correct insurance policy, on the first line.  
+1. <span data-ttu-id="92fb6-170">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Insurance**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="92fb6-170">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Insurance**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="92fb6-171">Select the relevant insurance policy, and then choose the **Total Value Insures per FA** action.</span><span class="sxs-lookup"><span data-stu-id="92fb6-171">Select the relevant insurance policy, and then choose the **Total Value Insures per FA** action.</span></span>  
+3. <span data-ttu-id="92fb6-172">Fill in the fields as necessary.</span><span class="sxs-lookup"><span data-stu-id="92fb6-172">Fill in the fields as necessary.</span></span>  
+4. <span data-ttu-id="92fb6-173">Choose the **Show Matrix** action.</span><span class="sxs-lookup"><span data-stu-id="92fb6-173">Choose the **Show Matrix** action.</span></span>  
+5. <span data-ttu-id="92fb6-174">To see the underlying insurance coverage ledger entries, choose a value in the matrix.</span><span class="sxs-lookup"><span data-stu-id="92fb6-174">To see the underlying insurance coverage ledger entries, choose a value in the matrix.</span></span>  
 
-## <a name="see-also"></a>See Also
-[Fixed Assets](fa-manage.md)  
-[Setting Up Fixed Assets](fa-setup.md)  
-[Finance](finance.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+## <a name="to-correct-insurance-coverage-entries"></a><span data-ttu-id="92fb6-175">To correct insurance coverage entries</span><span class="sxs-lookup"><span data-stu-id="92fb6-175">To correct insurance coverage entries</span></span>
+<span data-ttu-id="92fb6-176">If a fixed asset has been attached to the wrong insurance policy, you can correct it by creating two reclassification entries from the insurance journal.</span><span class="sxs-lookup"><span data-stu-id="92fb6-176">If a fixed asset has been attached to the wrong insurance policy, you can correct it by creating two reclassification entries from the insurance journal.</span></span>  
+
+1. <span data-ttu-id="92fb6-177">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Insurance Journals**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="92fb6-177">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Insurance Journals**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="92fb6-178">Create one journal line for the fixed asset and the correct insurance policy where the value in the **Amount** field is positive.</span><span class="sxs-lookup"><span data-stu-id="92fb6-178">Create one journal line for the fixed asset and the correct insurance policy where the value in the **Amount** field is positive.</span></span>  
+3. <span data-ttu-id="92fb6-179">Create another journal line for the fixed asset and the incorrect insurance policy where the value in the **Amount** field is negative.</span><span class="sxs-lookup"><span data-stu-id="92fb6-179">Create another journal line for the fixed asset and the incorrect insurance policy where the value in the **Amount** field is negative.</span></span>  
+4. <span data-ttu-id="92fb6-180">Choose the **Post** action.</span><span class="sxs-lookup"><span data-stu-id="92fb6-180">Choose the **Post** action.</span></span>  
+
+<span data-ttu-id="92fb6-181">The fixed asset will be detached from the incorrect insurance policy, on the second line, and attached to the correct insurance policy, on the first line.</span><span class="sxs-lookup"><span data-stu-id="92fb6-181">The fixed asset will be detached from the incorrect insurance policy, on the second line, and attached to the correct insurance policy, on the first line.</span></span>  
+
+## <a name="see-also"></a><span data-ttu-id="92fb6-182">See Also</span><span class="sxs-lookup"><span data-stu-id="92fb6-182">See Also</span></span>
+[<span data-ttu-id="92fb6-183">Fixed Assets</span><span class="sxs-lookup"><span data-stu-id="92fb6-183">Fixed Assets</span></span>](fa-manage.md)  
+[<span data-ttu-id="92fb6-184">Setting Up Fixed Assets</span><span class="sxs-lookup"><span data-stu-id="92fb6-184">Setting Up Fixed Assets</span></span>](fa-setup.md)  
+[<span data-ttu-id="92fb6-185">Finance</span><span class="sxs-lookup"><span data-stu-id="92fb6-185">Finance</span></span>](finance.md)  
+<span data-ttu-id="92fb6-186">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="92fb6-186">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 

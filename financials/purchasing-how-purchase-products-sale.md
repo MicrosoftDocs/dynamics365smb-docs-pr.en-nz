@@ -16,60 +16,59 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 2d7eb238395a0b1060668996fbbc3e13d9dd8a94
 ms.contentlocale: en-nz
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-purchase-items-for-a-sale"></a>How to: Purchase Items for a Sale
-From sales orders and sales invoices, you can use functions to quickly create purchase documents for missing item quantities that are required by the sale. You can use two different functions depending on the document type.
-|Function|Description|
+# <a name="how-to-purchase-items-for-a-sale"></a><span data-ttu-id="c9dab-103">How to: Purchase Items for a Sale</span><span class="sxs-lookup"><span data-stu-id="c9dab-103">How to: Purchase Items for a Sale</span></span>
+<span data-ttu-id="c9dab-104">From sales orders and sales invoices, you can use functions to quickly create purchase documents for missing item quantities that are required by the sale.</span><span class="sxs-lookup"><span data-stu-id="c9dab-104">From sales orders and sales invoices, you can use functions to quickly create purchase documents for missing item quantities that are required by the sale.</span></span> <span data-ttu-id="c9dab-105">You can use two different functions depending on the document type.</span><span class="sxs-lookup"><span data-stu-id="c9dab-105">You can use two different functions depending on the document type.</span></span>
+|<span data-ttu-id="c9dab-106">Function</span><span class="sxs-lookup"><span data-stu-id="c9dab-106">Function</span></span>|<span data-ttu-id="c9dab-107">Description</span><span class="sxs-lookup"><span data-stu-id="c9dab-107">Description</span></span>|
 |--------|-----------|
-|**Create Purchase Orders**|From a sales order, this function creates a purchase order for each vendor of items on the sales order. You can edit the purchase quantity before you create the purchase orders. Only unavailable sales quantities are suggested.
-|**Create Purchase Invoice**|From a sales order and from a sales invoice, this function creates a purchase invoice for a selected vendor for all lines or selected lines on the sales document. The full sales quantity is suggested.|
+|<span data-ttu-id="c9dab-108">**Create Purchase Orders**</span><span class="sxs-lookup"><span data-stu-id="c9dab-108">**Create Purchase Orders**</span></span>|<span data-ttu-id="c9dab-109">From a sales order, this function creates a purchase order for each vendor of items on the sales order.</span><span class="sxs-lookup"><span data-stu-id="c9dab-109">From a sales order, this function creates a purchase order for each vendor of items on the sales order.</span></span> <span data-ttu-id="c9dab-110">You can edit the purchase quantity before you create the purchase orders.</span><span class="sxs-lookup"><span data-stu-id="c9dab-110">You can edit the purchase quantity before you create the purchase orders.</span></span> <span data-ttu-id="c9dab-111">Only unavailable sales quantities are suggested.</span><span class="sxs-lookup"><span data-stu-id="c9dab-111">Only unavailable sales quantities are suggested.</span></span>
+|<span data-ttu-id="c9dab-112">**Create Purchase Invoice**</span><span class="sxs-lookup"><span data-stu-id="c9dab-112">**Create Purchase Invoice**</span></span>|<span data-ttu-id="c9dab-113">From a sales order and from a sales invoice, this function creates a purchase invoice for a selected vendor for all lines or selected lines on the sales document.</span><span class="sxs-lookup"><span data-stu-id="c9dab-113">From a sales order and from a sales invoice, this function creates a purchase invoice for a selected vendor for all lines or selected lines on the sales document.</span></span> <span data-ttu-id="c9dab-114">The full sales quantity is suggested.</span><span class="sxs-lookup"><span data-stu-id="c9dab-114">The full sales quantity is suggested.</span></span>|
 
-## <a name="to-create-one-or-more-purchase-orders-from-a-sales-order"></a>To create one or more purchase orders from a sales order
-To create a purchase order for each unavailable item quantity on the sales order, you use the **Create Purchase Orders** function. 
+## <a name="to-create-one-or-more-purchase-orders-from-a-sales-order"></a><span data-ttu-id="c9dab-115">To create one or more purchase orders from a sales order</span><span class="sxs-lookup"><span data-stu-id="c9dab-115">To create one or more purchase orders from a sales order</span></span>
+<span data-ttu-id="c9dab-116">To create a purchase order for each unavailable item quantity on the sales order, you use the **Create Purchase Orders** function.</span><span class="sxs-lookup"><span data-stu-id="c9dab-116">To create a purchase order for each unavailable item quantity on the sales order, you use the **Create Purchase Orders** function.</span></span> 
 
 > [!NOTE]  
->   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
+>   <span data-ttu-id="c9dab-117">This functionality requires that your experience is set to **Suite**.</span><span class="sxs-lookup"><span data-stu-id="c9dab-117">This functionality requires that your experience is set to **Suite**.</span></span> <span data-ttu-id="c9dab-118">For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).</span><span class="sxs-lookup"><span data-stu-id="c9dab-118">For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).</span></span>
 
-1. On the Home page, choose the **Ongoing Sales Orders** tile.
-2. Open a sales order that you want to purchase items for.
-3. Choose the **Create Purchase Orders** action.
+1. <span data-ttu-id="c9dab-119">On the Home page, choose the **Ongoing Sales Orders** tile.</span><span class="sxs-lookup"><span data-stu-id="c9dab-119">On the Home page, choose the **Ongoing Sales Orders** tile.</span></span>
+2. <span data-ttu-id="c9dab-120">Open a sales order that you want to purchase items for.</span><span class="sxs-lookup"><span data-stu-id="c9dab-120">Open a sales order that you want to purchase items for.</span></span>
+3. <span data-ttu-id="c9dab-121">Choose the **Create Purchase Orders** action.</span><span class="sxs-lookup"><span data-stu-id="c9dab-121">Choose the **Create Purchase Orders** action.</span></span>
 
-    The **Create Purchase Orders** window opens showing a line for each different item on the sales order. Lines for both fully available sales quantities and unavailable sales quantities (greyed) are shown by default. You can choose the **Show Unavailable** action to only see lines for unavailable sales quantities.
+    <span data-ttu-id="c9dab-122">The **Create Purchase Orders** window opens showing a line for each different item on the sales order.</span><span class="sxs-lookup"><span data-stu-id="c9dab-122">The **Create Purchase Orders** window opens showing a line for each different item on the sales order.</span></span> <span data-ttu-id="c9dab-123">Lines for both fully available sales quantities and unavailable sales quantities (greyed) are shown by default.</span><span class="sxs-lookup"><span data-stu-id="c9dab-123">Lines for both fully available sales quantities and unavailable sales quantities (grayed) are shown by default.</span></span> <span data-ttu-id="c9dab-124">You can choose the **Show Unavailable** action to only see lines for unavailable sales quantities.</span><span class="sxs-lookup"><span data-stu-id="c9dab-124">You can choose the **Show Unavailable** action to only see lines for unavailable sales quantities.</span></span>
 
-    The **Quantity to Purchase** field contains the unavailable sales quantity by default.
-4. To purchase another quantity than the unavailable sales quantity, edit the value in the **Quantity to Purchase** field.
+    <span data-ttu-id="c9dab-125">The **Quantity to Purchase** field contains the unavailable sales quantity by default.</span><span class="sxs-lookup"><span data-stu-id="c9dab-125">The **Quantity to Purchase** field contains the unavailable sales quantity by default.</span></span>
+4. <span data-ttu-id="c9dab-126">To purchase another quantity than the unavailable sales quantity, edit the value in the **Quantity to Purchase** field.</span><span class="sxs-lookup"><span data-stu-id="c9dab-126">To purchase another quantity than the unavailable sales quantity, edit the value in the **Quantity to Purchase** field.</span></span>
 
     > [!NOTE]  
->   You can also change the **Quantity to Purchase** field on grayed lines even though they represent fully available sales quantities.
-5. Choose the **OK** button. 
+>   <span data-ttu-id="c9dab-127">You can also change the **Quantity to Purchase** field on grayed lines even though they represent fully available sales quantities.</span><span class="sxs-lookup"><span data-stu-id="c9dab-127">You can also change the **Quantity to Purchase** field on grayed lines even though they represent fully available sales quantities.</span></span>
+5. <span data-ttu-id="c9dab-128">Choose the **OK** button.</span><span class="sxs-lookup"><span data-stu-id="c9dab-128">Choose the **OK** button.</span></span> 
     
-    A purchase order is created for each vendor of items on the sales order, including any quantity changes that you made in the **Create Purchase Orders** window.
-7. Proceed to process the purchase order or orders, for example, by editing or adding purchase order lines. For more information, see [How to: Record Purchases](purchasing-how-record-purchases.md).
+    <span data-ttu-id="c9dab-129">A purchase order is created for each vendor of items on the sales order, including any quantity changes that you made in the **Create Purchase Orders** window.</span><span class="sxs-lookup"><span data-stu-id="c9dab-129">A purchase order is created for each vendor of items on the sales order, including any quantity changes that you made in the **Create Purchase Orders** window.</span></span>
+7. <span data-ttu-id="c9dab-130">Proceed to process the purchase order or orders, for example, by editing or adding purchase order lines.</span><span class="sxs-lookup"><span data-stu-id="c9dab-130">Proceed to process the purchase order or orders, for example, by editing or adding purchase order lines.</span></span> <span data-ttu-id="c9dab-131">For more information, see [How to: Record Purchases](purchasing-how-record-purchases.md).</span><span class="sxs-lookup"><span data-stu-id="c9dab-131">For more information, see [How to: Record Purchases](purchasing-how-record-purchases.md).</span></span>
 
 
-## <a name="to-create-a-purchase-invoice-from-a-sales-order-or-sales-invoice"></a>To create a purchase invoice from a sales order or sales invoice
-To create a single purchase invoice for one or more lines on a sales document by first selecting which vendor to buy from, you use the **Create Purchase Invoice** function. 
+## <a name="to-create-a-purchase-invoice-from-a-sales-order-or-sales-invoice"></a><span data-ttu-id="c9dab-132">To create a purchase invoice from a sales order or sales invoice</span><span class="sxs-lookup"><span data-stu-id="c9dab-132">To create a purchase invoice from a sales order or sales invoice</span></span>
+<span data-ttu-id="c9dab-133">To create a single purchase invoice for one or more lines on a sales document by first selecting which vendor to buy from, you use the **Create Purchase Invoice** function.</span><span class="sxs-lookup"><span data-stu-id="c9dab-133">To create a single purchase invoice for one or more lines on a sales document by first selecting which vendor to buy from, you use the **Create Purchase Invoice** function.</span></span> 
 
 > [!NOTE]  
->   This function creates a purchase invoice for the exact item quantity on the selected sales document. To change the purchase quantity, you must edit the purchase invoice after it is created.  
+>   <span data-ttu-id="c9dab-134">This function creates a purchase invoice for the exact item quantity on the selected sales document.</span><span class="sxs-lookup"><span data-stu-id="c9dab-134">This function creates a purchase invoice for the exact item quantity on the selected sales document.</span></span> <span data-ttu-id="c9dab-135">To change the purchase quantity, you must edit the purchase invoice after it is created.</span><span class="sxs-lookup"><span data-stu-id="c9dab-135">To change the purchase quantity, you must edit the purchase invoice after it is created.</span></span>  
 
-1. On the Home page, choose the **Ongoing Sales Invoices** tile.
-2. Open a sales invoice that you want to purchase items for.
-3. Select one or more sales invoice lines that you want to use on the purchase invoice. To use all the sales invoice lines, select either all of them or do not select any lines.
-4. Choose the **Create Purchase Invoice** action.
-5. Select either **All Lines** or **Selected Lines**, and then choose the **OK** button.  
-6. In the list of vendors that appears, select the vendor that you want to buy all the items from, and then choose the **OK** button.
+1. <span data-ttu-id="c9dab-136">On the Home page, choose the **Ongoing Sales Invoices** tile.</span><span class="sxs-lookup"><span data-stu-id="c9dab-136">On the Home page, choose the **Ongoing Sales Invoices** tile.</span></span>
+2. <span data-ttu-id="c9dab-137">Open a sales invoice that you want to purchase items for.</span><span class="sxs-lookup"><span data-stu-id="c9dab-137">Open a sales invoice that you want to purchase items for.</span></span>
+3. <span data-ttu-id="c9dab-138">Select one or more sales invoice lines that you want to use on the purchase invoice.</span><span class="sxs-lookup"><span data-stu-id="c9dab-138">Select one or more sales invoice lines that you want to use on the purchase invoice.</span></span> <span data-ttu-id="c9dab-139">To use all the sales invoice lines, select either all of them or do not select any lines.</span><span class="sxs-lookup"><span data-stu-id="c9dab-139">To use all the sales invoice lines, select either all of them or do not select any lines.</span></span>
+4. <span data-ttu-id="c9dab-140">Choose the **Create Purchase Invoice** action.</span><span class="sxs-lookup"><span data-stu-id="c9dab-140">Choose the **Create Purchase Invoice** action.</span></span>
+5. <span data-ttu-id="c9dab-141">Select either **All Lines** or **Selected Lines**, and then choose the **OK** button.</span><span class="sxs-lookup"><span data-stu-id="c9dab-141">Select either **All Lines** or **Selected Lines**, and then choose the **OK** button.</span></span>  
+6. <span data-ttu-id="c9dab-142">In the list of vendors that appears, select the vendor that you want to buy all the items from, and then choose the **OK** button.</span><span class="sxs-lookup"><span data-stu-id="c9dab-142">In the list of vendors that appears, select the vendor that you want to buy all the items from, and then choose the **OK** button.</span></span>
 
-    A purchase invoice is created that contains one, more, or all the lines on the sales invoice.
-7. Proceed to process the purchase invoice, for example, by editing or adding purchase invoice lines. For more information, see [How to: Record Purchases](purchasing-how-record-purchases.md).
+    <span data-ttu-id="c9dab-143">A purchase invoice is created that contains one, more, or all the lines on the sales invoice.</span><span class="sxs-lookup"><span data-stu-id="c9dab-143">A purchase invoice is created that contains one, more, or all the lines on the sales invoice.</span></span>
+7. <span data-ttu-id="c9dab-144">Proceed to process the purchase invoice, for example, by editing or adding purchase invoice lines.</span><span class="sxs-lookup"><span data-stu-id="c9dab-144">Proceed to process the purchase invoice, for example, by editing or adding purchase invoice lines.</span></span> <span data-ttu-id="c9dab-145">For more information, see [How to: Record Purchases](purchasing-how-record-purchases.md).</span><span class="sxs-lookup"><span data-stu-id="c9dab-145">For more information, see [How to: Record Purchases](purchasing-how-record-purchases.md).</span></span>
 
-## <a name="see-also"></a>See Also
-[Purchasing](purchasing-manage-purchasing.md)  
-[How to: Record Purchases](purchasing-how-record-purchases.md)  
-[How to: Invoice Sales](sales-how-invoice-sales.md)  
-[How to: Register New Vendors](purchasing-how-register-new-vendors.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="c9dab-146">See Also</span><span class="sxs-lookup"><span data-stu-id="c9dab-146">See Also</span></span>
+[<span data-ttu-id="c9dab-147">Purchasing</span><span class="sxs-lookup"><span data-stu-id="c9dab-147">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+[<span data-ttu-id="c9dab-148">How to: Record Purchases</span><span class="sxs-lookup"><span data-stu-id="c9dab-148">How to: Record Purchases</span></span>](purchasing-how-record-purchases.md)  
+[<span data-ttu-id="c9dab-149">How to: Invoice Sales</span><span class="sxs-lookup"><span data-stu-id="c9dab-149">How to: Invoice Sales</span></span>](sales-how-invoice-sales.md)  
+[<span data-ttu-id="c9dab-150">How to: Register New Vendors</span><span class="sxs-lookup"><span data-stu-id="c9dab-150">How to: Register New Vendors</span></span>](purchasing-how-register-new-vendors.md)  
+<span data-ttu-id="c9dab-151">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="c9dab-151">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 
