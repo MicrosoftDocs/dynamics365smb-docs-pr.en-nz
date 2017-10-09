@@ -12,29 +12,29 @@ ms.workload: na
 ms.search.keywords: contact, prospect, client
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 16ebd2d0525bec312368fba99d829b650b5015b2
 ms.contentlocale: en-nz
-ms.lasthandoff: 09/11/2017
+ms.lasthandoff: 09/22/2017
 
 ---
-# <a name="managing-relationships"></a><span data-ttu-id="770ee-103">Managing Relationships</span><span class="sxs-lookup"><span data-stu-id="770ee-103">Managing Relationships</span></span>
-<span data-ttu-id="770ee-104">The relationship management features of [!INCLUDE[d365fin](includes/d365fin_md.md)] help you manage and support your sales efforts.</span><span class="sxs-lookup"><span data-stu-id="770ee-104">The relationship management features of [!INCLUDE[d365fin](includes/d365fin_md.md)] help you manage and support your sales efforts.</span></span> <span data-ttu-id="770ee-105">With these features, you have access to complete and accurate information so you can focus your interactions on preferred customer/contact segments.</span><span class="sxs-lookup"><span data-stu-id="770ee-105">With these features, you have access to complete and accurate information so you can focus your interactions on preferred customer/contact segments.</span></span>
+# <a name="managing-relationships"></a><span data-ttu-id="2a7aa-103">Managing Relationships</span><span class="sxs-lookup"><span data-stu-id="2a7aa-103">Managing Relationships</span></span>
+<span data-ttu-id="2a7aa-104">The relationship management features of [!INCLUDE[d365fin](includes/d365fin_md.md)] help you manage and support your sales efforts.</span><span class="sxs-lookup"><span data-stu-id="2a7aa-104">The relationship management features of [!INCLUDE[d365fin](includes/d365fin_md.md)] help you manage and support your sales efforts.</span></span> <span data-ttu-id="2a7aa-105">With these features, you have access to complete and accurate information so you can focus your interactions on preferred customer/contact segments.</span><span class="sxs-lookup"><span data-stu-id="2a7aa-105">With these features, you have access to complete and accurate information so you can focus your interactions on preferred customer/contact segments.</span></span>
 
-<span data-ttu-id="770ee-106">Good sales and marketing practices are all about how to make the best decisions at the right time.</span><span class="sxs-lookup"><span data-stu-id="770ee-106">Good sales and marketing practices are all about how to make the best decisions at the right time.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="770ee-107"> provides a precise and timely overview of your contact information so that you can serve your prospective customers more efficiently and increase customer satisfaction.</span><span class="sxs-lookup"><span data-stu-id="770ee-107"> provides a precise and timely overview of your contact information so that you can serve your prospective customers more efficiently and increase customer satisfaction.</span></span>
+<span data-ttu-id="2a7aa-106">Good sales and marketing practices are all about how to make the best decisions at the right time.</span><span class="sxs-lookup"><span data-stu-id="2a7aa-106">Good sales and marketing practices are all about how to make the best decisions at the right time.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="2a7aa-107"> provides a precise and timely overview of your contact information so that you can serve your prospective customers more efficiently and increase customer satisfaction.</span><span class="sxs-lookup"><span data-stu-id="2a7aa-107"> provides a precise and timely overview of your contact information so that you can serve your prospective customers more efficiently and increase customer satisfaction.</span></span>
 
-<span data-ttu-id="770ee-108">To get started, see the following topics:</span><span class="sxs-lookup"><span data-stu-id="770ee-108">To get started, see the following topics:</span></span>
+<span data-ttu-id="2a7aa-108">To get started, see the following topics:</span><span class="sxs-lookup"><span data-stu-id="2a7aa-108">To get started, see the following topics:</span></span>
 
-[<span data-ttu-id="770ee-109">Managing Contacts</span><span class="sxs-lookup"><span data-stu-id="770ee-109">Managing Contacts</span></span>](marketing-contacts.md)  
-[<span data-ttu-id="770ee-110">Managing Segments</span><span class="sxs-lookup"><span data-stu-id="770ee-110">Managing Segments</span></span>](marketing-segments.md)  
-[<span data-ttu-id="770ee-111">Recording Interactions</span><span class="sxs-lookup"><span data-stu-id="770ee-111">Recording Interactions</span></span>](marketing-interactions.md)  
-[<span data-ttu-id="770ee-112">Managing Marketing Campaigns</span><span class="sxs-lookup"><span data-stu-id="770ee-112">Managing Marketing Campaigns</span></span>](marketing-campaigns.md)  
-[<span data-ttu-id="770ee-113">Managing Sales Opportunities</span><span class="sxs-lookup"><span data-stu-id="770ee-113">Managing Sales Opportunities</span></span>](marketing-manage-sales-opportunities.md)
+[<span data-ttu-id="2a7aa-109">Managing Contacts</span><span class="sxs-lookup"><span data-stu-id="2a7aa-109">Managing Contacts</span></span>](marketing-contacts.md)  
+[<span data-ttu-id="2a7aa-110">Managing Segments</span><span class="sxs-lookup"><span data-stu-id="2a7aa-110">Managing Segments</span></span>](marketing-segments.md)  
+[<span data-ttu-id="2a7aa-111">Recording Interactions</span><span class="sxs-lookup"><span data-stu-id="2a7aa-111">Recording Interactions</span></span>](marketing-interactions.md)  
+[<span data-ttu-id="2a7aa-112">Managing Marketing Campaigns</span><span class="sxs-lookup"><span data-stu-id="2a7aa-112">Managing Marketing Campaigns</span></span>](marketing-campaigns.md)  
+[<span data-ttu-id="2a7aa-113">Managing Sales Opportunities</span><span class="sxs-lookup"><span data-stu-id="2a7aa-113">Managing Sales Opportunities</span></span>](marketing-manage-sales-opportunities.md)
 
-## <a name="see-also"></a><span data-ttu-id="770ee-114">See Also</span><span class="sxs-lookup"><span data-stu-id="770ee-114">See Also</span></span>
-[<span data-ttu-id="770ee-115">Sales</span><span class="sxs-lookup"><span data-stu-id="770ee-115">Sales</span></span>](sales-manage-sales.md)  
-[<span data-ttu-id="770ee-116">Setting Up Relationship Management</span><span class="sxs-lookup"><span data-stu-id="770ee-116">Setting Up Relationship Management</span></span>](marketing-setup-marketing.md)  
-<span data-ttu-id="770ee-117">[Managing your Customer Relationships Using Dynamics 365 for Sales from Inside [!INCLUDE[d365fin](includes/d365fin_md.md)]](marketing-integrate-dynamicscrm.md)</span><span class="sxs-lookup"><span data-stu-id="770ee-117">[Managing your Customer Relationships Using Dynamics 365 for Sales from Inside [!INCLUDE[d365fin](includes/d365fin_md.md)]](marketing-integrate-dynamicscrm.md)</span></span>  
-<span data-ttu-id="770ee-118">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="770ee-118">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+## <a name="see-also"></a><span data-ttu-id="2a7aa-114">See Also</span><span class="sxs-lookup"><span data-stu-id="2a7aa-114">See Also</span></span>
+[<span data-ttu-id="2a7aa-115">Sales</span><span class="sxs-lookup"><span data-stu-id="2a7aa-115">Sales</span></span>](sales-manage-sales.md)  
+[<span data-ttu-id="2a7aa-116">Setting Up Relationship Management</span><span class="sxs-lookup"><span data-stu-id="2a7aa-116">Setting Up Relationship Management</span></span>](marketing-setup-marketing.md)  
+<span data-ttu-id="2a7aa-117">[Managing your Customer Relationships Using Dynamics 365 for Sales from Inside [!INCLUDE[d365fin](includes/d365fin_md.md)]](marketing-integrate-dynamicscrm.md)</span><span class="sxs-lookup"><span data-stu-id="2a7aa-117">[Managing your Customer Relationships Using Dynamics 365 for Sales from Inside [!INCLUDE[d365fin](includes/d365fin_md.md)]](marketing-integrate-dynamicscrm.md)</span></span>  
+<span data-ttu-id="2a7aa-118">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="2a7aa-118">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 

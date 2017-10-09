@@ -11,30 +11,30 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 05/12/2017
 ms.author: solsen
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 349ad16c943f7efef7ca920f7adad82c8a1c0d5e
 ms.contentlocale: en-nz
-ms.lasthandoff: 09/11/2017
+ms.lasthandoff: 09/22/2017
 
 ---
-# <a name="post-documents-and-journals"></a><span data-ttu-id="c3fb4-103">Post Documents and Journals</span><span class="sxs-lookup"><span data-stu-id="c3fb4-103">Post Documents and Journals</span></span>
-<span data-ttu-id="c3fb4-104">Posting represents the accounting action of recording business transactions in the various company ledgers.</span><span class="sxs-lookup"><span data-stu-id="c3fb4-104">Posting represents the accounting action of recording business transactions in the various company ledgers.</span></span>
+# <a name="post-documents-and-journals"></a><span data-ttu-id="ecb91-103">Post Documents and Journals</span><span class="sxs-lookup"><span data-stu-id="ecb91-103">Post Documents and Journals</span></span>
+<span data-ttu-id="ecb91-104">Posting represents the accounting action of recording business transactions in the various company ledgers.</span><span class="sxs-lookup"><span data-stu-id="ecb91-104">Posting represents the accounting action of recording business transactions in the various company ledgers.</span></span>
 
-<span data-ttu-id="c3fb4-105">Practically every document and journal in [!INCLUDE[d365fin](includes/d365fin_md.md)] offers a **Posting** group from which you can choose between different posting actions, such as **Post**, **Preview Posting**, **Post and Send**, **Post and Email**.</span><span class="sxs-lookup"><span data-stu-id="c3fb4-105">Practically every document and journal in [!INCLUDE[d365fin](includes/d365fin_md.md)] offers a **Posting** group from which you can choose between different posting actions, such as **Post**, **Preview Posting**, **Post and Send**, **Post and Email**.</span></span>
+<span data-ttu-id="ecb91-105">Practically every document and journal in [!INCLUDE[d365fin](includes/d365fin_md.md)] offers a **Posting** group from which you can choose between different posting actions, such as **Post**, **Preview Posting**, **Post and Send**, **Post and Email**.</span><span class="sxs-lookup"><span data-stu-id="ecb91-105">Practically every document and journal in [!INCLUDE[d365fin](includes/d365fin_md.md)] offers a **Posting** group from which you can choose between different posting actions, such as **Post**, **Preview Posting**, **Post and Send**, **Post and Email**.</span></span>
 
-<span data-ttu-id="c3fb4-106">The following table describes related tasks, with links to the topics that describe them.</span><span class="sxs-lookup"><span data-stu-id="c3fb4-106">The following table describes related tasks, with links to the topics that describe them.</span></span>
+<span data-ttu-id="ecb91-106">The following table describes related tasks, with links to the topics that describe them.</span><span class="sxs-lookup"><span data-stu-id="ecb91-106">The following table describes related tasks, with links to the topics that describe them.</span></span>
 
-| <span data-ttu-id="c3fb4-107">To</span><span class="sxs-lookup"><span data-stu-id="c3fb4-107">To</span></span> | <span data-ttu-id="c3fb4-108">See</span><span class="sxs-lookup"><span data-stu-id="c3fb4-108">See</span></span> |
+| <span data-ttu-id="ecb91-107">To</span><span class="sxs-lookup"><span data-stu-id="ecb91-107">To</span></span> | <span data-ttu-id="ecb91-108">See</span><span class="sxs-lookup"><span data-stu-id="ecb91-108">See</span></span> |
 | --- | --- |
-| <span data-ttu-id="c3fb4-109">Learn about posting purchase documents.</span><span class="sxs-lookup"><span data-stu-id="c3fb4-109">Learn about posting purchase documents.</span></span> |[<span data-ttu-id="c3fb4-110">Posting Purchases</span><span class="sxs-lookup"><span data-stu-id="c3fb4-110">Posting Purchases</span></span>](ui-post-purchases.md) |
-| <span data-ttu-id="c3fb4-111">Learn about posting sales documents.</span><span class="sxs-lookup"><span data-stu-id="c3fb4-111">Learn about posting sales documents.</span></span> |[<span data-ttu-id="c3fb4-112">Posting Sales</span><span class="sxs-lookup"><span data-stu-id="c3fb4-112">Posting Sales</span></span>](ui-post-sales.md) |
-| <span data-ttu-id="c3fb4-113">Learn about posting general journals.</span><span class="sxs-lookup"><span data-stu-id="c3fb4-113">Learn about posting general journals.</span></span> |[<span data-ttu-id="c3fb4-114">Working with General Journals</span><span class="sxs-lookup"><span data-stu-id="c3fb4-114">Working with General Journals</span></span>](ui-work-general-journals.md) |
-| <span data-ttu-id="c3fb4-115">Preview, in a window, the entries that will be created when you post.</span><span class="sxs-lookup"><span data-stu-id="c3fb4-115">Preview, in a window, the entries that will be created when you post.</span></span> |[<span data-ttu-id="c3fb4-116">How to: Preview Posting Results</span><span class="sxs-lookup"><span data-stu-id="c3fb4-116">How to: Preview Posting Results</span></span>](ui-how-preview-post-results.md) |
-| <span data-ttu-id="c3fb4-117">Preview, in a report, the entries that will be created when you post.</span><span class="sxs-lookup"><span data-stu-id="c3fb4-117">Preview, in a report, the entries that will be created when you post.</span></span> |[<span data-ttu-id="c3fb4-118">How to: View Test Reports Before Posting</span><span class="sxs-lookup"><span data-stu-id="c3fb4-118">How to: View Test Reports Before Posting</span></span>](ui-how-view-test-reports-posting.md) |
+| <span data-ttu-id="ecb91-109">Learn about posting purchase documents.</span><span class="sxs-lookup"><span data-stu-id="ecb91-109">Learn about posting purchase documents.</span></span> |[<span data-ttu-id="ecb91-110">Posting Purchases</span><span class="sxs-lookup"><span data-stu-id="ecb91-110">Posting Purchases</span></span>](ui-post-purchases.md) |
+| <span data-ttu-id="ecb91-111">Learn about posting sales documents.</span><span class="sxs-lookup"><span data-stu-id="ecb91-111">Learn about posting sales documents.</span></span> |[<span data-ttu-id="ecb91-112">Posting Sales</span><span class="sxs-lookup"><span data-stu-id="ecb91-112">Posting Sales</span></span>](ui-post-sales.md) |
+| <span data-ttu-id="ecb91-113">Learn about posting general journals.</span><span class="sxs-lookup"><span data-stu-id="ecb91-113">Learn about posting general journals.</span></span> |[<span data-ttu-id="ecb91-114">Working with General Journals</span><span class="sxs-lookup"><span data-stu-id="ecb91-114">Working with General Journals</span></span>](ui-work-general-journals.md) |
+| <span data-ttu-id="ecb91-115">Preview, in a window, the entries that will be created when you post.</span><span class="sxs-lookup"><span data-stu-id="ecb91-115">Preview, in a window, the entries that will be created when you post.</span></span> |[<span data-ttu-id="ecb91-116">How to: Preview Posting Results</span><span class="sxs-lookup"><span data-stu-id="ecb91-116">How to: Preview Posting Results</span></span>](ui-how-preview-post-results.md) |
+| <span data-ttu-id="ecb91-117">Preview, in a report, the entries that will be created when you post.</span><span class="sxs-lookup"><span data-stu-id="ecb91-117">Preview, in a report, the entries that will be created when you post.</span></span> |[<span data-ttu-id="ecb91-118">How to: View Test Reports Before Posting</span><span class="sxs-lookup"><span data-stu-id="ecb91-118">How to: View Test Reports Before Posting</span></span>](ui-how-view-test-reports-posting.md) |
 
-## <a name="see-also"></a><span data-ttu-id="c3fb4-119">See Also</span><span class="sxs-lookup"><span data-stu-id="c3fb4-119">See Also</span></span>
-[<span data-ttu-id="c3fb4-120">General Business Functionality</span><span class="sxs-lookup"><span data-stu-id="c3fb4-120">General Business Functionality</span></span>](ui-across-business-areas.md)  
-<span data-ttu-id="c3fb4-121">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="c3fb4-121">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="ecb91-119">See Also</span><span class="sxs-lookup"><span data-stu-id="ecb91-119">See Also</span></span>
+[<span data-ttu-id="ecb91-120">General Business Functionality</span><span class="sxs-lookup"><span data-stu-id="ecb91-120">General Business Functionality</span></span>](ui-across-business-areas.md)  
+<span data-ttu-id="ecb91-121">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="ecb91-121">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 
 
