@@ -1,8 +1,6 @@
 ---
 title: FAQ About Using Financials| Microsoft Docs
 description: Answers common questions about how to sign up for Financials, and what to do to get started.
-services: project-madeira
-documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,14 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 06/02/2017
+ms.date: 07/27/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: f4c4180c1ea70d8ef17136d56cc0f21e50f4f302
+ms.translationtype: HT
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: d81e73ec99d8ef993cff8ec3b5f5f38d00741c7a
 ms.contentlocale: en-nz
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="frequently-asked-questions"></a>Frequently Asked Questions
@@ -45,6 +42,9 @@ Yes. If you want to extend your trial, you should contact Microsoft at 1-888-477
 
 ## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-home-page-in-included365finincludesd365finmdmd"></a>Our administrator has moved me to another plan to give me another role, but I still see the same Home page in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 This is a bit complicated, but it looks like your administrator didn't change your Role Centre and assign user groups that match the new licence. Essentially, your access to [!INCLUDE[d365fin](includes/d365fin_md.md)] is determined by the type of plan (license) that you have - this sets permissions and your default Home page. You can change your Role Centre manually in My Settings, but if you are moved to another plan, such as moving you from the Business plan to the Team Members plan, you might see the old Home because your permissions were not changed.  
+
+## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365finmdmd"></a>Why can't I find that capability in my [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+Did you read about a new capability in the roadmap or on our blog recently? In that case, your [!INCLUDE[d365fin](includes/d365fin_md.md)] might not have been upgraded to the latest version yet. If the capability is published as an extension in AppSource, then there is a delay between the extension being announced and its availability in AppSource.
 
 ## <a name="see-also"></a>See Also
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
