@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7e76ef1d5622486c3d8055f6e0ccbe3564a96701
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: face4821059b57c32e06dca46ec5144aba4ca528
 ms.contentlocale: en-nz
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="walkthrough-tracing-serial-lot-numbers"></a>Walkthrough: Tracing Serial-Lot Numbers
@@ -141,7 +141,6 @@ Then you must create various purchase, production, and sales transactions with t
 2.  Choose the **New** group.  
 3.  Create a new released production order by filling in the following fields.  
 
-    ||||  
     |-|-|-|  
     |Source No.|Quantity|Serial No.|  
     |1002|2|SN1|  
