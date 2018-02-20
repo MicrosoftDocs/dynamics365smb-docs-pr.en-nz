@@ -1,1 +1,1 @@
-<span data-ttu-id="b8800-101">Dynamics 365 (on-premises)</span><span class="sxs-lookup"><span data-stu-id="b8800-101">Dynamics 365 (on-premises)</span></span>
+<span data-ttu-id="d9eff-101">Dynamics 365 for Finance and Operations, Business edition (on-premises)</span><span class="sxs-lookup"><span data-stu-id="d9eff-101">Dynamics 365 for Finance and Operations, Business edition (on-premises)</span></span>

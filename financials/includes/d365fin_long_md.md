@@ -1,1 +1,1 @@
-<span data-ttu-id="52c4a-101">Dynamics 365 for Finance and Operations, Business edition</span><span class="sxs-lookup"><span data-stu-id="52c4a-101">Dynamics 365 for Finance and Operations, Business edition</span></span>
+<span data-ttu-id="99741-101">Dynamics 365 for Finance and Operations, Business edition</span><span class="sxs-lookup"><span data-stu-id="99741-101">Dynamics 365 for Finance and Operations, Business edition</span></span>
