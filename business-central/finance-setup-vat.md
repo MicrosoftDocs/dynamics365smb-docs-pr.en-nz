@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/20/2017
+ms.date: 05/06/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: b4dfdeb3cf49867699907c444147060727d3f146
-ms.openlocfilehash: 335738af45c1365da7e45f062b60e30d66082f41
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: 399b1a4331431a6472ecebaad41489092d117cfa
 ms.contentlocale: en-nz
-ms.lasthandoff: 04/09/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 
@@ -48,9 +48,9 @@ To setup GST registration numbers, follow these steps:
 2. Choose the country or region, and then choose the **GST Reg. No. Formats** action.
 3. In the **Formats** field, define the format by entering one or more of the following characters:  
 
-* # <a name="--requires-a-single-digit-number"></a>- Requires a single-digit number.
-* @ - Requires a letter. This is not case-sensitive.
-* ? - Allows any character.
+* **#** Requires a single-digit number.  
+* **@** Requires a letter. This is not case-sensitive.  
+* **?** Allows any character.  
 
     > [!Tip]
     > You can use other characters as long as they are always present in the country or region format. For example, if you need to include a period or a hyphen between sets of numbers, you can define the format as ##.####.### or @@-###-###.  
@@ -116,6 +116,29 @@ The following sections describe how to assign GST posting groups to individual e
 * On the **Resource** card, expand the **Invoicing** FastTab.  
 3. Choose the GST product posting group.  
 
+## <a name="setting-up-vat-statement-templates-and-vat-statement-names"></a>Setting up GST statement templates and GST statement names
+Tax authorities can, and do, change their requirements for posting GST. **GST statement templates** and **GST statement names** can help you prepare for upcoming changes and make a smooth transition to the new requirements. You can use GST statement templates to define the fields to include in your GST statement, which in turn define the calculations, and you can create a new GST statement template when requirements change. For example, one template might calculate GST for this year based on the current requirements, and another might calculate GST based on requirements for next year. Templates are also a way to keep a history of GST statement formats, for example, so that you can look back to see how you calculated GST in previous years.
+
+## <a name="how-to-define-and-preview-vat-statements"></a>How to define and preview GST statements
+GST statements let you calculate your GST settlement amount for a certain period, for example, a quarter. After you define a GST statement, you can preview it to make sure it meets your needs. 
+
+To define a GST statement, follow these steps:
+
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **GST Statements**, and then choose the related link.  
+2. Choose the **Name** field, and then choose **New** on the **GST Statement Names** page. 
+3. Fill in the required fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!Tip]
+> You can filter the information that the statement will include, depending on what you choose in the **Type** field. **Account Totalling** is useful when you want the GST from a specific account.
+**GST Entry Totalling** gets GST from the accounts assigned to the selections in the **Gen. Posting Type**, **GST Bus. Posting Group**, and/or the **GST Prod. Posting Group** fields. **Row Totalling** lets you enter a value or quick filter criteria in the **Row Totalling** field. For more information, see [Searching, filtering, and Sorting Data](ui-enter-criteria-filters.md). **Description** is often used to add a note to the statement. For example, you could use it as a heading when you've used row totalling.
+
+To preview the GST statement, follow these steps:
+
+1. Choose **Preview**.
+2. Enter a date filter to limit the statement to a specific period. For more information about how to customise the page to show the date filter, see [Searching, filtering, and Sorting Data](ui-enter-criteria-filters.md).
+3. You can select various options to specify the type of GST entries to include in the statement.
+4. On the lines where the **Type** field contains **GST Entry Totalling** you can see a list of GST entries by choosing the amount in the **Column Amount** field.   
+
 ## <a name="to-set-up-clauses-to-explain-the-use-of-non-standard-vat-rates"></a>To set up clauses to explain the use of non-standard GST rates
 You set up a GST clause to describe information about the type of GST that is being applied. The information may be required by government regulation. After you set up a GST clause, and associate it with a GST posting setup, the GST clause is displayed on printed sales documents that use the GST posting setup group.
 
@@ -166,8 +189,7 @@ You can view the GST Registration log on the Customer, Vendor, or Contact cards,
 
 Our service can also save you time when you create a customer or vendor. If you know the customer's GST number, you can enter it in the **GST Registration No.** field on the Customer or Vendor cards, and we will fill out the customer name for you. Some countries also provide company addresses in a structured format. In those countries, we fill in the address too.  
 
-> [!NOTE]  
-> There are a couple of things to note about the VIES VAT Number Validation service:
+There are a couple of things to note about the VIES VAT Number Validation service:
 
 * The service uses the http protocol, which means that data transferred through the service is not encrypted.  
 * You may experience downtime for this service for which Microsoft is not responsible. The service is part of a broad EU network of national VAT registers.
