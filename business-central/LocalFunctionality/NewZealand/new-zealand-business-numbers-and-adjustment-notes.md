@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 06/20/2018
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: ce197dd8ae591242ad638da810534ee61141153f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 43ab960e2c9d9dace81d590b2104f9da4e1205f9
 ms.contentlocale: en-nz
-ms.lasthandoff: 07/02/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="new-zealand-inland-revenue-department-numbers-and-adjustment-notes"></a><span data-ttu-id="70651-103">New Zealand Inland Revenue Department Numbers and Adjustment Notes</span><span class="sxs-lookup"><span data-stu-id="70651-103">New Zealand Inland Revenue Department Numbers and Adjustment Notes</span></span>

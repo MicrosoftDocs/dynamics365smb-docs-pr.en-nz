@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: New Zealand, local functionality
-ms.date: 06/20/2018
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: 8a349de62770582764eeaf5deb1a86277cef7c1d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 577d1475c1a56422f8b139285f14a47009762a78
 ms.contentlocale: en-nz
-ms.lasthandoff: 07/02/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="new-zealand-local-functionality"></a><span data-ttu-id="3ac38-103">New Zealand Local Functionality</span><span class="sxs-lookup"><span data-stu-id="3ac38-103">New Zealand Local Functionality</span></span>

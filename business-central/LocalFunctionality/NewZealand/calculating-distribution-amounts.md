@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 06/20/2018
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: d921903dbdfd16438910ec8a879c25cf0834b409
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e9052f4b89c424f71ea2f621bf99301cab81f372
 ms.contentlocale: en-nz
-ms.lasthandoff: 07/02/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="calculating-distribution-amounts"></a><span data-ttu-id="76f87-103">Calculating Distribution Amounts</span><span class="sxs-lookup"><span data-stu-id="76f87-103">Calculating Distribution Amounts</span></span>

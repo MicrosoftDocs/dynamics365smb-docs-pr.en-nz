@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 06/20/2018
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: 5714728569c0a32c3ddf378a479ccba16222cd8e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6271fe82c79fe662737e0919e2a16afa403123e2
 ms.contentlocale: en-nz
-ms.lasthandoff: 07/02/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-revenue-types-for-withholding-tax"></a><span data-ttu-id="8c6b8-103">Set Up Revenue Types for Withholding Tax</span><span class="sxs-lookup"><span data-stu-id="8c6b8-103">Set Up Revenue Types for Withholding Tax</span></span>

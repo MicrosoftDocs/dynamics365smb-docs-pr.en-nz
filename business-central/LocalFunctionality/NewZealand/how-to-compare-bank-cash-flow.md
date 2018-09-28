@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 06/20/2018
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: 56d4292a5559a083bce4eec24c2f10c1dfa7cb2d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: bec353caf7a087682c42df23d1f53a83063a5b46
 ms.contentlocale: en-nz
-ms.lasthandoff: 07/02/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="compare-bank-cash-flow"></a><span data-ttu-id="e6094-103">Compare Bank Cash Flow</span><span class="sxs-lookup"><span data-stu-id="e6094-103">Compare Bank Cash Flow</span></span>

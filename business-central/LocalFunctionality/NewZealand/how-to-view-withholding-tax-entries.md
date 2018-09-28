@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 06/20/2018
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: 2c4d9cb505be8b938e11c06c6e2d269d6e64544b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f30d1599a61825cddabab880055818361b5f0e80
 ms.contentlocale: en-nz
-ms.lasthandoff: 07/02/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="view-withholding-tax-entries"></a><span data-ttu-id="92eab-103">View Withholding Tax Entries</span><span class="sxs-lookup"><span data-stu-id="92eab-103">View Withholding Tax Entries</span></span>

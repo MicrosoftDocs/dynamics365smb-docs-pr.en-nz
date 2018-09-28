@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 06/20/2018
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: 96985042cee41eb44eeb90cf3b9bd83b21fbbfc4
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: a4658ce59e0b13d4860ece9bea3de8101adf07cc
 ms.contentlocale: en-nz
-ms.lasthandoff: 07/02/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="view-posted-tax-credit-memos"></a><span data-ttu-id="2cd96-103">View Posted Tax Credit Memos</span><span class="sxs-lookup"><span data-stu-id="2cd96-103">View Posted Tax Credit Memos</span></span>

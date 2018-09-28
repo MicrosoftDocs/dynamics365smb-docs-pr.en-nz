@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 06/20/2018
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: 41bb759454ee7d63920bf1bc02a2c415c9e2e751
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: dacd90e42e12d905ed736077853aa651ec48412a
 ms.contentlocale: en-nz
-ms.lasthandoff: 07/02/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="calculate-and-post-withholding-tax-settlements"></a><span data-ttu-id="f4d59-103">Calculate and Post Withholding Tax Settlements</span><span class="sxs-lookup"><span data-stu-id="f4d59-103">Calculate and Post Withholding Tax Settlements</span></span>

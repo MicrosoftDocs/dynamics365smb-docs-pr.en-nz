@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 06/20/2018
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: 8e540abfeb1e842048802344d5efcef6e10d35e0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c7d70e5c1c2e140233477b1cd799cc61037e9772
 ms.contentlocale: en-nz
-ms.lasthandoff: 07/02/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="adjust-settlement-exchange-rates-for-vat-entries"></a><span data-ttu-id="703d9-103">Adjust Settlement Exchange Rates for GST Entries</span><span class="sxs-lookup"><span data-stu-id="703d9-103">Adjust Settlement Exchange Rates for VAT Entries</span></span>

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 06/20/2018
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: c89c6947e6818bbd42e3f44fedd776d4e8c005cf
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e7630d9e744a77950f318cbd9f091bfc5c3c1422
 ms.contentlocale: en-nz
-ms.lasthandoff: 07/02/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="view-posted-tax-invoices"></a><span data-ttu-id="fbe25-103">View Posted Tax Invoices</span><span class="sxs-lookup"><span data-stu-id="fbe25-103">View Posted Tax Invoices</span></span>
