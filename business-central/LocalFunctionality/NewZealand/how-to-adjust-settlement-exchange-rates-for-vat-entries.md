@@ -4,7 +4,7 @@ description: Describes how to settle GST entries according to the government exc
 services: project-madeira
 documentationcenter: 
 author: bholtorf
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c7d70e5c1c2e140233477b1cd799cc61037e9772
+ms.sourcegitcommit: 78cb55d0c53db5b0a8252ffae6316a537be25459
+ms.openlocfilehash: f5ec6abb2adb1345f647a337ab91fce01e6ff0de
 ms.contentlocale: en-nz
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 10/15/2018
 
 ---
 # <a name="adjust-settlement-exchange-rates-for-vat-entries"></a><span data-ttu-id="703d9-103">Adjust Settlement Exchange Rates for GST Entries</span><span class="sxs-lookup"><span data-stu-id="703d9-103">Adjust Settlement Exchange Rates for VAT Entries</span></span>

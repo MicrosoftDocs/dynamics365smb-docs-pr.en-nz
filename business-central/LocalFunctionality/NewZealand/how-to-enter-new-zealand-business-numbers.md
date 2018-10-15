@@ -4,7 +4,7 @@ description: You can enter a New Zealand Inland Revenue Department Number (IRD) 
 services: project-madeira
 documentationcenter: 
 author: bholtorf
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 239c76b230193db47d87b6bdc642bb19e160718f
+ms.sourcegitcommit: 78cb55d0c53db5b0a8252ffae6316a537be25459
+ms.openlocfilehash: 9dd2b9c7b0d6f27c47b78ba3d3f22d4c8c3a60f3
 ms.contentlocale: en-nz
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 10/15/2018
 
 ---
 # <a name="enter-new-zealand-inland-revenue-department-numbers"></a><span data-ttu-id="ba2a2-103">Enter New Zealand Inland Revenue Department Numbers</span><span class="sxs-lookup"><span data-stu-id="ba2a2-103">Enter New Zealand Inland Revenue Department Numbers</span></span>

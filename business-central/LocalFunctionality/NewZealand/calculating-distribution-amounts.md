@@ -4,7 +4,7 @@ description: Describes how to keep account balances in proportion to one another
 services: project-madeira
 documentationcenter: 
 author: bholtorf
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e9052f4b89c424f71ea2f621bf99301cab81f372
+ms.sourcegitcommit: 78cb55d0c53db5b0a8252ffae6316a537be25459
+ms.openlocfilehash: 9bd74b824b1dbbfe7182f0031ca9fc10c5f45662
 ms.contentlocale: en-nz
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 10/15/2018
 
 ---
 # <a name="calculating-distribution-amounts"></a><span data-ttu-id="76f87-103">Calculating Distribution Amounts</span><span class="sxs-lookup"><span data-stu-id="76f87-103">Calculating Distribution Amounts</span></span>

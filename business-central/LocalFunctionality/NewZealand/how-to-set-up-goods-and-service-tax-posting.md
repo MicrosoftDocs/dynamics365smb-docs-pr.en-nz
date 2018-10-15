@@ -4,7 +4,7 @@ description: Describes how to set up posting for goods and services tax (GST) in
 services: project-madeira
 documentationcenter: 
 author: bholtorf
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d49ae8ca76dfbfa700d8cc849c3d135ffafd7f96
+ms.sourcegitcommit: 78cb55d0c53db5b0a8252ffae6316a537be25459
+ms.openlocfilehash: c051f318fa82ae213cf18463c45ece8cf6a84644
 ms.contentlocale: en-nz
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 10/15/2018
 
 ---
 # <a name="set-up-goods-and-service-tax-posting"></a><span data-ttu-id="30ac6-103">Set Up Goods and Service Tax Posting</span><span class="sxs-lookup"><span data-stu-id="30ac6-103">Set Up Goods and Service Tax Posting</span></span>

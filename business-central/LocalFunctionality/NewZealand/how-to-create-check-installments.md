@@ -4,7 +4,7 @@ description: Describes how to create cheque instalments for post-dated cheques.
 services: project-madeira
 documentationcenter: 
 author: bholtorf
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 9088e5c1a591fa0e6f06694e32cf689e0fb08373
+ms.sourcegitcommit: 78cb55d0c53db5b0a8252ffae6316a537be25459
+ms.openlocfilehash: c6bc6d0fee304baaf7fce7d4ffa2dbd1ea9406ff
 ms.contentlocale: en-nz
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 10/15/2018
 
 ---
 # <a name="create-check-installments"></a><span data-ttu-id="74df0-103">Create Cheque Instalments</span><span class="sxs-lookup"><span data-stu-id="74df0-103">Create Check Installments</span></span>

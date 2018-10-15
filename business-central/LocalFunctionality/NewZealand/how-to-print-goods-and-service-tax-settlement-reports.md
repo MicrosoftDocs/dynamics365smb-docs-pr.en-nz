@@ -4,7 +4,7 @@ description: Describes how to prepare and submit a periodic goods and services t
 services: project-madeira
 documentationcenter: 
 author: bholtorf
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: eb0a4530cd20b50907b42cb0972f9baabe837ec8
+ms.sourcegitcommit: 78cb55d0c53db5b0a8252ffae6316a537be25459
+ms.openlocfilehash: 1de7d74bc7494b7ac0f9e1c0d6ade68d81ec1f7e
 ms.contentlocale: en-nz
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 10/15/2018
 
 ---
 # <a name="print-goods-and-service-tax-settlement-reports"></a><span data-ttu-id="64b71-103">Print Goods and Service Tax Settlement Reports</span><span class="sxs-lookup"><span data-stu-id="64b71-103">Print Goods and Service Tax Settlement Reports</span></span>

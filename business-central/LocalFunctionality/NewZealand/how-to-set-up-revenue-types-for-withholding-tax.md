@@ -4,7 +4,7 @@ description: Revenue types are used to categorise withholding tax (WHT) entries 
 services: project-madeira
 documentationcenter: 
 author: bholtorf
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6271fe82c79fe662737e0919e2a16afa403123e2
+ms.sourcegitcommit: 78cb55d0c53db5b0a8252ffae6316a537be25459
+ms.openlocfilehash: d599e2c64bab2d5e0ff82548ece48cdb2e45dff2
 ms.contentlocale: en-nz
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 10/15/2018
 
 ---
 # <a name="set-up-revenue-types-for-withholding-tax"></a><span data-ttu-id="8c6b8-103">Set Up Revenue Types for Withholding Tax</span><span class="sxs-lookup"><span data-stu-id="8c6b8-103">Set Up Revenue Types for Withholding Tax</span></span>

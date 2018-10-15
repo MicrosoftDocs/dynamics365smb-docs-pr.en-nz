@@ -4,7 +4,7 @@ description: "Describes how print the company’s annual income statement in a r
 services: project-madeira
 documentationcenter: 
 author: bholtorf
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ac6609f0ba4c5964a3e63603a037093a20ea4fd6
+ms.sourcegitcommit: 78cb55d0c53db5b0a8252ffae6316a537be25459
+ms.openlocfilehash: df3c047dcaa40d6f4a8495a915ada06b92d0cbea
 ms.contentlocale: en-nz
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 10/15/2018
 
 ---
 # <a name="print-income-statements"></a><span data-ttu-id="f3306-103">Print Income Statements</span><span class="sxs-lookup"><span data-stu-id="f3306-103">Print Income Statements</span></span>

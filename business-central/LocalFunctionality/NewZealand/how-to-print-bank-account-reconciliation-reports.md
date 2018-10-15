@@ -4,7 +4,7 @@ description: Describes how to print a report that displays open bank ledger entr
 services: project-madeira
 documentationcenter: 
 author: bholtorf
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 41e72be6d021e41b89b3090fc7b4be89291c9f5f
+ms.sourcegitcommit: 78cb55d0c53db5b0a8252ffae6316a537be25459
+ms.openlocfilehash: bf67cb5f79706425a102970074e161366b13f1a4
 ms.contentlocale: en-nz
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 10/15/2018
 
 ---
 # <a name="print-bank-account-reconciliation-reports"></a><span data-ttu-id="aae2e-103">Print Bank Account Reconciliation Reports</span><span class="sxs-lookup"><span data-stu-id="aae2e-103">Print Bank Account Reconciliation Reports</span></span>
