@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bfd49fac19f2dfc09d77855cba21f39d4c9858e5
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e7afa7b3a13db29207237cd4980ba7f061b38f9e
 ms.contentlocale: en-nz
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-revaluation"></a>Design Details: Revaluation
@@ -41,7 +41,7 @@ Because revaluation can be made on any date, you must have conventions for when 
 ### <a name="example"></a>Example  
 The following example illustrates when a WIP item transitions to become part of inventory. The example is based on the production of a chain with 150 links.  
 
-![WIP inventory and revaluation](media/design_details_inventory_costing_10_revaluation_wip.png "design_details_inventory_costing_10_revaluation_wip")  
+![WIP inventory and revaluation](media/design_details_inventory_costing_10_revaluation_wip.png "WIP inventory and revaluation")  
 
 **1Q**: The user posts the purchased links as received. The following table shows the resulting item ledger entry.  
 
@@ -76,7 +76,7 @@ The valuation date is set to the date of the consumption posting (02-01-20), as 
 
 |Posting Date|Item|Entry Type|Quantity|Entry No.|  
 |------------------|----------|----------------|--------------|---------------|  
-|02-15-20|CHAIN|Output|1|2A-2B GST Net Amt. (3)|  
+|02-15-20|CHAIN|Output|1|3|  
 
 **3V**: The user runs the **Adjust Cost - Item Entries** batch job, which posts the chain as invoiced to indicate that all material consumption has been completely invoiced. From a financial point of view, the links are no longer part of WIP inventory when the output is completely invoiced and adjusted. The following table shows the resulting value entries.  
 
@@ -84,7 +84,7 @@ The valuation date is set to the date of the consumption posting (02-01-20), as 
 |------------------|----------------|--------------------|----------------------------|---------------------------|---------------|  
 |01-15-20|Direct Cost|01-01-20|150.00|2|2|  
 |02-01-20|Direct Cost|02-01-20|-150.00|2|2|  
-|02-15-20|Direct Cost|02-15-20|150.00|2A-2B GST Net Amt. (3)|2A-2B GST Net Amt. (3)|  
+|02-15-20|Direct Cost|02-15-20|150.00|3|3|  
 
 ## <a name="expected-cost-in-revaluation"></a>Expected Cost in Revaluation  
 The revaluable quantity XE "Revaluable Quantity"  XE "Quantity;Revaluable"  is calculated as the sum of quantity XE "quantity"  for completely invoiced XE "Invoice"  item ledger XE "Item Ledger"  entries with a posting date equal to or earlier than the revaluation XE "Revaluation"  date. This means that when some items are received/shipped but not invoiced, their inventory value cannot be calculated XE "Inventory Value" . Items using the Standard costing method are not limited in this respect. XE "Value"  

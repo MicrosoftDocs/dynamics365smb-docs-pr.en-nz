@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: ebee0f94a64fcb6d3a86a7fe1808fdb643371cfd
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5e8aa531697dcdc6f629312c0569c5628b3f5755
 ms.contentlocale: en-nz
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="depreciation-methods"></a>Depreciation Methods
@@ -72,12 +72,12 @@ For this example, the fixed asset ledger entry looks like this:
 | Date | FA Posting Type | Days | Amount | Book Value |
 | --- | --- | --- | --- | --- |
 | 01/01/10 |Acquisition Cost |* |100,000.00 |100,000.00 |
-| 06/30/10 |Depreciation, 2000 |180 |-6,250.00 |93,750.00 |
-| 12/31/10 |Depreciation, 2000 |180 |-6,250.00 |87,500.00 |
-| 06/30/11 |Depreciation, 2000 |180 |-6,250.00 |81,250.00 |
-| 12/31/11 |Depreciation, 2000 |180 |-6,250.00 |75,000.00 |
-| 06/30/17 |Depreciation, 2000 |180 |-6,250.00 |6,250.00 |
-| 12/31/17 |Depreciation, 2000 |180 |-6,250.00 |0 |
+| 06/30/10 |Depreciation |180 |-6,250.00 |93,750.00 |
+| 12/31/10 |Depreciation |180 |-6,250.00 |87,500.00 |
+| 06/30/11 |Depreciation |180 |-6,250.00 |81,250.00 |
+| 12/31/11 |Depreciation |180 |-6,250.00 |75,000.00 |
+| 06/30/17 |Depreciation |180 |-6,250.00 |6,250.00 |
+| 12/31/17 |Depreciation |180 |-6,250.00 |0 |
 
 * Depreciation starting date  
 
@@ -100,16 +100,16 @@ The following table shows how the fixed asset ledger entries look.
 | Date | FA Posting Type | Days | Amount | Book Value |
 | --- | --- | --- | --- | --- |
 | 01/01/10 |Acquisition Costs |* |100,000.00 |100,000.00 |
-| 06/30/10 |Depreciation, 2000 |180 |-12,500.00 |87,500.00 |
-| 12/31/10 |Depreciation, 2000 |180 |-12,500.00 |75,000.00 |
-| 06/30/11 |Depreciation, 2000 |180 |-9,375.00 |65,625.00 |
-| 12/31/11 |Depreciation, 2000 |180 |-9,375.00 |56,250.00 |
-| 06/30/12 |Depreciation, 2000 |180 |-7,031.25 |49,218.75 |
-| 12/31/12 |Depreciation, 2000 |180 |-7,031.25 |42,187.50 |
-| 06/30/13 |Depreciation, 2000 |180 |-5,273.44 |36,914.06 |
-| 12/31/13 |Depreciation, 2000 |180 |-5,273.44 |31,640.62 |
-| 06/30/14 |Depreciation, 2000 |180 |-3,955.08 |27,685.54 |
-| 12/31/14 |Depreciation, 2000 |180 |-3,955.08 |23,730.46 |
+| 06/30/10 |Depreciation |180 |-12,500.00 |87,500.00 |
+| 12/31/10 |Depreciation |180 |-12,500.00 |75,000.00 |
+| 06/30/11 |Depreciation |180 |-9,375.00 |65,625.00 |
+| 12/31/11 |Depreciation |180 |-9,375.00 |56,250.00 |
+| 06/30/12 |Depreciation |180 |-7,031.25 |49,218.75 |
+| 12/31/12 |Depreciation |180 |-7,031.25 |42,187.50 |
+| 06/30/13 |Depreciation |180 |-5,273.44 |36,914.06 |
+| 12/31/13 |Depreciation |180 |-5,273.44 |31,640.62 |
+| 06/30/14 |Depreciation |180 |-3,955.08 |27,685.54 |
+| 12/31/14 |Depreciation |180 |-3,955.08 |23,730.46 |
 
 * Depreciation starting date  
 
@@ -132,10 +132,10 @@ A fixed asset has an acquisition cost of LCY 100,000. The **Declining-Balance %*
 | Date | FA Posting Type | Days | Amount | Book Value |
 | --- | --- | --- | --- | --- |
 | 01/01/10 |Acquisition Costs |* |100,000.00 |100,000.00 |
-| 06/30/10 |Depreciation, 2000 |180 |-13,397.46 |86,602.54 |
-| 12/31/10 |Depreciation, 2000 |180 |-11,602.54 |75,000.00 |
-| 06/30/11 |Depreciation, 2000 |180 |-10,048.09 |64,951.91 |
-| 12/31/11 |Depreciation, 2000 |180 |-8,701.91 |56,250.00 |
+| 06/30/10 |Depreciation |180 |-13,397.46 |86,602.54 |
+| 12/31/10 |Depreciation |180 |-11,602.54 |75,000.00 |
+| 06/30/11 |Depreciation |180 |-10,048.09 |64,951.91 |
+| 12/31/11 |Depreciation |180 |-8,701.91 |56,250.00 |
 
 * Depreciation starting date  
 
@@ -177,22 +177,22 @@ The fixed asset ledger entries look like this:
 | Date | FA Posting Type | Days | Amount | Book Value |
 | --- | --- | --- | --- | --- |
 | 01/01/10 |Acquisition Costs |* |100,000.00 |100,000.00 |
-| 06/30/10 |Depreciation, 2000 |180 |-12,500.00 |87,500.00 |
-| 12/31/10 |Depreciation, 2000 |180 |-12,500.00 |75,000.00 |
-| 06/30/11 |Depreciation, 2000 |180 |-9,375.00 |65,625.00 |
-| 12/31/11 |Depreciation, 2000 |180 |-9,375.00 |56,250.00 |
-| 06/30/12 |Depreciation, 2000 |180 |-7,031.25 |49,218.75 |
-| 12/31/12 |Depreciation, 2000 |180 |-7,031.25 |42,187.50 |
-| 06/30/13 |Depreciation, 2000 |180 |-5,273.44 |36,914.06 |
-| 12/31/13 |Depreciation, 2000 |180 |-5,273.44 |31,640.62 |
-| 06/30/14 |Depreciation, 2000 |180 |-3,955.08 |27,685.54 |
-| 12/31/14 |Depreciation, 2000 |180 |-3,955.08 |23,730.46 |
-| 06/30/15 |Depreciation, 2000 |180 |-3,955.08 |19,775.38 SL |
-| 12/31/15 |Depreciation, 2000 |180 |-3,955.08 |15,820.30 SL |
-| 06/30/16 |Depreciation, 2000 |180 |-3,955.08 |11,865.22 SL |
-| 12/31/16 |Depreciation, 2000 |180 |-3,955.07 |7,910.15 SL |
-| 06/30/17 |Depreciation, 2000 |180 |-3,955.08 |3,955.07 SL |
-| 12/31/17 |Depreciation, 2000 |180 |-3,955.07 |0.00 SL |
+| 06/30/10 |Depreciation |180 |-12,500.00 |87,500.00 |
+| 12/31/10 |Depreciation |180 |-12,500.00 |75,000.00 |
+| 06/30/11 |Depreciation |180 |-9,375.00 |65,625.00 |
+| 12/31/11 |Depreciation |180 |-9,375.00 |56,250.00 |
+| 06/30/12 |Depreciation |180 |-7,031.25 |49,218.75 |
+| 12/31/12 |Depreciation |180 |-7,031.25 |42,187.50 |
+| 06/30/13 |Depreciation |180 |-5,273.44 |36,914.06 |
+| 12/31/13 |Depreciation |180 |-5,273.44 |31,640.62 |
+| 06/30/14 |Depreciation |180 |-3,955.08 |27,685.54 |
+| 12/31/14 |Depreciation |180 |-3,955.08 |23,730.46 |
+| 06/30/15 |Depreciation |180 |-3,955.08 |19,775.38 SL |
+| 12/31/15 |Depreciation |180 |-3,955.08 |15,820.30 SL |
+| 06/30/16 |Depreciation |180 |-3,955.08 |11,865.22 SL |
+| 12/31/16 |Depreciation |180 |-3,955.07 |7,910.15 SL |
+| 06/30/17 |Depreciation |180 |-3,955.08 |3,955.07 SL |
+| 12/31/17 |Depreciation |180 |-3,955.07 |0.00 SL |
 
 * Depreciation starting date  
 
@@ -231,7 +231,7 @@ This user-defined method can also be used to depreciate based on number of units
 ### <a name="to-set-up-user-defined-depreciation-methods"></a>To set up user-defined depreciation methods
 In the **Depreciation Table** window, you can set up user-defined depreciation methods. For example, you can set up depreciation based on number of units.  
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Depreciation Tables**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Tables**, and then choose the related link.  
 2. In the **Depreciation Table List** window, choose the **New** action.  
 3. **Depreciation Table Card** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
@@ -249,11 +249,11 @@ The acquisition cost is LCY 100,000, and the depreciable lifetime is five years.
 | Date | FA Posting Type | Days | Amount | Book Value |
 | --- | --- | --- | --- | --- |
 | 01/01/10 |Acquisition Cost |* |100,000.00 |100,000.00 |
-| 12/31/10 |Depreciation, 2000 |360 |-25,000.00 |75,000.00 |
-| 12/31/11 |Depreciation, 2000 |360 |-38,000.00 |37,000.00 |
-| 12/31/12 |Depreciation, 2000 |360 |-37,000.00 |0 |
-| 12/31/13 |Depreciation, 2000 |None |None |0 |
-| 12/31/14 |Depreciation, 2000 |None |None |0 |
+| 12/31/10 |Depreciation |360 |-25,000.00 |75,000.00 |
+| 12/31/11 |Depreciation |360 |-38,000.00 |37,000.00 |
+| 12/31/12 |Depreciation |360 |-37,000.00 |0 |
+| 12/31/13 |Depreciation |None |None |0 |
+| 12/31/14 |Depreciation |None |None |0 |
 
 * Depreciation starting date  
 
@@ -264,11 +264,11 @@ In the previous example, both the **First User-Defined Depr. Date** and **Deprec
 | Date | FA Posting Type | Days | Amount | Book Value |
 | --- | --- | --- | --- | --- |
 | 01/01/10 |Acquisition Cost |* |100,000.00 |100,000.00 |
-| 12/31/10 |Depreciation, 2000 |270 |-18,750.00 |81,250.00 |
-| 12/31/11 |Depreciation, 2000 |360 |-38,000.00 |42,250.00 |
-| 12/31/12 |Depreciation, 2000 |360 |-37,000.00 |6,250.00 |
-| 12/31/13 |Depreciation, 2000 |90 |-6,250.00 |0 |
-| 12/31/14 |Depreciation, 2000 |None |None |0 |
+| 12/31/10 |Depreciation |270 |-18,750.00 |81,250.00 |
+| 12/31/11 |Depreciation |360 |-38,000.00 |42,250.00 |
+| 12/31/12 |Depreciation |360 |-37,000.00 |6,250.00 |
+| 12/31/13 |Depreciation |90 |-6,250.00 |0 |
+| 12/31/14 |Depreciation |None |None |0 |
 
 * Depreciation starting date  
 
@@ -294,12 +294,12 @@ The fixed asset ledger entries look like this:
 | Date | FA Posting Type | Days | Amount | Book Value |
 | --- | --- | --- | --- | --- |
 | 03/01/10 |Acquisition Cost |* |100,000.00 |100,000.00 |
-| 12/31/10 |Depreciation, 2000 |270 |-10,000.00 |90,000.00 |
-| 12/31/11 |Depreciation, 2000 |360 |-20,000.00 |70,000.00 |
-| 12/31/12 |Depreciation, 2000 |360 |-20,000.00 |50,000.00 |
-| 12/31/13 |Depreciation, 2000 |360 |-20,000.00 |30,000.00 |
-| 12/31/14 |Depreciation, 2000 |360 |-20,000.00 |10,000.00 |
-| 12/31/15 |Depreciation, 2000 |180 |-10,000.00 |0.00 |
+| 12/31/10 |Depreciation |270 |-10,000.00 |90,000.00 |
+| 12/31/11 |Depreciation |360 |-20,000.00 |70,000.00 |
+| 12/31/12 |Depreciation |360 |-20,000.00 |50,000.00 |
+| 12/31/13 |Depreciation |360 |-20,000.00 |30,000.00 |
+| 12/31/14 |Depreciation |360 |-20,000.00 |10,000.00 |
+| 12/31/15 |Depreciation |180 |-10,000.00 |0.00 |
 
 * Depreciation starting date  
 
@@ -311,12 +311,12 @@ The fixed asset ledger entries look like this:
 | Date | FA Posting Type | Days | Amount | Book Value |
 | --- | --- | --- | --- | --- |
 | 11/01/10 |Acquisition Cost |* |100,000.00 |100,000.00 |
-| 12/31/10 |Depreciation, 2000 |60 |-20,000.00 |80,000.00 |
-| 12/31/11 |Depreciation, 2000 |360 |-32,000.00 |48,000.00 |
-| 12/31/12 |Depreciation, 2000 |360 |-19,200.00 |28,800.00 |
-| 12/31/13 |Depreciation, 2000 |360 |-11,520.00 |17,280.00 |
-| 12/31/14 |Depreciation, 2000 |360 |-11,520.00 |5,760.00 SL |
-| 12/31/15 |Depreciation, 2000 |180 |-5,760.00 |0.00 SL |
+| 12/31/10 |Depreciation |60 |-20,000.00 |80,000.00 |
+| 12/31/11 |Depreciation |360 |-32,000.00 |48,000.00 |
+| 12/31/12 |Depreciation |360 |-19,200.00 |28,800.00 |
+| 12/31/13 |Depreciation |360 |-11,520.00 |17,280.00 |
+| 12/31/14 |Depreciation |360 |-11,520.00 |5,760.00 SL |
+| 12/31/15 |Depreciation |180 |-5,760.00 |0.00 SL |
 
 * Depreciation starting date  
 
