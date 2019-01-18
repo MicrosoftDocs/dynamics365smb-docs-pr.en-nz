@@ -13,32 +13,32 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 78cb55d0c53db5b0a8252ffae6316a537be25459
-ms.openlocfilehash: 030fc4514db99e2034d74191f21c823f0f6811d4
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: f1d6b2c07ac72b2a4c00db5456d449b4ff03eac7
 ms.contentlocale: en-nz
-ms.lasthandoff: 10/15/2018
+ms.lasthandoff: 11/22/2018
 
 ---
-# <a name="view-posted-tax-credit-memos"></a><span data-ttu-id="2cd96-103">View Posted Tax Credit Memos</span><span class="sxs-lookup"><span data-stu-id="2cd96-103">View Posted Tax Credit Memos</span></span>
-<span data-ttu-id="2cd96-104">You can use the **Posted Sales Tax Credit Memo** window and **Posted Purch. Tax Credit Memo** window to view details of sales tax credit memos and purchase tax credit memos that have been posted.</span><span class="sxs-lookup"><span data-stu-id="2cd96-104">You can use the **Posted Sales Tax Credit Memo** window and **Posted Purch. Tax Credit Memo** window to view details of sales tax credit memos and purchase tax credit memos that have been posted.</span></span>  
+# <a name="view-posted-tax-credit-memos"></a><span data-ttu-id="423a0-103">View Posted Tax Credit Memos</span><span class="sxs-lookup"><span data-stu-id="423a0-103">View Posted Tax Credit Memos</span></span>
+<span data-ttu-id="423a0-104">You can use the **Posted Sales Tax Credit Memo** page and **Posted Purch. Tax Credit Memo** page to view details of sales tax credit memos and purchase tax credit memos that have been posted.</span><span class="sxs-lookup"><span data-stu-id="423a0-104">You can use the **Posted Sales Tax Credit Memo** page and **Posted Purch. Tax Credit Memo** page to view details of sales tax credit memos and purchase tax credit memos that have been posted.</span></span>  
 
-<span data-ttu-id="2cd96-105">The following procedure describes how to view posted sales tax credit memos, but the same steps also apply for viewing posted purchase tax credit memos.</span><span class="sxs-lookup"><span data-stu-id="2cd96-105">The following procedure describes how to view posted sales tax credit memos, but the same steps also apply for viewing posted purchase tax credit memos.</span></span>  
+<span data-ttu-id="423a0-105">The following procedure describes how to view posted sales tax credit memos, but the same steps also apply for viewing posted purchase tax credit memos.</span><span class="sxs-lookup"><span data-stu-id="423a0-105">The following procedure describes how to view posted sales tax credit memos, but the same steps also apply for viewing posted purchase tax credit memos.</span></span>  
 
-## <a name="to-view-a-posted-sales-tax-credit-memo"></a><span data-ttu-id="2cd96-106">To view a posted sales tax credit memo</span><span class="sxs-lookup"><span data-stu-id="2cd96-106">To view a posted sales tax credit memo</span></span>  
-1. <span data-ttu-id="2cd96-107">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Sales Tax Credit Memo**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="2cd96-107">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Sales Tax Credit Memo**, and then choose the related link.</span></span>  
-2. <span data-ttu-id="2cd96-108">View the FastTabs as described in the following table.</span><span class="sxs-lookup"><span data-stu-id="2cd96-108">View the FastTabs as described in the following table.</span></span>  
+## <a name="to-view-a-posted-sales-tax-credit-memo"></a><span data-ttu-id="423a0-106">To view a posted sales tax credit memo</span><span class="sxs-lookup"><span data-stu-id="423a0-106">To view a posted sales tax credit memo</span></span>  
+1. <span data-ttu-id="423a0-107">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Sales Tax Credit Memo**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="423a0-107">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Sales Tax Credit Memo**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="423a0-108">View the FastTabs as described in the following table.</span><span class="sxs-lookup"><span data-stu-id="423a0-108">View the FastTabs as described in the following table.</span></span>  
 
-    |<span data-ttu-id="2cd96-109">FastTab</span><span class="sxs-lookup"><span data-stu-id="2cd96-109">FastTab</span></span>|<span data-ttu-id="2cd96-110">Description</span><span class="sxs-lookup"><span data-stu-id="2cd96-110">Description</span></span>|  
+    |<span data-ttu-id="423a0-109">FastTab</span><span class="sxs-lookup"><span data-stu-id="423a0-109">FastTab</span></span>|<span data-ttu-id="423a0-110">Description</span><span class="sxs-lookup"><span data-stu-id="423a0-110">Description</span></span>|  
     |-------------|---------------------------------------|  
-    |<span data-ttu-id="2cd96-111">**General**</span><span class="sxs-lookup"><span data-stu-id="2cd96-111">**General**</span></span>|<span data-ttu-id="2cd96-112">General information about the credit memo.</span><span class="sxs-lookup"><span data-stu-id="2cd96-112">General information about the credit memo.</span></span>|  
-    |<span data-ttu-id="2cd96-113">**Posted Sales Tax Cr. Memo Sub**</span><span class="sxs-lookup"><span data-stu-id="2cd96-113">**Posted Sales Tax Cr. Memo Sub**</span></span>|<span data-ttu-id="2cd96-114">Posted sales tax credit memo information.</span><span class="sxs-lookup"><span data-stu-id="2cd96-114">Posted sales tax credit memo information.</span></span>|  
-    |<span data-ttu-id="2cd96-115">**Invoicing**</span><span class="sxs-lookup"><span data-stu-id="2cd96-115">**Invoicing**</span></span>|<span data-ttu-id="2cd96-116">Invoice information.</span><span class="sxs-lookup"><span data-stu-id="2cd96-116">Invoice information.</span></span>|  
-    |<span data-ttu-id="2cd96-117">**Shipping**</span><span class="sxs-lookup"><span data-stu-id="2cd96-117">**Shipping**</span></span>|<span data-ttu-id="2cd96-118">Shipping information.</span><span class="sxs-lookup"><span data-stu-id="2cd96-118">Shipping information.</span></span>|  
-    |<span data-ttu-id="2cd96-119">**Foreign Trade**</span><span class="sxs-lookup"><span data-stu-id="2cd96-119">**Foreign Trade**</span></span>|<span data-ttu-id="2cd96-120">Foreign trade information.</span><span class="sxs-lookup"><span data-stu-id="2cd96-120">Foreign trade information.</span></span>|  
+    |<span data-ttu-id="423a0-111">**General**</span><span class="sxs-lookup"><span data-stu-id="423a0-111">**General**</span></span>|<span data-ttu-id="423a0-112">General information about the credit memo.</span><span class="sxs-lookup"><span data-stu-id="423a0-112">General information about the credit memo.</span></span>|  
+    |<span data-ttu-id="423a0-113">**Posted Sales Tax Cr. Memo Sub**</span><span class="sxs-lookup"><span data-stu-id="423a0-113">**Posted Sales Tax Cr. Memo Sub**</span></span>|<span data-ttu-id="423a0-114">Posted sales tax credit memo information.</span><span class="sxs-lookup"><span data-stu-id="423a0-114">Posted sales tax credit memo information.</span></span>|  
+    |<span data-ttu-id="423a0-115">**Invoicing**</span><span class="sxs-lookup"><span data-stu-id="423a0-115">**Invoicing**</span></span>|<span data-ttu-id="423a0-116">Invoice information.</span><span class="sxs-lookup"><span data-stu-id="423a0-116">Invoice information.</span></span>|  
+    |<span data-ttu-id="423a0-117">**Shipping**</span><span class="sxs-lookup"><span data-stu-id="423a0-117">**Shipping**</span></span>|<span data-ttu-id="423a0-118">Shipping information.</span><span class="sxs-lookup"><span data-stu-id="423a0-118">Shipping information.</span></span>|  
+    |<span data-ttu-id="423a0-119">**Foreign Trade**</span><span class="sxs-lookup"><span data-stu-id="423a0-119">**Foreign Trade**</span></span>|<span data-ttu-id="423a0-120">Foreign trade information.</span><span class="sxs-lookup"><span data-stu-id="423a0-120">Foreign trade information.</span></span>|  
 
-3.  <span data-ttu-id="2cd96-121">Choose the **OK** button.</span><span class="sxs-lookup"><span data-stu-id="2cd96-121">Choose the **OK** button.</span></span>  
+3.  <span data-ttu-id="423a0-121">Choose the **OK** button.</span><span class="sxs-lookup"><span data-stu-id="423a0-121">Choose the **OK** button.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="2cd96-122">See Also</span><span class="sxs-lookup"><span data-stu-id="2cd96-122">See Also</span></span>  
-<span data-ttu-id="2cd96-123">[View Posted Tax Invoices](how-to-view-posted-tax-invoices.md) </span><span class="sxs-lookup"><span data-stu-id="2cd96-123">[View Posted Tax Invoices](how-to-view-posted-tax-invoices.md) </span></span>  
-[<span data-ttu-id="2cd96-124">View Withholding Tax Entries</span><span class="sxs-lookup"><span data-stu-id="2cd96-124">View Withholding Tax Entries</span></span>](how-to-view-withholding-tax-entries.md) 
+## <a name="see-also"></a><span data-ttu-id="423a0-122">See Also</span><span class="sxs-lookup"><span data-stu-id="423a0-122">See Also</span></span>  
+<span data-ttu-id="423a0-123">[View Posted Tax Invoices](how-to-view-posted-tax-invoices.md) </span><span class="sxs-lookup"><span data-stu-id="423a0-123">[View Posted Tax Invoices](how-to-view-posted-tax-invoices.md) </span></span>  
+[<span data-ttu-id="423a0-124">View Withholding Tax Entries</span><span class="sxs-lookup"><span data-stu-id="423a0-124">View Withholding Tax Entries</span></span>](how-to-view-withholding-tax-entries.md) 
 
