@@ -13,22 +13,22 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: 2c4d9cb505be8b938e11c06c6e2d269d6e64544b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3b47cd27fe0539c20f2371849c3b560be6e41777
 ms.contentlocale: en-nz
-ms.lasthandoff: 07/02/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="view-withholding-tax-entries"></a>View Withholding Tax Entries
 You can view entries that have been posted with withholding tax (WHT) for a specified general ledger register.  
 
-In the **WHT Entry** window, you can view details about the withholding tax, such as the base amount, the calculated WHT amount, the WHT calculation method, and the unrealised WHT amount.  
+On the **WHT Entry** page, you can view details about the withholding tax, such as the base amount, the calculated WHT amount, the WHT calculation method, and the unrealised WHT amount.  
 
 ## <a name="to-view-withholding-tax-entries"></a>To view withholding tax entries  
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **G/L Registers**, and then choose the related link.  
 2.  Select the general ledger register for which you want to view WHT entries, and then choose the **WHT Entry** action.  
 
-You can view the posted WHT entries in the **WHT Entry** window.  
+You can view the posted WHT entries on the **WHT Entry** page.  
 
 ## <a name="see-also"></a>See Also  
 [Withholding Tax](withholding-tax.md)   

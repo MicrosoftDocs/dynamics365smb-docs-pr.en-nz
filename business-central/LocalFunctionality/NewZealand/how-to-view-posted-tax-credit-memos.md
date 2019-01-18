@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: 96985042cee41eb44eeb90cf3b9bd83b21fbbfc4
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: f1d6b2c07ac72b2a4c00db5456d449b4ff03eac7
 ms.contentlocale: en-nz
-ms.lasthandoff: 07/02/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="view-posted-tax-credit-memos"></a>View Posted Tax Credit Memos
-You can use the **Posted Sales Tax Credit Memo** window and **Posted Purch. Tax Credit Memo** window to view details of sales tax credit memos and purchase tax credit memos that have been posted.  
+You can use the **Posted Sales Tax Credit Memo** page and **Posted Purch. Tax Credit Memo** page to view details of sales tax credit memos and purchase tax credit memos that have been posted.  
 
 The following procedure describes how to view posted sales tax credit memos, but the same steps also apply for viewing posted purchase tax credit memos.  
 

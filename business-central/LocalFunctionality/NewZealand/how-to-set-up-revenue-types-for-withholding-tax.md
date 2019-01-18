@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: 5714728569c0a32c3ddf378a479ccba16222cd8e
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 61cb648011e9c347abb001f04759658c294671d1
 ms.contentlocale: en-nz
-ms.lasthandoff: 07/02/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="set-up-revenue-types-for-withholding-tax"></a>Set Up Revenue Types for Withholding Tax
-Revenue types are used to categorise withholding tax (WHT) entries and are used for WHT certificates. You can use the **WHT Revenue Types** window to set up the revenue types for withholding tax.  
+Revenue types are used to categorise withholding tax (WHT) entries and are used for WHT certificates. You can use the **WHT Revenue Types** page to set up the revenue types for withholding tax.  
 
 ## <a name="to-set-up-revenue-types-for-withholding-tax"></a>To set up revenue types for withholding tax  
 1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **WHT Revenue Types**, and then choose the related link.  

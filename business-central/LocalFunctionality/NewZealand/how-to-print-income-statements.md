@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: 8172921b545326e5ec10dd430770d1c5240ec101
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6a00fcaa119a8b4aeaf23a97800d5f77736eaa95
 ms.contentlocale: en-nz
-ms.lasthandoff: 07/02/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="print-income-statements"></a>Print Income Statements
@@ -24,7 +24,7 @@ You can use the **Income Statement** report to view the company’s annual incom
 
 ## <a name="to-print-the-income-statement-report"></a>To print the income statement report  
 1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Income Statement**, and then choose the relevant link.  
-2. In the **Income Statement** window, on the **Options** FastTab, fill in the fields as described in the following table.  
+2. On the **Income Statement** page, on the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

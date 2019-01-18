@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: dfe5c6734eb8601e9f8d0d0e2acb0dad3eb0c652
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: e4253198b89c23b7a13f2b9677ca851378585156
 ms.contentlocale: en-nz
-ms.lasthandoff: 07/02/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="determine-sales-price-by-cost-plus-percentage"></a>Determine Sales Price by Cost Plus Percentage
@@ -35,7 +35,7 @@ Use the cost plus percentage function to set a sales price based on the cost of 
     > [!NOTE]  
     >  For a new customer, in the **No.** field, enter the customer number.  
 
-5.  To open the **Sales Prices** window, choose the **Prices** action.  
+5.  To open the **Sales Prices** page, choose the **Prices** action.  
 6.  In the **General** section, fill in the fields as described in the following table.  
 
     |Field|Description|  

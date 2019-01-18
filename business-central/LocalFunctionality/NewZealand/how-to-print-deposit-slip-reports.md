@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: aebe100e2c3bd0f558c58a4cc3f5dec43db68dd0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: dbf469c692e506273cc62f4ac4679c6c078c7c55
 ms.contentlocale: en-nz
-ms.lasthandoff: 07/02/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="print-deposit-slip-reports"></a>Print Deposit Slip Reports
@@ -26,7 +26,7 @@ The **Deposit Slip** report displays cash and cheque details in a format require
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cash Receipt Journals**, and then choose the related link.  
 2.  Select the **Bank** journal.  
 3.  Choose the **Edit Journal** action.  
-4.  In the **Cash Receipt Journal** window, choose the **Print Deposit Slip** action.  
+4.  On the **Cash Receipt Journal** page, choose the **Print Deposit Slip** action.  
 5.  On the **Gen. Journal Line** FastTab, select the appropriate filters.  
 6.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
 

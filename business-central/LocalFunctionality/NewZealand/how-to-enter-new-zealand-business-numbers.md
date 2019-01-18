@@ -1,6 +1,6 @@
 ---
 title: How to Enter New Zealand Inland Revenue Department Numbers
-description: You can enter a New Zealand Inland Revenue Department Number (IRD) in certain windows.
+description: You can enter a New Zealand Inland Revenue Department Number (IRD) in certain pages.
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: 5947d9c40c5a38d9f25045a36925d5473181338c
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 318ac3c788d4f3785d1ab88753d6cc19f17a03a1
 ms.contentlocale: en-nz
-ms.lasthandoff: 07/02/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="enter-new-zealand-inland-revenue-department-numbers"></a>Enter New Zealand Inland Revenue Department Numbers
-You can enter an New Zealand Inland Revenue Department Number (IRD) in the following windows:  
+You can enter an New Zealand Inland Revenue Department Number (IRD) in the following pages:  
 
 - **Company Information**  
 - **Vendor Card**  
