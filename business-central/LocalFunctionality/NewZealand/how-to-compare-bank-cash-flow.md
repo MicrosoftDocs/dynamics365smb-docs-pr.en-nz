@@ -2,22 +2,22 @@
 title: How to Compare Bank Cash Flow
 description: Describes how compare the flow of cash in a particular bank for a specified period.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
+ms.openlocfilehash: c81302e088a9775f41ab5b74b0d620395e74e022
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: 56d4292a5559a083bce4eec24c2f10c1dfa7cb2d
-ms.contentlocale: en-nz
-ms.lasthandoff: 07/02/2018
-
+ms.contentlocale: en-NZ
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827061"
 ---
 # <a name="compare-bank-cash-flow"></a>Compare Bank Cash Flow
 You can use the **Bank Detail Cashflow Compare** report to compare the flow of cash in a particular bank for a specified period.  
@@ -49,4 +49,3 @@ The debit and credit amounts are displayed in the local currency. You can also v
 ## <a name="see-also"></a>See Also  
  [Create Cheque Instalments](how-to-create-check-installments.md)   
  [New Zealand Local Functionality](new-zealand-local-functionality.md)
-

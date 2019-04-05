@@ -2,22 +2,22 @@
 title: How to Print Bank Account Reconciliation Reports
 description: Describes how to print a report that displays open bank ledger entries as unpresented cheques or unrecorded deposits.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
+ms.openlocfilehash: bf67cb5f79706425a102970074e161366b13f1a4
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: fa402ab8584de1969d56385e684c1a5c1557306e
-ms.contentlocale: en-nz
-ms.lasthandoff: 07/02/2018
-
+ms.contentlocale: en-NZ
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827057"
 ---
 # <a name="print-bank-account-reconciliation-reports"></a>Print Bank Account Reconciliation Reports
 The **Bank Account Reconciliation** report displays open bank ledger entries as unpresented cheques or unrecorded deposits.  
@@ -30,4 +30,3 @@ The **Bank Account Reconciliation** report displays open bank ledger entries as 
 
 ## <a name="see-also"></a>See Also  
 [Reconcile Bank Accounts Separately](../../bank-how-reconcile-bank-accounts-separately.md)
-

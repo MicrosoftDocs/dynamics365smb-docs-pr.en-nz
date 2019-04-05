@@ -2,22 +2,22 @@
 title: How to Set Up Goods and Service Tax Posting
 description: Describes how to set up posting for goods and services tax (GST) in New Zealand.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
+ms.openlocfilehash: c051f318fa82ae213cf18463c45ece8cf6a84644
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: c52c47b0d2bba9dff54e304f3c9bde2794ecb60d
-ms.contentlocale: en-nz
-ms.lasthandoff: 07/02/2018
-
+ms.contentlocale: en-NZ
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827063"
 ---
 # <a name="set-up-goods-and-service-tax-posting"></a>Set Up Goods and Service Tax Posting
 Goods and services tax (GST) is the tax that is applied on most goods and services. The GST that is paid and received during a period is reported in the Business Activity Statement (BAS) that has to be submitted to the tax authority.  
@@ -43,4 +43,3 @@ To set up posting details for GST, you must define the posting groups, rate of G
 
 ## <a name="see-also"></a>See Also  
 [Print Goods and Service Tax Settlement Reports](how-to-print-goods-and-service-tax-settlement-reports.md)
-

@@ -2,22 +2,22 @@
 title: How to Print Goods and Service Tax Settlement Reports
 description: Describes how to prepare and submit a periodic goods and services tax (GST) settlement.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 7e75c3298d0ff63117b32c6a2b86142bff48ed02
-ms.contentlocale: en-nz
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-NZ
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827041"
 ---
 # <a name="print-goods-and-service-tax-settlement-reports"></a>Print Goods and Service Tax Settlement Reports
 You must submit a periodic report of goods and services tax (GST) settlement. You can create this settlement from the **BAS Calc. Schedule List** page.  
@@ -42,5 +42,4 @@ You must submit a periodic report of goods and services tax (GST) settlement. Yo
 
 ## <a name="see-also"></a>See Also  
 [Set Up Goods and Service Tax Posting](how-to-set-up-goods-and-service-tax-posting.md)   
-
 

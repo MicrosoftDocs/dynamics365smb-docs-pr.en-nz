@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: New Zealand, local functionality
 ms.date: 10/12/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
 ms.openlocfilehash: 2f47a0a0ba8575862d57e29eebd77c9fc8f3da5b
-ms.contentlocale: en-nz
-ms.lasthandoff: 11/20/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-NZ
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827031"
 ---
 # <a name="new-zealand-local-functionality"></a>New Zealand Local Functionality
 The following topics describe local functionality that is unique to the New Zealand version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)]  
@@ -46,4 +46,3 @@ The following topics describe local functionality that is unique to the New Zeal
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
-
