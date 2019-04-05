@@ -2,34 +2,34 @@
 title: Design Details - Code Examples of Changed Patterns in Modifications | Microsoft Docs
 description: Code examples showing changed patterns in dimension code modification and migration for five different scenarios. It compares the code examples in earlier versions to the code examples in Business Central.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 3a5806711b693dadbbaf033ffd769c5eabebe8de
-ms.contentlocale: en-nz
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-NZ
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "822206"
 ---
-# <a name="design-details-code-examples-of-changed-patterns-in-modifications"></a><span data-ttu-id="37733-104">Design Details: Code Examples of Changed Patterns in Modifications</span><span class="sxs-lookup"><span data-stu-id="37733-104">Design Details: Code Examples of Changed Patterns in Modifications</span></span>
-<span data-ttu-id="37733-105">This topic provides code examples to show changed patterns in dimension code modification and migration for five different scenarios.</span><span class="sxs-lookup"><span data-stu-id="37733-105">This topic provides code examples to show changed patterns in dimension code modification and migration for five different scenarios.</span></span> <span data-ttu-id="37733-106">It compares the code examples in earlier versions to the code examples in Business Central.</span><span class="sxs-lookup"><span data-stu-id="37733-106">It compares the code examples in earlier versions to the code examples in Business Central.</span></span>
+# <a name="design-details-code-examples-of-changed-patterns-in-modifications"></a><span data-ttu-id="ecdb9-104">Design Details: Code Examples of Changed Patterns in Modifications</span><span class="sxs-lookup"><span data-stu-id="ecdb9-104">Design Details: Code Examples of Changed Patterns in Modifications</span></span>
+<span data-ttu-id="ecdb9-105">This topic provides code examples to show changed patterns in dimension code modification and migration for five different scenarios.</span><span class="sxs-lookup"><span data-stu-id="ecdb9-105">This topic provides code examples to show changed patterns in dimension code modification and migration for five different scenarios.</span></span> <span data-ttu-id="ecdb9-106">It compares the code examples in earlier versions to the code examples in Business Central.</span><span class="sxs-lookup"><span data-stu-id="ecdb9-106">It compares the code examples in earlier versions to the code examples in Business Central.</span></span>
 
-## <a name="posting-a-journal-line"></a><span data-ttu-id="37733-107">Posting a Journal Line</span><span class="sxs-lookup"><span data-stu-id="37733-107">Posting a Journal Line</span></span>  
-<span data-ttu-id="37733-108">Key changes are listed as follows:</span><span class="sxs-lookup"><span data-stu-id="37733-108">Key changes are listed as follows:</span></span>  
+## <a name="posting-a-journal-line"></a><span data-ttu-id="ecdb9-107">Posting a Journal Line</span><span class="sxs-lookup"><span data-stu-id="ecdb9-107">Posting a Journal Line</span></span>  
+<span data-ttu-id="ecdb9-108">Key changes are listed as follows:</span><span class="sxs-lookup"><span data-stu-id="ecdb9-108">Key changes are listed as follows:</span></span>  
   
-- <span data-ttu-id="37733-109">Journal line dimension tables are removed.</span><span class="sxs-lookup"><span data-stu-id="37733-109">Journal line dimension tables are removed.</span></span>  
+- <span data-ttu-id="ecdb9-109">Journal line dimension tables are removed.</span><span class="sxs-lookup"><span data-stu-id="ecdb9-109">Journal line dimension tables are removed.</span></span>  
   
-- <span data-ttu-id="37733-110">A dimension set ID is created in the **Dimension Set ID** field.</span><span class="sxs-lookup"><span data-stu-id="37733-110">A dimension set ID is created in the **Dimension Set ID** field.</span></span>  
+- <span data-ttu-id="ecdb9-110">A dimension set ID is created in the **Dimension Set ID** field.</span><span class="sxs-lookup"><span data-stu-id="ecdb9-110">A dimension set ID is created in the **Dimension Set ID** field.</span></span>  
   
-<span data-ttu-id="37733-111">**Earlier Versions**</span><span class="sxs-lookup"><span data-stu-id="37733-111">**Earlier Versions**</span></span>  
+<span data-ttu-id="ecdb9-111">**Earlier Versions**</span><span class="sxs-lookup"><span data-stu-id="ecdb9-111">**Earlier Versions**</span></span>  
   
 ```  
 ResJnlLine."Qty. per Unit of Measure" :=   
@@ -61,10 +61,10 @@ ResJnlPostLine.Run(ResJnlLine);
   
 ```  
   
-## <a name="posting-a-document"></a><span data-ttu-id="37733-112">Posting a Document</span><span class="sxs-lookup"><span data-stu-id="37733-112">Posting a Document</span></span>  
- <span data-ttu-id="37733-113">When you post a document in [!INCLUDE[d365fin](includes/d365fin_md.md)], you no longer have to copy the document dimensions.</span><span class="sxs-lookup"><span data-stu-id="37733-113">When you post a document in [!INCLUDE[d365fin](includes/d365fin_md.md)], you no longer have to copy the document dimensions.</span></span>  
+## <a name="posting-a-document"></a><span data-ttu-id="ecdb9-112">Posting a Document</span><span class="sxs-lookup"><span data-stu-id="ecdb9-112">Posting a Document</span></span>  
+ <span data-ttu-id="ecdb9-113">When you post a document in [!INCLUDE[d365fin](includes/d365fin_md.md)], you no longer have to copy the document dimensions.</span><span class="sxs-lookup"><span data-stu-id="ecdb9-113">When you post a document in [!INCLUDE[d365fin](includes/d365fin_md.md)], you no longer have to copy the document dimensions.</span></span>  
   
- <span data-ttu-id="37733-114">**Earlier Versions**</span><span class="sxs-lookup"><span data-stu-id="37733-114">**Earlier Versions**</span></span>  
+ <span data-ttu-id="ecdb9-114">**Earlier Versions**</span><span class="sxs-lookup"><span data-stu-id="ecdb9-114">**Earlier Versions**</span></span>  
   
 ```  
 DimMgt.MoveOneDocDimToPostedDocDim(  
@@ -83,10 +83,10 @@ SalesShptLine."Dimension Set ID”
   := SalesLine."Dimension Set ID”  
 ```  
   
-## <a name="editing-dimensions-from-a-document"></a><span data-ttu-id="37733-115">Editing Dimensions from a Document</span><span class="sxs-lookup"><span data-stu-id="37733-115">Editing Dimensions from a Document</span></span>  
- <span data-ttu-id="37733-116">You can edit dimensions from a document.</span><span class="sxs-lookup"><span data-stu-id="37733-116">You can edit dimensions from a document.</span></span> <span data-ttu-id="37733-117">For example, you can edit a sales order line.</span><span class="sxs-lookup"><span data-stu-id="37733-117">For example, you can edit a sales order line.</span></span>  
+## <a name="editing-dimensions-from-a-document"></a><span data-ttu-id="ecdb9-115">Editing Dimensions from a Document</span><span class="sxs-lookup"><span data-stu-id="ecdb9-115">Editing Dimensions from a Document</span></span>  
+ <span data-ttu-id="ecdb9-116">You can edit dimensions from a document.</span><span class="sxs-lookup"><span data-stu-id="ecdb9-116">You can edit dimensions from a document.</span></span> <span data-ttu-id="ecdb9-117">For example, you can edit a sales order line.</span><span class="sxs-lookup"><span data-stu-id="ecdb9-117">For example, you can edit a sales order line.</span></span>  
   
- <span data-ttu-id="37733-118">**Earlier Versions**</span><span class="sxs-lookup"><span data-stu-id="37733-118">**Earlier Versions**</span></span>  
+ <span data-ttu-id="ecdb9-118">**Earlier Versions**</span><span class="sxs-lookup"><span data-stu-id="ecdb9-118">**Earlier Versions**</span></span>  
   
 ```  
 Table 37, function ShowDimensions:  
@@ -109,10 +109,10 @@ Table 37, function ShowDimensions:
     "Dimension ID");  
 ```  
   
-## <a name="showing-dimensions-from-posted-entries"></a><span data-ttu-id="37733-119">Showing Dimensions from Posted Entries</span><span class="sxs-lookup"><span data-stu-id="37733-119">Showing Dimensions from Posted Entries</span></span>  
- <span data-ttu-id="37733-120">You can show dimensions from posted entries, such as sales shipment lines.</span><span class="sxs-lookup"><span data-stu-id="37733-120">You can show dimensions from posted entries, such as sales shipment lines.</span></span>  
+## <a name="showing-dimensions-from-posted-entries"></a><span data-ttu-id="ecdb9-119">Showing Dimensions from Posted Entries</span><span class="sxs-lookup"><span data-stu-id="ecdb9-119">Showing Dimensions from Posted Entries</span></span>  
+ <span data-ttu-id="ecdb9-120">You can show dimensions from posted entries, such as sales shipment lines.</span><span class="sxs-lookup"><span data-stu-id="ecdb9-120">You can show dimensions from posted entries, such as sales shipment lines.</span></span>  
   
- <span data-ttu-id="37733-121">**Earlier Versions**</span><span class="sxs-lookup"><span data-stu-id="37733-121">**Earlier Versions**</span></span>  
+ <span data-ttu-id="ecdb9-121">**Earlier Versions**</span><span class="sxs-lookup"><span data-stu-id="ecdb9-121">**Earlier Versions**</span></span>  
   
 ```  
 Table 111, function ShowDimensions:  
@@ -135,10 +135,10 @@ DimSetEntry.ShowDimensionSet(
   "Dimension ID");  
 ```  
   
-## <a name="getting-default-dimensions-for-a-document"></a><span data-ttu-id="37733-122">Getting Default Dimensions for a Document</span><span class="sxs-lookup"><span data-stu-id="37733-122">Getting Default Dimensions for a Document</span></span>  
- <span data-ttu-id="37733-123">You can get default dimensions for a document, such as a sales order line.</span><span class="sxs-lookup"><span data-stu-id="37733-123">You can get default dimensions for a document, such as a sales order line.</span></span>  
+## <a name="getting-default-dimensions-for-a-document"></a><span data-ttu-id="ecdb9-122">Getting Default Dimensions for a Document</span><span class="sxs-lookup"><span data-stu-id="ecdb9-122">Getting Default Dimensions for a Document</span></span>  
+ <span data-ttu-id="ecdb9-123">You can get default dimensions for a document, such as a sales order line.</span><span class="sxs-lookup"><span data-stu-id="ecdb9-123">You can get default dimensions for a document, such as a sales order line.</span></span>  
   
- <span data-ttu-id="37733-124">**Earlier Versions**</span><span class="sxs-lookup"><span data-stu-id="37733-124">**Earlier Versions**</span></span>  
+ <span data-ttu-id="ecdb9-124">**Earlier Versions**</span><span class="sxs-lookup"><span data-stu-id="ecdb9-124">**Earlier Versions**</span></span>  
   
 ```  
 Table 37, function CreateDim()  
@@ -193,7 +193,7 @@ GetSalesHeader;
 
 ```  
 
-## <a name="see-also"></a><span data-ttu-id="37733-125">See Also</span><span class="sxs-lookup"><span data-stu-id="37733-125">See Also</span></span>  
-<span data-ttu-id="37733-126">[Design Details: Dimension Set Entries](design-details-dimension-set-entries.md) </span><span class="sxs-lookup"><span data-stu-id="37733-126">[Design Details: Dimension Set Entries](design-details-dimension-set-entries.md) </span></span>  
-<span data-ttu-id="37733-127">[Design Details: Table Structure](design-details-table-structure.md) </span><span class="sxs-lookup"><span data-stu-id="37733-127">[Design Details: Table Structure](design-details-table-structure.md) </span></span>  
-[<span data-ttu-id="37733-128">Design Details: Codeunit 408 Dimension Management</span><span class="sxs-lookup"><span data-stu-id="37733-128">Design Details: Codeunit 408 Dimension Management</span></span>](design-details-codeunit-408-dimension-management.md)
+## <a name="see-also"></a><span data-ttu-id="ecdb9-125">See Also</span><span class="sxs-lookup"><span data-stu-id="ecdb9-125">See Also</span></span>  
+<span data-ttu-id="ecdb9-126">[Design Details: Dimension Set Entries](design-details-dimension-set-entries.md) </span><span class="sxs-lookup"><span data-stu-id="ecdb9-126">[Design Details: Dimension Set Entries](design-details-dimension-set-entries.md) </span></span>  
+<span data-ttu-id="ecdb9-127">[Design Details: Table Structure](design-details-table-structure.md) </span><span class="sxs-lookup"><span data-stu-id="ecdb9-127">[Design Details: Table Structure](design-details-table-structure.md) </span></span>  
+[<span data-ttu-id="ecdb9-128">Design Details: Codeunit 408 Dimension Management</span><span class="sxs-lookup"><span data-stu-id="ecdb9-128">Design Details: Codeunit 408 Dimension Management</span></span>](design-details-codeunit-408-dimension-management.md)

@@ -2,39 +2,38 @@
 title: How to Reverse Output Posting | Microsoft Docs
 description: There are times when output posting must be reversed. An example of this would be if a data entry error occurred and an incorrect amount of output is posted to a production order.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: fb107d6d165ede233799ab165d735c030c0c8bba
-ms.contentlocale: en-nz
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-NZ
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "822026"
 ---
-# <a name="reverse-output-posting"></a><span data-ttu-id="8cdfa-104">Reverse Output Posting</span><span class="sxs-lookup"><span data-stu-id="8cdfa-104">Reverse Output Posting</span></span>
-<span data-ttu-id="8cdfa-105">There are times when output posting must be reversed.</span><span class="sxs-lookup"><span data-stu-id="8cdfa-105">There are times when output posting must be reversed.</span></span> <span data-ttu-id="8cdfa-106">An example of this would be if a data entry error occurred and an incorrect amount of output is posted to a production order.</span><span class="sxs-lookup"><span data-stu-id="8cdfa-106">An example of this would be if a data entry error occurred and an incorrect amount of output is posted to a production order.</span></span>  
+# <a name="reverse-output-posting"></a><span data-ttu-id="9788a-104">Reverse Output Posting</span><span class="sxs-lookup"><span data-stu-id="9788a-104">Reverse Output Posting</span></span>
+<span data-ttu-id="9788a-105">There are times when output posting must be reversed.</span><span class="sxs-lookup"><span data-stu-id="9788a-105">There are times when output posting must be reversed.</span></span> <span data-ttu-id="9788a-106">An example of this would be if a data entry error occurred and an incorrect amount of output is posted to a production order.</span><span class="sxs-lookup"><span data-stu-id="9788a-106">An example of this would be if a data entry error occurred and an incorrect amount of output is posted to a production order.</span></span>  
 
-## <a name="to-reverse-an-output-posting"></a><span data-ttu-id="8cdfa-107">To reverse an output posting</span><span class="sxs-lookup"><span data-stu-id="8cdfa-107">To reverse an output posting</span></span>  
-1.  <span data-ttu-id="8cdfa-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Output Journal**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="8cdfa-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Output Journal**, and then choose the related link.</span></span> <span data-ttu-id="8cdfa-109">Select your batch.</span><span class="sxs-lookup"><span data-stu-id="8cdfa-109">Select your batch.</span></span>  
-2. <span data-ttu-id="8cdfa-110">Fill in the fields as necessary.</span><span class="sxs-lookup"><span data-stu-id="8cdfa-110">Fill in the fields as necessary.</span></span> <span data-ttu-id="8cdfa-111">For more information, see [Batch Post Output and Run Times](production-how-to-post-output-quantity.md).</span><span class="sxs-lookup"><span data-stu-id="8cdfa-111">For more information, see [Batch Post Output and Run Times](production-how-to-post-output-quantity.md).</span></span>
-3.  <span data-ttu-id="8cdfa-112">In the **Applies-To Entry** field, select the associated item ledger entry.</span><span class="sxs-lookup"><span data-stu-id="8cdfa-112">In the **Applies-To Entry** field, select the associated item ledger entry.</span></span> <span data-ttu-id="8cdfa-113">This reverses the capacity and item ledger entries.</span><span class="sxs-lookup"><span data-stu-id="8cdfa-113">This reverses the capacity and item ledger entries.</span></span>  
-4. <span data-ttu-id="8cdfa-114">Post the reversal by posting the journal.</span><span class="sxs-lookup"><span data-stu-id="8cdfa-114">Post the reversal by posting the journal.</span></span>  
+## <a name="to-reverse-an-output-posting"></a><span data-ttu-id="9788a-107">To reverse an output posting</span><span class="sxs-lookup"><span data-stu-id="9788a-107">To reverse an output posting</span></span>  
+1.  <span data-ttu-id="9788a-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Output Journal**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="9788a-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Output Journal**, and then choose the related link.</span></span> <span data-ttu-id="9788a-109">Select your batch.</span><span class="sxs-lookup"><span data-stu-id="9788a-109">Select your batch.</span></span>  
+2. <span data-ttu-id="9788a-110">Fill in the fields as necessary.</span><span class="sxs-lookup"><span data-stu-id="9788a-110">Fill in the fields as necessary.</span></span> <span data-ttu-id="9788a-111">For more information, see [Batch Post Output and Run Times](production-how-to-post-output-quantity.md).</span><span class="sxs-lookup"><span data-stu-id="9788a-111">For more information, see [Batch Post Output and Run Times](production-how-to-post-output-quantity.md).</span></span>
+3.  <span data-ttu-id="9788a-112">In the **Applies-To Entry** field, select the associated item ledger entry.</span><span class="sxs-lookup"><span data-stu-id="9788a-112">In the **Applies-To Entry** field, select the associated item ledger entry.</span></span> <span data-ttu-id="9788a-113">This reverses the capacity and item ledger entries.</span><span class="sxs-lookup"><span data-stu-id="9788a-113">This reverses the capacity and item ledger entries.</span></span>  
+4. <span data-ttu-id="9788a-114">Post the reversal by posting the journal.</span><span class="sxs-lookup"><span data-stu-id="9788a-114">Post the reversal by posting the journal.</span></span>  
 
-<span data-ttu-id="8cdfa-115">The output journal entries are posted to the item ledger as a positive adjustment.</span><span class="sxs-lookup"><span data-stu-id="8cdfa-115">The output journal entries are posted to the item ledger as a positive adjustment.</span></span>  
+<span data-ttu-id="9788a-115">The output journal entries are posted to the item ledger as a positive adjustment.</span><span class="sxs-lookup"><span data-stu-id="9788a-115">The output journal entries are posted to the item ledger as a positive adjustment.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="8cdfa-116">See Also</span><span class="sxs-lookup"><span data-stu-id="8cdfa-116">See Also</span></span>  
- <span data-ttu-id="8cdfa-117">[Manufacturing](production-manage-manufacturing.md)  </span><span class="sxs-lookup"><span data-stu-id="8cdfa-117">[Manufacturing](production-manage-manufacturing.md)  </span></span>  
- [<span data-ttu-id="8cdfa-118">Setting Up Manufacturing</span><span class="sxs-lookup"><span data-stu-id="8cdfa-118">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
- <span data-ttu-id="8cdfa-119">[Planning](production-planning.md)    </span><span class="sxs-lookup"><span data-stu-id="8cdfa-119">[Planning](production-planning.md)    </span></span>  
- [<span data-ttu-id="8cdfa-120">Inventory</span><span class="sxs-lookup"><span data-stu-id="8cdfa-120">Inventory</span></span>](inventory-manage-inventory.md)  
- [<span data-ttu-id="8cdfa-121">Purchasing</span><span class="sxs-lookup"><span data-stu-id="8cdfa-121">Purchasing</span></span>](purchasing-manage-purchasing.md)  
- <span data-ttu-id="8cdfa-122">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="8cdfa-122">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
-
+## <a name="see-also"></a><span data-ttu-id="9788a-116">See Also</span><span class="sxs-lookup"><span data-stu-id="9788a-116">See Also</span></span>  
+ <span data-ttu-id="9788a-117">[Manufacturing](production-manage-manufacturing.md)  </span><span class="sxs-lookup"><span data-stu-id="9788a-117">[Manufacturing](production-manage-manufacturing.md)  </span></span>  
+ [<span data-ttu-id="9788a-118">Setting Up Manufacturing</span><span class="sxs-lookup"><span data-stu-id="9788a-118">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
+ <span data-ttu-id="9788a-119">[Planning](production-planning.md)    </span><span class="sxs-lookup"><span data-stu-id="9788a-119">[Planning](production-planning.md)    </span></span>  
+ [<span data-ttu-id="9788a-120">Inventory</span><span class="sxs-lookup"><span data-stu-id="9788a-120">Inventory</span></span>](inventory-manage-inventory.md)  
+ [<span data-ttu-id="9788a-121">Purchasing</span><span class="sxs-lookup"><span data-stu-id="9788a-121">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+ <span data-ttu-id="9788a-122">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="9788a-122">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  

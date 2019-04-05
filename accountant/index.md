@@ -7,25 +7,24 @@ ms.topic: get-started-article
 ms.search.keywords: setup wizard, accountant
 ms.date: 11/05/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 46a37fb00319647ea1c4b4630e4d9369687dd7cf
 ms.openlocfilehash: 504891ced64d5cc25823b3887ecdd592b971bf3f
-ms.contentlocale: en-nz
-ms.lasthandoff: 11/12/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-NZ
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "821879"
 ---
-# <a name="welcome-to-include-d365acclongincludesd365acclongmdmd"></a><span data-ttu-id="d4f0e-103">Welcome to [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]</span><span class="sxs-lookup"><span data-stu-id="d4f0e-103">Welcome to [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]</span></span>
+# <a name="welcome-to-include-d365acclongincludesd365acclongmdmd"></a><span data-ttu-id="15588-103">Welcome to [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]</span><span class="sxs-lookup"><span data-stu-id="15588-103">Welcome to [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]</span></span>
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
-<span data-ttu-id="d4f0e-104">If you are an accountant with several clients, you can use [!INCLUDE [d365acc](includes/d365acc_md.md)] as your dashboard for a better overview of your clients.</span><span class="sxs-lookup"><span data-stu-id="d4f0e-104">If you are an accountant with several clients, you can use [!INCLUDE [d365acc](includes/d365acc_md.md)] as your dashboard for a better overview of your clients.</span></span> <span data-ttu-id="d4f0e-105">From there, you can access each client's data.</span><span class="sxs-lookup"><span data-stu-id="d4f0e-105">From there, you can access each client's data.</span></span>  
+<span data-ttu-id="15588-104">If you are an accountant with several clients, you can use [!INCLUDE [d365acc](includes/d365acc_md.md)] as your dashboard for a better overview of your clients.</span><span class="sxs-lookup"><span data-stu-id="15588-104">If you are an accountant with several clients, you can use [!INCLUDE [d365acc](includes/d365acc_md.md)] as your dashboard for a better overview of your clients.</span></span> <span data-ttu-id="15588-105">From there, you can access each client's data.</span><span class="sxs-lookup"><span data-stu-id="15588-105">From there, you can access each client's data.</span></span>  
 
 > [!div class="mx-imgBorder"]
-> <span data-ttu-id="d4f0e-106">![Accountant Hub](./media/accountant-get-started/accountant-dashboard.png)</span><span class="sxs-lookup"><span data-stu-id="d4f0e-106">![Accountant Hub](./media/accountant-get-started/accountant-dashboard.png)</span></span>
+> <span data-ttu-id="15588-106">![Accountant Hub](./media/accountant-get-started/accountant-dashboard.png)</span><span class="sxs-lookup"><span data-stu-id="15588-106">![Accountant Hub](./media/accountant-get-started/accountant-dashboard.png)</span></span>
 
-<span data-ttu-id="d4f0e-107">You can get access to [!INCLUDE [d365acc](includes/d365acc_md.md)] by signing up from [Dynamics 365 — Accountant Hub on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants).</span><span class="sxs-lookup"><span data-stu-id="d4f0e-107">You can get access to [!INCLUDE [d365acc](includes/d365acc_md.md)] by signing up from [Dynamics 365 — Accountant Hub on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants).</span></span> <span data-ttu-id="d4f0e-108">It's free of charge, and it's quick to get started and add your clients to the dashboard.</span><span class="sxs-lookup"><span data-stu-id="d4f0e-108">It's free of charge, and it's quick to get started and add your clients to the dashboard.</span></span> <span data-ttu-id="d4f0e-109">For more information, see [Get Started with Accountant Hub](get-started.md).</span><span class="sxs-lookup"><span data-stu-id="d4f0e-109">For more information, see [Get Started with Accountant Hub](get-started.md).</span></span>  
+<span data-ttu-id="15588-107">You can get access to [!INCLUDE [d365acc](includes/d365acc_md.md)] by signing up from [Dynamics 365 — Accountant Hub on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants).</span><span class="sxs-lookup"><span data-stu-id="15588-107">You can get access to [!INCLUDE [d365acc](includes/d365acc_md.md)] by signing up from [Dynamics 365 — Accountant Hub on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants).</span></span> <span data-ttu-id="15588-108">It's free of charge, and it's quick to get started and add your clients to the dashboard.</span><span class="sxs-lookup"><span data-stu-id="15588-108">It's free of charge, and it's quick to get started and add your clients to the dashboard.</span></span> <span data-ttu-id="15588-109">For more information, see [Get Started with Accountant Hub](get-started.md).</span><span class="sxs-lookup"><span data-stu-id="15588-109">For more information, see [Get Started with Accountant Hub](get-started.md).</span></span>  
 
-<span data-ttu-id="d4f0e-110">In the current version of [!INCLUDE [d365acc](includes/d365acc_md.md)], you can add clients who use [!INCLUDE [d365fin](includes/d365fin_long_md.md)] to run their business.</span><span class="sxs-lookup"><span data-stu-id="d4f0e-110">In the current version of [!INCLUDE [d365acc](includes/d365acc_md.md)], you can add clients who use [!INCLUDE [d365fin](includes/d365fin_long_md.md)] to run their business.</span></span> <span data-ttu-id="d4f0e-111">For more information, see [Add clients to your dashboard](add-client.md).</span><span class="sxs-lookup"><span data-stu-id="d4f0e-111">For more information, see [Add clients to your dashboard](add-client.md).</span></span>  
+<span data-ttu-id="15588-110">In the current version of [!INCLUDE [d365acc](includes/d365acc_md.md)], you can add clients who use [!INCLUDE [d365fin](includes/d365fin_long_md.md)] to run their business.</span><span class="sxs-lookup"><span data-stu-id="15588-110">In the current version of [!INCLUDE [d365acc](includes/d365acc_md.md)], you can add clients who use [!INCLUDE [d365fin](includes/d365fin_long_md.md)] to run their business.</span></span> <span data-ttu-id="15588-111">For more information, see [Add clients to your dashboard](add-client.md).</span><span class="sxs-lookup"><span data-stu-id="15588-111">For more information, see [Add clients to your dashboard](add-client.md).</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="d4f0e-112">See Also</span><span class="sxs-lookup"><span data-stu-id="d4f0e-112">See Also</span></span>
-[<span data-ttu-id="d4f0e-113">Get Started with Accountant Hub</span><span class="sxs-lookup"><span data-stu-id="d4f0e-113">Get Started with Accountant Hub</span></span>](get-started.md)  
-
+## <a name="see-also"></a><span data-ttu-id="15588-112">See Also</span><span class="sxs-lookup"><span data-stu-id="15588-112">See Also</span></span>
+[<span data-ttu-id="15588-113">Get Started with Accountant Hub</span><span class="sxs-lookup"><span data-stu-id="15588-113">Get Started with Accountant Hub</span></span>](get-started.md)  
