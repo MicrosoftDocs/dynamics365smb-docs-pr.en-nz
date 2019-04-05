@@ -10,14 +10,13 @@ ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 5f22880f56cd2834c9bd92061f166cd457bc58c1
-ms.contentlocale: en-nz
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-NZ
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "822242"
 ---
-
 # <a name="setting-up-calculations-and-posting-methods-for-value-added-tax"></a>Setting Up Calculations and Posting Methods for Goods and Services Tax
 Consumers and businesses pay value-added tax (VAT) when they purchase goods or services. The amount of GST to pay can vary, depending on several factors. In [!INCLUDE[d365fin](includes/d365fin_md.md)], you set up VAT to specify the rates to use to calculate tax amounts based on the following:
 
@@ -55,8 +54,8 @@ To setup GST registration numbers, follow these steps:
     > [!Tip]
     > You can use other characters as long as they are always present in the country or region format. For example, if you need to include a period or a hyphen between sets of numbers, you can define the format as ##.####.### or @@-###-###.  
 
-## <a name="to-set-up-vat-business-posting-groups"></a>To set up GST business posting groups
-GST business posting groups should represent the markets in which you do business with customers and vendors, and define how to calculate and post GST in each market. Examples of VAT business posting groups are **Domestic** and **European Union (EU)**.  
+## <a name="to-set-up-vat-business-posting-groups"></a>To set up VAT business posting groups
+VAT business posting groups should represent the markets in which you do business with customers and vendors, and define how to calculate and post VAT in each market. Examples of VAT business posting groups are **Domestic** and **European Union (EU)**.  
 
 Use codes that are easy to remember and describe the business posting group, such as **EU**, **Non-EU**, or **Domestic**. The code must be unique. You can set up as many codes as you need, but you cannot have the same code more than once in a table.
 
@@ -271,4 +270,3 @@ You use the GST rate change tool to manage changes in the standard rate of GST. 
 [Setting Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md)  
 [How To: Report GST to a Tax Authority](finance-how-report-vat.md)  
 [Work with GST on Sales and Purchases](finance-work-with-vat.md)  
-
