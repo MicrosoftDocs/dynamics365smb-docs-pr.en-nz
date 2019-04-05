@@ -2,45 +2,44 @@
 title: How to Print Goods and Service Tax Settlement Reports
 description: Describes how to prepare and submit a periodic goods and services tax (GST) settlement.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 7e75c3298d0ff63117b32c6a2b86142bff48ed02
-ms.contentlocale: en-nz
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-NZ
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827041"
 ---
-# <a name="print-goods-and-service-tax-settlement-reports"></a><span data-ttu-id="91e4c-103">Print Goods and Service Tax Settlement Reports</span><span class="sxs-lookup"><span data-stu-id="91e4c-103">Print Goods and Service Tax Settlement Reports</span></span>
-<span data-ttu-id="91e4c-104">You must submit a periodic report of goods and services tax (GST) settlement.</span><span class="sxs-lookup"><span data-stu-id="91e4c-104">You must submit a periodic report of goods and services tax (GST) settlement.</span></span> <span data-ttu-id="91e4c-105">You can create this settlement from the **BAS Calc. Schedule List** page.</span><span class="sxs-lookup"><span data-stu-id="91e4c-105">You can create this settlement from the **BAS Calc. Schedule List** page.</span></span>  
+# <a name="print-goods-and-service-tax-settlement-reports"></a><span data-ttu-id="af9d9-103">Print Goods and Service Tax Settlement Reports</span><span class="sxs-lookup"><span data-stu-id="af9d9-103">Print Goods and Service Tax Settlement Reports</span></span>
+<span data-ttu-id="af9d9-104">You must submit a periodic report of goods and services tax (GST) settlement.</span><span class="sxs-lookup"><span data-stu-id="af9d9-104">You must submit a periodic report of goods and services tax (GST) settlement.</span></span> <span data-ttu-id="af9d9-105">You can create this settlement from the **BAS Calc. Schedule List** page.</span><span class="sxs-lookup"><span data-stu-id="af9d9-105">You can create this settlement from the **BAS Calc. Schedule List** page.</span></span>  
 
-### <a name="to-print-a-goods-and-service-tax-settlement"></a><span data-ttu-id="91e4c-106">To print a goods and service tax settlement</span><span class="sxs-lookup"><span data-stu-id="91e4c-106">To print a goods and service tax settlement</span></span>  
-1.  <span data-ttu-id="91e4c-107">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Calculate GST Statement**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="91e4c-107">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Calculate GST Statement**, and then choose the related link.</span></span>  
-2. <span data-ttu-id="91e4c-108">On the **Options** FastTab, fill in the fields as described in the following table.</span><span class="sxs-lookup"><span data-stu-id="91e4c-108">On the **Options** FastTab, fill in the fields as described in the following table.</span></span>  
+### <a name="to-print-a-goods-and-service-tax-settlement"></a><span data-ttu-id="af9d9-106">To print a goods and service tax settlement</span><span class="sxs-lookup"><span data-stu-id="af9d9-106">To print a goods and service tax settlement</span></span>  
+1.  <span data-ttu-id="af9d9-107">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Calculate GST Statement**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="af9d9-107">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Calculate GST Statement**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="af9d9-108">On the **Options** FastTab, fill in the fields as described in the following table.</span><span class="sxs-lookup"><span data-stu-id="af9d9-108">On the **Options** FastTab, fill in the fields as described in the following table.</span></span>  
 
-    |<span data-ttu-id="91e4c-109">Field</span><span class="sxs-lookup"><span data-stu-id="91e4c-109">Field</span></span>|<span data-ttu-id="91e4c-110">Description</span><span class="sxs-lookup"><span data-stu-id="91e4c-110">Description</span></span>|  
+    |<span data-ttu-id="af9d9-109">Field</span><span class="sxs-lookup"><span data-stu-id="af9d9-109">Field</span></span>|<span data-ttu-id="af9d9-110">Description</span><span class="sxs-lookup"><span data-stu-id="af9d9-110">Description</span></span>|  
     |---------------------------------|---------------------------------------|  
-    |<span data-ttu-id="91e4c-111">**Settlement Account Type**</span><span class="sxs-lookup"><span data-stu-id="91e4c-111">**Settlement Account Type**</span></span>|<span data-ttu-id="91e4c-112">The settlement account type.</span><span class="sxs-lookup"><span data-stu-id="91e4c-112">The settlement account type.</span></span>|  
-    |<span data-ttu-id="91e4c-113">**Settlement Account No.**</span><span class="sxs-lookup"><span data-stu-id="91e4c-113">**Settlement Account No.**</span></span>|<span data-ttu-id="91e4c-114">The general ledger account number or vendor number, based on the type selected in the **Settlement Account Type** field.</span><span class="sxs-lookup"><span data-stu-id="91e4c-114">The general ledger account number or vendor number, based on the type selected in the **Settlement Account Type** field.</span></span>|  
-    |<span data-ttu-id="91e4c-115">**Rounding G/L Account No.**</span><span class="sxs-lookup"><span data-stu-id="91e4c-115">**Rounding G/L Account No.**</span></span>|<span data-ttu-id="91e4c-116">The account to which the truncated cents will be posted.</span><span class="sxs-lookup"><span data-stu-id="91e4c-116">The account to which the truncated cents will be posted.</span></span>|  
-    |<span data-ttu-id="91e4c-117">**Posting Date**</span><span class="sxs-lookup"><span data-stu-id="91e4c-117">**Posting Date**</span></span>|<span data-ttu-id="91e4c-118">The posting date for the settlement entries.</span><span class="sxs-lookup"><span data-stu-id="91e4c-118">The posting date for the settlement entries.</span></span>|  
-    |<span data-ttu-id="91e4c-119">**Document No.**</span><span class="sxs-lookup"><span data-stu-id="91e4c-119">**Document No.**</span></span>|<span data-ttu-id="91e4c-120">The document number of the settlement entries.</span><span class="sxs-lookup"><span data-stu-id="91e4c-120">The document number of the settlement entries.</span></span>|  
-    |<span data-ttu-id="91e4c-121">**Description**</span><span class="sxs-lookup"><span data-stu-id="91e4c-121">**Description**</span></span>|<span data-ttu-id="91e4c-122">The settlement description.</span><span class="sxs-lookup"><span data-stu-id="91e4c-122">The settlement description.</span></span>|  
-    |<span data-ttu-id="91e4c-123">**Post**</span><span class="sxs-lookup"><span data-stu-id="91e4c-123">**Post**</span></span>|<span data-ttu-id="91e4c-124">Select to post the withholding tax settlement entries.</span><span class="sxs-lookup"><span data-stu-id="91e4c-124">Select to post the withholding tax settlement entries.</span></span>|  
-    |<span data-ttu-id="91e4c-125">**Inter Company**</span><span class="sxs-lookup"><span data-stu-id="91e4c-125">**Inter Company**</span></span>|<span data-ttu-id="91e4c-126">Select if the posting is inter company.</span><span class="sxs-lookup"><span data-stu-id="91e4c-126">Select if the posting is inter company.</span></span>|  
+    |<span data-ttu-id="af9d9-111">**Settlement Account Type**</span><span class="sxs-lookup"><span data-stu-id="af9d9-111">**Settlement Account Type**</span></span>|<span data-ttu-id="af9d9-112">The settlement account type.</span><span class="sxs-lookup"><span data-stu-id="af9d9-112">The settlement account type.</span></span>|  
+    |<span data-ttu-id="af9d9-113">**Settlement Account No.**</span><span class="sxs-lookup"><span data-stu-id="af9d9-113">**Settlement Account No.**</span></span>|<span data-ttu-id="af9d9-114">The general ledger account number or vendor number, based on the type selected in the **Settlement Account Type** field.</span><span class="sxs-lookup"><span data-stu-id="af9d9-114">The general ledger account number or vendor number, based on the type selected in the **Settlement Account Type** field.</span></span>|  
+    |<span data-ttu-id="af9d9-115">**Rounding G/L Account No.**</span><span class="sxs-lookup"><span data-stu-id="af9d9-115">**Rounding G/L Account No.**</span></span>|<span data-ttu-id="af9d9-116">The account to which the truncated cents will be posted.</span><span class="sxs-lookup"><span data-stu-id="af9d9-116">The account to which the truncated cents will be posted.</span></span>|  
+    |<span data-ttu-id="af9d9-117">**Posting Date**</span><span class="sxs-lookup"><span data-stu-id="af9d9-117">**Posting Date**</span></span>|<span data-ttu-id="af9d9-118">The posting date for the settlement entries.</span><span class="sxs-lookup"><span data-stu-id="af9d9-118">The posting date for the settlement entries.</span></span>|  
+    |<span data-ttu-id="af9d9-119">**Document No.**</span><span class="sxs-lookup"><span data-stu-id="af9d9-119">**Document No.**</span></span>|<span data-ttu-id="af9d9-120">The document number of the settlement entries.</span><span class="sxs-lookup"><span data-stu-id="af9d9-120">The document number of the settlement entries.</span></span>|  
+    |<span data-ttu-id="af9d9-121">**Description**</span><span class="sxs-lookup"><span data-stu-id="af9d9-121">**Description**</span></span>|<span data-ttu-id="af9d9-122">The settlement description.</span><span class="sxs-lookup"><span data-stu-id="af9d9-122">The settlement description.</span></span>|  
+    |<span data-ttu-id="af9d9-123">**Post**</span><span class="sxs-lookup"><span data-stu-id="af9d9-123">**Post**</span></span>|<span data-ttu-id="af9d9-124">Select to post the withholding tax settlement entries.</span><span class="sxs-lookup"><span data-stu-id="af9d9-124">Select to post the withholding tax settlement entries.</span></span>|  
+    |<span data-ttu-id="af9d9-125">**Inter Company**</span><span class="sxs-lookup"><span data-stu-id="af9d9-125">**Inter Company**</span></span>|<span data-ttu-id="af9d9-126">Select if the posting is inter company.</span><span class="sxs-lookup"><span data-stu-id="af9d9-126">Select if the posting is inter company.</span></span>|  
 
-4. <span data-ttu-id="91e4c-127">On the **BAS Calculation Sheet** FastTab, select the appropriate filters.</span><span class="sxs-lookup"><span data-stu-id="91e4c-127">On the **BAS Calculation Sheet** FastTab, select the appropriate filters.</span></span>  
-5. <span data-ttu-id="91e4c-128">Choose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.</span><span class="sxs-lookup"><span data-stu-id="91e4c-128">Choose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.</span></span>  
+4. <span data-ttu-id="af9d9-127">On the **BAS Calculation Sheet** FastTab, select the appropriate filters.</span><span class="sxs-lookup"><span data-stu-id="af9d9-127">On the **BAS Calculation Sheet** FastTab, select the appropriate filters.</span></span>  
+5. <span data-ttu-id="af9d9-128">Choose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.</span><span class="sxs-lookup"><span data-stu-id="af9d9-128">Choose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="91e4c-129">See Also</span><span class="sxs-lookup"><span data-stu-id="91e4c-129">See Also</span></span>  
-[<span data-ttu-id="91e4c-130">Set Up Goods and Service Tax Posting</span><span class="sxs-lookup"><span data-stu-id="91e4c-130">Set Up Goods and Service Tax Posting</span></span>](how-to-set-up-goods-and-service-tax-posting.md)   
-
+## <a name="see-also"></a><span data-ttu-id="af9d9-129">See Also</span><span class="sxs-lookup"><span data-stu-id="af9d9-129">See Also</span></span>  
+[<span data-ttu-id="af9d9-130">Set Up Goods and Service Tax Posting</span><span class="sxs-lookup"><span data-stu-id="af9d9-130">Set Up Goods and Service Tax Posting</span></span>](how-to-set-up-goods-and-service-tax-posting.md)   
 
