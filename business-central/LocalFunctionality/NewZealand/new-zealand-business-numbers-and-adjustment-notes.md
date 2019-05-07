@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 840db7d620ff0dc68399428ec655afc5e2184416
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 265ea4561162d5d2bc377eb0e3a84915a0cdee78
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "827034"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "939171"
 ---
 # <a name="new-zealand-inland-revenue-department-numbers-and-adjustment-notes"></a>New Zealand Inland Revenue Department Numbers and Adjustment Notes
 A New Zealand Inland Revenue Department Number (IRD) is a single identifier for all business dealings with the tax office, and for dealings with other government departments and agencies.  

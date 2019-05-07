@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e0674c0c308cd83de8a6977e05445c22009f513c
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 3bf24a32ba4a411ada744092d594b874c0154588
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "821904"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "930817"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Plan Put-aways in Worksheets
 If your location requires both put-away and receive processing, and you want to plan put-away instructions for a number of receipts, rather than have employees follow the instructions that the program creates for separate posted receipts, you can use the put-away worksheet.  
@@ -58,7 +58,7 @@ If you do not select this field, the program will automatically create put-away 
 
     -   You can assign the put-away to a specific employee.  
     -   You can sort the put-away instruction lines as you did in the worksheet or by bin ranking. When you sort according to bin ranking, the Take lines appear first, since most receipt bins have a 0 bin ranking, and the Place lines appear last, starting with the bins with the lowest bin ranking. If you have structured your warehouse so bins of similar bin ranking are side by side, sorting lines in this way will ultimately save steps for your warehouse employees.  
-    -   You can choose not to see the intermediate lines created when the program breaks a larger unit of measure to smaller units of measure by selecting the **Set Breakbulk Filter** field. For more information, see [Enable Automatic Breaking Bulk with Directed Put-away and Pick](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
+    -   You can choose not to see the intermediate lines created when the programme breaks a larger unit of measure to smaller units of measure by selecting the **Set Breakbulk Filter** field. For more information, see [Enable Automatic Breaking Bulk with Directed Put-away and Pick](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
     -   You can choose not to have the **Qty. to Handle** field automatically filled in on the put-away instructions.  
     -   You can choose to print the document immediately.  
 

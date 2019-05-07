@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 6a3394cce257e7016ba97f468257912567ff2c72
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 037fa53d38a4fd43b0d650fe107127152b2923b8
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "827073"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "941199"
 ---
 # <a name="view-posted-tax-invoices"></a>View Posted Tax Invoices
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use the **Posted Sales Tax Invoice** page and the **Posted Purchase Tax Invoice** page to view the details of posted sales tax invoices and posted purchase tax invoices.  
