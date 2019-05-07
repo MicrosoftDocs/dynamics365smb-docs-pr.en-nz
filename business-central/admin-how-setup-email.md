@@ -9,34 +9,34 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 9eb056bc98298a31833d205862d2d9bfeba04218
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: b7f41e3630b818607dee18ad2b8afe6ba5daa3de
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "822627"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "939168"
 ---
-# <a name="set-up-email-manually-or-using-the-assisted-setup"></a><span data-ttu-id="be222-103">Set Up Email Manually or Using the Assisted Setup</span><span class="sxs-lookup"><span data-stu-id="be222-103">Set Up Email Manually or Using the Assisted Setup</span></span>
-<span data-ttu-id="be222-104">To send and receive emails from within [!INCLUDE[d365fin](includes/d365fin_md.md)], you must fill in the fields on the **SMTP Mail Setup** page.</span><span class="sxs-lookup"><span data-stu-id="be222-104">To send and receive emails from within [!INCLUDE[d365fin](includes/d365fin_md.md)], you must fill in the fields on the **SMTP Mail Setup** page.</span></span>
+# <a name="set-up-email-manually-or-using-the-assisted-setup"></a><span data-ttu-id="12bc2-103">Set Up Email Manually or Using the Assisted Setup</span><span class="sxs-lookup"><span data-stu-id="12bc2-103">Set Up Email Manually or Using the Assisted Setup</span></span>
+<span data-ttu-id="12bc2-104">To send and receive emails from within [!INCLUDE[d365fin](includes/d365fin_md.md)], you must fill in the fields on the **SMTP Mail Setup** page.</span><span class="sxs-lookup"><span data-stu-id="12bc2-104">To send and receive emails from within [!INCLUDE[d365fin](includes/d365fin_md.md)], you must fill in the fields on the **SMTP Mail Setup** page.</span></span>
 
 > [!NOTE]  
->   <span data-ttu-id="be222-105">Instead of entering the SMTP server details, you can use a function to enter them with information from your Office 365 subscription.</span><span class="sxs-lookup"><span data-stu-id="be222-105">Instead of entering the SMTP server details, you can use a function to enter them with information from your Office 365 subscription.</span></span>
+>   <span data-ttu-id="12bc2-105">Instead of entering the SMTP server details, you can use a function to enter them with information from your Office 365 subscription.</span><span class="sxs-lookup"><span data-stu-id="12bc2-105">Instead of entering the SMTP server details, you can use a function to enter them with information from your Office 365 subscription.</span></span>
 
-<span data-ttu-id="be222-106">You can either set email up manually or you can get help by using the **Email Setup** assisted setup.</span><span class="sxs-lookup"><span data-stu-id="be222-106">You can either set email up manually or you can get help by using the **Email Setup** assisted setup.</span></span> <span data-ttu-id="be222-107">For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md).</span><span class="sxs-lookup"><span data-stu-id="be222-107">For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md).</span></span>  
+<span data-ttu-id="12bc2-106">You can either set email up manually or you can get help by using the **Email Setup** assisted setup guide.</span><span class="sxs-lookup"><span data-stu-id="12bc2-106">You can either set email up manually or you can get help by using the **Email Setup** assisted setup guide.</span></span> <span data-ttu-id="12bc2-107">For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md).</span><span class="sxs-lookup"><span data-stu-id="12bc2-107">For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md).</span></span>  
 
-## <a name="to-set-up-email"></a><span data-ttu-id="be222-108">To set up email</span><span class="sxs-lookup"><span data-stu-id="be222-108">To set up email</span></span>
-1. <span data-ttu-id="be222-109">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="be222-109">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.</span></span>
-2. <span data-ttu-id="be222-110">Fill in the fields as necessary.</span><span class="sxs-lookup"><span data-stu-id="be222-110">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. <span data-ttu-id="be222-111">Alternatively, choose the **Apply Office 365 Server Settings** action to insert any information that is already defined for your Office 365 subscription.</span><span class="sxs-lookup"><span data-stu-id="be222-111">Alternatively, choose the **Apply Office 365 Server Settings** action to insert any information that is already defined for your Office 365 subscription.</span></span>
-4. <span data-ttu-id="be222-112">When all the fields are correctly filled in, choose the **Test Email Setup** action.</span><span class="sxs-lookup"><span data-stu-id="be222-112">When all the fields are correctly filled in, choose the **Test Email Setup** action.</span></span>
-5. <span data-ttu-id="be222-113">When the test succeeds, close the page.</span><span class="sxs-lookup"><span data-stu-id="be222-113">When the test succeeds, close the page.</span></span>
+## <a name="to-set-up-email"></a><span data-ttu-id="12bc2-108">To set up email</span><span class="sxs-lookup"><span data-stu-id="12bc2-108">To set up email</span></span>
+1. <span data-ttu-id="12bc2-109">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="12bc2-109">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.</span></span>
+2. <span data-ttu-id="12bc2-110">Fill in the fields as necessary.</span><span class="sxs-lookup"><span data-stu-id="12bc2-110">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="12bc2-111">Alternatively, choose the **Apply Office 365 Server Settings** action to insert any information that is already defined for your Office 365 subscription.</span><span class="sxs-lookup"><span data-stu-id="12bc2-111">Alternatively, choose the **Apply Office 365 Server Settings** action to insert any information that is already defined for your Office 365 subscription.</span></span>
+4. <span data-ttu-id="12bc2-112">When all the fields are correctly filled in, choose the **Test Email Setup** action.</span><span class="sxs-lookup"><span data-stu-id="12bc2-112">When all the fields are correctly filled in, choose the **Test Email Setup** action.</span></span>
+5. <span data-ttu-id="12bc2-113">When the test succeeds, close the page.</span><span class="sxs-lookup"><span data-stu-id="12bc2-113">When the test succeeds, close the page.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="be222-114">See Also</span><span class="sxs-lookup"><span data-stu-id="be222-114">See Also</span></span>  
-<span data-ttu-id="be222-115">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="be222-115">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
-<span data-ttu-id="be222-116">[Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)</span><span class="sxs-lookup"><span data-stu-id="be222-116">[Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)</span></span>  
-[<span data-ttu-id="be222-117">Send Documents by Email</span><span class="sxs-lookup"><span data-stu-id="be222-117">Send Documents by Email</span></span>](ui-how-send-documents-email.md)  
-<span data-ttu-id="be222-118">[Customising [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)</span><span class="sxs-lookup"><span data-stu-id="be222-118">[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)</span></span>  
-<span data-ttu-id="be222-119">[Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as Your Business Inbox in Outlook](admin-outlook.md)</span><span class="sxs-lookup"><span data-stu-id="be222-119">[Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as Your Business Inbox in Outlook](admin-outlook.md)</span></span>  
-<span data-ttu-id="be222-120">[Getting [!INCLUDE[d365fin](includes/d365fin_md.md)] on My Mobile Device](install-mobile-app.md)</span><span class="sxs-lookup"><span data-stu-id="be222-120">[Getting [!INCLUDE[d365fin](includes/d365fin_md.md)] on My Mobile Device](install-mobile-app.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="12bc2-114">See Also</span><span class="sxs-lookup"><span data-stu-id="12bc2-114">See Also</span></span>  
+<span data-ttu-id="12bc2-115">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="12bc2-115">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+<span data-ttu-id="12bc2-116">[Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)</span><span class="sxs-lookup"><span data-stu-id="12bc2-116">[Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)</span></span>  
+[<span data-ttu-id="12bc2-117">Send Documents by Email</span><span class="sxs-lookup"><span data-stu-id="12bc2-117">Send Documents by Email</span></span>](ui-how-send-documents-email.md)  
+<span data-ttu-id="12bc2-118">[Customising [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)</span><span class="sxs-lookup"><span data-stu-id="12bc2-118">[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)</span></span>  
+<span data-ttu-id="12bc2-119">[Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as Your Business Inbox in Outlook](admin-outlook.md)</span><span class="sxs-lookup"><span data-stu-id="12bc2-119">[Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as Your Business Inbox in Outlook](admin-outlook.md)</span></span>  
+<span data-ttu-id="12bc2-120">[Getting [!INCLUDE[d365fin](includes/d365fin_md.md)] on My Mobile Device](install-mobile-app.md)</span><span class="sxs-lookup"><span data-stu-id="12bc2-120">[Getting [!INCLUDE[d365fin](includes/d365fin_md.md)] on My Mobile Device](install-mobile-app.md)</span></span>
