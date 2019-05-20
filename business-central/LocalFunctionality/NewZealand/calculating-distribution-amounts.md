@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 55404f420cd0e58cefb4ab95bb423beffe14089b
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "919241"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241469"
 ---
 # <a name="calculating-distribution-amounts"></a>Calculating Distribution Amounts
 You can reallocate the amount in one general ledger account to other general ledger accounts so that the balances of your accounts remain proportionate to one another.  

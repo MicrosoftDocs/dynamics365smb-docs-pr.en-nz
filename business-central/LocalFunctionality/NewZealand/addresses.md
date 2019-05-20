@@ -1,23 +1,22 @@
 ---
 title: Addresses in New Zealand
 description: A single postcode can include multiple cities in the same region.
-services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 07/01/2017
 ms.author: sgroespe
 ms.openlocfilehash: 56c418a899102e05c09fcdf8da9e26e6a1ba5f65
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "910951"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245752"
 ---
 # <a name="addresses"></a>Addresses
 A single postcode can include multiple cities in the same region.  

@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: b421531f75d12e0c06cbbbb8b2f299ec3e0189a2
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917495"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245987"
 ---
 # <a name="print-income-statements"></a>Print Income Statements
 You can use the **Income Statement** report to view the company’s annual income statement. This is a legal report that is required for auditing accounts. This report displays the details of revenues and expenses for the current year and the previous year.  

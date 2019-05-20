@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 226642edf41d45dfc125b38bdd8a97d9350378e1
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "914466"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246002"
 ---
 # <a name="print-balance-sheet-reports"></a>Print Balance Sheet Reports
 You can use the **Balance Sheet** report to view the company’s balance sheet. This is a legal report that is required for auditing accounts. You can use this report to view assets and liabilities.  

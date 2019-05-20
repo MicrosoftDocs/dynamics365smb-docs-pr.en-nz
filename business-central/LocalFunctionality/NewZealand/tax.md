@@ -12,12 +12,13 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 07c1458d6436f66ee9799e027be18da9fec41158
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+redirect_url: new-zealand-local-functionality
+ms.openlocfilehash: b59e642ba298f66a40a2d5b0fb1f4e33cb35ca0e
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "911498"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446732"
 ---
 # <a name="tax"></a>Tax
 For information about tax in New Zealand, see the following topics:  

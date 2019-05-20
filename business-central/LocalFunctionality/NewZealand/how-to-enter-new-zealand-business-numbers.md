@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 642665011e89c35ec066f175b2f19f732382d8d9
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917352"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241681"
 ---
 # <a name="enter-new-zealand-inland-revenue-department-numbers"></a>Enter New Zealand Inland Revenue Department Numbers
 You can enter an New Zealand Inland Revenue Department Number (IRD) in the following pages:  
