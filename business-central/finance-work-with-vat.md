@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
-ms.date: 04/01/2019
+ms.date: 07/24/2019
 ms.author: bholtorf
-ms.openlocfilehash: 1665985ba00b291469146536a69a0dcfe9dec85a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 09aa4b5f6e08265e49a02e3014ffe6724edfcffd
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238916"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796865"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Work with GST on Sales and Purchases
 If your country or region requires you to calculate value-added tax (VAT) on sales and purchase transactions so that you can report the amounts to a tax authority, you can set up [!INCLUDE[d365fin](includes/d365fin_md.md)] to calculate VAT automatically on sales and purchase documents. For more information, see [Setting Up to Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md).
@@ -27,12 +27,12 @@ There are, however, some GST-related tasks that you can do manually. For example
 ## <a name="calculating-and-displaying-vat-amounts-in-sales-and-purchase-documents"></a>Calculating and Displaying GST Amounts in Sales and Purchase Documents  
 You can calculate and display GST amounts in sales and purchase documents differently, depending on the type of customer or vendor that you are dealing with. You can also override the calculated GST amount to match the GST amount calculated by your vendor on a given transaction.  
 
-### <a name="unit-price-and-line-amount-includingexcluding-vat-on-sales-documents"></a>Unit Price and Line Amount Including/Excluding GST on sales documents  
+### <a name="unit-price-and-line-amount-includingexcluding-vat-on-sales-documents"></a>Unit Price and Line Amount Including/Excluding GST on Sales Documents  
 When you choose an item number in the **No.** field on a sales document, [!INCLUDE[d365fin](includes/d365fin_md.md)] fills in the **Unit Price** field. The unit price comes from either the **Item** card or the item prices allowed for the item and customer. [!INCLUDE[d365fin](includes/d365fin_md.md)]calculates the **Line Amount** when you enter a quantity for the line.  
 
 If you are selling to retail consumers, you may want prices on sales documents to include GST. To do this, choose the **Prices Including GST** check box on the document.  
 
-### <a name="including-or-excluding-vat-on-prices"></a>Including or excluding GST on prices
+### <a name="including-or-excluding-vat-on-prices"></a>Including or Excluding GST on Prices
 If the **Prices Including GST** check box is chosen on a sales document, the **Unit Price** and **Line Amount** fields include GST, and the field names will also reflect this. By default, GST is not included in these fields.  
 
 If the field is not selected, the program will fill in the **Unit Price** and **Line Amount** field excluding GST and the field names will reflect this.  
@@ -55,34 +55,42 @@ Although you may have set up one or more combinations to handle import GST, you 
 
 If a payment discount has been calculated on the basis of an invoice amount that includes GST, you revert the payment discount part of the GST amount when the payment discount is granted. Note that you must activate the **Adjust for Payments Disc.** field in both the general ledger setup in general and the GST posting setup for specific combinations of a GST business posting group and a GST product posting group.  
 
-#### <a name="to-manually-enter-vat-in-sales-documents"></a>To manually enter GST in sales documents  
+### <a name="to-set-the-system-up-for-manual-vat-entry-in-sales-documents"></a>To set the system up for manual GST entry in sales documents
+The following describes how to enable manual GST changes on sales documents. The steps are similar on the **Purchases & Payables Setup** page.
+
 1. On the **General Ledger Setup** page, specify a **Max. GST Difference Allowed** between the amount calculated by the program and the manual amount.  
 2. On the **Sales & Receivables Setup** page, place a check mark in the **Allow Vat Difference** field.  
 
-#### <a name="to-adjust-vat-for-a-sales-document"></a>To adjust GST for a sales document  
+### <a name="to-adjust-vat-for-a-sales-document"></a>To adjust GST for a sales document  
 1. Open the relevant sales order.  
 2. Choose the **Statistics** action.  
-3. Choose the **Invoicing** FastTab.  
+3. On the **Invoicing** FastTab, choose the value in the **No. of Tax Lines** field.
+4. Edit the **GST Amount** field.   
 
-    > [!NOTE]  
-    >  The total GST amount for the invoice, grouped by GST identifier, is displayed in the lines. You can manually adjust the amount in the **GST Amount** field on the lines for each GST identifier. When you modify the **GST Amount** field, the program checks to ensure that you have not changed the GST by more than the amount you have specified as the maximum difference allowed. If the amount is outside the range of the **Max. GST Difference Allowed**, a warning will be displayed stating the maximum allowed difference. You will be unable to proceed until the amount is adjusted to within the acceptable parameters. Click **OK** and enter another **GST Amount** that is within the allowed range. If the GST difference is equal to or lower than the maximum allowed, the GST will be divided proportionally among the document lines that have the same GST identifier.  
+> [!NOTE]  
+> The total GST amount for the invoice, grouped by GST identifier, is displayed in the lines. You can manually adjust the amount in the **GST Amount** field on the lines for each GST identifier. When you modify the **GST Amount** field, the program checks to ensure that you have not changed the GST by more than the amount you have specified as the maximum difference allowed. If the amount is outside the range of the **Max. GST Difference Allowed**, a warning will be displayed stating the maximum allowed difference. You will be unable to proceed until the amount is adjusted to within the acceptable parameters. Click **OK** and enter another **GST Amount** that is within the allowed range. If the GST difference is equal to or lower than the maximum allowed, the GST will be divided proportionally among the document lines that have the same GST identifier.  
 
 ## <a name="calculating-vat-manually-using-journals"></a>Calculating GST Manually Using Journals  
 You can also adjust GST amounts in general, sales, and purchase journals. For example, you might need to do this when you enter a vendor invoice in your journal and there is a difference between the GST amount that [!INCLUDE[d365fin](includes/d365fin_md.md)] calculated and the GST amount on the vendor's invoice.  
 
-#### <a name="before-you-manually-enter-vat-on-a-general-journal"></a>Before you manually enter GST on a general journal  
+### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-general-journals"></a>To set the system up for manual GST entry in a general journals
+You must perform the following steps before you manually enter GST in a general journal.  
+
 1. On the **General Ledger Setup** page, specify a **Max. GST Difference Allowed** between the amount calculated by the program and the manual amount.  
 2. On the **General Journal Templates** page, choose the **Allow GST Difference** check box for the relevant journal.  
 
-#### <a name="before-you-manually-enter-vat-on-sales-and-purchase-journals"></a>Before you manually enter GST on sales and purchase journals  
-1. On the **Purchases & Payables Setup** page, choose the **Allow VAT Difference** check box.  
-2. After you complete the setup described above, you can adjust the **GST Amount** field on the general journal line, or the **Bal. GST Amount** field on the sales or purchase journal line. [!INCLUDE[d365fin](includes/d365fin_md.md)] will check that the difference is not greater than the specified maximum.  
+### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-sales-and-purchase-journals"></a>To set the system up for manual GST entry in a sales and purchase journals
+You must perform the following steps before you manually enter GST in a sales or purchase journal.
+
+1. On the **Purchases & Payables Setup** page, choose the **Allow GST Difference** check box.  
+2. Repeat step 1 for the **Sales & Receivables Setup** page.
+3. After you complete the setup described above, you can adjust the **GST Amount** field on the general journal line, or the **Bal. GST Amount** field on the sales or purchase journal line. [!INCLUDE[d365fin](includes/d365fin_md.md)] will check that the difference is not greater than the specified maximum.  
 
     > [!NOTE]  
     > If the difference is greater, a warning will be displayed stating the maximum allowed difference. To continue, you must adjust the amount. Choose **OK** and then enter an amount that is within the allowed range. If the GST difference is equal to or lower than the maximum allowed, [!INCLUDE[d365fin](includes/d365fin_md.md)] will show the difference in the **GST Difference** field.  
 
-## <a name="to-post-import-vat-with-purchase-invoices"></a>To post import GST with purchase invoices
-Instead of using a general journal to post an import GST invoice, you can use a purchase invoice.  
+## <a name="posting-import-vat-with-purchase-invoices"></a>Posting Import GST with Purchase Invoices
+Instead of using journals to post an import GST invoice, you can use a purchase invoice.  
 
 ### <a name="to-set-up-purchasing-for-posting-import-vat-invoices"></a>To set up purchasing for posting import GST invoices  
 1. Set up a vendor card for the import authority that sends you the import GST invoice. The **Gen. Bus. Posting Group** and **GST Bus. Posting Group** must be set up in the same way as the general ledger account for the import GST.  
@@ -102,7 +110,7 @@ Instead of using a general journal to post an import GST invoice, you can use a 
 6. In the **Direct Unit Cost Excl. GST** field, specify the GST amount.  
 7. Post the invoice.  
 
-## <a name="to-process-certificates-of-supply"></a>To process certificates of supply
+## <a name="processing-certificates-of-supply"></a>Processing Certificates of Supply
 When you sell goods to a customer in another EU country/region, you must send the customer a certificate of supply that the customer must sign and return to you. The following procedures are for processing certificates of supply for sales shipments, but the same steps apply for service shipments of items, and return shipments to vendors.  
 
 ### <a name="to-view-certificate-of-supply-details"></a>To view certificate of supply details  
