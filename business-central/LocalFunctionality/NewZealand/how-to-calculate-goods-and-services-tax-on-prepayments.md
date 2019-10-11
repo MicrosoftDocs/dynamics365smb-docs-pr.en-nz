@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 53a10c07e8c12e11afdc23f6ee00f1a99e785547
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 975eef43c48ef334214497ea9900502fc6329750
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241684"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301262"
 ---
 # <a name="calculate-goods-and-services-tax-on-prepayments"></a>Calculate Goods and Services Tax on Prepayments
 When a partial payment or prepayment is made, you must calculate Goods and Services Tax (GST) for that partial payment or prepayment based on the total invoice amount, instead of on a partial amount. If you account for GST on a non-cash basis, you must report and pay GST on payments during the period in which you receive partial payment or issue a tax invoice for payment.  

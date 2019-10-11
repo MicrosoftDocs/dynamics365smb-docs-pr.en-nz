@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 226642edf41d45dfc125b38bdd8a97d9350378e1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: dd046b7c4e724182884ee727f4b7e8d041dd5d79
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246002"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300059"
 ---
 # <a name="print-balance-sheet-reports"></a>Print Balance Sheet Reports
 You can use the **Balance Sheet** report to view the company’s balance sheet. This is a legal report that is required for auditing accounts. You can use this report to view assets and liabilities.  

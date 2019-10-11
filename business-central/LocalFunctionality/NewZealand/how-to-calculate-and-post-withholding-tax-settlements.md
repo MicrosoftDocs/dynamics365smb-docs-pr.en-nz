@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 8038e536ef89d0faabe6e63eed52e74a8fb08615
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 193da69b152eb8c228b88ac695ebe091bea16ed1
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246010"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300110"
 ---
 # <a name="calculate-and-post-withholding-tax-settlements"></a>Calculate and Post Withholding Tax Settlements
 You can use the **Calc. and Post WHT Settlement** page to calculate and post the withholding tax (WHT). You can close WHT entries that are open or not settled and transfer the corresponding amount to the WHT settlement account.  

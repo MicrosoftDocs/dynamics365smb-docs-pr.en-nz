@@ -5,14 +5,14 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: New Zealand, local functionality
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: f61c1f85e9e29994ade848ab06015d26011cec43
-ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
+ms.openlocfilehash: 6e5d9eb45fd63d325c49032320c2ff91582565a3
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1594211"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301250"
 ---
 # <a name="new-zealand-local-functionality"></a>New Zealand Local Functionality
 The following topics describe local functionality that is unique to the New Zealand version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
