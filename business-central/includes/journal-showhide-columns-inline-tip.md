@@ -2,13 +2,13 @@
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: include
-ms.date: 07/09/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: ab1d38714a34ad3ab862607259e2b121a24dd821
-ms.sourcegitcommit: 8c0d734c7202fec81da79c7db382243aa49e37f6
+ms.openlocfilehash: 65e0ef4a2f69bd74fc2f5e0151e0bd4f61543dd3
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 07/10/2019
-ms.locfileid: "1737044"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302335"
 ---
-<span data-ttu-id="c6c46-101">The general journal only shows a limited number of fields on the journal line by default.</span><span class="sxs-lookup"><span data-stu-id="c6c46-101">The general journal only shows a limited number of fields on the journal line by default.</span></span> <span data-ttu-id="c6c46-102">If you want to see additional fields, such as the **Account Type** field, choose the **Show More Columns** action.</span><span class="sxs-lookup"><span data-stu-id="c6c46-102">If you want to see additional fields, such as the **Account Type** field, choose the **Show More Columns** action.</span></span> <span data-ttu-id="c6c46-103">To hide the additional fields again, choose the **Show Fewer Columns** action.</span><span class="sxs-lookup"><span data-stu-id="c6c46-103">To hide the additional fields again, choose the **Show Fewer Columns** action.</span></span> <span data-ttu-id="c6c46-104">When you see fewer columns, then the same posting date is used for all lines.</span><span class="sxs-lookup"><span data-stu-id="c6c46-104">When you see fewer columns, then the same posting date is used for all lines.</span></span> <span data-ttu-id="c6c46-105">If you want to have multiple posting dates for the same journal entry, choose the **Show More Columns** action.</span><span class="sxs-lookup"><span data-stu-id="c6c46-105">If you want to have multiple posting dates for the same journal entry, choose the **Show More Columns** action.</span></span>  
+<span data-ttu-id="04a90-101">The general journal only shows a limited number of fields on the journal line by default.</span><span class="sxs-lookup"><span data-stu-id="04a90-101">The general journal only shows a limited number of fields on the journal line by default.</span></span> <span data-ttu-id="04a90-102">If you want to see additional fields, such as the **Account Type** field, choose the **Show More Columns** action.</span><span class="sxs-lookup"><span data-stu-id="04a90-102">If you want to see additional fields, such as the **Account Type** field, choose the **Show More Columns** action.</span></span> <span data-ttu-id="04a90-103">To hide the additional fields again, choose the **Show Fewer Columns** action.</span><span class="sxs-lookup"><span data-stu-id="04a90-103">To hide the additional fields again, choose the **Show Fewer Columns** action.</span></span> <span data-ttu-id="04a90-104">When you see fewer columns, then the same posting date is used for all lines.</span><span class="sxs-lookup"><span data-stu-id="04a90-104">When you see fewer columns, then the same posting date is used for all lines.</span></span> <span data-ttu-id="04a90-105">If you want to have multiple posting dates for the same journal entry, choose the **Show More Columns** action.</span><span class="sxs-lookup"><span data-stu-id="04a90-105">If you want to have multiple posting dates for the same journal entry, choose the **Show More Columns** action.</span></span>  
