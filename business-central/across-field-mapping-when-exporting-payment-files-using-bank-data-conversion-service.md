@@ -1,6 +1,6 @@
 ---
 title: Field mapping for exporting bank payment files | Microsoft Docs
-description: When you export payment files using the Bank Data Conversion Service feature, the data that you export is exposed to the provider of the bank data conversion service.
+description: When you export payment files using the AMC Banking 365 Fundamentals extension, the data that you export is exposed to the service provider.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ca6b3722220e008a3a8132054eed7ba29afd11f3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 49ed61472966ca06f996296d3d97365a6c223983
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300537"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692644"
 ---
-# <a name="field-mapping-when-exporting-payment-files-using-bank-data-conversion-service"></a>Field Mapping When Exporting Payment Files Using Bank Data Conversion Service
-When you export payment files using the Bank Data Conversion Service feature, the data that you export is exposed to the provider of the bank data conversion service. The service provider is responsible for the privacy of this data. For more information about how the Bank Data Conversion Service feature works, see [About the Data Exchange Framework](across-about-the-data-exchange-framework.md).  
+# <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Field Mapping When Exporting Payment Files Using the AMC Banking 365 Fundamentals extension
+When you export payment files using the AMC Banking 365 Fundamentals extension, the data that you export is exposed to the service provider. The service provider is responsible for the privacy of this data. For more information about the AMC Banking 365 Fundamentals extension, see [Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md).  
 
 > [!CAUTION]  
->  When you export payment files by using the Bank Data Conversion Service feature, some of your business data will be exposed to the provider of the service. The service provider, AMC Consult A/S, is responsible for the privacy of this data. For more information, see [AMC Privacy Policy](https://go.microsoft.com/fwlink/?LinkId=510158).  
+>  When you export payment files by using the AMC Banking 365 Fundamentals extension, some of your business data will be exposed to the provider of the service. The service provider, AMC Consult A/S, is responsible for the privacy of this data. For more information, see [AMC Privacy Policy](https://go.microsoft.com/fwlink/?LinkId=510158).  
 
-The following table lists the fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] from which data can be exported to the service provider.  
+The following table lists the fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] from which you can export data.  
 
 |Mapped Field|Field in Table|Table|Description|  
 |------------------|--------------------|-----------|---------------------------------------|  
@@ -65,10 +65,10 @@ The following table lists the fields in [!INCLUDE[d365fin](includes/d365fin_md.m
 |Sender Bank Post Code|Post Code|Bank Account|The sender bank account post code that is specified on the bank account card|  
 |General Journal Template|Journal Template Name|General Journal Line|The general journal template that is used for the payment line|  
 |General Journal Batch Name|Journal Batch Name|General Journal Line|The general journal batch name that is used for the payment line|  
-|Sender Bank Name - Data Conv.|Bank Name – Data Conv.|Bank Account|The sender bank account name that is requested by the bank data conversion service and specified on the bank account card|  
+|Sender Bank Name - Data Conv.|Bank Name – Data Conv.|Bank Account|The sender bank account name that is requested by the AMC Banking 365 Fundamentals extension and specified on the bank account card|  
 
 ## <a name="see-also"></a>See Also  
 [Setting Up Data Exchange](across-set-up-data-exchange.md)  
 [Exchanging Data Electronically](across-data-exchange.md)
-[Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md)   
+[Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md)   
 [Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
