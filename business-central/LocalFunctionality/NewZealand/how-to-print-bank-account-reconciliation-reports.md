@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: d0c97f554ed02c95a9849fc8f9979fd176e6b214
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4215b1219aa7f7811c7cde163cf7efb3d8d476fc
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301258"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910680"
 ---
 # <a name="print-bank-account-reconciliation-reports"></a>Print Bank Account Reconciliation Reports
 The **Bank Account Reconciliation** report displays open bank ledger entries as unpresented cheques or unrecorded deposits.  
@@ -29,4 +29,4 @@ The **Bank Account Reconciliation** report displays open bank ledger entries as 
 4.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
 
 ## <a name="see-also"></a>See Also  
-[Reconcile Bank Accounts Separately](../../bank-how-reconcile-bank-accounts-separately.md)
+[Reconcile Bank Accounts](../../bank-how-reconcile-bank-accounts-separately.md)
