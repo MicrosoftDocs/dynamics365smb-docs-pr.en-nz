@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: d3f3b9a906d89de87cb77e1f0d8b34f805d1f0f8
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 598bafc9799ca5e1c8c664a602bdd3b97082195b
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881339"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076533"
 ---
 # <a name="electronic-funds-transfer-eft"></a>Electronic Funds Transfer (EFT)
 You can pay vendors using the electronic funds transfer (EFT) system in New Zealand.  
 
-## <a name="setting-up-electronic-funds-transfer-in-included365finincludesd365fin_mdmd"></a>Setting up Electronic Funds Transfer in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]  
+## <a name="setting-up-electronic-funds-transfer-in-d365fin"></a>Setting up Electronic Funds Transfer in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]  
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] can export EFT files that you can then upload to your bank’s website for additional processing. To submit EFT files, you must set up the following information:  
 
 * You must add EFT information to the bank account or bank accounts that you will use to pay vendors electronically. The EFT-specific fields are in the **Transfer** FastTab on the **Bank Account** page.  
@@ -29,5 +29,5 @@ You can pay vendors using the electronic funds transfer (EFT) system in New Zeal
 When you have set up bank accounts and vendors, you can create EFT file that are based on entries in the payment journal. When you create an EFT file, an entry is made in the **EFT Register** table. On the EFT Register page you can drill down to see the vendor ledger entries for the EFT file. On the Payment Journal page,you can also import existing EFT register entries to the payment journal by using the **Transfer EFT Register** batch job.
 
 ## <a name="see-also"></a>See Also  
-[Export Payments to a Bank File](../../payables-how-export-payments-bank-file.md)  
+[Export Payments to a Bank File](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
 [New Zealand Local Functionality](new-zealand-local-functionality.md)

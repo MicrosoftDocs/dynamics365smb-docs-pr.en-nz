@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: New Zealand, local functionality
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 6e5d9eb45fd63d325c49032320c2ff91582565a3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7a5db601b70aceb006f14b1e6ce1666af057bf77
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301250"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076432"
 ---
 # <a name="new-zealand-local-functionality"></a>New Zealand Local Functionality
 The following topics describe local functionality that is unique to the New Zealand version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
@@ -20,7 +20,6 @@ The following topics describe local functionality that is unique to the New Zeal
 ## <a name="feature-availability"></a>Feature Availability
 
 * Tax  
-    * [Tax](tax.md)
     * [Withholding Tax](withholding-tax.md)
     * [Set Up Withholding Tax](how-to-set-up-withholding-tax.md) **Available Now**
     * [Set Up Revenue Types for Withholding Tax](how-to-set-up-revenue-types-for-withholding-tax.md) **Available Now**
