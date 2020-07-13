@@ -5,16 +5,17 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: New Zealand, local functionality
-ms.date: 04/01/2020
+ms.date: 06/09/2020
 ms.author: bholtorf
-ms.openlocfilehash: 3a827da85bab82edc6cf7928642c278a78942045
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 7122d9e6a8fd66d961ec4c0779d241b9c6a261d7
+ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181048"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454400"
 ---
 # <a name="new-zealand-local-functionality"></a>New Zealand Local Functionality
+
 The following topics describe local functionality that is unique to the New Zealand version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## <a name="feature-availability"></a>Feature Availability
@@ -52,6 +53,8 @@ The following topics describe local functionality that is unique to the New Zeal
     * [New Zealand Inland Revenue Department Numbers and Adjustment Notes](new-zealand-business-numbers-and-adjustment-notes.md) **Available Now**  
 
 ## <a name="see-also"></a>See Also
-[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)
+
+[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
+[Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
