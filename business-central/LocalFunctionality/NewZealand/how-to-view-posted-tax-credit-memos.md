@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: e0f958dd721f966a2fb2e883c4425b910d3dda5e
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 492d69413910236d2fb838d4ea676141dd82b77a
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181050"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676955"
 ---
 # <a name="view-posted-tax-credit-memos"></a>View Posted Tax Credit Memos
 You can use the **Posted Sales Tax Credit Memo** page and **Posted Purch. Tax Credit Memo** page to view details of sales tax credit memos and purchase tax credit memos that have been posted.  
@@ -25,7 +25,7 @@ You can use the **Posted Sales Tax Credit Memo** page and **Posted Purch. Tax Cr
 The following procedure describes how to view posted sales tax credit memos, but the same steps also apply for viewing posted purchase tax credit memos.  
 
 ## <a name="to-view-a-posted-sales-tax-credit-memo"></a>To view a posted sales tax credit memo  
-1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Sales Tax Credit Memo**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted GST Credit Memo**, and then choose the related link.  
 2. View the FastTabs as described in the following table.  
 
     |FastTab|Description|  

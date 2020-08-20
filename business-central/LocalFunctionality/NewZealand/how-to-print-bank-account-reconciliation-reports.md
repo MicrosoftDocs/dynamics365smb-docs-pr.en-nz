@@ -12,18 +12,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 85d9d53fa48843395d8e8e827f763dcf9516fca6
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 9a46abbded38eb49ef1a1b863e22bd44cc85e719
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181057"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677041"
 ---
 # <a name="print-bank-account-reconciliation-reports"></a>Print Bank Account Reconciliation Reports
 The **Bank Account Reconciliation** report displays open bank ledger entries as unpresented cheques or unrecorded deposits.  
 
 ## <a name="to-print-a-bank-account-reconciliation-report"></a>To print a bank account reconciliation report  
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Reconciliation**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reconciliation**, and then choose the related link.  
 2.  On the **Options** FastTab, select the **New Page per Bank Account** check box.  
 3.  On the **Bank Account** FastTab, select appropriate filters.  
 4.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  

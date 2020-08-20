@@ -12,18 +12,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 2cc928e6b5c70bda993d1b0ac3696a0b0eef4012
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c7ea6279d0ecca2f5f1a66bfc0ec2013bda2dae1
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181060"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677043"
 ---
 # <a name="print-balance-sheet-reports"></a>Print Balance Sheet Reports
 You can use the **Balance Sheet** report to view the company’s balance sheet. This is a legal report that is required for auditing accounts. You can use this report to view assets and liabilities.  
   
 ## <a name="to-print-a-balance-sheet-report"></a>To print a balance sheet report    
-1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Balance Sheet**, and then choose the relevant link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Balance Sheet**, and then choose the relevant link.  
 2. On the **Balance Sheet** page, on the **Options** FastTab, fill in the fields as described in the following table.  
   
     |Field|Description|  

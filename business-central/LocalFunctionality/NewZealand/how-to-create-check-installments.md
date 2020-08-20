@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 8d90be494db24514e5827f5b71743a0b12c0af1c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c2899cb79597ec84e170abb8d73240a24bc525e9
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181062"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677270"
 ---
 # <a name="create-check-installments"></a>Create Cheque Instalments
 You can create cheque instalments for post-dated cheques. You can define the number of instalments that a payment will be divided into, the percent of interest, and the period in which the cheques will be created.  
 
 ## <a name="to-create-a-check-installment"></a>To create a cheque instalment  
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Post Dated Cheques-Purchases**, and then choose the relevant link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Post Dated Cheques-Purchases**, and then choose the relevant link.  
 2.  Choose the relevant check, and then choose the **Edit** action.  
 3.  On the **Post Dated checks-Purchase** page, choose the **Create check instalments** action.  
 4.  On the **Options** FastTab, fill in the fields as described in the following table.  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 58facc4f102f0a41d54e03263e6f0787899f05fa
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 1927fa14d0a6e92767825498d5155ed59012d0a1
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181047"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676969"
 ---
 # <a name="view-posted-tax-invoices"></a>View Posted Tax Invoices
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use the **Posted Sales Tax Invoice** page and the **Posted Purchase Tax Invoice** page to view the details of posted sales tax invoices and posted purchase tax invoices.  
@@ -23,7 +23,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use the **Posted S
 The following procedure describes how to view the posted sales tax invoice, but the same steps also apply to viewing posted purchase tax invoices.  
 
 ## <a name="to-view-a-posted-sales-tax-invoice"></a>To view a posted sales tax invoice  
-1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Sales Tax Invoice**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted GST Invoice**, and then choose the related link.  
 2. View the FastTabs as described in the following table.  
 
     |FastTab|Description|  
