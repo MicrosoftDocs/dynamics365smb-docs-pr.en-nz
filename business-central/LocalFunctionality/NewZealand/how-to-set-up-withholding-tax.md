@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 63e0f64f0aba2aa44bbf50fa88c1efd5ce2753e9
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: fba1fa8376130f0ca43301113f54235c07c9e363
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3676899"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778534"
 ---
 # <a name="set-up-withholding-tax"></a>Set Up Withholding Tax
 Withholding tax (WHT) is the tax withheld by a company when it makes a payment to a vendor, in which the full amount owed to the vendor is reduced by the tax withheld. The withheld tax is then remitted to tax authorities when the next Business Activity Statement (BAS) is submitted.  

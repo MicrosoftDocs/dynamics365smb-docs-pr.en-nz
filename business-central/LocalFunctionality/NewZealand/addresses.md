@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/23/2020
-ms.author: sgroespe
-ms.openlocfilehash: 21718a62a1c67ccbb35605d12578aa8e5c781b01
-ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
+ms.author: edupont
+ms.openlocfilehash: 7d8acaa684a7618f2ffbe82bf8146536da348494
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617777"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3777917"
 ---
 # <a name="addresses-in-the-new-zealand-version"></a>Addresses in the New Zealand Version
 
