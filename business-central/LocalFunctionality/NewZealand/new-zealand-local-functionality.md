@@ -5,14 +5,14 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: New Zealand, local functionality
-ms.date: 06/09/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7122d9e6a8fd66d961ec4c0779d241b9c6a261d7
-ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
+ms.openlocfilehash: 4916c2daeef06cddef2f9de19fd66748f7c4503f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454400"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919809"
 ---
 # <a name="new-zealand-local-functionality"></a>New Zealand Local Functionality
 

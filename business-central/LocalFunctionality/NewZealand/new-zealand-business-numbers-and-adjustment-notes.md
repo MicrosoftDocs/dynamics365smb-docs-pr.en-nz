@@ -1,8 +1,6 @@
 ---
-title: New Zealand Inland Revenue Department Numbers and Adjustment Notes
-description: An IRD number is a single identifier for all business dealings with the tax office, and for dealings with other government departments and agencies.
-services: project-madeira
-documentationcenter: ''
+title: Inland Revenue Department Numbers and Adjustment Notes
+description: Learn about IRD numbers and adjustment notes and how they are supported in the New Zealand version of Business Central.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 38c9df06a4d685bac8e47305b225f53037c55ab8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c529a57778acd123529a4a8ff24aba7af5a9f996
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181049"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919812"
 ---
 # <a name="new-zealand-inland-revenue-department-numbers-and-adjustment-notes"></a>New Zealand Inland Revenue Department Numbers and Adjustment Notes
+
 A New Zealand Inland Revenue Department Number (IRD) is a single identifier for all business dealings with the tax office, and for dealings with other government departments and agencies.  
 
 IRDs and adjustment notes—or credit memos—are used to satisfy tax requirements.  
@@ -36,12 +35,12 @@ Adjustment notes—or credit memos—should be connected to an invoice.
 
 Because credit memos are used for adjustment notes, each credit memo should satisfy all of the legal requirements for an adjustment note. Each credit memo should have an original invoice number, date, and reason code assigned to it. The following fields are included in the adjustment note:  
 
-- **Adjustment Applies to**: The number of the document to which the adjustment note applies. If you use the **Copy Document** function, this field populates automatically. You must enter a reason code before the transaction can be posted. You can use this field to create an adjustment note for a paid or closed transaction.  
+- **Adjustment Applies to** : The number of the document to which the adjustment note applies. If you use the **Copy Document** function, this field populates automatically. You must enter a reason code before the transaction can be posted. You can use this field to create an adjustment note for a paid or closed transaction.  
 
-- **Adjustment Reference No**: The number of the adjustment note. For **Sales & Receivables**, the number assigned to the posted document populates automatically in this field.  
+- **Adjustment Reference No** : The number of the adjustment note. For **Sales & Receivables** , the number assigned to the posted document populates automatically in this field.  
 
-- **Adjustment Note Date**: Automatically populated from the document date.  
-- **Adjustment**: These entries populate automatically. Adjustment notes can only be applied against a single document.  
+- **Adjustment Note Date** : Automatically populated from the document date.  
+- **Adjustment** : These entries populate automatically. Adjustment notes can only be applied against a single document.  
 
 ## <a name="see-also"></a>See Also  
 [Enter New Zealand IRD Numbers](how-to-enter-new-zealand-business-numbers.md)   

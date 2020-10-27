@@ -1,8 +1,6 @@
 ---
-title: How to Print Income Statements
-description: Describes how print the company’s annual income statement in a report.
-services: project-madeira
-documentationcenter: ''
+title: Print Income Statements in the New Zealand version
+description: Describes how print the company's annual income statement in a report in the New Zealand version.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,20 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 62ed6d7559c0cba43b990c6c026dbb5db91d713e
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.openlocfilehash: c7a25c104324c53669bb36171996d71b42e23a23
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677039"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919827"
 ---
-# <a name="print-income-statements"></a>Print Income Statements
-You can use the **Income Statement** report to view the company’s annual income statement. This is a legal report that is required for auditing accounts. This report displays the details of revenues and expenses for the current year and the previous year.  
+# <a name="print-income-statements-in-the-new-zealand-version"></a>Print Income Statements in the New Zealand version
+
+You can use the **Income Statement** report to view the company's annual income statement. This is a legal report that is required for auditing accounts. This report displays the details of revenues and expenses for the current year and the previous year.  
 
 ## <a name="to-print-the-income-statement-report"></a>To print the income statement report  
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Income Statement**, and then choose the relevant link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Income Statement** , and then choose the relevant link.  
 2. On the **Income Statement** page, on the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
