@@ -1,5 +1,5 @@
 ---
-title: Electronic Funds Transfer (EFT)
+title: Electronic Funds Transfer (EFT) [NZ]
 description: You can pay vendors using the electronic funds transfer (EFT) system in New Zealand.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,26 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 231936fad3c305a97f02cf3b619e4ff4ccbed34b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 0bea5d0e6261bde1601ca76818410b883945e189
+ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181068"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "3931297"
 ---
-# <a name="electronic-funds-transfer-eft"></a>Electronic Funds Transfer (EFT)
+# <a name="electronic-funds-transfer-eft-in-the-new-zealand-version"></a>Electronic Funds Transfer (EFT) in the New Zealand Version
+
 You can pay vendors using the electronic funds transfer (EFT) system in New Zealand.  
 
-## <a name="setting-up-electronic-funds-transfer-in-d365fin"></a>Setting up Electronic Funds Transfer in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]  
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] can export EFT files that you can then upload to your bank’s website for additional processing. To submit EFT files, you must set up the following information:  
+[!INCLUDE [electronic-funds-transfer-eft](../includes/AUNZ/electronic-funds-transfer-eft.md)]
 
-* You must add EFT information to the bank account or bank accounts that you will use to pay vendors electronically. The EFT-specific fields are in the **Transfer** FastTab on the **Bank Account** page.  
-* For those vendors that you want to pay electronically, you must select the **EFT Payment** check box and specify the vendor bank account in the **EFT Vendor Bank Account Code** field on the **Vendor** page.  
+## <a name="see-also"></a>See Also
 
-When you have set up bank accounts and vendors, you can create EFT file that are based on entries in the payment journal. When you create an EFT file, an entry is made in the **EFT Register** table. On the EFT Register page you can drill down to see the vendor ledger entries for the EFT file. On the Payment Journal page,you can also import existing EFT register entries to the payment journal by using the **Transfer EFT Register** batch job.
-
-## <a name="see-also"></a>See Also  
 [Export Payments to a Bank File](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
 [New Zealand Local Functionality](new-zealand-local-functionality.md)

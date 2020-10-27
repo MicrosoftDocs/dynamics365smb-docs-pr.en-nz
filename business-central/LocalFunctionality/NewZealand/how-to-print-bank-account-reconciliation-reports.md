@@ -1,8 +1,6 @@
 ---
-title: How to Print Bank Account Reconciliation Reports
-description: Describes how to print a report that displays open bank ledger entries as unpresented cheques or unrecorded deposits.
-services: project-madeira
-documentationcenter: ''
+title: Print Bank Account Reconciliation Reports in the New Zealand version
+description: Describes how to print a report that displays open bank ledger entries as unpresented cheques or unrecorded deposits in the New Zealand version.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,23 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 9a46abbded38eb49ef1a1b863e22bd44cc85e719
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.openlocfilehash: 81f12a4be04faa409be084a3372b1ff7a9fcbad4
+ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677041"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "3931383"
 ---
-# <a name="print-bank-account-reconciliation-reports"></a>Print Bank Account Reconciliation Reports
-The **Bank Account Reconciliation** report displays open bank ledger entries as unpresented cheques or unrecorded deposits.  
+# <a name="print-bank-account-reconciliation-reports-in-the-new-zealand-version"></a>Print Bank Account Reconciliation Reports in the New Zealand Version
 
-## <a name="to-print-a-bank-account-reconciliation-report"></a>To print a bank account reconciliation report  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reconciliation**, and then choose the related link.  
-2.  On the **Options** FastTab, select the **New Page per Bank Account** check box.  
-3.  On the **Bank Account** FastTab, select appropriate filters.  
-4.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
+[!INCLUDE [print-balance-sheet-reports](../includes/AUNZ/print-balance-sheet-reports.md)]
 
-## <a name="see-also"></a>See Also  
+## <a name="see-also"></a>See Also
+
 [Reconcile Bank Accounts](../../bank-how-reconcile-bank-accounts-separately.md)

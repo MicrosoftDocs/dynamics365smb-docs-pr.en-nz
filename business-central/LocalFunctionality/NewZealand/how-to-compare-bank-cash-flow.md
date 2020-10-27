@@ -1,8 +1,6 @@
 ---
-title: How to Compare Bank Cash Flow
-description: Describes how compare the flow of cash in a particular bank for a specified period.
-services: project-madeira
-documentationcenter: ''
+title: Compare Bank Cash Flow in the New Zealand version
+description: Describes how compare the flow of cash in a particular bank for a specified period in the New Zealand version.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,42 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 788f1276c76f1818e55647153d550a9ff0eaae71
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.openlocfilehash: 7f3a00afaf451896b27492f5dd6dfa88ba7daccb
+ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677272"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "3931391"
 ---
-# <a name="compare-bank-cash-flow"></a>Compare Bank Cash Flow
-You can use the **Bank Detail Cashflow Compare** report to compare the flow of cash in a particular bank for a specified period.  
+# <a name="compare-bank-cash-flow-in-the-new-zealand-version"></a>Compare Bank Cash Flow in the New Zealand Version
 
- The report displays the following details:  
+[!INCLUDE [compare-bank-cash-flow](../includes/AUNZ/compare-bank-cash-flow.md)]
 
--   Posting date  
--   Document type  
--   Document number  
--   Debit amount  
--   Credit amount  
--   Remaining amount  
+## <a name="see-also"></a>See Also
 
-The debit and credit amounts are displayed in the local currency. You can also view the starting balance and ending balance for each bank.  
-
-## <a name="to-compare-bank-cash-flow"></a>To compare bank cash flow  
-
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Detail Cashflow Compare**, and then choose the relevant link.  
-2.  On the **Options** FastTab, fill in the fields as described in the following table.  
-
-    |Field|Description|  
-    |---------------------------------|---------------------------------------|  
-    |**Compare Start Date**|Specifies the start date for the comparison.|  
-    |**Compare End Date**|Specifies the end date for comparison.|  
-    |**New Page per Bank Account**|Specifies if the details of each bank account will be printed on a separate page.|  
-
-3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
-
-## <a name="see-also"></a>See Also  
- [Create Cheque Instalments](how-to-create-check-installments.md)   
- [New Zealand Local Functionality](new-zealand-local-functionality.md)
+[Create Cheque Instalments](how-to-create-check-installments.md)   
+[New Zealand Local Functionality](new-zealand-local-functionality.md)

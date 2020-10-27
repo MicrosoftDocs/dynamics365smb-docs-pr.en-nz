@@ -1,8 +1,6 @@
 ---
-title: How to Set Up Goods and Service Tax Posting
+title: Set Up Goods and Service Tax Posting (NZ)
 description: Describes how to set up posting for goods and services tax (GST) in New Zealand.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,36 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7c3f3ec3eacc16007593efaac02b83f22e79e106
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.openlocfilehash: de8a36a300349f51933d26687c031c4f8ec020cd
+ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677035"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "3931333"
 ---
-# <a name="set-up-goods-and-service-tax-posting"></a>Set Up Goods and Service Tax Posting
+# <a name="set-up-goods-and-service-tax-posting-in-the-new-zealand-version"></a>Set Up Goods and Service Tax Posting in the New Zealand Version
+
 Goods and services tax (GST) is the tax that is applied on most goods and services. The GST that is paid and received during a period is reported in the Business Activity Statement (BAS) that has to be submitted to the tax authority.  
 
-To set up posting details for GST, you must define the posting groups, rate of GST, and the accounts to which GST is to be posted. You can set up this information for a particular combination business posting groups and product posting groups.  
+[!INCLUDE [gst-posting-setup](../includes/AUNZ/gst-posting-setup.md)]
 
-## <a name="to-set-up-goods-and-sales-tax-posting"></a>To set up goods and sales tax posting  
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **GST Posting Setup**, and then choose the related link.  
-2. Fill in the fields as described in the following table.  
+## <a name="see-also"></a>See Also
 
-    |Field|Description|  
-    |---------------------------------|---------------------------------------|  
-    |**GST Bus. Posting Group**|Specifies the GST business posting group code.|  
-    |**GST Prod. Posting Group**|Specifies the GST product posting group code.|  
-    |**GST Identifier**|Specifies the code that is used to group similar GST setups with similar attributes.<br /><br /> For example, you can group a number of GST posting setups that have a common GST percentage.|  
-    |**GST %**|Specifies the GST rate.|  
-    |**GST Calculation Type**|Specifies the method that is used to calculate the purchase or sale of items.|  
-    |**Sales GST Account**|Specifies the number of the general ledger account to which you want to post the sales GST.<br /><br /> If you have selected the **Reverse Charge GST** option in the **GST Calculation Type** field, then do not enter a value in this field.|  
-    |**Purchase GST Account**|Specifies the number of the general ledger account to which you want to post the purchase GST.|  
-    |**Reverse Chrg. GST Acc.**|Specifies the number of the general ledger account to which you want to post the reverse charge GST.<br /><br /> You can enter a value in this field only if you have selected the **Reverse Charge GST** option in the **GST Calculation Type** field.|  
-
-3.  Choose the **OK** button.  
-
-## <a name="see-also"></a>See Also  
 [Print Goods and Service Tax Settlement Reports](how-to-print-goods-and-service-tax-settlement-reports.md)
