@@ -4,16 +4,16 @@ ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d93cd845c8f2d25915b2b983d287cd7b9e6fcd15
-ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
+ms.openlocfilehash: 60d8b8d7843c0b5844a7d37a084a8fbd63627f51
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3959632"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747439"
 ---
 ## <a name="setting-up-electronic-funds-transfer"></a>Setting up Electronic Funds Transfer
 
-[!INCLUDE[d365fin](../../../includes/d365fin_md.md)] can export EFT files that you can then upload to your bank's website for additional processing. To submit EFT files, you must set up the following information:  
+[!INCLUDE[prod_short](../../../includes/prod_short.md)] can export EFT files that you can then upload to your bank's website for additional processing. To submit EFT files, you must set up the following information:  
 
 * You must add EFT information to the bank account or bank accounts that you will use to pay vendors electronically. The EFT-specific fields are on the **Bank Account** page.  
 * For those vendors that you want to pay electronically, you must select the **EFT Payment** check box and specify the vendor bank account in the **EFT Vendor Bank Account Code** field on the **Vendor** page.  
