@@ -112,3 +112,6 @@ You use the GST rate change tool to manage changes in the standard rate of GST. 
 [Report GST to a Tax Authority](finance-how-report-vat.md)  
 [Work with GST on Sales and Purchases](finance-work-with-vat.md)  
 [Local functionality in Business Central](about-localization.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

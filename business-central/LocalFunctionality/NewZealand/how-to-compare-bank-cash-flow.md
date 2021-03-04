@@ -25,3 +25,6 @@ ms.locfileid: "3931391"
 
 [Create Cheque Instalments](how-to-create-check-installments.md)   
 [New Zealand Local Functionality](new-zealand-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

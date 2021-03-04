@@ -115,3 +115,6 @@ When the GST Group representative's GST Return has been submitted to the authori
 ## <a name="see-also"></a>See Also
 [Work with GST on Sales and Purchases](finance-work-with-vat.md)  
 [Set Up Value-Added Tax](finance-setup-vat.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

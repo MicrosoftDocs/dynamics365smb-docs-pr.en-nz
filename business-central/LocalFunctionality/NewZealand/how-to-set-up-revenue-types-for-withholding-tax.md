@@ -27,3 +27,6 @@ ms.locfileid: "3931291"
 [Set Up Withholding Tax](how-to-set-up-withholding-tax.md)   
 [View Withholding Tax Entries](how-to-view-withholding-tax-entries.md)   
 [Calculate and Post Withholding Tax Settlements](how-to-calculate-and-post-withholding-tax-settlements.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

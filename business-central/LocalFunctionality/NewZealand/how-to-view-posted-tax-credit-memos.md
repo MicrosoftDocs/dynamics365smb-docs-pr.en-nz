@@ -40,3 +40,6 @@ The following procedure describes how to view posted sales tax credit memos, but
 ## <a name="see-also"></a>See Also  
 [View Posted Tax Invoices](how-to-view-posted-tax-invoices.md)   
 [View Withholding Tax Entries](how-to-view-withholding-tax-entries.md) 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

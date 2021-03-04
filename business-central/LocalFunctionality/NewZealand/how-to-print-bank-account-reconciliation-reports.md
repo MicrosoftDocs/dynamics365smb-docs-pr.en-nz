@@ -24,3 +24,6 @@ ms.locfileid: "3931383"
 ## <a name="see-also"></a>See Also
 
 [Reconcile Bank Accounts](../../bank-how-reconcile-bank-accounts-separately.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

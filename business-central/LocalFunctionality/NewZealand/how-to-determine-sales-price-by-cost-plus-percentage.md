@@ -24,3 +24,6 @@ ms.locfileid: "3931387"
 ## <a name="see-also"></a>See Also
 
 [New Zealand Local Functionality](new-zealand-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -24,3 +24,6 @@ ms.locfileid: "3931381"
 ## <a name="see-also"></a>See Also
 
 [Set Up Goods and Service Tax Posting](how-to-set-up-goods-and-service-tax-posting.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

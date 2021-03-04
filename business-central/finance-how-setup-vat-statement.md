@@ -51,3 +51,6 @@ After you define a GST statement, you can preview it to make sure it meets your 
 [Report GST to a Tax Authority](finance-how-report-vat.md)  
 [Work with GST on Sales and Purchases](finance-work-with-vat.md)  
 [Local functionality in Business Central](about-localization.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

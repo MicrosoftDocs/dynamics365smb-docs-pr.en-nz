@@ -26,3 +26,6 @@ Goods and services tax (GST) is the tax that is applied on most goods and servic
 ## <a name="see-also"></a>See Also
 
 [Print Goods and Service Tax Settlement Reports](how-to-print-goods-and-service-tax-settlement-reports.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ There are a couple of things to note about the VIES VAT Number Validation servic
 [Report GST to a Tax Authority](finance-how-report-vat.md)  
 [Work with GST on Sales and Purchases](finance-work-with-vat.md)  
 [Local functionality in Business Central](about-localization.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
