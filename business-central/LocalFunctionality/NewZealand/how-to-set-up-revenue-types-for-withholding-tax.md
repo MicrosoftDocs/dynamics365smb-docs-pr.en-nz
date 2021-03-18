@@ -3,19 +3,19 @@ title: Set Up Revenue Types for Withholding Tax in the New Zealand version
 description: Revenue types are used to categorise withholding tax (WHT) entries and are used for WHT certificates in the New Zealand version.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: dea57fc064f9be96f4900a5bcca8df01318b7c44
-ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
+ms.openlocfilehash: b6865106b30c715e78bf64e01a7eeb11a7d3a28b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3931291"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383562"
 ---
 # <a name="set-up-revenue-types-for-withholding-tax-in-the-new-zealand-version"></a>Set Up Revenue Types for Withholding Tax in the New Zealand Version
 

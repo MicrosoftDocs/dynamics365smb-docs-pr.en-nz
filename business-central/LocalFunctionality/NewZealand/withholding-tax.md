@@ -3,19 +3,19 @@ title: Withholding Tax in the New Zealand version
 description: Describes how withholding tax (WHT) works in New Zealand.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 5681865a1811491f3418d383c92325648d736cf4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e26e33485390e4318165d481a4aca522d4721f5d
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919813"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383546"
 ---
 # <a name="withholding-tax-in-the-new-zealand-version"></a>Withholding Tax in the New Zealand Version
 
@@ -28,7 +28,7 @@ The New Zealand government requires taxes to be withheld from payment to vendors
 
 Fields within **WHT Business Posting Groups** and **WHT Product Posting Groups** must be set up on the **WHT Posting Setup** page so that the correct WHT calculations are made for each vendor.  
 
-* **WHT Calculation Rule** – This field controls how calculation applies to the **WHT Minimum Invoice Amount** , or the invoice threshold amount. The following options exist:  
+* **WHT Calculation Rule** – This field controls how calculation applies to the **WHT Minimum Invoice Amount**, or the invoice threshold amount. The following options exist:  
 
     - **Less than**  
     - **Less than or equal to**  
@@ -36,19 +36,19 @@ Fields within **WHT Business Posting Groups** and **WHT Product Posting Groups**
     - **Greater than**  
     - **Greater than or equal to**  
 
-In New Zealand, WHT is not calculated if the individual invoice amount is less than or equal to the threshold amount. Companies should select **Less than or equal to** .  
+In New Zealand, WHT is not calculated if the individual invoice amount is less than or equal to the threshold amount. Companies should select **Less than or equal to**.  
 
 * **WHT Minimum Invoice Amount** – Enter the invoice threshold amount.  
-* **WHT %** – Enter the relevant WHT rate for the particular combination of **WHT Business Posting Group** and **WHT Product Posting Group** . If you do not wish to calculate any withholding amount, enter 0.00.  
+* **WHT %** – Enter the relevant WHT rate for the particular combination of **WHT Business Posting Group** and **WHT Product Posting Group**. If you do not wish to calculate any withholding amount, enter 0.00.  
 * **Realised WHT Type** – Select **Payment** to calculate only the withholding amount at the time of payment. The other options of **Invoice** and **Earliest** do not apply to New Zealand.  
-* **Payable WHT Account Code** – Enter the number of the G/L account to which you want to post **Purchase WHT** for the particular combination of **WHT Business Posting Group** and **WHT Product Posting Group** .  
+* **Payable WHT Account Code** – Enter the number of the G/L account to which you want to post **Purchase WHT** for the particular combination of **WHT Business Posting Group** and **WHT Product Posting Group**.  
 * **Purch. WHT Adjustment Account No.** – Select an account number for **Purchase CR/Adj Note** adjustments.  
 * **Revenue Types** – Drill down to the **WHT Revenue Types** page. These values determine how the combination of **WHT Business Posting Group** and **WHT Product Posting Group** are displayed in reports. You must enter a value in order for this combination to appear in the WHT reports.  
 
 ## <a name="wht-for-suppliers-without-an-ird"></a>WHT for Suppliers Without an IRD  
 Ensure that there is a valid combination of **General Business** and **General Product Posting Groups** with the correct threshold. For example, in New Zealand today the minimum threshold is $75 with a rate of 46.50%.  
 
-The percentage withheld is specified in **WHT Posting Setup** . The amount to be withheld is calculated automatically at the time of payment. The WHT certificate is printed automatically, and then sent to the vendor with payment. The WHT certificate explains the reasons for not sending the full invoiced amount.  
+The percentage withheld is specified in **WHT Posting Setup**. The amount to be withheld is calculated automatically at the time of payment. The WHT certificate is printed automatically, and then sent to the vendor with payment. The WHT certificate explains the reasons for not sending the full invoiced amount.  
 
 ## <a name="wht-for-foreign-suppliers"></a>WHT for Foreign Suppliers  
 Ensure that a valid combination of **General Business** and **General Product Posting Groups** has been established for vendors for whom you need to withhold tax,other than for non-IRD.  

@@ -3,19 +3,19 @@ title: Electronic Funds Transfer (EFT) [NZ]
 description: You can pay vendors using the electronic funds transfer (EFT) system in New Zealand.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0bea5d0e6261bde1601ca76818410b883945e189
-ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
+ms.openlocfilehash: 811308663a08749a43ce81541a925c0b3aa266fa
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3931297"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383588"
 ---
 # <a name="electronic-funds-transfer-eft-in-the-new-zealand-version"></a>Electronic Funds Transfer (EFT) in the New Zealand Version
 

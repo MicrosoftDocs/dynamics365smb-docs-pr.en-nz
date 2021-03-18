@@ -3,19 +3,19 @@ title: Print Goods and Service Tax Settlement Reports (NZ)
 description: Describes how to prepare and submit a periodic goods and services tax (GST) settlement in the New Zealand version of Business Central.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: dedf5903f47e22a579e8de6c5bb444dc0446599f
-ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
+ms.openlocfilehash: 8fa13545d89f7acbf5e8a3aca8108080729b590c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3931381"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383568"
 ---
 # <a name="print-goods-and-service-tax-settlement-reports-in-the-new-zealand-version"></a>Print Goods and Service Tax Settlement Reports in the New Zealand Version
 
