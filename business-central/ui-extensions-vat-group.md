@@ -4,19 +4,19 @@ description: You can engage with other businesses to form a GST group and act as
 author: bholtorf
 manager: annbe
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: VAT, value added tax, report
 ms.date: 10/06/2020
 ms.author: bholtorf
-ms.openlocfilehash: ebe3c8748da04a2552f8f3d10967303459ba23c4
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: f3fb73580eebc9468b0c66408adf758257b3a658
+ms.sourcegitcommit: 026484766988b8727649c02fc8990b0646999bf1
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757058"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5498603"
 ---
 # <a name="the-vat-group-management-extension"></a>The GST Group Management Extension
 
@@ -111,6 +111,9 @@ When the GST Group representative's GST Return has been submitted to the authori
 
 > [!NOTE]
 > GST group members can correct submitted GST returns as long as the group representative has not released the GST return for the group. To make a correction, the GST group member must create a new GST return for the GST return period and submit it to the GST group representative. On the GST group representative's side, the latest GST return will be included on the **GST Returns** page. 
+
+> [!IMPORTANT]
+> The GST group functionality is only supported in those markets where [!INCLUDE[prod_short](includes/prod_short.md)] uses a GST framework that consists of GST returns and GST return periods. You cannot use GST groups in other markets that have other implementations of local GST reporting, such as Austria, Germany, Italy, Spain, and Switzerland. 
 
 ## <a name="see-also"></a>See Also
 [Work with GST on Sales and Purchases](finance-work-with-vat.md)  
