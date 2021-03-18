@@ -3,27 +3,30 @@ title: Electronic Funds Transfer (EFT) [NZ]
 description: You can pay vendors using the electronic funds transfer (EFT) system in New Zealand.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0bea5d0e6261bde1601ca76818410b883945e189
-ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
+ms.openlocfilehash: 811308663a08749a43ce81541a925c0b3aa266fa
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3931297"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383588"
 ---
-# <a name="electronic-funds-transfer-eft-in-the-new-zealand-version"></a><span data-ttu-id="6ad15-103">Electronic Funds Transfer (EFT) in the New Zealand Version</span><span class="sxs-lookup"><span data-stu-id="6ad15-103">Electronic Funds Transfer (EFT) in the New Zealand Version</span></span>
+# <a name="electronic-funds-transfer-eft-in-the-new-zealand-version"></a><span data-ttu-id="1cf19-103">Electronic Funds Transfer (EFT) in the New Zealand Version</span><span class="sxs-lookup"><span data-stu-id="1cf19-103">Electronic Funds Transfer (EFT) in the New Zealand Version</span></span>
 
-<span data-ttu-id="6ad15-104">You can pay vendors using the electronic funds transfer (EFT) system in New Zealand.</span><span class="sxs-lookup"><span data-stu-id="6ad15-104">You can pay vendors using the electronic funds transfer (EFT) system in New Zealand.</span></span>  
+<span data-ttu-id="1cf19-104">You can pay vendors using the electronic funds transfer (EFT) system in New Zealand.</span><span class="sxs-lookup"><span data-stu-id="1cf19-104">You can pay vendors using the electronic funds transfer (EFT) system in New Zealand.</span></span>  
 
 [!INCLUDE [electronic-funds-transfer-eft](../includes/AUNZ/electronic-funds-transfer-eft.md)]
 
-## <a name="see-also"></a><span data-ttu-id="6ad15-105">See Also</span><span class="sxs-lookup"><span data-stu-id="6ad15-105">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1cf19-105">See Also</span><span class="sxs-lookup"><span data-stu-id="1cf19-105">See Also</span></span>
 
-[<span data-ttu-id="6ad15-106">Export Payments to a Bank File</span><span class="sxs-lookup"><span data-stu-id="6ad15-106">Export Payments to a Bank File</span></span>](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
-[<span data-ttu-id="6ad15-107">New Zealand Local Functionality</span><span class="sxs-lookup"><span data-stu-id="6ad15-107">New Zealand Local Functionality</span></span>](new-zealand-local-functionality.md)
+[<span data-ttu-id="1cf19-106">Export Payments to a Bank File</span><span class="sxs-lookup"><span data-stu-id="1cf19-106">Export Payments to a Bank File</span></span>](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
+[<span data-ttu-id="1cf19-107">New Zealand Local Functionality</span><span class="sxs-lookup"><span data-stu-id="1cf19-107">New Zealand Local Functionality</span></span>](new-zealand-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
