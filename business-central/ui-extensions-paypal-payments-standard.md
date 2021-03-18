@@ -5,38 +5,41 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 12215ba987bee5a95fbf97e4b4bb190972bdf14b
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: ac0ee9bb3287542484478daf23877d3e3bebf5f7
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757182"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392090"
 ---
-# <a name="the-paypal-payments-standard-extension"></a><span data-ttu-id="6e40c-103">The PayPal Payments Standard Extension</span><span class="sxs-lookup"><span data-stu-id="6e40c-103">The PayPal Payments Standard Extension</span></span>
-<span data-ttu-id="6e40c-104">Customers continuously require higher customer service, both in terms of product quality but also in terms of delivery and payment options.</span><span class="sxs-lookup"><span data-stu-id="6e40c-104">Customers continuously require higher customer service, both in terms of product quality but also in terms of delivery and payment options.</span></span> <span data-ttu-id="6e40c-105">The PayPal Payments Standard service helps you increase your customer service.</span><span class="sxs-lookup"><span data-stu-id="6e40c-105">The PayPal Payments Standard service helps you increase your customer service.</span></span>
+# <a name="the-paypal-payments-standard-extension"></a><span data-ttu-id="89a68-103">The PayPal Payments Standard Extension</span><span class="sxs-lookup"><span data-stu-id="89a68-103">The PayPal Payments Standard Extension</span></span>
+<span data-ttu-id="89a68-104">Customers continuously require higher customer service, both in terms of product quality but also in terms of delivery and payment options.</span><span class="sxs-lookup"><span data-stu-id="89a68-104">Customers continuously require higher customer service, both in terms of product quality but also in terms of delivery and payment options.</span></span> <span data-ttu-id="89a68-105">The PayPal Payments Standard service helps you increase your customer service.</span><span class="sxs-lookup"><span data-stu-id="89a68-105">The PayPal Payments Standard service helps you increase your customer service.</span></span>
 
-<span data-ttu-id="6e40c-106">As an alternative to collecting payments through bank transfer or credit cards, you can offer your customers to pay you through their PayPal account.</span><span class="sxs-lookup"><span data-stu-id="6e40c-106">As an alternative to collecting payments through bank transfer or credit cards, you can offer your customers to pay you through their PayPal account.</span></span> <span data-ttu-id="6e40c-107">When you send a sales invoice or sales order by email, there is a PayPal link in the email body and in the attached PDF document.</span><span class="sxs-lookup"><span data-stu-id="6e40c-107">When you send a sales invoice or sales order by email, there is a PayPal link in the email body and in the attached PDF document.</span></span> <span data-ttu-id="6e40c-108">When the customer chooses the link, the service page for their PayPal account appears showing the payment details for the sale.</span><span class="sxs-lookup"><span data-stu-id="6e40c-108">When the customer chooses the link, the service page for their PayPal account appears showing the payment details for the sale.</span></span> <span data-ttu-id="6e40c-109">The customer can then pay the invoice as any other PayPal payment.</span><span class="sxs-lookup"><span data-stu-id="6e40c-109">The customer can then pay the invoice as any other PayPal payment.</span></span>
+<span data-ttu-id="89a68-106">As an alternative to collecting payments through bank transfer or credit cards, you can offer your customers to pay you through their PayPal account.</span><span class="sxs-lookup"><span data-stu-id="89a68-106">As an alternative to collecting payments through bank transfer or credit cards, you can offer your customers to pay you through their PayPal account.</span></span> <span data-ttu-id="89a68-107">When you send a sales invoice or sales order by email, there is a PayPal link in the email body and in the attached PDF document.</span><span class="sxs-lookup"><span data-stu-id="89a68-107">When you send a sales invoice or sales order by email, there is a PayPal link in the email body and in the attached PDF document.</span></span> <span data-ttu-id="89a68-108">When the customer chooses the link, the service page for their PayPal account appears showing the payment details for the sale.</span><span class="sxs-lookup"><span data-stu-id="89a68-108">When the customer chooses the link, the service page for their PayPal account appears showing the payment details for the sale.</span></span> <span data-ttu-id="89a68-109">The customer can then pay the invoice as any other PayPal payment.</span><span class="sxs-lookup"><span data-stu-id="89a68-109">The customer can then pay the invoice as any other PayPal payment.</span></span>
 
-<span data-ttu-id="6e40c-110">The PayPal Payments Standard service provides the following benefits:</span><span class="sxs-lookup"><span data-stu-id="6e40c-110">The PayPal Payments Standard service provides the following benefits:</span></span>
+<span data-ttu-id="89a68-110">The PayPal Payments Standard service provides the following benefits:</span><span class="sxs-lookup"><span data-stu-id="89a68-110">The PayPal Payments Standard service provides the following benefits:</span></span>
 
-* <span data-ttu-id="6e40c-111">Customer payments arrive faster in your bank account.</span><span class="sxs-lookup"><span data-stu-id="6e40c-111">Customer payments arrive faster in your bank account.</span></span>
-* <span data-ttu-id="6e40c-112">Customers have more ways to pay invoices.</span><span class="sxs-lookup"><span data-stu-id="6e40c-112">Customers have more ways to pay invoices.</span></span>
-* <span data-ttu-id="6e40c-113">PayPal offers a trustworthy payment service, which customers prefer to entering credit card information on web sites.</span><span class="sxs-lookup"><span data-stu-id="6e40c-113">PayPal offers a trustworthy payment service, which customers prefer to entering credit card information on web sites.</span></span>
-* <span data-ttu-id="6e40c-114">PayPal offers multiple ways of handling payments, including credit card processing, PayPal accounts, and other sources.</span><span class="sxs-lookup"><span data-stu-id="6e40c-114">PayPal offers multiple ways of handling payments, including credit card processing, PayPal accounts, and other sources.</span></span>
-* <span data-ttu-id="6e40c-115">The PayPal link can be added automatically to sales documents or manually by the user.</span><span class="sxs-lookup"><span data-stu-id="6e40c-115">The PayPal link can be added automatically to sales documents or manually by the user.</span></span>
-* <span data-ttu-id="6e40c-116">The PayPal Payments Standard service does not involve monthly fees or setup fees.</span><span class="sxs-lookup"><span data-stu-id="6e40c-116">The PayPal Payments Standard service does not involve monthly fees or setup fees.</span></span>
-* <span data-ttu-id="6e40c-117">Because it is an extension, you can easily enable the PayPal Payment Standard service when and if your business requires it.</span><span class="sxs-lookup"><span data-stu-id="6e40c-117">Because it is an extension, you can easily enable the PayPal Payment Standard service when and if your business requires it.</span></span>  
+* <span data-ttu-id="89a68-111">Customer payments arrive faster in your bank account.</span><span class="sxs-lookup"><span data-stu-id="89a68-111">Customer payments arrive faster in your bank account.</span></span>
+* <span data-ttu-id="89a68-112">Customers have more ways to pay invoices.</span><span class="sxs-lookup"><span data-stu-id="89a68-112">Customers have more ways to pay invoices.</span></span>
+* <span data-ttu-id="89a68-113">PayPal offers a trustworthy payment service, which customers prefer to entering credit card information on web sites.</span><span class="sxs-lookup"><span data-stu-id="89a68-113">PayPal offers a trustworthy payment service, which customers prefer to entering credit card information on web sites.</span></span>
+* <span data-ttu-id="89a68-114">PayPal offers multiple ways of handling payments, including credit card processing, PayPal accounts, and other sources.</span><span class="sxs-lookup"><span data-stu-id="89a68-114">PayPal offers multiple ways of handling payments, including credit card processing, PayPal accounts, and other sources.</span></span>
+* <span data-ttu-id="89a68-115">The PayPal link can be added automatically to sales documents or manually by the user.</span><span class="sxs-lookup"><span data-stu-id="89a68-115">The PayPal link can be added automatically to sales documents or manually by the user.</span></span>
+* <span data-ttu-id="89a68-116">The PayPal Payments Standard service does not involve monthly fees or setup fees.</span><span class="sxs-lookup"><span data-stu-id="89a68-116">The PayPal Payments Standard service does not involve monthly fees or setup fees.</span></span>
+* <span data-ttu-id="89a68-117">Because it is an extension, you can easily enable the PayPal Payment Standard service when and if your business requires it.</span><span class="sxs-lookup"><span data-stu-id="89a68-117">Because it is an extension, you can easily enable the PayPal Payment Standard service when and if your business requires it.</span></span>  
 
-<span data-ttu-id="6e40c-118">For more information, see [Enable Customer Payment Through PayPal](sales-how-enable-payment-service-extensions.md).</span><span class="sxs-lookup"><span data-stu-id="6e40c-118">For more information, see [Enable Customer Payment Through PayPal](sales-how-enable-payment-service-extensions.md).</span></span>
+<span data-ttu-id="89a68-118">For more information, see [Enable Customer Payment Through PayPal](sales-how-enable-payment-service-extensions.md).</span><span class="sxs-lookup"><span data-stu-id="89a68-118">For more information, see [Enable Customer Payment Through PayPal](sales-how-enable-payment-service-extensions.md).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="6e40c-119">See Also</span><span class="sxs-lookup"><span data-stu-id="6e40c-119">See Also</span></span>
-<span data-ttu-id="6e40c-120">[Customising [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)</span><span class="sxs-lookup"><span data-stu-id="6e40c-120">[Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)</span></span>  
-[<span data-ttu-id="6e40c-121">Setting Up Sales</span><span class="sxs-lookup"><span data-stu-id="6e40c-121">Setting Up Sales</span></span>](sales-setup-sales.md)  
-<span data-ttu-id="6e40c-122">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="6e40c-122">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="89a68-119">See Also</span><span class="sxs-lookup"><span data-stu-id="89a68-119">See Also</span></span>
+<span data-ttu-id="89a68-120">[Customising [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)</span><span class="sxs-lookup"><span data-stu-id="89a68-120">[Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)</span></span>  
+[<span data-ttu-id="89a68-121">Setting Up Sales</span><span class="sxs-lookup"><span data-stu-id="89a68-121">Setting Up Sales</span></span>](sales-setup-sales.md)  
+<span data-ttu-id="89a68-122">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="89a68-122">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
