@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: e26e33485390e4318165d481a4aca522d4721f5d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 313b31f1ec72b75ab57edfd763199c3143a1e152
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383546"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784041"
 ---
 # <a name="withholding-tax-in-the-new-zealand-version"></a>Withholding Tax in the New Zealand Version
 
