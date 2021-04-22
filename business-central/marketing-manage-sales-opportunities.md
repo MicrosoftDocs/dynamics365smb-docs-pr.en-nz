@@ -10,32 +10,32 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: aeb0c872a9f89874abbd6c5049b0b4d3594e4399
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 9146e81b5dd7aaf46a23bd000ba0883ebeab191f
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5390452"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780598"
 ---
-# <a name="managing-sales-opportunities"></a><span data-ttu-id="1f8bf-103">Managing Sales Opportunities</span><span class="sxs-lookup"><span data-stu-id="1f8bf-103">Managing Sales Opportunities</span></span>
-<span data-ttu-id="1f8bf-104">Any incoming lead can be considered a sales opportunity.</span><span class="sxs-lookup"><span data-stu-id="1f8bf-104">Any incoming lead can be considered a sales opportunity.</span></span> <span data-ttu-id="1f8bf-105">You can create opportunities and associate them to a salesperson so that you can keep track of potential sales.</span><span class="sxs-lookup"><span data-stu-id="1f8bf-105">You can create opportunities and associate them to a salesperson so that you can keep track of potential sales.</span></span>
+# <a name="managing-sales-opportunities"></a><span data-ttu-id="3e98f-103">Managing Sales Opportunities</span><span class="sxs-lookup"><span data-stu-id="3e98f-103">Managing Sales Opportunities</span></span>
+<span data-ttu-id="3e98f-104">Any incoming lead can be considered a sales opportunity.</span><span class="sxs-lookup"><span data-stu-id="3e98f-104">Any incoming lead can be considered a sales opportunity.</span></span> <span data-ttu-id="3e98f-105">You can create opportunities and associate them to a salesperson so that you can keep track of potential sales.</span><span class="sxs-lookup"><span data-stu-id="3e98f-105">You can create opportunities and associate them to a salesperson so that you can keep track of potential sales.</span></span>
 
-<span data-ttu-id="1f8bf-106">Before you can start using opportunity management, you must set up sales cycles and sales cycle stages.</span><span class="sxs-lookup"><span data-stu-id="1f8bf-106">Before you can start using opportunity management, you must set up sales cycles and sales cycle stages.</span></span> <span data-ttu-id="1f8bf-107">As you create opportunities, you should provide information about the contact, salesperson, sales cycle, and dates, as well as your estimates for the sales value of the opportunity and your estimation of the chances of its success.</span><span class="sxs-lookup"><span data-stu-id="1f8bf-107">As you create opportunities, you should provide information about the contact, salesperson, sales cycle, and dates, as well as your estimates for the sales value of the opportunity and your estimation of the chances of its success.</span></span>
+<span data-ttu-id="3e98f-106">Before you can start using opportunity management, you must set up sales cycles and sales cycle stages.</span><span class="sxs-lookup"><span data-stu-id="3e98f-106">Before you can start using opportunity management, you must set up sales cycles and sales cycle stages.</span></span> <span data-ttu-id="3e98f-107">As you create opportunities, you should provide information about the contact, salesperson, sales cycle, and dates, as well as your estimates for the sales value of the opportunity and your estimation of the chances of its success.</span><span class="sxs-lookup"><span data-stu-id="3e98f-107">As you create opportunities, you should provide information about the contact, salesperson, sales cycle, and dates, as well as your estimates for the sales value of the opportunity and your estimation of the chances of its success.</span></span>
 
-<span data-ttu-id="1f8bf-108">The following table describes a sequence of tasks, with links to the topics that describe them.</span><span class="sxs-lookup"><span data-stu-id="1f8bf-108">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>
+<span data-ttu-id="3e98f-108">The following table describes a sequence of tasks, with links to the topics that describe them.</span><span class="sxs-lookup"><span data-stu-id="3e98f-108">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>
 
-| <span data-ttu-id="1f8bf-109">To</span><span class="sxs-lookup"><span data-stu-id="1f8bf-109">To</span></span> | <span data-ttu-id="1f8bf-110">See</span><span class="sxs-lookup"><span data-stu-id="1f8bf-110">See</span></span> |
+| <span data-ttu-id="3e98f-109">To</span><span class="sxs-lookup"><span data-stu-id="3e98f-109">To</span></span> | <span data-ttu-id="3e98f-110">See</span><span class="sxs-lookup"><span data-stu-id="3e98f-110">See</span></span> |
 | --- | --- |
-| <span data-ttu-id="1f8bf-111">Set up the sales cycles that you usually follow, and the different stages within each opportunity sales cycle.</span><span class="sxs-lookup"><span data-stu-id="1f8bf-111">Set up the sales cycles that you usually follow, and the different stages within each opportunity sales cycle.</span></span> |[<span data-ttu-id="1f8bf-112">Set Up Opportunity Sales Cycles and Cycle Stages</span><span class="sxs-lookup"><span data-stu-id="1f8bf-112">Set Up Opportunity Sales Cycles and Cycle Stages</span></span>](marketing-how-setup-opportunity-sales-cycles-stages.md) |
-| <span data-ttu-id="1f8bf-113">Create sales opportunities that you have from your contacts.</span><span class="sxs-lookup"><span data-stu-id="1f8bf-113">Create sales opportunities that you have from your contacts.</span></span> |[<span data-ttu-id="1f8bf-114">Create Opportunities</span><span class="sxs-lookup"><span data-stu-id="1f8bf-114">Create Opportunities</span></span>](marketing-how-create-opportunities.md) |
-| <span data-ttu-id="1f8bf-115">Move a sales opportunity through the sales cycle to completion.</span><span class="sxs-lookup"><span data-stu-id="1f8bf-115">Move a sales opportunity through the sales cycle to completion.</span></span> |[<span data-ttu-id="1f8bf-116">Process Sales Opportunities</span><span class="sxs-lookup"><span data-stu-id="1f8bf-116">Process Sales Opportunities</span></span>](marketing-processing-sales-opportunities.md) |
+| <span data-ttu-id="3e98f-111">Set up the sales cycles that you usually follow, and the different stages within each opportunity sales cycle.</span><span class="sxs-lookup"><span data-stu-id="3e98f-111">Set up the sales cycles that you usually follow, and the different stages within each opportunity sales cycle.</span></span> |[<span data-ttu-id="3e98f-112">Set Up Opportunity Sales Cycles and Cycle Stages</span><span class="sxs-lookup"><span data-stu-id="3e98f-112">Set Up Opportunity Sales Cycles and Cycle Stages</span></span>](marketing-how-setup-opportunity-sales-cycles-stages.md) |
+| <span data-ttu-id="3e98f-113">Create sales opportunities that you have from your contacts.</span><span class="sxs-lookup"><span data-stu-id="3e98f-113">Create sales opportunities that you have from your contacts.</span></span> |[<span data-ttu-id="3e98f-114">Create Opportunities</span><span class="sxs-lookup"><span data-stu-id="3e98f-114">Create Opportunities</span></span>](marketing-how-create-opportunities.md) |
+| <span data-ttu-id="3e98f-115">Move a sales opportunity through the sales cycle to completion.</span><span class="sxs-lookup"><span data-stu-id="3e98f-115">Move a sales opportunity through the sales cycle to completion.</span></span> |[<span data-ttu-id="3e98f-116">Process Sales Opportunities</span><span class="sxs-lookup"><span data-stu-id="3e98f-116">Process Sales Opportunities</span></span>](marketing-processing-sales-opportunities.md) |
 
-## <a name="see-also"></a><span data-ttu-id="1f8bf-117">See Also</span><span class="sxs-lookup"><span data-stu-id="1f8bf-117">See Also</span></span>
-[<span data-ttu-id="1f8bf-118">Sales</span><span class="sxs-lookup"><span data-stu-id="1f8bf-118">Sales</span></span>](sales-manage-sales.md)  
-[<span data-ttu-id="1f8bf-119">Creating and Managing Contacts</span><span class="sxs-lookup"><span data-stu-id="1f8bf-119">Creating and Managing Contacts</span></span>](marketing-contacts.md)  
-<span data-ttu-id="1f8bf-120">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="1f8bf-120">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="3e98f-117">See Also</span><span class="sxs-lookup"><span data-stu-id="3e98f-117">See Also</span></span>
+[<span data-ttu-id="3e98f-118">Sales</span><span class="sxs-lookup"><span data-stu-id="3e98f-118">Sales</span></span>](sales-manage-sales.md)  
+[<span data-ttu-id="3e98f-119">Creating and Managing Contacts</span><span class="sxs-lookup"><span data-stu-id="3e98f-119">Creating and Managing Contacts</span></span>](marketing-contacts.md)  
+<span data-ttu-id="3e98f-120">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="3e98f-120">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
