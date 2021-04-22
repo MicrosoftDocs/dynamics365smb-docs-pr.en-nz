@@ -2,14 +2,14 @@
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: include
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 60d8b8d7843c0b5844a7d37a084a8fbd63627f51
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: f6c274f1a7121854c6fe6936655f579c95318ad6
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747439"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771647"
 ---
 ## <a name="setting-up-electronic-funds-transfer"></a>Setting up Electronic Funds Transfer
 

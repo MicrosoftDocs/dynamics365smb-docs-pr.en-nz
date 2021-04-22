@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 2774b728e1383165037f2a7d3bc111925b440d59
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 7284792e8409674329f218900628bcfe8bc44372
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383586"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773258"
 ---
 # <a name="adjust-settlement-exchange-rates-for-vat-entries-in-the-new-zealand-version"></a>Adjust Settlement Exchange Rates for GST Entries in the New Zealand Version
 

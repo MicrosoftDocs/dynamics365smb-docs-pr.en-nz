@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: afe03a3fbe87e5212a7848333a97098c5a55a7ea
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e29cc3a9af4b7666bd19672b0696e24f053d8714
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383574"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773247"
 ---
 # <a name="print-bank-account-reconciliation-reports-in-the-new-zealand-version"></a>Print Bank Account Reconciliation Reports in the New Zealand Version
 

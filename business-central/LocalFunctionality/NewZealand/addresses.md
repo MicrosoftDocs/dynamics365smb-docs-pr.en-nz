@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e2f3f123626ea1532c657bfb972118130aa013d8
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 3c98be74f920416e28527d816503dd4d6e57c3d6
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383594"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780102"
 ---
 # <a name="addresses-in-the-new-zealand-version"></a>Addresses in the New Zealand Version
 

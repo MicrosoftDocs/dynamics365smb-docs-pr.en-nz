@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8fa13545d89f7acbf5e8a3aca8108080729b590c
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e6bd6231a15e483da5b0c3feb8d23200f19e8498
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383568"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773243"
 ---
 # <a name="print-goods-and-service-tax-settlement-reports-in-the-new-zealand-version"></a>Print Goods and Service Tax Settlement Reports in the New Zealand Version
 

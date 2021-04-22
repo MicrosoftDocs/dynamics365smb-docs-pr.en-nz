@@ -2,18 +2,18 @@
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: include
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9cb5fa2b0358d6170b419482b26c58abead84df2
-ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
+ms.openlocfilehash: d6684481ef4b0017d912b2c5e07085f8ac6c6920
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3959629"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771380"
 ---
 ## <a name="to-calculate-and-post-withholding-tax-settlements"></a>To calculate and post withholding tax settlements  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Calc. and Post WHT Settlement** , and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Calc. and Post WHT Settlement**, and then choose the related link.  
 2.  Fill in the fields as described in the following table.  
 
     |Field|Description|  

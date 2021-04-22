@@ -2,14 +2,14 @@
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: include
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 55caefb76847eadcc3471893a6afb472d68ad91d
-ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
+ms.openlocfilehash: 6b07817a0642651ace96c1b6f3e85063a5d93c7a
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3959638"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771565"
 ---
 Use the cost plus percentage function to set a sales price based on the cost of an item. The cost of the item can be calculated along with cost plus calculation. The discount will be based on this calculation. This functionality eliminates the need for the use of spreadsheets in determining percentage discounts as they correspond to cost plus percentage.  
 

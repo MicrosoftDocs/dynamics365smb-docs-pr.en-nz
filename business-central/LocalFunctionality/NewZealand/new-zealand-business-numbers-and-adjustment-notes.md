@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d98582d0e051e3d90f753086088124ca918cbbd7
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 999600d1de2295fe76d4d34f948b78365349a893
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383550"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773469"
 ---
 # <a name="new-zealand-inland-revenue-department-numbers-and-adjustment-notes"></a>New Zealand Inland Revenue Department Numbers and Adjustment Notes
 

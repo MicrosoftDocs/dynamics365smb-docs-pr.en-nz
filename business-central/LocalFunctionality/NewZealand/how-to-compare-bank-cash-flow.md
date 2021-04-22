@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: e69d0ec243499858ba6b2ecabf85da7f558b2a5a
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ef1aa03345c2b795969cea1f9573d47c9cb4cc7e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383582"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773263"
 ---
 # <a name="compare-bank-cash-flow-in-the-new-zealand-version"></a>Compare Bank Cash Flow in the New Zealand Version
 

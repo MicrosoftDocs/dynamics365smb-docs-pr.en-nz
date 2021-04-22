@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: e6e56a97d861b489d20823b637d1d4214b6b9cdb
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f05dc08dd5f18324f43f3bcddeb0823de1fa131a
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383566"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5770623"
 ---
 # <a name="print-income-statements-in-the-new-zealand-version"></a>Print Income Statements in the New Zealand version
 

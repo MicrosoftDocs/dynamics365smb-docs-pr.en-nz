@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 811308663a08749a43ce81541a925c0b3aa266fa
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 96631090c20079a6c5692c0fdcb6c8a91725855b
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383588"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780103"
 ---
 # <a name="electronic-funds-transfer-eft-in-the-new-zealand-version"></a>Electronic Funds Transfer (EFT) in the New Zealand Version
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: a6530a177aab601eb2a17f37d00911ae0bc0a946
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 569dd274968479081bba15112375d5061df6d597
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383578"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773265"
 ---
 # <a name="determine-sales-price-by-cost-plus-percentage-in-the-new-zealand-version"></a>Determine Sales Price by Cost Plus Percentage in the New Zealand Version
 

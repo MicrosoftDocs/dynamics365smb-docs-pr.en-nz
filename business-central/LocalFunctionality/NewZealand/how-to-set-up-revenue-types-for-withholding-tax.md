@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: b6865106b30c715e78bf64e01a7eeb11a7d3a28b
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 39820a25b87064936eeb3b6563618c228b645783
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383562"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773488"
 ---
 # <a name="set-up-revenue-types-for-withholding-tax-in-the-new-zealand-version"></a>Set Up Revenue Types for Withholding Tax in the New Zealand Version
 

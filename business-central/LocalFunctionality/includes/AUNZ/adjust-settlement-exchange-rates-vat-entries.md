@@ -2,20 +2,20 @@
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: include
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 42d80aab7fa771f8db0d15a619b2602c682bfbe6
-ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
+ms.openlocfilehash: 03aa3d81dac59cefe1e12bbaf0e7aeaa4208a2ce
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3959630"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773261"
 ---
 You can use the **Adjust Settlement Exch. Rates** batch job to settle GST entries according to the government exchange rate as defined in the **Currency Exchange Rate** table.  
 
 ## <a name="to-adjust-settlement-exchange-rates-for-vat"></a>To adjust settlement exchange rates for GST  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Adjust Settlement Exch. Rates** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Adjust Settlement Exch. Rates**, and then choose the related link.  
 2. Fill in the fields as described in the following table.  
 
     |Field|Description|  
