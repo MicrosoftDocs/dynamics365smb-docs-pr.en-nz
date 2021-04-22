@@ -8,22 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 53585d0f4a2437ee6514ad73015171e79cef221b
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 36026c2f97889336dba2ebdece105d0ccc6ce3a1
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383592"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774362"
 ---
-# <a name="calculating-distribution-amounts-in-the-new-zealand-version"></a><span data-ttu-id="44569-103">Calculating Distribution Amounts in the New Zealand Version</span><span class="sxs-lookup"><span data-stu-id="44569-103">Calculating Distribution Amounts in the New Zealand Version</span></span>
+# <a name="calculating-distribution-amounts-in-the-new-zealand-version"></a><span data-ttu-id="db28e-103">Calculating Distribution Amounts in the New Zealand Version</span><span class="sxs-lookup"><span data-stu-id="db28e-103">Calculating Distribution Amounts in the New Zealand Version</span></span>
 
 [!INCLUDE [calculating-distribution-amounts](../includes/AUNZ/calculating-distribution-amounts.md)]
 
-## <a name="see-also"></a><span data-ttu-id="44569-104">See Also</span><span class="sxs-lookup"><span data-stu-id="44569-104">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="db28e-104">See Also</span><span class="sxs-lookup"><span data-stu-id="db28e-104">See Also</span></span>
 
-[<span data-ttu-id="44569-105">New Zealand Local Functionality</span><span class="sxs-lookup"><span data-stu-id="44569-105">New Zealand Local Functionality</span></span>](new-zealand-local-functionality.md)  
+[<span data-ttu-id="db28e-105">New Zealand Local Functionality</span><span class="sxs-lookup"><span data-stu-id="db28e-105">New Zealand Local Functionality</span></span>](new-zealand-local-functionality.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
