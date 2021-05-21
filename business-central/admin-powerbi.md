@@ -11,12 +11,12 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 32e9eaadfa55a8c10e331c9f6a35f18d48b73110
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 38d7cc9bf45c3bef239a68cd0e4865ef2833776e
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777336"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935152"
 ---
 # <a name="prod_short-and-power-bi"></a>[!INCLUDE[prod_short](includes/prod_short.md)] and Power BI
 
@@ -73,7 +73,7 @@ There are a few tasks that must be done before you can start using Power BI with
 [Using [!INCLUDE[prod_short](includes/prod_short.md)] as a Power Apps Data Source](across-how-use-financials-data-source-powerapps.md)  
 [Using [!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate](across-how-use-financials-data-source-flow.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

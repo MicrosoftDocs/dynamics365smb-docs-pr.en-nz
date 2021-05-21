@@ -1,5 +1,5 @@
 ---
-title: Set Up Intercompany Transaction Posting| Microsoft Docs
+title: Set Up Intercompany Transaction Posting
 description: Create your intercompany vendors and customers as so-called intercompany partners, and set up an intercompany chart of accounts.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,14 +10,14 @@ ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c323aee8139912e103b09066f2f6a7a25e2832c3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 79c204a6c8a173985a5d3558d5ce1af5a2d8fc39
+ms.sourcegitcommit: 6add995f289c56e5497409308825c73eeaa4f62f
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786214"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5941533"
 ---
-# <a name="set-up-intercompany"></a>Set Up Intercompany
+# <a name="set-up-intercompany-transaction-posting"></a>Set Up Intercompany Transaction Posting
 
 To send a transaction (such as a sales journal line) from one company and have the corresponding transaction (such as a purchase journal line) automatically created in the partner company, the companies involved must agree on a common chart of accounts and set of dimensions for use on intercompany transactions. The intercompany chart of accounts can be, for example, a simplified version of the parent company's chart of accounts. Each company maps their full chart of accounts to the shared intercompany chart of accounts, and each company maps their dimensions to the intercompany dimensions.  
 
@@ -34,7 +34,7 @@ If you will make intercompany sales transactions that include resources, you mus
 ## <a name="to-set-intercompany-partners"></a>To set intercompany partners
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Partners**, and then choose the related link.
 2. Choose the **New** action.
-3. On the **Intercompany Partner** page, fill in the fields as necessary.
+3. On the **Intercompany Partner** page, fill in the fields as necessary.[!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
 > In [!INCLUDE[prod_short](includes/prod_short.md)] online, you cannot use file locations to transfer transactions to your partners because [!INCLUDE[prod_short](includes/prod_short.md)] does not have access to your local network. Therefore, if you choose **File Location** in the **Transfer Type** field, the **Folder Path** field is not available. Instead, the file will be downloaded to the Downloads folder on your computer. You then send the file to someone in the partner company, for example, by email. For a more direct process, we recommend that you choose **Email** instead.

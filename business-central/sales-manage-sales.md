@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: trade, sell
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7a7d013ab7a630703b38163252359ba803140da9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8c80cbbc4ed4feb088116577157407dd8fb98aaf
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773871"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935027"
 ---
 # <a name="sales"></a>Sales
 You create a sales invoice or sales order to record your agreement with a customer to sell certain products on certain delivery and payment terms.
@@ -55,7 +55,6 @@ The following table describes a sequence of tasks, with links to the topics that
 |Sell assembly items that are not currently available by creating a linked assembly order to supply the full or partial sales order quantity.|[Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md)|
 |Invoice a customer once for multiple shipments by combining the shipments on one invoice.|[Combine Shipments on a Single Invoice](sales-how-to-combine-shipments-on-a-single-invoice.md)|
 |Inform your customers of order delivery dates by calculating either the capable-to-promise date or the available-to-promise date.|[Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)|
-|Register your estimates for future sales, specified by item and by period, to function mainly as input to production planning.|[Create a Forecast](production-how-to-create-a-forecast.md)|
 |Resolve confusion when two or more records exist for the same customer.|[Merge Duplicate Records](sales-how-merge-duplicate-records.md)|
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/paths/sell-items-services-dynamics-365-business-central/)

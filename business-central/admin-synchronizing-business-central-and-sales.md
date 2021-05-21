@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Dataverse, integration, sync, synchronize, mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9a912596a71e77a09a7491fe20032056d1a9b808
-ms.sourcegitcommit: 8b44a7bcba45ae852cc6dd07b90b9a383c1be488
+ms.openlocfilehash: d568b9b40f2ed8db264db9736cf8e87f4165ea2c
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "5870039"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935102"
 ---
 # <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Synchronising Data in Business Central with Microsoft Dataverse
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -55,6 +55,8 @@ The following table lists the standard mapping between tables in [!INCLUDE[prod_
 | Contact | Contact | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] and [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[prod_short](includes/prod_short.md)] contact filter: **Type** is **Person** and the contact is assigned to a company. [!INCLUDE[prod_short](includes/cds_long_md.md)] contact filter: The contact is assigned to a company and the parent customer type is **Account** |
 | Currency | Transaction Currency | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] |  |
 
+> [!NOTE]
+> The **Dataverse** actions will not be available on pages, for example, the Customer Card page, for records that do not respect the table filter on the integration table mapping.
 
 ### <a name="tip-for-admins-viewing-table-mappings"></a>Tip for Admins: Viewing Table Mappings
 You can view the mapping between the tables in [!INCLUDE[prod_short](includes/cds_long_md.md)] and [!INCLUDE[prod_short](includes/prod_short.md)] on the **Integration Table Mappings** page, where you can also apply filters. You define the mapping between the fields in [!INCLUDE[prod_short](includes/prod_short.md)] tables and the columns in [!INCLUDE[prod_short](includes/cds_long_md.md)] tables on the **Integration Field Mapping** page, where you can add additional mapping logic. For example, this can be useful if you need to troubleshoot synchronisation.

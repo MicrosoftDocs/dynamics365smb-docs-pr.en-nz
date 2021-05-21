@@ -17,9 +17,9 @@
 #### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md)
 #### [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)
 #### [Walkthrough: Managing Projects with Jobs](walkthrough-managing-projects-with-jobs.md)
-#### [Walkthrough: Calculating Work in Process for a Job](walkthrough-calculating-work-in-process-for-a-job.md)
+#### [Walkthrough: Calculating Work in Progress for a Job](walkthrough-calculating-work-in-process-for-a-job.md)
 #### [Walkthrough: Picking and Shipping in Basic Warehouse Configurations](walkthrough-picking-and-shipping-in-basic-warehousing.md)
-#### [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)
+#### [Walkthrough: Tracing Serial Numbers](walkthrough-tracing-serial-lot-numbers.md)
 #### [Walkthrough: Making Cash Flow Forecasts by Using Account Schedules](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 
 ### Design Details
@@ -105,10 +105,10 @@
 #### [Setting Up Posting Groups](finance-posting-groups.md)
 #### [Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md)
 #### [Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
-#### [Work with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)
+#### [Work with Accounting Periods and Financial Years](finance-accounting-periods-and-fiscal-years.md)
 #### [Set Up Reminder Terms and Levels](finance-setup-reminders.md)
 #### [Set Up Finance Charge Terms](finance-setup-finance-charges.md)
-#### [Set Up Value-Added Tax (VAT)](finance-setup-vat.md)
+#### [Set Up Goods and Services Tax (GST)](finance-setup-vat.md)
 #### [Set Up Calculations and Posting Methods for Goods and Services Tax (GST)](finance-setup-vat.md)
 #### [Set Up Unrealised GST for Cash-Based Accounting](finance-setup-unrealized-vat.md)
 #### [Validate GST Registration numbers](finance-how-validate-vat-registration-number.md)
@@ -153,7 +153,7 @@
 #### [Register New Items](inventory-how-register-new-items.md)
 #### [Copy Existing Items to Create New Items](inventory-how-copy-items.md)
 #### [About Item Types](inventory-about-item-types.md)
-#### [Set Up Units of Measure](inventory-how-setup-units-of-measure.md)
+#### [Set Up Units of Measurement](inventory-how-setup-units-of-measure.md)
 #### [Set Up Stockkeeping Units](inventory-how-to-set-up-stockkeeping-units.md)
 #### [Categorise Items](inventory-how-categorize-items.md)
 #### [Import Multiple Item Pictures](inventory-how-import-item-pictures.md)
@@ -193,7 +193,7 @@
 #### [Create Routings](production-how-to-create-routings.md)
 #### [Create Production BOMs](production-how-to-create-production-boms.md)
 #### [Enable Flushing of Components According to Operation Output](production-how-to-flush-components-according-to-operation-output.md)
-#### [Work With Manufacturing Batch Units of Measure](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)
+#### [Work With Manufacturing Batch Units of Measurement](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)
 #### [Handling Lot Sizes in Production](production-handling-lot-sizes.md)
 #### [Work With Production Families](production-how-work-family.md)
 #### [Set Up Standard Routing Lines](production-how-set-up-standard-routing-lines.md)
@@ -273,6 +273,7 @@
 ###### [Working with Power BI Reports in Business Central](across-working-with-powerbi.md)
 ###### [Working with Business Central Data in Power BI](across-working-with-business-central-in-powerbi.md)
 ###### [Using the Business Central Apps in Power BI](across-powerbi-business-central-apps.md)
+##### [FAQ](power-bi-faq.md)
 #### Using Power Automate with Business Central
 ##### [Using Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md)
 #### Using Power Apps with Business Central
@@ -288,8 +289,8 @@
 ## Frequently Asked Questions
 ### [Frequently Asked Questions](across-faq.md)
 ### [Tell Me FAQ](ui-search-faq.md)
-### [Searching and Filtering FAQ](ui-search-filter-faq.md)
-### [List Views FAQ](ui-views-faq.md)
+### [Searching and Filtering FAQ](ui-search-filter-faq.yml)
+### [List Views FAQ](ui-views-faq.yml)
 ### [Copy and Paste FAQ](faq-copy-paste.yml)
 ### [Mobile Apps FAQ](ui-mobile-faq.md)
 ### [Teams FAQ](teams-faq.md)
@@ -321,7 +322,7 @@
 ## [Finding Pages with the Role Explorer](ui-role-explorer.md)
 ## [Tell Me FAQ](ui-search-faq.md)
 ## [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md)
-## [Searching and Filtering FAQ](ui-search-filter-faq.md)
+## [Searching and Filtering FAQ](ui-search-filter-faq.yml)
 ## [Entering Data](ui-enter-data.md)
 ## [Copy and Paste FAQ](faq-copy-paste.yml)
 ## [Working with Calendar Dates and Times](ui-enter-date-ranges.md)
@@ -356,10 +357,11 @@
 ### [Define Document Layouts for Customers and Vendors](ui-define-customer-vendor-document-layouts.md)
 ### [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md)
 ### [Available Fonts](ui-fonts.md)
-## Using Keyboard Shortcuts
-### [Accessibility and Keyboard Shortcuts](ui-accessibility.md)
+## Accessibility, Keyboard Shortcuts, and Touch Gestures
+### [Accessibility](ui-accessibility.md)
 ### [Keyboard Shortcuts](keyboard-shortcuts.md)
 ### [Keyboard Quick Reference - PC Only](keyboard-shortcuts-cheatsheet.md)
+### [Touch and Pen Gestures](touch-gestures.md)
 ## [Troubleshooting: Accessing Camera and Location](ui-troubleshooting-camera-location.md)
 ## [Intelligent Insights (online only)](about-intelligent-cloud.md)
 # Business Functionality
@@ -429,9 +431,10 @@
 ##### [Set Up the Bank Statement Service](bank-how-setup-bank-statement-service.md)
 ##### [Set Up Bank Accounts](bank-how-setup-bank-accounts.md)
 ##### [Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)
-##### [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md)
+
 #### Exchanging Data
 ##### [Exchange Data](across-exchange-data.md)
+##### [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md)
 ##### [Send Electronic Documents](sales-how-to-send-electronic-documents.md)
 ##### [Use OCR to Turn PDF and Image Files into Electronic Documents](across-how-use-ocr-pdf-images-files.md)
 ##### [Receive and Convert Electronic Documents](purchasing-how-to-receive-and-convert-electronic-documents.md)
@@ -479,7 +482,7 @@
 ##### [Review or Apply Payments Manually after Automatic Application](receivables-how-review-apply-payments-auto-application.md)
 ##### [Reconcile Payments that Cannot be Applied Automatically](receivables-how-reconcile-payments-cannot-apply-auto.md)
 ##### [Map Text on Recurring Payments to Accounts for Automatic Reconciliation](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
-#### [Reconcile Vendor Payments with the Payment Journal or from Vendor Ledger Entries](payables-how-apply-purchase-transactions-manually.md)
+#### [Reconcile Vendor Payments with the Receipt Journal or from Vendor Ledger Entries](payables-how-apply-purchase-transactions-manually.md)
 #### [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)
 #### [Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Block Vendors](payables-how-block-vendors.md)
@@ -533,7 +536,7 @@
 
 ### Closing Years and Periods
 #### [Year Closing Overview](year-close-years-periods.md)
-#### [Working with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)
+#### [Working with Accounting Periods and Financial Years](finance-accounting-periods-and-fiscal-years.md)
 #### [Specify Posting Periods](finance-how-specify-posting-periods.md)
 #### [Closing Periods](year-how-complete-period-end-processes.md)
 #### [Update Currency Exchange Rates](finance-how-update-currencies.md)
@@ -550,6 +553,7 @@
 #### [Set Up Company Consolidation](finance-consolidated-company-reporting-setup.md)
 ### [Understanding the General Ledger and the COA](finance-general-ledger.md)
 ### [Working with Dimensions](finance-dimensions.md)
+### [Troubleshooting and Correcting Dimensions](finance-troubleshooting-correcting-dimensions.md)
 ### [Create G/L Budgets](finance-how-create-budgets.md)
 ### [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)
 ### [Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md)
@@ -567,6 +571,7 @@
 ### [Analyzing Financial Statements in Excel](finance-analyze-excel.md)
 ### [Transfer Bank Funds](bank-how-transfer-bank-funds.md)
 ### [Accountant Experiences in Business Central](finance-accounting.md)
+### [Multi-Site and International Organisations](finance-multi-site-organizations.md)
 
 ## Business Intelligence and Financial Reporting
 ### [Business Intelligence and Financial Reporting Overview](bi.md)
@@ -705,6 +710,8 @@
 ### [Run Full Planning, MPS or MRP](production-how-to-run-mps-and-mrp.md)
 ### [Replan or Refresh Production Orders Directly](production-how-to-replan-refresh-production-orders.md)
 ### [Track Relations Between Demand and Supply](production-how-track-demand-supply.md)
+### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)
+### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md)
 <!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
 
 ## Assembly Management
@@ -745,8 +752,6 @@
 #### [Put Away Production or Assembly Output](warehouse-how-to-put-away-production-output.md)
 #### [Plan Put-Aways in Worksheets](warehouse-how-to-plan-put-aways-in-worksheets.md)
 #### [Pick and Put Away Without a Source Document](warehouse-how-to-create-put-aways-from-internal-put-aways.md)
-#### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)
-#### [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
 ### Moving Items
 #### [Move Items](warehouse-move-items.md)
 #### [Move Items Ad Hoc in Basic Warehouse Configurations](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)
@@ -770,8 +775,6 @@
 ### [Use Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)
 ### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 ### [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
-### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)
-### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md)
 
 ## Service Management
 ### [Service Management](service-service.md)
@@ -876,7 +879,7 @@
 ##### [Set Up Export Protocols](LocalFunctionality/Belgium/how-to-set-up-export-protocols.md)
 ##### [Summarising Payment Lines and General Journal Lines](LocalFunctionality/Belgium/summarizing-payment-lines-and-general-journal-lines.md)
 ##### [Set Up Vendors for Automatic Payment Suggestions](LocalFunctionality/Belgium/how-to-set-up-vendors-for-automatic-payment-suggestions.md)
-##### [Create Payment Journal Templates and Batches](LocalFunctionality/Belgium/how-to-create-payment-journal-templates-and-batches.md)
+##### [Create Receipt Journal Templates and Batches](LocalFunctionality/Belgium/how-to-create-payment-journal-templates-and-batches.md)
 ##### [Test Electronic Payments](LocalFunctionality/Belgium/how-to-test-electronic-payments.md)
 ##### [Print Payment Files](LocalFunctionality/Belgium/how-to-print-payment-files.md)
 ##### [Activate SEPA Payments](LocalFunctionality/Belgium/how-to-activate-sepa-payments.md)
@@ -906,7 +909,7 @@
 #### Tax
 ##### [Reporting Sales Tax and Goods/Services Tax in Canada](LocalFunctionality/Canada/sales-tax-goods-services.md)
 ##### [Reporting Sales Tax in Canada](LocalFunctionality/Canada/ca-sales-tax.md)
-##### [Set Up Unrealised Sales Tax and Sales Payment Discounts](LocalFunctionality/Canada/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
+##### [Set Up Unrealized Sales Tax and Sales Payment Discounts](LocalFunctionality/Canada/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
 ##### [Set Up Use Tax and Purchase Tax](LocalFunctionality/Canada/how-to-set-up-use-tax-and-purchase-tax.md)
 #### Banking & Payments
 ##### [Create Deposits](LocalFunctionality/Canada/how-to-create-deposits.md)
@@ -1004,13 +1007,13 @@
 ##### [Print General Ledger Reports](LocalFunctionality/France/how-to-print-general-ledger-reports.md)
 ##### [View Ledger Reconciliations](LocalFunctionality/France/how-to-view-ledger-reconciliations.md)
 ##### [Specify Posting Periods](LocalFunctionality/France/how-to-specify-posting-periods.md)
-##### [Fiscal Periods and Fiscal Years](LocalFunctionality/France/fiscal-periods-and-fiscal-years.md)
+##### [Financial Periods and Financial Years](LocalFunctionality/France/fiscal-periods-and-fiscal-years.md)
 ##### [Overview of Year-End Processes](LocalFunctionality/France/year-end-processes-overview.md)
 ##### [Fiscally Close Accounting Periods](LocalFunctionality/France/how-to-fiscally-close-accounting-periods.md)
 ##### [Close Income Statement Accounts](LocalFunctionality/France/how-to-close-income-statement-accounts.md)
 ##### [Close a Year](LocalFunctionality/France/how-to-close-years.md)
 ##### [Fiscally Close Years](LocalFunctionality/France/how-to-fiscally-close-years.md)
-##### [Open a New Fiscal Year Duplicate](LocalFunctionality/France/how-to-open-a-new-fiscal-year-duplicate.md)
+##### [Open a New Financial Year Duplicate](LocalFunctionality/France/how-to-open-a-new-fiscal-year-duplicate.md)
 ##### [Post the Year-End Closing Entry](LocalFunctionality/France/how-to-post-the-year-end-closing-entry.md)
 ##### [Reopen Accounting Periods](LocalFunctionality/France/how-to-reopen-accounting-periods.md)
 #### Fixed Assets
@@ -1191,13 +1194,13 @@
 ##### [Vendor Payments and Customer Bills Overview](LocalFunctionality/Italy/vendor-payments-and-customer-bills-overview.md)
 ##### [Issue Vendor Payments and Customer Bills](LocalFunctionality/Italy/how-to-issue-vendor-payments-and-customer-bills.md)
 #### Core Finance
-##### [Close a Fiscal Year](LocalFunctionality/Italy/how-to-close-a-fiscal-year.md)
+##### [Close a Financial Year](LocalFunctionality/Italy/how-to-close-a-fiscal-year.md)
 ##### [Define Debit and Credit Amounts](LocalFunctionality/Italy/how-to-define-debit-and-credit-amounts.md)
 ##### [Reversing Journal Entries](LocalFunctionality/Italy/reversing-journal-entries.md)
 #### Inventory
 ##### [Set Up Initial Item Costs](LocalFunctionality/Italy/how-to-set-up-initial-item-costs.md)
-##### [Fiscal Inventory Valuation](LocalFunctionality/Italy/fiscal-inventory-valuation.MD)
-##### [Set Up Fiscal Inventory Valuation](LocalFunctionality/Italy/how-to-set-up-fiscal-inventory-valuation.md)
+##### [Financial Inventory Valuation](LocalFunctionality/Italy/fiscal-inventory-valuation.MD)
+##### [Set Up Financial Inventory Valuation](LocalFunctionality/Italy/how-to-set-up-fiscal-inventory-valuation.md)
 #### Fixed Assets
 ##### [Italian Fixed Assets](LocalFunctionality/Italy/italian-fixed-assets.md)
 ##### [Set Up Compressed Depreciation of Fixed Assets](LocalFunctionality/Italy/how-to-set-up-compressed-depreciation-of-fixed-assets.md)
