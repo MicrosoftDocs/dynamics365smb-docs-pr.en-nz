@@ -1,5 +1,5 @@
 ---
-title: How to Calculate Order Promising Dates | Microsoft Docs
+title: Calculate Order Promising Dates
 description: The order promising function is a tool for calculating the earliest possible date that an item is available for shipment or delivery. It also creates requisition lines for those dates that you accept.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0fda3e2cdbbb04d025d0142b94add8c75eb98c5a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f9550d81eb193cb76cd846d98e1259226fd77895
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778488"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115606"
 ---
 # <a name="calculate-order-promising-dates"></a>Calculate Order Promising Dates
-A company must be able to inform their customers of order delivery dates. The **Order Promising Lines** page enables you to do this from a sales order line.  
+A company must be able to inform their customers of order delivery dates. The **Order Promising Lines** page enables you to do this from a sales order.  
 
 Based on an item’s known and expected availability dates, [!INCLUDE[prod_short](includes/prod_short.md)] instantly calculates shipment and delivery dates, which can then be promised to the customer.  
 
@@ -35,7 +35,7 @@ If you do not specify a requested delivery date on a sales order line, or if the
 - planned shipment date + shipping time = planned delivery date  
 
 ## <a name="about-order-promising"></a>About Order Promising
-The Order Promising functionality enables you to promise an order to be shipped or delivered on a specific date. The date that an item is available to promise or capable to promise is calculated, and order lines are created for those dates that you accept. The functionality calculates the earliest possible date that an item is available for shipment or delivery. It also creates requisition lines, in case the items must first be purchases, for those dates that you accept.
+The Order Promising functionality enables you to promise an order to be shipped or delivered on a specific date. The date that an item is available to promise or capable to promise is calculated, and order lines are created for those dates that you accept. The functionality calculates the earliest possible date that an item is available for shipment or delivery. It also creates requisition lines, in case the items must first be purchased or produced, for those dates that you accept.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] uses two fundamental concepts:  
 

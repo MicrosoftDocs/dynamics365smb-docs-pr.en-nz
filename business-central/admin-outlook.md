@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ee9587b323fe1b104a85319eba03bfdcfce8c13e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2c8746098081a8f0b961f6ab2efd11c491104acc
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777457"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115402"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Using Business Central as your Business Inbox in Outlook
 
@@ -68,7 +68,7 @@ In both cases, if [!INCLUDE[prod_short](includes/prod_short.md)] is still not av
 
 ## <a name="using-other-email-accounts"></a>Using Other Email Accounts
 
-The add-ins are designed to be used with Microsoft 365. If you use [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, your administrator will know if you can use the [!INCLUDE[prod_short](includes/prod_short.md)] add-ins in Outlook. For more information, see [What email address can I use with [!INCLUDE[prod_short](includes/prod_short.md)]?](across-faq.md#email), and the [Features that require specific circumstances](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances?toc=/dynamics365/business-central/toc.json) article and the [Why doesn't the Outlook add-in work for my users?](/dynamics365/business-central/dev-itpro/faq#why-doesnt-the-outlook-add-in-work-for-my-users?toc=/dynamics365/business-central/toc.json) section in the general FAQ in the administration content.  
+The add-ins are designed to be used with Microsoft 365. If you use [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, your administrator will know if you can use the [!INCLUDE[prod_short](includes/prod_short.md)] add-ins in Outlook. For more information, see [What email address can I use with [!INCLUDE[prod_short](includes/prod_short.md)]?](/dynamics365/business-central/across-faq#email), and the [Features that require specific circumstances](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances?toc=/dynamics365/business-central/toc.json) article and the [Why doesn't the Outlook add-in work for my users?](/dynamics365/business-central/dev-itpro/faq#why-doesnt-the-outlook-add-in-work-for-my-users?toc=/dynamics365/business-central/toc.json) section in the general FAQ in the administration content.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 

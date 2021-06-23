@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 668a17968b7ab41094253b87be65c3577186a6ef
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4346b3a2570710f09d5deaded2788274155f1a5a
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785285"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6214794"
 ---
 # <a name="design-details-warehouse-setup"></a>Design Details: Warehouse Setup
 
@@ -76,7 +76,7 @@ In WMS installations, you can restrict the warehouse activities that are allowed
 |------------------|---------------------------------------|  
 |RECEIVE|Items posted as received but not yet put away.|  
 |SHIP|Items picked for warehouse shipment lines but not yet posted as shipped.|  
-|PUT AWAY|Typically, items to be stored in large units of measure but that you do not want to access for picking purposes. Because these bins are not used for picking, either for production orders or shipments, your use of a Put Away type bin might be limited, but this bin type could be useful if you have purchased a large quantity of items. Bins of this type should always have a low bin-ranking, so that when received items are put away, other higher-ranking PUTPICK bins fixed to the item are put away first. If you are using this type of bin, you must regularly perform bin replenishment so that the items stored in these bins are also available in PUTPICK or PICK type bins.|  
+|PUT AWAY|Typically, items to be stored in large units of measurement but that you do not want to access for picking purposes. Because these bins are not used for picking, either for production orders or shipments, your use of a Put Away type bin might be limited, but this bin type could be useful if you have purchased a large quantity of items. Bins of this type should always have a low bin-ranking, so that when received items are put away, other higher-ranking PUTPICK bins fixed to the item are put away first. If you are using this type of bin, you must regularly perform bin replenishment so that the items stored in these bins are also available in PUTPICK or PICK type bins.|  
 |PICK|Items to be used for picking only. The replenishment of these bins can only be made by movement, not by put-away.|  
 |PUTPICK|Items in bins that are suggested for both the put-away and pick functions. Bins of this type probably have different bin rankings. You can set up your bulk storage bins as this type of bin with low bin rankings compared to your ordinary pick bins or forward picking area bins.|  
 |QC|This bin is used for inventory adjustments if you specify this bin on the location card in the **Adjustment Bin Code** field. You can also set up bins of this type for defective items and items being inspected. You can move items to this type of bin if you want to make them inaccessible to the usual item flow. **Note:**  Unlike all other bin types, the **QC** bin type has none of the item handling check boxes selected by default. This indicates that any content you place in a QC bin is excluded from item flows.|  
@@ -97,7 +97,7 @@ Bin ranking together with bin content information are the basic properties that 
 ## <a name="bin-setup"></a>Bin Setup  
 In advanced warehousing, bins can be set up with capacity values, such as quantity, total cubage, and weight to control which and how items are stored in the bin.  
 
-On each item card, you can assign a unit of measure (UOM) for the item, such as pieces, pallets, liters, grams, or boxes. You can also have a base UOM for an item and specify larger UOMs that are based on it. For example, you can define a pallet to equal 16 pieces, the latter being the base UOM.  
+On each item card, you can assign a unit of measurement (UOM) for the item, such as pieces, pallets, litres, grams, or boxes. You can also have a base UOM for an item and specify larger UOMs that are based on it. For example, you can define a pallet to equal 16 pieces, the latter being the base UOM.  
 
 If you want to set a maximum quantity of a specific item to be stored in an individual bin and the item has more than one UOM, then you must set the maximum quantity for every UOM that exists on the item card. Accordingly, if an item has been set up to be handled in pieces and pallets, then the **Max. Qty.** field on the **Bin Content** page for that item must also be in pieces and pallets. Otherwise, the allowed quantity for that bin is not calculated correctly.  
 
@@ -129,7 +129,7 @@ A location is a physical structure or place where inventory is received, stored,
 
 If you select the **Pick According to FEFO** check box on the **Bin Policies** FastTab on the location card, then item-tracked items are picked according to their expiration date. The items with the earliest expiration dates are picked first.  
 
-Warehouse activities in all pick and movement documents are sorted according to FEFO, unless the items in question already have serial/lot numbers assigned. If only a part of the quantity on the line already has serial/lot numbers assigned, then the remaining quantity to be picked is sorted according to FEFO.  
+Warehouse activities in all pick and movement documents are sorted according to FEFO, unless the items in question already have serial numbers assigned. If only a part of the quantity on the line already has serial numbers assigned, then the remaining quantity to be picked is sorted according to FEFO.  
 
 When picking by FEFO, the available items that expire first are gathered in a temporary item tracking list based on the expiration date. If two items have the same expiration date, then the item with the lowest lot or serial number is picked first. If the lot or serial numbers are the same, then the item that was registered first is selected first. Standard criteria for selecting items in pick bins, such as Bin Ranking and Break Bulk, are applied to this temporary FEFO item tracking list.  
 

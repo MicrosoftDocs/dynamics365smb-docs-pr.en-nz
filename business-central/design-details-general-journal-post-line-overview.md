@@ -8,19 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, general ledger, post
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 6866e852899df3de3de2c4560c26ad981e46fda5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1f6060eb7672b332fb570eb13fe027a3b58e6594
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777864"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215269"
 ---
 # <a name="general-journal-post-line-overview"></a>General Journal Post Line Overview
+
 Codeunit 12, **Gen. Jnl.-Post Line**, is the major application object for general ledger posting and is the only place to insert general ledger, GST, and customer and vendor ledger entries. This codeunit is also used for all Apply, Unapply and Reverse operations.  
   
-While the codeunit has been improved in each release over the last ten years, its architecture remained essentially unchanged. The codeunit became very large, with approximately 7,600 code lines. With this release of [!INCLUDE[prod_short](includes/prod_short.md)], the architecture is changed and the codeunit has been made simpler and more maintainable. This documentation introduces the changes and provides information that you will need for upgrade.  
+In Microsoft Dynamics NAV 2013 R2, the codeunit was redesigned because it had become very large, with approximately 7,600 code lines. The architecture was changed and the codeunit has been made simpler and more maintainable. This documentation describes the changes and provides information that you will need for upgrade.  
   
 ## <a name="old-architecture"></a>Old Architecture  
 The old architecture had the following features:  
@@ -43,9 +44,11 @@ In [!INCLUDE[prod_short](includes/prod_short.md)], codeunit 12 has had the follo
 * Many helper functions have been transferred to corresponding customer and vendor ledger entry tables.  
 * The use of global variables has been minimised, so that each procedure uses parameters and encapsulates its own application logic.  
   
-## <a name="see-also"></a>See Also  
-[Design Details: Posting Interface Structure](design-details-posting-interface-structure.md)   
-[Design Details: Posting Engine Structure](design-details-posting-engine-structure.md)
+## <a name="see-also"></a>See Also
+
+[Design Details: Posting Interface Structure](design-details-posting-interface-structure.md)  
+[Design Details: Posting Engine Structure](design-details-posting-engine-structure.md)  
+[Design Details: General Journal Post Line (Dynamics NAV)](/dynamics-nav-app/design-details-general-journal-post-line)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

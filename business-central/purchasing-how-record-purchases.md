@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: procurement
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 767bbf0160f35b68eebe48c0bcf4fbc4311d3ce0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3822566d239d6fda0cc314a3c9f20ac909943886
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772688"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115856"
 ---
 # <a name="record-purchases-with-purchase-invoices"></a>Record Purchases with Purchase Invoices
 
@@ -72,16 +72,16 @@ The following describes how to create a purchase invoice. The steps are similar 
 5. In the **Quantity** field, enter the number of items to be purchased.
 
     > [!NOTE]  
-    > For items of type **Service** and for lines of type **Resource**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.
+    > For items of type **Service** and for lines of type **Resource**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measurement Code** field on the line.
 
     The **Line Amount** field is updated to show the value in the **Direct Unit Cost** field multiplied by the value in the **Quantity** field.
 
-    The price and line amount are shown with or without US sales tax depending on what you selected in the **Prices Including Tax** field on the vendor card.
+    The price and line amount are shown with or without GST depending on what you selected in the **Prices Including Tax** field on the vendor card.
 
     The totals fields under the lines are automatically updated as you create or modify lines to display the amounts that will be posted to the ledgers.
 
     > [!NOTE]
-    > In rare cases, the posted amounts may deviate from what is displayed in the totals fields. This is typically due to rounding calculations in relation to GST or US sales tax.
+    > In rare cases, the posted amounts may deviate from what is displayed in the totals fields. This is typically due to rounding calculations in relation to GST or sales tax.
     >
     > To check the amounts that will actually be posted, you can use the **Statistics** page, which takes into account the rounding calculations. Also, if you choose the **Release** action, the totals fields will be updated to include rounding calculations.
 
@@ -100,6 +100,10 @@ The purchase is now reflected in inventory, resource ledgers, and financial reco
 You can easily correct or cancel a posted purchase invoice before you pay the vendor. This is useful if you want to correct a typing mistake or if you want to change the purchase early in the order process. For more information, see [Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). If you have already paid for items or services on the posted purchase invoice, then you must create a purchase credit memo to reverse the purchase. For more information, see [Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md).
 
 [Open the **Posted Purchase Invoices** list](https://businesscentral.dynamics.com/?page=146) in [!INCLUDE [prod_short](includes/prod_short.md)].
+
+## <a name="external-document-number"></a>External document number
+
+[!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/processing-invoices-dynamics-365-business-central/index)
 
