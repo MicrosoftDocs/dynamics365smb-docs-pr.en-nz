@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5bf9da1a8e561f49ae02e8178c0eb2b8232e93ba
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6d06d39ac3e3b1bb9ad0a3b9089b295c899e9f74
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771970"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216296"
 ---
-# <a name="walkthrough-tracing-seriallot-numbers"></a>Walkthrough: Tracing Serial/Lot Numbers
+# <a name="walkthrough-tracing-seriallot-numbers"></a>Walkthrough: Tracing Serial Numbers
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 When product defects occur, the errors must be identified and affected items must be prevented from leaving the company. If defective items have already been shipped, you must trace who received them and, if you need to, recall the items.  
 
@@ -35,7 +35,7 @@ This walkthrough illustrates the following tasks:
 
 - Tracing usage to origin.  
 - Tracing origin to usage.  
-- Searching for all current records which hold the traced serial/lot number.  
+- Searching for all current records which hold the traced serial number.  
 
 ## <a name="roles"></a>Roles
 
@@ -51,7 +51,7 @@ This walkthrough demonstrates tasks that are performed by the following user rol
 To complete this walkthrough, you will need:  
 
 - The [!INCLUDE[prod_short](includes/prod_short.md)] company.  
-- To create new items and several business transactions by following the [Prepare Sample Data](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data)..  
+<!-- - To create new items and several business transactions by following the [Prepare Sample Data](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data).   -->
 
 ## <a name="story"></a>Story
 
@@ -81,24 +81,24 @@ Then you must create various purchase, production, and sales transactions with t
 2. Choose the **New** action.  
 3. In the **No.** field, enter **2000**, and then proceed to fill in the following fields.  
 
-    |Description|Base Unit of Measure|Gen. Prod. Posting Group|GST Prod. Posting Group|Inventory Posting Group|Item Tracking Code|  
+    |Description|Base Unit of Measurement|Gen. Prod. Posting Group|GST Prod. Posting Group|Inventory Posting Group|Item Tracking Code|  
     |-----------|--------------------|------------------------|-----------------------|--------------------|------------------|  
     |Racing Frame|PCS|RAW MAT|GST25|RAW MAT|LOTALL|  
 
     > [!NOTE]  
-    >  To enter the base unit of measure, choose the **New** button, and then select **PSC** on the **Item Units of Measure** page.  
+    >  To enter the base unit of measurement, choose the **New** button, and then select **PSC** on the **Item Units of Measurement** page.  
 
 4. All other fields have acceptable default data or do not have to be filled in.  
 5. Choose the **OK** button to create the first new item card, 2000.  
 6. Choose **New**.  
 7. In the **No.** field, enter **1002**, and then proceed to fill in the following fields.  
 
-    |Description|Base Unit of Measure|Gen. Prod. Posting Group|GST Prod. Posting Group|Inventory Posting Group|Replenishment System|Item Tracking Code|  
+    |Description|Base Unit of Measurement|Gen. Prod. Posting Group|GST Prod. Posting Group|Inventory Posting Group|Replenishment System|Item Tracking Code|  
     |-----------------|--------------------------|------------------------------|-----------------------------|-----------------------------|--------------------------|------------------------|  
     |Racing Bike|PCS|RETAIL|GST25|FINISHED|Prod. Order|SNALL|  
 
     > [!NOTE]  
-    >  To enter the base unit of measure, choose the **New** button, and then select **PSC** on the **Item Units of Measure** page.  
+    >  To enter the base unit of measurement, choose the **New** button, and then select **PSC** on the **Item Units of Measurement** page.  
 
     Next, define the item's manufacturing setup.
 
@@ -281,7 +281,7 @@ Then you must create various purchase, production, and sales transactions with t
 
     This completes the second defects management task using the **Item Tracing** page for defects management. Since the **Item Tracing** page is based on posted entries only, the quality controller must continue to the **Find entries** page to make sure that LOT1 is not used in non-posted documents.  
 
-## <a name="finding-all-records-of-a-seriallot-number"></a>Finding All Records of a Serial/Lot Number  
+## <a name="finding-all-records-of-a-seriallot-number"></a>Finding All Records of a Serial Number  
  With the **Item Tracing** page, the quality controller learned that LOT1 contained the faulty racing frames, which vendor supplied them, and in which posted transaction they have been used. He must now determine whether LOT1 is in any open documents by integrating from the trace result to the **Find entries** page where he can perform a search through all database records.  
 
 ### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders"></a>To find all occurrences of LOT1 in non-posted records, such as open orders  

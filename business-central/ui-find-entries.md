@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 5f8ddd7176e69c9d1eb3b8d8ff98c93695d50993
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a29cea15cba15da1bc68816e07f76de59f43958b
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771177"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216144"
 ---
 # <a name="finding-related-entries-for-posted-documents"></a>Finding Related Entries for Posted Documents 
 
@@ -67,7 +67,7 @@ You can search for entries based on information about either the document, busin
 After you make a selection, enter the relevant search information in the fields at the top. Use the tooltips on the fields to help. When you're finished, choose **Find** to start the search. If you change any of the filters, you have to choose **Find** again.
 
 > [!TIP]
-> For a couple examples about using **Find Entries**, see [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md) and [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md).
+> For a couple examples about using **Find Entries**, see [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md) <!--and [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md). -->
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
 

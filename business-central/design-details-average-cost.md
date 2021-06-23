@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 917aab6c4062233ff5cedb32f8aa75b84687849b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 87bbd5d77bc677220b82789e343af1bda2300cbd
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779673"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215494"
 ---
 # <a name="design-details-average-cost"></a>Design Details: Average Cost
 The average cost of an item is calculated with a periodic weighted average, based on the average cost period that is set up in [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -31,7 +31,7 @@ The average cost of an item is calculated with a periodic weighted average, base
 |**Average Cost Calc. Type**|Specifies how the average cost is calculated. The following options exist:<br /><br /> -   **Item**<br />-   **Item, Variant, and Location**<br />     With this option, the average cost is calculated for each item, for each location, and for each variant of the item. This means that the average cost of this item depends on where it is stored and which variant of the item that you have selected, such as colour.|  
 
 > [!NOTE]  
->  You can only use one average cost period and one average cost calculation type in a fiscal year.  
+>  You can only use one average cost period and one average cost calculation type in a financial year.  
 >   
 >  The **Accounting Periods** page shows which average cost period and which average cost calculation type is in effect during that period, for each accounting period.  
 
@@ -132,7 +132,7 @@ The average cost of an item is calculated with a periodic weighted average, base
  To get the average cost for February, the average cost of the piece received in inventory (100.00) is added to the average cost at the beginning of the period (30.00). The sum of the two (130.00) is then divided by the total quantity in inventory (2).This gives the resulting average cost of the item in the February period (65.00). The average cost is assigned to the inventory decreases in the period (entries 4 and 6).  
 
 ## <a name="setting-the-valuation-date"></a>Setting the Valuation Date  
- The **Valuation Date** field in the **Value Entry** table is used to determine in which average cost period an inventory decrease entry belongs. This also applies to work in process (WIP) inventory.  
+ The **Valuation Date** field in the **Value Entry** table is used to determine in which average cost period an inventory decrease entry belongs. This also applies to work in progress (WIP) inventory.  
 
  The following table shows the criteria that are used to set the valuation date.  
 

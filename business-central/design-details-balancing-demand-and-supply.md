@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: a108a460aa7045daac58d93b443adb0b3c1cf122
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 05e812ab11a831ac1c2d96d506489527f06142a2
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775192"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215544"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Design Details: Balancing Demand and Supply
 To understand how the planning system works, it is necessary to understand the prioritised goals of the planning system, the most important of which are to ensure that:  
@@ -55,13 +55,13 @@ Accordingly, the planning system will not, with a few exceptions, suggest any ch
 The exceptions to this rule are as follows:  
 
    * If the projected available inventory, including the sum of supply and demand in the frozen zone, is below zero.  
-   * If serial/lot numbers are required on the backdated order(s).  
+   * If serial numbers are required on the backdated order(s).  
    * If the supply-demand set is linked by an order-to-order policy.  
 
 If the initial available inventory is below zero, the planning system suggests an emergency supply order on the day before the planning period to cover the missing quantity. Consequently, the projected and available inventory will always be at least zero when planning for the future period begins. The planning line for this supply order will display an Emergency warning icon and additional information is provided upon lookup.  
 
-### <a name="seriallot-numbers-and-order-to-order-links-are-exempt-from-the-frozen-zone"></a>Serial/Lot Numbers and Order-to-Order Links are Exempt from the Frozen Zone  
-   If serial/lot numbers are required or an order-to-order link exists, the planning system will disregard the frozen zone and incorporate such quantities that are back-dated from the starting date and potentially suggest corrective actions if demand and supply is not synchronised. The business reason for this principle is that such specific demand-supply sets must match to ensure that this specific demand is fulfilled.
+### <a name="seriallot-numbers-and-order-to-order-links-are-exempt-from-the-frozen-zone"></a>Serial Numbers and Order-to-Order Links are Exempt from the Frozen Zone  
+   If serial numbers are required or an order-to-order link exists, the planning system will disregard the frozen zone and incorporate such quantities that are back-dated from the starting date and potentially suggest corrective actions if demand and supply is not synchronised. The business reason for this principle is that such specific demand-supply sets must match to ensure that this specific demand is fulfilled.
 
 ## <a name="loading-the-inventory-profiles"></a>Loading the Inventory Profiles
 To sort out the many sources of demand and supply, the planning system organises them on two timelines called inventory profiles.  
@@ -87,19 +87,19 @@ The planning system controls this by running through the inventory profile. When
 > [!NOTE]  
 >  The application does not require the user to enter a SKU record when entering demand and/or supply for a particular combination of variant and location. Therefore, if a SKU does not exist for a given combination, application creates its own temporary SKU record based on the item card data. If Location Mandatory is set to Yes in the Inventory Setup page, then either a SKU must be created or Components at Location must be set to Yes. For more information, see [Design Details: Demand at Blank Location](design-details-demand-at-blank-location.md).  
 
-### <a name="seriallot-numbers-are-loaded-by-specification-level"></a>Serial/Lot Numbers are Loaded by Specification Level  
-Attributes in the form of serial/lot numbers are loaded into the inventory profiles along with the demand and supply that they are assigned to.  
+### <a name="seriallot-numbers-are-loaded-by-specification-level"></a>Serial Numbers are Loaded by Specification Level  
+Attributes in the form of serial numbers are loaded into the inventory profiles along with the demand and supply that they are assigned to.  
 
-Demand and supply attributes are arranged by order priority as well as by their level of specification. Because serial/lot number matches reflect the level of specification, the more specific demand, such as a lot number selected specifically for a sale line, will seek a match before less specific demand, such as a sale from any lot number selected.  
+Demand and supply attributes are arranged by order priority as well as by their level of specification. Because serial number matches reflect the level of specification, the more specific demand, such as a lot number selected specifically for a sale line, will seek a match before less specific demand, such as a sale from any lot number selected.  
 
 > [!NOTE]  
 >  There are no dedicated prioritisation rules for serial/lot-numbered demand and supply, other than the level of specification defined by their combinations of serial and lot numbers and the item tracking setup of the involved items.  
 
-During balancing, the planning system regards supply that carries serial/lot numbers as inflexible and will not try to increase or reschedule such supply orders (unless they are used in an order-to-order relation). See Order-to-Order Links are Never Broken). This protects the supply from receiving several, possibly conflicting, action messages when a supply carries varying attributes—such as a collection of different serial numbers.  
+During balancing, the planning system regards supply that carries serial numbers as inflexible and will not try to increase or reschedule such supply orders (unless they are used in an order-to-order relation). See Order-to-Order Links are Never Broken). This protects the supply from receiving several, possibly conflicting, action messages when a supply carries varying attributes—such as a collection of different serial numbers.  
 
-Another reason that serial/lot numbered supply is inflexible is that serial/lot numbers are generally assigned so late in the process that it would be confusing if changes are suggested.  
+Another reason that serial/lot numbered supply is inflexible is that serial numbers are generally assigned so late in the process that it would be confusing if changes are suggested.  
 
-The balancing of serial/lot numbers does not respect the *frozen zone*. If demand and supply is not synchronised, the planning system will suggest changes or suggest new orders, regardless of the planning starting date.  
+The balancing of serial numbers does not respect the *frozen zone*. If demand and supply is not synchronised, the planning system will suggest changes or suggest new orders, regardless of the planning starting date.  
 
 ### <a name="order-to-order-links-are-never-broken"></a>Order-to-Order Links are Never Broken  
 When planning an order-to-order item, the linked supply must not be used for any demand other than what it was originally intended for. The linked demand should not be covered by any other random supply, even if, in its present situation, it is available in time and quantity. For example, an assembly order that is linked to a sales order in an assemble-to-order scenario cannot be used to cover other demand.  
@@ -109,7 +109,7 @@ Order-to-order demand and supply must balance precisely. The planning system wil
 This balancing also affects the timing. The limited horizon that is given by the time bucket is not regarded; the supply will be rescheduled if the timing of the demand has changed. However, dampener time will be respected and will prevent order-to-order supplies from being scheduled out, except for the internal supplies of a multi-level production order (project order).  
 
 > [!NOTE]  
->  Serial/lot numbers can also be specified on order-to-order demand. In that case, the supply is not regarded inflexible by default, as is normally the case for serial/lot numbers. In this case, the system will increase/decrease according to changes in demand. Furthermore, if one demand carries varying serial/lot numbers, such as more than one lot number, one supply order will be suggested per lot.  
+>  Serial numbers can also be specified on order-to-order demand. In that case, the supply is not regarded inflexible by default, as is normally the case for serial numbers. In this case, the system will increase/decrease according to changes in demand. Furthermore, if one demand carries varying serial numbers, such as more than one lot number, one supply order will be suggested per lot.  
 
 > [!NOTE]  
 >  Forecasts should not lead to creating supply orders that are bound by an order-to-order link. If the forecast is used, it should only be used as a generator of dependent demand in a manufacturing environment.  
@@ -169,7 +169,7 @@ Loaded demand and supply contribute to a profile for the projected inventory acc
 Apart from priorities given by the type of demand and supply, the present state of the orders in the execution process also defines a priority. For example, warehouse activities have an impact, and the status of sales, purchase, transfer, assembly, and production orders is taken into account:  
 
 1. Partly handled (Planning Flexibility = None)  
-2. Already in process in the warehouse (Planning Flexibility = None)  
+2. Already in progress in the warehouse (Planning Flexibility = None)  
 3. Released – all order types (Planning Flexibility = Unlimited)  
 4. Firm Planned Production Order (Planning Flexibility = Unlimited)  
 5. Planned/Open – all order types (Planning Flexibility = Unlimited)

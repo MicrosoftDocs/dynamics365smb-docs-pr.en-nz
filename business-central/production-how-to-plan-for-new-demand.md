@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ab3929a410a280494d806e7aeea5c54ce966769e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bed73380344c0900a00d6d704ee2d853a1bf165d
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787993"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216246"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Plan for New Demand Order by Order
 This planning task can be performed on the **Order Planning** page, which displays all new demand along with availability information and suggestions for supply. It provides the visibility and tools needed to effectively plan demand from sales lines and component lines and then create different types of supply orders directly.  
@@ -109,7 +109,7 @@ When you have finished your planning work on the **Order Planning** page, for ex
 >  The supply orders you create may introduce new dependent demand, for example for underlying production orders, and you should therefore choose **Calculate Plan** again to find and resolve this before moving down the list.  
 
 ## <a name="see-also"></a>See Also  
-[Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)  
+<!-- [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)   -->
 [Planning](production-planning.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)    

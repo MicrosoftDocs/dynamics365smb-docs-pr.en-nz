@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: costing methods, costing, item cost
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: bholtorf
-ms.openlocfilehash: 58ab2cab2e689af7668fb52d63c055079b4762c6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f8bb3bc0966e25e99213217501a5337f9440abfc
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788399"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215444"
 ---
 # <a name="design-details-change-the-costing-method-for-items"></a>Design Details: Change the Costing Method for Items
 
@@ -120,7 +120,7 @@ When creating assembly orders, use the information from the Physical Invt. journ
 |Quantity     |The quantity in physical inventory journal.<br> **NOTE:** The quantities calculated by the physical inventory journals does not include the quantities that are on orders that have not yet shipped.          |
 |Variant Code     |The same as in physical inventory journal.          |
 |Location Code     |The same as in physical inventory journal.         |
-|Unit of Measure Code     |The same as in physical inventory journal.         |
+|Unit of Measurement Code     |The same as in physical inventory journal.         |
 |Bin Code     |The same as in physical inventory journal.         |
 
 #### <a name="lines"></a>Lines
@@ -132,7 +132,7 @@ When creating assembly orders, use the information from the Physical Invt. journ
 |Quantity per     |1         |
 |Variant Code     |The same as in physical inventory journal.         |
 |Location Code     |The same as in physical inventory journal.         |
-|Unit of Measure Code     |The same as in physical inventory journal.         |
+|Unit of Measurement Code     |The same as in physical inventory journal.         |
 
 > [!NOTE]
 > An assembly order can handle only one SKU of an item at a time. You must create an assembly order for each combination of SKU that has a quantity in inventory.

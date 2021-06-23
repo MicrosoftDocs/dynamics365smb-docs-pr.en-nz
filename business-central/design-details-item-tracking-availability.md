@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: a20c8850fe68a6ce3940bfa430c01a1aa25a0c02
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8fd2fc7c6eb3a4c413691d4eb0b9f5f86aba3fe9
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786389"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215894"
 ---
 # <a name="design-details-item-tracking-availability"></a>Design Details: Item Tracking Availability
 The **Item Tracking Lines** and **Item Tracking Summary** pages provide dynamic availability information for serial or lot numbers. The purpose of this is to increase transparency for users on outbound documents, such as sales orders, by showing them which serial numbers or how many units of a lot number are currently assigned on other open documents. This reduces uncertainty that is caused by double allocation and instills confidence in order processors that the item tracking numbers and dates that they are promising on unposted sales orders can be fulfilled. For more information, see [Design Details: Item Tracking Lines Page](design-details-item-tracking-lines-window.md).  

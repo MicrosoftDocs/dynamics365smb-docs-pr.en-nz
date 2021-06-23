@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 0786aeafd1c796b33885f72b2e73a744f80a651b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e855a7c1392b84a45c588c8a7dbe01de389a3377
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775666"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216019"
 ---
 # <a name="design-details-assembly-order-posting"></a>Design Details: Assembly Order Posting
 Assembly order posting is based on the same principles as when posting the similar activities of sales orders and production consumption/output. However, the principles are combined in that assembly orders have their own posting UI, like that for sales orders, while the actual entry posting happens in the background as direct item and resource journal postings, like that for production consumption, output, and capacity.  
@@ -85,7 +85,7 @@ The spreading of detected adjustments from material and resource costs onto the 
 For information about how costs from assembly and production are posted to the general ledger, see [Design Details: Inventory Posting](design-details-inventory-posting.md).  
 
 ## <a name="assembly-costs-are-always-actual"></a>Assembly Costs are Always Actual  
- The concept of work in process (WIP) does not apply in assembly order posting. Assembly costs are only posted as actual cost, never as expected cost. For more information, see [Design Details: Expected Cost Posting](design-details-expected-cost-posting.md).  
+ The concept of work in progress (WIP) does not apply in assembly order posting. Assembly costs are only posted as actual cost, never as expected cost. For more information, see [Design Details: Expected Cost Posting](design-details-expected-cost-posting.md).  
 
 This is enabled by the following data structure.  
 
