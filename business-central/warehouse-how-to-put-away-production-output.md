@@ -1,6 +1,6 @@
 ---
 title: Put Away Production Output
-description: How you put away your output from production depends on how your warehouse is set up as a location.
+description: How you put away your output from production depends on how your warehouse is set up as a location. Inventory put-away can be performed in the following ways.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 2b04e07a6660ebeb32cc93594c77b8ff8e782766
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 87c0a1cb86d94b673c3c4ee21ce0d62d59eeb753
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784233"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438148"
 ---
 # <a name="put-away-production-or-assembly-output"></a>Put Away Production or Assembly Output
 
@@ -33,14 +33,14 @@ In advanced warehouse configurations where the location requires both put-away a
 The first step in creating putting output away is to create the inbound warehouse request. This request informs the warehouse that the production or assembly order output is ready to be put away.
 
 ### <a name="to-create-the-inbound-warehouse-request"></a>To create the inbound warehouse request  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released Production Order**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released Production Order**, and then choose the related link.  
 2.  On the production order that is ready for put-away, choose the **Create Inbound Whse. Request** action.  
 
 > [!NOTE]  
 > You can also create the inbound warehouse request by choosing the **Create Inbound Request** field when you refresh the production order. For more information, see [Refresh or Replan Production Orders](production-how-to-replan-refresh-production-orders.md).  
 
 ### <a name="to-put-output-away-with-an-inventory-put-away"></a>To put output away with an inventory put-away  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Put-away**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Put-away**, and then choose the related link.  
 2.  Create a new inventory put-away. For more information, see [Put Items Away with Inventory Put-aways](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
 3.  To access the production order output, choose the **Get Source Documents** action, and then select the released production order.  
 4.  Fill in the put-away lines as appropriate.

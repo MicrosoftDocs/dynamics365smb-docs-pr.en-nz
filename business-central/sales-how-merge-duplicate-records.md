@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: client
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f5972e7489b9aa8c537d8aaa6677c79ffd4a6414
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 336c10e93a50e7fb880f9bf5856c85b44daef266
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778763"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436867"
 ---
 # <a name="merge-duplicate-records"></a>Merge Duplicate Records
 As different users create new customer, vendor, or contact cards over time, or the new records are created automatically during migration, a customer, vendor, or contact may be represented in the system with more than one record. In this case, you can use the **Merge Duplicate** page from the card of the record that you want to keep. The page gives you an overview of duplicated field values and provides functions to select which values to keep or discard when merging two records into one.
@@ -28,7 +28,7 @@ As different users create new customer, vendor, or contact cards over time, or t
 
 The following procedure is based on a customer card. The steps are similar for a vendor  and contact cards.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Select the customer that you know or suspect that a duplicate record exists for, and then choose the **Edit** action.
 3. On the **Customer Card** page, choose the **Merge With** action.
 4. On the **Merge Duplicate** page, in the **Merge With** field, select the customer that you believe is a duplicate of the one you have opened, indicated in the **Current** field.

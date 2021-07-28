@@ -4,12 +4,12 @@ ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 79ce2270d94a135dcd8278421f1b7b15d8d8af56
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: afa83350853d0b2df7a08a020f98cfb6cf5b1bd4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773482"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436354"
 ---
 Revenue types are used to categorise withholding tax (WHT) entries and are used for WHT certificates.  
 
@@ -17,7 +17,7 @@ You can use the **WHT Revenue Types** page to set up the revenue types for withh
 
 ## <a name="to-set-up-revenue-types-for-withholding-tax"></a>To set up revenue types for withholding tax  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **WHT Revenue Types**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **WHT Revenue Types**, and then choose the related link.  
 2. Fill in the fields as described in the following table.  
 
     |Field|Description|  

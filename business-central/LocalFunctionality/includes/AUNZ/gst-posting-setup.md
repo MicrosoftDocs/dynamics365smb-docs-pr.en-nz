@@ -4,19 +4,19 @@ ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fb1b1f57978cdac0e29b91eaeb5b087d20b17864
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e6f8eb60faa07c72f24729e3264a1c54b80d3964
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771548"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436357"
 ---
 To set up posting details for GST, you must define the posting groups, rate of GST, and the accounts to which GST is to be posted. You can set up this information for a particular combination of business posting groups and product posting groups.  
 
 You must set up GST posting before you generate the BAS report.  
 
-## <a name="to-set-up-goods-and-sales-tax-posting"></a>To set up goods and sales tax posting  
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **GST Posting Setup**, and then choose the related link.  
+## <a name="to-set-up-goods-and-sales-tax-posting"></a>To set up goods and GST posting  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **GST Posting Setup**, and then choose the related link.  
 2. Fill in the fields as described in the following table.  
 
     |Field|Description|  

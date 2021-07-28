@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: trade
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 19b32e8faa6b9e56505379d1f06fd5ad79466614
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 67d7ad0d10ddc5c6065df482c7ceb4b98058d504
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115531"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436742"
 ---
 # <a name="sell-products"></a>Sell Products
 
@@ -44,7 +44,7 @@ You can fill customer fields on the sales order in two ways depending on whether
 
 ## <a name="to-create-a-sales-order"></a>To create a sales order
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
 2. In the **Customer** field, enter the name of an existing customer.
 
     Other fields on the **Sales Order** page are now filled with the standard information of the selected customer.  
@@ -85,7 +85,7 @@ You can fill customer fields on the sales order in two ways depending on whether
     The totals fields under the lines are automatically updated as you create or modify lines to display the amounts that will be posted to the ledgers.
 
     > [!NOTE]
-    > In very rare cases, the posted amounts may deviate from what is displayed in the totals fields. This is typically due to rounding calculations in relation to GST or sales tax.
+    > In very rare cases, the posted amounts may deviate from what is displayed in the totals fields. This is typically due to rounding calculations in relation to VAT or GST.
     >
     > To check the amounts that will actually be posted, use the **Statistics** page, which takes into account the rounding calculations. Also, if you choose the **Release** action, the totals fields will be updated to include rounding calculations.  
 
