@@ -4,17 +4,17 @@ ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b71effff749b4190008ea321acaa65e069d7ea3e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 45463c28f521b810f86acbc9cdc519b145f2301e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774358"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435727"
 ---
 You can create cheque instalments for post-dated cheques. You can define the number of instalments that a payment will be divided into, the percent of interest, and the period in which the cheques will be created.  
 
 ## <a name="to-create-a-check-installment"></a>To create a cheque instalment  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Post Dated Cheques-Purchases**, and then choose the relevant link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Post Dated cheques-Purchases**, and then choose the relevant link.  
 2.  Choose the relevant check, and then choose the **Edit** action.  
 3.  On the **Post Dated checks-Purchase** page, choose the **Create check instalments** action.  
 4.  On the **Options** FastTab, fill in the fields as described in the following table.  

@@ -1,6 +1,6 @@
 ---
 title: Addresses in New Zealand
-description: A single postcode can include multiple cities in the same region.
+description: This topic explains how to benefit from the address bar coding system in which every address is assigned a unique Delivery Point Identifier (DPID).
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: 3c98be74f920416e28527d816503dd4d6e57c3d6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b0fe1b5b4f1111e2a9060306d336b39a81317d84
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780102"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325119"
 ---
 # <a name="addresses-in-the-new-zealand-version"></a>Addresses in the New Zealand Version
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: adjustment, status, negative, positive, increase, decrease, inventory
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8804f64dd2cee60514d18785feee4f8fd6cf67aa
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fccbb5d15c73a2ab74d6b14e54be1fa098dc3a12
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785964"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435688"
 ---
 # <a name="count-and-adjust-inventory-using-documents"></a>Count and Adjust Inventory Using Documents
 
@@ -40,7 +40,7 @@ A physical inventory order is a complete document that consists of a physical in
 
 To create the physical inventory order lines, you typically use the **Calculate Lines** function to reflect the current inventory as lines on the order. Alternatively, you can use the **Copy from Document** function to fill the lines with the content of another open or posted physical inventory order. The following procedure only describes how to use the **Calculate Lines** function.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Physical Inventory Orders**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Physical Inventory Orders**, and then choose the related link.
 2. Choose the **New** action.
 3. Fill in the required fields on the **General** FastTab. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Choose the **Calculate Lines** action.
@@ -100,7 +100,7 @@ You can also choose the **Phys. Inventory Order Diff.** action to view any diffe
 
 ### <a name="to-find-duplicate-physical-inventory-order-lines"></a>To find duplicate physical inventory order lines
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Physical Inventory Orders**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Physical Inventory Orders**, and then choose the related link.
 2. Open the physical inventory order that you want to view duplicate lines for.
 3. Choose the **Show Duplicate Lines** action.
 
@@ -113,7 +113,7 @@ After completing a physical inventory order and changing its status to **Finishe
 - Each physical inventory order line has been counted by at least one inventory recording line.
 - The **In Recording Lines** and the **Qty. Exp. Calculated** check boxes have been selected for all of the physical inventory order lines.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Physical Inventory Orders**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Physical Inventory Orders**, and then choose the related link.
 2. Select the physical inventory order that you want to complete, and then choose the **Edit** action.
 
     On the **Physical Inventory Order** page, you view the quantity recorded in the **Qty. Recorded (Base)** field.
@@ -127,7 +127,7 @@ The involved item ledger entries are updated along with any related item trackin
 ### <a name="to-view-posted-physical-inventory-orders"></a>To view posted physical inventory orders
 After posting, the physical inventory order will be deleted and you can view and evaluate the document as a posted physical inventory order including its physical inventory recordings and any comments made.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Phys. Invt. Orders**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Phys. Invt. Orders**, and then choose the related link.
 2. On the **Posted Phys. Invt. Orders** page, select the posted inventory order that you want to view, and then choose the **View** action.
 3. To view a list of related physical inventory recordings, choose the **Recordings** action.
 
@@ -147,7 +147,7 @@ Consider a physical inventory for Item A, which is stored in inventory as ten di
 4. On the **Copy Phys. Invt. Rec. Line** page, enter 9 in the **No. of Copies** field, and then choose the **OK** button.
 5. On the first of the copy lines, select the **Serial No.** field and select the next serial number for the item.
 6. Repeat step 5 for the remaining eight serial numbers, taking care to not select the same one twice.
-7. Choose the **Print** action to prepare the print-out that employees will use to write down the counted items and serial/lot numbers.
+7. Choose the **Print** action to prepare the print-out that employees will use to write down the counted items and serial numbers.
 
 Notice that the **Phys. Invt. Recording** report contains ten lines for Item A, one for each serial number.
 
@@ -199,7 +199,7 @@ You can print these documents at any stage, release and reopen them, and assign 
 ### <a name="to-set-up-numbering-for-inventory-documents"></a>To set up numbering for inventory documents
 The following procedure shows how to set up numbering for inventory documents.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Setup**, and then choose the related link.
 2. On the **Numbering** FastTab, specify in the following fields the series of numbers for documents:
    - **Inventory Receipt Nos.**  
    - **Posted Inventory Receipt Nos.**  
@@ -209,7 +209,7 @@ The following procedure shows how to set up numbering for inventory documents.
 ### <a name="to-create-and-post-an-inventory-document"></a>To create and post an inventory document
 The following procedure shows how to create, print, and post an inventory receipt. The steps are similar for inventory shipments.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Receipts**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Receipts**, and then choose the related link.  
 2. In the header of the **Inventory Receipt** page, choose the location in the **Location Code** field, and then fill in the remaining fields as necessary.
 3. On the **Lines** FastTab, in the **Item** field, choose the inventory item. In the **Quantity** field, enter the number of items to add. 
 4. To print an **Inventory Receipt** report from the **Inventory Receipt** page, choose the **Print** action.

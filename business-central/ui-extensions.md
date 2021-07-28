@@ -1,18 +1,18 @@
 ---
 title: Installing Extensions to Customise Business Central
-description: Learn about adding functionality and customising Business Central by installing extensions.
+description: Learn all about adding functionality and customising Business Central by installing extensions here.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 805350a7b1213ec0e0d0550e5c5b63c557ee470a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 073b89f7c80035da12f329f752b64dc8142f309d
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771355"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325600"
 ---
 # <a name="customizing-business-central-online-using-extensions"></a>Customising Business Central Online Using Extensions
 
@@ -98,7 +98,7 @@ This also applies to some functionality in the base application, such as the fol
 * Dataverse connections
 * OCR Service
 * Online Map
-* EU GST Reg. No. Service
+* EU VAT Reg. No. Service
 
 ## <a name="see-also"></a>See Also
 

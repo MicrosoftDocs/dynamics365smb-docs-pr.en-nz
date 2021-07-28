@@ -1,6 +1,6 @@
 ---
-title: Create Item Cards for Goods or Services| Microsoft Docs
-description: You create item cards for services that you sell as hours and for physical products, such as assembly items, finished goods, components, or raw material, that you sell from your inventory.
+title: Create Item Cards for Goods or Services
+description: You create item cards for services that you sell as hours and for physical products, such as assembly items, finished goods, that you sell from your inventory.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 8948024ea1dc0bbbdbd6f2a2262e2616b35671e5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2195940a65ffa6cfe904e09028846991f68dfb6f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785889"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435659"
 ---
 # <a name="register-new-items"></a>Register New Items
 
@@ -40,7 +40,7 @@ The following procedure explains how to create an item card from scratch. You ca
 
 ## <a name="to-create-a-new-item-card"></a>To create a new item card
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 2. On the **Items** page, choose the **New** action.
 
     If only one item template exists, then a new item card opens with some fields filled with information from the template.
@@ -77,7 +77,7 @@ If you want to register items that are then used in production orders, you speci
 
 If you purchase the same item from more than one vendor, you must enter information about each vendor of the item, such as prices, lead time, discounts, and so on.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 2. Select the relevant item, and then choose the **Edit** action.  
 3. Choose the **Vendors** action.  
 4. Choose the **Vendor No.** field, and then select the vendor that you want to set up for the item.  
@@ -100,16 +100,28 @@ When you register a new item, you will see fields that are related to warehouse 
 
 If your organisation later sets up warehouse management, in most cases, you must then go back to each existing item to make sure that it has the right information in the various fields, so that the warehouse processes can run as expected. This information can includes fields such as **Warehouse Class Code** or **Put-away Template Code**. For more information, see [Design Details: Warehouse Setup](design-details-warehouse-setup.md).  
 
+## <a name="planning"></a>Planning
+
+When your company uses the supply planning processes in [!INCLUDE [prod_short](includes/prod_short.md)], you must fill in the relevant fields on the **Planning** FastTab. For an introduction to the planning area, see [Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md).  
+
+For examples of how you can use the fields on the **Planning** FastTab, see [Setup Best Practices: Planning Parameters](setup-best-practices-planning-parameters.md).  
+
 ## <a name="see-also"></a>See Also
 
 [Inventory](inventory-manage-inventory.md)  
-[Set Up Units of Measure](inventory-how-setup-units-of-measure.md)  
+[Set Up Units of Measurement](inventory-how-setup-units-of-measure.md)  
 [Tariff numbers](finance-how-setup-report-intrastat.md#tariff-numbers)  
 [Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Create Number Series](ui-create-number-series.md)  
 [Setting Up Posting Groups](finance-posting-groups.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Sales](sales-manage-sales.md)  
+[About Planning Functionality](production-about-planning-functionality.md)  
+[Setup Best Practices: Planning Parameters](setup-best-practices-planning-parameters.md)  
+[Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)  
+[Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md)  
+[Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md)  
+[Design Details: Planning Parameters](design-details-planning-parameters.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

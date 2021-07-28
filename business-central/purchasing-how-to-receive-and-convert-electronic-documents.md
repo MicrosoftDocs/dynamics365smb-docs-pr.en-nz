@@ -1,6 +1,6 @@
 ---
-title: Receive and Convert Electronic Documents | Microsoft Docs
-description: You can receive electronic documents directly from trading partners or from an OCR service.
+title: Receive and Convert Electronic Documents
+description: This topic describes how to receive electronic documents directly from trading partners or from an OCR service.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 17a03f58ad9cca702423efe6e8810cffe25a7e81
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bba45239906820f4c56b948d80a46c8ca427a342
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772570"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435100"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Receive and Convert Electronic Documents
 The generic version of [!INCLUDE[prod_short](includes/prod_short.md)] supports receiving electronic invoices and credit memos in the PEPPOL format, which is supported by the largest providers of document exchange services. To receive an invoice from a vendor as an electronic PEPPOL document, you process the document in the Incoming Documents page to convert it to a purchase invoice or general journal line in [!INCLUDE[prod_short](includes/prod_short.md)].
 
  In addition to receiving electronic documents directly from trading partners, you can receive electronic documents from an OCR service that has turned your PDF or image files into electronic documents.  
 
- Before you can receive electronic documents through the document exchange service, you must set up various master data, such as company information, vendors, items, and units of measure. These are used to identify the business partners and items when converting data in elements in the incoming document file to fields in [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Set Up a Document Exchange Service](across-how-to-set-up-a-document-exchange-service.md).  
+ Before you can receive electronic documents through the document exchange service, you must set up various master data, such as company information, vendors, items, and units of measurement. These are used to identify the business partners and items when converting data in elements in the incoming document file to fields in [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Set Up a Document Exchange Service](across-how-to-set-up-a-document-exchange-service.md).  
 
  Before you can receive electronic documents through the OCR service, you must set up and enable the preconfigured service connection. For more information, see [Set Up Incoming Documents](across-how-setup-income-documents.md).  
 
@@ -41,7 +41,7 @@ The generic version of [!INCLUDE[prod_short](includes/prod_short.md)] supports r
 
 ### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>To receive and convert an electronic invoice to a purchase invoice  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Documents**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Documents**, and then choose the related link.  
 
 2.  Select the line for the incoming document record that represents a new incoming electronic invoice, and then choose the **Edit** action.  
 

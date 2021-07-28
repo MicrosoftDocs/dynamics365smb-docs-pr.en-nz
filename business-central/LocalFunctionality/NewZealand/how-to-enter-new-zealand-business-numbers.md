@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7e6d96165c402b64b6829d4287e64c31dcba23fc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f244a17e67aa6ea6fa39ef92711999e9f76e5bd8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773251"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435130"
 ---
 # <a name="enter-new-zealand-inland-revenue-department-numbers"></a>Enter New Zealand Inland Revenue Department Numbers
 
@@ -31,10 +31,10 @@ An algorithm provided by the local tax office ensures that the number is in a va
 
 ## <a name="to-enter-ird-numbers"></a>To enter IRD numbers
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information** or **Vendors**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information** or **Vendors**, and then choose the related link.  
 2. Select the required company or vendor.  
 3. Expand the **Registration** FastTab.  
-4. In the **IRD No.** field, enter the New Zealand Inland Revenue Number.  
+4. In the **IRD No. (Internal Revenue Department Number)** field, enter the New Zealand Inland Revenue Number.  
 
 ## <a name="see-also"></a>See Also
 
