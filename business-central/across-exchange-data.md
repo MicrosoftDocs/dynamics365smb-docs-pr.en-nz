@@ -1,21 +1,21 @@
 ---
-title: Exchange Data | Microsoft Docs
-description: You can exchange data between Business Central and external files or streams in connection with common business tasks, such as sending and receiving electronic documents and importing and exporting bank files.
+title: Exchanging Data
+description: Exchange electronic business documents, for example bank files, between Business Central and external parties.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.search.keywords: exchange data, external files, electronic documents, AMC Banking, OCT, SEPA
+ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 1b0d690254378de23655c73aaedccd03535ba586
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 85f8a69d05366585bd11d651a6c093a4388433d9
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776188"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6319656"
 ---
 # <a name="exchanging-data"></a>Exchanging Data
 You can exchange data between [!INCLUDE[prod_short](includes/prod_short.md)] and external files or streams in connection with common business tasks, such as sending and receiving electronic documents and importing and exporting bank files.  
@@ -30,7 +30,7 @@ Before you can send and receive electronic documents or import and export bank f
 |Send PDF or image files to a provider of OCR services, and receive them back as electronic documents that can be converted to document records in [!INCLUDE[prod_short](includes/prod_short.md)].|[Use OCR to Turn PDF and Image Files into Electronic Documents](across-how-use-ocr-pdf-images-files.md)|  
 |Receive electronic documents, either from the OCR service or the document exchange service, in a standardised format that you convert to the relevant document records in [!INCLUDE[prod_short](includes/prod_short.md)].|[Receive and Convert Electronic Documents](purchasing-how-to-receive-and-convert-electronic-documents.md)|  
 |Prepare to import a bank statement file into the **Payment Reconciliation Journal** page as the first step in reconciling payments or into the **Bank Acc. Reconciliation** page as the first step in reconciling bank accounts.|[Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)|  
-|Export payments from the **Payment Journal** page to a bank file that you upload to your electronic bank account for processing.|[Export Payments to a Bank File](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)|
+|Export payments from the **Receipt Journal** page to a bank file that you upload to your electronic bank account for processing.|[Export Payments to a Bank File](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)|
 |Make electronic payments according to the EU SEPA Credit Transfer standard.|[Making Payments with AMC Banking 365 Fundamentals extension or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|  
 |Instruct your bank to transfer payment amounts from your customers’ bank accounts to your company’s account according to your setup of SEPA direct debit.|[Create SEPA Direct Debit Collection Entries and Export to a Bank File](finance-collect-payments-with-sepa-direct-debit.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file)|  
 |Use a service provider of currency exchange rates to update the **Currencies** page.|[Update Currency Exchange Rates](finance-how-update-currencies.md)|  

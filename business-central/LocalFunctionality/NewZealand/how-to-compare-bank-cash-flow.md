@@ -1,5 +1,5 @@
 ---
-title: Compare Bank Cash Flow in the New Zealand version
+title: Compare Bank Cash Flow [NZ]
 description: Describes how compare the flow of cash in a particular bank for a specified period in the New Zealand version.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: bholtorf
-ms.openlocfilehash: ef1aa03345c2b795969cea1f9573d47c9cb4cc7e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f4d748ab07cf9ec3200ca3b6f70f05efad30fd86
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773263"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320688"
 ---
 # <a name="compare-bank-cash-flow-in-the-new-zealand-version"></a>Compare Bank Cash Flow in the New Zealand Version
 

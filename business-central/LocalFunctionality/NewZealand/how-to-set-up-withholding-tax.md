@@ -1,5 +1,5 @@
 ---
-title: Set Up Withholding Tax in the New Zealand version
+title: Set Up Withholding Tax [NZ]
 description: Describes how to set things up for Withholding tax (WHT) in the New Zealand version.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 64e35396d77e065b7e768a3043645aea38f9d989
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 38a1ae888aed5221cf2e67617718a3f920d5a483
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773474"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323053"
 ---
 # <a name="set-up-withholding-tax-in-the-new-zealand-version"></a>Set Up Withholding Tax in the New Zealand Version
 

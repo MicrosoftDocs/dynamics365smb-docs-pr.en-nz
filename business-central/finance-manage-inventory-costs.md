@@ -1,6 +1,6 @@
 ---
-title: Managing Inventory Costs | Microsoft Docs
-description: Cost management, also referred to as “costing”, is concerned with recording and reporting business operating costs. It includes the reporting of manufacturing costs and inventory costs, that is, the value of items.
+title: Managing Inventory Costs
+description: Cost management is concerned with recording and reporting business operating costs and includes the reporting of manufacturing costs and inventory costs.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: c1dc6cade08a3aab9c5d1cda4b6a2c64995988df
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a0b466979f749e2d42afac06899a9c079f23ff56
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780848"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321903"
 ---
 # <a name="managing-inventory-costs"></a>Managing Inventory Costs
 Cost management, also referred to as “costing”, is concerned with recording and reporting business operating costs. It includes the reporting of manufacturing costs and inventory costs, that is, the value of items.   
@@ -29,7 +29,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Read various conceptual information to understand the principles and definitions that govern the inventory costing accounting functionality in [!INCLUDE[prod_short](includes/prod_short.md)].|[About Inventory Costing](finance-learn-about-costing.md)|  
 |Ensure that you know the cost of shipped items by assigning added item costs, such as freight, physical handling, insurance, and transportation that you incur after selling.|[Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)|
 |Learn about all mechanisms in the costing system.|[Design Details: Inventory Costing](design-details-inventory-costing.md)|
-|Read how inventory periods help a company to control inventory value over time by defining shorter periods that can be closed for posting as the fiscal year progresses.|[Work with Inventory Periods](finance-how-to-work-with-inventory-periods.md)|
+|Read how inventory periods help a company to control inventory value over time by defining shorter periods that can be closed for posting as the financial year progresses.|[Work with Inventory Periods](finance-how-to-work-with-inventory-periods.md)|
 |Read why standard costs are often used by manufacturing companies as a valuation base for components and end items.|[About Calculating Standard Cost](finance-about-calculating-standard-cost.md)|
 |Set up inventory periods, costing methods, and rounding methods.|[Setting Up Inventory Valuation and Costing](finance-set-up-inventory-valuation-and-costing.md)|
 |Appreciate or depreciate the value of one or more items in inventory by posting their current, calculated value.|[Revalue Inventory](inventory-how-revalue-inventory.md)|

@@ -1,6 +1,6 @@
 ---
-title: Business Intelligence| Microsoft Docs
-description: Capture and analyse business data, such as sales figures, purchases, operational expenses, employee salaries, and budgets, that can be valuable information for business intelligence or for decision making.
+title: Business Intelligence
+description: Business Central contains a number of features that help you gather, analyse, and share valuable company data for business intelligence and decision making.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 6a3d3e9aec61b3dab7673c7b99b482f80501a919
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 866cfa9c35e7af7abb17ba9c9171244e2107de4d
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786578"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323759"
 ---
 # <a name="business-intelligence"></a>Business Intelligence
 Businesses capture a tremendous amount of data through daily activity. This data, which reflects such things as the organisation's sales figures, purchases, operational expenses, employee salaries, and budgets, can become valuable information, or business intelligence, for decision makers. [!INCLUDE[prod_short](includes/prod_short.md)] contains a number of features that help you gather, analyze, and share your company data.
@@ -42,7 +42,7 @@ The following table describes a sequence of tasks, with links to the topics that
 ## <a name="see-also"></a>See Also
 [Finance](finance.md)    
 [Using Business Central as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  
-[Closing Fiscal Periods](year-close-years-periods.md)  
+[Closing Financial Periods](year-close-years-periods.md)  
 [Importing Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

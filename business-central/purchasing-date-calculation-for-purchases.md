@@ -1,6 +1,6 @@
 ---
-title: Date Calculation for Purchases | Microsoft Docs
-description: The application automatically calculates the date on which you must order an item to have it in inventory on a certain date. This is the date on which you can expect items ordered on a particular date to be available for picking.
+title: Date Calculation for Purchases
+description: The application automatically calculates the date on which you must order an item to have it in inventory on a certain date.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: b65e082355623f422cfb03698f6413fdb04f0daf
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6758c631fcddf157894ed06a483b811342a44e0d
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780273"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321055"
 ---
 # <a name="date-calculation-for-purchases"></a>Date Calculation for Purchases
 
