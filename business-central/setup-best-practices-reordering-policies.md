@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4a0eb78d64948498b315679c45eb9a8b48fd5606
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e788fc7af4335eab99ddce35bf2822e52332a9b9
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784358"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441463"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Setup Best Practices: Reordering Policies
 The **Reordering Policy** field on item cards offers four different planning methods that determine how the individual planning parameters interact.  
@@ -30,7 +30,7 @@ One best-practice foundation for selecting a reordering policy is the item’s A
 
 The ABC classification states that effort and money can be saved by applying looser control to items of low value-volume than to items of high value-volume. The following illustration shows which reordering policy in [!INCLUDE[prod_short](includes/prod_short.md)] is best suited for A, B, and C items respectively.
 
-![ABC Classification](media/abc_classification.png "abc_classification")
+![ABC Classification.](media/abc_classification.png "abc_classification")
 
 The following table provides best practices for selecting between the four policies.  
 

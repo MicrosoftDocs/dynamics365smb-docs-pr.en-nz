@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7c70a6031813fd2f611de7330a3393ecfdb91738
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 921eb4cc054ee61ffac543b68f19097927c511e1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773946"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442126"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Remove and Reapply Item Ledger Entries
 On the **Application Worksheet** page, you can view and manually change certain item application entries that are created automatically during inventory transactions.  
@@ -41,7 +41,7 @@ If you cannot use a document to reapply, such as when you have to correct a fixe
     - The application worksheet cannot make an application in the following situation: If there is not enough quantity on stock to apply, the application worksheet cannot make an application when you are trying to apply an inventory decrease entry without item tracking information to an inventory increase entry with item tracking information.
 
 ## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>To remove an item application by using the Application Worksheet  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Application Worksheet**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Application Worksheet**, and then choose the related link.  
 2.  The **Application Worksheet** page opens displaying existing item ledger entries for all items.  
 3.  Enter filters on the **General** FastTab to make it easier to find the item ledger entry for which you want to change the application.  
 4.  Select the item ledger entry, and then choose the **Applied Entries** action. The **View Applied Entries – Applied Entries** page opens to show the item ledger entry or entries that are currently applied to the selected entry.  
@@ -57,7 +57,7 @@ If you cannot use a document to reapply, such as when you have to correct a fixe
 >  **You cannot perform this action because entries for item <item> are unapplied in the Application Worksheet by user <user>.**  
 
 ## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>To reapply an item application by using the Application Worksheet  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Application Worksheet**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Application Worksheet**, and then choose the related link.  
 2.  The **Application Worksheet** page opens displaying existing item ledger entries for all items.  
 3.  To reapply entries that were removed since the worksheet was opened, select the item ledger entry that you want to reapply, and then choose the **Reapply** action.  
 

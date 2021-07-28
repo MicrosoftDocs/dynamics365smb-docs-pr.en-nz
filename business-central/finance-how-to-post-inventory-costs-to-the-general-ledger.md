@@ -1,6 +1,6 @@
 ---
-title: How to Post Inventory Costs to the General Ledger| Microsoft Docs
-description: At the end of accounting periods, monthly, yearly or other, a sequence of cost control and auditing tasks must be performed to report a correct and balanced inventory value to the finance department. Apart from the posting routine that transfers the individual item value entries to dedicated general ledger accounts, several reports, tracing functions, and a special reconciliation tool are available to the auditor or controller responsible for this business-critical work.
+title: How to Post Inventory Costs to the General Ledger
+description: At the end of accounting periods a sequence of cost control and auditing tasks must be performed to report a correct and balanced inventory value.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 5f1e7103b780fb5b928eeaba49258cfa1dca52fe
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 74a2e257df3306a76d777559a5a157aa2b9ddec9
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770482"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442151"
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Reconcile Inventory Costs with the General Ledger
 When you post inventory transactions, such as sales shipments, purchase invoices, or inventory adjustments, the changed item costs are recorded in item value entries. To reflect this change of inventory value in your financial books, the inventory costs are automatically posted to the related inventory accounts in the general ledger. For each inventory transaction that you post, the appropriate values are posted to the inventory account, adjustment account, and COGS account in the general ledger.
@@ -26,7 +26,7 @@ Automatic cost posting is defined by the **Automatic Cost Posting** field on the
 Even though inventory costs are automatically posted to the general ledger, it is still necessary to ensure that the costs of goods are forwarded to the related outbound sales transaction, especially in situations where you sell goods before you invoice the purchase of those goods. This is referred to as cost adjustment. Item costs are automatically adjusted when you post item transactions, but you can also adjust item costs manually. For more information, see [Adjust Item Costs](inventory-how-adjust-item-costs.md).
 
 ## <a name="to-post-inventory-costs-manually"></a>To post inventory costs manually
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Post Inventory Cost to G/L**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Post Inventory Cost to G/L**, and then choose the related link.
 2. Post inventory costs to the general ledger manually by running the batch job. When you run this batch job, general ledger entries are created on the basis of value entries. You can post the entries so that they are summarised per posting group.
 
 > [!NOTE]  
@@ -77,7 +77,7 @@ The following table describes them.
 |**To**|**See**|  
 |------------|-------------|  
 |View the inventory value of selected items, including information about the quantities and values of increases and decreases in inventory over a selected period.|**Inventory Valuation** report|  
-|View the inventory value of selected production orders in your WIP (work in process) inventory, such as the quantities and values of consumption, capacity usage, and output in ongoing production orders.|**Inventory Valuation - WIP** report|  
+|View the inventory value of selected production orders in your WIP (work in progress) inventory, such as the quantities and values of consumption, capacity usage, and output in ongoing production orders.|**Inventory Valuation - WIP** report|  
 |View the inventory value of selected items, including their actual and expected cost on the date specified.|**Invt. Valuation - Cost Spec.** report|  
 |Use a report to analyse the reasons for cost variances or to gain insight into the cost shares of sold items (COGS).|**Cost Shares Breakdown** report|  
 

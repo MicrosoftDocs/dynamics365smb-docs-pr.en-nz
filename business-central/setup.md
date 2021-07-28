@@ -1,6 +1,6 @@
 ---
 title: Overview of Tasks to Set Up Business Central
-description: Outlines tasks to set up, initialise, and configure Business Central to suit your needs.
+description: Read an overview of the tasks to set up, initialise, and configure Business Central to suit your needs.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 01354575a7d96017684fe885411be364058b57e4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c2edc726ef61f832e0db4ca93300c89342b400e0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781472"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441438"
 ---
 # <a name="overview-of-tasks-to-set-up-prod_short"></a>Overview of Tasks to Set Up [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -23,7 +23,7 @@ ms.locfileid: "5781472"
 
 For example, your chart of accounts is prefilled with a number of posting accounts ready for use. You can, of course, change the chart of accounts to suit your needs. For more information, see [Finance](finance.md).
 
-From the ![Sprocket icon to open the Settings menu](media/ui-experience/settings_icon_small.png) menu, you can access assisted setup guides that help you configure certain scenarios and add features to [!INCLUDE[prod_short](includes/prod_short.md)]. For information about how to access all assisted and manual setup pages, see [Getting Ready for Doing Business](ui-get-ready-business.md).  
+From the ![Sprocket icon to open the Settings menu.](media/ui-experience/settings_icon_small.png) menu, you can access assisted setup guides that help you configure certain scenarios and add features to [!INCLUDE[prod_short](includes/prod_short.md)]. For information about how to access all assisted and manual setup pages, see [Getting Ready for Doing Business](ui-get-ready-business.md).  
 
 > [!NOTE]
 > [!INCLUDE [ua-checklist](includes/ua-checklist.md)]

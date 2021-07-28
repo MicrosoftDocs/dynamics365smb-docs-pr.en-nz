@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5c13e41d102e2a7ff2ca80275571a1a05eea225e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a39798d56aa18dffa929d719cecd68a522bde00d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779063"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442001"
 ---
 # <a name="reconcile-payments-using-automatic-application"></a>Reconcile Payments Using Automatic Application
 
@@ -44,7 +44,7 @@ For each journal line on the **Payment Reconciliation Journal** page, you can op
 > You can start the bank transactions import at the same time as you open the **Payment Reconciliation Journal** page for an existing journal. The following procedure describes how to import bank transactions into the **Payment Reconciliation Journal** page after you have created a new journal.
 
 ## <a name="to-reconcile-payments-using-automatic-application"></a>To reconcile payments using automatic application
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Reconciliation Journals**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Reconciliation Journals**, and then choose the related link.
 2. To work in a new payment reconciliation journal, choose the **New Journal** action.
 3. On the **Payment Bank Account List** page, select the bank account that you want to reconcile payments for, and then choose the **OK** button.
    The **Payment Reconciliation Journal** page opens prepared for the selected bank account.

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 923f68b13619013dd54062438c66192a682868bc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4bce7a2e07f9d559df74f4862e9aa841f4cfe6f0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787893"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441613"
 ---
 # <a name="batch-post-output-and-run-times"></a>Batch Post Output and Run Times
 The output quantity represents the work progress in the form of the finished quantity and used capacity of work or machine centre.
@@ -31,7 +31,7 @@ You can use the output journal to:
 With the **Production Journal** window, you can perform the same tasks as in the **Output Journal** window and at the same time perform the related consumption posting tasks. For more information, see [Register Consumption and Output for One Released Production order line](production-how-to-register-consumption-and-output.md).
 
 ## <a name="to-post-output-quantities-andor-register-run-times-for-one-or-more-production-order-lines"></a>To post output quantities and/or register run times for one or more production order lines
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Output Journal**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Output Journal**, and then choose the related link.  
 2. Fill in the fields with the production order data and the output data and/or run time. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
   
     You can use the **Explode Routing** function to generate journal lines from production orders.

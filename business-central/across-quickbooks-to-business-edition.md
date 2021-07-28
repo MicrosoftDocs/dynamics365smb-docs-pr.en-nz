@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: app, import, migrate, data, transfer, QuickBooks, customize
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9cf2d377476eed7dd8b38dc824bd6e23f2902818
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 12ac21b237188b391dac943dd1f0352cddb82602
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787148"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440790"
 ---
 # <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a>Changing from a QuickBooks App to Dynamics 365 Business Central
 More and more growing businesses are changing from finance apps like QuickBooks Desktop and QuickBooks Online, which are designed for startups and other small businesses, to [!INCLUDE[prod_short](includes/prod_short.md)], which also supports larger, more complex organisations. 
@@ -32,7 +32,7 @@ For more information, read about the extension that suits your QuickBooks app:
 * [The QuickBooks Online Data Migration Extension](ui-extensions-quickbooks-online-data-migration.md)
 
 ## <a name="ready-now"></a>Ready now?
-If you are ready to get started now, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link. Choose **Migrate business data**, and then follow the steps in the guide.
+If you are ready to get started now, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link. Choose **Migrate business data**, and then follow the steps in the guide.
 
 ## <a name="see-also"></a>See Also
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  

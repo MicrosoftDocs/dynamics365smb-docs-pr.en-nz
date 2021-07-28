@@ -1,6 +1,6 @@
 ---
-title: How to Subcontract Manufacturing | Microsoft Docs
-description: When the purchase order has been created from the subcontractor worksheet, then it can be posted.
+title: How to Subcontract Manufacturing
+description: This topic gives an extended overview of the extended funtionality of subcontracting in Business Central including work centre fields and routing.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 08b717e5674130661e12b48e6c0f37473098b892
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 821e705e07b5ced42ad2ae41f2da340573004c7e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787718"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441538"
 ---
 # <a name="subcontract-manufacturing"></a>Subcontract Manufacturing
 Subcontracting selected operations to vendor is common in many manufacturing companies. Subcontracting can be a rare occurrence or can be an integral part of all production processes.
@@ -52,7 +52,7 @@ The **Subcontracting Worksheet** page functions like the **Planning Worksheet** 
 >  Only production orders with status **Released** can be accessed and used from a subcontracting worksheet.  
 
 ### <a name="to-calculate-the-subcontracting-worksheet"></a>To calculate the subcontracting worksheet  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Subcontracting Worksheet**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Subcontracting Worksheet**, and then choose the related link.  
 2.  To calculate the worksheet, choose the **Calculate Subcontracts** action.  
 3.  On the **Calculate Subcontracts** page, set filters for the subcontracted operations, or the work centres where they are performed, to calculate only the relevant production orders.  
 4.  Choose the **OK** button.  
@@ -60,7 +60,7 @@ The **Subcontracting Worksheet** page functions like the **Planning Worksheet** 
     Review the lines on the **Subcontracting Worksheet** page. The information in this worksheet comes from the production order and production order routing lines and flows to the purchase order when that document is created. You can delete a row from the worksheet without affecting the original information, just as you can with the other worksheets. The information will reappear the next time you run the **Calculate Subcontracts** function.  
 
 ### <a name="to-create-the-subcontract-purchase-order"></a>To create the subcontract purchase order  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Subcontracting Worksheet**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Subcontracting Worksheet**, and then choose the related link.  
 2.  Choose the **Carry Out Action Message** action.  
 3.  Select the **Print Orders** field to print the purchase order as it is created.  
 4.  Choose the **OK** button.  
@@ -73,7 +73,7 @@ The worksheet line that was turned into a purchase order is deleted from the wor
 Once the Subcontractor Purchase Orders have been created, they can be posted. Receiving the order posts a Capacity Ledger Entry to the production order and invoicing the order posts the direct cost of the purchase order to the production order.  
 
 ## <a name="to-post-a-subcontract-purchase-order"></a>To post a subcontract purchase order  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then select the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then select the related link.  
 2.  Open a purchase order that is created from the subcontracting worksheet.  
 
     On the purchase order lines, you see the same information that was in the worksheet. The **Prod. Order No.**, **Prod. Order Line No.**, **Operation No.**, and **Work Centre No.** fields are filled in with the information from the source production order.  
