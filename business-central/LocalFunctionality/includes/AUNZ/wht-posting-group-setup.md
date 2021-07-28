@@ -4,12 +4,12 @@ ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c0f4657f856784ac0ee7811389c730eaaeff11d9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 237397b18f9ee2d2f0674b61e570dcba3f3e9d81
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773478"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438493"
 ---
 ## <a name="set-up-wht-posting-groups"></a>Set up WHT posting groups
 
@@ -22,7 +22,7 @@ The following procedure describes how to set up product posting groups for WHT, 
 
 ### <a name="to-set-up-a-product-posting-group-for-withholding-tax"></a>To set up a product posting group for withholding tax  
 
-1. Choose the ![A lightbulb icon that opens the Tell Me feature](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **WHT Product Posting Group**, and then choose the related link.  
+1. Choose the ![A lightbulb icon that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **WHT Product Posting Group**, and then choose the related link.  
 2. Fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -36,7 +36,7 @@ Finally, you must set up how these posting groups must be used when documents ar
 
 ### <a name="to-set-up-posting-for-withholding-tax"></a>To set up posting for withholding tax  
 
-1. Choose the ![The lightbulb icon that opens the Tell Me feature](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **WHT Posting Setup**, and then choose the related link.  
+1. Choose the ![The lightbulb icon that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **WHT Posting Setup**, and then choose the related link.  
 
 2. Fill in the fields as described in the following table.  
 

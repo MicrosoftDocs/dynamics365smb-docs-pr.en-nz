@@ -1,6 +1,6 @@
 ---
-title: How to Run Full Planning, MPS and MRP | Microsoft Docs
-description: The terms "running the planning worksheet" or "running MRP" refer to the calculation of the master production schedule and material requirements based on actual and forecasted demand. The planning system can calculate either Master Planning Schedule (MPS) or Material Requirements Planning (MRP) on request, or it can calculate both at the same time.
+title: How to Run Full Planning, MPS and MRP
+description: The planning system can calculate either Master Planning Schedule (MPS) or Material Requirements Planning (MRP) on request, or both at the same time.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: e80b7f3c072556453f441d7b9980c7308ed3cb61
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 73b40d3174497c05446d5b6ae6465f23a420f308
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787768"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440344"
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Run Full Planning, MPS or MRP
 The terms "running the planning worksheet" or "running MRP" refer to the calculation of the master production schedule and material requirements based on actual and forecasted demand. The planning system can calculate either Master Planning Schedule (MPS) or Material Requirements Planning (MRP) on request, or it can calculate both at the same time.  
@@ -45,7 +45,7 @@ With each planned method, [!INCLUDE[prod_short](includes/prod_short.md)] generat
 >  The Get Action Messages Plan function can be run between regenerative and net change planning runs to obtain an immediate view of the effect of schedule changes, but it is not intended as a replacement of full regenerative or net change planning processes.  
 
 ## <a name="to-calculate-the-planning-worksheet"></a>To calculate the planning worksheet  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheets**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheets**, and then choose the related link.  
 2.  Choose the **Calculate Regenerative Plan** action to open the **Calculate Plan** page.  
 3.  On the **Options** FastTab, fill in the fields as described in the following table.  
 
@@ -53,7 +53,7 @@ With each planned method, [!INCLUDE[prod_short](includes/prod_short.md)] generat
     |---------------------------------|---------------------------------------|  
     |**MPS**|Select to initiate the calculation of a master production schedule. Items with open sales orders or demand forecasts are considered in this run.|  
     |**MRP**|Select to initiate the calculation of material requirements planning. Items with dependent requirements are considered in this run. Typically,  MPS and MRP are run at the same time. To run MPS and MRP at the same time, the **Combined MPS/MRP Calculation** field must be selected on the **Planning** FastTab on the **Manufacturing Setup** page.|  
-    |**Starting Date**|This date is used to evaluate inventory availability. If an item's on-hand quantity is below the reorder point, the system forward-schedules a replenishment order from this date. If an item is below its safety stock (as of the starting date), the system back-schedules a replenishment order due on the planning starting date.|  
+    |**Starting Date**|This date is used to evaluate inventory availability. If an item's on-hand quantity is below the reorder point, the system forward-schedules a replenishment order from this date. If an item is below its safety stock (as at the starting date), the system back-schedules a replenishment order due on the planning starting date.|  
     |**Ending Date**|This is the ending date of the planning horizon. Neither demand nor supply is considered after this date. If the reorder cycle for an item extends beyond the ending date, the effective planning horizon for that item is equal to the order date + reorder cycle.<br /><br /> The planning horizon is the time that the plan is extended to. If the horizon is too short, items with a longer lead time are not ordered on time. If the horizon is too long, too much time is spent reviewing and processing information that likely changes before it is needed. It is possible to set one planning horizon for production and a longer one for purchases, although it is not required. A planning horizon for purchases and production should be set to cover the cumulative lead time for components.|  
     |**Stop and Show First Error**|Select if you want the planning run to stop as soon as it encounters an error. At the same time, a message is displayed with information about the first error. If an error exists, only the successful planning lines made before the error was encountered will be presented in the planning worksheet. If you do not select this field, the **Calculate Plan** batch job will continue until it has completed, that is, errors will not interrupt the batch job. If one or more errors exist, a message will display after completion with information about how many items are affected. The **Planning Error Log** page will then open to provide more details about the error and links to the affected item cards.|  
     |**Use Forecast**|Select a forecast that should be included as demand when you run the planning batch job. The default forecast is set up on the **Planning** FastTab on the **Manufacturing Setup** page.|  

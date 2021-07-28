@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 90d04a6f951c3312f88f536bfab680bcd071de63
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6b13be85c47cc2a280b2cf2e7cf3bf4866633343
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781979"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438618"
 ---
 # <a name="create-production-order-headers"></a>Create Production Order Headers
 You can create a production order manually, and the first step is to create a production order header.
@@ -25,7 +25,7 @@ Production orders are typically created automatically by a planning function to 
 In the following procedure, a firm planned production order is created. You can also create production orders with a different status.  
 
 ## <a name="to-create-a-production-order-header"></a>To create a production order header  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Orders**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  In the **No.** field, insert the next number in the series.  
 4.  In the **Source Type** field, select the source of the production order.

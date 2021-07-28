@@ -1,6 +1,6 @@
 ---
-title: How to work With GST on Sales and Purchases | Microsoft Docs
-description: This topic describes how perform tasks such as correcting posted VAT. In EU countries/regions, every sales and purchase transaction is subject to VAT calculations. This topic describes how.
+title: How to work with GST on Sales and Purchases
+description: This topic describes the various ways of working with GST both manually and with automatic setup, to help you meet country specific regulations.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,22 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: ec880df940816b68a9b6f8a82098985471720984
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5c4efb0be09769770fdaf8ec0e503018119ce081
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781572"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439451"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Work with GST on Sales and Purchases
-If your country or region requires you to calculate value-added tax (VAT) on sales and purchase transactions so that you can report the amounts to a tax authority, you can set up [!INCLUDE[prod_short](includes/prod_short.md)] to calculate VAT automatically on sales and purchase documents. For more information, see [Setting Up to Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md).
+If your country or region requires you to calculate goods and services tax (GST) on sales and purchase transactions so that you can report the amounts to a tax authority, you can set up [!INCLUDE[prod_short](includes/prod_short.md)] to calculate GST automatically on sales and purchase documents. For more information, see [Setting Up to Calculations and Posting Methods for Goods and Services Tax](finance-setup-vat.md).
 
 There are, however, some GST-related tasks that you can do manually. For example, you might need to correct a posted amount if you discover that a vendor uses a different rounding method.  
 
 > [!TIP]
-> You can let [!INCLUDE[prod_short](includes/prod_short.md)] validate GST registration numbers and other company information when you create or update documents. For more information, see [Validate GST Registration Numbers](finance-how-validate-vat-registration-number.md).
+> You can let [!INCLUDE[prod_short](includes/prod_short.md)] validate VAT registration numbers and other company information when you create or update documents. For more information, see [Validate VAT Registration Numbers](finance-how-validate-vat-registration-number.md).
 
 ## <a name="calculating-and-displaying-vat-amounts-in-sales-and-purchase-documents"></a>Calculating and Displaying GST Amounts in Sales and Purchase Documents  
 You can calculate and display GST amounts in sales and purchase documents differently, depending on the type of customer or vendor that you are dealing with. You can also override the calculated GST amount to match the GST amount calculated by your vendor on a given transaction.  
@@ -52,15 +52,15 @@ The following table provides an overview of how application calculates the unit 
 ## <a name="correcting-vat-amounts-manually-in-sales-and-purchase-documents"></a>Correcting GST Amounts Manually in Sales and Purchase Documents  
 You can make corrections to posted GST entries. This allows you to change the total sales or purchase GST amounts without changing the GST base. You may need to do this, for example, if you receive an invoice from a vendor that has calculated GST incorrectly.  
 
-Although you may have set up one or more combinations to handle import GST, you must set up at least one GST product posting group. For example, you can name it **CORRECT** for correction purposes, unless you can use the same general ledger account in the **Purchase GST Account** field on the GST posting setup line. For more information, see [Setting Up to Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md).
+Although you may have set up one or more combinations to handle import GST, you must set up at least one GST product posting group. For example, you can name it **CORRECT** for correction purposes, unless you can use the same general ledger account in the **Purchase GST Account** field on the GST posting setup line. For more information, see [Setting Up to Calculations and Posting Methods for Goods and Services Tax](finance-setup-vat.md).
 
-If a payment discount has been calculated on the basis of an invoice amount that includes GST, you revert the payment discount part of the GST amount when the payment discount is granted. Note that you must activate the **Adjust for Payments Disc.** field in both the general ledger setup in general and the GST posting setup for specific combinations of a GST business posting group and a GST product posting group.  
+If a payment discount has been calculated on the basis of an invoice amount that includes GST, you revert the payment discount part of the GST amount when the payment discount is granted. Note that you must activate the **Adjust for Payments Disc.** field in both the general ledger setup in general and the VAT posting setup for specific combinations of a VAT business posting group and a VAT product posting group.  
 
 ### <a name="to-set-the-system-up-for-manual-vat-entry-in-sales-documents"></a>To set the system up for manual GST entry in sales documents
 The following describes how to enable manual GST changes on sales documents. The steps are similar on the **Purchases & Payables Setup** page.
 
 1. On the **General Ledger Setup** page, specify a **Max. GST Difference Allowed** between the amount calculated by application and the manual amount.  
-2. On the **Sales & Receivables Setup** page, place a check mark in the **Allow Vat Difference** field.  
+2. On the **Sales & Receivables Setup** page, place a check mark in the **Allow GST Difference** field.  
 
 ### <a name="to-adjust-vat-for-a-sales-document"></a>To adjust GST for a sales document  
 1. Open the relevant sales order.  
@@ -96,14 +96,14 @@ Instead of using journals to post an import GST invoice, you can use a purchase 
 ### <a name="to-set-up-purchasing-for-posting-import-vat-invoices"></a>To set up purchasing for posting import GST invoices  
 1. Set up a vendor card for the import authority that sends you the import GST invoice. The **Gen. Bus. Posting Group** and **GST Bus. Posting Group** must be set up in the same way as the general ledger account for the import GST.  
 2. Create a **Gen. Product Posting Group** for the import GST and set up an import GST **Def. GST Product Posting Group** for the related **Gen. Product Posting Group**.  
-3. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
+3. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
 4. Select the import GST general ledger account, and then choose the **Edit** action.  
 5. On the **Posting** FastTab, select the **Gen. Prod. Posting Group** setup for import GST. [!INCLUDE[prod_short](includes/prod_short.md)] automatically fills in the **GST Prod. Posting Group** field.  
-6. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Posting Setup**, and then choose the related link.  
+6. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Posting Setup**, and then choose the related link.  
 7. Create a combination of the **Gen. Bus. Posting Group** for the GST authority and the **Gen. Prod. Posting Group** for import GST. For this new combination, in the **Purchase Account** field, choose the import GST general ledger account.  
 
 ### <a name="to-create-a-new-invoice-for-the-import-authority-vendor-once-you-have-completed-the-setup"></a>To create a new invoice for the import authority vendor once you have completed the setup  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.  
 2. Create a new purchase invoice.  
 3. In the **Buy-from Vendor No.** field, choose the import authority vendor, and then choose the **OK** button.  
 4. In the purchase line, in the **Type** field, choose **G/L Account**, and in the **No.** field, choose the import GST general ledger account.  
@@ -115,7 +115,7 @@ Instead of using journals to post an import GST invoice, you can use a purchase 
 When you sell goods to a customer in another EU country/region, you must send the customer a certificate of supply that the customer must sign and return to you. The following procedures are for processing certificates of supply for sales shipments, but the same steps apply for service shipments of items, and return shipments to vendors.  
 
 ### <a name="to-view-certificate-of-supply-details"></a>To view certificate of supply details  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipments**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipments**, and then choose the related link.  
 2. Choose the relevant sales shipment to a customer in another EU country/region.  
 3. Choose **Certificate of Supply Details**.  
 4. By default, if the **Certificate of Supply Required** check box is selected for GST Posting Group setup for the customer, the **Status** field is set to **Required**. You can update the field to indicate whether the customer has returned the certificate.  
@@ -134,7 +134,7 @@ When you sell goods to a customer in another EU country/region, you must send th
     >  You can preview or print the document. When you choose **Print Certificate of Supply** and print the document, the **Printed** check box is automatically selected. In addition, if not already specified, the status of the certificate is updated to **Required**. If needed, you include the printed certificate with the shipment.  
 
 ### <a name="to-print-a-certificate-of-supply"></a>To print a certificate of supply  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipments**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipments**, and then choose the related link.  
 2. Choose the relevant sales shipment to a customer in another EU country/region.  
 3. Choose the **Print Certificate of Supply** action.  
 
@@ -152,7 +152,7 @@ When you sell goods to a customer in another EU country/region, you must send th
 8. Send the printed certificate of supply to the customer for signature.  
 
 ### <a name="to-update-the-status-of-a-certificate-of-supply-for-a-shipment"></a>To update the status of a certificate of supply for a shipment  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipments**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipments**, and then choose the related link.  
 2. Choose the relevant sales shipment to a customer in another EU country/region.  
 3. In the **Status** field, choose the relevant option.  
 
@@ -165,7 +165,7 @@ When you sell goods to a customer in another EU country/region, you must send th
 To view a group of certificates, you start from the **Certificates of Supply** page, and then update the information about the status of outstanding certificates as you receive them back from your customers. This can be useful when you want to search for all certificates that have a certain status, for example, **Required**, for which you want to update their status to **Not Received**.  
 
 ### <a name="to-update-the-status-of-a-group-of-certificates-of-supply"></a>To update the status of a group of certificates of supply  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Certificates of Supply**, and choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Certificates of Supply**, and choose the related link.  
 2. Filter the **Status** field to the value that you want in order to create the list of certificates that you want to manage.  
 3. To update the status information, choose **Edit List**.  
 4. In the **Status** field, choose the relevant option.  
@@ -186,6 +186,6 @@ To view a group of certificates, you start from the **Certificates of Supply** p
 
 [Setting Up Calculations and Posting Methods for Goods and Services Tax](finance-setup-vat.md)  
 [Report GST to a Tax Authority](finance-how-report-vat.md)  
-[Validate a VAT Registration number](finance-how-validate-vat-registration-number.md)  
+[Validate a VAT Registration Number](finance-how-validate-vat-registration-number.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
