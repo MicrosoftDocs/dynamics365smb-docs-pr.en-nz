@@ -1,6 +1,6 @@
 ---
-title: Pick for Production or Assembly in Basic Warehouse Configurations
-description: When your warehouse location requires pick processing but does not require shipment processing, use the **Inventory Pick** page to organise and record the picking of components.
+title: Pick Production or Assembly in Basic Warehouse
+description: When your warehouse location requires pick processing but not shipment processing, use the Inventory Pick page to organise and record picking the components.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 005532799378248f67ff21b8e50955342ff1c24a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c3827bb8ab272b38972c17d79933ce0aa187e32d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782625"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445813"
 ---
 # <a name="pick-for-production-or-assembly-in-basic-warehouse-configurations"></a>Pick for Production or Assembly in Basic Warehouse Configurations
 How you put away your pick components for production or assembly orders depends on how your warehouse is set up as a location. For more information, see [Setting Up Warehouse Management](warehouse-setup-warehouse.md).
@@ -43,7 +43,7 @@ A system precondition for picking, or moving, components for source documents is
 ## <a name="to-pick-production-components-in-basic-warehouse-configurations-using-inventory-pick"></a>To pick production components in basic warehouse configurations using Inventory Pick
 In basic warehouse configurations where the location is set up to use picking only, you can pick components for production activities with the **Inventory Pick** page. For more information, see [Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md).
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Picks**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Picks**, and then choose the related link.  
 2.  To access the production order components, choose the **Get Source Documents** action, and then select the released production order.  
 3.  Perform the pick, and then record the actual picking information in the **Qty. to Handle** field.  
 4.  When the lines are ready for posting, choose the **Post** action. The posting creates the necessary warehouse entries and posts the consumption of the items.  
@@ -81,7 +81,7 @@ In combination scenarios, where a part of the quantity must first be assembled a
 ## <a name="filling-the-consumption-bin"></a>Filling the Consumption Bin
 This flow chart shows how the **Bin Code** field on production order component lines is filled according to your location setup.
 
-![Bin flow chart](media/binflow.png "BinFlow")
+![Bin flow chart.](media/binflow.png "BinFlow")
 
 ## <a name="see-also"></a>See Also
 [Warehouse Management](warehouse-manage-warehouse.md)  
