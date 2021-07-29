@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d0a48037123dee4a7c9282432cc2b357b335e794
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 4cd53cab788f5ee9a7f32f697faa35e8cd2638ae
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115581"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443373"
 ---
 # <a name="invoice-sales"></a>Invoice Sales
 
@@ -41,7 +41,7 @@ You can fill customer fields on the sales invoice in two ways depending on wheth
 
 ### <a name="to-create-a-sales-invoice"></a>To create a sales invoice
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
 2. In the **Customer** field, enter the name of an existing customer.
 
    Other fields on the **Sales Invoice** page contain standard information about the selected customer. If the customer is not registered, follow these steps:
@@ -85,7 +85,7 @@ You can fill customer fields on the sales invoice in two ways depending on wheth
     The totals fields under the lines are automatically updated as you create or modify lines to display the amounts that will be posted to the ledgers.
 
     > [!NOTE]
-    > In very rare cases, the posted amounts may deviate from what is displayed in the totals fields. This is typically due to rounding calculations in relation to GST or sales tax.<br /><br />To check the amounts that will actually be posted, you can use the **Statistics** page, which takes into account the rounding calculations. Also, if you choose the **Release** action, the totals fields will be updated to include rounding calculations.
+    > In very rare cases, the posted amounts may deviate from what is displayed in the totals fields. This is typically due to rounding calculations in relation to VAT or GST.<br /><br />To check the amounts that will actually be posted, you can use the **Statistics** page, which takes into account the rounding calculations. Also, if you choose the **Release** action, the totals fields will be updated to include rounding calculations.
 9. In the **Invoice Discount Amount** field, enter an amount that should be deducted from the value shown in the **Total Incl. Tax** field.
 
     If you have set up invoice discounts for the customer, then the specified percentage value is automatically inserted in the **Invoice Discount %** field if the criteria are met, and the related amount is inserted in the **Inv. Discount Amount Excl. Tax** field. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fd35c0af4d2b66f99c0a4a3a65f77826cd9af806
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 313de95353fc42b222fa95cd36d320881a7fbdb8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775938"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442601"
 ---
 # <a name="set-up-incoming-documents"></a>Set Up Incoming Documents
 
@@ -29,7 +29,7 @@ When the Incoming Documents feature is set up, you can use different functions t
 
 ## <a name="to-set-up-the-incoming-documents-feature"></a>To set up the Incoming Documents feature
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Document Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Document Setup**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 As part of the setup, you must decide if you want to require approval of incoming documents. To require approval, you must set up approvers and approval workflows. If your organisation does not intend to require approval, you can skip the next section.  
@@ -44,7 +44,7 @@ Before you can create workflows that involve approval steps, you must set up the
 
 ## <a name="to-set-up-an-ocr-service"></a>To set up an OCR service
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **OCR Service Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **OCR Service Setup**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  

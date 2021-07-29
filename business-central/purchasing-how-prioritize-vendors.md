@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: supplier, payment priority
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1604113b255a585532677ccb47d7e68d1cc64059
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d83fe736298e4cae3b6b86a495e0567057df2cc5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772795"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443310"
 ---
 # <a name="prioritize-vendors"></a>Prioritise Vendors
 [!INCLUDE[prod_short](includes/prod_short.md)] can suggest various payments to vendors, for example, payments that will be due soon or payments where a discount is available. For more information, see [Suggest Vendor Payments](payables-how-suggest-vendor-payments.md).
@@ -27,7 +27,7 @@ First, you must prioritise your vendors by assigning numbers to them.
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PRGa?rel=0]
 
 ## <a name="to-prioritize-vendors"></a>To prioritise vendors
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
 2. Select the relevant vendor, and then choose **Edit**.
 3. In the **Priority** field, enter a number.
 

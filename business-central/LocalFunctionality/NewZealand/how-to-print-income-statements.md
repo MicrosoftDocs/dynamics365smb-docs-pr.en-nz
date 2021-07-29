@@ -1,5 +1,5 @@
 ---
-title: Print Income Statements in the New Zealand version
+title: Print Income Statements [NZ]
 description: Describes how print the company's annual income statement in a report in the New Zealand version.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: bholtorf
-ms.openlocfilehash: f05dc08dd5f18324f43f3bcddeb0823de1fa131a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d6cd5af7a6fe45b4f0db29e1c02c5cda14a0fa43
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770623"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443561"
 ---
 # <a name="print-income-statements-in-the-new-zealand-version"></a>Print Income Statements in the New Zealand version
 
 You can use the **Income Statement** report to view the company's annual income statement. This is a legal report that is required for auditing accounts. This report displays the details of revenues and expenses for the current year and the previous year.  
 
 ## <a name="to-print-the-income-statement-report"></a>To print the income statement report  
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Income Statement**, and then choose the relevant link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Income Statement**, and then choose the relevant link.  
 2. On the **Income Statement** page, on the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  

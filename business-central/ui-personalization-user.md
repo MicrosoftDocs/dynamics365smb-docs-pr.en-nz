@@ -1,6 +1,6 @@
 ---
-title: Personalising Pages | Microsoft Docs
-description: Learn how to customise the user interface to suit your way of working in Business Central.
+title: Personalising Pages
+description: Learn how to customise the user interface and personalise your workspace to suit your way of working and personal preferences in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 6069e3d1bcfde5c7aead1daeb33b35201c9f05a4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: dbcf9f396c3f92093241a17cb6a358580f015cbe
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783327"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442691"
 ---
 # <a name="personalize-your-workspace"></a>Personalise Your Workspace
 You can personalise your workspace to suit your work and preferences by changing pages so that they display only the information you need, where you need it. The personalisation changes that you make will only affect what you see, not what other users see.
@@ -42,7 +42,7 @@ As for other personalisation, the changes you make to column width are stored on
 
 ## <a name="to-start-personalizing-a-page-through-the-personalizing-banner"></a>To start personalising a page through the **Personalising** banner
 1. Open any page that you want to personalise.
-2. In the upper-right corner, select the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role centre") icon, and then choose the **Personalise** action.
+2. In the upper-right corner, select the ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role centre") icon, and then choose the **Personalise** action.
 
     The **Personalising** banner appears at the top to indicate that you can start making changes.
 

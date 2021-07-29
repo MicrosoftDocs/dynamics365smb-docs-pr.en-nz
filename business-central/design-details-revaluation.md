@@ -1,6 +1,6 @@
 ---
-title: Design Details - Revaluation | Microsoft Docs
-description: You can revalue the inventory based on the valuation base that most accurately reflects the inventory value. You can also backdate a revaluation, so that the cost of goods sold (COGS) is correctly updated for items that have already been sold. Items using the Standard costing method that have not been completely invoiced can also be revalued.
+title: Design Details - Revaluation
+description: You can revalue the inventory based on the valuation base that most accurately reflects the inventory value.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: a052f726169fde9e09e83aeb690169580eaee948
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 2af7425324314c14039ef56bc7e124db033fd8ef
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215794"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444321"
 ---
 # <a name="design-details-revaluation"></a>Design Details: Revaluation
 You can revalue the inventory based on the valuation base that most accurately reflects the inventory value. You can also backdate a revaluation, so that the cost of goods sold (COGS) is correctly updated for items that have already been sold. Items using the Standard costing method that have not been completely invoiced can also be revalued.  
@@ -39,7 +39,7 @@ Because revaluation can be made on any date, you must have conventions for when 
 ### <a name="example"></a>Example  
 The following example illustrates when a WIP item transitions to become part of inventory. The example is based on the production of a chain with 150 links.  
 
-![WIP inventory and revaluation](media/design_details_inventory_costing_10_revaluation_wip.png "WIP inventory and revaluation")  
+![WIP inventory and revaluation.](media/design_details_inventory_costing_10_revaluation_wip.png "WIP inventory and revaluation")  
 
 **1Q**: The user posts the purchased links as received. The following table shows the resulting item ledger entry.  
 

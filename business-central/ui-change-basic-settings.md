@@ -1,6 +1,6 @@
 ---
 title: Change basic settings for the current user
-description: Learn how to change some basic settings, for example, your Role Centre, company, or work date.
+description: Learn how to change some basic settings in Business Central, for example, your role and role centre, company, work date, and time zones.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: a0a504aa7c06c08d2e9f4251128e4203f0f90dee
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e79ebc40ea98e8e488b0394a19014cefd78c2fd0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787468"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443784"
 ---
 # <a name="change-basic-settings"></a>Change Basic Settings
 
@@ -33,7 +33,7 @@ The role determines the home page, a starting screen that is designed for the ne
 
 The default role is **Business Manager**, but you can select another role to use a role centre that fits your needs better.  
 
-1. In the top right corner, choose the **Settings** icon ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role centre"), and then choose the **My Settings** action.
+1. In the top right corner, choose the **Settings** icon ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role centre"), and then choose the **My Settings** action.
 2. On the **My Settings** page, in the **Role** field, select the role that you want to use by default. For example, select **Accountant**.
 3. Choose the **OK** button.
 
@@ -47,7 +47,7 @@ The default company is called CRONUS and contains demonstration data only. You c
 
 The company name is always displayed at the top left corner and works as an action that you can choose to go back to the Role Centre. You can change this name on the **Company Information** page.
 
-1. Choose the ![Sprocket icon to open the Settings menu](media/ui-experience/settings_icon_small.png) icon, and then choose the **Company Information** action.
+1. Choose the ![Sprocket icon to open the Settings menu.](media/ui-experience/settings_icon_small.png) icon, and then choose the **Company Information** action.
 2. In the **Name** field, enter the new company name.
 3. Leave the page. The system restarts and displays the new company in the top-left corner.
 
@@ -55,7 +55,7 @@ The company name is always displayed at the top left corner and works as an acti
 
 You can add a customised badge in the top-right corner, which you can choose to quickly view company name and tenant information in a pop-up box. The company badge is also useful when [!INCLUDE[prod_short](includes/prod_short.md)] is embedded in another application, like Microsoft Teams or in some other web application. In these cases, because the [!INCLUDE[web_client](includes/web_client.md)] displays less surrounding contextual information, the company badge serves as the only way to determine which company or environment a record belongs to.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.
 2. On the **Company Badge** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 
 > [!NOTE]

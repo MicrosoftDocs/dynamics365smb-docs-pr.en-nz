@@ -10,12 +10,12 @@ ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4e9a121efe984e075c54c747fc426bf9a4519b81
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6b146e2a515ffd2a200574c4ce059c8a0205b602
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787418"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443584"
 ---
 # <a name="the-c5-data-migration-extension"></a>The C5 Data Migration Extension
 
@@ -75,7 +75,7 @@ If you migrate accounts, the following data is also migrated:
 * Item discount groups
 * Sales price
 * Tariff number
-* Units of measure
+* Units of measurement
 * Item tracking code
 * Customer price group
 * Assembly BOMs
@@ -107,7 +107,7 @@ The largest file size you can upload to [!INCLUDE[prod_short](includes/prod_shor
 There are just a few steps to export data from C5, and import it in [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
 1. In C5, use the **Export Database** feature to export the data. Then send the export folder to a compressed (zipped) folder.  
-2. In [!INCLUDE[prod_short](includes/prod_short.md)], choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Migration**, and then choose **Data Migration**.  
+2. In [!INCLUDE[prod_short](includes/prod_short.md)], choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Migration**, and then choose **Data Migration**.  
 3. Complete the steps in the assisted setup guide. Make sure to choose **Import from Microsoft Dynamcis C5 2012** as the data source.  
 
 ## <a name="viewing-the-status-of-the-migration"></a>Viewing the Status of the Migration

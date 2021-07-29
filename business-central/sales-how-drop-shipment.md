@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: beb78a3526b95af228ab313b67174633902e7bd7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c5ca9eb1dc14a75d84072f28e7f72fc8b5e89373
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778838"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443423"
 ---
 # <a name="make-drop-shipments"></a>Make Drop Shipments
 
@@ -52,7 +52,7 @@ You can now instruct the vendor to ship the items to your customer, for example,
 
 You can also use the requisition worksheet to create the purchase order for the vendor. The advantage of using the requisition worksheet is that it can create purchase orders for all outstanding drop shipments, so you don't have to create each one individually.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Requistion Worksheets**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Requistion Worksheets**, and then choose the related link.
 2. Choose the **Drop Shipments** action, and then choose the **Get Sales Order** action.
 3. Choose the **OK** button.
 4. Review the purchase order lines, and in the **Vendor No.** field, select vendor that supplies required goods. 
@@ -66,7 +66,7 @@ You can also use the requisition worksheet to create the purchase order for the 
 
 After the vendor ships the items, you can post the sales order as shipped. You can also post the purchase order, but only with the **Receive** option until the sales order has been invoiced.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
 2. Open the sales order that you created in [To create a sales order for drop shipment](#to-create-a-sales-order-for-drop-shipment).
 3. In the **Qty. to Ship** field, specify how many of the order quantity to ship, the full or a partial order quantity.
 4. Choose the **Post** or **Post and Send** action.

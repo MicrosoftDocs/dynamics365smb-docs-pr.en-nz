@@ -1,6 +1,6 @@
 ---
 title: Correct or Cancel a Posted Sales Invoice
-description: Describes how to correct, undo, or cancel a posted sales invoice and apply a sales credit memo.
+description: This topic describes how to correct, undo, or cancel a posted sales invoice and apply a sales credit memo.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 0d6e05a52cb4028087e4c52c56fb9d2f5ab78795
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4656e99f1227668cdf784ab950d38462da6f6c1c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778888"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443448"
 ---
 # <a name="correct-or-cancel-unpaid-sales-invoices"></a>Correct or Cancel Unpaid Sales Invoices
 
@@ -38,7 +38,7 @@ When you correct or cancel a posted sales invoice, the corrective sales credit m
 
 ## <a name="to-cancel-a-posted-sales-invoice"></a>To cancel a posted sales invoice
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices**, and then choose the related link.  
 2. Select the posted sales invoice that you want to cancel.
 
     > [!NOTE]  
@@ -54,7 +54,7 @@ If the cancellation is related to a partial invoice posting, then the originatin
 
 ## <a name="to-correct-a-posted-sales-invoice"></a>To correct a posted sales invoice
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices**, and then choose the related link.  
 2. Select the posted sales invoice that you want to correct.
 
     > [!NOTE]  
