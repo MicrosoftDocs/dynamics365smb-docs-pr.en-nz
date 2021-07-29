@@ -1,6 +1,6 @@
 ---
 title: Use Item Cross-References
-description: Set up references between the descriptions that you and your vendor use for an item so you can insert the vendor's item description on purchase documents.
+description: Set up cross-references between the descriptions that you and your vendor use for an item to insert the vendor's item description on purchase documents.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item reference, cross reference, inventory
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 0a9f84522598344435ad9c1263fe8cdea2e2a1e0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 853c574f5b262f7b826bc92dd8e35484e902c1f4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785664"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444961"
 ---
 # <a name="use-item-cross-references"></a>Use Item Cross References
 If you set up a cross reference between the item description that you use for an item and the description that the vendor of that item uses, then the vendor's item description is automatically inserted on purchase documents for the vendor when you fill in the **Cross-Reference No.** field. The same functionality applies for customer item numbers on sales documents.
@@ -27,7 +27,7 @@ The following procedures describe how to use item cross references on the purcha
 
 ## <a name="to-set-up-an-item-cross-reference-to-a-vendors-item-description"></a>To set up an item cross reference to a vendor's item description
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. Open the card for an item for which you want to create a cross reference to the item description that the vendor uses for that item.
 3. Choose the **Cross References** action.
 
@@ -37,7 +37,7 @@ The following procedures describe how to use item cross references on the purcha
 
 ## <a name="to-enter-a-vendors-item-description-on-a-purchase-order"></a>To enter a vendor's item description on a purchase order
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.
 2. Create a purchase order for the vendor that you set up an item cross reference for in the previous procedure.
 3. Create a purchase line for the item that you set up an item cross reference for in the previous procedure.
 4. In the **Cross-Reference No.** field, select the item cross reference that you have created, and then choose the **OK** button.

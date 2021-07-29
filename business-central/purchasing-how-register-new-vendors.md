@@ -1,6 +1,6 @@
 ---
-title: Create a Vendor Card to Register a New Vendor | Microsoft Docs
-description: Learn how to create a vendor card to register a new vendor or supplier.
+title: Create a Vendor Card to Register a New Vendor
+description: In this topic learn how to create a vendor card to register a new vendor or supplier and save vendor cards as a template.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: f1028b91101f8faa38d4d4d5d2695ee498ff6d2e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2d4943415af6f5cd91ac35c68a9d8433e024b6be
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772695"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445393"
 ---
 # <a name="register-new-vendors"></a>Register New Vendors
 
@@ -40,7 +40,7 @@ To register a new vendor, you must fill in a vendor card. You can establish temp
 
 ### <a name="to-create-a-new-vendor-card"></a>To create a new vendor card
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.  
 2. On the **Vendors** page, Choose **New**.
 
     If more than one vendor template exists, then a page opens from which you can select a vendor template. In that case, follow the next two steps.

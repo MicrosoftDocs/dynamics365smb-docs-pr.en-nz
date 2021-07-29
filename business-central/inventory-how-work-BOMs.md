@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3489ef57da691e408553b1703c4deab17622167f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2f23357fde2dc86e0be0ee09099d57623056365c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785639"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444936"
 ---
 # <a name="work-with-bills-of-material"></a>Work with Bills of Material
 You use bills of materials (BOMs) to structure parent items that must be assembled or produced by resources or machine centres from components. An assembly BOM can also be used to sell a parent item as a kit consisting of its components.
@@ -56,14 +56,14 @@ There are two parts to creating an assembly BOM:
 ## <a name="to-edit-assembly-boms"></a>To edit assembly BOMs
 You can edit the lines on an assembly BOM at any time. But be aware that the BOM may be in use on ongoing sales or assemblies of the parent, which may be affected by the change. Choose the **Where-Used** action to see in which items it is being used and then whether sales or assembly orders may be affected.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. Choose the **Yes** value in the **Assembly BOM** column.
 3. On the **Assembly BOM** page, choose the **Edit List** action, and then change any field as needed.
 
 ## <a name="to-view-components-and-resources-indented-according-to-the-bom-structure"></a>To view components and resources indented according to the BOM structure
 From the **Assembly BOM** page, you can open a separate page that shows the components and any resources indented according to their BOM position under the assembly item.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. Open the card for an assembly item. (The **Assembly BOM** field on the **Items** page contains **Yes**.)
 3. On the **Item Card** page, choose the **Assembly** action, and then choose the **Assembly BOM** action.
 4. On the **Assembly BOM** page, choose the **Show BOM** action.
@@ -78,7 +78,7 @@ The Explode BOM function is also available on the **Assembly BOM** page as a met
 
 The following procedure is based on a sales invoice. The same steps apply to other sales documents and to all purchase documents.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.
 2. Open a sales invoice that contains a line for an assembly item.
 3. Choose the line for an assembly item, and then **Explode BOM** line action.
 

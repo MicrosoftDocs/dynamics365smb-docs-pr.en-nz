@@ -1,6 +1,6 @@
 ---
-title: Add Attachments, Links, and Notes on Records| Microsoft Docs
-description: Attach a hyperlink to a document or website to a specific record, such as a customer or document.
+title: Add Attachments, Links, and Notes on Records
+description: Attach a hyperlink to a document, or a website to a specific record, such as a customer or document.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 3acc0113cb14170b84363ab40a803da8b7551c75
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: eb03f2cd47624e753766f0363e037ee793f8f777
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771151"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444784"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Manage Attachments, Links, and Notes on Cards and Documents
 
@@ -38,7 +38,7 @@ You can attach any type of file, containing text, image, or video, to a card or 
 
 The following procedure is based on a purchase invoice. The steps are similar for all other supported documents and cards.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.
 2. Open the sales order that you want to attach a file to.
 3. In the FactBox, open the **Attachments** tab.
 4. Choose the value behind the **Documents** field, such as "0".
@@ -58,7 +58,7 @@ Whenever you need to save a document as a file, you can use the **Attach as PDF*
 
 The following procedure is based on a sales order. The steps are similar for all supported documents.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
 2. Select a sales order, and then choose the **Attach as PDF** action.
 
 A PDF file with the current content of the sales order is added to the **Attachments** tab in the FactBox.
@@ -68,7 +68,7 @@ You can add a link from a card or document to any URL or path. This is useful, f
 
 The following procedure is based on an item card. The steps are similar for all other supported cards and documents.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. Select the item that you want to add a link from, and then choose the **Attachments** tab in the FactBox.
 3. In the **Links**, choose the **+** icon.
 4. In the **Link Address** field, enter the link.
@@ -88,7 +88,7 @@ You can write a note on a document or card, for example, to communicate special 
 
 The following procedure is based on a sales order. The steps are similar for all other supported documents and cards.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
 2. Select the sales order that you want to write a note on, and then choose the **Attachments** tab in the FactBox.
 3. In the **Notes** section, choose the **+** icon.
 4. In the **Note** field, write any text, such as "This is an urgent order.".
