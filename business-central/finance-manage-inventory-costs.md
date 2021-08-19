@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: a0b466979f749e2d42afac06899a9c079f23ff56
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 561401c985fc0e2f25c4f6e719252d19e76e7fe8
+ms.sourcegitcommit: 769d20d299155cba30c35636d02b2ef021e4ecc1
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321903"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "6688381"
 ---
 # <a name="managing-inventory-costs"></a>Managing Inventory Costs
 Cost management, also referred to as “costing”, is concerned with recording and reporting business operating costs. It includes the reporting of manufacturing costs and inventory costs, that is, the value of items.   
@@ -37,7 +37,8 @@ The following table describes a sequence of tasks, with links to the topics that
 |Use special costing functions for every-day item transactions in the item operations.|[Handling Inventory and Manufacturing Costs](finance-handle-inventory-and-manufacturing-costs.md)|  
 |Periodically update the standard costs of components, in assembly or production BOMs, and roll the new costs up to the parent item.|[Update Standard Costs](finance-how-to-update-standard-costs.md)|
 |View and manually change certain item application entries that are created automatically during inventory transactions.|[Remove and Reapply Item Ledger Entries](finance-how-to-remove-and-reapply-item-entries.md)|
-|Perform period-end control and reporting tasks, such calculate the value of inventory and post costs to the general ledger.|[Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|
+|Perform period-end control and reporting tasks, such as calculate the value of inventory and post costs to the general ledger.|[Reporting Costs and Reconciling with the General Ledger](finance-report-costs-and-reconcile-with-the-general-ledger.md)|
+|Learn how you can use the job queue to move the tasks for adjusting inventory cost or reconciling it with the general ledger to the background.|[Adjust and Reconcile Inventory Cost with General Ledger with Job Queue](finance-manage-inventory-costs.md)|
 
 ## <a name="see-also"></a>See Also  
  [Finance](finance.md)  

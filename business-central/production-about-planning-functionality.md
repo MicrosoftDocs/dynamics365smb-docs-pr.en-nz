@@ -1,6 +1,6 @@
 ---
-title: About Planning Functionality | Microsoft Docs
-description: The planning system takes all demand and supply data into account, nets the results, and creates suggestions for balancing the supply to meet the demand.
+title: About Planning Functionality
+description: The planning system in Dynamics 365 Business Central takes all demand and supply data into account, nets the results, and creates suggestions for balancing the supply to meet the demand.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 07/16/2021
 ms.author: edupont
-ms.openlocfilehash: dc3ef67f2f7578d81878b24662b97e47bc87a327
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e06bf94575c55d6e26fbe62c0b6cff06dd4fac70
+ms.sourcegitcommit: acc1871afa889cb699e65b1b318028c05f8e6444
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782054"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "6636032"
 ---
 # <a name="about-planning-functionality"></a>About Planning Functionality
 
@@ -37,9 +37,12 @@ Another goal of the planning system is to ensure that the inventory does not gro
 
 ## <a name="planning-calculation"></a>Planning Calculation
 
-The planning system is driven by anticipated and actual customer demand, as well as inventory reordering parameters. Running the planning calculation will result in application suggesting specific actions (Action Messages) to take concerning possible replenishment from vendors, transfers between warehouses, or production. If replenishment orders already exist, the suggested actions could be to increase or expedite the orders to meet the changes in demand.  
+The planning system is driven by anticipated and actual customer demand, as well as inventory reordering parameters. Running the planning calculation will result in application suggesting specific actions ([Action Messages](production-how-to-run-mps-and-mrp.md#action-messages)) to take concerning possible replenishment from vendors, transfers between warehouses, or production. If replenishment orders already exist, the suggested actions could be to increase or expedite the orders to meet the changes in demand.  
 
 The basis of the planning routine is in the gross-to-net calculation. Net requirements drive planned order releases, which are scheduled based on the routing information (manufactured items) or the item card lead time (purchased items). Planned order release quantities are based on the planning calculation, and are affected by the parameters set on the individual item cards.  
+
+> [!TIP]
+> The planning system relies on how your organisation uses locations. For more information, see [Planning With or Without Locations](production-planning-with-without-locations.md).
 
 ## <a name="planning-with-manual-transfer-orders"></a>Planning with Manual Transfer Orders
 
