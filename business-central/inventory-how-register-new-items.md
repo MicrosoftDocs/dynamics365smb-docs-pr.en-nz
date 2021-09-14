@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 06/16/2021
+ms.search.keywords: item, finished good, component, raw material, assembly item, item substitution
+ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: 2195940a65ffa6cfe904e09028846991f68dfb6f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a3ef2fee2b6a2c868fa4085d08bf76bb02b96b49
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435659"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440458"
 ---
 # <a name="register-new-items"></a>Register New Items
 
@@ -85,6 +85,23 @@ If you purchase the same item from more than one vendor, you must enter informat
 6. Repeat steps 2 through 5 for each vendor that you want to buy the item from.
 
 The vendors will now appear on the **Item Vendor Catalogue** page, which you open from the item card, so that you can easily select an alternate vendor.
+
+## <a name="set-up-item-substitutions"></a>Set up item substitutions
+
+You can set up items to have substitutes, such as other items that can be used in place of the original item.
+
+### <a name="to-make-an-item-substitution"></a>To make an item substitution
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
+2. Find the relevant item, and then click on the **Item No.** to open the Item Card.  
+3. Choose the **Related** action, then choose **Item**, and then **Substitutions** to open the the Item Substitution Entry page.  
+4. Choose the **Substitute No.** field, and then select the replacement item from the list.
+5. Proceed to fill in or change other fields on the page as necessary.
+
+When the quantity requested, such as on a sales line, exceeds the quantity that is available in inventory, then a message appears to inform you that substitute items exist.
+
+> [!NOTE]  
+> Be aware that item substitutions will not automatically cause an item to be replaced by another item, for example when creating a sales order or in a BOM. Instead, you will be alerted to the fact that a substitution is available to you.
 
 ## <a name="categories-attributes-and-variants"></a>Categories, attributes, and variants
 

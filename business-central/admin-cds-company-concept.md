@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: CDS, , integration, sync
+ms.search.keywords: CDS, Dataverse, integration, sync
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: abeab28a87c395328accfd850a0753649515f8dc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a99ddb6153c65ab16be53b7027833de14dc4884d
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773352"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482211"
 ---
 # <a name="data-ownership-models"></a>Data Ownership Models
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -39,11 +39,11 @@ The following image shows an example of this data setup in [!INCLUDE[prod_short]
 
 ![The root business unit is on top, the teams are in the centre, and then the companies are at the bottom.](media/cds_bu_team_company.png)
 
-In this configuration, records that are related to the Cronus US company will be owned by a team that is linked to the Cronus US <ID> business unit in [!INCLUDE[prod_short](includes/cds_long_md.md)]. Users who can access that business unit through a security role that is set to business unit–level visibility in [!INCLUDE[prod_short](includes/cds_long_md.md)] can now see those records. The following example shows how to use teams to provide access to those records.
+In this configuration, records that are related to the Cronus US company will be owned by a team that is linked to the Cronus US business unit in [!INCLUDE[prod_short](includes/cds_long_md.md)]. Users who can access that business unit through a security role that is set to business unit–level visibility in [!INCLUDE[prod_short](includes/cds_long_md.md)] can now see those records. The following example shows how to use teams to provide access to those records.
 
 * The Sales Manager role is assigned to members of the Cronus US Sales team.
 * Users who have the Sales Manager role can access account records for members of the same business unit.
-* The Cronus US Sales team is linked to the Cronus US business unit that was mentioned earlier. Members of the Cronus US Sales team can see any account that is owned by the Cronus US <ID> user, which would have come from the Cronus US company table in [!INCLUDE[prod_short](includes/prod_short.md)].
+* The Cronus US Sales team is linked to the Cronus US business unit that was mentioned earlier. Members of the Cronus US Sales team can see any account that is owned by the Cronus US user, which would have come from the Cronus US company table in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 However, the 1:1 mapping between business unit, company, and team is just a starting point, as shown in the following image.
 
@@ -51,7 +51,7 @@ However, the 1:1 mapping between business unit, company, and team is just a star
 
 In this example, a new EUR (Europe) root business unit is created in [!INCLUDE[prod_short](includes/cds_long_md.md)] as the parent for both Cronus DE (Gernamy) and Cronus ES (Spain). The EUR business unit is not related to synchronisation. However, it can give members of the EUR Sales team access to account data in both Cronus DE and Cronus ES by setting the data visibility to **Parent/Child BU** on the associated security role in [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-Synchronisation determines which team should own records. This is controlled by the **Default owning team** field on the BCI - <ID> row. When a BCI - <ID> record is enabled for synchronisation we automatically create the associated business unit and owner team (if it doesn't already exist), and set the **Default owning team** field. When synchronisation is enabled for an table, administrators can change the owning team, but a team must always be assigned.
+Synchronisation determines which team should own records. This is controlled by the **Default owning team** field on the BCI row. When a BCI record is enabled for synchronisation we automatically create the associated business unit and owner team (if it doesn't already exist), and set the **Default owning team** field. When synchronisation is enabled for an table, administrators can change the owning team, but a team must always be assigned.
 
 > [!NOTE]
 > Records become read-only after a company is added and saved, so be sure to choose the correct company.
