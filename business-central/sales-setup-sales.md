@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: trade, sell, configure
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d2b94d03ef8aeb75e9f1300ee90cbc08c22e339c
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: ab745b2f0cc98081bfb9640ca9fc2a2161b62ad2
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6318600"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588667"
 ---
 # <a name="setting-up-sales"></a>Setting Up Sales
 Before you can manage sales processes, you must configure the rules and values that define the company's sales policies.
 
-You must define the general setup, such as which sales documents are required and how their values are posted. This general setup is typically performed once during the initial implementation.
+You must define the general setup on the **Sales & Receivables** page, such as which sales documents are required, how their values are posted, and the type of lines to create by default. This general setup is typically performed once during the initial implementation.
 
-A separate series of tasks related to registering new customers is to record any special price or discount agreements that you have with each customer.
+A separate series of tasks related to registering new customers is to record any special price or discount agreements that you have with each customer. For more information, see [Record Special Sales Prices and Discounts](sales-how-record-sales-price-discount-payment-agreements.md).
 
 Finance-related sales setup, such as payment methods and currencies, are covered in the Finance Setup section. For more information, see [Setting Up Finance](finance-setup-finance.md).
 
@@ -34,7 +34,7 @@ Finance-related sales setup, such as payment methods and currencies, are covered
 | Set up salespeople so that you can assign them to customer contacts or measure salespeople's performance as a basis for calculating the sales commission or bonus. |[Set Up Salespeople](sales-how-setup-salespeople.md) |
 | Specify for individual customers or for all customers how sales documents are sent by default when you choose the **Post and Send** action. |[Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md) |
 | Set your email up to contain a summary of information in the sales document that is being sent. |[Send Documents by Email](ui-how-send-documents-email.md). |
-|Use an EU web service to verify a customer's VAT registration number.|[Verify VAT Registration Numbers](finance-setup-vat.md)|
+|Use an EU web service to verify a customer's VAT registration number.|[Verify IRD Numbers](finance-setup-vat.md)|
 |Define the different incoterms that you offer to customers or that your vendors offer you.|[Set Up Shipment Methods](sales-how-set-up-shipment-methods.md)|
 |Enter information about the different transportation vendors you use, including a link to their package tracking service.|[Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md)|
 |Specify default reports to be used for different document types.|[Report Selection in Business Central](across-report-selections.md)|

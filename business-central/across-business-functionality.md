@@ -10,17 +10,18 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c24e6142780fa5935576320a0d5edf683caf0a9f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8b60f8df6d40ceaf6c2c62397cb4d21f848d9aee
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776288"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588367"
 ---
 # <a name="business-functionality"></a>Business Functionality
+
 [!INCLUDE[prod_short](includes/prod_short.md)] provides functionality for common business processes in small and mid-sized companies, mainly within wholesale and professional services. However, more complex processes, such as assembly, manufacturing, service, and directed warehouse management are also supported.
 
-[!INCLUDE[prod_short](includes/prod_short.md)] includes standard configurations for most business processes, but you can change the configuration to suit your business' needs. From your Role Centre, you can access assisted setup guides that help you configure certain scenarios and add features to [!INCLUDE[prod_short](includes/prod_short.md)]. Several areas of business functionality must be set up manually. For more information, see [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] includes standard configurations for most business processes, but you can change the configuration to suit your business' needs. From your Role Centre, you can access assisted setup guides that help you configure certain scenarios and add features to [!INCLUDE[prod_short](includes/prod_short.md)]. Several areas of business functionality must be set up manually. The [Business Central quick start](quick-start-business-central.md) articles can help you take the first steps into making [!INCLUDE [prod_short](includes/prod_short.md)] your own. For more information, see [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
 
 | To | See |
 | --- | --- |

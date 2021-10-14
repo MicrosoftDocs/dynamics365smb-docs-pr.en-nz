@@ -1,7 +1,6 @@
 ---
 title: Managing Inventory
 description: This topic describes how to manage the physical products that you trade in by creating an Inventory item card.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -11,14 +10,15 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 022d48ad3069729736794976301db7fe2c6a6b47
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: 9290d61245eec3331be315adf00e3e71a7fb5e97
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482288"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587906"
 ---
-# <a name="how-to-manage-inventory"></a>How to Manage Inventory
+# <a name="manage-inventory"></a>Manage Inventory
+
 For each physical product that you trade in, you must create an item card of type **Inventory**. Items that you offer to customers but do not keep in inventory you can register as catalogue items, which you can convert to inventory items when necessary. You can increase or decrease the quantity of an item in inventory by posting directly to the item ledger entries, for example, after a physical count or if you do not record purchases.
 
 Inventory increases and decreases are naturally also recorded when you post purchase and sales documents respectively. For more information, see [Record Purchases](purchasing-how-record-purchases.md), [Sell Products](sales-how-sell-products.md), and [Invoice Sales](sales-how-invoice-sales.md). Transfers between locations changes inventory quantities across your company's warehouses.   
@@ -54,7 +54,7 @@ The following table outlines related tasks.
 |Set up item tracking so that you can track items serial numbers, for example to track items in case of recalls.|[Set Up Item Tracking with Serial, Lot, and Package Numbers](inventory-how-setup-item-tracking.md)|
 |Assign serial numbers or lot numbers to any outbound or inbound document or journal line.|[Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)|
 |Find where any serial or lot number was used in its supply chain, for example in recall situations.|[Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)|
-|Set up a vendor's or customer's own item description on your item card so that you can quickly insert their item description on trade documents.|[Use Item Cross-References](inventory-how-use-item-cross-refs.md)|
+|Set up a vendor's or customer's own item description on your item card so that you can quickly insert their item description on trade documents.|[Use Item References](inventory-how-use-item-cross-refs.md)|
 |Block items from being entered on sales or purchase lines or from being posted in any transaction.|[Block Items](inventory-how-block-items.md)|
 |Manage business operations in sales offices, a purchasing departments, or plant planning offices across multiple locations.|[Work with Responsibility Centres](inventory-responsibility-centers.md)|
 |Use resources with specific skills for various services and service items.|[Set Up Resource Allocation](service-how-setup-resource-allocation.md)|
