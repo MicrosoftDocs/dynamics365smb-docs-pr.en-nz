@@ -61,27 +61,27 @@ The following table describes the standard payment application rules in [!INCLUD
 |------------------|----------|-----------------------|--------------------------------|--------------------------------|
 | High             | 1        | Fully                 | Yes - Multiple                 | One Match                      |
 | High             | 2        | Fully                 | Yes - Multiple                 | Multiple Matches               |
-| High             | 2A-2B GST Net Amt. (3)        | Fully                 | Yes                            | One Match                      |
-| High             | Total Amounts Withheld From All Payments (4)        | Fully                 | Yes                            | Multiple Matches               |
+| High             | 3        | Fully                 | Yes                            | One Match                      |
+| High             | 4        | Fully                 | Yes                            | Multiple Matches               |
 | High             | 5        | Partially             | Yes - Multiple                 | One Match                      |
 | High             | 6        | Partially             | Yes - Multiple                 | Multiple Matches               |
-| High             | Deferred Company Fund Installment (7)        | Partially             | Yes                            | One Match                      |
+| High             | 7        | Partially             | Yes                            | One Match                      |
 | High             | 8        | Fully                 | No                             | One Match                      |
 | High             | 9        | No                    | Yes - Multiple                 | One Match                      |
 | High             | 10       | No                    | Yes - Multiple                 | Multiple Matches               |
 | Medium           | 1        | Fully                 | Yes - Multiple                 | Not Considered                 |
 | Medium           | 2        | Fully                 | Yes                            | Not Considered                 |
-| Medium           | 2A-2B GST Net Amt. (3)        | Fully                 | No                             | Multiple Matches               |
-| Medium           | Total Amounts Withheld From All Payments (4)        | Partially             | Yes - Multiple                 | Not Considered                 |
+| Medium           | 3        | Fully                 | No                             | Multiple Matches               |
+| Medium           | 4        | Partially             | Yes - Multiple                 | Not Considered                 |
 | Medium           | 5        | Partially             | Yes                            | Not Considered                 |
 | Medium           | 6        | No                    | Yes                            | One Match                      |
-| Medium           | Deferred Company Fund Installment (7)        | No                    | Yes-Multiple                   | Not Considered                 |
+| Medium           | 7        | No                    | Yes-Multiple                   | Not Considered                 |
 | Medium           | 8        | Partially             | No                             | One Match                      |
 | Medium           | 9        | No                    | Yes                            | Not Considered                 |
 | Low              | 1        | Fully                 | No                             | No Matches                     |
 | Low              | 2        | Partially             | No                             | Multiple Matches               |
-| Low              | 2A-2B GST Net Amt. (3)        | Partially             | No                             | No Matches                     |
-| Low              | Total Amounts Withheld From All Payments (4)        | No                    | No                             | One Match                      |
+| Low              | 3        | Partially             | No                             | No Matches                     |
+| Low              | 4        | No                    | No                             | One Match                      |
 | Low              | 5        | No                    | No                             | Multiple Matches               |
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/reconciliation-journals-dynamics-365-business-central/index)

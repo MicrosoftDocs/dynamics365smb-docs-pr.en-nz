@@ -19,7 +19,7 @@ ms.locfileid: "6543238"
 
 It is important that the VAT registration numbers you have for customers, vendors, and contacts are valid, if you use [!INCLUDE [prod_short](includes/prod_short.md)] in a country that uses VAT. For example, companies sometimes change their tax liability status, and in some countries tax authorities might ask you to provide reports, such as the **EC Sales List** report, that list the VAT registration numbers you use when you do business.
 
-The European Commission provides the VIES VAT Number Validation service on its website, which is public and free. [!INCLUDE [prod_short](includes/prod_short.md)] can save you a step and let you use the VIES service to validate and track GST numbers and other company information for customers, vendors, and contacts. The service in [!INCLUDE [prod_short](includes/prod_short.md)] is named **EU VAT Reg. No. Validation Service**. The service is available on the **Service Connections** page, and you can start using it right away. The service connection is free, and additional sign up is not required.
+The European Commission provides the VIES VAT Number Validation service on its website, which is public and free. [!INCLUDE [prod_short](includes/prod_short.md)] can save you a step and let you use the VIES service to validate and track VAT numbers and other company information for customers, vendors, and contacts. The service in [!INCLUDE [prod_short](includes/prod_short.md)] is named **EU VAT Reg. No. Validation Service**. The service is available on the **Service Connections** page, and you can start using it right away. The service connection is free, and additional sign up is not required.
 
 ## <a name="configure-the-service-to-verify-vat-registration-numbers-automatically"></a>Configure the service to verify VAT registration numbers automatically
 
@@ -28,9 +28,9 @@ To enable the **EU VAT Reg. No. Validation Service**, open the entry in the **Se
 > [!IMPORTANT]
 > To enable the validation service, you must have administrator permissions.
 
-Optionally, set up templates for the types of GST-related data that you want the service to also check. For more information, see the [Validation templates](#validation-templates) section.
+Optionally, set up templates for the types of VAT-related data that you want the service to also check. For more information, see the [Validation templates](#validation-templates) section.
 
-When you use our service connection, we record a history of VAT numbers and verifications for each customer, vendor, or contact, in the **VAT Registration Log**, so you can easily track them. The log is specific to each customer. For example, the log is useful for proving that you have verified that the current GST number is correct. When you verify a VAT number, the **Request Identifier** column in the log will reflect that you have taken action.
+When you use our service connection, we record a history of VAT numbers and verifications for each customer, vendor, or contact, in the **VAT Registration Log**, so you can easily track them. The log is specific to each customer. For example, the log is useful for proving that you have verified that the current VAT number is correct. When you verify a VAT number, the **Request Identifier** column in the log will reflect that you have taken action.
 
 You can view the VAT Registration log on the Customer, Vendor, or Contact cards, on the **Invoicing** FastTab, by choosing the lookup button in the **VAT Registration No.** field.  
 

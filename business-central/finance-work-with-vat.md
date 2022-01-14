@@ -54,7 +54,7 @@ You can make corrections to posted GST entries. This allows you to change the to
 
 Although you may have set up one or more combinations to handle import GST, you must set up at least one GST product posting group. For example, you can name it **CORRECT** for correction purposes, unless you can use the same general ledger account in the **Purchase GST Account** field on the GST posting setup line. For more information, see [Setting Up to Calculations and Posting Methods for Goods and Services Tax](finance-setup-vat.md).
 
-If a payment discount has been calculated on the basis of an invoice amount that includes GST, you revert the payment discount part of the GST amount when the payment discount is granted. Note that you must activate the **Adjust for Payments Disc.** field in both the general ledger setup in general and the VAT posting setup for specific combinations of a VAT business posting group and a VAT product posting group.  
+If a payment discount has been calculated on the basis of an invoice amount that includes GST, you revert the payment discount part of the GST amount when the payment discount is granted. Note that you must activate the **Adjust for Payments Disc.** field in both the general ledger setup in general and the GST posting setup for specific combinations of a GST business posting group and a GST product posting group.  
 
 ### <a name="to-set-the-system-up-for-manual-vat-entry-in-sales-documents"></a>To set the system up for manual GST entry in sales documents
 The following describes how to enable manual GST changes on sales documents. The steps are similar on the **Purchases & Payables Setup** page.

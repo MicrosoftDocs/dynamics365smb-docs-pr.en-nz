@@ -25,7 +25,7 @@ The following sections take you to guides for beginners that help you get famili
 
 ## <a name="provide-basic-information-about-your-company"></a>Provide basic information about your company
 
-The first step is to provide the basic information about your company. This includes information such as address, bank accounts, VAT number, and so on. This is explained in the [Company Information Quick Start](quick-start-company-information.md) article.
+The first step is to provide the basic information about your company. This includes information such as address, bank accounts, GST number, and so on. This is explained in the [Company Information Quick Start](quick-start-company-information.md) article.
 
 <!--
 ## Financial Basics

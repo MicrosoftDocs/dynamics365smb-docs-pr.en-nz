@@ -29,7 +29,7 @@ The **Report Selections** pages specify which report will be printed in differen
 |Example of how report selection works (Sales)|[Report selection for sales documents](#example-report-selection-for-sales-documents)|
 |Default layout for emails with sales and purchase documents  |[Set Up Reusable Email Texts and Layouts for Sales and Purchase Documents](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents) |
 |Define cheque layouts     |[Select a Cheque Layout](finance-how-define-check-layouts.md) |
-|Define reports for GST reporting (Germany)|[Set Up Reports for GST and Intrastat](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md) |
+|Define reports for VAT reporting (Germany)|[Set Up Reports for VAT and Intrastat](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md) |
 
 > [!TIP]
 > Your [!INCLUDE [prod_short](includes/prod_short.md)] can include additional **Report Selection** pages, depending on your location and industry, for example. You can always check your setup by choosing the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, entering **Report Selections**, and then choose the relevant link.
@@ -64,7 +64,7 @@ For example, in the **Report Selection - Sales** and **Report Selection - Purcha
 
 [Set Up Reusable Email Texts and Layouts for Sales and Purchase Documents](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents)  
 [Select a Cheque Layout](finance-how-define-check-layouts.md)  
-[Set Up Reports for GST and Intrastat (Germany)](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md)  
+[Set Up Reports for VAT and Intrastat (Germany)](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md)  
 [Managing Report and Document Layouts](ui-manage-report-layouts.md)  
 [Define Document Layouts for Customers and Vendors](ui-define-customer-vendor-document-layouts.md)  
 [Set Up Printers](ui-specify-printer-selection-reports.md)  

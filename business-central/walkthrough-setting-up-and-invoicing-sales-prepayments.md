@@ -142,7 +142,7 @@ Susan creates the prepayment invoice and sends it to the customer.
 
     For more information, see [Set Up Prepayments](finance-set-up-prepayments.md).  
 7. In the **Order** action, choose  **Statistics**.  
-8. On the **Prepayment** FastTab, the **Prepayment Amount Excl. VAT** field contains **458.16**. If you create a prepayment invoice for the order now, then this is the amount that is displayed on the invoice.  
+8. On the **Prepayment** FastTab, the **Prepayment Amount Excl. GST** field contains **458.16**. If you create a prepayment invoice for the order now, then this is the amount that is displayed on the invoice.  
 
     In this scenario, Susan has been instructed to suggest a total prepayment of **800** for the order.  
 
@@ -179,7 +179,7 @@ The following day, the customer calls Susan and makes changes to the order. The 
 1. On the **Sales Order** page, choose the **Release** action, and then **Reopen**.  
 2. On the line for item **1896-S**, in the **Quantity** field, enter **2**.  
 
-    In the **Order** action, choose **Statistics**. The **Prepayment Amount Excl. VAT** field now contains **768.04**, and the **Prepmt. Amt. Inv. Excl. VAT** field contains **417.76**. This shows that there is an additional prepayment amount that has not been invoiced yet.  
+    In the **Order** action, choose **Statistics**. The **Prepayment Amount Excl. GST** field now contains **768.04**, and the **Prepmt. Amt. Inv. Excl. GST** field contains **417.76**. This shows that there is an additional prepayment amount that has not been invoiced yet.  
 3. To post an invoice for the additional prepayment amount, choose **Actions**, then **Posting**, then **Prepayment** and then select **Post and Print Prepayment Invoice**
 4. Choose the **Yes** button to post the invoice.  
 

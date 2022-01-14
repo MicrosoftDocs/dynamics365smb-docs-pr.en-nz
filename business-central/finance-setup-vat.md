@@ -45,14 +45,14 @@ To start the assisted setup guide, follow these steps:
 2. Choose **Set up GST** and complete the steps.
 3. When you have completed the assisted setup, visit the **GST Posting Setup** page and check if you have to fill in more fields according to the local requirements in your version of [!INCLUDE [prod_short](includes/prod_short.md)]. For more information, see [Local functionality in Business Central](about-localization.md)  
 
-## <a name="set-up-vat-registration-numbers-for-your-country-or-region"></a>Set up IRD numbers for your country or region
+## <a name="set-up-vat-registration-numbers-for-your-country-or-region"></a>Set up GST registration numbers for your country or region
 
-To help ensure that people enter valid VAT registration numbers, you can define formats for the VAT registration numbers that are used in the countries or regions in which you do business. [!INCLUDE[prod_short](includes/prod_short.md)] will display an error message when someone makes a mistake or uses a format that is incorrect for the country or region.
+To help ensure that people enter valid GST registration numbers, you can define formats for the GST registration numbers that are used in the countries or regions in which you do business. [!INCLUDE[prod_short](includes/prod_short.md)] will display an error message when someone makes a mistake or uses a format that is incorrect for the country or region.
 
-To set up VAT registration numbers, follow these steps:
+To set up GST registration numbers, follow these steps:
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Countries/Regions**.
-2. Choose the country or region, and then choose the **VAT Reg. No. Formats** action.
+2. Choose the country or region, and then choose the **GST Reg. No. Formats** action.
 3. In the **Formats** field, define the format by entering one or more of the following characters:  
 
 * **#** Requires a single-digit number.  
@@ -64,16 +64,16 @@ To set up VAT registration numbers, follow these steps:
 
 ## <a name="set-up-vat-business-posting-groups"></a>Set up GST business posting groups
 
-VAT business posting groups should represent the markets in which you do business with customers and vendors, and define how to calculate and post VAT in each market. Examples of VAT business posting groups are **Domestic** and **European Union (EU)**.  
+GST business posting groups should represent the markets in which you do business with customers and vendors, and define how to calculate and post GST in each market. Examples of GST business posting groups are **Domestic** and **European Union (EU)**.  
 
 Use codes that are easy to remember and describe the business posting group, such as **EU**, **Non-EU**, or **Domestic**. The code must be unique. You can set up as many codes as you need, but you cannot have the same code more than once in a table.
 
 To set up a GST business posting group, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Business Posting Group**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **GST Business Posting Group**, and then choose the related link.  
 2. Fill in the fields as necessary.
 
-You set up default GST business posting groups by linking them to general business posting groups. [!INCLUDE[prod_short](includes/prod_short.md)] automatically assigns the VAT business posting group when you assign the business posting group to a customer, vendor, or general ledger account.
+You set up default GST business posting groups by linking them to general business posting groups. [!INCLUDE[prod_short](includes/prod_short.md)] automatically assigns the GST business posting group when you assign the business posting group to a customer, vendor, or general ledger account.
 
 ## <a name="set-up-vat-product-posting-groups"></a>Set up GST product posting groups
 
@@ -82,12 +82,12 @@ It is a good idea to use codes that are easy to remember and describe the rate, 
 
 To set up a GST business posting group, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Product Posting Groups**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **GST Product Posting Groups**, and then choose the related link.  
 2. Fill in the fields as necessary.
 
 ## <a name="combine-vat-posting-groups-in-vat-posting-setups"></a>Combine GST posting groups in GST posting setups
 
-[!INCLUDE[prod_short](includes/prod_short.md)] calculates VAT amounts on sales and purchases based on VAT posting setups, which are combinations of VAT business and product posting groups. For each combination, you can specify the GST percent, GST calculation type, and general ledger accounts for posting GST for sales, purchases, and reverse charges. You can also specify whether to recalculate GST when a payment discount is applied or received.  
+[!INCLUDE[prod_short](includes/prod_short.md)] calculates GST amounts on sales and purchases based on VAT posting setups, which are combinations of GST business and product posting groups. For each combination, you can specify the GST percent, GST calculation type, and general ledger accounts for posting GST for sales, purchases, and reverse charges. You can also specify whether to recalculate GST when a payment discount is applied or received.  
 
 Set up as many combinations as you need. If you want to group GST posting setup combinations with similar attributes, you can define a **GST Identifier** for each group, and assign the identifier to the group members.
 
@@ -127,7 +127,7 @@ The following sections describe how to assign GST posting groups to individual e
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item** or **Resource**, and then choose the related link.  
 2. Do one of the following:  
 
-    * On the **Item** card, expand the **Price & Posting** FastTab, and then choose **Show more** to display the **VAT Product Posting Group** field.  
+    * On the **Item** card, expand the **Price & Posting** FastTab, and then choose **Show more** to display the **GST Product Posting Group** field.  
     * On the **Resource** card, expand the **Invoicing** FastTab.  
 3. Choose the GST product posting group.  
 
@@ -170,22 +170,22 @@ You use the *Import GST* feature when you need to post a document where the enti
 
 To set up codes for import GST, follow these steps:  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Product Posting Groups**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **GST Product Posting Groups**, and then choose the related link.  
 2. On the GST Product Posting Groups page, set up a new GST product posting group for import GST.  
 3. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **GST Posting Setup**, and then choose the related link.  
 4. On the GST Posting Setup page, create a new line, or use an existing GST business posting groups in combination with the new GST product posting group for import GST.  
 5. In the **GST Calculation Type** field, choose **Full GST**.  
 6. In the **Purchase GST Account** field, enter the general ledger account to use for posting import GST. All other accounts are optional.  
 
-## <a name="use-reverse-charge-vat-for-trade-between-eu-countries-or-regions"></a>Use Reverse Charge GST for Trade between EU Countries or Regions
+## <a name="use-reverse-charge-vat-for-trade-between-eu-countries-or-regions"></a>Use Reverse Charge VAT for Trade between EU Countries or Regions
 
-Some companies must use reverse charge GST when trading with other companies. For example this rule applies to purchases from EU countries/regions and sales to EU countries/regions.  
+Some companies must use reverse charge VAT when trading with other companies. For example this rule applies to purchases from EU countries/regions and sales to EU countries/regions.  
 
 > [!NOTE]  
-> This rule applies when trading with companies that are registered as GST liable in another EU country/region. If you do business directly with consumers in other EU countries/regions, then you should contact your tax authority for applicable GST rules.  
+> This rule applies when trading with companies that are registered as VAT liable in another EU country/region. If you do business directly with consumers in other EU countries/regions, then you should contact your tax authority for applicable GST rules.  
 
 > [!TIP]  
-> You can verify that a company is registered as VAT liable in another EU country by using the EU VAT Registration Number Validation service. The service is available for free in [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Verify IRD numbers](finance-how-validate-vat-registration-number.md).
+> You can verify that a company is registered as VAT liable in another EU country by using the EU VAT Registration Number Validation service. The service is available for free in [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Verify VAT registration numbers](finance-how-validate-vat-registration-number.md).
 
 ### <a name="sales-to-eu-countries-or-regions"></a>Sales to EU Countries or Regions
 

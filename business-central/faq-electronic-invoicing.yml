@@ -45,7 +45,7 @@ sections:
 
       - [CyanSYS Singapore Localisation for GST and PEPPOL (Singapore)](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.cyansyspteltd1583839297658%7CAID.cyansys-singapore-localisation-for-bc%7CPAPPID.e5de1cdc-5674-477f-8796-e1bd210af4aa?tab=Overview)
 
-      - [Deex - GST & E-Invoicing Localisation for Korea](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.deexkorea%7CAID.deex_korean_vat_localization%7CPAPPID.b6696d1f-9913-4006-97bc-86ae58f38ec1?tab=Overview)
+      - [Deex - VAT & E-Invoicing Localisation for Korea](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.deexkorea%7CAID.deex_korean_vat_localization%7CPAPPID.b6696d1f-9913-4006-97bc-86ae58f38ec1?tab=Overview)
 - name: B2G requirement in Germany
   questions:
   - question: What about the B2G requirement in Germany?

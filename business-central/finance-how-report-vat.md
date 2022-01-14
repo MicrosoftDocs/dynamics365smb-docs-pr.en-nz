@@ -28,7 +28,7 @@ You can use the following reports :
 If you want to view a complete history of GST entries, every posting that involves GST creates an entry on the **GST Entries** page. These entries are used to calculate your GST settlement amount, such as your payment and refund, for a specific period. To view GST entries, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **GST Entries**, and then choose the related link.
 
 > [!NOTE]
-> Each [!INCLUDE[prod_short](includes/prod_short.md)] environment is meant to handle regulatory reporting in one single country. For example, the Dutch version of [!INCLUDE[prod_short](includes/prod_short.md)] handles GST reporting in The Netherlands but not in other countries. Similarly, the United States version of [!INCLUDE[prod_short](includes/prod_short.md)] handles 1099 reporting in the United States and does not support claiming GST reporting in other countries, unless brought by an extension delivered by our partner ecosystem or a customer-specific code modification.
+> Each [!INCLUDE[prod_short](includes/prod_short.md)] environment is meant to handle regulatory reporting in one single country. For example, the Dutch version of [!INCLUDE[prod_short](includes/prod_short.md)] handles VAT reporting in The Netherlands but not in other countries. Similarly, the United States version of [!INCLUDE[prod_short](includes/prod_short.md)] handles 1099 reporting in the United States and does not support claiming VAT reporting in other countries, unless brought by an extension delivered by our partner ecosystem or a customer-specific code modification.
 
 ## <a name="about-the-ec-sales-list-report"></a>About the EC Sales List report
 In the UK, all companies that sell goods and services to VAT-registered customers, including customers in other European Union (EU) countries, must submit an electronic version of the European Community (EC) Sales List report in XML format through Her Majesty's Revenue and Customs (HMRC) website. The EC Sales List report works only for countries in the EU.
@@ -56,7 +56,7 @@ For the GST return, you can specify the entries to include:
 ## <a name="to-connect-to-your-tax-authoritys-web-service"></a>To connect to your tax authority's web service
 [!INCLUDE[prod_short](includes/prod_short.md)] provides service connections to tax authority websites. For example, if you are in the UK, you can enable the **GovTalk** service connection to submit the EC Sales List and VAT Return reports electronically. If you want to submit the report manually, for example by entering your data on the tax authority's website, this is not required.   
 
-To report VAT to a tax authority electronically, you need to connect [!INCLUDE[prod_short](includes/prod_short.md)] to the tax authority's web service. This requires that you set up an account with your tax authority. When you have an account, you can enable a service connection that we provide in [!INCLUDE[prod_short](includes/prod_short.md)].
+To report GST to a tax authority electronically, you need to connect [!INCLUDE[prod_short](includes/prod_short.md)] to the tax authority's web service. This requires that you set up an account with your tax authority. When you have an account, you can enable a service connection that we provide in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Connections**, and then choose appropriate link.
 2. Fill in the required fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -65,12 +65,12 @@ To report VAT to a tax authority electronically, you need to connect [!INCLUDE[p
     > It is a good idea to test your connection. To do this, choose the **Test Mode** check box, then prepare and submit your GST report as described in the _To prepare and submit a GST report_ section. While in Test Mode, the service tests whether the tax authority can receive your report, and the status of the report will indicate whether the test submission was successful. It is important to remember that this is not an actual submission. To submit the report for real, you must clear the **Test Mode** check box, and then repeat the submission process.
 
 ## <a name="to-set-up-vat-reports-in-prod_short"></a>To set up GST reports in [!INCLUDE[prod_short](includes/prod_short.md)]
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Report Setup**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **GST Report Setup**, and then choose the related link.  
 2. To let users change and resubmit this report, choose the **Modify Submitted Reports** check box.  
 3. Choose the number series to use for each report.  
 
 ## <a name="to-prepare-and-submit-a-vat-report"></a>To prepare and submit a GST report
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **EC Sales List** or **VAT Return**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **EC Sales List** or **GST Return**, and then choose the related link.  
 2. Choose **New**, and then fill in the required fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. To generate the content of the report, choose the **Suggest Lines** action.  
 
