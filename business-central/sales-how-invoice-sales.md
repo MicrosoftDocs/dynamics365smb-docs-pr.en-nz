@@ -1,22 +1,16 @@
 ---
 title: Invoice Sales
-description: Describes how to create a bill of sale, or a sales invoice or sales order, to record your agreement with a customer to sell products under specific terms.
+description: 'Describes how to create a bill of sale, or a sales invoice or sales order, to record your agreement with a customer to sell products under specific terms.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: bill, sale, invoice, order
-ms.search.form: 42, 43, 48, 9301, 9305
+ms.search.keywords: 'bill, sale, invoice, order'
+ms.search.form: '42, 43, 48, 9301, 9305'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 125d28f1621e23f14cda9ce57a935a7da71e43cb
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
-ms.translationtype: HT
-ms.contentlocale: en-NZ
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752506"
 ---
 # <a name="invoice-sales"></a>Invoice Sales
 
@@ -28,7 +22,7 @@ There are a couple of scenarios where you must use a sales order instead of a sa
 * If you ship products after you post the corresponding sales invoices.
 * If you sell items that your vendor delivers directly to your customer, known as drop shipment. For more information, see [Make Drop Shipments](sales-how-drop-shipment.md).  
 
-In all other aspects, sales orders and sales invoices work in the same way. For more information, see [Sell Products](sales-how-sell-products.md).
+In all other aspects, sales orders and sales invoices work in the same way. For more information about how to use sales orders, see [Sell Products](sales-how-sell-products.md).
 
 You can negotiate with the customer by first creating a sales quote, which you can convert to a sales invoice when you agree on the sale. For more information, see [Make Sales Quotes](sales-how-make-offers.md).
 

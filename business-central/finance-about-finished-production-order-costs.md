@@ -4,23 +4,20 @@ description: Finishing the production order is key to completing the costing lif
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.keywords: ''
+ms.search.form: 99000867
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 9168ea7644390446f4e7a2cd8950d483d43e1013
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
-ms.contentlocale: en-NZ
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6324065"
 ---
 # <a name="about-finished-production-order-costs"></a>About Finished Production Order Costs
+
 Finishing the production order is an important task in completing the costing lifecycle of the item that is being produced. Final costs, including variances in a standard cost environment, actuals in a FIFO, Average, or LIFO cost environment, are calculated using the **Adjust Cost - Item Entries** batch job, which allows for financial reconciliation of the costs of item production. For a production order to be considered for cost adjustment, the status must be **Finished**. It is therefore critical that upon completion, the status of a production order is changed to **Finished**.  
 
-## <a name="example"></a>Example  
- In a standard cost environment, when you consume material to produce an item, stated simply, the cost of the item plus labour and overhead go into WIP. When the item is produced, WIP is reduced by the amount of the standard cost of the item. Typically, these costs do not net to zero. So that these costs can net to zero, you must run the **Adjust Cost - Item Entries** batch job, noting that only production orders with the status of **Finished** will be considered for adjustment.  
+## <a name="example"></a>Example
 
-## <a name="see-also"></a>See Also  
+In a standard cost environment, when you consume material to produce an item, stated simply, the cost of the item plus labour and overhead go into WIP. When the item is produced, WIP is reduced by the amount of the standard cost of the item. Typically, these costs do not net to zero. So that these costs can net to zero, you must run the **Adjust Cost - Item Entries** batch job, noting that only production orders with the status of **Finished** will be considered for adjustment.  
+
+## <a name="see-also"></a>See Also
+
 [Managing Inventory Costs](finance-manage-inventory-costs.md)  
 [Manufacturing](production-manage-manufacturing.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
