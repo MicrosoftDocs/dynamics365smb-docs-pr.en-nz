@@ -1,24 +1,25 @@
 ---
-title: Inland Revenue Department Numbers and Adjustment Notes
-description: Learn about IRD numbers and adjustment notes and how they are supported in the New Zealand version of Business Central.
+title: New Zealand Inland Revenue Department Numbers and Adjustment Notes
+description: An IRD number is a single identifier for all business dealings with the tax office, and for dealings with other government departments and agencies.
+services: project-madeira
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 999600d1de2295fe76d4d34f948b78365349a893
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 38c9df06a4d685bac8e47305b225f53037c55ab8
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773469"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181049"
 ---
 # <a name="new-zealand-inland-revenue-department-numbers-and-adjustment-notes"></a>New Zealand Inland Revenue Department Numbers and Adjustment Notes
-
 A New Zealand Inland Revenue Department Number (IRD) is a single identifier for all business dealings with the tax office, and for dealings with other government departments and agencies.  
 
 IRDs and adjustment notes—or credit memos—are used to satisfy tax requirements.  
@@ -46,6 +47,3 @@ Because credit memos are used for adjustment notes, each credit memo should sati
 [Enter New Zealand IRD Numbers](how-to-enter-new-zealand-business-numbers.md)   
 [New Zealand Local Functionality](new-zealand-local-functionality.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

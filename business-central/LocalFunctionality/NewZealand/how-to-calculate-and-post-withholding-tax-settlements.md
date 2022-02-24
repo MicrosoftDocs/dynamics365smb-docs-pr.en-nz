@@ -1,39 +1,54 @@
 ---
-title: Calculate and Post Withholding Tax Settlements (NZ)
-description: Learn how to calculate and post the withholding tax (WHT) in the New Zealand version of Business Central.
+title: How to Calculate and Post Withholding Tax Settlements
+description: Describes how to calculate and post the withholding tax (WHT).
+services: project-madeira
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: ff12bb4124394fc6a484a18c1958891d59eeda60
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 656f0d5cba29542362b2f2092a9da83870bd808a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771377"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181065"
 ---
-# <a name="calculate-and-post-withholding-tax-settlements-in-the-new-zealand-version"></a>Calculate and Post Withholding Tax Settlements in the New Zealand Version
-
+# <a name="calculate-and-post-withholding-tax-settlements"></a>Calculate and Post Withholding Tax Settlements
 You can use the **Calc. and Post WHT Settlement** page to calculate and post the withholding tax (WHT). You can close WHT entries that are open or not settled and transfer the corresponding amount to the WHT settlement account.  
 
 The sum of all withheld amounts is reported as a truncated whole number to the New Zealand tax authorities.  
 
 > [!NOTE]  
-> The truncated cents are accounted for in a rounding account.  
+>  The truncated cents are accounted for in a rounding account.  
 
-[!INCLUDE [calculate-post-wht-settlements](../includes/AUNZ/calculate-post-wht-settlements.md)]
+## <a name="to-calculate-and-post-withholding-tax-settlements"></a>To calculate and post withholding tax settlements  
 
-## <a name="see-also"></a>See Also
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Calc. and Post WHT Settlement**, and then choose the related link.  
+2.  On the **Options** FastTab, fill in the fields as described in the following table.  
 
-[Withholding Tax](withholding-tax.md)   
-[Set Up Withholding Tax](how-to-set-up-withholding-tax.md)   
-[Set Up Revenue Types for Withholding Tax](how-to-set-up-revenue-types-for-withholding-tax.md)   
-[View Withholding Tax Entries](how-to-view-withholding-tax-entries.md)
+    |Field|Description|  
+    |---------------------------------|---------------------------------------|  
+    |**Starting Date**|The start date of the period for which WHT has to be settled.|  
+    |**Ending Date**|The end date of the period for which WHT has to be settled.|  
+    |**Posting Date**|The posting date of the WHT settlement entries.|  
+    |**Document No.**|The document number of the WHT settlement entries.|  
+    |**Description**|The WHT settlement description.|  
+    |**Settlement Account Type**|The settlement account type.|  
+    |**Settlement Account**|The account number based on the account type selected in the **Settlement Account Type** field.|  
+    |**Rounding G/L Account**|The account to which the truncated amount is to be posted.|  
+    |**Show WHT Entries**|Select to view the withholding tax entries for the specified period.|  
+    |**Post**|Select to post the WHT settlement entries.|  
 
+3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+## <a name="see-also"></a>See Also  
+ [Withholding Tax](withholding-tax.md)   
+ [Set Up Withholding Tax](how-to-set-up-withholding-tax.md)   
+ [Set Up Revenue Types for Withholding Tax](how-to-set-up-revenue-types-for-withholding-tax.md)   
+ [View Withholding Tax Entries](how-to-view-withholding-tax-entries.md)

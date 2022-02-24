@@ -3,20 +3,20 @@ title: New Zealand Local Functionality
 description: The following topics describe the local functionality in the New Zealand version of Business Central.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: New Zealand, local functionality
-ms.date: 04/01/2021
+ms.date: 06/09/2020
 ms.author: bholtorf
-ms.openlocfilehash: ebf181b0b17c9f9aaa9b07ef57e481a2c6d06202
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7122d9e6a8fd66d961ec4c0779d241b9c6a261d7
+ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774353"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454400"
 ---
 # <a name="new-zealand-local-functionality"></a>New Zealand Local Functionality
 
-The following topics describe local functionality that is unique to the New Zealand version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
+The following topics describe local functionality that is unique to the New Zealand version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## <a name="feature-availability"></a>Feature Availability
 
@@ -54,10 +54,7 @@ The following topics describe local functionality that is unique to the New Zeal
 
 ## <a name="see-also"></a>See Also
 
-[Working with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
-## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  

@@ -3,19 +3,19 @@ title: Create Analysis Reports| Microsoft Docs
 description: Describes how to create new analysis reports for sales, purchases, and inventory, and set up analysis templates.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: f8454b9427398dcd95df914ffb9596bf0318f9ba
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: eae3cec231fd7c1da537ebf64c1008c8e114c9eb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437067"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186108"
 ---
 #  <a name="create-analysis-reports"></a>Create Analysis Reports
 Sales managers need to analyse turnover, gross profit and other key sales performance indicators on a regular basis. Purchasers, are more interested in the dynamics of purchase volumes, vendors' performance and purchase prices. Whereas logistics/inventory managers need information on inventory turnover, analysis of inventory movement, and statistics on inventory value.  
@@ -41,11 +41,11 @@ Then you can set up columns like these:
 - Sales in Pct. of last Month  
 
 ## <a name="setting-up-line-and-column-layouts"></a>Setting Up Line and Column Layouts  
- On the **Analysis Report** page, you can view different line and column layouts according to the lines or line templates that you set up on the **Analysis Line Templates** page. You can define the name of the report and the objects you want to show in the lines of your report. You set up your columns on the **Analysis Column Templates** page. You can define the name of the column template and the analysis parameters that you want to show in the report as columns. On the **Analysis Column Templates** page, each line represents a column in your report. Note that analysis lines and analysis columns are independent from each other.  
+ On the **Analysis Report** page, you can view different line and column layouts according to what you have set up. You set up your lines or line templates on the **Analysis Line Templates** page. In this page, you can define the name of the report and the objects you want to show in the lines of your report. You set up your columns on the **Analysis Column Templates** page. In this page, you can define the name of the column template and the analysis parameters that you want to show in the report as columns. On the **Analysis Column Templates** page, each line represents a column in your report. Note that analysis lines and analysis columns are independent from each other.  
 
-Based on the lines and columns you have set up, [!INCLUDE[prod_short](includes/prod_short.md)] will aggregate the result of your report in the **Analysis Report** page, as shown in the following table.  
+Based on the lines and columns you have set up, application will aggregate the result of your report in the **Analysis Report** matrix page, such as in this example:  
 
-|- |Sales Current Month|Sales Last Month|Sales Last Month %|  
+| |Sales Current Month|Sales Last Month|Sales Last Month %|  
 |-|-|-|-|  
 |Computers| | | |  
 |Displays| | | |  
@@ -61,7 +61,7 @@ In an analysis report, your analysis parameters are shown as columns. You can de
 
 A template contains a set of lines each representing the analysis columns that you see in the analysis report. To define a column you must assign an analysis type code to a line. This analysis type code determines the type of source data in the item ledger entries that the analysis will be based on. Source data includes cost, sales amount, or quantity, and their associated value entries. You can set up as many column templates as you like, and then use them to create new analysis reports.    
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Column Templates**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Column Templates**, and then choose the related link.  
 2. Select the first empty line, and then fill in the fields as necessary.
 3. Choose the **Columns** action.  
 4. On the **Analysis Columns** page, fill in the fields to specify the columns that you want to include in your analysis report.  
@@ -78,7 +78,7 @@ In an analysis report your analysis objects are shown on the lines. You can defi
 
 A template contains a set of lines representing the analysis lines that you see in the analysis report. A line can specify one or a range of items, customers, vendors, or groups. You can also create a formula in a line to sum up the other lines. You can set up as many line templates as you like, and then use them to create new analysis reports.    
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Line Templates**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Line Templates**, and then choose the related link.  
 2. Select the first empty line, and then fill in the fields as necessary.
 3. Choose the **Lines** action.  
 4. On the **Analysis Lines** page, create lines for the items, customers, vendors, or salespeople you want to view figures for in your analysis report. You must fill in the **Type**, **Range**, and the **Description** fields.  
@@ -91,7 +91,7 @@ The following procedure is based on analysis reports for sales. The steps are si
 
 You use analysis reports to analyse the dynamics of your sales according to key sales performance indicators that you select, for example, sales turnover in both amounts and quantities, contribution margin, or progress of actual sales against the budget. You can also use the report to analyse your average sales prices and evaluate the sales performance of your sales force.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Analysis Reports**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Analysis Reports**, and then choose the related link.  
 2. On the **Analysis Report Sale** page, choose the **New** action.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Choose the **Edit Analysis Report** action.
@@ -105,7 +105,4 @@ You use analysis reports to analyse the dynamics of your sales according to key 
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

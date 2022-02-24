@@ -3,19 +3,19 @@ title: Design Details - Production Order Posting | Microsoft Docs
 description: Similar to assembly order posting, the consumed components and the used machine time are converted and output as the produced item when the production order is finished.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
-ms.author: edupont
-ms.openlocfilehash: 98dee9205b2d2f66365d111608cd69c151951ca2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: d69007dfba9fe7aa95365f7bd2c7f5b6b2c756d0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442376"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184836"
 ---
 # <a name="design-details-production-order-posting"></a>Design Details: Production Order Posting
 Similar to assembly order posting, the consumed components and the used machine time are converted and output as the produced item when the production order is finished. For more information, see [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md). However, the cost flow for assembly orders is less complex, especially because assembly cost posting only occurs once and therefore does not generate work-in-process inventory.
@@ -24,7 +24,7 @@ Similar to assembly order posting, the consumed components and the used machine 
 Transactions that occur during the manufacturing process can be tracked through the following stages:  
 
 1.  Purchase of materials and other manufacturing inputs.  
-2.  Conversion into work in progress.  
+2.  Conversion into work in process.  
 3.  Conversion into finished goods inventory.  
 4.  Sale of finished goods.  
 
@@ -33,7 +33,7 @@ Therefore, apart from regular inventory accounts, a manufacturing company must e
 |Inventory Account|Description|  
 |-----------------------|---------------------------------------|  
 |**Raw Materials account**|Includes the cost of raw materials that are purchased but not yet transferred to production. The balance in the Raw Materials account indicates the cost of raw materials on hand.<br /><br /> When raw materials move into the production department, the cost of the materials is transferred from the Raw Materials account to the WIP account.|  
-|**Work in Progress (WIP) account**|Accumulates the costs that are incurred during production in the accounting period. The WIP account is debited for the cost of raw materials that are transferred from the raw materials warehouse, the cost of direct labour performed, and the manufacturing overhead costs that are incurred.<br /><br /> The WIP account is credited for the total manufacturing cost of units that are completed in the factory and transferred to the finished goods warehouse.|  
+|**Work in Process (WIP) account**|Accumulates the costs that are incurred during production in the accounting period. The WIP account is debited for the cost of raw materials that are transferred from the raw materials warehouse, the cost of direct labour performed, and the manufacturing overhead costs that are incurred.<br /><br /> The WIP account is credited for the total manufacturing cost of units that are completed in the factory and transferred to the finished goods warehouse.|  
 |**Finished Goods account**|This account includes the total manufacturing cost of units that are completed but not yet sold. At the time of sale, the cost of units sold is transferred from the Finished Goods account to the Cost of Goods Sold account.|  
 
 The inventory value is calculated by tracking the costs of all increases and decreases, as expressed by the following equation:  
@@ -58,11 +58,11 @@ Posting production orders to WIP inventory involves output, consumption, and cap
 
 The following diagram shows the involved posting routines in codeunit 22.  
 
-![Production order posting routines.](media/design_details_inventory_costing_14_production_posting_1.png "Production order posting routines")  
+![Production order posting routines](media/design_details_inventory_costing_14_production_posting_1.png "Production order posting routines")  
 
 The following diagram shows the associations between the resulting entries and the cost objects.  
 
-![Production entry flow.](media/design_details_inventory_costing_14_production_posting_2.png "Production entry flow")  
+![Production entry flow](media/design_details_inventory_costing_14_production_posting_2.png "Production entry flow")  
 
 The capacity ledger entry describes the capacity consumption in terms of time units, whereas the related value entry describes the value of the specific capacity consumption.  
 
@@ -110,6 +110,3 @@ In standard-cost environments, the costing of a production order is based on the
  [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)  
  [Managing Inventory Costs](finance-manage-inventory-costs.md) [Finance](finance.md)  
  [Working with Business Central](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

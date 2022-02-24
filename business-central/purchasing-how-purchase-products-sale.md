@@ -1,19 +1,23 @@
 ---
-title: Purchase Items for a Sale
-description: 'From a sales invoice, to purchase products, you can create a purchase invoice for a vendor or supplier.'
+title: Purchase Items for a Sale by Creating Purchase Invoices | Microsoft Docs
+description: From a sales invoice, to purchase products, you can create a purchase invoice for a vendor or supplier.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 'supply planning, sales demand, replenish'
-ms.search.form: '50, 51, 56, 9308'
-ms.date: 04/01/2021
-ms.author: edupont
+ms.search.keywords: supply planning, sales demand, replenish
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 1b723eaa62ef51fb6cacd42c29a4e2709a3228e6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.translationtype: HT
+ms.contentlocale: en-NZ
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312500"
 ---
-# <a name="purchase-items-for-a-sale-by-creating-purchase-invoices"></a>Purchase Items for a Sale by Creating Purchase Invoices
-
+# <a name="purchase-items-for-a-sale"></a>Purchase Items for a Sale
 From sales orders and sales invoices, you can use functions to quickly create purchase documents for missing item quantities that are required by the sale. You can use two different functions depending on the document type.
 
 > [!Note]
@@ -27,7 +31,7 @@ From sales orders and sales invoices, you can use functions to quickly create pu
 ## <a name="to-create-one-or-more-purchase-orders-from-a-sales-order"></a>To create one or more purchase orders from a sales order
 To create a purchase order for each unavailable item quantity on the sales order, you use the **Create Purchase Orders** function.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
 2. Open a sales order that you want to purchase items for.
 3. Choose the **Create Purchase Orders** action.
 
@@ -50,7 +54,7 @@ To create a single purchase invoice for one or more lines on a sales document by
 > [!NOTE]  
 >   This function creates a purchase invoice for the exact item quantity on the selected sales document. To change the purchase quantity, you must edit the purchase invoice after it is created.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
 2. Open a sales invoice that you want to purchase items for.
 3. Select one or more sales invoice lines that you want to use on the purchase invoice. To use all the sales invoice lines, select either all of them or do not select any lines.
 4. Choose the **Create Purchase Invoice** action.
@@ -65,7 +69,4 @@ To create a single purchase invoice for one or more lines on a sales document by
 [Record Purchases](purchasing-how-record-purchases.md)  
 [Invoice Sales](sales-how-invoice-sales.md)  
 [Register New Vendors](purchasing-how-register-new-vendors.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
