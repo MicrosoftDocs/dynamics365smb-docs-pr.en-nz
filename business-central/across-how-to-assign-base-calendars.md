@@ -1,27 +1,29 @@
 ---
-title: How to Set Up Base Calendars | Microsoft Docs
-description: You can assign a base calendar to your company and its business partners, such as customers, vendors, or locations. Delivery and receipt dates on future sales order, purchase order, transfer order, and production order lines are calculated according to the calendar’s specified working days.
+title: Set Up Base Calendars
+description: You can assign a base calendar to your company and its business partners, to calculate delivery and receipt dates according to the specified working days.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 52bbf5f1092ad449be003021642c30651f38e780
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 7600, 7601, 7602, 5703
+ms.date: 06/11/2021
+ms.author: edupont
+ms.openlocfilehash: 41f81b287ee3966ca01de9c80fdd7a167170c42d
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188436"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011877"
 ---
 # <a name="set-up-base-calendars"></a>Set Up Base Calendars
+
 You can assign a base calendar to your company and its business partners, such as customers, vendors, or locations. Delivery and receipt dates on future sales order, purchase order, transfer order, and production order lines are calculated according to the calendar’s specified working days. The main task in setting up a new base calendar is to specify and define the non-working days that you want to apply.  
 
-## <a name="to-set-up-a-base-calendar"></a>To set up a base calendar  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Base Calendar**, and then choose the related link.  
+## <a name="to-set-up-a-base-calendar"></a>To set up a base calendar
+
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Base Calendar**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  Fill in the **Code** field.  
 4. Choose the **Maintain Base Calendar Changes** action.
@@ -42,6 +44,7 @@ When you make an entry, the **Nonworking** field is selected. You can choose to 
 Specifies a date formula for the time that it takes to replenish the item. It is used to calculate the **Planned Receipt Date** field, if calculating forward, and **Order Date** field, if calculating backwards. See [Lead Time Calculation](across-how-to-assign-base-calendars.md#lead-time-calculation).
 
 ## <a name="lead-time-calculation"></a>Lead Time Calculation
+
 Any base calendar defined for the vendor or the location affects how the dates are calculated and rounded to working days. Accordingly, the two date fields on purchase order lines are calculated as follows under different conditions.
 
 |Calculation Direction|Vendor Calendar Defined|Vendor Calendar Not Defined|
@@ -64,7 +67,7 @@ For example, while a base calendar would typically list all Saturdays as non-wor
 
 The following procedure uses the case of the location as an example. Note that at this point, you have already assigned a base calendar to the location.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.
 2. Open the location that you want to update, and then select the **Customised Calendar** field. Note that a calendar must be selected in the **Base Calendar Code** field.
 3. On the **Customised Calendar Entries** page opens, choose the **Maintain Customised Calendar Changes** action.
 4. In the **Customised Calendar Changes**, add lines for customised calendar entries.
@@ -100,7 +103,7 @@ Base calendars are assigned to your own company, customers, vendors, locations, 
 -   On the **Location** card, the base calendar is assigned on the **Warehouse** FastTab.  
 -   On the **Shipping Agents** page, the base calendar is assigned on the **Shipping Agent Services** page.  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
 2.  Open the **Customer** card for whom you will assign a base calendar.  
 3.  On the **Shipping** FastTab, in the **Base Calendar Code** field, select the base calendar that you want to assign.  
 
@@ -116,4 +119,7 @@ Base calendars are assigned to your own company, customers, vendors, locations, 
 [Purchasing](purchasing-manage-purchasing.md)  
 [Manufacturing](production-manage-manufacturing.md)    
 [Inventory](inventory-manage-inventory.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

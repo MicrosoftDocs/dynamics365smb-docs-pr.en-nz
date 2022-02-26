@@ -1,21 +1,21 @@
 ---
-title: How to Put Items Away with Inventory Put-aways | Microsoft Docs
-description: When your location is setup to require put-away processing but not receive processing, you use the **Inventory Put-away** document to record and post put-away and receipt information for your source documents. The inbound source document can be a purchase order, a sales return order, an inbound transfer order, or a production order whose output is ready for put-away.
+title: How to Put Items Away with Inventory Put-aways
+description: Read about how to use the Inventory Put-away document to record and post put-away and receipt information for your source documents.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 439072c09555c7781632c5933ab563caf432c270
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: e28e565858f4dc6fc1e01c614914b0b1620c9659
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192859"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438123"
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Put Items Away with Inventory Put-aways
 When your location is set up to require put-away processing but not receive processing, you use the **Inventory Put-away** document to record and post put-away and receipt information for your source documents. The inbound source document can be a purchase order, a sales return order, an inbound transfer order, or an assembly or production order whose output is ready to be put away.  
@@ -29,11 +29,11 @@ You can create an inventory put-away in three ways:
 ## <a name="to-request-an-inventory-put-away-by-releasing-the-source-document"></a>To request an inventory put-away by releasing the source document
 For purchase orders, sales return orders, inbound transfer orders, and assembly orders, you create the warehouse request by releasing the order. The following describes how to do this from a purchase order.  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.
 2. Select the purchase order that you want to release, and then choose the **Release** action.  
 
     For production orders, you create the warehouse request by creating an inbound request from the released production order.  
-3.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released Production Orders**, and then choose the related link.  
+3.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released Production Orders**, and then choose the related link.  
 4. Choose the **Create Inbound Whse. Request** action.  
 
 > [!NOTE]  
@@ -43,7 +43,7 @@ When the warehouse request is created, a warehouse employee assigned to putting 
 
 ## <a name="to-create-an-inventory-put-away-based-on-the-source-document"></a>To create an inventory put-away based on the source document
 Now that the request is created, the warehouse employee can create a new inventory put-away based on the released source document.   
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Put-away**, and then select the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Put-away**, and then select the related link.  
 2. Choose the **New** action.  
 3. In the **Source Document** field, select the type of source document you are putting away for.  
 4. In the **Source No.** field, select the source document.  
@@ -56,7 +56,7 @@ Now that the request is created, the warehouse employee can create a new invento
 3. Choose the **OK** button. A new inventory put-away is created.
 
 ## <a name="to-create-multiple-inventory-put-aways-with-a-batch-job"></a>To create multiple inventory put-aways with a batch job  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Create Invt. Put-away / Pick**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Create Invt. Put-away / Pick**, and then choose the related link.  
 2.  On the **Warehouse Request** FastTab of the request page, use the **Source Document** and **Source No.** fields to filter on certain types of documents or ranges of document numbers.  
 3.  On the **Options** FastTab, select the **Create Invt. Put-away** check box.
 4.  Choose the **OK** button. The specified inventory put-aways are created.
@@ -77,4 +77,7 @@ The posting process will post the receipt, or for production orders, the output,
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
 [Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

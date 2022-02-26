@@ -1,21 +1,22 @@
 ---
-title: Record expenses or income directly in G/L| Microsoft Docs
-description: For business activities that are not represented by a document in, such as smaller expenses or cash receipts, you can create the related transactions by posting journal lines in the General Journal page.
+title: Record expenses or income directly in G/L
+description: For business activities that are not represented by a document you can create the related transactions by posting journal lines in the General Journal page.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct posting, general ledger
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: f0c1efcee7db0239efa739dd0ea8d8ce45e2dbd7
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 39, 251
+ms.date: 06/16/2021
+ms.author: edupont
+ms.openlocfilehash: f8a11cf0efb34863c4d2ddf7519847e27f5a2001
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183972"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973482"
 ---
 # <a name="post-transactions-directly-to-the-general-ledger"></a>Post Transactions Directly to the General Ledger
 
@@ -29,7 +30,7 @@ Unlike for entries that are posted with documents, which require a credit memo p
 
 ## <a name="to-post-a-transaction-directly-to-a-general-ledger-account"></a>To post a transaction directly to a general ledger account
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and then choose the related link.
 2. Open the relevant general journal batch. For more information, see [Working with General Journals](ui-work-general-journals.md).
 3. On a new journal line, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]    
 
@@ -47,4 +48,7 @@ Unlike for entries that are posted with documents, which require a credit memo p
 [Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)  
 [Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md)  
 [Finance](finance.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

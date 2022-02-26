@@ -3,19 +3,19 @@ title: Setup Best Practices - Reordering Policies | Microsoft Docs
 description: The Reordering Policy field on item cards offers four different planning methods that determine how the individual planning parameters interact.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 7a6a7193d02d8d42987da7f7eeb9f5ed1ec3e2fd
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: e788fc7af4335eab99ddce35bf2822e52332a9b9
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192211"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441463"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Setup Best Practices: Reordering Policies
 The **Reordering Policy** field on item cards offers four different planning methods that determine how the individual planning parameters interact.  
@@ -28,9 +28,9 @@ One best-practice foundation for selecting a reordering policy is the item’s A
 |B|20|20|
 |C|60-70|10-30|
 
-The ABC classification states that effort and money can be saved by applying looser control to items of low value-volume than to items of high value-volume. The following illustration shows which reordering policy in [!INCLUDE[d365fin](includes/d365fin_md.md)] is best suited for A, B, and C items respectively.
+The ABC classification states that effort and money can be saved by applying looser control to items of low value-volume than to items of high value-volume. The following illustration shows which reordering policy in [!INCLUDE[prod_short](includes/prod_short.md)] is best suited for A, B, and C items respectively.
 
-![ABC Classification](media/abc_classification.png "abc_classification")
+![ABC Classification.](media/abc_classification.png "abc_classification")
 
 The following table provides best practices for selecting between the four policies.  
 
@@ -45,4 +45,7 @@ The following table provides best practices for selecting between the four polic
  [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)   
  [Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md)   
  [Set Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

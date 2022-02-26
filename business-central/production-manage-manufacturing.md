@@ -1,23 +1,24 @@
 ---
-title: Execute Production | Microsoft Docs
+title: Execute Production
 description: When demand is planned for and the materials have been issued according to production BOMs, then the actual production operations can start and be executed in the sequence defined by the production order routing.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 926f22537d54ad770e38d40a376a6c8ce2594991
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.search.form: 5406, 5407, 5728, 8903, 9011, 9012, 9013, 9041, 9044, 9047, 9323, 9324, 9325, 9326, 9327, 99000784, 99000785
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 42e4b06ab258c99225aedc59a0854d7c9cbf7eaa
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877682"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972661"
 ---
 # <a name="manufacturing"></a>Manufacturing
+
 > [!NOTE]
 > Functionality described in this topic and sub topics is only visible in the user interface if you have the **Premium** experience. For more information, see [Change Which Features are Displayed](ui-experiences.md).
 
@@ -29,7 +30,7 @@ As an alternative to the batch journal for output posting for multiple productio
 
 Before you can begin to produce items, you must make various setup, such as work centres, routings, and production BOMs. For more information, see [Setting Up Manufacturing](production-configure-production-processes.md).
 
-The following table describes a sequence of tasks, with links to the topics that describe them.   
+The following table describes a sequence of tasks, with links to the topics that describe them.  
 
 |**To**|**See**|  
 |------------|-------------|  
@@ -41,15 +42,19 @@ The following table describes a sequence of tasks, with links to the topics that
 |Post the quantity of finished items and the time spent per operation in a journal that can processes multiple released production orders.|[Batch Post Output and Run Times](production-how-to-post-output-quantity.md)|
 |Undo output, for example because of a data entry error occurred and incorrect amount.  |[Reverse Output Posting](production-how-to-reverse-output-posting.md)|  
 |Post the number of items produced in each finished operation which do not qualify as finished output, but as scrapped material.|[Post Scrap](production-how-to-post-scrap.md)|
-|View the shop floor load as a result of planned and released production orders.|[View the Load in Work and Machine Centres](production-how-to-view-the-load-on-work-centers.md)|      
+|View the shop floor load as a result of planned and released production orders.|[View the Load in Work and Machine Centres](production-how-to-view-the-load-on-work-centers.md)|  
 |Use the **Capacity Journal** page to post consumed capacities that are not assigned to a production order, such as maintenance work.|[Post Capacities](production-how-to-post-capacities.md)|  
 |Calculate and adjust the cost of finished production items and consumed components for financial reconciliation.|[About Finished Production Order Costs](finance-about-finished-production-order-costs.md)|  
 
-## <a name="see-also"></a>See Also  
+## <a name="see-also"></a>See Also
+
 [Setting Up Manufacturing](production-configure-production-processes.md)  
-[Planning](production-planning.md)      
+[Planning](production-planning.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
