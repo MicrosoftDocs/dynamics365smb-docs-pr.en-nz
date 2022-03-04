@@ -2,20 +2,20 @@
 title: Withholding Tax in the New Zealand version
 description: Describes the various scenarios when withholding tax (WHT) occurs and how to address it in New Zealand.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 11600, 28040,28041,28042,28043,28044, 28164,28165,28166,28167
 ms.date: 06/18/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8f7a01ab37a30d72d9ad63cee8d700d248e5ffda
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: f7075f5a69d73a430a027cbbe9375438251c30bd
+ms.sourcegitcommit: 67006b090a7bd70446414a19cc82e531190637dc
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320804"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8311314"
 ---
 # <a name="withholding-tax-in-the-new-zealand-version"></a>Withholding Tax in the New Zealand Version
 

@@ -1,15 +1,14 @@
 ---
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ece558bcc46ec9b7fd0078c00bd1cd9c5fee5358
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: ba324d04d3f6395c1e2bd3a5156908646acb2293
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435515"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132268"
 ---
 The **Deposit Slip** report displays cash and cheque details in a format required by the bank.  
 

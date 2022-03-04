@@ -1,15 +1,14 @@
 ---
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a693c2831a71295b240edd51d032130e50dab28f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 70142d6c0e9f49f9d4b814f74828ac8e24a5260b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435736"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148030"
 ---
 ## <a name="to-calculate-and-post-withholding-tax-settlements"></a>To calculate and post withholding tax settlements  
 

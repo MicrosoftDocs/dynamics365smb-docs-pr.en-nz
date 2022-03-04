@@ -2,17 +2,16 @@
 title: New Zealand Local Functionality
 description: The following topics describe the local functionality in the New Zealand version of Business Central.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: New Zealand, local functionality
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ebf181b0b17c9f9aaa9b07ef57e481a2c6d06202
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a181745fcf26489b77d8f2ffcedb88fd46008fe4
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774353"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148896"
 ---
 # <a name="new-zealand-local-functionality"></a>New Zealand Local Functionality
 

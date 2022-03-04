@@ -2,7 +2,6 @@
 title: Print Deposit Slip Reports [NZ]
 description: Describes how to print a report that displays cash and cheque details in a format required by the bank in the New Zealand version.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: bholtorf
-ms.openlocfilehash: 444c8ca86167c19e5334d552b323554a917ca834
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: db3bca6eb5603b8d829bd89be3573450b3503d16
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323061"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8149279"
 ---
 # <a name="print-deposit-slip-reports-in-the-new-zealand-version"></a>Print Deposit Slip Reports in the New Zealand Version
 

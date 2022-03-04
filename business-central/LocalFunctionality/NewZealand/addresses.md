@@ -2,7 +2,6 @@
 title: Addresses in New Zealand
 description: This topic explains how to benefit from the address bar coding system in which every address is assigned a unique Delivery Point Identifier (DPID).
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: b0fe1b5b4f1111e2a9060306d336b39a81317d84
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: adc82f871e9e7216679b0a3d8b1fa84986a00fb6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325119"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148911"
 ---
 # <a name="addresses-in-the-new-zealand-version"></a>Addresses in the New Zealand Version
 

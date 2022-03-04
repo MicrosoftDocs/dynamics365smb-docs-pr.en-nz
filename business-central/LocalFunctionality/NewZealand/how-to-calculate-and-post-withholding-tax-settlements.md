@@ -2,7 +2,6 @@
 title: Calculate and Post Withholding Tax Settlements (NZ)
 description: Learn how to calculate and post the withholding tax (WHT) in the New Zealand version of Business Central.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ff12bb4124394fc6a484a18c1958891d59eeda60
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 56461640445818d11c731fb3d25269938eb9570e
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771377"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148904"
 ---
 # <a name="calculate-and-post-withholding-tax-settlements-in-the-new-zealand-version"></a>Calculate and Post Withholding Tax Settlements in the New Zealand Version
 

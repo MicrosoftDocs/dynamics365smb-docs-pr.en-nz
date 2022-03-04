@@ -2,20 +2,19 @@
 title: View Posted Tax Credit Memos [NZ]
 description: Describes how to view details of GST credit memos and purchase tax credit memos that have been posted in the New Zealand version.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 28071, 28073, 28081, 28082
 ms.date: 06/25/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7dcf9db8aa634dd1859b984efb03ed9d23152b30
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 41a98a094604f175eea4f1fc09ab196d49ce07b9
+ms.sourcegitcommit: 67006b090a7bd70446414a19cc82e531190637dc
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443504"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8311160"
 ---
 # <a name="view-posted-tax-credit-memos-in-the-new-zealand-version"></a>View Posted Tax Credit Memos in the New Zealand Version
 
