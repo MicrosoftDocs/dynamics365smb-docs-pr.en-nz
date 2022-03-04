@@ -1,15 +1,14 @@
 ---
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0780cadfca9ddfcefb171fbb154bb609774cd969
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a044ba1f2668eaf6943954eb48e7cb3d7484b17d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435733"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134495"
 ---
 When a partial payment or prepayment is made, you must calculate Goods and Services Tax (GST) for that partial payment or prepayment based on the total invoice amount, instead of on a partial amount. If you account for GST on a non-cash basis, you must report and pay GST on payments during the period in which you receive partial payment or issue a tax invoice for payment.  
 

@@ -4,7 +4,6 @@ description: Learn how GST settings for customers and vendors control whether, a
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: b1946ce8d23a8f9e8f6d48a527060727a9bc3447
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: fc11979fb6e21feba85c883b83ca7a3dcc5d8772
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444271"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137929"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Allocate Costs to Intercompany Partners
 When you use intercompany postings to transfer documents between partner companies, the GST-related settings (primarily the GST business posting group) assigned to the customer or vendor accounts (associated with the intercompany Partner) control whether, and how, GST is calculated and registered. You can also do cost distributions directly from a purchase order to partner companies. For example, if you register a purchase invoice from an external vendor and you want to distribute some or all of the costs to one or more intercompany partners.

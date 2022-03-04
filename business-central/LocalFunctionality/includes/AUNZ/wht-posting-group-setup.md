@@ -1,15 +1,14 @@
 ---
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 237397b18f9ee2d2f0674b61e570dcba3f3e9d81
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 308782df6b7e73813ae8926575a0b033615de29b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438493"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140014"
 ---
 ## <a name="set-up-wht-posting-groups"></a>Set up WHT posting groups
 
