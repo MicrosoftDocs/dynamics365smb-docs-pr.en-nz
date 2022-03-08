@@ -2,19 +2,20 @@
 title: Business Central Quick Starts
 description: Get up and running with Business Central with tips from the Quick Starts articles that help you fill in the first critical fields.
 author: jill-kotel-andersson
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: quickstart
 ms.date: 09/29/2021
-ms.author: edupont
-ms.openlocfilehash: ee2f9f6989e2f2c5142397a171b0709fb2e9b087
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.author: a-jillk
+ms.openlocfilehash: 810888552252f06ab4b05931b408b4489409a80b
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147534"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589713"
 ---
 # <a name="business-central-quick-starts"></a>Business Central Quick Starts
 
@@ -24,19 +25,19 @@ The following sections take you to guides for beginners that help you get famili
 
 ## <a name="provide-basic-information-about-your-company"></a>Provide basic information about your company
 
-The first step is to provide the basic information about your company. This includes information such as address, bank accounts, GST number, and so on. This is explained in the [Company Information Quick Start](quick-start-company-information.md) article.
+The first step is to provide the basic information about your company. This includes information such as address, bank accounts, VAT number, and so on. This is explained in the [Company Information Quick Start](quick-start-company-information.md) article.
 
 <!--
 ## Financial Basics
 
-Financial Information  
+[Financial Information](quick-start-financial-information.md)  
 (chart of accounts, but explained for non-accountants)
 -->
 
 <!--
 ## Basic Reports and Output Documents
 
-Reports and Documents  
+[Reports and Documents](quick-start-reports-and-documents.md)  
 (final reports, but also documents - how do I style invoices to work better for me?)
 -->
 
@@ -59,7 +60,7 @@ To learn how to buy products and services, see the [Quick Start for Procurement]
 <!--
 ## Understand Your Business with Business Intelligence
 
-Business Intelligence  
+[Business Intelligence](quick-start-business-intelligence.md)  
 (reports)
 -->
 

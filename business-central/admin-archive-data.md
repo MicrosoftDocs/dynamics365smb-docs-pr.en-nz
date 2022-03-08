@@ -2,19 +2,20 @@
 title: The Data Archive Extension
 description: Archiving data creates a low-cost backup of your records.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 630
+ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: e2df40494f72260a1ce7e66f57ea1c96fb35b301
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 032c425f10bae29416cf8602d0c339f3ffaa3043
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130842"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589722"
 ---
 # <a name="the-data-archive-extension"></a>The Data Archive Extension
 Over time, your business will accumulate a substantial amount of data, and as an administrator, it's probably a good idea to have a strategy for archiving data. Having lots of data can slow things down, for example, it might take slightly longer to generate reports, or even lock records. Additionally, large amounts of data can lead to increased storage costs.
@@ -38,19 +39,19 @@ The Data Archive extensions is used by the following batch jobs for date compres
 
 |Batch jobs  |
 |---------|
-|Date Comp. Item Budget Entries |
-|Date Compress Bank Acc. Ledger |
-|Date Compress Customer Ledger |
-|Date Compress FA Ledger |
-|Date Compress General Ledger |
-|Date Compress Insurance Ledger |
-|Date Compress Maint. Ledger |
-|Date Compress Maint. Ledger |
-|Date Compress Resource Ledger |
-|Date Compress GST Entries |
-|Date Compress Vendor Ledger |
-|Date Compress Whse. Entries |
-|Date Compr. G/L Budget Entries |
+|Date Comp. Item Budget Entries     |
+|Date Compress Bank Acc. Ledger     |
+|Date Compress Customer Ledger     |
+|Date Compress FA Ledger     |
+|Date Compress General Ledger     |
+|Date Compress Insurance Ledger     |
+|Date Compress Maint. Ledger     |
+|Date Compress Maint. Ledger     |
+|Date Compress Resource Ledger     |
+|Date Compress GST Entries     |
+|Date Compress Vendor Ledger     |
+|Date Compress Whse. Entries     |
+|Date Compr. G/L Budget Entries     |
 
 To start archiving data when you run one of the batch jobs, turn on the **Archive Deleted Entries** toggle.
 

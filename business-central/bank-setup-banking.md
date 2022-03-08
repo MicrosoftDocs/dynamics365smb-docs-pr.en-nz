@@ -1,24 +1,25 @@
 ---
-title: Set Up Banking
+title: Set Up Banking| Microsoft Docs
 description: You use bank account cards to keep track of your bank accounts and set up bank feeds, such as Yodlee, to exchange data.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
-ms.search.form: 1200
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 21665191cc2b6dbedc09321fd165ef2fab098fc3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 083bb3784e21621f97161e65ff3cfa80ed0efc52
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139953"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692744"
 ---
 # <a name="setting-up-banking"></a>Setting Up Banking
-
 Using bank account cards, you can keep track of all your bank accounts, in any currency. After you have set up the bank accounts, you can also use the cheque printing option.
 
 To use electronic banking services to import bank statements and  export payments, you must set up and enable the involved services.
@@ -29,14 +30,8 @@ To use electronic banking services to import bank statements and  export payment
 | Set up an external service that enables you to import bank statements as bank feeds for payment application and bank reconciliation. |[Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md) |
 | Set up an external service that enables you to export your payments to the bank for processing  and import bank statements as bank files for payment application and bank reconciliation. |[Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md) |
 
-[!INCLUDE [local-functionality](includes/local-functionality.md)]
-
 ## <a name="see-also"></a>See Also
-
-[Reconciling Bank Accounts](bank-manage-bank-accounts.md)  
+[Managing Bank Accounts](bank-manage-bank-accounts.md)  
 [Managing Receivables](receivables-manage-receivables.md)  
 [Managing Payables](payables-manage-payables.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

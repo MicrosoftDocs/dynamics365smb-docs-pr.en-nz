@@ -1,20 +1,21 @@
 ---
-title: Design Details - Planning Assignment Table
-description: This topic provides insight into what happens when a change in the demand or supply patterns requires that you calculate how you plan for an item.
+title: Design Details - Planning Assignment Table | Microsoft Docs
+description: This topic provides insight into what happens when you change how you plan for an item.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 878f301db5b7b887201fd2e803fd299dc3894dbf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 621e747cbdf4b7ba19ad900c4c91eb3edfd8480f
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146608"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5770904"
 ---
 # <a name="design-details-planning-assignment-table"></a>Design Details: Planning Assignment Table
 All items should be planned for, however, there is no reason to calculate a plan for an item unless there has been a change in the demand or supply pattern since the last time a plan was calculated.  

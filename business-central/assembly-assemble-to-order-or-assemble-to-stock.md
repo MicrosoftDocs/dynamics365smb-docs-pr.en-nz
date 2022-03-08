@@ -1,20 +1,21 @@
 ---
-title: Understanding Assemble to Order and Assemble to Stock
-description: Assembly items can be supplied by assembling them when they are ordered or by assembling them to be kept in inventory until they are need on a sales order.
+title: Understanding Assemble to Order and Assemble to Stock | Microsoft Docs
+description: Assembly items can be supplied either by assembling them when they are ordered or by assembling them to be kept in inventory until they are need on a sales order.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 06/15/2021
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 1f90e732f71e59f37aa4e81bd87101979ef8aa0b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c9341e68ef47bbb2614db2b5c9db40bf6cac2403
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128972"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380697"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Understanding Assemble to Order and Assemble to Stock
 Assembly items can be supplied in the following two processes:  
@@ -69,29 +70,20 @@ When you enter an assemble-to-order item on a sales line, an assembly order is a
 
  An example of why you would want to modify the quantity to assemble is that you want to partially post shipment of inventory quantities before the assembly output can be shipped.  
 
- The following tables explain the rules that define the minimum and maximum values that you can enter in the **Quantity to Assemble** field to deviate from the default value in a combination scenario. The table shows a combination scenario where the **Qty. to Ship** field on the linked sales order line is changed from 7 to 4, and the **Quantity to Assemble** is therefore defaulted to 4.  
+ The following table explains the rules that define the minimum and maximum values that you can enter in the **Quantity to Assemble** field to deviate from the default value in a combination scenario. The table shows a combination scenario where the **Qty. to Ship** field on the linked sales order line is changed from 7 to 4, and the **Quantity to Assemble** is therefore defaulted to 4.  
 
-- Sales Order Line
+|-|Sales Order Line|Assembly Order Header|  
+|-|----------------------|---------------------------|  
+||**Quantity**|**Qty. to Ship**|**Qty. to Assemble to Order**|**Quantity Shipped**|**Quantity**|**Quantity to Assemble**|**Assembled Quantity**|**Remaining Quantity**|  
+|Initial|10|7|7|0|7|7|0|7|  
+|Change||4||||4 (inserted by default)|||  
 
-    |                | **Quantity** | **Qty. to Ship** | **Qty. to Assemble to Order** | **Quantity Shipped** |
-    |----------------|--------------|------------------|-------------------------------|----------------------|
-    |**Initial value**| 10          | Deferred Company Fund Installment (7)                | Deferred Company Fund Installment (7)                             | 0                    |
-    |**Change**      |              | Total Amounts Withheld From All Payments (4)                |                               |                      |
+ Based on the above situation, you can only modify the **Quantity to Assemble** field as follows:  
 
-- Assembly Order Header
+-   The minimum quantity that you can enter is 1. This is because you must at least assemble one unit to be able to sell the four units, assuming that the remaining three are available in the inventory.  
+-   The maximum quantity that you can enter is 4. This is to ensure that you do not assemble more of this assemble-to-order item than what is needed on the sale.  
 
-    |                | **Quantity** | **Qty. to Ship** | **Qty. to Assemble to Order** | **Quantity Shipped** |
-    |----------------|--------------|------------------|-------------------------------|----------------------|
-    |**Initial value**| Deferred Company Fund Installment (7)           | Deferred Company Fund Installment (7)                | 0                             | Deferred Company Fund Installment (7)                    |
-    |**Change**      |              | 4 (inserted by default)|                         |                      |
-
-Based on this example, you can only modify the **Quantity to Assemble** field as follows:  
-
-- The minimum quantity that you can enter is 1. This is because you must at least assemble one unit to be able to sell the four units, assuming that the remaining three are available in the inventory.  
-- The maximum quantity that you can enter is 4. This is to ensure that you do not assemble more of this assemble-to-order item than what is needed on the sale.  
-
-## <a name="see-also"></a>See Also
-
+## <a name="see-also"></a>See Also  
 [Assembly Management](assembly-assemble-items.md)  
 [Work with Bills of Material](inventory-how-work-BOMs.md)  
 [Inventory](inventory-manage-inventory.md)  

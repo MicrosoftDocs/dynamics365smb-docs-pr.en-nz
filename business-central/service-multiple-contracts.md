@@ -2,19 +2,20 @@
 title: Multiple Contracts | Microsoft Docs
 description: Depending on your service level agreements with a customer, you may have to handle a service item under more than one service contract.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7cbff4ae7060a591cdba5ddf51f7a56dfb20aab7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 13c641512a0e3e2722460daa238d12c0162ad8b6
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143000"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389690"
 ---
 # <a name="multiple-contracts"></a>Multiple Contracts
 Depending on your service level agreements with a customer, you may have to handle a service item under more than one service contract.  

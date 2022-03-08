@@ -2,19 +2,20 @@
 title: Set Up Service Management Processes | Microsoft Docs
 description: Learn how to set up processes that help ensure your customers are satisfied with your customer service.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 20afe251a1853ee31cd5de34c14ddb025a23c32e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7466685a55ac8a5e9eea4bb6fa7eadcc4b6d1155
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140595"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391693"
 ---
 # <a name="configure-service-processes"></a>Configure Service Processes
 The following are some examples of the settings that you can apply to service management processes:  
@@ -26,7 +27,7 @@ The following are some examples of the settings that you can apply to service ma
 * The number sequences to use for service-related documents and items.  
 
 ## <a name="to-enter-general-and-mandatory-settings"></a>To enter general and mandatory settings
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Management Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Management Setup**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a>See Also  

@@ -4,19 +4,20 @@ description: Learn how GST settings for customers and vendors control whether, a
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoming document
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: fc11979fb6e21feba85c883b83ca7a3dcc5d8772
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4c83569cf8aaa53e733754f05704d8b258d8dc50
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137929"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750221"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Allocate Costs to Intercompany Partners
 When you use intercompany postings to transfer documents between partner companies, the GST-related settings (primarily the GST business posting group) assigned to the customer or vendor accounts (associated with the intercompany Partner) control whether, and how, GST is calculated and registered. You can also do cost distributions directly from a purchase order to partner companies. For example, if you register a purchase invoice from an external vendor and you want to distribute some or all of the costs to one or more intercompany partners.
@@ -29,7 +30,7 @@ You can allocate costs can be to one or more intercompany partners using the fol
 ## <a name="to-allocate-costs-using-an-intercompany-general-journal"></a>To allocate costs using an intercompany general journal
 To enter a  line in an intercompany general journal, follow these steps. 
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany General Journal** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany General Journal** , and then choose the related link.
 2. If required, in the **External Document No.** field, enter the document number on the invoice from the vendor.
 3. In the **Document Type** field, choose **Invoice**.
 4. In the **Account Type** field, choose **Vendor**.
@@ -56,7 +57,7 @@ The following procedure describes how to allocate costs using a purchase invoice
 > [!NOTE]
 > To complete these steps you must personalise the **Purchase Invoice** page by adding the **IC Partner Code**, **IC Partner Ref. Type**, and **IC Partner** fields. For more information, see [To start personalising a page through the Personalising banner](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoice** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoice** , and then choose the related link.
 2. In the **Type** field, choose **G/L Account**.
    
    G/L Account is the only option you can use to allocate costs.  
@@ -69,7 +70,7 @@ The following procedure describes how to allocate costs using a purchase invoice
 1. To post the purchase order, choose **Post**.
 
 ## <a name="to-send-the-allocated-costs-to-intercompany-partners"></a>To send the allocated costs to intercompany partners
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **IC Outbox Transactions**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **IC Outbox Transactions**, and then choose the related link.
 2. Choose lines to send, and then choose the **Send to IC Partner** action. 
 3. To allocate the costs, choose the **Complete Line Actions** action.
 
@@ -92,5 +93,3 @@ When you use a document to distribute costs to intercompany partners, there are 
 [Setting Up Finance](finance-setup-finance.md)  
 [Working with General Journals](ui-work-general-journals.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

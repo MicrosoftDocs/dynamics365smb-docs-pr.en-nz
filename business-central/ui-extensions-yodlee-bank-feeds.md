@@ -1,53 +1,47 @@
 ---
-title: Payment Reconciliation With the Envestnet Yodlee Bank Feeds Extension
+title: Payment Reconciliation With the Envestnet Yodlee Bank Feeds Extension | Microsoft Docs
 description: Describes the Envestnet Yodlee Bank Feeds extension, which links to bank accounts so you can and quickly reconcile payments.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, stream, bank account link
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: c19278d2d01ae6018e93b7856800ba6b06118278
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: d79ef7c076ec3a529aeb0c679b8b61658ef65af5
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144687"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315364"
 ---
 # <a name="the-envestnet-yodlee-bank-feeds-extension"></a>The Envestnet Yodlee Bank Feeds Extension
-
 To quickly reconcile payments made to your bank accounts, the Envestnet Yodlee Bank Feeds service allows you to link your system bank account to your online bank account. This means that the latest bank statement is automatically or manually fed into your reconciliation journal, ensuring that you are always processing the latest payments with minimal risk of errors.
 
 The Envestnet Yodlee Bank Feeds service is only supported in the United States and Canada.
 
 > [!NOTE]
-> The Envestnet Yodlee Bank Feeds service is only supported in the online version of Business Central. To use this functionality on-premises, you must obtain a cobrand account from Envestnet Yodlee.<br /><br />
-> The Envestnet Yodlee Bank Feeds service is only supported in the United States and Canada.
-> Only banks residing in these countries are supported, even though banks from other countries may appear in the Envestnet Yodlee Bank Feeds bank selection window in [!INCLUDE[prod_short](includes/prod_short.md)].
+> This functionality is only supported in the online version of Business Central. To use this functionality on-premise, you must obtain a cobrand account from Envestnet Yodlee.<br /><br />
 
 > [!IMPORTANT]
-> Due to the new Payment Services Directive in Europe (PSD2), after September 14, 2019, you will no longer be able to automatically import bank statements from banks in the United Kingdom into [!INCLUDE[prod_short](includes/prod_short.md)]. We are looking into the possibility of offering this feature again in the future.
+> Due to the new Payment Services Directive in Europe (PSD2), after September 14, 2019, you will no longer be able to automatically import bank statements from banks in the United Kingdom into [!INCLUDE[d365fin](includes/d365fin_md.md)]. We are looking into the possibility of offering this feature again in the future.
 
 The Envestnet Yodlee Bank Feeds service provides the following benefits:
 
 * Removes the need for manual entry.
 * Improves efficiency and accuracy when doing payment reconciliation.
 * Supports a large number of banks.
-* Allows up-to-date information about bank transactions from within [!INCLUDE[prod_short](includes/prod_short.md)].
+* Allows up-to-date information about bank transactions from within [!INCLUDE[d365fin](includes/d365fin_md.md)].
 * Supports manual as well as automatic bank feeds.
 * Enables outsourcing of payment reconciliation to an accountant by providing access to bank statements.
-
-## <a name="available-bank-feeds"></a>Available Bank Feeds
-You can check whether a bank is supported by setting up and connecting to the Envestnet Yodlee Bank Feeds service. The bank will appear on the list if it is supported by Envestnet Yodlee.
 
 For more information, see [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md).
 
 ## <a name="see-also"></a>See Also
-[Customising [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions ](ui-extensions.md)    
+[Customising [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions ](ui-extensions.md)    
 [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -3,19 +3,20 @@ metadata:
   title: Mobile Apps FAQ
   description: See answers to frequently asked questions about using Business Central on your phone or tablet.
   author: edupont04
-  ms.topic: faq
+  ms.service: dynamics365-business-central
+  ms.topic: conceptual
   ms.devlang: na
   ms.tgt_pltfrm: na
   ms.workload: na
   ms.search.keywords: phone, tablet
-  ms.date: 10/25/2021
+  ms.date: 04/01/2021
   ms.author: edupont
-  ms.openlocfilehash: 2511135e9e0aebb3a813c5fede167d10b46f045a
-  ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+  ms.openlocfilehash: 81887822a3163a7fee0d027ac1969545990f749a
+  ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
   ms.translationtype: HT
   ms.contentlocale: en-NZ
-  ms.lasthandoff: 02/15/2022
-  ms.locfileid: "8140335"
+  ms.lasthandoff: 05/28/2021
+  ms.locfileid: "6116088"
 title: Mobile Apps FAQ
 summary: "This article answers questions that our advanced users often ask about the mobile apps for [!INCLUDE [prod_short](includes/prod_short.md)].  \n"
 sections:
@@ -79,12 +80,9 @@ sections:
 
       | Automatic input focus on first editable field of a page | Not available. | Not available. | `Customer Card` page.<BR /><BR />In the browser, focus will automatically be on the first editable field (such as the `Name` field), enabling you to change the value right away.<BR /><BR />In the tablet and phone apps, this field will not be in focus; instead, you will have to manually select the field first in order to make changes.|
   - question: >
-      Is it the same experience on tablets and phones?
+      Is it the same experience on tables and phones?
     answer: "Almost, but not quite. See the list in the [Is it the same experience in the apps as in the browser?](#is-it-the-same-experience-in-the-apps-as-in-the-browser-) section.  \n"
   - question: >
       Can I connect the app to our on-premises solution?
     answer: "Yes, you can! It's a slightly different way to signing in, that's all. For more information, see [Using Business Central on-premises?](install-mobile-app.md#using-business-central-on-premises).  \n"
-  - question: >
-      Can a guest user use the app to access our Business Central solution?
-    answer: "No. Guest users are invited users from a different Azure Active Directory (AD) tenant than yours. In this case, the app will authenticate to the guest user's primary Azure AD tenant and try open the Business Central endpoint on that tenant instead of yours.  \n"
 additionalContent: "\n## <a name=\"see-also\"></a>See also\n\n[Getting Business Central on Your Mobile Device](install-mobile-app.md)  \n[Install the Business Central App for Microsoft Teams](across-install-app-for-teams.md)  \n\n[!INCLUDE[footer-include](includes/footer-banner.md)]"

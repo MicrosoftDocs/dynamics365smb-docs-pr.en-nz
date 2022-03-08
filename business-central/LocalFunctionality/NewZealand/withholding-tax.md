@@ -1,24 +1,25 @@
 ---
-title: Withholding Tax in the New Zealand version
-description: Describes the various scenarios when withholding tax (WHT) occurs and how to address it in New Zealand.
+title: Withholding Tax
+description: Describes how withholding tax (WHT) works in New Zealand.
+services: project-madeira
+documentationcenter: ''
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 11600, 28040,28041,28042,28043,28044, 28164,28165,28166,28167
-ms.date: 06/18/2021
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: f7075f5a69d73a430a027cbbe9375438251c30bd
-ms.sourcegitcommit: 67006b090a7bd70446414a19cc82e531190637dc
+ms.openlocfilehash: 0c0a1b67d43b7d69c8db5b372a837d3502648c1b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311314"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181044"
 ---
-# <a name="withholding-tax-in-the-new-zealand-version"></a>Withholding Tax in the New Zealand Version
-
+# <a name="withholding-tax"></a>Withholding Tax
 Withholding Tax (WHT) is tax withheld by a company when making a payment to a vendor, in which the full amount owed to that vendor is reduced by the tax withheld. The withheld tax is then remitted to tax authorities during the next Business Activity Statement (BAS) submission.  
 
 The New Zealand government requires taxes to be withheld from payment to vendors under the following circumstances:  
@@ -60,6 +61,3 @@ Ensure that a valid combination of **General Business** and **General Product Po
 [Calculate and Post Withholding Tax Settlements](how-to-calculate-and-post-withholding-tax-settlements.md)   
 [View Withholding Tax Entries](how-to-view-withholding-tax-entries.md)   
 [New Zealand Local Functionality](new-zealand-local-functionality.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

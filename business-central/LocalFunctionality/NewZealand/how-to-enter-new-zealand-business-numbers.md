@@ -2,6 +2,7 @@
 title: Enter Inland Revenue Department Numbers
 description: You can enter an Inland Revenue Department Number (IRD) in certain pages in the New Zealand version of Business Central.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: db413ccd08be6dd29619c4f92e50393668c438bc
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7e6d96165c402b64b6829d4287e64c31dcba23fc
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147334"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773251"
 ---
 # <a name="enter-new-zealand-inland-revenue-department-numbers"></a>Enter New Zealand Inland Revenue Department Numbers
 
@@ -30,10 +31,10 @@ An algorithm provided by the local tax office ensures that the number is in a va
 
 ## <a name="to-enter-ird-numbers"></a>To enter IRD numbers
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information** or **Vendors**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information** or **Vendors**, and then choose the related link.  
 2. Select the required company or vendor.  
 3. Expand the **Registration** FastTab.  
-4. In the **IRD No. (Internal Revenue Department Number)** field, enter the New Zealand Inland Revenue Number.  
+4. In the **IRD No.** field, enter the New Zealand Inland Revenue Number.  
 
 ## <a name="see-also"></a>See Also
 

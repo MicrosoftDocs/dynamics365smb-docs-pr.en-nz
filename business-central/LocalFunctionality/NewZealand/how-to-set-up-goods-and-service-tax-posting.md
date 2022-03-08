@@ -2,6 +2,7 @@
 title: Set Up Goods and Service Tax Posting [NZ]
 description: This article describes how to set up posting for goods and services tax (GST) in the New Zealand version.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/18/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4d2690ac7e39daead70e102bfda3f0d58d0b8d45
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 45f75ea6bda1bc53f3bf7d781b3fae70690b4dcc
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148899"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323057"
 ---
 # <a name="set-up-goods-and-service-tax-posting-in-the-new-zealand-version"></a>Set Up Goods and Service Tax Posting in the New Zealand Version
 

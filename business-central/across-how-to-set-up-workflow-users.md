@@ -1,20 +1,21 @@
 ---
-title: How to Set Up Workflow Users
-description: Before you can create workflows, you must set up the users who take part in them on the Workflow User Group page.
+title: How to Set Up Workflow Users | Microsoft Docs
+description: Before you can create workflows, you must set up the users who take part in workflows. This is necessary, for example, to specify who will receive a notification to act on a workflow step.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 06/11/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a650f2e756f8b2be6008c7f7abc7c62290023bb4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9c0b7d79f59d2d59d2d382e3dc602769f41ac1f0
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134268"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774652"
 ---
 # <a name="set-up-workflow-users"></a>Set Up Workflow Users
 
@@ -31,7 +32,7 @@ Workflow users that function as approval users, both approval requesters and app
 
 ## <a name="to-set-up-a-workflow-user"></a>To set up a workflow user
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflow User Groups**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflow User Groups**, and then choose the related link.  
 2. Choose the **New** action. The **Workflow User Group** page opens.  
 3. In the **Code** field, enter a maximum of 20 characters to identify the workflow.  
 4. In the **Description** field, describe the workflow.  

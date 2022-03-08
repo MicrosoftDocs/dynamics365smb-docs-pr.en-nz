@@ -1,29 +1,43 @@
 ---
-title: Create Cheque Instalments [NZ]
-description: Describes how to create cheque instalments for post-dated cheques in the New Zealand version.
+title: How to Create Cheque Instalments
+description: Describes how to create cheque instalments for post-dated cheques.
+services: project-madeira
+documentationcenter: ''
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 28090,28091,28092,28093
-ms.date: 06/25/2021
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 80d3d519024e1b1c8a33867bd2a160107eef4a5c
-ms.sourcegitcommit: 67006b090a7bd70446414a19cc82e531190637dc
+ms.openlocfilehash: 59288a12d81ef6bd6206de4da293b66171999dca
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311159"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301261"
 ---
-# <a name="create-check-installments-in-the-new-zealand-version"></a>Create cheque instalments in the New Zealand Version
+# <a name="create-check-installments"></a>Create Cheque Instalments
+You can create cheque instalments for post-dated cheques. You can define the number of instalments that a payment will be divided into, the percent of interest, and the period in which the cheques will be created.  
 
-[!INCLUDE [create-check-installments](../includes/AUNZ/create-check-installments.md)]
+## <a name="to-create-a-check-installment"></a>To create a cheque instalment  
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Post Dated cheques-Purchases**, and then choose the relevant link.  
+2.  Choose the relevant cheque, and then, on the **Home** tab, choose **Edit**.  
+3.  On the **Post Dated Cheques-Purchase** page, on the **Home** tab, choose **Create Cheque Instalments**.  
+4.  On the **Options** FastTab, fill in the fields as described in the following table.  
+
+5.  |Field|Description|  
+    |---------------------------------|---------------------------------------|  
+    |**No. of Instalments**|Specifies the number of instalments into which the post-dated cheque will be divided.|  
+    |**Interest %**|Specifies the percent of interest.|  
+    |**Period Length**|Specifies the period for which the instalments will be created. For example, if you want to divide the cheque into monthly instalments, enter **1M**.|  
+    |**Start Document No.**|Specifies the starting number of the document. Based on the number of instalments specified, the consecutive numbers are allocated to the documents created.|  
+
+6.  Choose the **OK** button.  
+
+     The instalment cheques are created and displayed on the **Post Dated Cheques-Purchases** page.
 
 ## <a name="see-also"></a>See Also
-
 [New Zealand Local Functionality](new-zealand-local-functionality.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

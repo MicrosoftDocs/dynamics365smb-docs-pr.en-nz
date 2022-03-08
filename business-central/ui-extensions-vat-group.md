@@ -1,21 +1,22 @@
 ---
-title: The GST Group Management Extension
+title: The GST Group Management Extension | Microsoft Docs
 description: You can engage with other businesses to form a GST group and act as either a member or representative of the group when reporting GST.
 author: bholtorf
 manager: annbe
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: VAT, value added tax, report
-ms.date: 04/01/2021
+ms.date: 10/06/2020
 ms.author: bholtorf
-ms.openlocfilehash: 470b8af1322fa0f3b295f566244af44c3183c2fe
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f3fb73580eebc9468b0c66408adf758257b3a658
+ms.sourcegitcommit: 026484766988b8727649c02fc8990b0646999bf1
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132462"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5498603"
 ---
 # <a name="the-vat-group-management-extension"></a>The GST Group Management Extension
 
@@ -115,12 +116,8 @@ When the GST Group representative's GST Return has been submitted to the authori
 > The GST group functionality is only supported in those markets where [!INCLUDE[prod_short](includes/prod_short.md)] uses a GST framework that consists of GST returns and GST return periods. You cannot use GST groups in other markets that have other implementations of local GST reporting, such as Austria, Germany, Italy, Spain, and Switzerland. 
 
 ## <a name="see-also"></a>See Also
-
 [Work with GST on Sales and Purchases](finance-work-with-vat.md)  
-[Set Up Goods and Services Tax](finance-setup-vat.md)  
-[Work with GST on Sales and Purchases](finance-work-with-vat.md)  
-[Making Tax Digital in the United Kingdom](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)  
-[Norwegian GST Reporting in the Norwegian Version](LocalFunctionality/Norway/norwegian-vat-reporting.md)  
+[Set Up Value-Added Tax](finance-setup-vat.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

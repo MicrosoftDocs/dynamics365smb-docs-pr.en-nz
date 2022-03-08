@@ -1,20 +1,21 @@
 ---
 title: Overview of Reports to Help Prepare Closing Statements | Microsoft Docs
-description: Provides an overview of the reports you can use to gather information to prepare your company's closing statements when closing the financial year.
+description: Provides an overview of the reports you can use to gather information to prepare your company's closing statements when closing the fiscal year.
 author: jswymer
-ms.topic: overview
+ms.service: dynamics365-business-central
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: e9eb5243541cdd365aa6a92b1278f38da531ed54
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f58ee0ab43e8d43ae2d08e67cec52a9dd63ac202
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141837"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776657"
 ---
 # <a name="preparing-closing-statements"></a>Preparing Closing Statements
 There are a number of standard reports that you can use to gather the information that you need to prepare your company's closing statements.
@@ -31,7 +32,7 @@ The following table describes a number of reports that may be useful in this pro
 | Print an account schedule to analyse figures in general ledger accounts or compare actual general ledger entries with general ledger budget entries. |**Account Schedule** |
 | Check whether customer and vendor ledger entries balance with corresponding general ledger entries. |**Reconcile Cust. and Vend. Accs** |
 
-To see a report, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, type the name as it appears in the table, and then choose the related link.
+To see a report, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, type the name as it appears in the table, and then choose the related link.
 
 ## <a name="see-also"></a>See Also
 [Closing Years and Periods](year-close-years-periods.md)  

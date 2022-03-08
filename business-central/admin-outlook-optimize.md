@@ -2,6 +2,7 @@
 title: Optimising Outlook for Your Business Inbox
 description: Learn about things you can do to improve experience with the Business Inbox in Microsoft Outlook.
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Outlook, Microsoft 365, inbox, business inbox, WebView2, Edge, addin, add-in
 ms.date: 05/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 1726162e25b3a488df0d179c702c9c99afcc5c91
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2fee1782057d0f45319e4d12d715c2e1e0d3d4a6
+ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143988"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6064872"
 ---
 # <a name="optimizing-outlook-for-your-business-inbox"></a>Optimising Outlook for Your Business Inbox 
 
@@ -49,7 +50,7 @@ To check if you have Microsoft Edge WebView2 installed on a computer, do the fol
 
 From Start menu:
 
-1. Choose **Start** ![Windows Start.](media/windows-start-icon.png "Windows Start icon") > **Settings** ![Windows Settings](media/windows-settings-icon.png "Windows Settings icon") > **Apps & Features**.
+1. Choose **Start** ![Windows Start](media/windows-start-icon.png "Windows Start icon") > **Settings** ![Windows Settings](media/windows-settings-icon.png "Windows Settings icon") > **Apps & Features**.
 2. In the search box, type **WebView2**. If Microsoft Edge WebView2 is installed, you'll see an entry called **Microsoft Edge WebView2 Runtime**.
 
 From Control Panel:

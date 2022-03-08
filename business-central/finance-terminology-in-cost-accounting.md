@@ -1,27 +1,26 @@
 ---
-title: Terminology in Cost Accounting
-description: This topic defines the key terms that are used in cost accounting, such as allocation key and allocation source.
+title: Terminology in Cost Accounting | Microsoft Docs
+description: This topic defines the key terms that are used in cost accounting.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/16/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4ba3cb0930426f44c1064f4d565b8ddaf8563fdd
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b82b5dce54d9427fbd653bd8dd185d4c086d0459
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147586"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923911"
 ---
 # <a name="terminology-in-cost-accounting"></a>Terminology in Cost Accounting
-
 This topic defines the key terms that are used in cost accounting.  
 
-## <a name="key-terms"></a>Key Terms
-
+## <a name="key-terms"></a>Key Terms  
  The following table shows definitions of the key terms in cost accounting.  
 
 |**Term**|**Definition**|  
@@ -51,7 +50,4 @@ This topic defines the key terms that are used in cost accounting.
 ## <a name="see-also"></a>See Also  
  [About Cost Accounting](finance-about-cost-accounting.md)   
  [Accounting for Costs](finance-manage-cost-accounting.md)  
- [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

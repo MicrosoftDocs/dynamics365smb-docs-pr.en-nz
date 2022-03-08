@@ -2,19 +2,20 @@
 title: View Posted Tax Invoices [NZ]
 description: Describes how to view the details of posted GST invoices and posted purchase tax invoices in the New Zealand version.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 28071, 28073, 28081, 28082
+ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7de36eacdd24c75e58b69756265447651ec9fc87
-ms.sourcegitcommit: 67006b090a7bd70446414a19cc82e531190637dc
+ms.openlocfilehash: f0d62b72d2b06f8b43622d258442ba14666acc25
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311166"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443510"
 ---
 # <a name="view-posted-tax-invoices-in-the-new-zealand-version"></a>View Posted Tax Invoices in the New Zealand Version
 

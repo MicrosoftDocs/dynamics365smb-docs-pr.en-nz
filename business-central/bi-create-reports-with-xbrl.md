@@ -1,28 +1,25 @@
 ---
-title: How to Create Reports with XBRL
-description: XBRL is an XML-based language for tagging financial data, and enabling businesses to efficiently and accurately process and share their data.
+title: How to Create Reports with XBRL | Microsoft Docs
+description: XBRL, which stands for eXtensible Business Reporting Language, is an XML-based language for tagging financial data, and enabling businesses to efficiently and accurately process and share their data.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/14/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a5e16c335730190b0db162876230c101f8319941
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9c806874d1bfea91224f0c458efea8a1da2d87f8
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135493"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776857"
 ---
 # <a name="create-reports-with-xbrl"></a>Create Reports with XBRL
-
-> [!NOTE]
-> We're in the process of removing the features for XBRL reporting from [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Changes in 2022 release wave 1](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1).
-
 XBRL, which stands for eXtensible Business Reporting Language, is an XML-based language for tagging financial data, and enabling businesses to efficiently and accurately process and share their data. The XBRL initiative enables global financial reporting by numerous ERP software companies and international accounting organisations. The goal of the initiative is to provide a standard for the uniform reporting of financial information for banks, investors, and government authorities. Such business reporting can include:  
 
  • Financial statements  
@@ -74,7 +71,7 @@ After you import or update the taxonomy, the lines of the schemas must be suppli
 
 You set up the XBRL Lines by mapping the data in the taxonomy to the data in your general ledger.  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **XBRL Taxonomies**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **XBRL Taxonomies**, and then choose the related link.  
 2.  On the **XBRL Taxonomies** page, select a taxonomy from the list.  
 3.  Choose the **Lines** action.  
 4.  Select a line and fill in the fields.   
@@ -94,7 +91,7 @@ You set up the XBRL Lines by mapping the data in the taxonomy to the data in you
  ## <a name="to-import-an-xbrl-taxonomy"></a>To import an XBRL taxonomy  
 The first step in working with the XBRL functionality is to import the taxonomy into your company database. A taxonomy consists of one or more schemas and some linkbases. After you have completed the import of both schemas and linkbases and have applied the linkbases to the schema, you can set up the lines and map the general ledger accounts in the chart of accounts to the appropriate taxonomy lines.  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **XBRL Taxonomies**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **XBRL Taxonomies**, and then choose the related link.  
 2.  On the **XBRL Taxonomies** page, create a new line and enter the name and description of the taxonomy.  
 3.  Choose the **Schemas** action, and then insert the description of the schema.  
 4.  To import the schema, on the **XBRL Schemas** page, choose the **Import** action, and the select a folder and an XSD file. Choose the **Open** button.  
@@ -108,7 +105,7 @@ The first step in working with the XBRL functionality is to import the taxonomy 
 ## <a name="to-update-an-xbrl-taxonomy"></a>To update an XBRL taxonomy  
 When a taxonomy changes you need to update the current taxonomy accordingly. The reason for the update can be an altered schema, an altered linkbase, or a new linkbase. After updating the taxonomy, you only need to map the lines for the changed or new lines.  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **XBRL Taxonomies**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **XBRL Taxonomies**, and then choose the related link.  
 2.  On the **XBRL Taxonomies** page, choose the **Schemas** action.  
 3.  To update a schema, select the schema you want to update, and then choose the **Import** action.  
 4.  To update or add a new linkbase, choose the **Linkbases** action.  
