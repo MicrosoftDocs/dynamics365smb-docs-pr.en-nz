@@ -1,23 +1,23 @@
 ---
-title: How to Track Relations Between Demand and Supply | Microsoft Docs
-description: From any supply or demand document in the so-called order network, you can track the order demand (tracked quantity), forecast, blanket sales order, or planning parameter (untracked quantity) that has given rise to the planning line in question.
+title: Track Relations Between Demand and Supply
+description: This topic explains the different ways to track relations between demand and supply such as tracking linked items and dealing with untracked planing elements.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.search.form: 5830, 9101, 99000822, 99000855
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: b164ce7ba4be7e21b7c99c6e38cb9019e3ddc665
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 27dce308070eb72ae7699bae084b6bedb0324ba7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784883"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146384"
 ---
 # <a name="track-relations-between-demand-and-supply"></a>Track Relations Between Demand and Supply
+
 From any supply or demand document in the so-called order network, you can track the order demand (tracked quantity), forecast, blanket sales order, or planning parameter (untracked quantity) that has given rise to the planning line in question.
 
 The planning worksheets also offers supporting planning information about non-order entities to help the planner obtain an optimal supply plan. For more information, see [Untracked Planning Elements](production-how-track-demand-supply.md#untracked-planning-elements).
@@ -27,7 +27,7 @@ Order tracking shows how sales orders, production orders, and purchase orders ar
 
 The following describes how to track linked items on a firm planned production order. The steps are similar for all other order types, and from planning worksheet lines.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Order**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Order**, and then choose the related link.
 2. Open the relevant firm planned production order from the list.
 3. On the **Lines** FastTab, choose the **Functions** action, and then choose the **Order Tracking** action.
 
@@ -61,4 +61,7 @@ The page contains entries which account for an untracked surplus quantity in ord
 [Design Details: Reservation, Tracking, and Action Messaging](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Design Details: Supply Planning](design-details-supply-planning.md)   
 [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

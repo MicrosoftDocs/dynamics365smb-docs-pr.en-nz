@@ -2,7 +2,6 @@
 title: Design Details - Reconciliation with the General Ledger | Microsoft Docs
 description: This topic describes reconciliation with the general ledger when you post inventory transactions, such as sales shipments, production output, or negative adjustments.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: ad155e604780af087c93e4e245002f3511d3d5a9
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: f3781169dcf91eacaa8c0988a49d908f7f947f02
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215818"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145852"
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Design Details: Reconciliation with the General Ledger
 When you post inventory transactions, such as sales shipments, production output, or negative adjustments, the quantity and value changes to the inventory are recorded in the item ledger entries and the value entries, respectively. The next step in the process is to post the inventory values to the inventory accounts in the general ledger.  
@@ -82,16 +81,16 @@ The following table shows how the work centre is set up on the work centre card.
     1. The interim accounts are cleared. (Sale)  
     2. Cost of goods sold (COGS) is posted. (Sale)  
 
-        ![Results of sales posting to GL accounts](media/design_details_inventory_costing_3_gl_posting_sales.png "Results of sales posting to GL accounts")  
+        ![Results of sales posting to GL accounts.](media/design_details_inventory_costing_3_gl_posting_sales.png "Results of sales posting to GL accounts")  
 5. The user posts consumption of 150 links, which is the number of links used to produce one chain. (Consumption, Material)  
 
-    ![Results of material posting to GL accounts](media/design_details_inventory_costing_3_gl_posting_material.png "Results of material posting to GL accounts")  
+    ![Results of material posting to GL accounts.](media/design_details_inventory_costing_3_gl_posting_material.png "Results of material posting to GL accounts")  
 6. The work centre used 60 minutes to produce the chain. The user posts the conversion cost. (Consumption, Capacity)  
 
     1. The direct costs are posted. (Consumption, Capacity)  
     2. The indirect costs are calculated and posted. (Consumption, Capacity)  
 
-        ![Results of capacity posting to GL accounts](media/design_details_inventory_costing_3_gl_posting_capacity.png "Results of capacity posting to GL accounts")  
+        ![Results of capacity posting to GL accounts.](media/design_details_inventory_costing_3_gl_posting_capacity.png "Results of capacity posting to GL accounts")  
 7. The user posts the expected cost of one chain. (Output)  
 8. The user finishes the production order and runs the **Adjust Cost - Item Entries** batch job. (Output)  
 
@@ -100,7 +99,7 @@ The following table shows how the work centre is set up on the work centre card.
     3. The indirect cost (overhead) is transferred from the indirect cost account to the inventory account. (Output)  
     4. This results in a variance amount of LCY 157.00. Variances are only calculated for standard-cost items. (Output)  
 
-        ![Results of output posting to GL accounts](media/design_details_inventory_costing_3_gl_posting_output.png "Results of output posting to GL accounts")  
+        ![Results of output posting to GL accounts.](media/design_details_inventory_costing_3_gl_posting_output.png "Results of output posting to GL accounts")  
 
         > [!NOTE]  
         >  For the sake of simplicity, only one variance account is shown. In reality, five different accounts exist:  
@@ -113,7 +112,7 @@ The following table shows how the work centre is set up on the work centre card.
 
 9. The user revalues the chain from LCY 150.00 to LCY 140.00. (Adjustment/Revaluation/Rounding/Transfer)  
 
-    ![Results of adjustment posting to GL accounts](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Results of adjustment posting to GL accounts")  
+    ![Results of adjustment posting to GL accounts.](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Results of adjustment posting to GL accounts")  
 
 For more information about the relationship between the account types and the different types of value entries, see [Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md).  
 

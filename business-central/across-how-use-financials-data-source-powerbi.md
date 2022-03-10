@@ -2,7 +2,6 @@
 title: Building Reports in Power BI Desktop to Display Business Central Data | Microsoft Docs
 description: Make your data available as a data source in Power BI and build powerful reports of the state of your business.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: ef81b4fd16e66c4ec1453798ae77f947b12c975e
-ms.sourcegitcommit: eeaf9651c26e49974254e29b7e2d16200c818dad
+ms.openlocfilehash: 471847e62911ba1dc274a0d02ffbd66968d0b7ca
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6341349"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141583"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Building Power BI Reports to Display [!INCLUDE [prod_long](includes/prod_long.md)] Data
 
@@ -150,6 +149,39 @@ There are a couple ways to get reports to your coworkers and others:
 - Share report from your Power BI service
 
     If you have a Power BI Pro licence, you can share the report to others, directly from your Power BI service. For more information, see [Power BI - Share a dashboard or report](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
+
+## <a name="fixing-problems"></a>Fixing problems
+
+### <a name="cannot-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>"Cannot insert a record. Current connection intent is Read-Only." error connecting to custom API page
+
+> **APPLIES TO:** Business Central online
+
+Starting in February 2022, new reports that use Business Central data will connect to a read-only replica of the Business Central database by default. In rare cases, depending on the page design, you'll get an error when you try to connect to and get data from the page.
+
+1. Start Power BI Desktop.
+2. In the ribbon, select **Get Data** > **Online Services**.
+3. In the **Online Services** pane, select **Dynamics 365 Business Central**, then **Connect**.
+4. In the **Navigator** window, select the API endpoint that you want to load data from.
+5. In the preview pane on the right, you'll see the following error:
+
+   *Dynamics365BusinessCentral: Request failed: The remote server returned an error: (400) Bad Request. (Cannot insert a record. Current connection intent is Read-Only. CorrelationId: [...])".*
+
+6. Select **Transform Data** instead of **Load** as you might normally do.
+7. In **Power Query Editor**, select **Advanced Editor** from the ribbon.
+8. In the line that starts with **Source =**, replace the following text:
+
+   ```
+   Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, null)
+   ```
+
+   with:
+
+   ```
+   Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, [UseReadOnlyReplica = false])
+   ```
+
+9. Select **Done**.
+10. Select **Close & Apply** from the ribbon to save the changes and close Power Query Editor.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 

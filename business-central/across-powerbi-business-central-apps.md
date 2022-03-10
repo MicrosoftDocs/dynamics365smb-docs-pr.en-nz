@@ -2,7 +2,6 @@
 title: Using Business Central Apps in Power BI| Microsoft Docs
 description: Getting insight, business intelligence, and KPIs from your Business Central data is easy with the Business Central apps for Power BI.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 855f071f624c2a99bd9b637111b67d3a59e61350
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e61e4561c4227eba4c518e6e5ec0582c5ebe7d70
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781327"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134164"
 ---
 # <a name="using-the-prod_short-apps-in-power-bi"></a>Using the [!INCLUDE [prod_short](includes/prod_short.md)] Apps in Power BI
 
@@ -63,7 +62,7 @@ Sign up for the Power BI service. If you haven't already signed up, go to [https
 1. Open your browser, navigate to [https://powerbi.microsoft.com](https://powerbi.microsoft.com), and sign into your account.
 2. Select **Get Data** at the bottom of the left navigation pane.  
 
-    ![Navigating to Get Data](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
+    ![Navigating to Get Data.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
     You can also get starting from within [!INCLUDE [prod_short](includes/prod_short.md)]. From your Home page, navigate to **Report Selection** in the Power BI section. Select either **Service** or **My Organisation** from the ribbon. Either the Organisation gallery in Power BI or Microsoft AppSource opens, filtered to only display apps related to [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -89,7 +88,7 @@ Sign up for the Power BI service. If you haven't already signed up, go to [https
 5. When prompted, enter the user name and password for signing into [!INCLUDE[prod_short](includes/prod_short.md)].
 6. Once connected, a dashboard and reports are added to your Power BI workspace. When completed, the tiles show data from your [!INCLUDE[prod_short](includes/prod_short.md)] company.
 
-    ![Select Dynamics 365 Business Central  and select Get it now](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
+    ![Select Dynamics 365 Business Central  and select Get it now.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
 
 ## <a name="fixing-problems"></a>Fixing problems
 
@@ -171,7 +170,7 @@ The Power BI app will only display data from the [!INCLUDE[prod_short](includes/
 [Using [!INCLUDE[prod_short](includes/prod_short.md)] as a Power Apps Data Source](across-how-use-financials-data-source-powerapps.md)  
 [Using [!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate](across-how-use-financials-data-source-flow.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

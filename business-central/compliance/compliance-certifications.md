@@ -1,42 +1,49 @@
 ---
-title: Certifications | Microsoft Docs
-description: This content contains information about certifications in relation to Business Central.
+title: Certifications of the service
+description: This content contains information about certifications in relation to Business Central, such as region-specific certifications and accreditations.
 author: sorenfriisalexandersen
-documentationcenter: ''
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: b18fa9511d8d79a2954dca57250a04905e5d0efa
-ms.sourcegitcommit: e8abfb78e13f3c29035087b09d7930f2950ab7a3
+ms.openlocfilehash: 643d8cbfcc4a17db468263aee72a12cb1237201c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 07/01/2019
-ms.locfileid: "1717623"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146868"
 ---
-# <a name="certifications"></a>Certifications  
-This content contains information about certifications in relation to [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
+# <a name="certifications"></a>Certifications
 
-## <a name="country-certifications-and-accreditations"></a>Country certifications and accreditations
-In some countries accounting software must be certified to comply with local tax regulatives and financial requirements. Some countries excersice this as a yearly recurring requirement and others as a one-off requirement to comply with. Below is a list of the current countries in which Business Central has achieved certifications. Note that only some countries have this requirement.  
-- France (Tax Audit Certification) [(link to certification in French)](https://services.infocert.org/certificats/CERTIF-07-181-R16.pdf) 
-- Germany (also covers Austria and Switzerland) [(link to certification in German)](https://www.bdo.de/de-de/themen/softwarebescheinungen/bdo/microsoft-dynamics-365-business-central)
+This content contains information about certifications in relation to [!INCLUDE[prod_short](../includes/prod_short.md)].  
+
+## <a name="countryregion-specific-certifications-and-accreditations"></a>Country/region-specific certifications and accreditations
+
+In some countries or regions, accounting software must be certified to comply with local tax regulation and financial requirements. Some countries exercise this as a yearly recurring requirement and others as a one-off requirement to comply with. Below is a list of the current countries/regions where Business Central has achieved certifications.
+
+> [!NOTE]
+> Only some countries have this requirement.
+
+- France (Tax Audit Certification) [(search by the product name at https://certificates.infocert.org/#)](https://certificates.infocert.org/#)  
+- Germany (also covers Austria and Switzerland) [(link to certification in German)](https://www.bdo.de/de-de/themen/softwarebescheinungen/bdo/microsoft-dynamics-365-business-central)  
 
 > [!NOTE]  
->  **Certifications in countries where Microsoft does not release localized versions**  
-> In countries where Microsoft does not release a local version, it is usually up to the partners to achieve certification of the Business Central base product including the partner's localization and regulatory features on top.
+> In countries/regions where Microsoft does not release a local version, it is usually up to the partners to achieve certification of the Business Central base product, including the partner's localisation and regulatory features on top.
 
-## <a name="other-certifications"></a>Other certifications  
-Business Central as a cloud service also has achieved certifications like ISO 27001 and more. For a complete list of these certifications, see [this page (PDF)](https://aka.ms/d365-compliance-list).
+## <a name="other-certifications"></a>Other certifications
 
-## <a name="see-also"></a>See Also  
+Business Central as a cloud service also has achieved certifications, such as ISO 27001 and more. For a complete list of these certifications, see [this page (PDF)](https://aka.ms/d365-compliance-list).
+
+## <a name="see-also"></a>See Also
+
 [Compliance](compliance-overview.md)  
 [Application Compliance](compliance-application-compliance.md)  
 [Service Compliance](compliance-service-compliance.md)  
 
- ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
- 
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

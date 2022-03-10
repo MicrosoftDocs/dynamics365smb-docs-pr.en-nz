@@ -2,7 +2,6 @@
 title: Print Income Statements [NZ]
 description: Describes how print the company's annual income statement in a report in the New Zealand version.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: bholtorf
-ms.openlocfilehash: d6cd5af7a6fe45b4f0db29e1c02c5cda14a0fa43
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 3612c6ae07b6796ef6c7c5ccbd71216f22e7c783
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443561"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148898"
 ---
 # <a name="print-income-statements-in-the-new-zealand-version"></a>Print Income Statements in the New Zealand version
 

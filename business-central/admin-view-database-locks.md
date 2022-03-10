@@ -1,20 +1,20 @@
 ---
 title: View Database Locks
-description: Learn how you can view information about any database locks right from the client interface in Business Central.
+description: Learn how you can view information about customer database locks right from the client interface in Business Central.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.search.form: 9511
+ms.date: 06/14/2021
 ms.author: jswymer
-ms.openlocfilehash: b53677ab57d6c48b015bb0dd47ea6e315f8e80c3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0a2561eea331ffbaeb058dee2ee13caf0a82d18c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776932"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143702"
 ---
 # <a name="viewing-database-locks"></a>Viewing Database Locks
 
@@ -24,7 +24,7 @@ Users may be blocked from completing transactions on the locked data. They'll ty
 
 ## <a name="to-view-database-locks"></a>To view database locks
 
-Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Database Locks**, and then choose the related link.
+Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Database Locks**, and then choose the related link.
 
 The **Database Locks** page gives snapshot of all current database locks.
 

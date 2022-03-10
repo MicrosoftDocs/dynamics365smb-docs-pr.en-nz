@@ -1,21 +1,20 @@
 ---
-title: Design Details - Inbound Warehouse Flow | Microsoft Docs
-description: The inbound flow in a warehouse begins when items arrive in the warehouse of the company location, either received from external sources or from another company location. An employee registers the items, typically by scanning a bar code. From the receiving dock, warehouse activities are performed at different complexity levels to bring the items into the storage area.
+title: Design Details - Inbound Warehouse Flow
+description: Inbound warehouse flow begins when items arrive in the warehouse company location. Items are registered and eventually matched to inbound source documents.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 6b86bf4be6a925913e3e2a0a70cf2066e8956681
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: de7a468377f454c01d45742f4510cb9978340ae6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751572"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132019"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Design Details: Inbound Warehouse Flow
 The inbound flow in a warehouse begins when items arrive in the warehouse of the company location, either received from external sources or from another company location. An employee registers the items, typically by scanning a bar code. From the receiving dock, warehouse activities are performed at different complexity levels to bring the items into the storage area.  
@@ -51,7 +50,7 @@ In methods A, B, and C, the actions of receiving and putting away are combined i
 ## <a name="basic-warehouse-configurations"></a>Basic Warehouse Configurations  
 The following diagram illustrates the inbound warehouse flows by document type in basic warehouse configurations. The numbers in the diagram correspond with the steps in the sections following the diagram.  
 
-![Inbound flow in basic warehouse configurations](media/design_details_warehouse_management_inbound_basic_flow.png "Inbound flow in basic warehouse configurations")  
+![Inbound flow in basic warehouse configurations.](media/design_details_warehouse_management_inbound_basic_flow.png "Inbound flow in basic warehouse configurations")  
 
 ### <a name="1-release-source-document--create-inventory-put-away"></a>1: Release Source Document / Create Inventory Put-Away  
 When items are received in the warehouse, the user who is responsible for receiving releases the source document, such as a purchase order or an inbound transfer order, to signal to warehouse workers that the received items can be put away in inventory. Alternatively, the user creates inventory put-away documents for individual order lines, in a push fashion, based on specified bins and quantities to handle.  
@@ -70,7 +69,7 @@ Positive item ledger entries are created, warehouse entries are created, and the
 ## <a name="advanced-warehouse-configurations"></a>Advanced warehouse configurations  
 The following diagram illustrates the inbound warehouse flow by document type in advanced warehouse configurations. The numbers in the diagram correspond with the steps in the sections following the diagram.  
 
-![Inbound flow in advanced warehouse configurations](media/design_details_warehouse_management_inbound_advanced_flow.png "Inbound flow in advanced warehouse configurations")  
+![Inbound flow in advanced warehouse configurations.](media/design_details_warehouse_management_inbound_advanced_flow.png "Inbound flow in advanced warehouse configurations")  
 
 ### <a name="1-release-source-document"></a>1: Release Source Document  
 When items are received in the warehouse, the user who is responsible for receiving releases the source document, such as a purchase order or an inbound transfer order, to signal to warehouse workers that the received items can be put away in inventory.  
@@ -110,3 +109,6 @@ Warehouse entries are created, and the warehouse put-away lines are deleted, if 
 
 ## <a name="see-also"></a>See Also  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

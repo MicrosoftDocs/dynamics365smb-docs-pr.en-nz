@@ -2,7 +2,6 @@
 title: Mapping the Tables and Fields to Synchronise | Microsoft Docs
 description: Learn how to map tables and fields for synchronising data between Business Central and Microsoft Dataverse.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,15 +9,15 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9c11e4f5acb0055b42a2d172f9a7deba75edfb08
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 844b053a307d88bd93d945a7927726fd28518000
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779823"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147154"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Mapping the Tables and Fields to Synchronise
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 The basis of synchronising data is mapping the tables and fields in [!INCLUDE[prod_short](includes/prod_short.md)] with tables and columns in [!INCLUDE[prod_short](includes/cds_long_md.md)], so they can exchange the data. Mapping happens through integration tables. 
 
@@ -48,7 +47,9 @@ After you specify the strategy, on the **Coupled Data Synchronisation Errors** p
 Mapping tables is only the first step. You must also map the fields on the tables. Integration field mappings link fields in [!INCLUDE[prod_short](includes/prod_short.md)] tables with corresponding columns in [!INCLUDE[prod_short](includes/cds_long_md.md)], and determine whether to synchronise data in each table. The standard table mapping that [!INCLUDE[prod_short](includes/prod_short.md)] provides includes field mappings, but you can change those if you want. For more information, see [Viewing Table Mappings](admin-synchronizing-business-central-and-sales.md#tip-for-admins-viewing-table-mappings).
 
 > [!Note]
-> If you are using an on-premises version of [!INCLUDE[prod_short](includes/prod_short.md)], Integration field mappings are defined in table 5336 Integration Field Mapping.
+> If you are using an on-premises version of [!INCLUDE[prod_short](includes/prod_short.md)], integration field mappings are defined in table 5336 Integration Field Mapping.
+
+You can manually map the fields, or you can automate the process by mapping multiple fields at the same time based on criteria for matching their values. For more information, see [To couple multiple records based on field value matching](admin-how-to-couple-and-synchronize-records-manually.md).
 
 ### <a name="handling-differences-in-field-values"></a>Handling Differences in Field Values
 Sometimes the values in the fields that you want to map are different. For example, in [!INCLUDE[crm_md](includes/crm_md.md)] the language code for the United States is "U.S.," but in [!INCLUDE[prod_short](includes/prod_short.md)] it's "US." That means you must transform the value when you synchronise data. This happens through transformation rules that you define for the fields. You define transformation rules on the **Integration Table Mappings** page by choosing **Mapping**, and then **Fields**. Predefined rules are provided, but you can also create your own. For more information, see [Transformation Rules](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
@@ -68,7 +69,7 @@ Couplings can be set up automatically by using the synchronisation jobs, or manu
 If you do not want to synchronise all rows for a specific table in [!INCLUDE[prod_short](includes/cds_long_md.md)] or table in [!INCLUDE[prod_short](includes/prod_short.md)], you can set up filters to limit the data that is synchronised. You set up filters on the **Integration Table Mappings** page.  
 
 #### <a name="to-filter-records-or-rows-for-synchronization"></a>To filter records or rows for synchronisation  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Integration Table Mappings**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Integration Table Mappings**, and then choose the related link.
 
 2.  To filter the [!INCLUDE[prod_short](includes/prod_short.md)] records, set the **Table Filter** field.  
 
@@ -80,7 +81,7 @@ By default, only records in [!INCLUDE[prod_short](includes/prod_short.md)] and r
 For example, the SALESPEOPLE - Dynamics 365 Sales synchronisation job uses the table mapping SALESPEOPLE. The synchronisation job copies data from users in [!INCLUDE[prod_short](includes/cds_long_md.md)] to salespersons in [!INCLUDE[prod_short](includes/prod_short.md)]. If you set up the table mapping to create new records, for every user in [!INCLUDE[prod_short](includes/cds_long_md.md)] that is not already coupled to a salesperson in [!INCLUDE[prod_short](includes/prod_short.md)], a new salesperson row is created in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 #### <a name="to-create-new-records-during-synchronization"></a>To create new records during synchronisation  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Integration Table Mappings**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Integration Table Mappings**, and then choose the related link.
 
 2.  In the table mapping entry in the list, clear the **Synch. Only Coupled Records** field.  
 
@@ -96,7 +97,7 @@ If you install the default synchronisation setup, most of the time, two configur
 -   **CDSACCOUNT** creates and synchronises new accounts in [!INCLUDE[prod_short](includes/cds_long_md.md)] based on an account in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 #### <a name="to-specify-configuration-templates-on-a-table-mapping"></a>To specify configuration templates on a table mapping  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Integration Table Mappings**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Integration Table Mappings**, and then choose the related link.
 
 2.  In the table mapping entry in the list, in the **Table Config Template Code** field, choose to the configuration template to use for new records in [!INCLUDE[prod_short](includes/prod_short.md)].  
 

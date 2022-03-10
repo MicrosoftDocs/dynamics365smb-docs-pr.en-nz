@@ -1,39 +1,42 @@
 ---
-title: Set Up Financial Processes| Microsoft Docs
-description: Learn about the tasks to set up finance in your business to suit all your accounting, auditing, or bookkeeping needs.
-services: project-madeira
-documentationcenter: ''
+title: Set Up Financial Processes
+description: Learn about the tasks required to set up finance in your business to suit all your accounting, auditing, or bookkeeping needs.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 127d0dd747fa29926852be9e99e36d992e7d0ea1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 06/16/2021
+ms.author: edupont
+ms.openlocfilehash: 7c6f7574a227d2901c8989db50d6f4c75528429f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305732"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147612"
 ---
 # <a name="setting-up-finance"></a>Setting Up Finance
-To help you get going quickly, [!INCLUDE[d365fin](includes/d365fin_md.md)] includes standard configurations for most financial processes. If you need to change the configurations to suit your business, go right ahead. For example, from the Role Centre, you can use an assisted setup guide to set up US sales tax rate for your location.  
+Before you can begin to run your business, you must specify rules and defaults for how you want to manage finance processes for that company. You start by setting up the core of the company's accounting records - the chart of accounts. Then you set up posting groups, which makes the process of assigning default general ledger posting accounts to customers, vendors, and items more efficient.
 
-However, there are some things you need to set up yourself. For example, if you want to use dimensions as a basis for business intelligence.  
+Some finance setup can be done automatically with assisted setup guides, and some must be done manually. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md).
+
+You can use dimensions to add different types of information to every transaction. You can set up your company's basic dimensions, such as Projects and Departments. Later, you can add more dimensions when you need them, and you can set up temporary dimensions for use during a limited time period, for example, in connection with a sales campaign. For more information, see [Working with Dimensions](finance-dimensions.md).
+
+Many of the setup tasks must be completed before you can begin recording financial transactions, but most settings can be changed at a later date. Some of the set up tasks are optional, for example, you only set up Intercompany Postings and Consolidations if you are working with multiple companies. Some setup tasks, such as specifying the period during which posting is allowed, may have to be repeated periodically.  
 
 The following table describes a sequence of tasks, with links to the topics that describe them.
 
 | To | See |
 | --- | --- |
-| Choose how you pay your vendors. |[Defining Payment Methods](finance-payment-methods.md) |
+| Specify how you want to be paid by customers, and how you want to pay your vendors. |[Set Up Payment Methods](finance-payment-methods.md) |
+| Specify payment terms to manage due dates and to calculate possible payment discounts.|[Set Up Payment Terms](finance-payment-terms.md) |
 | Specify the posting groups that map entities like customers, vendors, items, resources, and sales and purchase documents to general ledger accounts. |[Setting Up Posting Groups](finance-posting-groups.md)|
 |Create account schedules and define account categories to define the contents of financial charts and reports, such as the Balance Sheet and Income Statement reports.|[Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md)|
 |Set up a tolerance by which the system closes an invoice even though the payment, including any discount, does not fully cover the amount on the invoice.|[Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)|
-| Set up fiscal periods. |[Open a New Fiscal Year](finance-how-open-new-fiscal-year.md) |
-| Define how you report value-added tax amounts that you have collected for sales to the tax authorities. |[Setting Up Calculations and Posting Methods for Goods and Services Tax](finance-setup-vat.md)|
+| Set up financial periods. |[Work with Accounting Periods and Financial Years](finance-accounting-periods-and-fiscal-years.md) |
+|Set up reminder terms to help you collect for overdue payments.|[Set Up Reminder Terms and Levels](finance-setup-reminders.md)|
+| Define how you report goods and services tax amounts that you have collected for sales to the tax authorities. |[Set Up Goods and Services Tax (GST)](finance-setup-vat.md)|
 |Prepare to handle unrealised GST in connection with cash-based accounting methods.|[Set Up Unrealised GST for Cash-Based Accounting](finance-setup-unrealized-vat.md)|
 | Set your Sales and Purchases features up to handle payments in foreign currencies.|[Enable Application of Ledger Entries in Different Currencies](finance-how-enable-application-ledger-entries-different-currencies.md)
 |Define one or more additional currencies so that amounts are automatically reported in both LCY and an additional reporting currency on each G/L entry and on other entries.|[Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md)|
@@ -45,13 +48,24 @@ The following table describes a sequence of tasks, with links to the topics that
 |Enable invoicing of a customer who is not set up in the system.|[Set Up Cash Customers](finance-how-to-set-up-cash-customers.md)|
 | Set up Intrastat reporting, and submit the report to an authority | [Set Up and Report Intrastat](finance-how-setup-report-intrastat.md)|
 |Make sure an entry in a general journal is allocated to several different accounts when you post the journal, either quantity, percentage, or amount.|[Use Allocation Keys in General Journals](ui-how-use-allocation-keys-general-journals.md)|
+|Set up source codes and reason codes that you can use to track audit trails|[Setting Up Source Codes and Reason Codes for Audit Trails](finance-setup-trail-codes.md)|
+|Specify default reports to be used for different document types.|[Report Selection in Business Central](across-report-selections.md)|
+
+> [!TIP]
+> Depending on your geographical location, some pages can contain fields that are not described in the articles that are listed here because they apply to local functionality or customisations. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+
+## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>See Also
+
 [Finance](finance.md)  
-[Managing Bank Accounts](bank-manage-bank-accounts.md)  
+[Reconciling Bank Accounts](bank-manage-bank-accounts.md)  
 [Working with Dimensions](finance-dimensions.md)  
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Analyzing Cash Flow in Your Company](finance-analyze-cash-flow.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

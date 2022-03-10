@@ -1,23 +1,21 @@
 ---
-title: Overview of Tasks to Manage Purchasing | Microsoft Docs
+title: Overview of Tasks to Manage Purchasing
 description: Outlines tasks to manage your purchasing or procurement processes, including how purchase invoices and purchase orders work.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 10/01/2020
+ms.search.form: 460
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9cd1f47fa00539c96a9ee79175161113f4fe103f
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: a2d561087755f6cac596b216d9e02fa31be61726
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383791"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137253"
 ---
 # <a name="purchasing"></a>Purchasing
 You create a purchase invoice or purchase order to record the cost of purchases and to track accounts payable. If you need to control an inventory, purchase invoices are also used to dynamically update inventory levels so that you can minimise your inventory costs and provide better customer service. The purchasing costs, including service expenses, and inventory values that result from posting purchase invoices contribute to profit figures and other financial KPIs on your Role Centre.
@@ -45,6 +43,10 @@ The following table describes a sequence of tasks, with links to the topics that
 | Learn how [!INCLUDE[prod_short](includes/prod_short.md)] calculates when you must order an item to receive it on a certain date.|[Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)|
 |Resolve confusion when two or more records exist for the same vendor.|[Merge Duplicate Records](sales-how-merge-duplicate-records.md)|
 |Manage your commitment to a vendor to purchase large quantities delivered in several shipments over time.|[Work With Blanket Purchase Orders](sales-how-to-create-blanket-sales-orders.md)|
+
+## <a name="external-document-numbers"></a>External document numbers
+
+[!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/paths/purchase-items-services-dynamics-365-business-central/)
 

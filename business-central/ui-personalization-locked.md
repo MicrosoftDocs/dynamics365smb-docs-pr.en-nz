@@ -1,29 +1,29 @@
 ---
-title: Why Can't I Personalise a Page | Microsoft Docs
+title: Why Can't I Personalise a Page
 description: Explains why you cannot personalise a page and what you can do to unlock it so you can personalise it.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: c77664a1013804de13303c8e1d162c437cf5d6e7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: dd94d467961cf4f01fdffa35241d84371be64527
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315148"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335334"
 ---
 # <a name="why-a-page-is-locked-from-personalization"></a>Why a Page is Locked from Personalisation
 
-There are two conditions that prevent you from personalising a page. Either the page is locked (as indicated by the ![Personalise Lock](media/personalization-lock-icon.png "Personalise lock")) icon or it is blocked (as indicated by the ![Personalisation blocked](media/personalization-blocked-icon.png "Personalisation blocked") icon).
+There are two conditions that prevent you from personalising a page. Either the page is locked (as indicated by the ![Personalise Lock.](media/personalization-lock-icon.png "Personalise lock")) icon or it is blocked (as indicated by the ![Personalisation blocked.](media/personalization-blocked-icon.png "Personalisation blocked") icon).
 
 ## <a name="locked-from-personalizing"></a>Locked from Personalising
 
-If there is a ![Personalise Lock](media/personalization-lock-icon.png "Personalise lock") icon in the **Personalising** banner when you open a page, this means that you are currently prevented from making any more personalisation changes to the page.
+If there is a ![Personalise Lock.](media/personalization-lock-icon.png "Personalise lock") icon in the **Personalising** banner when you open a page, this means that you are currently prevented from making any more Personalisation changes to the page.
 
 <!-- This is because we changed the way personalization works behind the scenes since the last time that you personalized the page. Unfortunately, the old way and new of doing things do not work together.
 
@@ -50,7 +50,7 @@ Before you unlock the page, be aware of the following:
 
 If there is a ![Personalisation blocked](media/personalization-blocked-icon.png "Personalisation blocked") icon in the **Personalising** banner, this means that you are blocked from doing any personalisation to the page.
 
-<!-- Only text is translated, so removing this image for non-English UX reasons.  ![Personalize blocked](media/personalization-blocked.png "Personalize lock") -->
+<!-- Only text is translated, so removing this image for non-English UX reasons.  ![Personalize blocked.](media/personalization-blocked.png "Personalize lock") -->
 
 The reason for this is that the Role Centre or role that is currently associated with your user account modifies this page specifically for your role. Contact your administrator for assistance. Alternatively, try switching to a Role Centre that does include role-tailoring for this page. For more information, see [Change Basic Settings](ui-change-basic-settings.md).
 
@@ -59,3 +59,6 @@ The reason for this is that the Role Centre or role that is currently associated
 [Customise Pages for Profiles](ui-personalization-manage.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  
 [Change Which Features are Displayed](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

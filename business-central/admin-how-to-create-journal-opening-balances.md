@@ -1,21 +1,20 @@
 ---
-title: How to Create Journal Opening Balances | Microsoft Docs
-description: Business Central includes several batch jobs that are provided to help in the transfer of legacy account balances to a newly configured company. You can easily transfer this data with journals postings.
+title: Create Journal Opening Balances
+description: Batch jobs are provided to help transfer legacy account balances to a newly configured company. You can easily transfer this data with journals postings.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: 5e1bb8e34e70d1d906850c157107b9b9701c6c50
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: de528dd08911b49f7bf09dc541615da93fd190cc
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779873"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145051"
 ---
 # <a name="create-journal-opening-balances"></a>Create Journal Opening Balances
 
@@ -45,6 +44,9 @@ Before you start, make sure that you are using the Administration Role Centre pa
 
 > [!TIP]
 > You can use the same batch jobs to add opening balances whenever you register a new customer or vendor that you have done business with before but not registered in [!INCLUDE [prod_short](includes/prod_short.md)]. Just search for the relevant task, and then choose the relevant link.
+
+> [!IMPORTANT]
+> Specifically for opening balances for bank accounts, do not follow the steps in this article to post directly to the G/L accounts that are associated with the relevant bank accounts. For more information, see [Set Up Bank Accounts](bank-how-setup-bank-accounts.md).  
 
 ## <a name="see-also"></a>See Also
 

@@ -2,22 +2,21 @@
 title: Verify Automatically Applied Payments, and Reapply Payments Manually | Microsoft Docs
 description: After payments are applied automatically, you can review all the entries for a payment and manually reapply those that were applied incorrectly.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bcb3ffbf7bab30b71cea7c2f1005124415ab2ae4
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c2844c7fc1969e2159c67f8783481fbbc143a39a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748534"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144921"
 ---
-# <a name="review-or-apply-payments-manually-after-automatic-application"></a>Review or Apply Payments Manually After Automatic Application
+# <a name="review-and-apply-payments-manually-after-automatic-application"></a>Review and Apply Payments Manually After Automatic Application
 For each journal line representing a payment on the **Payment Reconciliation Journal** page, you can open the **Payment Application** page to see all candidate open entries for the payment and view detailed information for each entry about the data matching that a payment application is based on. Here, you can manually apply payments or reapply payments that were applied automatically to a wrong entry. For more information about automatic application, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
 
 > [!IMPORTANT]  
@@ -37,7 +36,7 @@ Any gains-and-loss adjustment required due to currency conversions is not handle
 >   You can only apply a payment to one account. If you want to split the application on multiple open entries, for example to apply a lump-sum payment, then the open entries must be for the same account. For more information, see steps 7 and 8 in the procedure in this topic.
 
 ## <a name="to-review-or-apply-payments-after-automatic-application"></a>To review or apply payments after automatic application
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Reconciliation Journals**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Reconciliation Journals**, and then choose the related link.
 2. Open the payment reconciliation journal for a bank account that you want to reconcile payments for. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
 3. On the **Payment Reconciliation Journal** page, select a payment that you want to review or manually apply to one or more open entries, and then choose the **Apply Manually** action.
 4. Select the **Applied** check box on the line for the open entry that you want to apply the payment to.
@@ -53,3 +52,6 @@ The **Payment Application** page  closes, and on the **Payment Reconciliation Jo
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

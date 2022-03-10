@@ -1,21 +1,20 @@
 ---
-title: Handle Inventory and Manufacturing Costs | Microsoft Docs
-description: Although much of the cost accounting functionality is expressed in underlying processes with no user interaction, such as entry application and automatic cost adjustment, a number of fields, pages, and reports are aimed at users who directly or indirectly manage the cost of items or operations.
+title: Handle Inventory and Manufacturing Costs
+description: Learn how a number of fields, pages, and reports are aimed at users who directly or indirectly manage the cost of items or operations.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 8fe9b1d25ae5be2a56678181d8ca03a9807e9543
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9203aa99271bc5fba840b3d568adc098686ef961
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917142"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136111"
 ---
 # <a name="handling-inventory-and-manufacturing-costs"></a>Handling Inventory and Manufacturing Costs
 Although much of the cost accounting functionality is expressed in underlying processes with no user interaction, such as entry application and automatic cost adjustment, a number of fields, pages, and reports are aimed at users who directly or indirectly manage the cost of items or operations.  
@@ -38,3 +37,6 @@ Although much of the cost accounting functionality is expressed in underlying pr
 ## <a name="see-also"></a>See Also  
 [Manage Inventory Costs](finance-manage-inventory-costs.md)
 [Design Details: Inventory Costing](design-details-inventory-costing.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,20 +1,20 @@
 ---
 title: View Table Information
-description: Learn how you can view information about the database tables right from the client interface in Business Central.
+description: Learn how you can view information about the database tables directly from the client interface in Business Central.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.search.form: 8700
+ms.date: 06/14/2021
 ms.author: jswymer
-ms.openlocfilehash: a4695594573056ec492bc15c29d1b6fca3100e97
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: db1a5ef84d4174b960de6f3e20f7d4e29c8c44c8
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5388690"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133112"
 ---
 # <a name="viewing-table-information"></a>Viewing Table Information
 
@@ -24,7 +24,7 @@ This information is useful for troubleshooting performance problems, because let
 
 ## <a name="viewing-table-information"></a>Viewing table information
 
-To open this page, select the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Table Information**, and then choose the related link.
+To open this page, select the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Table Information**, and then choose the related link.
 
 The following table describes the information provided for each table:
 

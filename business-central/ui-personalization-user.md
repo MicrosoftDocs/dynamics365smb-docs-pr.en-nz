@@ -1,21 +1,21 @@
 ---
-title: Personalising Pages | Microsoft Docs
-description: Learn how to customise the user interface to suit your way of working in Business Central.
+title: Personalising Pages (contains video)
+description: Learn how to customise the user interface and personalise your workspace to suit your way of working and personal preferences in Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 01/13/2020
-ms.author: sgroespe
-ms.openlocfilehash: 34c09b4acdad057bd5accd388335439e555dc733
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.date: 06/24/2021
+ms.author: edupont
+ms.openlocfilehash: 95ed69baac51d4c343c639e8ddcea2db29520340
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953363"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8334762"
 ---
 # <a name="personalize-your-workspace"></a>Personalise Your Workspace
 You can personalise your workspace to suit your work and preferences by changing pages so that they display only the information you need, where you need it. The personalisation changes that you make will only affect what you see, not what other users see.
@@ -28,6 +28,11 @@ Depending on the type of page and what it includes, you can make various changes
 > Administrators can perform the same layout changes as users can by customising the workspace for a profile that multiple users are assigned. For more information, see [Customise Pages for Roles](ui-personalization-manage.md)<br /><br />
 Administrators can also override or disable users' personalisation, and they can define which features are even available for users to see in all or specific companies. For more information, see [Customising Business Central](ui-customizing-overview.md).
 
+## <a name="video-overview"></a>Video Overview
+The following video shows some of the ways in which you can personalise your Role Centre.
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
+
 ## <a name="to-change-the-width-of-a-column"></a>To change the width of a column
 You can easily resize columns on any list by dragging the boundary between two columns to the left or the right.
 1. In the header of a list, select and drag the boundary between two columns.
@@ -35,9 +40,9 @@ You can easily resize columns on any list by dragging the boundary between two c
 
 As for other personalisation, the changes you make to column width are stored on your account and follow you no matter which device you sign into.
 
-## <a name="to-personalize-a-page-through-the-personalizing-banner"></a>To personalise a page through the **Personalising** banner
+## <a name="to-start-personalizing-a-page-through-the-personalizing-banner"></a>To start personalising a page through the **Personalising** banner
 1. Open any page that you want to personalise.
-2. In the upper-right corner, select the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role centre") icon, and then choose the **Personalise** action.
+2. In the upper-right corner, select the ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role centre") icon, and then choose the **Personalise** action.
 
     The **Personalising** banner appears at the top to indicate that you can start making changes.
 
@@ -58,23 +63,28 @@ As for other personalisation, the changes you make to column width are stored on
 |----|------------|-------|
 |Move something, like a field, column in list, tile, action, or part|Point anywhere on what you want to move, and drag it to its new position. The position is indicated by either a thick horizontal or vertical line.<br /><br />![Cannot move here icon](media/personalization-cannot-move-here.png "Personalising mode - Cannot move here icon") indicates that you cannot move the element to the selected position.|Parts are subdivisions or areas on a page that contain things like multiple fields, another page, a chart, or tiles.<br /><br />For more details about action personalisation, see [Personalising Actions](ui-personalization-user.md#Actions). |
 |Hide something, like a field, column in list, tile, action, or part.|Choose the arrowhead, choose <b>Hide</b>.|The element is greyed when you are in personalising mode. If the field you hide is also shown on the FastTab heading when the FastTab is collapsed, the field will no longer appear there.|
-|Show hidden actions and fields.|For a grayed (hidden) element, choose the arrowhead, and then choose <b>Show</b>.|The hidden element is again visible.|
+|Show hidden actions and parts.|For a grayed (hidden) element, choose the arrowhead, and then choose <b>Show</b>.|The hidden element is visible again.|
 |Add a field or column.|In the <b>Personalising</b> banner, choose the <b>+ Field</b> action.<br /></br>The <b>Add Field to Page</b> pane opens on the right. It lists the fields that you can add to the page.<br /><br />To add a field, drag it from the pane to the position that you want it. The position is indicated by either a thick horizontal or vertical line.|Each page includes a predefined set of fields that you can display. Use this procedure to add fields or columns that have not been previously displayed or to show fields that you have hidden.|
-|Display a field in the heading of a Fastab when the FastTab is collapsed.|Choose the arrowhead, and then choose <b>Show when collapsed</b>. <br /> <br />If you do not see this option, then it is already set. In this case, to stop displaying the field on the FastTab heading, choose <b>Show always</b>.|*FastTab* is the term used for a group of fields that appear under a common heading. Use the <b>Show when collapsed</b> option to display the most important fields. If you select a field in the heading, the FastTab will open and focus on the selected field.<br /><br />This option is only applicable if a page has a more than one FastTab. If the is only one FastTab, it cannot be collapsed, so the <b>Show when collapsed</b> option is not available.|
+|Display a field in the heading of a FastTab when it is collapsed.|Choose the arrowhead, and then choose <b>Show when collapsed</b>. <br /> <br />If you do not see this option, then it is already set. In this case, to stop displaying the field on the FastTab heading, choose <b>Show always</b>.|*FastTab* is the term used for a group of fields that appear under a common heading. Use the <b>Show when collapsed</b> option to display the most important fields. If you select a field in the heading, the FastTab will open and focus on the selected field.<br /><br />This option is only applicable if a page has a more than one FastTab. If the is only one FastTab, it cannot be collapsed, so the <b>Show when collapsed</b> option is not available.|
 |Make a field display only when you select **Show more**.|Choose the arrowhead, and then choose <b>Show under "Show More"</b>. <br /> <br />If you do not see the <b>Show under "Show More"</b> option, then it is already set. In this case, to make a field display always, not just when you select **Show more**, choose <b>Show always</b>.||
 |Change the freeze pane in a list to another column. |Choose the arrowhead of the column that you want as the last column of the freeze pane, and then choose <b>Set Freeze Pane</b>.<br /><br/>If you want to set the freeze pane back to its original designed position, choose the arrowhead for the current freeze pane column, and choose <b>Clear Freeze Pane</b>. Note: You cannot remove this freeze pane.|The freeze pane specifies the columns that always appear on the left, even as you scroll horizontally.|  
 |Skip over a field when pressing Enter.|Choose the arrowhead next to the field, or column heading in a list, and choose **Exclude from Quick Entry**. <br /><br /> If you do not see this option, then the field is already set to be skipped. In this case, to stop skipping the field, choose **Include in Quick Entry**. |See [Accelerating Data Entry Using Quick Entry](ui-enter-data.md#QuickEntry)|
-|Reorder and remove views representing filtered lists.|Choose the arrowhead next to a view, and then choose **Move**, **Remove**, or **Hide**.|See [Save and Personalise List Views](ui-views.md)|
+|Reorder and remove views representing filtered lists.|Choose the arrowhead next to a view, and then choose **Move**, **Remove**, or **Hide**.|See [Save and Personalise List Views](ui-views.md)|  
+|Add a new action to a page or report on your Role Centre.|From the target page, report request page, or Tell Me window, choose the bookmark icon.|See [Bookmark a Page or Report on Your Role Centre Role Centre](ui-bookmarks.md)|
+|Always start a list as expanded or collapsed|Choose the Expand All or Collapse All button in the top-left corner of the list, or choose the Expand All or Collapse All action in the menu of the first column. |Applies to collapsible hierarchy lists|
 
 ## <a name="personalizing-actions"></a><a name="Actions"></a>Personalising Actions
 
-Personalisation lets you decide which actions to show on the action bar and on Role Centres and where to show them. You can show, hide, or move individual actions or action groups. Personalising the action bar is done basically the same way as with other UI elements. However, what you can do with an action or group depends on where the action or group is located. The best way to find out is to enter personalising mode and then let the arrowheads guide you.
+Personalisation lets you decide which actions to show on the navigation and action bars and on Role Centres and where to show them. You can show, hide, or move individual actions or action groups. Personalising the navigation and action bars is done basically the same way as with other UI elements. However, what you can do with an action or group depends on where the action or group is located. The best way to find out is to enter personalising mode and then let the arrowheads guide you.
 
 There are a couple terms that you should be familiar with to better understand action personalisation: *action group* and *promoted category*.  
 
 An *action group* is an element that expands to display other actions or groups. For example, on the **Sales Orders** page, the **Functions** action that appear when you choose the **Actions** action is an action groups.
 
 A *promoted category* is an action group that appears before the vertical line `|` on the action bar. The categories typically include the most commonly used actions, so that you can quickly find them. For example, on the **Sales Orders** page, the **Order**, **Release**, and  **Posting** actions are promoted categories.
+
+> [!NOTE]
+> You cannot personalise the action bar that appears in parts on the page (for example, the sales lines part on the **Sales Order** page).
 
 ### <a name="to-remove-hide-and-show-actions-and-action-groups"></a>To remove, hide, and show actions and action groups
 When you want to show or hide an action, the options under the arrowhead define what can do depending on the action's state.
@@ -83,18 +93,30 @@ When you want to show or hide an action, the options under the arrowhead define 
 
 |Option|What it does|
 |------|------------
-|**Remove**|This option appears if the selected action is also shown somewhere else on the action bar. Choosing this option deletes the action from the selected location so that it no longer appears. The action or action group will remain in the other locations. |
-|**Hide**|This option appears if the action or action group is not located anywhere else on the action bar. Like **Remove**, choosing this option will make the action or action group disappear from the action bar. However, in personalising mode, the action or action group will still be shown in the current position, except that it appears dimmed.|
-|**Show**|This option appears if the action or action group has been previously hidden (dimmed). Choosing this option will make the action or action group appear on the action bar.|
+|**Remove**|This option appears if the selected action is also shown somewhere else on the navigation bar or action bar. Choosing this option deletes the action from the selected location so that it no longer appears. The action or action group will remain in the other locations. |
+|**Hide**|This option appears if the action or action group is not located anywhere else on the navigation bar or action bar. Like **Remove**, choosing this option will make the action or action group disappear from the navigation bar or action bar. However, in personalising mode, the action or action group will still be shown in the current position, except that it appears dimmed.|
+|**Show**|This option appears if the action or action group has been previously hidden (dimmed). Choosing this option will make the action or action group appear on the navigation bar or action bar.|
 
 ### <a name="to-move-actions-and-action-groups"></a>To move actions and action groups
 Where you can drop actions or actions groups is indicated by a horizontal line between two actions or a border around an action group. The following limitations exist:
 
-    - You can move individual actions into the promoted categories, but you cannot rearrange the order of the actions in the category.
-    - You cannot move an action group into a promoted category.
+- You can move individual actions into the promoted categories, but you cannot rearrange the order of the actions in the category.
+- You cannot move an action group into a promoted category.
 
 1. To move an action or action group, drag and drop it to the desired position, like you do with fields and columns.
 2. To move an action or action group into another action group that is empty, drag the action or action group to the new group and drop it in the **Drop an action here** box.
+
+
+## <a name="personalizing-parts"></a><a name="Parts"></a>Personalising Parts
+
+Parts are areas on a page that are typically composed of multiple fields, charts or other content, and can be identified by a coloured border when setting focus to the part. For example, a Role Centre home screen has multiple parts. Because of their well-defined boundary, you can personalise the entire part as well as its' contents.
+
+- To move a part, drag and drop it to the desired position. A coloured line indicates valid positions on the screen. For example, FactBoxes can only be moved next to other FactBoxes in the FactBox pane.
+- You can hide a part by choosing the **Hide** option under the arrowhead.
+- When you start personalising or navigate to a new page, any parts that are currently hidden will appear on the page with distinctive visuals to indicate they are hidden. You can unhide that part by choosing the **Show** option under the arrowhead.
+
+You can clear all personalisation changes that you have made within a single part by choosing the **Clear personalisation** option under the part's arrowhead. Clearing personalisation of a part only affects changes to the contents of the part, not the placement or visibility of the part on the page.  
+
 
 ## <a name="to-clear-personalization"></a>To clear personalisation
 At some point, you might want to undo some or all of the personalisation changes that you have made to a page over time.
@@ -104,9 +126,10 @@ At some point, you might want to undo some or all of the personalisation changes
 
 |Option|What it does|
 |------|------------
-|**Only Actions**|Clears any personalisation changes that you have ever made on the action bar on the page.|
-|**Only Fields, Columns, and Parts**|Clears any personalisation changes that you have ever made to the page except those on the action bar. This includes changes to fields, columns, parts, and tiles. |
-|**All**|Clears all personalisation changes that you have made to the page so it looks like it did originally. This includes changes to action bar, fields, columns, parts, and tiles.|
+|**Only Navigation Menu**|Clears any personalisation changes that you have ever made to the navigation menu that is shared across the Role Centre and other pages. This includes any new actions that were added as bookmarks, and any changes to links and groups in the menu.|  
+|**Only Actions**|Clears any personalisation changes that you have ever made on the navigation or action bars on the page.|
+|**Only Fields, Columns, and Parts**|Clears any personalisation changes that you have ever made to the page except those on the navigation or action bar. This includes changes to fields, columns, parts, and tiles. |
+|**All**|Clears all personalisation changes that you have made to the page so it looks like it did originally. This includes changes to navigation and action bars, fields, columns, parts, and tiles.|
 
 ## <a name="additional-points-of-interest"></a>Additional Points of Interest
 To help you better understand personalisation, here are some pointers.
@@ -120,6 +143,9 @@ To help you better understand personalisation, here are some pointers.
 
 ## <a name="see-also"></a>See Also
 [Customise Pages for Profiles](ui-personalization-manage.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  
 [Change Which Features are Displayed](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

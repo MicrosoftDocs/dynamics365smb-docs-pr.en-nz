@@ -1,23 +1,20 @@
 ---
-title: How to Split Warehouse Activity Lines | Microsoft Docs
-description: In warehouse put-aways, movements, or picks, and in inventory put-aways and inventory picks, bins are suggested for the picking or putting away of items. The actual quantity in the bin suggested may not be sufficient, or there is not enough room in the suggested bin to put away the required quantity. In these cases, you need to split the line, so that the items for one line are either taken from or placed into more than one bin.
-services: project-madeira
-documentationcenter: ''
+title: How to Split Warehouse Activity Lines
+description: Read how to split warehouse activity lines if the available capacity in a suggested bin is not sufficient.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: f52eacb4947881391fdfcff57e32435410134287
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: b7a035fd6ac2b2af6e7ceb4db63edfa66531848d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247762"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134629"
 ---
 # <a name="split-warehouse-activity-lines"></a>Split Warehouse Activity Lines
 In warehouse put-aways, movements, or picks, and in inventory put-aways and inventory picks, bins are suggested for the picking or putting away of items. The actual quantity in the bin suggested may not be sufficient, or there is not enough room in the suggested bin to put away the required quantity. In these cases, you need to split the line, so that the items for one line are either taken from or placed into more than one bin.  
@@ -39,4 +36,7 @@ The following procedure applies to warehouse documents, such as warehouse put-aw
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
 [Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

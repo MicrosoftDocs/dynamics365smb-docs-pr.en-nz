@@ -2,36 +2,40 @@
 title: Using the Transfer Difference to Account Feature to Reconcile Payments
 description: Describes how to process payments that cannot be applied to a document, for example, when an exchange rate causes amounts to differ.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: aa43e57adc60f7ec01bd7bf4c3bcdd20cdd476fd
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: 1f6fdc38e85944541c908c3c658f14496c619c0a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5013833"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139459"
 ---
 # <a name="reconcile-payments-that-cannot-be-applied-automatically"></a>Reconcile Payments that Cannot be Applied Automatically
 You may sometimes have to handle payments to your bank account that cannot be applied to a related open customer, vendor or bank account ledger entry. Reasons may be that no document exists in [!INCLUDE[prod_short](includes/prod_short.md)] that the payment can be applied to, or the related document in [!INCLUDE[prod_short](includes/prod_short.md)] has a different amount than the transaction amount, for example, because of currency exchange. On the **Payment Reconciliation Journal** page, all transaction amounts for payments that are not yet applied appear in the **Difference** field, including amounts that cannot be applied because of reasons such as the above.
+
+The methods for resolving these types of unapplied payments:
+* Apply manually
+* Use text-to-account mapping
+* Transfer an excess amount to a journal line to create and post the required entry, such as a refund of an overpayment.
 
 Payments that cannot be applied can appear on payment reconciliation journal lines in the following different ways:
 
 * The value in the **Difference** field is equal to the value in the **Transaction Amount** field, which indicates that no part of the payment can be applied to a related open customer, vendor, or bank account ledger entry.
 * The value in the **Difference** field is lower than the value in the **Transaction Amount** field, which indicates that a part of the payment can be applied to a related open customer, vendor, or bank account ledger entry. The remaining part of the payment cannot be applied and must be reconciled manually or by posting it directly to an account.
 
-To reconcile such payments, you can choose the **Transfer Difference to Account** button and then specify to which account the amount in the **Difference** field will be posted when you post the payment reconciliation journal.
+To reconcile such payments, you can choose the **Transfer Difference to Account** action and then specify to which account the amount in the **Difference** field will be posted when you post the payment reconciliation journal. You can do this either from the **Payment Reconciliation Journal** page or from the **Payment Application Review** page that you open by choosing the value in the **Match Confidence** field or by choosing the **Difference** field.
 
 > [!TIP]  
 >   Similar functionality exists to set up automatic reconciliation of recurring payments that cannot be applied to related open customer, vendor, or bank account ledger entries. For more information, see [Map Text on Recurring Payments to Accounts for Automatic Reconciliation](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
 
 ## <a name="to-reconcile-payments-that-cannot-be-applied-automatically"></a>To reconcile payments that cannot be applied automatically
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Reconciliation Journals**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Reconciliation Journals**, and then choose the related link.
 2. Open a payment reconciliation journal. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
 3. Choose the **Transfer Difference to Account**. The **Transfer Difference to Account** page opens.
 4. In the **Account Type** field, specify if the type of account that the payment amount will be posted to.
@@ -47,3 +51,6 @@ If the value in the **Difference** field was lower than the value in the **Trans
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

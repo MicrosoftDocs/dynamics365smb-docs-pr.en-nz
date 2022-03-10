@@ -2,20 +2,19 @@
 title: Design Details - Item Tracking Design
 description: This topic describes the design behind item tracking in Business Central as it matures through product versions.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, tracking, tracing
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: c41b131c538337db81b30956a7871040d11f9ce3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 626d22b4a45035698862c727547b332c898508af
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780973"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141349"
 ---
 # <a name="design-details-item-tracking-design"></a>Design Details: Item Tracking Design
 
@@ -27,7 +26,7 @@ With the addition of serial, lot, and package numbers, the reservation system ha
 
 The following diagram outlines the design of item tracking functionality in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-![Example of item tracking flow](media/design_details_item_tracking_design.png "Example of item tracking flow")  
+![Example of item tracking flow.](media/design_details_item_tracking_design.png "Example of item tracking flow")  
 
 The central posting object is redesigned to handle the unique subclassification of a document line in the form of serial or lot numbers, and special relation tables are added to create the one-to-many relations between posted documents and their split item ledger entries and value ledger entries.  
 

@@ -1,21 +1,20 @@
 ---
-title: About Cost Accounting | Microsoft Docs
-description: Cost accounting can help you understand the costs of running a business.
+title: About Cost Accounting
+description: Cost accounting can help you understand the costs of running a business. Cost accounting information is designed to analyse various issues.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 6ab142468f152b6430d5454c29a5b663be954412
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.search.form: 1101, 1103, 1105, 1108, 1111, 1112, 1124
+ms.date: 06/16/2021
+ms.author: edupont
+ms.openlocfilehash: 52138687b0959c80711495e4c1a8b608184ba211
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879888"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145758"
 ---
 # <a name="about-cost-accounting"></a>About Cost Accounting
 Cost accounting can help you understand the costs of running a business. Cost accounting information is designed to analyse:  
@@ -37,7 +36,7 @@ Cost accounting has the following main components:
 
 The following diagram shows the workflow in cost accounting.  
 
-![Cost Accounting overview](media/costaccountingoverview.png "CostAccountingOverview")  
+![Cost Accounting overview.](media/costaccountingoverview.png "CostAccountingOverview")  
 
 ## <a name="cost-types-cost-centers-and-cost-objects"></a>Cost Types, Cost Centres, and Cost Objects  
 You define cost types, cost centres, and cost objects to analyse what the costs are, where the costs come from, and who should bear the costs.  
@@ -72,4 +71,7 @@ Most reports and statistics are based on the posted cost entries. You can set th
  [Accounting for Costs](finance-manage-cost-accounting.md)  
  [Finance](finance.md)   
  [Terminology in Cost Accounting](finance-terminology-in-cost-accounting.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,20 +1,20 @@
 ---
-title: Work With Smart Notifications and Specify When You See Them | Microsoft Docs
+title: Work With Smart Notifications and Specify When You See Them
 description: You can receive notifications that inform you about status changes or events, for example, an overdue balance or low inventory.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 04/01/2021
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.author: bholtorf
-ms.openlocfilehash: a297fd8381cf0af9de825cdaced658521e0335c8
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 53a1852ca3c957b4b2cf0a2c23652b616bd383cb
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756658"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8334639"
 ---
 # <a name="manage-notifications"></a>Manage Notifications
 
@@ -32,7 +32,7 @@ Additionally, some notifications let you specify the conditions under which they
 
 Turning notifications on or off, and specifying conditions, applies only to you.  
 
-1. In the top right corner, choose the **Settings** icon ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role centre"), and then choose the **My Settings** action.  
+1. In the top right corner, choose the **Settings** icon ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role centre"), and then choose the **My Settings** action.  
 2. On the **My Settings** page, in the **Notifications** field, choose the *Change when I receive notifications.* link.  
 3. In the page that appears, turn on or turn off a notification by selecting or clearing the **Enabled** check box.  
 4. To specify conditions that trigger a notification, choose the **View filter details** link, and then fill in the fields.  
@@ -40,3 +40,6 @@ Turning notifications on or off, and specifying conditions, applies only to you.
 ## <a name="see-also"></a>See Also
 
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

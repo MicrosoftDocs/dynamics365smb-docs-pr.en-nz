@@ -1,21 +1,20 @@
 ---
-title: How to Create Special Orders | Microsoft Docs
-description: You can create a special order for a specific catalogue item to be shipped to a specific customer. Your vendor ships the item to your warehouse and you can then ship the item on to your customer either independently or together with other items on another order.
+title: How to Create Special Orders
+description: Learn how to create a special order for a specific catalogue item to be shipped to a specific customer.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: fbd22ee25cb472a827468c578ccdb8a7427490bc
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: d879e8cfb556ca0c7fc496f72ec653826e8d7db9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383041"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8128729"
 ---
 # <a name="create-special-orders"></a>Create Special Orders
 You can create a special order for a specific catalogue item to be shipped to a specific customer. Your vendor ships the item to your warehouse and you can then ship the item on to your customer either independently or together with other items on another order.  
@@ -25,12 +24,12 @@ Special orders imply that the purchase and sales order are linked to ensure that
 Before you can use this feature, you must first set up the customer, vendor, and item cards necessary for the order.  
 
 ## <a name="to-create-a-special-order"></a>To create a special order  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Order**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Order**, and then choose the related link.  
 2. Choose the **New** action. Create and fill in a  sales order for the item. For more information, see [Sell Products](sales-how-sell-products.md).
 3.  On the **Lines** FastTab, fill in the sales line. In the **Purchasing Code** field, select a purchasing code that has the **Special Order** field selected.
 
     You must now create a purchase order from a requisition worksheet.  
-4. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Requisition Worksheet**, and then choose the related link.  
+4. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Requisition Worksheet**, and then choose the related link.  
 5. Choose the **Special Order** action, and then choose the **Get Sales Orders** action.  
 6.  On the **Get Sales Orders** page, show results where the **Document No.** is the sales order number. Choose the **OK** button. A requisition worksheet line is created for the item.  
 7.  On the requisition worksheet line, in the **Action Message** field, select **New**.  

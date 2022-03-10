@@ -1,21 +1,20 @@
 ---
-title: Overview of Tasks to Manage Receivables | Microsoft Docs
-description: Outlines tasks to manage receivables and apply payments to customer or vendor ledger entries.
+title: Overview of Tasks to Manage Receivables
+description: This topic outlines tasks to manage receivables and apply payments to customer or vendor ledger entries.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
-ms.date: 10/01/2020
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 104049b15cb379e65f84b9d1280ee52c4b2215f0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 50745f63879bf3aa0610a0109950bdd9d88a676c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926388"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137176"
 ---
 # <a name="managing-receivables"></a>Managing Receivables
 
@@ -23,7 +22,7 @@ A regular step in any financial rhythm is to reconcile bank accounts, which requ
 
 While most customers in B2B environments pay some time after delivery, leaving the posted sales invoices open for the Accounts Receivable department to close (apply) when payment is received, some sales invoices can be paid immediately, for example with PayPal. Such invoices are immediately applied as paid when they are posted and, therefore, do not appear as payments to be processes in AR. For more information, see, for example, [Invoice Sales](sales-how-invoice-sales.md).  
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)], one of the fastest ways to register payments is with the **Payment Reconciliation Journal** page by importing a bank statement file or feed. The payments are applied to open customer or vendor ledger entries based on data matches between payment text and entry information. You can review and change the matches before you post the journal, and close bank account ledger entries for ledger entries when you post the journal. The bank account is reconciled when all payments are applied.
+In [!INCLUDE[prod_short](includes/prod_short.md)], one of the fastest ways to register payments is with the **Payment Reconciliation Journal** page by importing a bank statement file or feed. The payments are applied to open customer or vendor ledger entries based on data matches between payment text and entry information. You can review and change the matches before you post the journal, and close bank account ledger entries for ledger entries when you post the journal. The bank account is reconciled when all payments are applied.
 
 Other pages exist where you can either apply payments or reconcile bank accounts:
 
@@ -45,7 +44,6 @@ The following table describes a sequence of tasks, with links to the topics that
 | Remind customers of overdue amounts, calculate interest and finance charges, and manage accounts receivable. |[Collect Outstanding Balances](receivables-collect-outstanding-balances.md) |
 |With your customer’s consent, collect payments directly from the customer’s bank account according, in the Euro currency only.|[Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)|
 |Block a customer from being entered on documents or from posting, for example because of insolvency.|[Block Customers](receivables-how-block-customers.md)|
-|Ensure that you know the cost of shipped items by assigning added item costs, such as freight, physical handling, insurance, and transportation that you incur after selling.|[Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)|
 |Set up a tolerance by which the system closes an invoice even though the payment, including any discount, does not fully cover the amount on the invoice.|[Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Predict when payments will be made late for sales documents. | [The Late Payment Prediction Extension](ui-extensions-late-payment-prediction.md) |
 
@@ -54,7 +52,10 @@ The following table describes a sequence of tasks, with links to the topics that
 ## <a name="see-also"></a>See Also
 [Sales](sales-manage-sales.md)  
 [Managing Payables](payables-manage-payables.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

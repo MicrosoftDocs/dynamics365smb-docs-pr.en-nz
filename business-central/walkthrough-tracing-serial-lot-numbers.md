@@ -1,31 +1,30 @@
 ---
-title: Walkthrough - Tracing Serial-Lot Numbers | Microsoft Docs
-description: This topic describes the actions to take to stop selling a defective item.
+title: Walkthrough - Tracing Serial-Lot Numbers
+description: This topic describes the actions that are needed to take to prevent selling a defective item, and also how to trace and recall items when needed.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8fc5da8ca5dc69f93dfa81d4f581a7323ad01811
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: aff1012c0a1b8ec409c14e0481c73c4fb51fde18
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756383"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144505"
 ---
-# <a name="walkthrough-tracing-seriallot-numbers"></a>Walkthrough: Tracing Serial/Lot Numbers
+# <a name="walkthrough-tracing-seriallot-numbers"></a>Walkthrough: Tracing Serial Numbers
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 When product defects occur, the errors must be identified and affected items must be prevented from leaving the company. If defective items have already been shipped, you must trace who received them and, if you need to, recall the items.  
 
 The first task of defects management is to investigate where the defective items came from and where they were used. This investigation is based on historic data and is made easier by searching through item tracking entries using the **Item Tracing** page.  
 
-The second task of defects management is to determine whether the traced items are planned for in open documents, such as non-posted sales orders or consumption journals. This work is performed on the **** page. You can use the Find Entries feature to search all kinds of database records.  
+The second task of defects management is to determine whether the traced items are planned for in open documents, such as non-posted sales orders or consumption journals. This work is performed on the **Find entries** page. You can use the Find Entries feature to search all kinds of database records.  
 
 ## <a name="about-this-walkthrough"></a>About This Walkthrough
 
@@ -35,7 +34,7 @@ This walkthrough illustrates the following tasks:
 
 - Tracing usage to origin.  
 - Tracing origin to usage.  
-- Searching for all current records which hold the traced serial/lot number.  
+- Searching for all current records which hold the traced serial number.  
 
 ## <a name="roles"></a>Roles
 
@@ -51,7 +50,7 @@ This walkthrough demonstrates tasks that are performed by the following user rol
 To complete this walkthrough, you will need:  
 
 - The [!INCLUDE[prod_short](includes/prod_short.md)] company.  
-- To create new items and several business transactions by following the [Prepare Sample Data](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data)..  
+<!-- - To create new items and several business transactions by following the [Prepare Sample Data](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data).   -->
 
 ## <a name="story"></a>Story
 
@@ -64,7 +63,7 @@ From the sales department, the quality controller knows that the returned racing
 
 The results of this first item tracking task identify which racing frames were defective and which vendor supplied them. Afterward, but in the same overall tracking process, the quality controller must find all the sold racing bikes that contain racing frames from the faulty lot so that those orders can be stopped or recalled. Lastly, the quality controller must find any open documents where the faulty lot is used so that no additional transactions are made.  
 
-The first two defects-management tasks are performed on the **Item Tracing** page. The last task is performed on the **Find Entries** page in integration with the **Item Tracing** page.  
+The first two defects-management tasks are performed on the **Item Tracing** page. The last task is performed on the **Find entries** page in integration with the **Item Tracing** page.  
 
 ## <a name="prepare-sample-data"></a>Prepare Sample Data
 
@@ -77,28 +76,28 @@ Then you must create various purchase, production, and sales transactions with t
 
 ### <a name="to-create-the-items"></a>To create the items  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 2. Choose the **New** action.  
 3. In the **No.** field, enter **2000**, and then proceed to fill in the following fields.  
 
-    |Description|Base Unit of Measure|Gen. Prod. Posting Group|GST Prod. Posting Group|Inventory Posting Group|Item Tracking Code|  
+    |Description|Base Unit of Measurement|Gen. Prod. Posting Group|GST Prod. Posting Group|Inventory Posting Group|Item Tracking Code|  
     |-----------|--------------------|------------------------|-----------------------|--------------------|------------------|  
     |Racing Frame|PCS|RAW MAT|GST25|RAW MAT|LOTALL|  
 
     > [!NOTE]  
-    >  To enter the base unit of measure, choose the **New** button, and then select **PSC** on the **Item Units of Measure** page.  
+    >  To enter the base unit of measurement, choose the **New** button, and then select **PSC** on the **Item Units of Measurement** page.  
 
 4. All other fields have acceptable default data or do not have to be filled in.  
 5. Choose the **OK** button to create the first new item card, 2000.  
 6. Choose **New**.  
 7. In the **No.** field, enter **1002**, and then proceed to fill in the following fields.  
 
-    |Description|Base Unit of Measure|Gen. Prod. Posting Group|GST Prod. Posting Group|Inventory Posting Group|Replenishment System|Item Tracking Code|  
+    |Description|Base Unit of Measurement|Gen. Prod. Posting Group|GST Prod. Posting Group|Inventory Posting Group|Replenishment System|Item Tracking Code|  
     |-----------------|--------------------------|------------------------------|-----------------------------|-----------------------------|--------------------------|------------------------|  
     |Racing Bike|PCS|RETAIL|GST25|FINISHED|Prod. Order|SNALL|  
 
     > [!NOTE]  
-    >  To enter the base unit of measure, choose the **New** button, and then select **PSC** on the **Item Units of Measure** page.  
+    >  To enter the base unit of measurement, choose the **New** button, and then select **PSC** on the **Item Units of Measurement** page.  
 
     Next, define the item's manufacturing setup.
 
@@ -114,7 +113,7 @@ Then you must create various purchase, production, and sales transactions with t
 
 ### <a name="to-purchase-components"></a>To purchase components
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
 2. Choose the **New** action.  
 3. Create a purchase order for vendor, Custom Metals Incorporated, by filling in the following line fields.  
 
@@ -128,7 +127,7 @@ Then you must create various purchase, production, and sales transactions with t
 7. Choose the **Post** action, select the **Receive and Invoice** option, and then choose the **OK** button.  
 
     Next, purchase racing frames from Coolwood Technologies.  
-8. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
+8. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
 9. Choose the **New** action.
 10. Create a purchase order for vendor, Coolwood Technologies, by filling in the following line fields.  
 
@@ -145,7 +144,7 @@ Then you must create various purchase, production, and sales transactions with t
 
 ### <a name="to-produce-end-items"></a>To produce end items
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released Prod. Orders**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released Prod. Orders**, and then choose the related link.  
 2. Choose the **New** group.  
 3. Create a new released production order by filling in the following fields.  
 
@@ -166,7 +165,7 @@ Then you must create various purchase, production, and sales transactions with t
 
     Next, produce two more racing bikes, SN3 and SN4.  
 
-11. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released Prod. Orders**, and then choose the related link.  
+11. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released Prod. Orders**, and then choose the related link.  
 12. Choose the **New** action.  
 13. Create a new released production order by filling in the following fields on the header.  
 
@@ -191,7 +190,7 @@ Then you must create various purchase, production, and sales transactions with t
     Next, sell racing bikes. First sell the racing bike with SN1 to Selangorian Ltd..  
 
 ### <a name="to-sell-the-end-items"></a>To sell the end items  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2.  Choose the **New** action, and then, create a sales order by filling in the following fields.  
 
     |Customer|Item|Qty.|Serial No.|  
@@ -203,7 +202,7 @@ Then you must create various purchase, production, and sales transactions with t
 
     Next, sell the racing bike with SN2 to The Cannon Group PLC.  
 
-5.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
+5.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 6.  Choose the **New** action, and then, create a sales order by filling in the following fields.  
 
     |Customer|Item|Qty.|Serial No.|  
@@ -215,7 +214,7 @@ Then you must create various purchase, production, and sales transactions with t
 
     Finally, sell some racing frames separately. The Cannon Group PLC. also orders four separate racing frames for their own assembly line.  
 
-9. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
+9. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 10. Choose the **New** action, and then, create a sales order by filling in the following fields.  
 
     |Customer|Item|Qty.|Serial No.|  
@@ -233,7 +232,7 @@ Then you must create various purchase, production, and sales transactions with t
  From the sales department, the quality controller knows that the returned racing bike, item 1002, has the serial number SN1. By using this basic information, he can determine where the finished racing bike was last used, in this case, on the sales shipment to Selangorian Ltd.. Then, the quality controller must trace backward to the earliest origin to establish which lot number the faulty racing frame came from and which vendor supplied it.  
 
 ### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>To determine which lot included the faulty frame and who supplied it  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Tracing**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Tracing**, and then choose the related link.  
 2.  On the **Item Tracing** page, enter **SN1** in the **Serial No. Filter** field, and then enter **1002** in the **Item Filter** field.  
 3.  Keep the default setting of **Item-Tracked Only** in the **Show Components** field, and keep the default trace method of **Usage – Origin** in the **Trace Method**.  
 4.  Choose the **Trace** action.  
@@ -279,17 +278,17 @@ Then you must create various purchase, production, and sales transactions with t
 
     At the same time, he can see from the last three trace lines that another two items, SN3 and SN4, have been produced based on racing frames from LOT1. He takes action to block these end items in inventory.  
 
-    This completes the second defects management task using the **Item Tracing** page for defects management. Since the **Item Tracing** page is based on posted entries only, the quality controller must continue to the **Find Entries** page to make sure that LOT1 is not used in non-posted documents.  
+    This completes the second defects management task using the **Item Tracing** page for defects management. Since the **Item Tracing** page is based on posted entries only, the quality controller must continue to the **Find entries** page to make sure that LOT1 is not used in non-posted documents.  
 
-## <a name="finding-all-records-of-a-seriallot-number"></a>Finding All Records of a Serial/Lot Number  
- With the **Item Tracing** page, the quality controller learned that LOT1 contained the faulty racing frames, which vendor supplied them, and in which posted transaction they have been used. He must now determine whether LOT1 is in any open documents by integrating from the trace result to the **Find Entries** page where he can perform a search through all database records.  
+## <a name="finding-all-records-of-a-seriallot-number"></a>Finding All Records of a Serial Number  
+ With the **Item Tracing** page, the quality controller learned that LOT1 contained the faulty racing frames, which vendor supplied them, and in which posted transaction they have been used. He must now determine whether LOT1 is in any open documents by integrating from the trace result to the **Find entries** page where he can perform a search through all database records.  
 
 ### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders"></a>To find all occurrences of LOT1 in non-posted records, such as open orders  
 
 1.  On the **Item Tracing** page, select the first trace line, the purchase receipt of LOT1.  
-2.  Choose the **Find Entries** action.  
+2.  Choose the **Find entries** action.  
 
-    The **Find Entries** page is preset with search filters based on the trace result for LOT1. The quality controller recognises most of the records as pertaining to documents already identified on the **Item Tracing** page. For example, the last Find Entries line of type Production Order refers to the two released production orders that consumed racing frames from LOT1.  
+    The **Find entries** page is preset with search filters based on the trace result for LOT1. The quality controller recognises most of the records as pertaining to documents already identified on the **Item Tracing** page. For example, the last Find Entries line of type Production Order refers to the two released production orders that consumed racing frames from LOT1.  
 
     However, the second Find Entries line of type **Sales Line** is a non-posted document line, so the quality controller proceeds to investigate.  
 
@@ -297,7 +296,7 @@ Then you must create various purchase, production, and sales transactions with t
 
     Here the quality controller sees one open sales line for the faulty racing frames. He immediately suggests to the sales department that this order be cancelled and a new production order, based on good racing frames, be initiated.  
 
- This completes the walkthrough of how to use the **Find Entries** page for defects management in integration with the **Item Tracing** page.  
+ This completes the walkthrough of how to use the **Find entries** page for defects management in integration with the **Item Tracing** page.  
 
 ## <a name="see-also"></a>See Also
 [Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)  
@@ -305,3 +304,6 @@ Then you must create various purchase, production, and sales transactions with t
 [Find Entries](ui-find-entries.md)  
 [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

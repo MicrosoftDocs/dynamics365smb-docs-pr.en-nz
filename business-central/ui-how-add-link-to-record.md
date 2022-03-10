@@ -1,21 +1,20 @@
 ---
-title: Add Attachments, Links, and Notes on Records| Microsoft Docs
-description: Attach a hyperlink to a document or website to a specific record, such as a customer or document.
+title: Add Attachments, Links, and Notes on Records
+description: Attach a hyperlink to a document, or a website to a specific record, such as a customer or document.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 0d13ffa03e4a123158e2f350ff9eab5e274741b5
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: fb191de84dac161a6b3db95396e7f0b2b5f2ce40
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4760583"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142870"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Manage Attachments, Links, and Notes on Cards and Documents
 
@@ -26,7 +25,9 @@ To view or change any of these attached information types, you must first open t
 Attachments, links, and notes stay attached as the card or document is processed into other states, such as from an ongoing sales order to a posted sales invoice. However, none of the attachment types are output from the system, for example, when printing or when saving to a file.
 
 > [!NOTE]
-> When you partially ship and invoice a sales order or purchase order, the attachment will only be attached to the final invoice of that order. Likewise, when you invoice using the Deferrals feature, the attachment is only attached to the G/L entries for the document but not for the deferral entries.
+> When you partially ship and invoice a sales or purchase order, the attachment will only be attached to the final invoice of the order. Similarly, when you invoice using the Deferrals feature, the attachment is attached to the G/L entries for the document but not for the deferral entries.
+>
+> If you delete an order before it is invoiced, the attachment is also removed. When you invoice purchase orders using the Get Receipt Lines action from a purchase invoice, the attachment on the purchase orders is not added to the purchase invoice.
 
 ## <a name="to-attach-a-file-to-a-purchase-invoice"></a>To attach a file to a purchase invoice
 You can attach any type of file, containing text, image, or video, to a card or document. This is useful, for example, when you want to store a vendor's invoice as a PDF file on the related purchase invoice in [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -36,7 +37,7 @@ You can attach any type of file, containing text, image, or video, to a card or 
 
 The following procedure is based on a purchase invoice. The steps are similar for all other supported documents and cards.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.
 2. Open the sales order that you want to attach a file to.
 3. In the FactBox, open the **Attachments** tab.
 4. Choose the value behind the **Documents** field, such as "0".
@@ -56,17 +57,17 @@ Whenever you need to save a document as a file, you can use the **Attach as PDF*
 
 The following procedure is based on a sales order. The steps are similar for all supported documents.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
 2. Select a sales order, and then choose the **Attach as PDF** action.
 
 A PDF file with the current content of the sales order is added to the **Attachments** tab in the FactBox.
 
 ## <a name="to-add-a-link-from-an-item-card"></a>To add a link from an item card
-You can add a link from a card or document to any URL or path. This is useful, for example, when you want to link an item card with the supplier's item catalogue.
+You can add a link from a card or document to any URL. This is useful, for example, when you want to link an item card with the supplier's item catalogue.
 
 The following procedure is based on an item card. The steps are similar for all other supported cards and documents.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. Select the item that you want to add a link from, and then choose the **Attachments** tab in the FactBox.
 3. In the **Links**, choose the **+** icon.
 4. In the **Link Address** field, enter the link.
@@ -86,7 +87,7 @@ You can write a note on a document or card, for example, to communicate special 
 
 The following procedure is based on a sales order. The steps are similar for all other supported documents and cards.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
 2. Select the sales order that you want to write a note on, and then choose the **Attachments** tab in the FactBox.
 3. In the **Notes** section, choose the **+** icon.
 4. In the **Note** field, write any text, such as "This is an urgent order.".
@@ -98,3 +99,6 @@ The note is now attached to the sales order.
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Incoming Documents](across-income-documents.md)  
 [Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

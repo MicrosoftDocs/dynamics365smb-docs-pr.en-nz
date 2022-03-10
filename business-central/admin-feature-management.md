@@ -2,19 +2,19 @@
 title: Enabling upcoming features ahead of time
 description: Learn how to enable select, optional features before they become mandatory.
 author: mikebcMSFT
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: administration, admin, key, optional, feature management, early access, preview
-ms.date: 04/01/2021
+ms.search.form: 2610
+ms.date: 06/14/2021
 ms.author: mikebc
-ms.openlocfilehash: 01bfa8829b1699d4f1c2a8da4e9e57d016fe12ca
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a3cc650067c18da1594e2381413f8dd76966ab3a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774196"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141401"
 ---
-# <a name="enabling-upcoming-features-ahead-of-time"></a>Enabling Upcoming Features Ahead of Time
+# <a name="enabling-new-and-upcoming-features-ahead-of-time"></a>Enabling New and Upcoming Features Ahead of Time
 
 Some new features can be enabled ahead of time, letting you take advantage of them as early as possible. Enabling features early gives you the time to test and prepare your organisation for change.
 

@@ -1,34 +1,28 @@
 ---
-title: How to Print Deposit Slip Reports
-description: Describes how to print a report that displays cash and cheque details in a format required by the bank.
-services: project-madeira
-documentationcenter: ''
+title: Print Deposit Slip Reports [NZ]
+description: Describes how to print a report that displays cash and cheque details in a format required by the bank in the New Zealand version.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 06/25/2021
 ms.author: bholtorf
-ms.openlocfilehash: 35022f604c75928b8842bfcdc55eeb311081ad41
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: db3bca6eb5603b8d829bd89be3573450b3503d16
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300056"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8149279"
 ---
-# <a name="print-deposit-slip-reports"></a>Print Deposit Slip Reports
-The **Deposit Slip** report displays cash and cheque details in a format required by the bank.  
+# <a name="print-deposit-slip-reports-in-the-new-zealand-version"></a>Print Deposit Slip Reports in the New Zealand Version
 
-## <a name="to-a-print-deposit-slip-report"></a>To a print deposit slip report  
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cash Receipt Journals**, and then choose the related link.  
-2.  Select the **Bank** journal.  
-3.  Choose the **Edit Journal** action.  
-4.  On the **Cash Receipt Journal** page, choose the **Print Deposit Slip** action.  
-5.  On the **Gen. Journal Line** FastTab, select the appropriate filters.  
-6.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
+[!INCLUDE [print-deposit-slip-reports](../includes/AUNZ/print-deposit-slip-reports.md)]
 
-## <a name="see-also"></a>See Also  
+## <a name="see-also"></a>See Also
+
 [New Zealand Local Functionality](new-zealand-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

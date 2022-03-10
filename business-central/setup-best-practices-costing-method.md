@@ -1,29 +1,28 @@
 ---
 title: Setup Best Practices - Costing Method
 description: The Costing Method on the item card defines item's cost flow is recorded and whether an actual or budgeted value is capitalised and used in the cost calculation.
-author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+author: edupont04
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.search.form: 30, 31
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1b08ebbdd24e821f5ed528d9956f2753c84fbc05
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 8eafa5661bd61bc72df55171a2a2a79da045f0e8
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747859"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140527"
 ---
 # <a name="setup-best-practices-costing-method"></a>Setup Best Practices: Costing Method
 
 The **Costing Method** on the item card defines item's cost flow is recorded and whether an actual or budgeted value is capitalised and used in the cost calculation.  
 
- Setting the correct costing method according to item type and business environment is important to ensure economical inventories.  
+Setting the correct costing method according to item type and business environment is important to ensure economical inventories.  
 
- The following table provides best practices on how to set up the **Costing Method** field. For more information, see [Design Details: Costing Methods](design-details-costing-methods.md).  
+The following table provides best practices on how to set up the **Costing Method** field. For more information, see [Design Details: Costing Methods](design-details-costing-methods.md).  
 
 |Setup option|Best practice|Comment|  
 |------------------|-------------------|-------------|  
@@ -33,8 +32,12 @@ The **Costing Method** on the item card defines item's cost flow is recorded and
 |Specific|Use in production or trade of easily identifiable items with fairly high unit costs.<br /><br /> Use for items that are subject to regulation.<br /><br /> Use for items with serial numbers.|An item's unit cost is the exact cost at which the particular unit was received.|
 |Standard|Use where cost control is critical.<br /><br /> Use in repetitive manufacturing, to value the costs of direct material, direct labour, and manufacturing overhead.<br /><br /> Use where there is discipline and staff to maintain standards.|An item's unit cost is preset based on estimated.<br /><br /> When the actual cost is realised later, the standard cost must be adjusted to the actual cost through variance values.|  
 
-## <a name="see-also"></a>See Also  
- [Design Details: Costing Methods](design-details-costing-methods.md)   
- [Design Details: Inventory Costing](design-details-inventory-costing.md)   
- [Set Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)  
- [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## <a name="see-also"></a>See Also
+
+[Design Details: Costing Methods](design-details-costing-methods.md)  
+[Design Details: Inventory Costing](design-details-inventory-costing.md)  
+[Set Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

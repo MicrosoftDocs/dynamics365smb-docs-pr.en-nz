@@ -1,29 +1,94 @@
 ---
 title: PC Keyboard Shortcuts Quick Reference
 description: A print-friendly reference sheet containing the most popular keyboard shortcuts for PC users.
-author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+author: bholtorf
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 05/22/2019
-ms.author: sgroespe
-ms.openlocfilehash: f0ada187d21b5ed920fd9e969586f33ed0ffbe8b
-ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
+ms.date: 04/01/2021
+ms.author: bholtorf
+ms.openlocfilehash: 0e605470c312b93d7ebe7afde1c673bd57fb3615
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1594234"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135254"
 ---
 # <a name="keyboard-quick-reference---pc-only"></a>Keyboard Quick Reference - PC Only
 
-||||  
-|----------------|-----------|----------------|
-|**General**|Alt+Q<br />Alt+Up<br />Alt+Down Arrow<br />Alt+Right Arrow<br />Ctrl+Alt+F1<br />Ctrl+F1<br />Esc<br />F5/Ctrl+F5<br />Tab/Shift+Tab<br />|Open **Tell me**<br />Open tooltip or validation error<br />Open a drop-down or look up<br />See the transactions for calculated value<br />Inspect the page<br />Open help for the page<br />Close the current page or drop-down<br />Refresh/reload page<br />Move focus to the next/previous element|
-|**Navigate &<br />select rows**| Home/End<br />Ctrl+Home/End <br />Ctrl+Up/Down<br />Ctrl+A <br />Ctrl+Space<br />Ctrl/Shift+Click<br />Shift+Up/Down<br />Shift+Page Up/Down<br />Ctrl+Enter| Go to first/last field<br />Go to first/last row<br />Navigate without losing selection<br />Select all<br />Toggle row selection<br /> Add the row/rows to the selection<br />Add row above/below to selection<br />Select visible rows above/below <br />Focus out of the list|
-|**Copy & paste**|Ctrl+C<br />Ctrl+V<br />F8|Copy rows<br />Paste rows<br />Copy field above into current row|
-|**Search, filter, <br />& sort**|F3<br />Shift+F3<br />Ctrl+Shift+F3<br />Alt+F3<br />Shift+Alt+F3<br />Ctrl+Alt+Shift+F3|Toggle search<br />Toggle filter pane; focus on field filters<br />Toggle filter pane; focus on totals filters<br />Filter on selected cell value<br />Add filter on selected field<br />Reset filters|
-|**Quick entry**|Ctrl+Shift+Enter<br />Enter/Shift+Enter|Go to next Quick Entry field outside a list<br />Go to next/previous Quick Entry field|
-|**Report preview**|Up/Down<br />Right/Left<br />Ctrl+Home/End<br />Page Up/Down|Scroll up and down the page<br />Scroll to the right/left <br />Go to the first/last page<br />Go to the previous/next page|
+#### <a name="general"></a>General
+
+|Press these keys|To do this|  
+|-|-|
+|Alt+F2|Show and hide the FactBox pane|
+|Alt+N|Create a new record|
+|Alt+Shift+N|Close a newly created record and create a new one|
+|Alt+O|Add a new note for the selected record|
+|Alt+Q|Open **Tell me**|
+|Alt+Up|Open tooltip or validation error|
+|Alt+Down Arrow|Open a drop-down or look up|
+|Alt+T|Open the **My Settings** page|
+|Alt+Shift+W|Open the current card or document in a new window|
+|Ctrl+Insert|Insert a new line on a document|
+|Ctrl-Delete|Delete the line on a document, journal, or worksheet|
+|Ctrl+Shift+F12|Maximise the line items part on a document page|
+|Ctrl+F1|Open help for the page<br />Navigate when personalising and customising|
+|Ctrl+Click|Navigate when personalising and customising|
+|Shift+F12|Open the role explorer, a feature overview|
+|F5/Ctrl+F5|Refresh/reload page|
+|Tab/Shift+Tab|Move focus to the next/previous element|
+|F6/Shift+F6|Move to next FastTab/part|
+
+#### <a name="navigate--select-rows"></a>Navigate & Select Rows
+
+|Press these keys|To do this|
+|-|-|
+|Home/End|Go to first/last field|
+|Ctrl+Home/End |Go to first/last row|
+|Ctrl+Up/Down|Navigate without losing selection|
+|Ctrl+A |Select all|
+|Ctrl+Space|Toggle row selection|
+|Ctrl/Shift+Click|Add the row/rows to the selection|
+|Shift+Up/Down|Add row above/below to selection|
+|Shift+Page Up/Down|Select visible rows above/below|
+|Ctrl+Enter|Focus out of the list|
+
+#### <a name="copy--paste"></a>Copy & Paste
+
+|Press these keys|To do this|
+|-|-|
+|Ctrl+C/V|Copy/paste rows|
+|F8|Copy field above into current row|
+
+#### <a name="search-filter--sort"></a>Search, Filter, & Sort
+
+|Press these keys|To do this|
+|-|-|
+|Alt+F7|Sort column in ascending/descending order|
+|F3|Toggle search|
+|Shift+F3|Toggle filter pane; focus on field filters|
+|Alt+F3|Filter on selected cell value|
+|Shift+Alt+F3|Add filter on selected field|
+|Ctrl+Alt+Shift+F3|Reset filters|
+
+#### <a name="quick-entry"></a>Quick Entry
+
+|Press these keys|To do this|
+|-|-|
+|Ctrl+Shift+Enter|Go to next Quick Entry field outside a list|
+|Enter/Shift+Enter|Go to next/previous Quick Entry field|
+##### <a name="report-preview"></a>Report Preview
+
+|Press these keys|To do this|
+|-|-|
+|Ctrl+Home/End|Go to the first/last page|
+
+> [!TIP]
+> For a graphical, print-friendly version, choose the following image and download the PDF file.
+>
+> [![Icon that opens a PDF.](media/keyboard_shortcut_inline.png)](media/keyboard_shortcuts.pdf)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

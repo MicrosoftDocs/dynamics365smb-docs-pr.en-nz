@@ -1,25 +1,23 @@
 ---
 title: Addresses in New Zealand
-description: A single postcode can include multiple cities in the same region.
-services: project-madeira
-documentationcenter: ''
+description: This topic explains how to benefit from the address bar coding system in which every address is assigned a unique Delivery Point Identifier (DPID).
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 9271b9271c0ce651348b3d20f594a9f21e622032
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 06/18/2021
+ms.author: edupont
+ms.openlocfilehash: adc82f871e9e7216679b0a3d8b1fa84986a00fb6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300112"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148911"
 ---
-# <a name="addresses"></a>Addresses
+# <a name="addresses-in-the-new-zealand-version"></a>Addresses in the New Zealand Version
+
 A single postcode can include multiple cities in the same region.  
 
 At the same time, cities with the same name are sometimes located in different regions.  
@@ -36,3 +34,6 @@ Contact your Microsoft partner for information on how to obtain AMAS software.
 
 ## <a name="see-also"></a>See Also  
  [New Zealand Local Functionality](new-zealand-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

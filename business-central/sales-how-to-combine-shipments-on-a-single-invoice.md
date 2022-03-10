@@ -2,20 +2,19 @@
 title: How to Combine Shipments on a Single Invoice | Microsoft Docs
 description: If you want to invoice more than one shipment at a time, you can use the combined shipments feature.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 12/16/2021
 ms.author: edupont
-ms.openlocfilehash: 2936e819ba50adde6df021cc0dc2694367c29fc9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a55d0d32873783adf049b44d90cc12b6e66080a4
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778513"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144791"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Combine Shipments on a Single Invoice
 If you want to invoice more than one shipment at a time, you can use the combined shipments feature.  
@@ -23,7 +22,7 @@ If you want to invoice more than one shipment at a time, you can use the combine
 Before you can create a combined shipment, more than one sales shipment for the same customer in the same currency must be posted. In other words, you must have create two or more sales orders and post them as shipped, but not invoiced. 
 
 ## <a name="to-manually-combine-shipments-on-a-single-invoice"></a>To manually combine shipments on a single invoice  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
 2. Choose the **New** action. For more information, see [Invoice Sales](sales-how-invoice-sales.md).
 3. In the **Sell-to Customer No.** field, enter the customer who will receive the invoice for the shipped items.  
 4. On the **Lines** FastTab, choose the **Get Shipment Lines** action.  
@@ -35,10 +34,13 @@ Before you can create a combined shipment, more than one sales shipment for the 
     If an incorrect shipment line was selected or you want to start over, you can simply delete the lines on the invoice and re-run the **Get Shipment Lines** function.  
 7. To post the invoice, choose the **Post** action.  
 
+> [!TIP]  
+> If you have shipped orders where the **Sell-to Customer No.** is different from the **Bill-to Customer No.**, those lines are not displayed in the **Get Shipment Lines** report. Use personalisation to add the **Sell-to Customer** field to the page and remove the filter. Now you can add shipment lines to the invoice regardless of the value in the **Sell-to Customer No.** field, as long as the **Bill-to Customer No.** field on the shipment lines matches the value on the sales invoice.  
+
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>To automatically combine shipments on a single invoice  
 [!INCLUDE[prod_short](includes/prod_short.md)] will select only sales orders where **Combine Shipments** is chosen. 
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Combine Shipments**, and then choose the related link. The batch job request page opens.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Combine Shipments**, and then choose the related link. The batch job request page opens.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Choose the **Post Invoices** check box.  
 4. Choose the **OK** button.  
@@ -51,7 +53,7 @@ When shipments are combined on an invoice and posted, a posted sales invoice is 
 
 When you invoice shipments in this way, the orders from which the shipments were posted still exist, even if they have been fully shipped and invoiced.   
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete Invoiced Sales Orders**, and then select the link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete Invoiced Sales Orders**, and then select the link.  
 2. Specify in the **No.** filter field which sales orders to delete.  
 3. Choose the **OK** button.  
 

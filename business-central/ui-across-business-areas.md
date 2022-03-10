@@ -1,26 +1,24 @@
 ---
-title: Using General Functionality Across Business Areas | Microsoft Docs
-description: Learn about the functionality and features that are used across business areas in Business Central .
-services: project-madeira
-documentationcenter: ''
+title: Using General Functionality Across Business Areas
+description: Learn about the functionality and features that are used across business areas in Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 786b56fb247cc57062dfe98c29dce446dd77ccda
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.search.form: 9020, 9022, 9027, 9018
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 36edd01c369e83e2020f43ff914b4cc693cba4e3
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315700"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8322867"
 ---
 # <a name="general-business-functionality"></a>General Business Functionality
-[!INCLUDE[d365fin](includes/d365fin_md.md)] provides dedicated functionality for typical business areas, such as finance and sales. For more information, see [Business Functionality](across-business-functionality.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] provides dedicated functionality for typical business areas, such as finance and sales. For more information, see [Business Functionality](across-business-functionality.md).
 
 To support those business area-specific tasks, you can use a variety of general business functionality, such as defining extended text for document lines and organising connecting business tasks in workflows.
 
@@ -50,7 +48,10 @@ The following table lists these general business areas with links to topics that
 | Set up data exchange definitions so you can send and receive electronic documents. |[Exchanging Data Electronically](across-data-exchange.md) |
 
 ## <a name="see-also"></a>See Also
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Administration](admin-setup-and-administration.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

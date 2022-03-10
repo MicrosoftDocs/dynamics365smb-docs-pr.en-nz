@@ -3,8 +3,7 @@ title: Compliance Overview
 description: Overview of how Business Central functionality is built on a platform that makes it easy for customers to comply with compliance and regulatory legislation.
 author: sorenfriisalexandersen
 documentationcenter: ''
-ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -12,12 +11,12 @@ ms.search.keywords: ''
 ms.reviewer: edupont
 ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: 10585896eadc9cbd9eec6f451d734b98b37b0133
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: c771776965a1535d3a16a07f008a017a4a4c8a33
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6318928"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146842"
 ---
 # <a name="compliance-overview"></a>Compliance Overview
 

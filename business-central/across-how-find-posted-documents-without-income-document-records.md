@@ -1,29 +1,26 @@
 ---
-title: Search for Documents without Attachments| Microsoft Docs
-Description: You can search for general ledger entries for posted purchase and sales documents that do not have incoming electronic documents, such as imported invoices.
-services: project-madeira
-documentationcenter: ''
+title: Find Posted Documents without Incoming Documents
+description: You can search for general ledger entries for posted purchase and sales documents that do not have incoming electronic documents, such as imported invoices.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 04/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 79504010d6bb4f2afb0f09f866991dd76f6e35b5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: c7e696eed559e6b0c5d7a9c9b9563efd8bdfbea0
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245640"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130998"
 ---
 # <a name="find-posted-documents-without-incoming-document-records"></a>Find Posted Documents without Incoming Document Records
 From the **Chart of Accounts** and **General Ledger Entries** pages, you can use a search function to find general ledger entries for posted purchase and sales documents that do not have incoming document records and then centrally link to existing records or create new ones with attached document files.
 
 ## <a name="to-find-posted-documents-without-incoming-document-records"></a>To find posted documents without incoming document records
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.
 2. Select a line for a G/L account for whose general ledger entries you want to see posted purchase and sales documents without incoming document records, and then choose the **Posted Documents without Incoming Document** action.
 3. Alternatively, choose the **Ledger Entries** action.
 4. On the **General Ledger Entries** page, choose the **Posted Documents without Incoming Documents** action.
@@ -41,4 +38,7 @@ If a relevant incoming document record does not exist on the **Incoming Document
 [Process Incoming Documents](across-process-income-documents.md)  
 [Incoming Documents](across-income-documents.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

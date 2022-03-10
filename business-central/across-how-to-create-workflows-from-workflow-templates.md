@@ -1,23 +1,22 @@
 ---
-title: How to Create Workflows from Workflow Templates | Microsoft Docs
-description: To save time when creating new workflows, you can create workflows from workflow templates.
+title: How to Create Workflows from Workflow Templates
+description: To save time when creating new workflows, you can create non-editable workflows from workflow templates prefixed with "MS".
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 2540632936a502cd1873c7db34733f5dd83db4b9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d429b5acce6520b86a1272620379265fb01b1462
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775863"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147284"
 ---
 # <a name="create-workflows-from-workflow-templates"></a>Create Workflows from Workflow Templates
 To save time when creating new workflows, you can create workflows from workflow templates.  
@@ -29,7 +28,7 @@ To save time when creating new workflows, you can create workflows from workflow
 On the **Workflow** page, you create a workflow by listing the involved steps on the lines. Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code. For more information, see [Create Workflows](across-how-to-create-workflows.md).  
 
 ## <a name="to-create-a-workflow-from-workflow-template"></a>To create a workflow from workflow template  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.  
 2.  Choose the **Create Workflow from Template** action. The **Workflow Templates** page opens.  
 3.  Select a workflow template, and then choose the **OK** button.  
 
