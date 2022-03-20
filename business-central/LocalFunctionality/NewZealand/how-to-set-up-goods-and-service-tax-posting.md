@@ -1,7 +1,7 @@
 ---
 title: Set Up Goods and Service Tax Posting [NZ]
 description: This article describes how to set up posting for goods and services tax (GST) in the New Zealand version.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/18/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4d2690ac7e39daead70e102bfda3f0d58d0b8d45
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d54acc413ff6737e886a0069395db968a88fc7a7
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148899"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384250"
 ---
 # <a name="set-up-goods-and-service-tax-posting-in-the-new-zealand-version"></a>Set Up Goods and Service Tax Posting in the New Zealand Version
 

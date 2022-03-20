@@ -1,7 +1,7 @@
 ---
 title: Print Income Statements [NZ]
 description: Describes how print the company's annual income statement in a report in the New Zealand version.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: bholtorf
-ms.openlocfilehash: 3612c6ae07b6796ef6c7c5ccbd71216f22e7c783
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 66367e1d69cee85a7f5fe4deb3d3b30b90340c58
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148898"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382437"
 ---
 # <a name="print-income-statements-in-the-new-zealand-version"></a>Print Income Statements in the New Zealand version
 

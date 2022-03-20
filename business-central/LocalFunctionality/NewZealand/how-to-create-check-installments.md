@@ -1,7 +1,7 @@
 ---
 title: Create Cheque Instalments [NZ]
 description: Describes how to create cheque instalments for post-dated cheques in the New Zealand version.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 28090,28091,28092,28093
 ms.date: 06/25/2021
 ms.author: bholtorf
-ms.openlocfilehash: 80d3d519024e1b1c8a33867bd2a160107eef4a5c
-ms.sourcegitcommit: 67006b090a7bd70446414a19cc82e531190637dc
+ms.openlocfilehash: 2fef98ff8b9d46c258f7692d916fea6beb43fc45
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311159"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383877"
 ---
 # <a name="create-check-installments-in-the-new-zealand-version"></a>Create cheque instalments in the New Zealand Version
 

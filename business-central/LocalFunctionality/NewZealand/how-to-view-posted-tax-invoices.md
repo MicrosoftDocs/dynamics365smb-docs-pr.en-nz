@@ -1,7 +1,7 @@
 ---
 title: View Posted Tax Invoices [NZ]
 description: Describes how to view the details of posted GST invoices and posted purchase tax invoices in the New Zealand version.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 28071, 28073, 28081, 28082
 ms.date: 06/25/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7de36eacdd24c75e58b69756265447651ec9fc87
-ms.sourcegitcommit: 67006b090a7bd70446414a19cc82e531190637dc
+ms.openlocfilehash: 77cd4a7e8f6a83bb5e29635abe5c47b3bc184292
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311166"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382493"
 ---
 # <a name="view-posted-tax-invoices-in-the-new-zealand-version"></a>View Posted Tax Invoices in the New Zealand Version
 

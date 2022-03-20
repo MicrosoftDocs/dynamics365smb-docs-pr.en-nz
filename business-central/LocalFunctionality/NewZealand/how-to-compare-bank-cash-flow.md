@@ -1,7 +1,7 @@
 ---
 title: Compare Bank Cash Flow [NZ]
 description: Describes how compare the flow of cash in a particular bank for a specified period in the New Zealand version.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: bholtorf
-ms.openlocfilehash: bea625a47c10062902f7063e3ea578a826a02997
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ae8548bb2070095fdaf6263dedbc7e918598fbfa
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138971"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382495"
 ---
 # <a name="compare-bank-cash-flow-in-the-new-zealand-version"></a>Compare Bank Cash Flow in the New Zealand Version
 

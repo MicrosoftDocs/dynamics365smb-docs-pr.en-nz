@@ -1,7 +1,7 @@
 ---
 title: Electronic Funds Transfer (EFT) [NZ]
 description: This topic describes how you can pay vendors using the electronic funds transfer (EFT) system in New Zealand.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 11615
 ms.date: 06/18/2021
 ms.author: bholtorf
-ms.openlocfilehash: cfb4587ebcf4f32f382d4236a7e0b20d3fffeb45
-ms.sourcegitcommit: 67006b090a7bd70446414a19cc82e531190637dc
+ms.openlocfilehash: 4221a9478e61471e09109887a6628324128beb4f
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311254"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383879"
 ---
 # <a name="electronic-funds-transfer-eft-in-the-new-zealand-version"></a>Electronic Funds Transfer (EFT) in the New Zealand Version
 

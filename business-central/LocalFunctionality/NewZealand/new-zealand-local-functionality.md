@@ -1,17 +1,17 @@
 ---
 title: New Zealand Local Functionality
 description: The following topics describe the local functionality in the New Zealand version of Business Central.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: New Zealand, local functionality
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: a181745fcf26489b77d8f2ffcedb88fd46008fe4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 924a8d04087bde466b67a8484efb2f4f487dff1f
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148896"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383607"
 ---
 # <a name="new-zealand-local-functionality"></a>New Zealand Local Functionality
 

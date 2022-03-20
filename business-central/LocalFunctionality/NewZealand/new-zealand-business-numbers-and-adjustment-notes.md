@@ -1,7 +1,7 @@
 ---
 title: Inland Revenue Department Numbers and Adjustment Notes
 description: Learn about IRD numbers and adjustment notes and how they are supported in the New Zealand version of Business Central.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: e1769b4b701422fa8521c479ed6e561477f304bd
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4c8a47a75b54f2957ce400a217717ceb2f176bd2
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138966"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383605"
 ---
 # <a name="new-zealand-inland-revenue-department-numbers-and-adjustment-notes"></a>New Zealand Inland Revenue Department Numbers and Adjustment Notes
 

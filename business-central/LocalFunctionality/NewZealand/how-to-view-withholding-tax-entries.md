@@ -1,7 +1,7 @@
 ---
 title: View Withholding Tax Entries [NZ]
 description: Describes how to view entries that have been posted with withholding tax (WHT) for a specified general ledger register in the New Zealand version.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: e5d9ed0407787dda4a489153a6c227176dc12c9b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 997a0136656f9c25ba5cc8e1f631748e3303a175
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149275"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381903"
 ---
 # <a name="view-withholding-tax-entries-in-the-new-zealand-version"></a>View Withholding Tax Entries in the New Zealand Version
 

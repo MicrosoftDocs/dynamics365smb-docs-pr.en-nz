@@ -1,7 +1,7 @@
 ---
 title: Adjust Settlement Exchange Rates for GST Entries (NZ)
 description: Use a batch job to settle GST entries according to the government exchange rates in the New Zealand version.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 763a29b21c995ac9125d9a6343ef8566bb3bc211
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e19ea0182d94c501e0329be7b8021052d49985b9
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138973"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383635"
 ---
 # <a name="adjust-settlement-exchange-rates-for-vat-entries-in-the-new-zealand-version"></a>Adjust Settlement Exchange Rates for GST Entries in the New Zealand Version
 
