@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.keywords: New Zealand, local functionality
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 924a8d04087bde466b67a8484efb2f4f487dff1f
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 6387b6fd468f47b031f787ac6b9018985dd04bd5
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383607"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521406"
 ---
 # <a name="new-zealand-local-functionality"></a>New Zealand Local Functionality
 
@@ -53,7 +53,7 @@ The following topics describe local functionality that is unique to the New Zeal
 
 ## <a name="see-also"></a>See Also
 
-[Working with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
