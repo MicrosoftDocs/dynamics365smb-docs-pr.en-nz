@@ -10,14 +10,15 @@ ms.search.keywords: supplier, payment priority
 ms.search.form: 26, 27
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 411163798b5af49a154e19243e556c010bffd5ee
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ed025f130fc2de9be77c373ab9b651844496b8a7
+ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513799"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9144264"
 ---
 # <a name="prioritize-vendors"></a>Prioritise Vendors
+
 [!INCLUDE[prod_short](includes/prod_short.md)] can suggest various payments to vendors, for example, payments that will be due soon or payments where a discount is available. For more information, see [Suggest Vendor Payments](payables-how-suggest-vendor-payments.md).
 
 First, you must prioritise your vendors by assigning numbers to them.
@@ -25,6 +26,7 @@ First, you must prioritise your vendors by assigning numbers to them.
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PRGa?rel=0]
 
 ## <a name="to-prioritize-vendors"></a>To prioritise vendors
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
 2. Select the relevant vendor, and then choose **Edit**.
 3. In the **Priority** field, enter a number.
@@ -33,10 +35,11 @@ First, you must prioritise your vendors by assigning numbers to them.
 
 If you do not want to prioritise a vendor, leave the **Priority** field blank. Then, if you use the payment suggestion feature, the vendor will be listed after all the vendors that have a priority number. You can enter as many priority levels as necessary.
 
-## <a name="see-also"></a>See Also
+## <a name="see-also"></a>See also
+
+[Register New Vendors](purchasing-how-register-new-vendors.md)  
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  
 [Managing Payables](payables-manage-payables.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
