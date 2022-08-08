@@ -1,5 +1,5 @@
 ---
-title: Reconcile vendor payment receipts or refunds in the receipt journal
+title: Reconcile vendor payment receipts or refunds in the payment journal
 description: To process, match, or reconcile vendor payments or refunds manually, you apply the amount to one or more open vendor ledger entries.
 author: SorenGP
 ms.topic: conceptual
@@ -17,7 +17,7 @@ ms.contentlocale: en-NZ
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8521952"
 ---
-# <a name="reconcile-vendor-payments-with-the-payment-journal-or-from-vendor-ledger-entries"></a>Reconcile Vendor Payments with the Receipt Journal or from Vendor Ledger Entries
+# <a name="reconcile-vendor-payments-with-the-payment-journal-or-from-vendor-ledger-entries"></a>Reconcile Vendor Payments with the Payment Journal or from Vendor Ledger Entries
 When you send a payment or receive a refund from a vendor, you must decide whether to apply the payment or refund to one or more open entries. You can specify the exact amount that you want to apply to the payment receipt or refund, and then only partially apply vendor ledger entries. You must apply all vendor ledger entries to obtain correct vendor statistics and reports of the account statements and finance charges.
 
 > [!NOTE]  
@@ -25,20 +25,20 @@ When you send a payment or receive a refund from a vendor, you must decide wheth
 
 You can apply vendor ledger entries in three different ways:
 
-* By entering information in dedicated pages, such as the **Receipt Journal** page and the **Payment Reconciliation Journal** page.
+* By entering information in dedicated pages, such as the **Payment Journal** page and the **Payment Reconciliation Journal** page.
 * From purchase credit memo documents.
 * From vendor ledger entries after purchase documents are posted but not applied.
 
 > [!NOTE]  
 >   If the **Application Method** field on the vendor card contains **Apply to Oldest**, then payments will automatically be applied to the oldest open credit entry if you do not manually specify which entry to apply to. If the application method for a customer is **Manual**, then you must apply entries manually.
 
-You can apply vendor payments manually to their related purchase documents when you post the payments on the **Receipt Journal** page. For information about filling the receipt journal, see [Making Payments](payables-make-payments.md).
+You can apply vendor payments manually to their related purchase documents when you post the payments on the **Payment Journal** page. For information about filling the payment journal, see [Making Payments](payables-make-payments.md).
 
 You can also apply vendor payments, and customer payments, after the payments appear as negative bank transactions in your bank. On the **Payment Reconciliation Journal** page, you can use functions for bank statement import, automatic application, and bank account reconciliation. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
 
 ## <a name="to-apply-a-payment-to-a-single-or-multiple-vendor-ledger-entries"></a>To apply a payment to a single or multiple vendor ledger entries
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Receipt Journal**, and then choose the related link.
-2. On the **Receipt Journal** page, on the first journal line, enter the relevant information about the payment entry.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journal**, and then choose the related link.
+2. On the **Payment Journal** page, on the first journal line, enter the relevant information about the payment entry.
 3. To apply a single vendor ledger entry:
    1. In the **Applies-to Doc. No.** field, choose the field to open the **Apply Vendor Entries** page.
    2. On the **Apply Vendor Entries** page, select the entry to apply the payment to.
@@ -52,7 +52,7 @@ You can also apply vendor payments, and customer payments, after the payments ap
 
       If you do not enter an amount, then the maximum amount is automatically applied. At the bottom of the **Apply Vendor Entries** page, you can see the amount in the Applied Amount field, and you can see whether the application balances.
 5. Choose the **OK** button.
-6. Choose the **Post** action to post the receipt journal.
+6. Choose the **Post** action to post the payment journal.
 
 ## <a name="to-apply-a-credit-memo-to-a-single-or-multiple-vendor-ledger-entries"></a>To apply a credit memo to a single or multiple vendor ledger entries
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Credit Memo**, and then choose the related link.
@@ -93,12 +93,12 @@ If you buy from a vendor in one currency and make payment in another currency, y
 
 If you apply an entry (Entry 1) in one currency to an entry (Entry 2) in a different currency, the posting date on Entry 1 is used to find the relevant exchange rate to convert amounts on Entry 2. The relevant exchange rate is found on the **Currency Exchange Rates** page. In that case, you must enable application of vendor ledger entries in different currencies. For more information, see [Enable Application of Ledger Entries in Different Currencies](finance-how-enable-application-ledger-entries-different-currencies.md)
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Receipt Journal**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journal**, and then choose the related link.
 2. Open the journal you want, and fill in the first empty journal line using a currency code.
 3. Choose the **Apply Entries** action.
-4. Select the line with the entry you want to apply to the entry in the receipt journal, choose the **Set Applies-to ID** action, and then select the entry you want to apply to.
-5. Choose the **OK** button to return to the receipt journal.
-6. Post the receipt journal.
+4. Select the line with the entry you want to apply to the entry in the payment journal, choose the **Set Applies-to ID** action, and then select the entry you want to apply to.
+5. Choose the **OK** button to return to the payment journal.
+6. Post the payment journal.
 
 > [!IMPORTANT]  
 >   When you apply entries in different currencies to one another, the entries are converted to NZD. Even though the exchange rates for the two relevant currencies are fixed, for example between NZD and EUR, there may be a small residual amount when these foreign-currency amounts are converted to NZD. These small residual amounts are posted as gains and losses to the account specified in the **Realised Gains Account** or **Realised Losses Account** field on the **Currencies** page. The **Amount (NZD)** field is also adjusted on the relevant vendor ledger entries.

@@ -64,7 +64,7 @@ For each new permission set, grant only the **Read** permission for the **AMC Ba
 5. In the **Bank Statement Import Format** and **Payment Export Format** fields, choose the data exchange definitions that your bank requires.
 
 ## <a name="use-the-extension"></a>Use the Extension
-Using this extension is just a matter of exporting data on the **Receipt Journals** page, and then uploading it to your bank's web service. For more information, see [Making Payments with Bank Data Conversion or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).
+Using this extension is just a matter of exporting data on the **Payment Journals** page, and then uploading it to your bank's web service. For more information, see [Making Payments with Bank Data Conversion or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).
 
 > [!Note]
 > You must fill in the **SWIFT Code** and **IBAN** fields for each bank account.
@@ -73,7 +73,7 @@ Using this extension is just a matter of exporting data on the **Receipt Journal
 > [!CAUTION]  
 >  When you export data by using the AMC Banking 365 Fundamentals extension, some of your business data will be exposed to the provider of the service. The service provider, AMC Consult A/S, is responsible for the privacy of this data. For more information, see [AMC Privacy Policy](https://go.microsoft.com/fwlink/?LinkId=510158).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Receipt Journals**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.
 2. Create the journal lines that you want to export.  
 
    > [!Note]

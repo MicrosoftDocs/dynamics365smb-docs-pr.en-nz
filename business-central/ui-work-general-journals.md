@@ -25,7 +25,7 @@ Most journals are based on the *General Journal*, and you can process all transa
 
 For example, you can use post employees' expenditure of own money on business-related expenses, for later reimbursement. For more information, see [Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md).
 
-But in many cases, you will want to use the journals that are optimised for specific types of transactions, such as the **Receipt Journal** for registering payments. For more information, see [Record Payments and Refunds in the Receipt Journal](payables-how-post-payments-refunds.md).  
+But in many cases, you will want to use the journals that are optimised for specific types of transactions, such as the **Payment Journal** for registering payments. For more information, see [Record Payments and Refunds in the Payment Journal](payables-how-post-payments-refunds.md).  
 
 You use general journals to post financial transactions directly to general ledger accounts and other accounts, such as bank, customer, vendor, and employee accounts. Posting with a general journal always creates entries on general ledger accounts. This is true even when, for example, you post a journal line to a customer account, because an entry is posted to a general ledger receivables account through a posting group.
 
@@ -36,9 +36,9 @@ The information that you enter in a journal is temporary and can be changed whil
 
 ## <a name="use-journal-templates-and-batches"></a>Use Journal Templates and Batches
 
-There are several general journal templates. Each journal template is represented by a dedicated page with particular functions and the fields that are required to support those functions, such as the **Payment Reconciliation Journal** page to process bank payments and the **Receipt Journal** page to pay your vendors or reimburse your employees. For more information, see [Make Payments](payables-make-payments.md) and [Reconcile Customer Payments with the Cash Receipt Journal or from Customer Ledger Entries](receivables-how-apply-sales-transactions-manually.md).
+There are several general journal templates. Each journal template is represented by a dedicated page with particular functions and the fields that are required to support those functions, such as the **Payment Reconciliation Journal** page to process bank payments and the **Payment Journal** page to pay your vendors or reimburse your employees. For more information, see [Make Payments](payables-make-payments.md) and [Reconcile Customer Payments with the Cash Receipt Journal or from Customer Ledger Entries](receivables-how-apply-sales-transactions-manually.md).
 
-For each journal template, you can set up your own personal journal as a journal batch. For example, you can define your own journal batch for the receipt journal that has your personal layout and settings. The following tip is an example of how to personalise a journal.
+For each journal template, you can set up your own personal journal as a journal batch. For example, you can define your own journal batch for the payment journal that has your personal layout and settings. The following tip is an example of how to personalise a journal.
 
 > [!TIP]  
 > If you select the **Suggest Balancing Amount** check box on the line for your batch on the **General Journal Batches** page, then the **Amount** field on, for example, general journal lines for the same document number is automatically prefilled with the value that is required to balance the document. For more information, see [Letting [!INCLUDE[prod_short](includes/prod_short.md)] Suggest Values](ui-let-system-suggest-values.md).
@@ -47,7 +47,7 @@ For each journal template, you can set up your own personal journal as a journal
 > To add or remove fields in journals, use the **Personalising** banner. For more information, see [Personalise Your Workspace](ui-personalization-user.md).
 
 ### <a name="validating-general-journal-batches"></a>Validating General Journal Batches
-To help prevent delays when posting, you can turn on a background check that will notify you when there is a mistake in the financial journal you're working on that will prevent you from posting the journal. On the **General Journal Batch** page, you can choose **Background Error Check** to have [!INCLUDE[prod_short](includes/prod_short.md)] validate finance journals, such as general or receipt journals, while you're working on them. 
+To help prevent delays when posting, you can turn on a background check that will notify you when there is a mistake in the financial journal you're working on that will prevent you from posting the journal. On the **General Journal Batch** page, you can choose **Background Error Check** to have [!INCLUDE[prod_short](includes/prod_short.md)] validate finance journals, such as general or payment journals, while you're working on them. 
 
 When you enable the validation the **Journal Check** FactBox displays next to the journal lines and will show issues in the current line and the whole batch. Validation happens when you load a finance journal batch, and when you choose another journal line. The **Issues total** tile in the FactBox shows the total number of issues that [!INCLUDE[prod_short](includes/prod_short.md)] found, and you can choose it to open an overview the issues. 
 
@@ -205,7 +205,7 @@ Any renumbering of document numbers will respect related applications, such as a
 
 ### <a name="to-renumber-documents-in-journals"></a>To renumber documents in journals
 
-The following procedure is based on the **General Journal** page, but applies to all other journals that are based on the general journal, such as the **Receipt Journal** page.
+The following procedure is based on the **General Journal** page, but applies to all other journals that are based on the general journal, such as the **Payment Journal** page.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and then choose the related link.
 2. When you are ready to post the journal, choose the **Renumber Document Numbers** action.
@@ -225,7 +225,7 @@ Values in the **Document No.** field are changed, where required, so that the do
 [Revalue Inventory in the Revaluation Journal](inventory-how-revalue-inventory.md)  
 [Count, Adjust, and Reclassify Inventory Using Journals](inventory-how-count-adjust-reclassify.md)  
 [Reconcile Customer Payments with the Cash Receipt Journal or from Customer Ledger Entries](receivables-how-apply-sales-transactions-manually.md)  
-[Reconcile Vendor Payments with the Receipt Journal or from Vendor Ledger Entries](payables-how-apply-purchase-transactions-manually.md)  
+[Reconcile Vendor Payments with the Payment Journal or from Vendor Ledger Entries](payables-how-apply-purchase-transactions-manually.md)  
 [Work with Intercompany Documents and Journals](intercompany-how-work-documents-journals.md)  
 
 

@@ -197,13 +197,13 @@ The illustration shows the route of inbound payments:
     :::column-end:::
 :::row-end:::
 
-Incoming payments are always imported through the **Payment Reconciliation Journal** or directly in the **Bank Account Reconciliation** page. In contrast, outgoing payments can originate from any receipt journal. The only prerequisite is that the **Allow Payment Export** field in the relevant receipt journal batch must be selected.
+Incoming payments are always imported through the **Payment Reconciliation Journal** or directly in the **Bank Account Reconciliation** page. In contrast, outgoing payments can originate from any payment journal. The only prerequisite is that the **Allow Payment Export** field in the relevant payment journal batch must be selected.
 
 The illustration shows the route of outbound payments:
 
 :::row:::
     :::column:::
-        6. The transactions populated in a receipt journal that has been prepared for exporting payments to file.
+        6. The transactions populated in a payment journal that has been prepared for exporting payments to file.
         <br><br>
         7. The *bank statements import format* links the import setup to the bank account
         <br><br>
@@ -211,7 +211,7 @@ The illustration shows the route of outbound payments:
         <br><br>
         9. The *data exchange definition* maps the information in the file to the fields in [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Set Up Data Exchange](across-set-up-data-exchange.md)
         <br><br>
-        10. The payments are exported from the receipt journal and imported into the bank account
+        10. The payments are exported from the payment journal and imported into the bank account
     :::column-end:::
     :::column:::
         ![Illustration of payments from bank accounts that are sent to the bank.](media/Set-Up-Bank-Accounts/payments-in-and-out-2.png)

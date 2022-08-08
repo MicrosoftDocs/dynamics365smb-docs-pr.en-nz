@@ -36,7 +36,7 @@ Cheques are designed to print in both the United States and Canadian cheque imag
 | 10412 |Cheque (Stub/Cheque/Stub) |This report is designed to print cheques in a stub/cheque/stub format. |
 | 10413 |Three Cheques per Page |This report is designed to print three cheques on each page. |
 
-When you have set up cheque layouts, you can print cheques from the **Receipt Journal** page. For more information, see [Work with Cheques](payables-how-work-checks.md).
+When you have set up cheque layouts, you can print cheques from the **Payment Journal** page. For more information, see [Work with Cheques](payables-how-work-checks.md).
 
 To change one of these default cheque layouts, use either the Word or the RDLC integration to do so. For more information, see [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md).
 

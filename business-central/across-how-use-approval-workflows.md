@@ -22,7 +22,7 @@ You set up approval workflows on the **Workflow** page. You must also set up app
 
 In addition to approval workflows described in this article, you can perform various other workflow tasks. For more information, see [Use Workflows](across-use-workflows.md).
 
-Core approval workflows for purchases documents, sales documents, receipt journals, customer cards, and item cards are ready to start as guides. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md).
+Core approval workflows for purchases documents, sales documents, payment journals, customer cards, and item cards are ready to start as guides. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md).
 
 ## <a name="to-request-approval-of-a-record"></a>To request approval of a record
 

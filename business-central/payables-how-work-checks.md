@@ -1,6 +1,6 @@
 ---
 title: Issue, Print, Cancel, and Void Cheques
-description: Describes how to issue cheques using the receipt journal, print cheques, and void or view cheque ledger entries in Business Central.
+description: Describes how to issue cheques using the payment journal, print cheques, and void or view cheque ledger entries in Business Central.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -19,13 +19,13 @@ ms.locfileid: "9077231"
 ---
 # <a name="make-check-payments"></a>Make Cheque Payments
 
-You can issue electronic and manual checks in [!INCLUDE[prod_short](includes/prod_short.md)]. Both methods use the receipt journal to issue cheques to vendors. You can also void cheques and view cheque ledger entries.
+You can issue electronic and manual checks in [!INCLUDE[prod_short](includes/prod_short.md)]. Both methods use the payment journal to issue cheques to vendors. You can also void cheques and view cheque ledger entries.
 
 The following procedure shows how to pay a vendor with a computer cheque by applying the payment to the relevant vendor invoice, printing the cheque, and then posting the payment as paid. This results in positive vendor ledger entries, applied to negative bank ledger entries, and physical cheques for processing in the bank.
 
 You can pay with two types of cheque. For both types, the **Bal. Account Type** or the **Account Type** field must contain **Bank Account**.
 
-- **Computer Cheque**: Select this option if you want to print a cheque for the amount on the receipt journal line. You must print the cheques before you can post the journal lines.
+- **Computer Cheque**: Select this option if you want to print a cheque for the amount on the payment journal line. You must print the cheques before you can post the journal lines.
 - **Manual Cheque**: Select this option if you have created a cheque manually and want to create a corresponding cheque ledger entry for this amount. By using this option, you cannot print the cheque.
 
 > [!NOTE]  
@@ -40,8 +40,8 @@ You can print up to 10 invoices on a page for a cheque stub. If a cheque applies
 
 The following describes how to pay a vendor by cheque. The steps are similar to refund a customer by cheque.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Receipt Journals**, and then choose the related link.
-2. Fill in the receipt journal lines. For more information, see [Record Payments and Refunds](payables-how-post-payments-refunds.md).
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.
+2. Fill in the payment journal lines. For more information, see [Record Payments and Refunds](payables-how-post-payments-refunds.md).
 3. In the **Payment Method Code** field, select **Cheque**.
 4. In the **Bank Payment Type** field, select **Computer Cheque**.
 5. Choose the **Print Cheque** action.
@@ -58,9 +58,9 @@ Fully applied vendor ledger entries and bank ledger entries are created.
 
 ## <a name="to-cancel-printed-checks-that-are-not-posted"></a>To cancel printed cheques that are not posted
 
-You can cancel non-posted cheques after they have been printed by using the **Void Cheque** action on the **Receipt Journal** page.
+You can cancel non-posted cheques after they have been printed by using the **Void Cheque** action on the **Payment Journal** page.
 
-1. On the **Receipt Journal** page, choose the **Void Cheque**, and then choose which cheques to cancel.
+1. On the **Payment Journal** page, choose the **Void Cheque**, and then choose which cheques to cancel.
 
 ## <a name="to-void-checks"></a>To void cheques
 

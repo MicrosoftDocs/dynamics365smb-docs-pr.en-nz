@@ -54,8 +54,8 @@ Additionally, you must assign vendors to a domestic **Gen. Bus. Posting Group** 
 
 ### <a name="to-allow-prod_short-to-export-payment-data"></a>To allow [!INCLUDE[prod_short](includes/prod_short.md)] to export payment data
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Receipt Journal**, and then choose the related link.  
-2. On the **Edit Receipt Journal** page, choose the **Bank** batch.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journal**, and then choose the related link.  
+2. On the **Edit Payment Journal** page, choose the **Bank** batch.  
 3. Choose the **Allow Payment Export** check box.  
 
 ### <a name="to-specify-a-payment-method-for-a-vendor"></a>To specify a payment method for a vendor
@@ -92,8 +92,8 @@ The following table shows the combinations of FIK and GIRO payment methods that 
 
 ## <a name="to-use-the-extension-to-export-payment-data"></a>To use the extension to export payment data
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Receipt Journals**, and then choose the related link.  
-2. Choose the **Suggest Vendor Receipt Journals** action.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
+2. Choose the **Suggest Vendor Payment Journals** action.  
 
     > [!Tip]
     > If you want to export only specific payments, use the options for filtering the data.  

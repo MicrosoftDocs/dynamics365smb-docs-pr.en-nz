@@ -60,7 +60,7 @@ The QuickBooks Data Migration extension is installed and ready to go as an integ
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>What do I do after I migrate Data?
 
-After you migrate data, transactions have the status Unposted, so you can review them and make adjustments. To review the transactions, go to the page where you would normally find them. For example, to review unposted sales invoices, go to the Sales Invoices page. To review receipt journals, go to the Receipt Journals page.
+After you migrate data, transactions have the status Unposted, so you can review them and make adjustments. To review the transactions, go to the page where you would normally find them. For example, to review unposted sales invoices, go to the Sales Invoices page. To review payment journals, go to the Payment Journals page.
 There are a few things in particular that you should do: If the transactions in QuickBooks had markup or discount amounts, you must manually add the amounts to the related transactions in Business Central before you post them.
 If you are using goods and services tax (GST), you may need to add a business posting group and a product posting group to the posting setup so that you can post GST amounts.
 Verify the beginning balances for accounts in the general ledger. QuickBooks does not store the current balance for all accounts, so you might need to correct beginning balances.

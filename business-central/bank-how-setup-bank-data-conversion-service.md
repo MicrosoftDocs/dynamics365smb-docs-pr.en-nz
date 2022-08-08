@@ -20,7 +20,7 @@ ms.locfileid: "8523202"
 # <a name="set-up-the-amc-banking-365-fundamentals-extension"></a>Set Up the AMC Banking 365 Fundamentals extension
 A global provider of services to convert payment information to any data format that your bank requires is connected and ready to be enabled in [!INCLUDE[prod_short](includes/prod_short.md)]. This is referred to in [!INCLUDE[prod_short](includes/prod_short.md)] as the AMC Banking 365 Fundamentals extension.
 
-You can export payment lines from the **Receipt Journal** page to a file or a data stream that you then upload to your bank for automatic processing so that you do not have to make electronic payments individually. For more information, see [Export Payments to a Bank File](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
+You can export payment lines from the **Payment Journal** page to a file or a data stream that you then upload to your bank for automatic processing so that you do not have to make electronic payments individually. For more information, see [Export Payments to a Bank File](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
 You can import bank statement files into the **Payment Reconciliation Journal** page by using the AMC Banking 365 Fundamentals extension to convert a file that you receive from your bank to a data stream that [!INCLUDE[prod_short](includes/prod_short.md)] can import. For more information, see [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 

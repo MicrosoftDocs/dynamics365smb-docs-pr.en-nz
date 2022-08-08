@@ -91,7 +91,7 @@ The [quick start](quick-start-business-central.md) articles can help you take th
 | Set Up Email Logging |Sets up the capability to log email correspondence in [!INCLUDE[prod_short](includes/prod_short.md)] to follow up on interactions. |
 | Set Up an Item Approval Workflow |Sets up the ability to send a notification to an approver when a user changes or creates an item. |
 | Set Up a Customer Approval Workflow |Sets up the ability to automatically notify an approver when a user tries to create or change a customer card. |
-| Set Up a Payment Approval Workflow |Sets up the ability to send a notification to an approver when a user sends receipt journal lines for approval. |
+| Set Up a Payment Approval Workflow |Sets up the ability to send a notification to an approver when a user sends payment journal lines for approval. |
 | Set Up Dynamics 365 Sales Connection |Sets up a connection to Dynamics 365 Sales, which allows you to synchronise data such as contacts and sales order information. |
 | Set Up Cash Flow Forecast |Sets up the Cash Flow Forecast chart, so you can view the predicted movement of cash in and out of your business. The chart is available on the **Accountant Role Center**. |
 | Set Up Reporting Data|Sets up data sets that you can use to build powerful reports using Excel or Power BI, for example. |
