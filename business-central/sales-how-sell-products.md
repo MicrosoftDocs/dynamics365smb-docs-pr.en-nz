@@ -59,7 +59,7 @@ You can even create directly-paid orders for non-registered customers by first s
 7. In the **Quantity** field, enter the number of items to be sold.
 
     > [!NOTE]  
-    > For items of type *Resource* or *Service*, the quantity is a time unit, such as hours, as indicated in the **Unit of Measurement Code** field on the line. For more information, see [Set Up Item Units of Measurement](inventory-how-setup-units-of-measure.md).
+    > For items of type *Resource* or *Service*, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line. For more information, see [Set Up Item Units of Measurement](inventory-how-setup-units-of-measure.md).
 
     The **Line Amount** field is updated to show the value in the **Unit Price** field multiplied by the value in the **Quantity** field.
 

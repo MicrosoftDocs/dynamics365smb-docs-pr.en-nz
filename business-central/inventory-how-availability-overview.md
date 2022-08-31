@@ -100,10 +100,10 @@ The **Item Availability by BOM Level** page shows information for the item on th
 The **Bottleneck** field specifies which item in the BOM structure restricts you from making a larger quantity than the quantity that is shown in the **Able to Make Top Item** field. For example, the bottleneck item can be a purchased component with an expected receipt date that is too late to make additional units of the top item by the date in the **Needed by Date** field.
 
 ## <a name="to-view-the-availability-of-an-item-by-its-units-of-measure"></a>To view the availability of an item by its units of measurement
-The **Item Availability by Unit of Measurement** page shows the availability of an item in the units of measurement that it is stored in.
+The **Item Availability by Unit of Measure** page shows the availability of an item in the units of measurement that it is stored in.
 
 > [!NOTE]  
-> To keep this information accurate, you must convert item units of measurement. For example, if you purchase an item in one unit of measurement, such as boxes, and you sell items in another unit of measurement, such as pieces, you must use an item journal to convert the units of measurement, or "unbox" items. You can use a negative adjustment item journal line to reduce inventory in the purchase unit of measurement, for example boxes, and a positive adjustment to increase inventory in the sales unit of measurement, for example pieces. 
+> To keep this information accurate, you must convert item units of measurement. For example, if you purchase an item in one unit of measure, such as boxes, and you sell items in another unit of measure, such as pieces, you must use an item journal to convert the units of measurement, or "unbox" items. You can use a negative adjustment item journal line to reduce inventory in the purchase unit of measure, for example boxes, and a positive adjustment to increase inventory in the sales unit of measure, for example pieces. 
 
 ## <a name="assembly-availability-page"></a>Assembly Availability Page
 The **Assembly Availability** page shows detailed availability information for the assembly item. It opens:

@@ -66,7 +66,7 @@ The following video introduces some of the key capabilities for managing finance
 [Setting Up Finance](finance-setup-finance.md)  
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Closing Financial Periods](year-close-years-periods.md)  
+[Closing Fiscal Periods](year-close-years-periods.md)  
 [Managing Projects](projects-manage-projects.md)  
 [Importing Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Work with General Journals](ui-work-general-journals.md)  

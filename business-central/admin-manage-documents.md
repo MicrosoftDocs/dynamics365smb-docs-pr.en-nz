@@ -38,11 +38,11 @@ You can compress data in [!INCLUDE [prod_short](includes/prod_short.md)] to save
 
 You can compress entries under the following conditions:
 
-* They're from closed financial years
+* They're from closed fiscal years
 * The **Open** field is set to **No** 
 * They're at least five years old. If you want to compress data that is less than five years old, contact your Microsoft partner.
 
-For example, vendor ledger entries from previous financial years can be compressed so that there is only one credit and one debit entry per account per month. The amount in the new entry is the sum of all the compressed entries. The date assigned is the starting date for the period that is compressed, such as the first day of the month (if the entries are compressed by month). After the compression, you can still see the net change for each account in the previous financial year.
+For example, vendor ledger entries from previous fiscal years can be compressed so that there is only one credit and one debit entry per account per month. The amount in the new entry is the sum of all the compressed entries. The date assigned is the starting date for the period that is compressed, such as the first day of the month (if the entries are compressed by month). After the compression, you can still see the net change for each account in the previous fiscal year.
 
 The number of entries that result from a date compression depends on how many filters you set, which fields are combined, and which period length you choose. There will always be at least one entry. When the batch job is finished, you can see the result in the **Date Compr. Registers** page.
 

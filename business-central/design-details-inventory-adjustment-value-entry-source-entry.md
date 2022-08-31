@@ -56,7 +56,7 @@ Test this scenario by carrying out the following steps.
 
 1. Create an **Item** called TEST with the following values:  
 
-     - Base unit of measurement = PCS  
+     - Base unit of measure = PCS  
 
      - Costing Method = Average  
 
@@ -195,7 +195,7 @@ Test this scenario by carrying out the following steps:
 
 1.  Create an **Item** Charge with the following values:  
 
-     - Base unit of measurement = PCS  
+     - Base unit of measure = PCS  
 
      - Costing Method = Average  
 
@@ -351,9 +351,9 @@ Having the General Ledger Setup stating Allow Posting From January 1 was a good 
 
 **Conclusion:**  
 
-It is a challenge to get the Inventory Valuation report to demonstrate Quantity = 0 while the Value <> 0. In this case it is also more difficult to express the optimal settings, having purchase invoices arriving the same day but addressing different periods or even financial years. Crossing to a new financial year usually requires some planning and as part of that the insight into Adjust Cost – Item entries process, recognising COGS, is to be considered.  
+It is a challenge to get the Inventory Valuation report to demonstrate Quantity = 0 while the Value <> 0. In this case it is also more difficult to express the optimal settings, having purchase invoices arriving the same day but addressing different periods or even fiscal years. Crossing to a new fiscal year usually requires some planning and as part of that the insight into Adjust Cost – Item entries process, recognising COGS, is to be considered.  
 
-In this scenario one option could have been to have the General Ledger Setup, field Allow Posting From, stating a date in December for a couple of more days and the posting of the first item charge postponed to allow all costs for the previous period/financial year to be recognised for the period they belong to first, having the Adjust Cost – Item entries batch job run and thereafter move the allowed posting date to the new period\/financial year. The first item charge with posting date January 2 could then be posted.  
+In this scenario one option could have been to have the General Ledger Setup, field Allow Posting From, stating a date in December for a couple of more days and the posting of the first item charge postponed to allow all costs for the previous period/fiscal year to be recognised for the period they belong to first, having the Adjust Cost – Item entries batch job run and thereafter move the allowed posting date to the new period\/fiscal year. The first item charge with posting date January 2 could then be posted.  
 
 ## <a name="see-also"></a>See Also  
 

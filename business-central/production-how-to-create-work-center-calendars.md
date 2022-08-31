@@ -74,7 +74,7 @@ The shop calendar can now be assigned to a work centre to calculate the work sho
 4. Choose the **Calendar** action.  
 5. On the **Work Centre Calendar** page, choose the **Show Matrix** action.  
 
-    The left side of the matrix page lists the work centres that are set up. The right side shows a calendar displaying the available capacity values for each working day in the defined unit of measurement, for example, **480** minutes. Each line represents the calendar of one work centre.  
+    The left side of the matrix page lists the work centres that are set up. The right side shows a calendar displaying the available capacity values for each working day in the defined unit of measure, for example, **480** minutes. Each line represents the calendar of one work centre.  
 
     > [!NOTE]  
     >  You can also select to view the capacity values for each week or month by changing the selection in the **View By** field on the **Work Centre Calendar** page.  

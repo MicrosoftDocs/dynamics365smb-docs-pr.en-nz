@@ -19,7 +19,7 @@ ms.locfileid: "8514481"
 ---
 # <a name="use-item-references"></a>Use Item References
 
-If you buy or sell items that you and your vendor or customer use different terms for, then you can set up a reference between your terms for the items and the terms that the customer or vendor of that item uses. This way, the vendor's or customer's item description, unit of measurement, or variant code is automatically inserted on the relevant documents when you fill in the **Item Reference No.** field.  
+If you buy or sell items that you and your vendor or customer use different terms for, then you can set up a reference between your terms for the items and the terms that the customer or vendor of that item uses. This way, the vendor's or customer's item description, unit of measure, or variant code is automatically inserted on the relevant documents when you fill in the **Item Reference No.** field.  
 
 > [!NOTE]
 > [!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
@@ -54,7 +54,7 @@ The following procedure describes how you specify the item reference on a purcha
 3. Create a purchase line for the item that you set up an item reference for in the previous procedure.
 4. In the **Item Reference No.** field, select the relevant item reference, and then choose the **OK** button.
 
-The **Description** field on the line is overwritten with the vendor's item description, as set up on the item reference entry. If the item reference includes a variant code or a unit of measurement, these values are also copied to the document.  
+The **Description** field on the line is overwritten with the vendor's item description, as set up on the item reference entry. If the item reference includes a variant code or a unit of measure, these values are also copied to the document.  
 
 ## <a name="see-also"></a>See Also
 

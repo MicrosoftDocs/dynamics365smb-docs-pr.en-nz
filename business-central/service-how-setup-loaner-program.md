@@ -27,7 +27,7 @@ Sometimes you must provide a customer a loaner item for use when your customer s
 2. Create a new loaner card. 
 3. In the **No.** field, enter a number for the loaner. Alternatively, if you have set up number series for loaners on the **Service Mgt. Setup** page, you can press the Enter key to enter the next available loaner number.  
 4. Fill in the **Description**, **Description 2**, and **Serial No.** fields.  
-5. In the **Unit of Measurement Code** field, choose the relevant unit of measurement.  
+5. In the **Unit of Measure Code** field, choose the relevant unit of measure.  
   
 ## <a name="see-also"></a>See Also
 [Lend and Receive Loaners](service-how-to-lend-receive-loaners.md)  

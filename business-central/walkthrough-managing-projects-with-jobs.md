@@ -93,7 +93,7 @@ This walkthrough focuses on CRONUS, a design and consultancy firm that designs a
     - **Name**: **Tricia**  
     - **Type**: **Person**  
 
-4.  Choose the **Base Unit of Measurement** field, and choose the **New** action to open the **Resource Unit of Measurement** page. In the **Code** field, select **Hour**.  
+4.  Choose the **Base Unit of Measure** field, and choose the **New** action to open the **Resource Unit of Measure** page. In the **Code** field, select **Hour**.  
 5.  On the **Invoicing** FastTab, enter the following information:  
 
     - **Direct Unit Cost**: **5**  

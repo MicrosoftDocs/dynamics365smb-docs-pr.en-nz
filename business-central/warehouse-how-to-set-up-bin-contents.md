@@ -26,7 +26,7 @@ After you have set up your bins, you can set up the bin contents. In other words
 2. Select the location where you want to set up bin contents,  and then choose the **Bins** action.  
 3. Select the bin where you want to set up contents, and then choose the **Contents** action.  
 4. For each item that you want to store in the bin, fill in a line on the **Bin Contents** page with the appropriate information. Some of the fields are filled in already with information about the bin.  
-5. First fill in the **Item No.** field, and then, if you are using directed put-away and pick, fill in the other fields such as the **Unit of Measurement Code**, **Max. Qty.**, and **Min. Qty.** fields.  
+5. First fill in the **Item No.** field, and then, if you are using directed put-away and pick, fill in the other fields such as the **Unit of Measure Code**, **Max. Qty.**, and **Min. Qty.** fields.  
 
 Select the **Fixed** field if necessary. If the bin is to be used as the default bin for the item, select the **Default Bin** field.  
 

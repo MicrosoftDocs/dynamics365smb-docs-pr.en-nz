@@ -32,7 +32,7 @@ You can set up and use two types of discounts:
 
 | Discount Type | Description |
 | --- | --- |
-| **Line Discount** |A discount amount that is given for lines on sales and purchase documents. Typically, line discounts are based on a combination of customer, item, minimum quantity, unit of measurement, or period of time that you define for sales and purchases on the **Sales & Receivables Setup** and **Purchase & Payables Setup** pages.|
+| **Line Discount** |A discount amount that is given for lines on sales and purchase documents. Typically, line discounts are based on a combination of customer, item, minimum quantity, unit of measure, or period of time that you define for sales and purchases on the **Sales & Receivables Setup** and **Purchase & Payables Setup** pages.|
 | **Invoice Discount** |A discount percentage that is subtracted from sales and purchase document total if the sum of all lines on the document exceeds a certain minimum. |
 
 Because sales prices and sales line discounts are based on a combination of item and customer, you can also perform this configuration from the item page of the item where the rules and values apply.
@@ -42,7 +42,7 @@ Because sales prices and sales line discounts are based on a combination of item
 
 ## <a name="about-price-lists"></a>About Price Lists
 
-Price lists are flexible and let you specify the business partner or activity that they apply to. For example, you can set up one price list that applies to all vendors and customers, or offer special prices or discounts for each business partner, perhaps based on a minimum quantity on purchase or sales orders, or a certain combination of customer, item, minimum quantity, unit of measurement, or periods of time. The prices and discounts you define are automatically applied to purchase and sales documents. 
+Price lists are flexible and let you specify the business partner or activity that they apply to. For example, you can set up one price list that applies to all vendors and customers, or offer special prices or discounts for each business partner, perhaps based on a minimum quantity on purchase or sales orders, or a certain combination of customer, item, minimum quantity, unit of measure, or periods of time. The prices and discounts you define are automatically applied to purchase and sales documents. 
 
 ## <a name="set-up-prices"></a>Set Up Prices
 

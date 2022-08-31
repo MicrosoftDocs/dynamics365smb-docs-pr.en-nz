@@ -80,24 +80,24 @@ Then you must create various purchase, production, and sales transactions with t
 2. Choose the **New** action.  
 3. In the **No.** field, enter **2000**, and then proceed to fill in the following fields.  
 
-    |Description|Base Unit of Measurement|Gen. Prod. Posting Group|GST Prod. Posting Group|Inventory Posting Group|Item Tracking Code|  
+    |Description|Base Unit of Measure|Gen. Prod. Posting Group|GST Prod. Posting Group|Inventory Posting Group|Item Tracking Code|  
     |-----------|--------------------|------------------------|-----------------------|--------------------|------------------|  
     |Racing Frame|PCS|RAW MAT|GST25|RAW MAT|LOTALL|  
 
     > [!NOTE]  
-    >  To enter the base unit of measurement, choose the **New** button, and then select **PSC** on the **Item Units of Measurement** page.  
+    >  To enter the base unit of measure, choose the **New** button, and then select **PSC** on the **Item Units of Measurement** page.  
 
 4. All other fields have acceptable default data or do not have to be filled in.  
 5. Choose the **OK** button to create the first new item card, 2000.  
 6. Choose **New**.  
 7. In the **No.** field, enter **1002**, and then proceed to fill in the following fields.  
 
-    |Description|Base Unit of Measurement|Gen. Prod. Posting Group|GST Prod. Posting Group|Inventory Posting Group|Replenishment System|Item Tracking Code|  
+    |Description|Base Unit of Measure|Gen. Prod. Posting Group|GST Prod. Posting Group|Inventory Posting Group|Replenishment System|Item Tracking Code|  
     |-----------------|--------------------------|------------------------------|-----------------------------|-----------------------------|--------------------------|------------------------|  
     |Racing Bike|PCS|RETAIL|GST25|FINISHED|Prod. Order|SNALL|  
 
     > [!NOTE]  
-    >  To enter the base unit of measurement, choose the **New** button, and then select **PSC** on the **Item Units of Measurement** page.  
+    >  To enter the base unit of measure, choose the **New** button, and then select **PSC** on the **Item Units of Measurement** page.  
 
     Next, define the item's manufacturing setup.
 

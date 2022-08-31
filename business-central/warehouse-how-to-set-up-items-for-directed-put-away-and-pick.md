@@ -24,7 +24,7 @@ When you set up a warehouse location for directed put-away and pick, you have ne
 2.  Open the card for the item that you want to set up for directed put-away and pick.
 3. On the **Warehouse** FastTab of the item card, fill in the fields to define how the item should be handled in the warehouse.  
 4.  Choose the **Units of Measurement** action.
-5. On the **Item Units of Measurement** page, fill in the fields to define the different units of measurement in which the item may be transacted, including the height, width, length, cubage, and weight for the unit of measurement.
+5. On the **Item Units of Measurement** page, fill in the fields to define the different units of measurement in which the item may be transacted, including the height, width, length, cubage, and weight for the unit of measure.
 6. Choose the **Bin Contents** action.
 7. On the **Bin Contents** page, define the location and bin to which the item should be associated. The **Default** field is not used when the location is set up for directed put-away and pick.  
 

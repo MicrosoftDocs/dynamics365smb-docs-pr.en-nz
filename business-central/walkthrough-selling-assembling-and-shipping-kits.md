@@ -177,7 +177,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
     |Field|Value|  
     |---------------------------------|-----------|  
     |**Description**|Kit A – Basic PC|  
-    |**Base Unit of Measurement**|PCS|  
+    |**Base Unit of Measure**|PCS|  
     |**Item Category Code**|Misc.|  
     |**Replenishment System**|Assembly|  
     |**Assembly Policy**|Assemble-to-Stock|  
@@ -201,7 +201,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
     |Field|Value|  
     |---------------------------------|-----------|  
     |**Description**|Kit B – Pro PC|  
-    |**Base Unit of Measurement**|PCS|  
+    |**Base Unit of Measure**|PCS|  
     |**Item Category Code**|Misc.|  
     |**Replenishment System**|Assembly|  
     |**Assembly Policy**|Assemble-to-Order|  

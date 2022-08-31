@@ -35,7 +35,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | Specify the posting groups that map entities like customers, vendors, items, resources, and sales and purchase documents to general ledger accounts. |[Set Up Posting Groups](finance-posting-groups.md)|
 |Create account schedules and define account categories to define the contents of financial charts and reports, such as the Balance Sheet and Income Statement reports.|[Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md)|
 |Set up a tolerance by which the system closes an invoice even though the payment, including any discount, does not fully cover the amount on the invoice.|[Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)|
-| Set up financial periods. |[Work with Accounting Periods and Financial Years](finance-accounting-periods-and-fiscal-years.md) |
+| Set up fiscal periods. |[Work with Accounting Periods and Financial Years](finance-accounting-periods-and-fiscal-years.md) |
 |Set up reminder terms to help you collect for overdue payments.|[Set Up Reminder Terms and Levels](finance-setup-reminders.md)|
 | Define how you report goods and services tax amounts that you have collected for sales to the tax authorities. |[Set Up Goods and Services Tax (GST)](finance-setup-vat.md)|
 |Prepare to handle unrealised GST in connection with cash-based accounting methods.|[Set Up Unrealised GST for Cash-Based Accounting](finance-setup-unrealized-vat.md)|

@@ -24,7 +24,7 @@ You can view employee absence in two different pages:
 * The **Absence Registration** page, where you register all employee absences with a line for each absence.
 * The **Employee Absences** page, where the absences for one employee only is shown. This is the information that you entered on the **Absence Registration** page, filtered by the particular employee.
 
-To obtain meaningful statistics, you should always use the same unit of measurement (hour or day) when registering employee absences.
+To obtain meaningful statistics, you should always use the same unit of measure (hour or day) when registering employee absences.
 
 ## <a name="to-register-employee-absence"></a>To register employee absence
 You can register employee absences on a daily basis or at some other interval that meets your organisational needs.
@@ -35,7 +35,7 @@ You can register employee absences on a daily basis or at some other interval th
 4. Close the page.
 
     > [!Tip]
-    > To obtain meaningful statistics, always use the same unit of measurement, hour or day, when registering employee absences.
+    > To obtain meaningful statistics, always use the same unit of measure, hour or day, when registering employee absences.
 
 ## <a name="to-view-an-individual-employees-absence"></a>To view an individual employee's absence
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Employees**, and then choose the related link.

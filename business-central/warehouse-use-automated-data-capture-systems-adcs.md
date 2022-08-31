@@ -69,7 +69,7 @@ Each warehouse item that you want to use with ADCS must be assigned an identifie
 4. On the **Item Identifiers** page, choose the **New** action.
 5. In the **Code** field, specify the identifier for the item. For example, the identifier could be the item's bar code number.  
 
-    You can also enter a **Variant Code** and a **Unit of Measurement** code.  
+    You can also enter a **Variant Code** and a **Unit of Measure** code.  
 
 6. If needed, enter multiple codes for each item.
 7. Choose the **OK** button.  

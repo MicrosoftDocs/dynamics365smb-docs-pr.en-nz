@@ -41,11 +41,11 @@ The following primarily describes how to set up a work centre. The steps to set 
 4. In the **Work Centre Group** field, select the higher-level resource grouping that the work centre is organised under, if relevant. Choose the **New** action in the drop-down list.  
 5. In the **Alternate Work Centre** field, select the work centre to use if this work centre isn't available or when demand exceeds its capacity. The alternate work centre is for information only, and isn't automatically included in planning processes.
 6. Select the **Blocked** field if you want to prevent the work centre from being used in any processing. This means that output cannot be posted for an item that is produced at the work centre. For more information, see [Post Production Output](production-how-to-post-output-quantity.md).
-7. In the **Direct Unit Cost** field, enter the cost of producing one unit of measurement at this work centre, excluding any other cost elements. This cost is often referred to as the *direct labour rate*.  
+7. In the **Direct Unit Cost** field, enter the cost of producing one unit of measure at this work centre, excluding any other cost elements. This cost is often referred to as the *direct labour rate*.  
 8. In the **Indirect Cost %** field, enter the general operation costs of using the work centre as a percentage of the direct unit cost. This percentage amount is added to the direct cost in the calculation of the unit cost.  
 9. In the **Overhead Rate** field, enter any non-operational costs, for example maintenance expenses, of the work centre as an absolute amount.  
 
-    The **Unit Cost** field contains the calculated unit cost of producing one unit of measurement at this work centre, including all cost elements, as follows:  
+    The **Unit Cost** field contains the calculated unit cost of producing one unit of measure at this work centre, including all cost elements, as follows:  
 
     Unit Cost = Direct Unit Cost + (Direct Unit Cost x Indirect Cost %) + Overhead Rate.  
 
@@ -62,7 +62,7 @@ The following primarily describes how to set up a work centre. The steps to set 
     > [!NOTE]
     > If necessary, the flushing method selected here, can be overridden for individual operations by changing the setting on routing lines
 
-13. In the **Unit of Measurement Code** field, enter the time unit in which this work centre's cost calculation and capacity planning are made.
+13. In the **Unit of Measure Code** field, enter the time unit in which this work centre's cost calculation and capacity planning are made.
     In order to be able to constantly monitor consumption, you must first set up a method of measure. The units you enter are basic units. For example, the processing time is measured in hours and minutes.
 
     > [!NOTE]  

@@ -96,7 +96,7 @@ Bin ranking together with bin content information are the basic properties that 
 ## <a name="bin-setup"></a>Bin Setup  
 In advanced warehousing, bins can be set up with capacity values, such as quantity, total cubage, and weight to control which and how items are stored in the bin.  
 
-On each item card, you can assign a unit of measurement (UOM) for the item, such as pieces, pallets, litres, grams, or boxes. You can also have a base UOM for an item and specify larger UOMs that are based on it. For example, you can define a pallet to equal 16 pieces, the latter being the base UOM.  
+On each item card, you can assign a unit of measure (UOM) for the item, such as pieces, pallets, litres, grams, or boxes. You can also have a base UOM for an item and specify larger UOMs that are based on it. For example, you can define a pallet to equal 16 pieces, the latter being the base UOM.  
 
 If you want to set a maximum quantity of a specific item to be stored in an individual bin and the item has more than one UOM, then you must set the maximum quantity for every UOM that exists on the item card. Accordingly, if an item has been set up to be handled in pieces and pallets, then the **Max. Qty.** field on the **Bin Content** page for that item must also be in pieces and pallets. Otherwise, the allowed quantity for that bin is not calculated correctly.  
 

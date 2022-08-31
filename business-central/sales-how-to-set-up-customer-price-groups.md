@@ -38,7 +38,7 @@ When you have agreed on the prices that the group of customers will pay for cert
   
 4. Fill in the **Sales Code** with the sales code you selected on the previous page.  
   
-5. Fill in the fields on the lines with the **Item No.**, **Unit of Measurement Code**, and the agreed **Unit Price**. You can also show the **Variant Code** column and specify the **Variant Code** if there are several variants of the item.  
+5. Fill in the fields on the lines with the **Item No.**, **Unit of Measure Code**, and the agreed **Unit Price**. You can also show the **Variant Code** column and specify the **Variant Code** if there are several variants of the item.  
   
 6. If the customer group needs to purchase a minimum quantity in order to gain the price agreed on, fill in the **Minimum Quantity** field.  
 

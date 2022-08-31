@@ -106,7 +106,7 @@ You can define the work type for all time sheet lines for service orders, job or
 
 ## <a name="to-fill-in-time-sheet-lines-and-submit-for-approval"></a>To fill in time sheet lines and submit for approval
 
-Time sheet registration is tracked in hours, the standard base unit of measurement for resources. By default, a time sheet shows the common work days of Monday through Friday.  
+Time sheet registration is tracked in hours, the standard base unit of measure for resources. By default, a time sheet shows the common work days of Monday through Friday.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Time Sheets**, and then choose the related link.  
 2. Select a time sheet for the relevant period.

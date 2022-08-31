@@ -120,7 +120,7 @@ When creating assembly orders, use the information from the Physical Invt. journ
 |Quantity |The quantity in physical inventory journal.<br> **NOTE:** The quantities calculated by the physical inventory journals does not include the quantities that are on orders that have not yet shipped.  |
 |Variant Code |The same as in physical inventory journal.  |
 |Location Code |The same as in physical inventory journal. |
-|Unit of Measurement Code |The same as in physical inventory journal. |
+|Unit of Measure Code |The same as in physical inventory journal. |
 |Bin Code |The same as in physical inventory journal. |
 
 #### <a name="lines"></a>Lines
@@ -132,7 +132,7 @@ When creating assembly orders, use the information from the Physical Invt. journ
 |Quantity per |1 |
 |Variant Code |The same as in physical inventory journal. |
 |Location Code |The same as in physical inventory journal. |
-|Unit of Measurement Code |The same as in physical inventory journal. |
+|Unit of Measure Code |The same as in physical inventory journal. |
 
 > [!NOTE]
 > An assembly order can handle only one SKU of an item at a time. You must create an assembly order for each combination of SKU that has a quantity in inventory.

@@ -95,7 +95,7 @@ The [quick start](quick-start-business-central.md) articles can help you take th
 | Set Up Dynamics 365 Sales Connection |Sets up a connection to Dynamics 365 Sales, which allows you to synchronise data such as contacts and sales order information. |
 | Set Up Cash Flow Forecast |Sets up the Cash Flow Forecast chart, so you can view the predicted movement of cash in and out of your business. The chart is available on the **Accountant Role Center**. |
 | Set Up Reporting Data|Sets up data sets that you can use to build powerful reports using Excel or Power BI, for example. |
-| Invite External Accountant |If you use an external accountant to manage your books and financial reporting, you can invite them to your [!INCLUDE[prod_short](includes/prod_short.md)] so they can work with you on your financial data. |
+| Invite External Accountant |If you use an external accountant to manage your books and financial reporting, you can invite them to your [!INCLUDE[prod_short](includes/prod_short.md)] so they can work with you on your fiscal data. |
 
 The **Assisted Setup** page may contain other entries. When you go through a setup, the setup will be marked as **Completed**. You can set up other areas of the company by using manual setup. For more information, see [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
 

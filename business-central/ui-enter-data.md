@@ -254,11 +254,11 @@ The following table lists the various ways in which times can be entered and how
 
 ## <a name="entering-duration"></a>Entering Duration
 
-You enter a duration as a number followed by its unit of measurement.  
+You enter a duration as a number followed by its unit of measure.  
 
 Here are some examples.  
 
-|Duration|Unit of measurement**|  
+|Duration|Unit of measure**|  
 |------------------|-------------------------|  
 |2h|2 hrs|  
 |6h 30 m|6 hrs 30 mins|  
@@ -267,11 +267,11 @@ Here are some examples.
 |2d 6h 30m|2 days 6 hrs 30 mins|  
 |2d 6h 30m 56s 600ms|2 days 6 hrs 30 mins 56 secs 600 msecs|  
 
- You can also enter a number and it's automatically converted to a duration. The number you enter is converted according to the default unit of measurement that has been specified for the duration field.  
+ You can also enter a number and it's automatically converted to a duration. The number you enter is converted according to the default unit of measure that has been specified for the duration field.  
 
- To see the unit of measurement used in a duration field, enter a number and see which unit of measurement it's converted to.  
+ To see the unit of measure used in a duration field, enter a number and see which unit of measure it's converted to.  
 
- The number 5 is converted to 5 hrs, if the unit of measurement is hours.  
+ The number 5 is converted to 5 hrs, if the unit of measure is hours.  
 
 ## <a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="decimal"></a>Setting the decimal separator used by numeric keyboards
 
