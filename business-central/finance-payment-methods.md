@@ -10,12 +10,12 @@ ms.search.keywords: check, bank transfer, cash, PayPal
 ms.search.form: 427
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5cf88736711667a18a43e75bc70533de5c924ad2
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: ef92b2ade7c18a57438a6a87a939070cb42a9fb1
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076607"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530638"
 ---
 # <a name="set-up-payment-methods"></a>Set Up Payment Methods
 
@@ -43,7 +43,7 @@ Optionally, add payment terms to your payment method. For more information, see 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer** or **Vendor**, and then choose the related link.
 2. In the **Payment Method Code** field, choose the method to use by default for the customer or vendor.
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/cash-management-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>See also
 
