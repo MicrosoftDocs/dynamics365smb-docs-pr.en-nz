@@ -10,12 +10,12 @@ ms.search.keywords: VAT, sales, purchases
 ms.search.form: 7, 118, 130, 142, 459, 460, 525
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: b8c09f49b741f7979f79f5e3305ef11258ffaaea
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 0a8d8f32613af2c0aab6905f62682e3c93307993
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530935"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617837"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Work with GST on Sales and Purchases
 If your country or region requires you to calculate and report value-added tax (VAT) on sales and purchase transactions, you can set up [!INCLUDE[prod_short](includes/prod_short.md)] to calculate VAT. For more information, see [Setting Up to Calculations and Posting Methods for Goods and Services Tax](finance-setup-vat.md).
@@ -61,6 +61,18 @@ Depending on what you want to do, you can assign a GST business posting group to
 
 #### <a name="examples"></a>Examples
 Factors such as the country or region you're selling in, or the type of industries you sell to, can impact the amount of GST that you must account for. For example, a restaurant might charge 6% GST for meals that are eaten in-house, and 17% for takeaway. To accomplish that, you create a GST business posting group (price) for in-house and one for takeaway.
+
+## <a name="working-with-vat-date"></a>Working with GST Date
+### <a name="vat-date-in-documents"></a>GST Date in documents
+When you create new sales or purchase documents, the **GST Date** will be based on the setting in the **Default GST Date** field on the **General Ledger Setup** page. This default value can be the same as **Posting Date** or **Document Date**. If you need a different GST date, you can manually change the value in the **GST Date** field. When you post the document, the **GST Date** will be shown on the posting document and on the GST and G/L entries.
+
+### <a name="correcting-vat-date-in-posted-entries"></a>Correcting GST Date in posted entries
+In some situations it is necessary to change GST date even if the document has been posted and this is possible to be done in [!INCLUDE[prod_short](includes/prod_short.md)]. To change **GST Date** for posted documents you need to follow these steps:
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **GST Entries**, and then choose the related link.
+2. Find the entry with wrong GST date.
+3. Click **Edit list** action and enter the correct date in the **GST Date** field.
+4. Close the page.
+5. New GST date will be changed in related **G/L Entries** and in the posted document if exists.
 
 ## <a name="correcting-vat-amounts-manually-in-sales-and-purchase-documents"></a>Correcting GST Amounts Manually in Sales and Purchase Documents  
 You can make corrections to posted GST entries so that you can change the total sales or purchase GST amounts without changing the GST base. For example, if you receive an invoice from a vendor with an incorrect GST amount.  
