@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 118, 391, 470, 471, 472, 575, 734, 747, 748, 1877,
-ms.date: 07/08/2022
+ms.date: 12/01/2022
 ms.author: bholtorf
-ms.openlocfilehash: cfb7cf9448db3b88bc6f8c75f495ddb12cb23740
-ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
+ms.openlocfilehash: d401e6d9a0b8fb4f05bcc379322b2f81bfc03c57
+ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
 ms.translationtype: HT
 ms.contentlocale: en-NZ
-ms.lasthandoff: 10/03/2022
-ms.locfileid: "9617928"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9822445"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Set Up Calculations and Posting Methods for Goods and Services Tax
 
@@ -234,6 +234,11 @@ To correctly calculate GST on sales to EU countries/regions, you should:
 * Assign the GST business posting groups in the **GST Bus. Posting Group** field on the **Invoicing** FastTab of the customer card of each EU customer. You should also enter the customer's VAT registration number in the **VAT Registration No.** field on the **Foreign Trade** FastTab.  
 
 When you post a sale to a customer in another EU country/region, the GST amount is calculated, and a GST entry is created by using the information about the reverse charge GST and the GST base, which is the amount that is used to calculate the GST amount. No entries are posted to the GST accounts in the general ledger.
+
+If you want to use combination of GST business posting group and GST product posting group for reporting as services in the periodic GST reports, mark the **EU Service** field.
+
+> [!NOTE]  
+> The **EU Service** field is only applicable for GST reports. The field isn't related to the **Service Declaration** or **Intrastat for Services** features.
 
 ## <a name="vat-rounding-for-documents"></a>GST rounding for documents
 
