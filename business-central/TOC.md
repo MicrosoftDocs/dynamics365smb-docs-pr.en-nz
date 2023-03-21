@@ -17,7 +17,7 @@
 <!-- #### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 <!-- #### [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md) -->
 #### [Walkthrough: Manage Projects with Jobs](walkthrough-managing-projects-with-jobs.md)
-#### [Walkthrough: Calculating Work in Progress for a Job](walkthrough-calculating-work-in-process-for-a-job.md)
+#### [Walkthrough: Calculating Work in Process for a Job](walkthrough-calculating-work-in-process-for-a-job.md)
 #### [Walkthrough: Picking and Shipping in Basic Warehouse Configurations](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 <!-- #### [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md) -->
 #### [Walkthrough: Making Cash Flow Forecasts by Using Financial Reports](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
@@ -72,17 +72,16 @@
 ##### [Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md)  
 ##### [Design Details: Planning Parameters](design-details-planning-parameters.md)  
 ##### [Design Details: Planning Assignment Table](design-details-planning-assignment-table.md)  
-##### [Design Details: Demand at Blank Location](design-details-demand-at-blank-location.md)  
 ##### [Design Details: Transfers in Planning](design-details-transfers-in-planning.md)
-#### Design Details: Warehouse Management
-##### [Warehouse Management Design Details](design-details-warehouse-management.md)
-##### [Design Details: Warehouse Overview](design-details-warehouse-overview.md)  
-##### [Design Details: Warehouse Setup](design-details-warehouse-setup.md)  
-##### [Design Details: Inbound Warehouse Flow](design-details-inbound-warehouse-flow.md)  
-##### [Design Details: Internal Warehouse Flows](design-details-internal-warehouse-flows.md)  
-##### [Design Details: Availability in the Warehouse](design-details-availability-in-the-warehouse.md)  
-##### [Design Details: Outbound Warehouse Flow](design-details-outbound-warehouse-flow.md)  
-##### [Design Details: Integration with Inventory](design-details-integration-with-inventory.md)
+<!-- #### Design Details: Warehouse Management
+<!-- ##### [Warehouse Management Design Details](design-details-warehouse-management.md) -->
+<!-- ##### [Design Details: Warehouse Overview](design-details-warehouse-overview.md)   -->
+<!-- ##### [Design Details: Warehouse Setup](design-details-warehouse-setup.md)   deleted, use warehouse-setup-warehouse.md-->
+<!-- ##### [Design Details: Inbound Warehouse Flow](design-details-inbound-warehouse-flow.md)   -->
+<!-- ##### [Design Details: Internal Warehouse Flows](design-details-internal-warehouse-flows.md)   -->
+#### [Design Details: Availability in the Warehouse](design-details-availability-in-the-warehouse.md)  
+<!-- ##### [Design Details: Outbound Warehouse Flow](design-details-outbound-warehouse-flow.md)   -->
+<!-- ##### [Design Details: Integration with Inventory](design-details-integration-with-inventory.md) -->
 #### Design Details: Item Tracking
 ##### [Item Tracking Design Details](design-details-item-tracking.md)
 ##### [Design Details: Item Tracking Design](design-details-item-tracking-design.md)  
@@ -152,7 +151,7 @@
 #### [Display Lists in Different Ways](across-display-lists-different-views.md)
 ### Run and Print Reports
 #### [Run and Print Reports](ui-work-report.md)
-#### [Set Up Printers](ui-specify-printer-selection-reports.md)
+#### [Specify a Default Printer](ui-specify-printer-selection-reports.md)
 #### [Schedule a Report to Run](ui-work-report.md#ScheduleReport)
 #### [Manage Saved Settings](reports-saving-reusing-settings.md)
 #### [View Test Reports Before Posting](ui-how-view-test-reports-posting.md)
@@ -387,12 +386,12 @@
 
 ### Closing Years and Periods
 #### [Year Closing Overview](year-close-years-periods.md)
-#### [Work with Accounting Periods and Financial Years](finance-accounting-periods-and-fiscal-years.md)
+#### [Work with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)
 #### [Specify Posting Periods](finance-how-specify-posting-periods.md)
 #### [Closing Periods](year-how-complete-period-end-processes.md)
 #### [Update Currency Exchange Rates](finance-how-update-currencies.md)
 #### [Allocate Costs and Income](year-allocate-costs-income.md)
-#### [Report GST to Tax Authorities](finance-how-report-vat.md)
+#### [Report VAT to Tax Authorities](finance-how-report-vat.md)
 #### [Prepare Pre-Closing Reports](year-prepare-preclose-reports.md)
 #### [Close Books](year-close-books.md)
 #### [Prepare Closing Statements](year-prepare-close-statement.md)
@@ -416,21 +415,21 @@
 ### [Defer Revenues and Expenses](finance-how-defer-revenue-expenses.md)
 ### [Update Currency Exchange Rates](finance-how-update-currencies.md)
 ### [Import Payroll Transactions](finance-how-import-payroll-transactions.md)
-### [Work with GST on Sales and Purchases](finance-work-with-vat.md)
-### [Report GST to Tax Authorities](finance-how-report-vat.md)
-### [Convert Service Contracts that Include GST Amounts](service-how-to-convert-service-contracts.md)
-### [Manage GST Rate Changes](finance-how-use-vat-rate-change-tool.md)
+### [Work with VAT on Sales and Purchases](finance-work-with-vat.md)
+### [Report VAT to Tax Authorities](finance-how-report-vat.md)
+### [Convert Service Contracts that Include VAT Amounts](service-how-to-convert-service-contracts.md)
+### [Manage VAT Rate Changes](finance-how-use-vat-rate-change-tool.md)
 ### [Walkthrough: Make Cash Flow Forecasts by Using Financial Reports](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 ### [Analyse Financial Statements in Excel](finance-analyze-excel.md)
 ### [Transfer Bank Funds](bank-how-transfer-bank-funds.md)
 ### [Create Bank Deposits](bank-create-bank-deposits.md)
-### [Accountant Experiences in Business Central ](finance-accounting.md)
+### [Accountant Experiences in Business Central](finance-accounting.md)
 ### [Multi-Site and International Organisations](finance-multi-site-organizations.md)
 
 ## Financial Business Intelligence and Reporting
 ### [Financial Business Intelligence and Reporting Overview](bi.md)
 ### [Financial Reports](finance-reports.md)
-### [Analyze Actual Amounts Versus Budgeted Amounts](bi-how-analyze-actual-versus-budget.md)
+### [Analyse Actual Amounts Versus Budgeted Amounts](bi-how-analyze-actual-versus-budget.md)
 ### [Prepare Financial Reporting with Financial Data and Account Categories](bi-how-work-account-schedule.md)
 ### [Set Up and Publish KPI Web Services Based on Financial Reports](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 ### [Analyse Data by Dimensions](bi-how-analyze-data-dimension.md)
@@ -472,7 +471,7 @@
 ### [Record Purchases](purchasing-how-record-purchases.md)
 ### [Request Quotes](purchasing-how-request-quotes.md)
 ### [Purchase Items for a Sale](purchasing-how-purchase-products-sale.md)
-### [Post Purchases](ui-post-purchases.md)
+<!-- ### [Post Purchases](ui-post-purchases.md) -->
 ### [Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)
 ### [Combine Receipts on a Single Invoice](purchasing-how-to-combine-receipts.md)
 ### [Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md)
@@ -493,7 +492,7 @@
 ### [Manage Product Variants](inventory-item-variants.md)  
 ### [Work with Item Attributes](inventory-how-work-item-attributes.md)
 ### [Work with Catalogue Items](inventory-how-work-nonstock-items.md)
-### [Count and Adjust Inventory Use Documents](inventory-how-count-inventory-with-documents.md)
+### [Count and Adjust Inventory Using Documents](inventory-how-count-inventory-with-documents.md)
 ### [Count, Adjust, and Reclassify Inventory Use Journals](inventory-how-count-adjust-reclassify.md)
 ### [View the Availability of Items](inventory-how-availability-overview.md)
 ### [Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)
@@ -612,40 +611,47 @@
 ### [About Finished Production Order Costs](finance-about-finished-production-order-costs.md)
 
 ## Warehouse Management
-### [Warehouse Management](warehouse-manage-warehouse.md)
+### [Warehouse Management Overview](design-details-warehouse-management.md)
+<!-- ### [Warehouse Management](warehouse-manage-warehouse.md) -->
 ### [Inventory and Warehouse Reports](inventory-WMS-reports.md)
-### [Receive Items](warehouse-how-receive-items.md)
-### [Cross-Dock Items](warehouse-how-to-cross-dock-items.md)
-### Put Items Away
-#### [Put Items Away](warehouse-put-away-items.md)
+
+### Inbound warehouse processes
+#### [Inbound Warehouse Processes](design-details-inbound-warehouse-flow.md)
+#### [Find Your Work Assignments](warehouse-how-to-find-your-warehouse-assignments.md) 
+#### [Receive Items](warehouse-how-receive-items.md)
+<!-- #### [Put Items Away](warehouse-put-away-items.md) -->
 #### [Put Items Away with Inventory Put-aways](warehouse-how-to-put-items-away-with-inventory-put-aways.md)
 #### [Put Items Away with Warehouse Put-aways](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)
-#### [Put Away Production or Assembly Output](warehouse-how-to-put-away-production-output.md)
-#### [Plan Put-Aways in Worksheets](warehouse-how-to-plan-put-aways-in-worksheets.md)
-#### [Pick and Put Away Without a Source Document](warehouse-how-to-create-put-aways-from-internal-put-aways.md)
-### Move Items
-#### [Move Items](warehouse-move-items.md)
-#### [Move Items Ad Hoc in Basic Warehouse Configurations](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)
-#### [Move Items in Advanced Warehouse Configurations](warehouse-how-to-move-items-in-advanced-warehousing.md)
-#### [Move Components to an Operation Area in Basic Warehouse Configurations](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
-#### [Calculate Bin Replenishment](warehouse-how-to-calculate-bin-replenishment.md)
-#### [Plan Warehouse Movements in Worksheets](warehouse-how-to-plan-warehouse-movements-in-worksheets.md)
-### Pick Items
-#### [Pick Items](warehouse-pick-items.md)
+<!-- #### [Plan Bulk Put-Aways Using Worksheets](warehouse-how-to-plan-put-aways-in-worksheets.md) -->
+#### [Cross-Dock Items](warehouse-how-to-cross-dock-items.md)
+#### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)
+#### [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
+
+### Outbound warehouse processes
+#### [Outbound Warehouse Processes](design-details-outbound-warehouse-flow.md)
+#### [Find Your Work Assignments](warehouse-how-to-find-your-warehouse-assignments.md)
 #### [Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md)
 #### [Pick Items for Warehouse Shipment](warehouse-how-to-pick-items-for-warehouse-shipment.md)
-#### [Pick for Production, Assembly, or Jobs in Basic Warehouse Configurations](warehouse-how-to-pick-for-production.md)
-#### [Pick for Production, Assembly, or Jobs in Advanced Warehouse Configurations](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
-#### [Plan Picks in Worksheets](warehouse-how-to-plan-picks-in-worksheets.md)
-#### [Pick and Put Away Without a Source Document](warehouse-how-to-create-put-aways-from-internal-put-aways.md)
-#### [Pick By FEFO](warehouse-picking-by-fefo.md)
-#### [Split Warehouse Activity Lines](warehouse-how-to-split-warehouse-activity-lines.md)
+#### [Ship Items](warehouse-how-ship-items.md)
+#### [Cross-Dock Items](warehouse-how-to-cross-dock-items.md)
 #### [Walkthrough: Picking and Shipping in Basic Warehouse Configurations](walkthrough-picking-and-shipping-in-basic-warehousing.md)
-### [Ship Items](warehouse-how-ship-items.md)
-### [Find Your Warehouse Assignments](warehouse-how-to-find-your-warehouse-assignments.md)
-### [Use Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)
-<!-- ### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md) -->
-<!-- ### [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md) -->
+
+### Internal Warehouse Processes
+#### Production, Assembly, and Job Activities
+##### [Flows for Production, Assembly, and Jobs](design-details-internal-warehouse-flows.md)
+##### [Pick for Production, Assembly, or Jobs in Basic Warehouse Configurations](warehouse-how-to-pick-for-production.md)
+##### [Pick for Production, Assembly, or Jobs in Advanced Warehouse Configurations](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
+##### [Put Away Production Output](warehouse-how-to-put-away-production-output.md)
+#### Move Items
+##### [Move Items](warehouse-move-items.md)
+##### [Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)
+##### [Move Items Internally in Basic Warehouse Configurations](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)
+##### [Move Items in Advanced Warehouse Configurations with Directed Pick and Put-away](warehouse-how-to-move-items-in-advanced-warehousing.md)
+
+#### Warehouse Counting
+##### [Design Details: Integration with Inventory](design-details-integration-with-inventory.md)
+##### [Count and Adjust Inventory Using Documents](inventory-how-count-inventory-with-documents.md)
+##### [Count, adjust, and reclassify inventory](inventory-how-count-adjust-reclassify.md)
 
 ## Service Management
 ### [Service Management](service-service.md)
@@ -676,7 +682,7 @@
 #### [Create and Set Up a Shopify Account](shopify/shopify-account.md)
 ### [Synchronise Items with Shopify](shopify/synchronize-items.md)
 ### [Synchronise Customers with Shopify](shopify/synchronize-customers.md)
-### [Synchronise and fulfil Sales Orders with Shopify](shopify/synchronize-orders.md)
+### [Synchronise and Fulfil Sales Orders with Shopify](shopify/synchronize-orders.md)
 ### [Synchronise Transactions and Payouts](shopify/transactions-and-payouts.md)
 ### [Set Up Taxes for the Shopify Connection](shopify/setup-taxes.md)
 ### [Run Tasks in the Background](shopify/background.md)
@@ -707,7 +713,7 @@
 ##### [View Posted Tax Credit Memos](LocalFunctionality\Australia\how-to-view-posted-tax-credit-memos.md)
 ##### [Set Up Goods and Service Tax Posting](LocalFunctionality/Australia/how-to-set-up-goods-and-service-tax-posting.md)
 ##### [Calculate Goods and Services Tax on Prepayments](LocalFunctionality/Australia/how-to-calculate-goods-and-services-tax-on-prepayments.md)
-##### [Adjust Settlement Exchange Rates for GST Entries](LocalFunctionality/Australia/how-to-adjust-settlement-exchange-rates-for-vat-entries.md)
+##### [Adjust Settlement Exchange Rates for VAT Entries](LocalFunctionality/Australia/how-to-adjust-settlement-exchange-rates-for-vat-entries.md)
 ##### [Print Goods and Service Tax Settlement Reports](LocalFunctionality/Australia/how-to-print-goods-and-service-tax-settlement-reports.md)
 #### Banking & Payments
 ##### [Compare Bank Cash Flow](LocalFunctionality/Australia/how-to-compare-bank-cash-flow.md)
@@ -729,7 +735,7 @@
 
 ### Austria
 #### [Local Functionality in the Austrian Version](LocalFunctionality/Austria/austria-local-functionality.md)
-#### VAT
+#### GST
 ##### [Create a VAT Statement](LocalFunctionality/Austria/how-to-create-a-vat-statement.md)
 ##### [VAT Reporting](LocalFunctionality/Austria/vat-reporting.md)
 #### Banking & Payments
@@ -748,7 +754,7 @@
 
 ### Belgium
 #### [Local Functionality in the Belgian Version](LocalFunctionality/Belgium/belgium-local-functionality.md)
-#### VAT
+#### GST
 ##### [Belgian VAT](LocalFunctionality/Belgium/belgian-vat.md)
 ##### [Set Up Non-Deductible VAT](LocalFunctionality/Belgium/how-to-set-up-non-deductible-vat.md)
 ##### [Make Manual Corrections to VAT](LocalFunctionality/Belgium/how-to-make-manual-corrections-to-vat.md)
@@ -789,7 +795,7 @@
 #### Tax
 ##### [Report Sales Tax and Goods/Services Tax in Canada](LocalFunctionality/Canada/sales-tax-goods-services.md)
 ##### [Report Sales Tax in Canada](LocalFunctionality/Canada/ca-sales-tax.md)
-##### [Set Up Unrealised VAT and Sales Payment Discounts](LocalFunctionality/Canada/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
+##### [Set Up Unrealised Sales Tax and Sales Payment Discounts](LocalFunctionality/Canada/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
 ##### [Set Up Use Tax and Purchase Tax](LocalFunctionality/Canada/how-to-set-up-use-tax-and-purchase-tax.md)
 #### Banking & Payments
 ##### [Create Deposits](LocalFunctionality/Canada/how-to-create-deposits.md)
@@ -807,7 +813,7 @@
 ##### [Year Close Operations](LocalFunctionality/Czech/year-close-operations.md)
 ##### [General Ledger Entries Application](LocalFunctionality/Czech/general-ledger-entries-application.md)
 ##### [Exchange Rate Update](LocalFunctionality/Czech/exchange-rate-update.md)
-#### VAT
+#### GST
 ##### [Finance - VAT](LocalFunctionality/Czech/finance-vat.md)
 ##### [VAT Control Report](LocalFunctionality/Czech/vat-control-report.md)
 #### Fixed Assets
@@ -836,7 +842,7 @@
 #### GST
 ##### [Print VAT Reconciliation Reports](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ##### [VAT-VIES Reporting](LocalFunctionality/Denmark/vat-vies-reporting.md)
-##### [GST Registration number Setup for Intrastat](LocalFunctionality/Denmark/vat-registration-no-intrastat.md)
+##### [VAT Registration Number Setup for Intrastat](LocalFunctionality/Denmark/vat-registration-no-intrastat.md)
 #### Banking & Payments
 ##### [FIK Details in the Payment Reconciliation Journal](LocalFunctionality/Denmark/fik-details-in-the-payment-reconciliation-journal.md)
 ##### [The Payments and Reconciliations (DK) Extension](ui-extensions-payments-reconciliation-formats-dk.md)
@@ -851,7 +857,7 @@
 
 ### Finland
 #### [Local Functionality in the Finnish Version](LocalFunctionality/Finland/finland-local-functionality.md)
-#### VAT
+#### GST
 ##### [Print Finnish Intrastat Reports](LocalFunctionality/Finland/how-to-print-finnish-intrastat-reports.md)
 ##### [Print VAT Information on Invoices](LocalFunctionality/Finland/how-to-print-vat-information-on-invoices.md)
 ##### [VAT-VIES Declaration in Finland](LocalFunctionality/Finland/vat-vies-declaration-in-finland.md)
@@ -868,7 +874,7 @@
 
 ### France
 #### [Local Functionality in the French Version](LocalFunctionality/France/france-local-functionality.md)
-#### VAT
+#### GST
 ##### [Export General Ledger Entries for Tax Audits](LocalFunctionality/France/how-to-export-general-ledger-entries-for-tax-audits.md)
 ##### [Export General Ledger Entries to an XML File](LocalFunctionality/France/how-to-export-general-ledger-entries-to-an-xml-file.md)
 ##### [Requirements for Reporting Declaration of Trade in Goods](LocalFunctionality/France/requirements-for-reporting-declaration-of-trade-in-goods.md)
@@ -888,13 +894,13 @@
 ##### [Print General Ledger Reports](LocalFunctionality/France/how-to-print-general-ledger-reports.md)
 ##### [View Ledger Reconciliations](LocalFunctionality/France/how-to-view-ledger-reconciliations.md)
 ##### [Specify Posting Periods](LocalFunctionality/France/how-to-specify-posting-periods.md)
-##### [Financial Periods and Financial Years](LocalFunctionality/France/fiscal-periods-and-fiscal-years.md)
+##### [Fiscal Periods and Fiscal Years](LocalFunctionality/France/fiscal-periods-and-fiscal-years.md)
 ##### [Overview of Year-End Processes](LocalFunctionality/France/year-end-processes-overview.md)
 ##### [Fiscally Close Accounting Periods](LocalFunctionality/France/how-to-fiscally-close-accounting-periods.md)
 ##### [Close Income Statement Accounts](LocalFunctionality/France/how-to-close-income-statement-accounts.md)
 ##### [Close a Year](LocalFunctionality/France/how-to-close-years.md)
 ##### [Fiscally Close Years](LocalFunctionality/France/how-to-fiscally-close-years.md)
-##### [Open a New Financial Year Duplicate](LocalFunctionality/France/how-to-open-a-new-fiscal-year-duplicate.md)
+##### [Open a New Fiscal Year Duplicate](LocalFunctionality/France/how-to-open-a-new-fiscal-year-duplicate.md)
 ##### [Post the Year-End Closing Entry](LocalFunctionality/France/how-to-post-the-year-end-closing-entry.md)
 ##### [Reopen Accounting Periods](LocalFunctionality/France/how-to-reopen-accounting-periods.md)
 #### Fixed Assets
@@ -904,7 +910,7 @@
 
 ### Germany
 #### [Local Functionality in the German Version](LocalFunctionality/Germany/germany-local-functionality.md)
-#### VAT
+#### GST
 ##### [Set Up Reports for VAT and Intrastat](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md)  
 ##### [Set Up VAT Reports](LocalFunctionality/Germany/how-to-set-up-vat-reports.md)
 ##### [VAT Reporting](LocalFunctionality/Germany/vat-reporting.md)
@@ -941,7 +947,7 @@
 
 ### Iceland
 #### [Local Functionality in the Icelandic Version](LocalFunctionality/Iceland/iceland-local-functionality.md)
-#### VAT
+#### GST
 ##### [Print VAT Summary Information on Documents](LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents.md)  
 ##### [Special Data Output and Reports for the Tax Authority](LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority.md)
 #### Electronic Invoicing
@@ -1062,7 +1068,7 @@
 
 ### Italy
 #### [Local Functionality in the Italian Version](LocalFunctionality/Italy/italy-local-functionality.md)
-#### VAT
+#### GST
 ##### [Italian VAT](LocalFunctionality/Italy/italian-vat.md)
 ##### [Submit VAT Statements](LocalFunctionality/Italy/how-to-submit-vat-statements.md)
 ##### [Correct VAT Transactions Reports](LocalFunctionality/Italy/how-to-correct-vat-transactions-reports.md)
@@ -1081,13 +1087,13 @@
 ##### [Vendor Payments and Customer Bills Overview](LocalFunctionality/Italy/vendor-payments-and-customer-bills-overview.md)
 ##### [Issue Vendor Payments and Customer Bills](LocalFunctionality/Italy/how-to-issue-vendor-payments-and-customer-bills.md)
 #### Core Finance
-##### [Close a Financial Year](LocalFunctionality/Italy/how-to-close-a-fiscal-year.md)
+##### [Close a Fiscal Year](LocalFunctionality/Italy/how-to-close-a-fiscal-year.md)
 ##### [Define Debit and Credit Amounts](LocalFunctionality/Italy/how-to-define-debit-and-credit-amounts.md)
 ##### [Reversing Journal Entries](LocalFunctionality/Italy/reversing-journal-entries.md)
 #### Inventory
 ##### [Set Up Initial Item Costs](LocalFunctionality/Italy/how-to-set-up-initial-item-costs.md)
-##### [Financial Inventory Valuation](LocalFunctionality/Italy/fiscal-inventory-valuation.MD)
-##### [Set Up Financial Inventory Valuation](LocalFunctionality/Italy/how-to-set-up-fiscal-inventory-valuation.md)
+##### [Fiscal Inventory Valuation](LocalFunctionality/Italy/fiscal-inventory-valuation.MD)
+##### [Set Up Fiscal Inventory Valuation](LocalFunctionality/Italy/how-to-set-up-fiscal-inventory-valuation.md)
 #### Fixed Assets
 ##### [Italian Fixed Assets](LocalFunctionality/Italy/italian-fixed-assets.md)
 ##### [Set Up Compressed Depreciation of Fixed Assets](LocalFunctionality/Italy/how-to-set-up-compressed-depreciation-of-fixed-assets.md)
@@ -1119,7 +1125,7 @@
 
 ### Netherlands
 #### [Local Functionality in the Dutch Version](LocalFunctionality/Netherlands/netherlands-local-functionality.md)
-#### VAT
+#### GST
 ##### [Create a Audit File for the Tax Authority](LocalFunctionality/Netherlands/how-to-create-an-audit-file-for-the-tax-authority.md)
 ##### [Set Up VAT Categories](LocalFunctionality/Netherlands/how-to-set-up-vat-categories.md)
 ##### [Electronic VAT and ICP Declarations](LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations.md)
@@ -1145,7 +1151,7 @@
 ##### [Apply and Unapply General Ledger Entries](LocalFunctionality/Netherlands/how-to-apply-and-unapply-general-ledger-entries.md)
 ##### [Required Descriptions in G/L Entries](LocalFunctionality/Netherlands/required-descriptions-in-g-l-entry.md)
 #### Purchasing
-##### [Cheque Purchase Amounts](LocalFunctionality/Netherlands/check-purchase-amounts.md)
+##### [Check Purchase Amounts](LocalFunctionality/Netherlands/check-purchase-amounts.md)
 ##### [Edit Document Amounts in Purchase Invoices and Credit Memos](LocalFunctionality/Netherlands/how-to-edit-document-amounts-in-purchase-invoices-and-credit-memos.md)  
 ##### [Set Up Validation of Purchase Amounts](LocalFunctionality/Netherlands/how-to-set-up-validation-of-purchase-amounts.md)
 #### General
@@ -1187,7 +1193,7 @@
 
 ### Norway
 #### [Local Functionality in the Norwegian Version](LocalFunctionality/Norway/norway-local-functionality.md)
-#### VAT
+#### GST
 ##### [Norwegian Standard Audit File - Tax (SAF-T) Management](LocalFunctionality/Norway/ui-extensions-setup-and-generate-saf-t-files-no.md)
 ##### [Norwegian VAT Reporting](LocalFunctionality/Norway/norwegian-vat-reporting.md)
 ##### [Norwegian VAT Codes](LocalFunctionality/Norway/norwegian-vat-codes.md)  
@@ -1273,7 +1279,7 @@
 ##### [Set Up an Intangible Assets Account](LocalFunctionality/Russia/How-to-Set-Up-an-Intangible-Assets-Account.md)
 ##### [Account for the Cost to Dispose a Fixed Asset](LocalFunctionality/Russia/How-to-Account-for-the-Cost-to-Dispose-a-Fixed-Asset.md)
 ##### [Undepreciable Fixed Assets](LocalFunctionality/Russia/Undepreciable-Fixed-Assets.md)
-#### VAT
+#### GST
 ##### [VAT in the Russian Version](LocalFunctionality/Russia/VAT.md)
 ##### [Set Up VAT Ledgers](LocalFunctionality/Russia/How-to-Set-Up-VAT-Ledgers.md)  
 ##### [Prepare VAT Entries for Posting](LocalFunctionality/Russia/How-to-Prepare-VAT-Entries-for-Posting.md)  
@@ -1314,7 +1320,7 @@
 
 ### Spain
 #### [Local Functionality in the Spanish Version](LocalFunctionality/Spain/spain-local-functionality.md)
-#### VAT
+#### GST
 ##### [VAT Reports](LocalFunctionality/Spain/vat-reports.md)
 ##### [Report 340](LocalFunctionality/Spain/report-340.md)  
 ##### [Create Report 340](LocalFunctionality/Spain/how-to-create-report-340.md)  
@@ -1323,7 +1329,7 @@
 ##### [Report 349](LocalFunctionality/Spain/report-349.md)  
 ##### [Create Report 349](LocalFunctionality/Spain/how-to-create-report-349.md)  
 ##### [Set Up 340 Reports for Small Businesses](LocalFunctionality/Spain/how-to-set-up-340-reports-for-small-businesses.md)
-##### [Set Up SII for GST Reporting](LocalFunctionality/Spain/sii-setup.md)
+##### [Set Up SII for VAT Reporting](LocalFunctionality/Spain/sii-setup.md)
 ##### [Create Templates for Telematic VAT Statements in Text File Format](LocalFunctionality/Spain/how-to-create-templates-for-telematic-vat-statements-in-text-file-format.md)
 ##### [Create Templates for Telematic VAT Statements in XML File Format](LocalFunctionality/Spain/how-to-create-templates-for-telematic-vat-statements-in-xml-file-format.md)
 ##### [Export VAT Statements in XML Format](LocalFunctionality/Spain/how-to-export-vat-statements-in-xml-format.md)  
@@ -1362,7 +1368,7 @@
 
 ### Sweden
 #### [Local Functionality in the Swedish Version](LocalFunctionality/Sweden/sweden-local-functionality.md)
-#### VAT
+#### GST
 ##### [Set Up EU Third-Party Purchase Transactions](LocalFunctionality/Sweden/how-to-set-up-eu-third-party-purchase-transactions.md)
 #### Core Finance
 ##### [Automatic Account Codes](LocalFunctionality/Sweden/automatic-account-codes.md)  
@@ -1372,7 +1378,7 @@
 
 ### Switzerland
 #### [Local Functionality in the Swiss Version](LocalFunctionality/Switzerland/switzerland-local-functionality.md)
-#### VAT
+#### GST
 ##### [Create and print a Swiss VAT Statement](LocalFunctionality/Switzerland/how-to-create-and-print-a-swiss-vat-statement.md)
 ##### [Print Swiss VAT Statements (Older Versions)](LocalFunctionality/Switzerland/how-to-print-swiss-vat-statements-older-version-.md)
 ##### [Swiss Value Added Tax](LocalFunctionality/Switzerland/swiss-value-added-tax.md)
@@ -1414,8 +1420,8 @@
 
 ### United Kingdom
 #### [Local Functionality in the UK Version](LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.md)
-#### VAT
-##### [Make Tax Digital - GST Returns submission](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)
+#### GST
+##### [Make Tax Digital - VAT Returns submission](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)
 ##### [Change VAT Setup in Journals](LocalFunctionality/UnitedKingdom/how-to-change-vat-setup-in-journals.md)
 ##### [Print VAT Audit Reports](LocalFunctionality/UnitedKingdom/how-to-print-vat-audit-reports.md)
 ##### [Print VAT Reports](LocalFunctionality/UnitedKingdom/how-to-print-vat-reports.md)
@@ -1439,8 +1445,9 @@
 ##### [Reporting Sales Tax in the US](LocalFunctionality/UnitedStates/us-sales-tax.md)  
 ##### [Set Up and Use the IRS 1099 Form](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
 ##### [Regulatory 1099 Format Changes and Details](LocalFunctionality/UnitedStates/tax-1099-changes.md)  
+##### [Set Up and Use the IRS 1096 Form](LocalFunctionality/UnitedStates/set-up-use-irs1096-form.md)
 ##### [Set Up Use Tax and Purchase Tax](LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax.md)  
-##### [Set Up Unrealised VAT and Sales Payment Discounts](LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
+##### [Set Up Unrealised Sales Tax and Sales Payment Discounts](LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
 #### Banking & Payments
 ##### [Create Deposits](LocalFunctionality/UnitedStates/how-to-create-deposits.md)  
 ##### [Reconcile Bank Accounts](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md)
@@ -1459,12 +1466,12 @@
 #### [Set Up Posting Groups](finance-posting-groups.md)
 #### [Prepare Financial Reporting with Financial Data and Account Categories](bi-how-work-account-schedule.md)
 #### [Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
-#### [Work with Accounting Periods and Financial Years](finance-accounting-periods-and-fiscal-years.md)
+#### [Work with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)
 #### [Set Up Reminder Terms and Levels](finance-setup-reminders.md)
 #### [Set Up Finance Charge Terms](finance-setup-finance-charges.md)
-#### [Set Up Goods and Services Tax (GST)](finance-setup-vat.md)
-#### [Set Up Calculations and Posting Methods for Goods and Services Tax (GST)](finance-setup-vat.md)
-#### [Set Up Unrealised GST for Cash-Based Accounting](finance-setup-unrealized-vat.md)
+#### [Set Up Value-Added Tax (VAT)](finance-setup-vat.md)
+#### [Set Up Calculations and Posting Methods for Value-Added Tax (VAT)](finance-setup-vat.md)
+#### [Set Up Unrealised VAT for Cash-Based Accounting](finance-setup-unrealized-vat.md)
 #### [Validate VAT Registration Numbers](finance-how-validate-vat-registration-number.md)
 #### [Set Up Source Codes and Reason Codes for Audit Trails](finance-setup-trail-codes.md)
 #### [Enable Application of Ledger Entries in Different Currencies](finance-how-enable-application-ledger-entries-different-currencies.md)
@@ -1512,7 +1519,7 @@
 #### [Register New Items](inventory-how-register-new-items.md)
 #### [Copy Existing Items to Create New Items](inventory-how-copy-items.md)
 #### [About Item Types](inventory-about-item-types.md)
-#### [Set Up Units of Measurement](inventory-how-setup-units-of-measure.md)
+#### [Set Up Units of Measure](inventory-how-setup-units-of-measure.md)
 #### [Set Up Stockkeeping Units](inventory-how-to-set-up-stockkeeping-units.md)
 #### [Categorise Items](inventory-how-categorize-items.md)
 #### [Import Multiple Item Pictures](inventory-how-import-item-pictures.md)
@@ -1531,7 +1538,7 @@
 #### [Set Up Fixed Asset Maintenance](fa-how-setup-maintenance.md)
 ### Set Up Warehouse Management
 #### [Set Up Warehouses](warehouse-setup-warehouse.md)
-#### [Design Details: Warehouse Overview](design-details-warehouse-overview.md)
+#### [Warehouse Management Overview](design-details-warehouse-management.md)
 #### [Set Up Bin Types](warehouse-how-to-set-up-bin-types.md)
 #### [Create Bins](warehouse-how-to-create-individual-bins.md)
 #### [Create Bin Contents](warehouse-how-to-set-up-bin-contents.md)
@@ -1544,7 +1551,7 @@
 #### [Set Up Items and Locations for Directed Put-away and Pick](warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md)
 #### [Enable Automatic Breaking Bulk with Directed Put-away and Pick](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)
 #### [Enable Picking by FEFO](warehouse-picking-by-fefo.md)
-#### [Enable Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)
+<!-- #### [Enable Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md) -->
 #### [Restructure Warehouses](warehouse-how-to-restructure-warehouses.md)
 ### Set Up Manufacturing
 #### [Set Up Manufacturing](production-configure-production-processes.md)
@@ -1553,7 +1560,7 @@
 #### [Create Routings](production-how-to-create-routings.md)
 #### [Create Production BOMs](production-how-to-create-production-boms.md)
 #### [Enable Flushing of Components According to Operation Output](production-how-to-flush-components-according-to-operation-output.md)
-#### [Work With Manufacturing Batch Units of Measurement](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)
+#### [Work With Manufacturing Batch Units of Measure](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)
 #### [Handling Lot Sizes in Production](production-handling-lot-sizes.md)
 #### [Work With Production Families](production-how-work-family.md)
 #### [Set Up Standard Routing Lines](production-how-set-up-standard-routing-lines.md)
@@ -1571,7 +1578,7 @@
 #### [Set Up Service Items and Service Item Components](service-how-setup-service-items.md)
 #### [Set Up Work Hours and Service Hours](service-how-setup-work-service-hours.md)
 #### [Set Up Statuses for Service Orders and Repairs](service-order-repair-status.md)
-#### [Set Up a Loaner Program](service-how-setup-loaner-program.md)
+#### [Set Up a Loaner Programme](service-how-setup-loaner-program.md)
 #### [Set Up Service Contracts](service-how-setup-service-contracts.md)
 ### Set Up Complex Application Areas Using Best Practices
 #### [Setup Best Practices](set-up-complex-application-areas-using-best-practices.md)
@@ -1649,7 +1656,11 @@
 ### [Company Information](admin-company-information.md)
 ### [Create Number Series](ui-create-number-series.md)
 ### [Set Up Base Calendars](across-how-to-assign-base-calendars.md)
-### [Set Up Printers](ui-specify-printer-selection-reports.md)
+### Set Up Printers
+#### [Overview](admin-printer-setup-overview.md)
+#### [Universal Print Printers](admin-printer-setup-universal-print.md)
+#### [Email Printers](admin-printer-setup-email.md)
+#### [Specify a Default Printer](ui-specify-printer-selection-reports.md)
 ### [Set Up Online Maps](across-online-maps-setup.md)
 ### [Get Business Central on Your Mobile Device](install-mobile-app.md)
 ### [Get Business Central on Your Desktop](install-desktop-app.md)
@@ -1689,7 +1700,7 @@
 
 ### Purchasing
 #### [Purchasing Reports](purchase-reports.md)
-#### [View Purchasing Ledger Entries](ui-post-purchases.md#viewing-ledger-entries)
+#### [View Purchasing Ledger Entries](purchasing-how-record-purchases.md#viewing-ledger-entries)
 
 ### Inventory and Warehouse
 #### [Inventory and Warehouse Reports](inventory-wms-reports.md)
@@ -1845,7 +1856,7 @@
 #### [Sales and Inventory Forecast](ui-extensions-sales-forecast.md)
 #### [Service Declaration Extension](finance-how-setup-use-service-declaration.md)
 #### [UK - GetAddress.io UK Postcodes](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
-#### [UK - GST Group Management](ui-extensions-vat-group.md)
+#### [UK - VAT Group Management](ui-extensions-vat-group.md)
 #### [US/CA/UK/AU/NZ/ZA - Send Remittance Advice](ui-extensions-send-remittance-advice.md)
 #### [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 #### [Business Central Extensions by Other Providers](ui-extensions-other.md)
@@ -1872,7 +1883,6 @@
 #### [Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md)  
 #### [Design Details: Planning Parameters](design-details-planning-parameters.md)  
 #### [Design Details: Planning Assignment Table](design-details-planning-assignment-table.md)  
-#### [Design Details: Demand at Blank Location](design-details-demand-at-blank-location.md)  
 #### [Design Details: Transfers in Planning](design-details-transfers-in-planning.md)
 ### Design Details: Inventory Costing
 #### [Costing Overview](design-details-inventory-costing.md)
@@ -1898,15 +1908,15 @@
 #### [Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md)
 #### [Design Details: Inventory Valuation](design-details-inventory-valuation.md)  
 #### [Design Details: Revaluation](design-details-revaluation.md)
-### Design Details: Warehouse Management
-#### [Warehouse Management Overview](design-details-warehouse-management.md)
-#### [Design Details: Warehouse Overview](design-details-warehouse-overview.md)  
-#### [Design Details: Warehouse Setup](design-details-warehouse-setup.md)  
-#### [Design Details: Inbound Warehouse Flow](design-details-inbound-warehouse-flow.md)  
-#### [Design Details: Internal Warehouse Flows](design-details-internal-warehouse-flows.md)  
-#### [Design Details: Availability in the Warehouse](design-details-availability-in-the-warehouse.md)  
-#### [Design Details: Outbound Warehouse Flow](design-details-outbound-warehouse-flow.md)  
-#### [Design Details: Integration with Inventory](design-details-integration-with-inventory.md)
+<!-- ### Design Details: Warehouse Management -->
+<!-- #### [Warehouse Management Overview](design-details-warehouse-management.md) -->
+<!-- #### [Design Details: Warehouse Overview](design-details-warehouse-overview.md) -->  
+<!-- #### [Design Details: Warehouse Setup](design-details-warehouse-setup.md)   deleted, use warehouse-setup-warehouse.md -->
+<!-- #### [Design Details: Inbound Warehouse Flow](design-details-inbound-warehouse-flow.md)  -->
+<!-- #### [Design Details: Internal Warehouse Flows](design-details-internal-warehouse-flows.md) --> 
+### [Design Details: Availability in the Warehouse](design-details-availability-in-the-warehouse.md)  
+<!-- #### [Design Details: Outbound Warehouse Flow](design-details-outbound-warehouse-flow.md)  -->
+<!-- #### [Design Details: Integration with Inventory](design-details-integration-with-inventory.md)-->
 ### Design Details: Item Tracking
 #### [Item Tracking Overview](design-details-item-tracking.md)
 #### [Design Details: Item Tracking Design](design-details-item-tracking-design.md)  
