@@ -106,6 +106,13 @@
 ### [Troubleshoot Self-Service Sign-Up](ui-troubleshoot-self-signup.md)
 ### [Extend Your Trial Version](admin-extend-trial.md)
 ### [Unsubscribe or Remove Business Central](admin-cancel.md)
+### AI-powered item marketing text with Copilot
+#### [Overview](ai-overview.md)
+#### [Get preview version - Copilot edition](ai-preview-getstarted.md)
+#### [Configure AI-powered item marketing text](enable-ai.md)
+#### [Create AI-powered item marketing text](item-marketing-text.md)
+#### [FAQ](ai-faq.md)
+
 ## Buy
 ### [Get Started with a Subscription](trial-signup.md#get-started-with-a-subscription)
 ### [Get Ready for Doing Business](ui-get-ready-business.md)
@@ -492,6 +499,7 @@
 ### [Manage Product Variants](inventory-item-variants.md)  
 ### [Work with Item Attributes](inventory-how-work-item-attributes.md)
 ### [Work with Catalogue Items](inventory-how-work-nonstock-items.md)
+### [Add Marketing Text for Items](item-marketing-text.md)
 ### [Count and Adjust Inventory Using Documents](inventory-how-count-inventory-with-documents.md)
 ### [Count, Adjust, and Reclassify Inventory Use Journals](inventory-how-count-adjust-reclassify.md)
 ### [View the Availability of Items](inventory-how-availability-overview.md)
@@ -1523,6 +1531,7 @@
 #### [Set Up Stockkeeping Units](inventory-how-to-set-up-stockkeeping-units.md)
 #### [Categorise Items](inventory-how-categorize-items.md)
 #### [Import Multiple Item Pictures](inventory-how-import-item-pictures.md)
+#### [Configure AI-powered item marketing text with Copilot](enable-ai.md)
 ### Set Up Project Management
 #### [Set Up Projects](projects-setup-projects.md)
 #### [Set Up Resources](projects-how-setup-resources.md)
@@ -1594,6 +1603,7 @@
 ##### [Get the Business Central Add-in for Outlook](admin-outlook.md)
 ##### [Use Business Central as Your Business Inbox in Outlook](work-outlook-addin.md)
 ##### [Synchronise with Contacts in Outlook](admin-synchronize-outlook-contacts.md)
+###### [Set up contact sync for on-premises](admin-contact-sync-setup-onprem.md)
 ##### [Optimise Outlook](admin-outlook-optimize.md)
 ##### [Use Business Central without Outlook](admin-no-outlook.md)
 ##### [FAQ](ui-outlook-addin-faq.yml)
@@ -1615,6 +1625,7 @@
 #### Use Business Central as Your Business Inbox in Outlook 
 ##### [Overview](admin-outlook.md)
 ##### [Synchronise with Contacts in Microsoft Outlook](admin-synchronize-outlook-contacts.md)
+###### [Set up contact sync for on-premises](admin-contact-sync-setup-onprem.md)
 ##### [Use Business Central Without Outlook](admin-no-outlook.md)
 #### Use Microsoft Teams with Business Central
 ##### [Overview](across-teams-overview.md)
