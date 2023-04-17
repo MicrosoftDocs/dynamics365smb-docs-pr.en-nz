@@ -3,14 +3,9 @@ author: edupont04
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b95df2a493d07b028e1dd936d6e21eb16b2fc89c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132276"
 ---
-## <a name="setting-up-electronic-funds-transfer"></a>Setting up Electronic Funds Transfer
+
+## Setting up Electronic Funds Transfer
 
 [!INCLUDE[prod_short](../../../includes/prod_short.md)] can export EFT files that you can then upload to your bank's website for additional processing. To submit EFT files, you must set up the following information:  
 

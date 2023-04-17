@@ -1,28 +1,22 @@
 ---
-title: Set Up Goods and Service Tax Posting [NZ]
+title: 'Set Up Goods and Service Tax Posting [NZ]'
 description: This article describes how to set up posting for goods and services tax (GST) in the New Zealand version.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/18/2021
 ms.author: bholtorf
-ms.openlocfilehash: d54acc413ff6737e886a0069395db968a88fc7a7
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
-ms.translationtype: HT
-ms.contentlocale: en-NZ
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384250"
 ---
-# <a name="set-up-goods-and-service-tax-posting-in-the-new-zealand-version"></a>Set Up Goods and Service Tax Posting in the New Zealand Version
+# Set Up Goods and Service Tax Posting in the New Zealand Version
 
 Goods and services tax (GST) is the tax that is applied on most goods and services. The GST that is paid and received during a period is reported in the Business Activity Statement (BAS) that has to be submitted to the tax authority.  
 
 [!INCLUDE [gst-posting-setup](../includes/AUNZ/gst-posting-setup.md)]
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Print Goods and Service Tax Settlement Reports](how-to-print-goods-and-service-tax-settlement-reports.md)
 

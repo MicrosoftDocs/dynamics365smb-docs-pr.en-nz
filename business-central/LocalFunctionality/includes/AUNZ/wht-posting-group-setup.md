@@ -3,14 +3,8 @@ author: edupont04
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 308782df6b7e73813ae8926575a0b033615de29b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140014"
 ---
-## <a name="set-up-wht-posting-groups"></a>Set up WHT posting groups
+## Set up WHT posting groups
 
 To use withholding tax, you must set up the business posting groups and product posting groups for withholding tax so that the correct WHT calculations are made for each vendor.  
 
@@ -19,7 +13,7 @@ To use withholding tax, you must set up the business posting groups and product 
 
 The following procedure describes how to set up product posting groups for WHT, but the same steps also apply to setting up business posting groups for WHT.  
 
-### <a name="to-set-up-a-product-posting-group-for-withholding-tax"></a>To set up a product posting group for withholding tax  
+### To set up a product posting group for withholding tax  
 
 1. Choose the ![A lightbulb icon that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **WHT Product Posting Group**, and then choose the related link.  
 2. Fill in the fields as described in the following table.  
@@ -33,7 +27,7 @@ The following procedure describes how to set up product posting groups for WHT, 
 
 Finally, you must set up how these posting groups must be used when documents are posted.  
 
-### <a name="to-set-up-posting-for-withholding-tax"></a>To set up posting for withholding tax  
+### To set up posting for withholding tax  
 
 1. Choose the ![The lightbulb icon that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **WHT Posting Setup**, and then choose the related link.  
 

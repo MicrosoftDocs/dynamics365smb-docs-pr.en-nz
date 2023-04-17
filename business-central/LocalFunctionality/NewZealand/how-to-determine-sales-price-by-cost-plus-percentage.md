@@ -6,21 +6,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 09354979e5f1a5b4afd47f8ce5a82273d246ef62
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
-ms.translationtype: HT
-ms.contentlocale: en-NZ
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383525"
 ---
-# <a name="determine-sales-price-by-cost-plus-percentage-in-the-new-zealand-version"></a>Determine Sales Price by Cost Plus Percentage in the New Zealand Version
+# Determine Sales Price by Cost Plus Percentage in the New Zealand Version
 
 [!INCLUDE [determine-sales-price-cost-percentage](../includes/AUNZ/determine-sales-price-cost-percentage.md)]
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [New Zealand Local Functionality](new-zealand-local-functionality.md)
 

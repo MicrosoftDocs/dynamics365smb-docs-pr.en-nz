@@ -3,16 +3,10 @@ author: edupont04
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bf160d6a5ce6b955dc0164072402af46387a4a0a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145072"
 ---
 Use the cost plus percentage function to set a sales price based on the cost of an item. The cost of the item can be calculated along with cost plus calculation. The discount will be based on this calculation. This functionality eliminates the need for the use of spreadsheets in determining percentage discounts as they correspond to cost plus percentage.  
 
-## <a name="to-determine-sales-tax-by-cost-plus-percentage"></a>To determine US sales tax by cost plus percentage  
+## To determine US sales tax by cost plus percentage  
 
 1.  Choose the **Receivables** action.  
 3.  Choose the **Customers** action.  

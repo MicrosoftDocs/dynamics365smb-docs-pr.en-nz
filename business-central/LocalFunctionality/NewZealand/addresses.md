@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: adc82f871e9e7216679b0a3d8b1fa84986a00fb6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148911"
 ---
-# <a name="addresses-in-the-new-zealand-version"></a>Addresses in the New Zealand Version
+# Addresses in the New Zealand Version
 
 A single postcode can include multiple cities in the same region.  
 
@@ -32,7 +26,7 @@ When you print an address that has a DPID, a bar code will be printed together w
 
 Contact your Microsoft partner for information on how to obtain AMAS software.  
 
-## <a name="see-also"></a>See Also  
+## See Also  
  [New Zealand Local Functionality](new-zealand-local-functionality.md)
 
 

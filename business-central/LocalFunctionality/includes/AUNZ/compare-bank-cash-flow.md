@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 227368778711742769de8065cb0c0055a53bd4e7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: en-NZ
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134490"
 ---
 You can use the **Bank Detail Cashflow Compare** report to compare the flow of cash in a particular bank for a specified period.  
 
@@ -23,7 +17,7 @@ You can use the **Bank Detail Cashflow Compare** report to compare the flow of c
 
 The debit and credit amounts are displayed in the local currency. You can also view the starting balance and ending balance for each bank.  
 
-## <a name="to-compare-bank-cash-flow"></a>To compare bank cash flow  
+## To compare bank cash flow  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Detail Cashflow Compare**, and then choose the relevant link.  
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  

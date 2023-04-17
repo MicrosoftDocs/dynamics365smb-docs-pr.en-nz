@@ -3,21 +3,15 @@ title: New Zealand Local Functionality
 description: The following topics describe the local functionality in the New Zealand version of Business Central.
 author: brentholtorf
 ms.topic: conceptual
-ms.search.keywords: New Zealand, local functionality
+ms.search.keywords: 'New Zealand, local functionality'
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6387b6fd468f47b031f787ac6b9018985dd04bd5
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: en-NZ
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521406"
 ---
-# <a name="new-zealand-local-functionality"></a>New Zealand Local Functionality
+# New Zealand Local Functionality
 
 The following topics describe local functionality that is unique to the New Zealand version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## <a name="feature-availability"></a>Feature Availability
+## Feature Availability
 
 * Tax  
     * [Withholding Tax](withholding-tax.md)
@@ -51,7 +45,11 @@ The following topics describe local functionality that is unique to the New Zeal
     * [Enter New Zealand Business Numbers](how-to-enter-new-zealand-business-numbers.md) **Available Now**  
     * [New Zealand Inland Revenue Department Numbers and Adjustment Notes](new-zealand-business-numbers-and-adjustment-notes.md) **Available Now**  
 
-## <a name="see-also"></a>See Also
+## Future legislation requirements being investigated
+
+Currently, there are no upcoming regulatory features or requirements. If you are aware of any upcoming regulatory features, please submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+
+## See Also
 
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

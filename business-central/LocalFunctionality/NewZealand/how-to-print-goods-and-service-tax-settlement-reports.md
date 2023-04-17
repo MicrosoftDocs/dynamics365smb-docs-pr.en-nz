@@ -6,21 +6,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: a5b9edfb2bc9b0eb877c5cab6a2431b0e9c1cba3
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
-ms.translationtype: HT
-ms.contentlocale: en-NZ
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382409"
 ---
-# <a name="print-goods-and-service-tax-settlement-reports-in-the-new-zealand-version"></a>Print Goods and Service Tax Settlement Reports in the New Zealand Version
+# Print Goods and Service Tax Settlement Reports in the New Zealand Version
 
 [!INCLUDE [print-gst-settlement-reports](../includes/AUNZ/print-gst-settlement-reports.md)]
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Set Up Goods and Service Tax Posting](how-to-set-up-goods-and-service-tax-posting.md)  
 
