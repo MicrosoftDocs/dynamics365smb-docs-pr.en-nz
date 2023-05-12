@@ -350,9 +350,11 @@
 #### Setup GST
 ##### [Set Up Goods and Services Tax](finance-setup-vat.md)
 ##### [Posting Group Setup](finance-posting-groups.md#tax-posting-groups)
+##### [Set up non-deductible GST](finance-setup-nondeductible-vat.md)
 ##### [Set Up Unrealised Goods and Services Tax](finance-setup-unrealized-vat.md)
 ##### [Set Up a GST Statement](finance-how-setup-vat-statement.md)
 #### [Work with GST on Sales and Purchases](finance-work-with-vat.md)
+#### [Use non-deductible GST](finance-how-use-non-deductible-vat.md)
 #### [Submit GST Reports to Tax Authorities](finance-how-report-vat.md)
 #### [Managing GST Rate changes](finance-how-use-vat-rate-change-tool.md)
 #### [Validate GST Registration Numbers](finance-how-validate-vat-registration-number.md)
