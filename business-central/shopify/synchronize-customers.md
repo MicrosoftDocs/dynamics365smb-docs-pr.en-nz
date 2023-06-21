@@ -1,18 +1,18 @@
 ---
 title: Synchronise customers
 description: Import customers from or export to Shopify
-ms.date: 05/27/2022
+ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: '30105, 30106, 30107, 30108, 30109,'
-author: edupont04
+author: andreipa
 ms.author: andreipa
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 ---
 
 # Synchronise Customers
 
-When an order is imported from Shopify, getting the information about the customer is essential for further processing the document in [!INCLUDE[prod_short](../includes/prod_short.md)]. There are two main options for doing so and their combinations:
+When you import an order from Shopify, getting the information about the customer is essential for further processing the document in [!INCLUDE[prod_short](../includes/prod_short.md)]. There are two main options for doing so, and several combinations:
 
 * Use a special customer for all orders.
 * Import the actual customer information from Shopify. This option is also available when you export customers to Shopify from [!INCLUDE[prod_short](../includes/prod_short.md)] first.
@@ -36,9 +36,9 @@ Some settings can be defined at the country/regional level or a state/province l
 You can do the following for each customer using the **Shopify Customer Template**:
 
 1. Specify the **Default Customer No.**, which takes priority over the selection in the **Customer Import from Shopify** and **Customer Mapping Type** fields. It's used in the imported sales order.
-2. Define the **Customer Template Code**, which is used to create missing customers if **Auto Create Unknown Customers** is enabled. If the **Customer Template Code** is empty, then the function uses the **Customer Template Code** defined on the **Shopify Shop Card**.
-3. Define whether prices include GST/tax for imported orders.
-4. In some cases, the **Customer Template Code** defined for a country isn't enough to ensure the correct calculation of taxes (for example, for countries with sales tax). In this case, including **Tax Areas** could be a useful addition.
+2. Define the **Customer Template Code**, which is used to create missing customers if **Auto Create Unknown Customers** is enabled. If the **Customer Template Code** is empty, then the function uses the **Customer Template Code** defined on the **Shopify Shop Card**. The system first tries to find a template for the **Contry/Region Code** for the default address. If it doesn't find a template, it uses the first address.
+3. In some cases, the **Customer Template Code** defined for a country isn't enough to ensure correct tax calculations (for example, for countries with sales tax). In this case, including **Tax Area** could be a useful addition.
+4. The **Tax Area** field also contains a **Country Code** and **County Name** pair. This pair is useful when the connector needs to convert a code to a name, or vice versa.
 
 > [!NOTE]  
 > The country codes are ISO 3166-1 alpha-2 country codes. Learn more at [Country Code](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).
@@ -58,6 +58,7 @@ The following are requirements for exporting a customer:
 * A country/region is selected on the customer card, for local customers, with blank country/region the country/region specified in the **Company Information** page must have an ISO Code defined.
 * If the customer has a phone number, the number must be unique because Shopify won't accept a second customer with the same phone number.
 * If the customer has a phone number, it must be in the E.164 format. Different formats are supported if they represent a number that can be dialed from anywhere in the world. The following formats are valid:
+
   * xxxxxxxxxx
   * +xxxxxxxxxxx
   * (xxx)xxx-xxxx
@@ -82,7 +83,8 @@ A customer in Shopify also has a default address. The address might contain a co
 |1|**Name**|Highest priority, if the **Name Source** field in the **Shopify Shop Card** contains *Company Name*.|
 |2|**Name 2**|Lowest priority, if the **Name 2 Source** field in the **Shopify Shop Card** contains *Company Name*.|
 
-For addresses where the country/province is used, select *Code* or *Name* in the **Country Source** field in the **Shopify Shop Card**. The code or name specifies the type of data stored in [!INCLUDE[prod_short](../includes/prod_short.md)] in the **Country** field.
+For addresses where the county/province is used, select **Code** or **Name** in the **County Source** field on the **Shopify Shop Card** page. The code or name specifies the type of data stored in [!INCLUDE[prod_short](../includes/prod_short.md)] in the **County** field. Remember to initialise customer templates per country so that the county code/name mapping is ready. 
+
 
 ## Sync customers
 
