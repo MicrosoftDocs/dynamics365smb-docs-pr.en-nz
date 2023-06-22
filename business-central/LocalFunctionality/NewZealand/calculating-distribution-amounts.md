@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 06/18/2021
 ms.author: bholtorf
 ---
-# Calculating Distribution Amounts in the New Zealand Version
+# <a name="calculating-distribution-amounts-in-the-new-zealand-version" />Calculating Distribution Amounts in the New Zealand Version
 
 [!INCLUDE [calculating-distribution-amounts](../includes/AUNZ/calculating-distribution-amounts.md)]
 
-## See Also
+## <a name="see-also" />See Also
 
 [New Zealand Local Functionality](new-zealand-local-functionality.md)  
 

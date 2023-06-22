@@ -11,11 +11,11 @@ ms.search.form: '28090,28091,28092,28093'
 ms.date: 06/25/2021
 ms.author: bholtorf
 ---
-# Create cheque instalments in the New Zealand Version
+# <a name="create-check-installments-in-the-new-zealand-version" />Create cheque instalments in the New Zealand Version
 
 [!INCLUDE [create-check-installments](../includes/AUNZ/create-check-installments.md)]
 
-## See Also
+## <a name="see-also" />See Also
 
 [New Zealand Local Functionality](new-zealand-local-functionality.md)
 

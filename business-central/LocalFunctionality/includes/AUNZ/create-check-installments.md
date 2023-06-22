@@ -6,7 +6,7 @@ ms.author: edupont
 ---
 You can create cheque instalments for post-dated cheques. You can define the number of instalments that a payment will be divided into, the percent of interest, and the period in which the cheques will be created.  
 
-## To create a cheque instalment  
+## <a name="to-create-a-check-installment" />To create a cheque instalment
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Post Dated cheques-Purchases**, and then choose the relevant link.  
 2.  Choose the relevant check, and then choose the **Edit** action.  
 3.  On the **Post Dated checks-Purchase** page, choose the **Create check instalments** action.  

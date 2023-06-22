@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 11/11/2022
 ms.author: bholtorf
 ---
-# Create Workflows to Connect Tasks in Business Processes
+# <a name="create-workflows-to-connect-tasks-in-business-processes" />Create Workflows to Connect Tasks in Business Processes
 
 You can create workflows that connect tasks in business processes that are performed by different users. System tasks, such as automatic posting, can be included as steps in workflows, preceded or followed by user tasks. Requesting and granting approval to create new records are typical workflow steps.  
 
@@ -41,7 +41,7 @@ The workflow is divided into three sections:
 
 For both events and responses, the options are system-defined. New ones must be added through the development of an extension.
 
-## To create a workflow
+## <a name="to-create-a-workflow" />To create a workflow
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, then choose the related link.  
 2. Choose the **New** action. The **Workflow** page opens.  
@@ -111,7 +111,7 @@ For both events and responses, the options are system-defined. New ones must be 
 > [!TIP]  
 > To see relations between tables used in workflows, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, then enter **Workflow – Table Relations**.  
 
-## Example of creating a new workflow using existing events
+## <a name="example-of-creating-a-new-workflow-using-existing-events" />Example of creating a new workflow using existing events
 
 In the following example, a new workflow is made to approve changes to the name of en existing vendor:
 
@@ -170,9 +170,9 @@ The following illustration provides an overview of the result of this procedure.
 
 Next, test the workflow by opening an existing vendor card and changing their name. Verify that an approval request is sent after changing the vendor name.
 
-## See related [Microsoft training](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />See related [Microsoft training](/training/modules/create-workflows/)
 
-## See also
+## <a name="see-also" />See also
 
 [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md)  
 [Set Up Approval Users](across-how-to-set-up-approval-users.md)  

@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Adjust Settlement Exchange Rates for GST Entries in the New Zealand Version
+# <a name="adjust-settlement-exchange-rates-for-vat-entries-in-the-new-zealand-version" />Adjust Settlement Exchange Rates for GST Entries in the New Zealand Version
 
 [!INCLUDE [adjust-settlement-exchange-rates-vat-entries](../includes/AUNZ/adjust-settlement-exchange-rates-vat-entries.md)]
 
-## See Also
+## <a name="see-also" />See Also
 
 [New Zealand Local Functionality](new-zealand-local-functionality.md)  
 
