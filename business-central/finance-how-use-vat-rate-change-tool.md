@@ -100,7 +100,7 @@ You use the GST rate change tool to manage changes in the standard rate of GST. 
 > [!IMPORTANT]  
 > After the conversion, the **Converted** field in the **GST Rate Change Log Entry** table is chosen and the **Converted Date** field in the **GST Rate Change Log Entry** table displays the conversion date.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesrate-change-dynamics--business-central" />See related [Microsoft training](/training/modules/rate-change-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesrate-change-dynamics-365-business-central" />See related [Microsoft training](/training/modules/rate-change-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 

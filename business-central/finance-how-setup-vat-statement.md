@@ -39,7 +39,7 @@ After you define a GST statement, you can preview it to make sure it meets your 
 4. On the lines where the **Type** field contains **GST Entry Totalling** you can see a list of GST entries by choosing the amount in the **Column Amount** field.
 5. You can use personalisation to show more fields in the lines. For example the Unrealised Base Amount and Unrealised GST Amount, if you are using unrealised GST.
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-vat-dynamics--business-central" />See related [Microsoft training](/training/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsprocess-vat-dynamics-365-business-central" />See related [Microsoft training](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 

@@ -89,7 +89,7 @@ The default setting for payment tolerance is allowed. To disallow a certain cust
 > [!NOTE]  
 > If the customer or vendor has open entries, you must first remove payment tolerance from entries that are currently open.
 
-## <a name="example----tolerance-calculations-for-a-single-document" />Example 1 - Tolerance Calculations for a Single Document
+## <a name="example-1---tolerance-calculations-for-a-single-document" />Example 1 - Tolerance Calculations for a Single Document
 
 The following are some example scenarios showing the expected tolerance calculations and postings occurring in different situations.  
 
@@ -127,7 +127,7 @@ Scenarios with alternative A or B represent the following:
 
 In relation to the scenario above, the diagrams of payment ranges are as follows:  
 
-#### <a name="-payment-date--scenarios--" />(1) Payment Date <=01/15/03 (Scenarios 1-3)
+#### <a name="1-payment-date-011503-scenarios-1-3" />(1) Payment Date <=01/15/03 (Scenarios 1-3)
 
 Remaining Amount per  
 
@@ -139,7 +139,7 @@ Normal Application Rules
 
 (2) If payment falls in these ranges, all application entries can't be closed, even with tolerance.  
 
-#### <a name="-payment-date-is-between--and--scenarios--" />(2) Payment Date is between 01/16/03 and 01/20/03 (Scenarios 4-9)
+#### <a name="2-payment-date-is-between-011603-and-012003-scenarios-4-9" />(2) Payment Date is between 01/16/03 and 01/20/03 (Scenarios 4-9)
 
 Remaining Amount per  
 
@@ -151,7 +151,7 @@ Normal Application Rules
 
 (2) If payment falls in these ranges, all application entries can't be closed, even with tolerance.  
 
-#### <a name="-payment-date-is-after--scenarios--" />(3) Payment Date is after 01/20/03 (Scenarios 10-15)
+#### <a name="3-payment-date-is-after-012003-scenarios-10-15" />(3) Payment Date is after 01/20/03 (Scenarios 10-15)
 
 Remaining Amount per  
 
@@ -163,7 +163,7 @@ Normal Application Rules
 
 (2) If payment falls in these ranges, all application entries cannot be closed even with tolerance.  
 
-## <a name="example----tolerance-calculations-for-multiple-documents" />Example 2 - Tolerance Calculations for Multiple Documents
+## <a name="example-2---tolerance-calculations-for-multiple-documents" />Example 2 - Tolerance Calculations for Multiple Documents
 
 The following are some example scenarios showing the expected tolerance calculations and postings occurring in different situations. The examples are limited to scenarios that result in all entries in the application being closed.  
 
@@ -215,7 +215,7 @@ Scenarios with alternative A, B, C, or D represent the following:
 
 In relation to the scenario above, the diagrams of payment ranges are as follows:  
 
-#### <a name="-payment-date--scenarios--" />(1) Payment Date <=01/15/03 (Scenarios 1-3)
+#### <a name="1-payment-date-011503-scenarios-1-3" />(1) Payment Date <=01/15/03 (Scenarios 1-3)
 
 Remaining Amount per  
 
@@ -227,7 +227,7 @@ Normal Application Rules
 
 (2) If payment falls in these ranges, all application entries can't be closed even with tolerance.  
 
-#### <a name="-payment-date-is-between--and--scenarios--" />(2) Payment Date is between 01/16/03 and 01/17/03 (Scenarios 4-9)
+#### <a name="2-payment-date-is-between-011603-and-011703-scenarios-4-9" />(2) Payment Date is between 01/16/03 and 01/17/03 (Scenarios 4-9)
 
 Remaining Amount per  
 
@@ -239,7 +239,7 @@ Normal Application Rules
 
 (2) If payment falls in these ranges, all application entries can't be closed even with tolerance.  
 
-#### <a name="-payment-date-is-between--and--scenarios--" />(3) Payment Date is between 01/18/03 and 01/20/03 (Scenarios 10-21)
+#### <a name="3-payment-date-is-between-011803-and-012003-scenarios-10-21" />(3) Payment Date is between 01/18/03 and 01/20/03 (Scenarios 10-21)
 
 Remaining Amount per  
 
@@ -251,7 +251,7 @@ Normal Application Rules
 
 (2) If payment falls in these ranges, all application entries can't be closed even with tolerance.  
 
-#### <a name="-payment-date-is-between--and--scenarios--" />(4) Payment Date is between 01/21/03 and 01/22/03 (Scenarios 22-27)
+#### <a name="4-payment-date-is-between-012103-and-012203-scenarios-22-27" />(4) Payment Date is between 01/21/03 and 01/22/03 (Scenarios 22-27)
 
 Remaining Amount per  
 
@@ -263,7 +263,7 @@ Normal Application Rules
 
 (2) If payment falls in these ranges, all application entries can't be closed even with tolerance.  
 
-#### <a name="-payment-date-is-after--scenarios--" />(5) Payment Date is after 01/22/03 (Scenarios 28-30)
+#### <a name="5-payment-date-is-after-012203-scenarios-28-30" />(5) Payment Date is after 01/22/03 (Scenarios 28-30)
 
 Remaining Amount per  
 
@@ -275,7 +275,7 @@ Normal Application Rules
 
 (2) If payment falls in these ranges, all application entries can't be closed even with tolerance.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesenter-payments-dynamics--business-central" />See related [Microsoft training](/training/modules/enter-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesenter-payments-dynamics-365-business-central" />See related [Microsoft training](/training/modules/enter-payments-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 
