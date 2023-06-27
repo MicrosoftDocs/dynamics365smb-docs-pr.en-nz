@@ -140,7 +140,7 @@ To assign exact cost reversing manually, you must choose the **Appl.-from Item E
 
 For more information, see [Design Details: Inventory Costing](design-details-inventory-costing.md).
 
-## <a name="see-related-microsoft-trainingtrainingpathsreturn-items-dynamics-365-business-central" />See related [Microsoft training](/training/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />See Also
 

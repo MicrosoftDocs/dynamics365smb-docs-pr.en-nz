@@ -72,7 +72,7 @@ We invite you to use Microsoft Dynamics Lifecycle Services (LCS) to submit regul
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Welcome to Business Central](index.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
