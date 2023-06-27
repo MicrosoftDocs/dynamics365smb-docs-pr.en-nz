@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/18/2021
 ms.author: edupont
 ---
-# <a name="addresses-in-the-new-zealand-version" />Addresses in the New Zealand Version
+# <a name="addresses-in-the-new-zealand-version"></a>Addresses in the New Zealand Version
 
 A single postcode can include multiple cities in the same region.  
 
@@ -26,7 +26,7 @@ When you print an address that has a DPID, a bar code will be printed together w
 
 Contact your Microsoft partner for information on how to obtain AMAS software.  
 
-## <a name="see-also" />See Also
+## <a name="see-also"></a>See Also
  [New Zealand Local Functionality](new-zealand-local-functionality.md)
 
 
