@@ -11,11 +11,11 @@ ms.search.form: '28164,28165,28166,28167'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="calculate-goods-and-services-tax-on-prepayments-in-the-new-zealand-version"></a>Calculate Goods and Services Tax on Prepayments in the New Zealand Version
+# <a name="calculate-goods-and-services-tax-on-prepayments-in-the-new-zealand-version"></a><a name="calculate-goods-and-services-tax-on-prepayments-in-the-new-zealand-version"></a>Calculate Goods and Services Tax on Prepayments in the New Zealand Version
 
 [!INCLUDE [calculate-gst-prepayments](../includes/AUNZ/calculate-gst-prepayments.md)]
 
-## <a name="see-also"></a>See Also
+## <a name="see-also"></a><a name="see-also"></a>See Also
 
 [Invoicing Prepayments](../../finance-invoice-prepayments.md)   
 [New Zealand Local Functionality](new-zealand-local-functionality.md)
