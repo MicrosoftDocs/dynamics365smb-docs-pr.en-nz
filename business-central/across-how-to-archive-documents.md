@@ -10,14 +10,14 @@ ms.search.form: '42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644,
 ms.date: 03/06/2022
 ms.author: bholtorf
 ---
-# <a name="archive-documents"></a><a name="archive-documents"></a>Archive Documents
+# <a name="archive-documents"></a><a name="archive-documents"></a><a name="archive-documents"></a>Archive Documents
 You can archive sales and purchase orders, quotes, return orders, and blanket orders. Archiving documents lets you restore the original, if needed. You can archive a sales or purchase document several times, saving a different archived version each time.
 
 For archived sales documents where the original still exists and isn't posted, you can use the **Restore** action to overwrite the current document with an archived version. 
 
 For archived documents where the original is deleted, you can only reuse the content by copying the data, for example, by using the **Copy from Document** action.  
 
-## <a name="to-set-up-automatic-document-archiving"></a><a name="to-set-up-automatic-document-archiving"></a>To set up automatic document archiving
+## <a name="to-set-up-automatic-document-archiving"></a><a name="to-set-up-automatic-document-archiving"></a><a name="to-set-up-automatic-document-archiving"></a>To set up automatic document archiving
 
 You can set up automatic archiving of sales and purchase orders, quotes, blanket orders, and return orders. When automatic archiving is turned on, a new version of the archived document is created when someone does the following things:
 
@@ -39,7 +39,7 @@ The following table describes the options for the **Archive Quotes** field.
 |**Question**|Prompt the user to choose whether to archive sales quotes when they're deleted.|
 |**Always**|Archive sales quotes automatically when they're deleted.|
 
-## <a name="to-manually-archive-a-sales-order"></a><a name="to-manually-archive-a-sales-order"></a>To archive a sales order
+## <a name="to-manually-archive-a-sales-order"></a><a name="to-manually-archive-a-sales-order"></a><a name="to-manually-archive-a-sales-order"></a>To archive a sales order
 
 The following procedure describes how to archive a sales order. The steps are similar for all orders, blanket orders, return orders, and quotes.
 
@@ -49,7 +49,7 @@ The following procedure describes how to archive a sales order. The steps are si
 
 The sales order is archived. You can view it on the **Archived Sales Orders** page.
 
-## <a name="to-restore-a-non-posted-sales-order-from-the-archive"></a><a name="to-restore-a-non-posted-sales-order-from-the-archive"></a>To restore a non-posted sales order from the archive
+## <a name="to-restore-a-non-posted-sales-order-from-the-archive"></a><a name="to-restore-a-non-posted-sales-order-from-the-archive"></a><a name="to-restore-a-non-posted-sales-order-from-the-archive"></a>To restore a non-posted sales order from the archive
 
 The following procedure describes how to restore an archived sales order to the original sales order. Restoring a document is only possible when the original document hasn't been posted. The steps are similar for all orders, blanket orders, return orders, and quotes.
 
@@ -58,7 +58,7 @@ The following procedure describes how to restore an archived sales order to the 
 
 The contents of the original sales order are replaced with the archived version.
 
-## <a name="to-delete-archived-sales-orders"></a><a name="to-delete-archived-sales-orders"></a>To delete archived sales orders
+## <a name="to-delete-archived-sales-orders"></a><a name="to-delete-archived-sales-orders"></a><a name="to-delete-archived-sales-orders"></a>To delete archived sales orders
 
 The following procedure describes how to delete archived sales orders. The steps are similar for other archived sales and purchase documents.
 
@@ -66,7 +66,7 @@ The following procedure describes how to delete archived sales orders. The steps
 2. Choose the **Delete Older Versions** action, and then, on the **Delete Archived Sales Order Versions** page, select the appropriate filters.  
 3. Choose the **OK** button.
 
-## <a name="see-also"></a><a name="see-also"></a>See Also
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See Also
 
 [Track Document Lines](across-how-to-track-document-lines.md)  
 [Sales](sales-manage-sales.md)  

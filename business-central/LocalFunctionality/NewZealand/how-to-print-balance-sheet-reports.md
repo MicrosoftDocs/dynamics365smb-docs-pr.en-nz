@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: bholtorf
 ---
-# <a name="print-balance-sheet-reports-in-the-new-zealand-version"></a><a name="print-balance-sheet-reports-in-the-new-zealand-version"></a>Print Balance Sheet Reports in the New Zealand Version
+# <a name="print-balance-sheet-reports-in-the-new-zealand-version"></a><a name="print-balance-sheet-reports-in-the-new-zealand-version"></a><a name="print-balance-sheet-reports-in-the-new-zealand-version"></a>Print Balance Sheet Reports in the New Zealand Version
 
 [!INCLUDE [print-balance-sheet-reports](../includes/AUNZ/print-balance-sheet-reports.md)]
 
-## <a name="see-also"></a><a name="see-also"></a>See Also
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See Also
 
 [Print Income Statements](how-to-print-income-statements.md)   
 [Print Goods and Service Tax Settlement Reports](how-to-print-goods-and-service-tax-settlement-reports.md)   
