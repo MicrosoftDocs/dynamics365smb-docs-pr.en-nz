@@ -11,7 +11,7 @@ ms.search.form: '11600, 28040,28041,28042,28043,28044, 28164,28165,28166,28167'
 ms.date: 06/18/2021
 ms.author: bholtorf
 ---
-# <a name="withholding-tax-in-the-new-zealand-version"></a><a name="withholding-tax-in-the-new-zealand-version"></a><a name="withholding-tax-in-the-new-zealand-version"></a>Withholding Tax in the New Zealand Version
+# <a name="withholding-tax-in-the-new-zealand-version"></a>Withholding Tax in the New Zealand Version
 
 Withholding Tax (WHT) is tax withheld by a company when making a payment to a vendor, in which the full amount owed to that vendor is reduced by the tax withheld. The withheld tax is then remitted to tax authorities during the next Business Activity Statement (BAS) submission.  
 
@@ -39,15 +39,15 @@ In New Zealand, WHT is not calculated if the individual invoice amount is less t
 * **Purch. WHT Adjustment Account No.** – Select an account number for **Purchase CR/Adj Note** adjustments.  
 * **Revenue Types** – Drill down to the **WHT Revenue Types** page. These values determine how the combination of **WHT Business Posting Group** and **WHT Product Posting Group** are displayed in reports. You must enter a value in order for this combination to appear in the WHT reports.  
 
-## <a name="wht-for-suppliers-without-an-ird"></a><a name="wht-for-suppliers-without-an-ird"></a><a name="wht-for-suppliers-without-an-ird"></a>WHT for Suppliers Without an IRD
+## <a name="wht-for-suppliers-without-an-ird"></a>WHT for Suppliers Without an IRD
 Ensure that there is a valid combination of **General Business** and **General Product Posting Groups** with the correct threshold. For example, in New Zealand today the minimum threshold is $75 with a rate of 46.50%.  
 
 The percentage withheld is specified in **WHT Posting Setup**. The amount to be withheld is calculated automatically at the time of payment. The WHT certificate is printed automatically, and then sent to the vendor with payment. The WHT certificate explains the reasons for not sending the full invoiced amount.  
 
-## <a name="wht-for-foreign-suppliers"></a><a name="wht-for-foreign-suppliers"></a><a name="wht-for-foreign-suppliers"></a>WHT for Foreign Suppliers
+## <a name="wht-for-foreign-suppliers"></a>WHT for Foreign Suppliers
 Ensure that a valid combination of **General Business** and **General Product Posting Groups** has been established for vendors for whom you need to withhold tax,other than for non-IRD.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See Also
+## <a name="see-also"></a>See Also
 [Set Up Withholding Tax](how-to-set-up-withholding-tax.md)   
 [Set Up Vendors Without IRD for Calculating the Withholding Tax](how-to-set-up-vendors-without-abn-for-calculating-the-withholding-tax.md)   
 [Set Up Revenue Types for Withholding Tax](how-to-set-up-revenue-types-for-withholding-tax.md)   
