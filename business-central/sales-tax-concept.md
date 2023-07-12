@@ -12,18 +12,18 @@ ms.date: 07/21/2022
 ms.author: altotovi
 ---
 
-# <a name="sales-tax-in-the-default-version-of-business-central"></a>Sales Tax in the Default Version of Business Central
+# Sales Tax in the Default Version of Business Central
 
 A **sales tax** is a tax that applies to the purchase of goods and services for consumers and to the sale of goods and services for businesses. Sales tax, ideally, should apply to all final consumption with few exemptions. Exemptions in final consumptions depend on local authorities but, generally speaking, business-to-business transactions are exempted from sales tax.  
 
 Typically, sales taxes apply to the retail sale of goods and services and are a percentage of the total purchase amount. Retailers are responsible for calculating and collecting sales tax at the time of purchase.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] is available in countries that use goods and services tax (GST) or that use sales tax. The default version of [!INCLUDE[prod_short](includes/prod_short.md)] has basic support for sales tax and richer support in the versions of the application used in the United States and Canada.
+[!INCLUDE[prod_short](includes/prod_short.md)] is available in countries/regions that use value-added tax (VAT) or that use sales tax. The default version of [!INCLUDE[prod_short](includes/prod_short.md)] has basic support for sales tax and richer support in the versions of the application used in the United States and Canada.
 
 > [!IMPORTANT]
 > Although sales tax is available in the default version, Microsoft supports the use of sales tax in New Zealand only.
 
-## <a name="see-also"></a>See also
+## See also
 
 [Report Sales Tax in New Zealand](localfunctionality/UnitedStates/us-sales-tax.md)  
 [Report Sales Tax in New Zealand](localfunctionality/canada/ca-sales-tax.md)  

@@ -14,14 +14,14 @@ ms.custom: bap-template
 
 # Set up non-deductible GST
 
-Non-deductible goods and services tax (GST) is the GST that's payable by a purchaser but that isn't deductible from the purchaser's own GST liability. Companies can usually recover GST on the purchase of goods and services that are related to their business activities. However, in some situations, a business incurs GST that isn't deductible. These situations are typically related to the local regulations and can differ from country to country. However, the model of using non-deductible or partially deductible GST is similar. You can use proportional GST to calculate GST when there's deductible and non-deductible GST.
+Non-deductible goods and services tax (GST) is the GST that's payable by a purchaser but that isn't deductible from the purchaser's own GST liability. Companies can usually recover GST on the purchase of goods and services that are related to their business activities. However, in some situations, a business incurs GST that isn't deductible. These situations are typically related to the local regulations and can differ among countries/regions. However, the model of using non-deductible or partially deductible GST is similar. You can use proportional GST to calculate GST when there's deductible and non-deductible GST.
 
 In general, GST can't be deducted for some purchases because of the following factors:
 
 - **The type of goods or services that are purchased** – GST is fully or partially non-deductible by a provision of the law about goods such as cars, mobile phones, and food that's purchased at restaurants.
 - **Partially deductible pro-rated GST** – GST is pro-rated according to the ratio between the sales operations that GST is owed for and all operations that have been performed. GST that exceeds this ratio can't be deducted.
 
-Because it can be difficult to know where and how an item is used, you must contact the local tax authorities in your country to determine whether a specified percentage of the GST is deductible based on historical data. 
+Because it can be difficult to know where and how an item is used, you must contact the local tax authorities in your country/region to determine whether a specified percentage of the VAT is deductible based on historical data. 
 
 > [!IMPORTANT]
 > This global feature is available in all countries with enabled VAT **except for Belgium, Italy, Norway, and Spain**. These localisations already have existing local feature and will be upgraded in the future. Don't run this feature in these countries because the upgrade procedure doesn't exist.
