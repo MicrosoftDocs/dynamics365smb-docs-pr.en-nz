@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: bholtorf
 ---
-# <a name="print-bank-account-reconciliation-reports-in-the-new-zealand-version"></a>Print Bank Account Reconciliation Reports in the New Zealand Version
+# Print Bank Account Reconciliation Reports in the New Zealand Version
 
 [!INCLUDE [print-bank-account-reconciliation-reports](../includes/AUNZ/print-bank-account-reconciliation-reports.md)]
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Reconcile Bank Accounts](../../bank-how-reconcile-bank-accounts-separately.md)
 
