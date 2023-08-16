@@ -1,6 +1,6 @@
 ### YamlMime:Hub
 title: Microsoft Dynamics 365 Business Central documentation
-summary: 'Discover how to make the most of Dynamics 365 Business Central with online training and documentation covering product capabilities. Learn how to use Business Central to manage, adapt, and streamline operations like finance, manufacturing, sales, and more, across your small or medium-sized business.'
+summary: 'Learn how to use Business Central to manage, adapt, and streamline operations like finance, manufacturing, sales, and more, across your small or medium-sized business.'
 brand: dynamics
 metadata:
   title: Microsoft Dynamics 365 Business Central documentation
@@ -9,13 +9,13 @@ metadata:
   ms.service: dynamics365-business-central
   author: jswymer
   ms.author: jswymer
-  ms.date: 06/16/2023
+  ms.date: 05/16/2023
   hide_bc: true
 highlightedContent:
   items:
-    - title: Welcome to Business Central
+    - title: Get started
       itemType: get-started
-      url: /dynamics365/business-central/welcome
+      url: /dynamics365/business-central/quick-start-business-central
     - title: What's new
       itemType: whats-new
       url: /dynamics365/business-central/product-news
@@ -31,69 +31,69 @@ additionalContent:
       items:
         - title: Guidance
           links:
-            - text: 'Security, compliance, and privacy'
+            - text: Try/Buy
               url: /dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json
-            - text: Understand Business Central online infrastructure
+            - text: Set up
               url: /dynamics365/business-central/dev-itpro/administration/tenant-environment-topology
-            - text: Migrate from on-premises to online
+            - text: Integrate with other products
               url: /dynamics365/business-central/dev-itpro/administration/migrate-data
-            - text: Performance
+            - text: Administer and develop
               url: /dynamics365/business-central/dev-itpro/performance/performance-overview
-        - title: Try/Buy
-          links:
-            - text: Try Business Central online for free
-              url: /dynamics365/business-central/trial-signup
-            - text: Buy Business Central online
-              url: /dynamics365/business-central/trial-signup#get-started-with-a-subscription
-            - text: Add extensions for more functionality
-              url: /dynamics365/business-central/ui-extensions-install-uninstall
-        - title: Set up
-          links:
-            - text: Companies
-              url: /dynamics365/business-central/about-new-company
-            - text: Business functionality
-              url: /dynamics365/business-central/setup
-            - text: Job queues
-              url: /dynamics365/business-central/admin-job-queues-schedule-tasks
-            - text: Workflows
-              url: /dynamics365/business-central/across-set-up-workflows
-        - title: Integrate with other products
-          links:
-            - text: Teams
-              url: /dynamics365/business-central/across-teams-overview
-            - text: Dataverse
-              url: /dynamics365/business-central/admin-common-data-service
-            - text: Power Automate
-              url: /dynamics365/business-central/dev-itpro/powerplatform/power-automate-overview
-            - text: Power BI
-              url: /dynamics365/business-central/admin-powerbi
-            - text: OneDrive
-              url: /dynamics365/business-central/across-onedrive-overview
-    - title: Administer and develop
-      items:
         - title: Manage user access
           links:
-            - text: Create users
+            - text: Manage environments
+              url: /dynamics365/business-central/trial-signup
+            - text: Manage data storage
+              url: /dynamics365/business-central/trial-signup#get-started-with-a-subscription
+            - text: Monitor operations and changes
+              url: /dynamics365/business-central/ui-extensions-install-uninstall
+        - title: Customise and extend (admin)
+          links:
+            - text: Develop in AL
+              url: /dynamics365/business-central/about-new-company
+            - text: Develop for integration
+              url: /dynamics365/business-central/setup
+            - text: Be productive
+              url: /dynamics365/business-central/admin-job-queues-schedule-tasks
+            - text: Workspace settings
+              url: /dynamics365/business-central/across-set-up-workflows
+        - title: Collaboration and sharing
+          links:
+            - text: 'Business intelligence, reporting, and data analysis'
+              url: /dynamics365/business-central/across-teams-overview
+            - text: General business functionality
+              url: /dynamics365/business-central/admin-common-data-service
+            - text: Do business
+              url: /dynamics365/business-central/dev-itpro/powerplatform/power-automate-overview
+            - text: Finance
+              url: /dynamics365/business-central/admin-powerbi
+            - text: Sales
+              url: /dynamics365/business-central/across-onedrive-overview
+    - title: Purchasing
+      items:
+        - title: Inventory
+          links:
+            - text: Project management
               url: /dynamics365/business-central/ui-how-users-permissions
-            - text: Assign permissions to users and groups
+            - text: Fixed assets
               url: /dynamics365/business-central/ui-define-granular-permissions
-            - text: Manage profiles
+            - text: Relationship management
               url: /dynamics365/business-central/admin-users-profiles-roles
-            - text: Access with Microsoft 365 licences
-              url: /dynamics365/business-central/admin-access-with-m365-license
-        - title: Manage environments
+            - text: Human resources
+              url: /dynamics365/business-central/ui-define-granular-permissions
+        - title: Planning
           links:
-            - text: Overview
+            - text: Assembly management
               url: /dynamics365/business-central/dev-itpro/administration/tenant-administration
-            - text: Create environments
+            - text: Manufacturing
               url: /dynamics365/business-central/dev-itpro/administration/tenant-administration
-            - text: Manage updates
+            - text: Warehouse management
               url: /dynamics365/business-central/dev-itpro/administration/tenant-admin-center-update-management
-        - title: Manage data storage
+        - title: Service management
           links:
-            - text: Compress data or delete documents
+            - text: Online store with Shopify
               url: /dynamics365/business-central/admin-manage-documents
-            - text: Archive data
+            - text: Local functionality
               url: /dynamics365/business-central/admin-archive-data
             - text: Reduce stored data in databases
               url: /dynamics365/business-central/dev-itpro/administration/database-reduce-data
@@ -107,11 +107,11 @@ additionalContent:
               url: /dynamics365/business-central/dev-itpro/administration/telemetry-overview
             - text: Enable telemetry
               url: /dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights
-        - title: Customise and extend (admin)
+        - title: Customize and extend (admin)
           links:
             - text: Overview
               url: /dynamics365/business-central/ui-customizing-overview
-            - text: Customise pages for profiles
+            - text: Customize pages for profiles
               url: /dynamics365/business-central/ui-personalization-manage
             - text: Enable features ahead of time
               url: /dynamics365/business-central/admin-feature-management
@@ -139,7 +139,7 @@ additionalContent:
               url: /dynamics365/business-central/ui-change-basic-settings
             - text: Switch environment or company
               url: /dynamics365/business-central/ui-organization-switch
-            - text: Personalise UI
+            - text: Personalize UI
               url: /dynamics365/business-central/ui-personalization-user
             - text: Manage notifications
               url: /dynamics365/business-central/ui-smart-notifications
@@ -161,9 +161,9 @@ additionalContent:
               url: /dynamics365/business-central/ui-work-report
             - text: Work with Power BI reports in Business Central
               url: /dynamics365/business-central/across-working-with-powerbi
-            - text: Analyse list data with analysis mode
+            - text: Analyze list data with analysis mode
               url: /dynamics365/business-central/across-working-with-powerbi
-            - text: Analyse report data with Excel
+            - text: Analyze report data with Excel
               url: /dynamics365/business-central/report-analyze-excel
         - title: General business functionality
           links:
@@ -181,12 +181,12 @@ additionalContent:
           links:
             - text: Overview
               url: /dynamics365/business-central/finance
-            - text: Finance reports
-              url: /dynamics365/business-central/finance-reports
             - text: Manage receivables
-              url: /dynamics365/business-central/receivables-manage-receivables
+              url: /dynamics365/business-central/receivables-manage-receivable
             - text: Manage payables
               url: /dynamics365/business-central/payables-manage-payables
+            - text: Invoicing prepayments
+              url: /dynamics365/business-central/finance-invoice-prepayments
             - text: Reconcile bank accounts
               url: /dynamics365/business-central/bank-manage-bank-accounts
         - title: Sales
@@ -223,12 +223,12 @@ additionalContent:
               url: /dynamics365/business-central/inventory-how-register-new-items
             - text: Work with BOMs
               url: /dynamics365/business-central/inventory-how-work-boms
-            - text: Categorise items
+            - text: Categorize items
               url: /dynamics365/business-central/inventory-how-categorize-items
         - title: Project management
           links:
             - text: Overview
-              url: /dynamics365/business-central/projects-manage-projects
+              url: /dynamics365/business-central/(projects-manage-projects
             - text: Project reports
               url: /dynamics365/business-central/project-reports
             - text: Create jobs
@@ -312,18 +312,18 @@ additionalContent:
             - text: Warehouse reports
               url: /dynamics365/business-central/inventory-WMS-reports
             - text: Put items
-              url: /dynamics365/business-central/warehouse-how-to-put-items-away-with-inventory-put-aways
+              url: /dynamics365/business-central/warehouse-put-away-items
             - text: Move items
               url: /dynamics365/business-central/warehouse-move-items
             - text: Pick items
-              url: /dynamics365/business-central/warehouse-how-to-pick-items-with-inventory-picks
+              url: /dynamics365/business-central/warehouse-pick-items
         - title: Service management
           links:
             - text: Overview
               url: /dynamics365/business-central/service-service
             - text: Planning
               url: /dynamics365/business-central/service-plan-service
-            - text: Fulfil service contracts
+            - text: Fulfill service contracts
               url: /dynamics365/business-central/service-fulfill-service-contracts
             - text: Deliver service
               url: /dynamics365/business-central/service-deliver-service
@@ -333,11 +333,11 @@ additionalContent:
           links:
             - text: Get started
               url: /dynamics365/business-central/shopify/get-started
-            - text: Synchronise Customers with Shopify
+            - text: Synchronize Customers with Shopify
               url: /dynamics365/business-central/shopify/synchronize-customers
-            - text: Synchronise and fulfil sales orders with Shopify
+            - text: Synchronize and fulfill sales orders with Shopify
               url: /dynamics365/business-central/shopify/synchronize-orders
-            - text: Synchronise Transactions and payouts
+            - text: Synchronize Transactions and payouts
               url: /dynamics365/business-central/shopify/transactions-and-payouts
             - text: Set up taxes for the Shopify connection
               url: /dynamics365/business-central/shopify/setup-taxes
@@ -347,5 +347,5 @@ additionalContent:
               url: /dynamics365/business-central/about-localization
             - text: International availability of Dynamics 365
               url: /dynamics365/get-started/availability
-            - text: Development for localisation
+            - text: Development for localization
               url: /dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization
