@@ -302,8 +302,6 @@ You must set up information about how the tax authorities in your country or reg
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
 
-## See related [Microsoft training](/training/paths/process-vat-dynamics-365-business-central/)
-
 ## See also
 
 [Set Up GST Statement Templates and GST Statement Names](finance-how-setup-vat-statement.md)  
