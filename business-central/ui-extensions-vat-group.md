@@ -44,7 +44,7 @@ The following is the recommended order of steps an administrator uses to set up 
 > [!NOTE]
 > To connect to the GST group representative, group members must have a user account that can access the GST group representative's [!INCLUDE[prod_short](includes/prod_short.md)]. The GST group representative must create at least one user for this. However, for security reasons we recommended that they create a user for each GST group member, which can be a system user account that is not related to an actual person. Make sure to distribute the user credentials to GST group members in a secure way.
 
-### <a name="azure-active-directory-setup-for-group-members"></a>Azure Active Directory setup for group members
+### <a name="microsoft-entra-id-setup-for-group-members"></a>Azure Active Directory setup for group members
 
 When the GST group representative is using [!INCLUDE[prod_short](includes/prod_short.md)] online or on-premises, GST group members must use Azure Active Directory to authenticate users when they submit GST returns to the GST group representative. For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, members must configure single sign-on. Learn more at [Configure Azure Active Directory Authentication with WS-Federation](/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-active-directory?tabs=singletenant%2Cadmintool).
 
