@@ -21,7 +21,7 @@ Consumers and businesses pay goods and services tax (GST) when they purchase goo
 * What you sell  
 * What you buy  
 
-You can set up GST calculations manually, but that can be tricky and time-consuming. That's because it's very easy to use different GST rates by mistake and create inaccurate GST-related reports. To make GST set up easier, we recommend you use the assisted **GST Setup** guide provided in the product. 
+You can set up GST calculations manually, but that can be tricky and time-consuming. It's easy to use different GST rates by mistake and create inaccurate GST-related reports. To make GST set up easier, we recommend you use the assisted **GST Setup** guide provided in the product. 
 
 However, if you want to set up the GST calculations yourself, or just want to learn about each step, this article contains descriptions of each step:  
 
@@ -44,7 +44,7 @@ To support your fast start, [!INCLUDE [prod_short](includes/prod_short.md)] noti
 
 If you choose such a notification, [!INCLUDE [prod_short](includes/prod_short.md)] automatically creates those posting setups based on the posting groups in the document or journal you're currently working on.  
 
-At this point, you can just fill in the missing G/L accounts. But, later, when you further refine the setup, you might realise this initial setup is wrong. And [!INCLUDE [prod_short](includes/prod_short.md)] does not allow the deletion of a GST posting setup and general posting setup when entries have been created based on such configurations. So starting in 2022 release wave 1, you can use the **Blocked** field on the **GST Posting Setup** page to prevent users from mistakenly using a setup that is no longer relevant for new postings.
+At this point, you can just fill in the missing G/L accounts. But, later, when you further refine the setup, you might realise this initial setup is wrong. And [!INCLUDE [prod_short](includes/prod_short.md)] doesn't allow the deletion of a GST posting setup and general posting setup when entries have been created based on such configurations. So starting in 2022 release wave 1, you can use the **Blocked** field on the **GST Posting Setup** page to prevent users from mistakenly using a setup that is no longer relevant for new postings.
 
 ## Set up a default GST date for documents and journals
 
@@ -75,7 +75,7 @@ To set up the level of GST date usage, follow these steps:
 |--------------------|-----------------------------------------|
 | **Use full GST Date functionality** | Everything related to **GST Date** works by default, giving you the maximum **GST Date** functionality. You can set up the date, change it in documents, report based on it, and modify the date after posting as long as the period isn't closed or protected with allowed dates for posting. |
 | **Use but do not allow modifications** | Everything related to **GST Date** works by default with one exception. You can't modify the **GST Date** in **GST Entries**. |
-| **Not using GST Date functionality** | [!INCLUDE [prod_short](includes/prod_short.md)] will hide and make the **GST Date** fields not available on documents, journals, and entries. The **Default GST Date** will be configured as the **Posting Date**. |
+| **Not using GST Date functionality** | [!INCLUDE [prod_short](includes/prod_short.md)] will hide and make the **GST Date** fields not available on documents, journals, and entries. The **Default GST Date** is configured as the **Posting Date**. |
 
 3. Close the page.
 
@@ -84,24 +84,49 @@ To set up the level of GST date usage, follow these steps:
 
 ### Limiting periods for posting and changing the GST date
 
-You can prevent people from posting or changing GST entries in specific date ranges. You set the restriction using using two settings:
+You can prevent people from posting or changing GST entries in specific date ranges. You set the restriction using two settings:
 
 * Based on closed **GST Return Period**
 * Based on the **Allow Posting From** and **Allow Posting To** fields.
 
 #### To limit posting based on GST return period
 
-1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the TellF Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
 2. On the **General** FastTab, in the **Control GST Period** field, specify the degree of GST Return Period control. The following table describes the options.
 
 | Type | Description |
 |--------------------|-----------------------------------------|
-| **Block posting within closed and warn for released period** | Prevent people from posting a document or journal, or changing GST entries, that have a GST date within a closed **GST Return Period**. [!INCLUDE [prod_short](includes/prod_short.md)] will also show a warning if your **GST Return Period** is open, but the status of **GST Return** is **Released** or **Submitted**. |
-| **Block posting within closed period** | Prevent people from posting a document or journal, or changing GST entries, that have a GST date within the closed **GST Return Period**. |
+| **Block posting within closed and warn for released period** | Prevent people from posting a document or journal, or changing GST entries that have a GST date within a closed **GST Return Period**. [!INCLUDE [prod_short](includes/prod_short.md)] also shows a warning if your **GST Return Period** is open, but the status of **GST Return** is **Released** or **Submitted**. |
+| **Block posting within closed period** | Prevent people from posting a document or journal, or changing GST entries that have a GST date within the closed **GST Return Period**. |
 | **Warn when posting in closed period** | Show a warning, but don't block posting, if you want to post a document or journal that has a GST date within a closed **GST Return Period**. |
 | **Disabled** | Take no action based on a closed **GST Return Period**. |
 
-#### To limit posting based on Allow from/to period
+#### Limit posting based on Allow from/to period
+
+> [!NOTE]
+> As of Business Central version 23.1, this control is changed. In earlier versions, there was only one control on the **General Ledger Setup** page for both Posting Date and GST Date. Now, these controls are split, so control in the **General Ledger Setup** page is for the **Posting Date** only and control in the **GST Setup** page is for the **GST Date** only. There are also new date controls in the **User Setup** page.  
+
+##### Version 23.1 or newer
+
+> [!IMPORTANT]
+> When you upgrade to a newversion, be aware that values are upgraded in the new **Allow GST Date From/To** in the **GST Setup** page based on the values in **Allow Posting From/To** in the **General Ledger Setup**. If you want to use different date controls, open the **GST Setup** page and make changes.  
+
+You can set up limitations on the company or at specific user levels.
+
+To limit all postings for the whole company:
+
+1. Select the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **GST Setup**, and then select the related link.  
+2. On the **GST Date** FastTab, in the **Allow GST Date From** field, specify the GST date from which you allow posting. Posting a document or journal with a GST date before this date isn't allowed.  
+3. On the **GST Date** FastTab, in the **Allow GST Date To** field, specify the GST date until which you allow posting. Posting a document or journal with a GST date after this date isn't allowed. 
+
+To limit postings for the specific user:  
+
+1. Select the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Setup**, and then select the related link.  
+2. In the **User ID** field, specify the user allowed to post in a specific period.  
+3. In the **Allow GST Date From** field, specify the GST date from which you allow posting. Posting a document or journal with a GST date before this date isn't allowed. 
+4. In the **Allow GST Date To** field, specify the GST date until which you allow posting. Posting a document or journal with a GST date after this date isn't allowed.  
+
+##### Versions before 23.1 
 
 You can set up limitation on the company or specific user levels.
 
@@ -114,13 +139,13 @@ To limit all postings for the whole company:
 To limit postings for the specific user:
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Setup**, and then choose the related link.  
-2. In the **User ID** field, specify the user you want to allow to post in specific period.  
+2. In the **User ID** field, specify the user allowed to post in specific period.  
 3. In the **Allow Posting From** field, specify the GST date from which you allow posting. Posting a document or journal with a GST date before this date isn't allowed.
 4. In the **Allow Posting To** field, specify the GST date until which you allow posting. Posting a document or journal with a GST date after this date isn't allowed.
 
 ## Set up GST registration numbers for your country or region
 
-To help ensure people enter valid GST registration numbers, you can define formats for the GST registration numbers that are used in the countries or regions in which you do business. [!INCLUDE[prod_short](includes/prod_short.md)] will display an error message if someone makes a mistake or uses a format that is incorrect for the country or region.
+To help ensure people enter valid GST registration numbers, you can define formats for the GST registration numbers that are used in the countries or regions in which you do business. [!INCLUDE[prod_short](includes/prod_short.md)] displays an error message if someone makes a mistake or uses a format that is incorrect for the country or region.
 
 To set up GST registration numbers, follow these steps:
 
@@ -129,7 +154,7 @@ To set up GST registration numbers, follow these steps:
 3. In the **Formats** field, define the format by entering one or more of the following characters:  
 
 * **#** Requires a single-digit number.  
-* **@** Requires a letter. This format is not case-sensitive.  
+* **@** Requires a letter. This format isn't case-sensitive.  
 * **?** Allows any character.  
 
     > [!TIP]
@@ -139,7 +164,7 @@ To set up GST registration numbers, follow these steps:
 
 GST business posting groups should represent the markets in which you do business with customers and vendors, and define how to calculate and post GST in each market. Examples of GST business posting groups are **Domestic** and **European Union (EU)**.  
 
-Use codes that are easy to remember and describe the business posting group, such as **EU**, **Non-EU**, or **Domestic**. Each code must be unique, meaning you can set up as many codes as you need, but you cannot have the same code more than once in a table.
+Use codes that are easy to remember and describe the business posting group, such as **EU**, **Non-EU**, or **Domestic**. Each code must be unique, meaning you can set up as many codes as you need, but you can't have the same code more than once in a table.
 
 To set up a GST business posting group, follow these steps:
 
@@ -152,7 +177,7 @@ You can set up default GST business posting groups by linking them to general bu
 
 GST product posting groups represent the items and resources you buy or sell, and determine how to calculate and post GST according to the type of item or resource.
 
-It is a good idea to use codes that are easy to remember and describe the rate, such as **NO-GST** or **Zero**, **GST10** or **Reduced** for 10 percent GST, and **GST25** or **Standard** for 25 percent.
+It's a good idea to use codes that are easy to remember and describe the rate, such as **NO-VAT** or **Zero**, **VAT10** or **Reduced** for 10 percent VAT, and **VAT25** or **Standard** for 25 percent.
 
 To set up a GST business posting group, follow these steps:
 
@@ -213,7 +238,7 @@ If needed, you can also specify how to translate GST clauses to other languages.
 
 When non-standard GST rates are used in different types of documents, such as invoices or credit memos, companies are usually required to include an exemption text (GST clause) stating why a reduced GST or zero GST rate has been calculated. You can define different GST clauses to be included on business documents per the type of document, such as invoice or credit memo. You do this on the **GST Clauses by Document Type** page.
 
-You can modify or delete a GST clause, and your modifications will be reflected in a generated report. However, [!INCLUDE[prod_short](includes/prod_short.md)] does not keep a history of the change. On the report, the GST clause descriptions are printed and displayed for all lines in the report alongside the GST amount and the GST base amount. If a GST clause has not been defined for any lines on the sales document, then the whole section is omitted when the report is printed.
+You can modify or delete a GST clause, and your modifications will be reflected in a generated report. However, [!INCLUDE[prod_short](includes/prod_short.md)] doesn't keep a history of the change. On the report, the GST clause descriptions are printed and displayed for all lines in the report alongside the GST amount and the GST base amount. If a GST clause has not been defined for any lines on the sales document, then the whole section is omitted when the report is printed.
 
 ### To set up GST clauses
 
@@ -278,7 +303,7 @@ Some companies must use reverse charge VAT when trading with other companies. Fo
 
 ### Sales to EU countries or regions
 
-GST is not calculated on sales to GST-liable companies in other EU countries/regions. You must report the value of these sales to EU countries/regions separately on your GST statement.  
+VAT isn't calculated on sales to VAT-liable companies in other EU countries/regions. You must report the value of these sales to EU countries/regions separately on your GST statement.  
 
 To correctly calculate GST on sales to EU countries/regions, you should:  
 
