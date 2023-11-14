@@ -11,7 +11,7 @@ ms.search.keywords:
 ms.date: 06/25/2021
 ms.author: bholtorf
 ---
-# <a name="set-up-withholding-tax-in-the-new-zealand-version"></a>Set Up Withholding Tax in the New Zealand Version
+# Set Up Withholding Tax in the New Zealand Version
 
 Withholding tax (WHT) is the tax withheld by a company when it makes a payment to a vendor, in which the full amount owed to the vendor is reduced by the tax withheld. The withheld tax is then remitted to tax authorities when the next Business Activity Statement (BAS) is submitted.  
 
@@ -26,7 +26,7 @@ The following procedure describes how to set up product posting groups for WHT, 
 
 [!INCLUDE [wht-posting-group-setup](../includes/AUNZ/wht-posting-group-setup.md)]
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Set Up Revenue Types for Withholding Tax](how-to-set-up-revenue-types-for-withholding-tax.md)   
 [View Withholding Tax Entries](how-to-view-withholding-tax-entries.md)   
