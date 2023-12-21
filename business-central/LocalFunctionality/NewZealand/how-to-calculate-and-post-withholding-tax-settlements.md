@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 11/10/2023
 ms.author: bholtorf
 ---
-# Calculate and post withholding tax settlements in the New Zealand version
+# <a name="calculate-and-post-withholding-tax-settlements-in-the-new-zealand-version"></a>Calculate and post withholding tax settlements in the New Zealand version
 
 You can use the **Calc. and Post WHT Settlement** page to calculate and post the withholding tax (WHT). You can close WHT entries that are open or not settled and transfer the corresponding amount to the WHT settlement account.  
 
@@ -21,7 +21,7 @@ The sum of all withheld amounts is reported as a truncated whole number to the N
 
 [!INCLUDE [calculate-post-wht-settlements](../includes/AUNZ/calculate-post-wht-settlements.md)]
 
-## See also
+## <a name="see-also"></a>See also
 
 [Withholding Tax](withholding-tax.md)   
 [Set Up Withholding Tax](how-to-set-up-withholding-tax.md)   

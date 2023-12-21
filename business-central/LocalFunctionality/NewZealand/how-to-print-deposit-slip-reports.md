@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 11/24/2023
 ms.author: bholtorf
 ---
-# Print deposit slip reports in the New Zealand version
+# <a name="print-deposit-slip-reports-in-the-new-zealand-version"></a>Print deposit slip reports in the New Zealand version
 
 [!INCLUDE [print-deposit-slip-reports](../includes/AUNZ/print-deposit-slip-reports.md)]
 
-## See also
+## <a name="see-also"></a>See also
 
 [New Zealand Local Functionality](new-zealand-local-functionality.md)
 
