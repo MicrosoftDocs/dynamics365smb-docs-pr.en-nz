@@ -1,12 +1,12 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 04/01/2021
+ms.date: 12/07/2023
 ms.author: bholtorf
 ---
 You must submit a periodic report of goods and services tax (GST) settlement. You can create this settlement from the **BAS Calc. Schedule List** page.  
 
-## <a name="to-print-a-goods-and-service-tax-settlement"></a>To print a goods and service tax settlement
+## To print a goods and service tax settlement
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Calculate GST Statement**, and then choose the related link.  
 2. On the **Options** FastTab, fill in the fields as described in the following table.  
@@ -15,7 +15,7 @@ You must submit a periodic report of goods and services tax (GST) settlement. Yo
     |---------------------------------|---------------------------------------|  
     |**Settlement Account Type**|The settlement account type.|  
     |**Settlement Account No.**|The general ledger account number or vendor number, based on the type selected in the **Settlement Account Type** field.|  
-    |**Rounding G/L Account No.**|The account to which the truncated cents will be posted.|  
+    |**Rounding G/L Account No.**|The account to which the truncated cents are posted.|  
     |**Posting Date**|The posting date for the settlement entries.|  
     |**Document No.**|The document number of the settlement entries.|  
     |**Description**|The settlement description.|  
