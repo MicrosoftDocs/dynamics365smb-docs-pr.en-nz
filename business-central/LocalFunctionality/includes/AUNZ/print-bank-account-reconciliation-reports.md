@@ -3,10 +3,11 @@ author: brentholtorf
 ms.topic: include
 ms.date: 11/17/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 The **Bank Account Reconciliation** report displays open bank ledger entries as unpresented cheques or unrecorded deposits.  
 
-## <a name="to-print-a-bank-account-reconciliation-report"></a>To print a bank account reconciliation report
+## To print a bank account reconciliation report
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reconciliation**, and then choose the related link.  
 2. On the **Options** FastTab, select the **New Page per Bank Account** check box.  

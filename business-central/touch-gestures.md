@@ -9,9 +9,10 @@ ms.workload: na
 ms.search.keywords: 'accessibility, shortcuts, charts, tiles'
 ms.date: 04/29/2021
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="touch-and-pen-gestures-for-tablet-and-phones"></a>Touch and Pen Gestures for Tablet and Phones
+# Touch and Pen Gestures for Tablet and Phones 
 
 This article provides some of the special gestures that you can use when working with [!INCLUDE[prod_short](includes/prod_short.md)] from a tablet or phone.
 
@@ -30,7 +31,7 @@ Business Central built-in charts display useful information about business data 
 
 -->
 
-## <a name="see-also"></a>See also
+## See also
 
 [Keyboard Quick Reference - PC Only](keyboard-shortcuts-cheatsheet.md)  
 [Assistive Features](ui-accessibility.md)  
