@@ -3,10 +3,11 @@ author: brentholtorf
 ms.topic: include
 ms.date: 11/07/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 Use the **Balance Sheet** report to view the company's balance sheet. This is a legal report that is required for auditing accounts. You can use this report to view assets and liabilities.  
   
-## <a name="to-print-a-balance-sheet-report"></a>To print a balance sheet report
+## To print a balance sheet report    
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Balance Sheet**, and then choose the relevant link.  
 2. On the **Balance Sheet** page, on the **Options** FastTab, fill in the fields as described in the following table.  
   

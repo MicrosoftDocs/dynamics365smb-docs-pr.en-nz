@@ -3,9 +3,7 @@ title: 'Receiving, putting-away, moving, picking and shipping in advanced wareho
 description: Inbound and outbound processes can be performed in different ways depending on the warehouse complexity level.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: null
 ms.date: 12/07/2023

@@ -3,15 +3,14 @@ title: 'Set up withholding tax [NZ]'
 description: Describes how to set up things for Withholding tax (WHT) in the New Zealand version.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords:
   ms.search.form: '28041, 28042, 28043, 118'
 ms.date: 11/23/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-withholding-tax-in-the-new-zealand-version"></a>Set up withholding tax in the New Zealand version
+# Set up withholding tax in the New Zealand version
 
 Withholding tax (WHT) is the tax withheld by a company when making a payment to a vendor, and it reduces the full amount owed to the vendor. The withheld tax is then remitted to tax authorities when the next Business Activity Statement (BAS) is submitted.  
 
@@ -26,7 +25,7 @@ The following procedure describes how to set up product posting groups for WHT, 
 
 [!INCLUDE [wht-posting-group-setup](../includes/AUNZ/wht-posting-group-setup.md)]
 
-## <a name="see-also"></a>See also
+## See also
 
 [Set Up Revenue Types for Withholding Tax](how-to-set-up-revenue-types-for-withholding-tax.md)   
 [View Withholding Tax Entries](how-to-view-withholding-tax-entries.md)   
