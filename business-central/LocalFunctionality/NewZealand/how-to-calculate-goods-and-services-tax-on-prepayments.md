@@ -11,11 +11,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Calculate goods and services tax on prepayments in the New Zealand version
+# <a name="calculate-goods-and-services-tax-on-prepayments-in-the-new-zealand-version"></a>Calculate goods and services tax on prepayments in the New Zealand version
 
 [!INCLUDE [calculate-gst-prepayments](../includes/AUNZ/calculate-gst-prepayments.md)]
 
-## See also
+## <a name="see-also"></a>See also
 
 [Invoicing Prepayments](../../finance-invoice-prepayments.md)   
 [New Zealand Local Functionality](new-zealand-local-functionality.md)

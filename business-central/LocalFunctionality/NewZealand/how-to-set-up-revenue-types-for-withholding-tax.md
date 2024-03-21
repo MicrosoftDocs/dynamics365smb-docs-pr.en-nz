@@ -10,11 +10,11 @@ ms.date: 11/07/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Set up revenue types for withholding tax in the New Zealand Version
+# <a name="set-up-revenue-types-for-withholding-tax-in-the-new-zealand-version"></a>Set up revenue types for withholding tax in the New Zealand Version
 
 [!INCLUDE [wht-revenue-types-setup](../includes/AUNZ/wht-revenue-types-setup.md)]
 
-## See also
+## <a name="see-also"></a>See also
 
 [Withholding Tax](withholding-tax.md)   
 [Set Up Withholding Tax](how-to-set-up-withholding-tax.md)   
