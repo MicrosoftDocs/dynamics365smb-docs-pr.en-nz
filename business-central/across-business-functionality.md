@@ -10,7 +10,7 @@ ms.date: 11/01/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="business-functionality"></a>Business Functionality
+# Business Functionality
 
 [!INCLUDE[prod_short](includes/prod_short.md)] provides functionality for common business processes in small and medium-sized companies, mainly within wholesale and professional services. However, more complex processes, such as assembly, manufacturing, service, and directed warehouse management are also supported. Learn how to get a free trial [here](trial-signup.md).  
 
@@ -25,7 +25,7 @@ ms.service: dynamics-365-business-central
 |Manage sales processes and information, such as quotes, orders, returns, and customer accounts, and make drop shipments.|[Sales](sales-manage-sales.md)|
 |Manage purchasing processes and information, such as invoices, orders, returns, and vendor accounts, and purchase items from sales documents. |[Purchasing](purchasing-manage-purchasing.md)|
 |Register new inventory or service-type items, categorise items for easy searching, adjust inventory levels, and perform common inventory costing tasks.|[Inventory](inventory-manage-inventory.md)|
-|Create jobs and schedule resources for projects, manage job budgets, monitor progress, and track machine and employee hours.|[Project Management](projects-manage-projects.md)|
+|Create projects and schedule resources for projects, manage project budgets, monitor progress, and track machine and employee hours.|[Project Management](projects-manage-projects.md)|
 |Organise your fixed assets, ensure correct periodic depreciation, and keep track of maintenance costs.|[Fixed Assets](fa-manage.md)|
 |Manage and support your sales efforts, and focus your interactions on preferred customers and contacts.|[Relationship Management](marketing-relationship-management.md)|
 |Keep detailed records of your employees, and register absences for analysis purposes. |[Human Resources](hr-manage-human-resources.md)|
@@ -38,7 +38,7 @@ ms.service: dynamics-365-business-central
 |Enable users to exchange data with external sources during daily tasks, such as send/receive electronic documents, import/export bank files, and update currency exchange rates.|[Exchanging Data Electronically](across-data-exchange.md)|
 |Record external documents in [!INCLUDE[prod_short](includes/prod_short.md)], including their file attachments, then manually create the related documents or automatically convert the files to electronic documents.|[Incoming Documents](across-income-documents.md)|
 
-## <a name="see-also"></a>See also
+## See also
 
 [Administration](admin-setup-and-administration.md)    
 [Explore Dynamics 365 Business Central capabilities](https://dynamics.microsoft.com/business-central/capabilities/)  

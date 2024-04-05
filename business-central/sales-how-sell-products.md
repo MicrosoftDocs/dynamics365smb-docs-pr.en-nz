@@ -7,11 +7,11 @@ ms.reviewer: soalex
 ms.topic: conceptual
 ms.search.keywords: 'trade, partial deliveries, customer sales order, shipping advice, partial shipments,'
 ms.search.form: '42, 48, 9305'
-ms.date: 02/01/2024
+ms.date: 02/06/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="sell-products-with-a-customer-sales-order"></a>Sell products with a customer sales order
+# Sell products with a customer sales order
 
 This article provides guidance on when you should use a customer sales order in addition to an invoice. If your sales process requires you to only ship part of an order, perhaps because the full quantity isn't available right away, you must process that sale by making a sales order.
 
@@ -23,14 +23,14 @@ In business environments where the customer pays immediately, such as via PayPal
 
 You can even create directly paid orders for unregistered customers by first setting up a "cash customer" card, which you point to on the sales order. Learn more at [Set Up Cash Customers](finance-how-to-set-up-cash-customers.md).
 
-## <a name="create-a-sales-order"></a>Create a sales order
+## Create a sales order
 
 > [!NOTE]  
 > The following procedure assumes that the customer is already set up. For instructions on how to do this, please see [Register New Customers](sales-how-register-new-customers.md).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, then choose the related link.
 2. Select **New** to create a new entry.
-3. In the **Customer** field, enter the name of an existing customer.
+3. In the **Customer Name** field, enter the name of an existing customer.
 
     Other fields on the **Sales Order** page are now filled with standard information about the selected customer.  
 
@@ -71,7 +71,7 @@ You can even create directly paid orders for unregistered customers by first set
     >
     > To check the amounts that will actually post, use the **Statistics** page, which takes into account the rounding calculations. Also, if you choose the **Release** action, the totals fields will be updated to include rounding calculations.  
 
-11. Optionally, in the **Invoice Discount Amount** field, enter the amount to be deducted from the value shown in the **Total Incl. Tax** field.
+11. Optionally, in the **Inv. Discount Amount** field, enter the amount to be deducted from the value shown in the **Total Incl. Tax** field.
 
     If you set up invoice discounts for the customer, and upon meeting the criteria, the specified percentage value is automatically inserted in the **Invoice Discount %** field. And the related amount is inserted in the **Inv. Discount Amount Excl. Tax** field. Learn more at [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).
 12. To ship only part of the order quantity, enter that quantity in the **Qty. to Ship** field. The value automatically copies to the **Qty. to Invoice** field.
@@ -87,17 +87,17 @@ The **Post and Send Confirmation** dialog box displays the customer's preferred 
 
 The related item and customer ledger entries are now created in your system, and the sales order is output as a PDF document. Once the sales order is fully posted, it's removed from the sales order list and replaced with new documents in the sales invoices and sales shipments list.  
 
-## <a name="external-document-number"></a>External document number
+## External document number
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="working-with-amount-fields"></a>Working with amount fields
+## Working with amount fields
 
 The values in fields that show amounts can be positive or negative, depending on whether the value represents a credit or a debit. This video shows how to work with fields that show amounts.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1h96P]
 
-## <a name="see-also"></a>See also
+## See also
 
 [Invoice Sales](sales-how-invoice-sales.md)  
 [Posting Sales](ui-post-sales.md)  

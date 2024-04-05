@@ -1,21 +1,21 @@
 ---
-title: Print Inventory Picking List from Sales Order
+title: Print inventory picking list from sales order
 description: 'You can print an inventory picking list directly from a sales order, sales, invoice, and other outbound sales documents.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 06/25/2021
+ms.date: 02/07/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="print-the-picking-list"></a>Print the Picking List
+# Print the picking list
 
 You can print an inventory picking list directly from a sales order and other documents that initiate the shipment of items.
 
 This report is typically used in companies without dedicated functionality for warehouse management, so that an inventory worker can view or print the picking list from the related sales document. In companies with higher volume or more complex processes, shipping and picking are planned and performed in dedicated warehouse documents. Learn more at [Outbound Warehouse Flow](design-details-outbound-warehouse-flow.md).
 
-## <a name="to-print-a-picking-list-from-a-sales-order"></a>To print a picking list from a sales order
+## To print a picking list from a sales order
 
 The following procedure is based on a sales order. The steps are similar for all other documents that can be used to initiate shipment of items, such as a transfer order.
 
@@ -29,7 +29,7 @@ You can also save the picking list as a document, for example, to send to someon
 > [!NOTE]
 > If you used the **Explode BOM** function on the sales order, then only the components of the related assembly item are shown in the report. Learn more at [Work with Bills of Material](inventory-how-work-BOMs.md).
 
-## <a name="see-also"></a>See Also
+## See also
 
 [Inventory](inventory-manage-inventory.md)  
 [Outbound Warehouse Flow](design-details-outbound-warehouse-flow.md)
