@@ -11,13 +11,13 @@ ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Manage Project Supplies
+# <a name="manage-project-supplies"></a>Manage Project Supplies
 
 You should manage project supplies of items, services, and expenses as an integral and critical aspect of all projects. You can use inventory quantities or make project-specific purchases through purchase orders or purchase invoices. For example, a service project on a computer requires a new disk. You create a purchase invoice to buy a new disk and record the project that uses it.
 
 If the purchase process doesn't require you to record the physical transaction separately, you can process a purchase on the **Project G/L Journal** page. For more information, see [To post a project-related expense](projects-how-manage-project-supplies.md#to-post-a-project-related-expense).
 
-## To purchase items or services for a project
+## <a name="to-purchase-items-or-services-for-a-project"></a>To purchase items or services for a project
 
 The following procedure shows how to use a purchase invoice to purchase products for a project. The same steps apply when using a purchase order.  
 
@@ -28,7 +28,7 @@ The following procedure shows how to use a purchase invoice to purchase products
     The value that you select in the **Project Line Type** field defines whether a planning line is created when you post the usage of the item. If the field contains **Billable**, then project planning lines that are ready to be invoiced to the customer are created. For more information, see [Invoice Projects](projects-how-invoice-jobs.md).
 4. Choose the **Post** action.
 
-## To view the value of purchases for a project
+## <a name="to-view-the-value-of-purchases-for-a-project"></a>To view the value of purchases for a project
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, and then choose the related link.
 2. Open a relevant project card.
@@ -38,7 +38,7 @@ The following procedure shows how to use a purchase invoice to purchase products
     The **Amt. Rec. Not Invoiced** field shows the value of items delivered on purchase documents, but not yet invoiced.  
 3. Choose either of the fields to open the **Purchase Lines** page where you can review information about the related purchase document lines, including which items or services are received.
 
-## To post a project-related expense
+## <a name="to-post-a-project-related-expense"></a>To post a project-related expense
 
 If you incur extraordinary or one-time project expenses, you can use the **Project G/L Journal** page to post them directly to the relevant project account.
 
@@ -46,7 +46,7 @@ If you incur extraordinary or one-time project expenses, you can use the **Proje
 2. Create a new line and enter information about the expense, including information in the **Project No.** and **Project Task No** fields.  
 3. When the journal is complete, choose the **Post** action.
 
-## See also
+## <a name="see-also"></a>See also
 
 [Project Management](projects-manage-projects.md)  
 [Finance](finance.md)  

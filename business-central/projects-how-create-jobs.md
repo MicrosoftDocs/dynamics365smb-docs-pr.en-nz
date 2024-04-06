@@ -11,7 +11,7 @@ ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Create projects
+# <a name="create-projects"></a>Create projects
 
 When you start a new project, you must create a project card with integrated project tasks and project planning lines, structured in two layers.  
 
@@ -24,7 +24,7 @@ The layer structure enables you to divide the project into smaller tasks, and th
 > [!TIP]
 > Choose the **New Project** action on the **Project Manager** Role Centre to launch an assisted setup guide that takes you through the steps of creating a project with integrated tasks and planning lines. The following procedure describes how to perform the steps manually. <!-- For an example of how to create a project manually, go to [Video: How to create a project in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw).-->
 
-## Invoice one or more customers for project tasks
+## <a name="invoice-one-or-more-customers-for-project-tasks"></a>Invoice one or more customers for project tasks
 
 Sometimes the party that is receiving a service is different from the party that'll pay the bill. Also, sometimes you might need to invoice multiple customers for tasks in the project. On the **Project Card** page, use the **Task Billing Method** field to specify whether you're billing one customer, or multiple customers.
 
@@ -36,7 +36,7 @@ If you're billing multiple customers, you can specify the customer who will rece
 * Add information about external references to simplify communication about the project.
 * Overwrite the standard financial terms of the project.
 
-## Invoice one customer for multiple project tasks
+## <a name="invoice-one-customer-for-multiple-project-tasks"></a>Invoice one customer for multiple project tasks
 
 You can simplify your invoicing process by sending one invoice to a customer for multiple projects. Add project planning lines from multiple projects to a sales invoice in one go. This process is similar to creating a sales invoice from a project planning line and entering a value in the **Append to Sales Invoice No.** field.
 
@@ -54,7 +54,7 @@ Repeat these steps if you want to add another set of project planning lines. You
 > * The **Get Project Planning Lines** action isn't available on sales orders or sales quotes.
 > * You can't filter on the **Ship-to Code** or **Contact No.** fields.
 
-## To create a project card
+## <a name="to-create-a-project-card"></a>To create a project card
 
 You create a project card and then create project task lines and project planning lines for it.
 
@@ -73,7 +73,7 @@ Optionally, mark actions on project as blocked using the **Blocked** field. the 
 |Posting    |You can work with planning lines, but the project is blocked for posting. Choosing this option means that you cannot post any usage or sale on the project.|
 |All  |All actions are blocked.|
 
-## To create tasks for a project
+## <a name="to-create-tasks-for-a-project"></a>To create tasks for a project
 
 A key part of creating a project is to specify the various tasks involved in the project. You specify tasks by creating one line per task on the **Tasks** FastTab on the **Project Card** page. Every project must have at least one task.
 
@@ -84,7 +84,7 @@ A key part of creating a project is to specify the various tasks involved in the
 5. Repeat steps 3 and 4 for all the tasks that you need for the project.
 6. To specify the project tasks with information on other project tasks, choose the **Copy Project Tasks from** action, fill in the fields as necessary, and then choose the **OK** button.
 
-## To create planning lines for a project
+## <a name="to-create-planning-lines-for-a-project"></a>To create planning lines for a project
 
 You can refine your new project tasks on project planning lines. A planning line can capture the information that you want to track for a project. For example, you can track the resources the project requires, or the items that are needed. For example, you have a task to get a customer to approve a project. You associate the task with planning lines for items such as meeting the customer and assigning a resource.  
 
@@ -105,7 +105,7 @@ A project planning line can have one of the following types.
 4. On the **Project Planning Lines** page, on a new line, fill in the fields as necessary.
 5. Repeat steps 3 and 4 for all planning lines that you need for the project task.
 
-## See also
+## <a name="see-also"></a>See also
 
 [Project Management](projects-manage-projects.md)  
 [Video: How to create a project in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

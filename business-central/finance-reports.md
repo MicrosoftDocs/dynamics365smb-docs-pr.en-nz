@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Built-in finance reports in Business Central
+# <a name="built-in-finance-reports-in-business-central"></a>Built-in finance reports in Business Central
 
 [!INCLUDE [prod_short](includes/prod_short.md)] includes several built-in reports, tracing functions, and tools to help auditors or controllers who are responsible for reporting to the finance department. 
 
@@ -19,7 +19,7 @@ ms.service: dynamics-365-business-central
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
 
-## See also
+## <a name="see-also"></a>See also
 
 [Creating Cost Budgets](finance-create-cost-budgets.md)  
 [Report VAT to Tax Authorities](finance-how-report-vat.md)  

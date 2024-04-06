@@ -12,7 +12,7 @@ ms.collection: bap-ai-copilot
 ms.custom: responsible-ai-faqs
 ---
 
-# FAQ for Sales Line Suggestions with Copilot (preview)
+# <a name="faq-for-sales-line-suggestions-with-copilot-preview"></a>FAQ for Sales Line Suggestions with Copilot (preview)
 
 [!INCLUDE[preview-banner](includes/preview-banner.md)]
 
@@ -20,11 +20,11 @@ These frequently asked questions (FAQ) describe the AI impact of the sales line 
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
-## What is Sales Line Suggestions with Copilot?
+## <a name="what-is-sales-line-suggestions-with-copilot"></a>What is Sales Line Suggestions with Copilot?
 
 Sales line suggestion with Copilot can assist with creating lines on sales documents such as sales quotes, orders, and invoices based on structured input or natural language. The feature isn't a general-purpose chat, but a highly specific and integrated experience that you can use on sales documents. The feature offers two distinct skills that help you find data about individual products or the entire documents.
 
-## What are capabilities of sales line suggestions with Copilot?
+## <a name="what-are-capabilities-of-sales-line-suggestions-with-copilot"></a>What are capabilities of sales line suggestions with Copilot?
 
 * Find products
 
@@ -34,7 +34,7 @@ Sales line suggestion with Copilot can assist with creating lines on sales docum
 
   People often repeat a previous order, or at least use it as a starting point. But it might be tricky to find the right order in a stack of orders. You might remember some of the order's ID, which can be a company assigned number or a reference number received from a customer. Being able to use prompts such as *Need last invoice from April* should help you find an order faster.
 
-## What is the intended use of sales line suggestions with Copilot?
+## <a name="what-is-the-intended-use-of-sales-line-suggestions-with-copilot"></a>What is the intended use of sales line suggestions with Copilot?
 
 * Find products
 
@@ -59,13 +59,13 @@ Sales line suggestion with Copilot can assist with creating lines on sales docum
   * *Get products from order 103031*
   * *Need products from last invoice in August*
 
-## How was sales line suggestions with Copilot evaluated? What metrics are used to measure performance?
+## <a name="how-was-sales-line-suggestions-with-copilot-evaluated-what-metrics-are-used-to-measure-performance"></a>How was sales line suggestions with Copilot evaluated? What metrics are used to measure performance?
 
 The feature underwent extensive testing where numerous prompts in US English representing both typical use and use by bad actors. Testing was based on [!INCLUDE [prod_short](includes/prod_short.md)]'s demonstration data and a large labelled product catalogue available as open source.
 
 This feature is built in accordance with Microsoft's Responsible AI Standard. [Learn more about responsible AI from Microsoft](https://aka.ms/RAI).
 
-## What are the limitations of sales line suggestions with Copilot? How can users minimise the impact of the sales line suggestions with Copilot limitations when using the system?
+## <a name="what-are-the-limitations-of-sales-line-suggestions-with-copilot-how-can-users-minimize-the-impact-of-the-sales-line-suggestions-with-copilot-limitations-when-using-the-system"></a>What are the limitations of sales line suggestions with Copilot? How can users minimise the impact of the sales line suggestions with Copilot limitations when using the system?
 
 * Find products
   
@@ -113,15 +113,15 @@ For products, the following table lists the tables and fields that Copilot searc
 
   Copilot doesn't return all lines of the type Item. Only items numbers, variant codes, and quantities are transferred. Quantities from the source document are converted to the **Sales Unit of Measure**.
 
-## In which geographies and languages is Sales lines suggestions available?
+## <a name="in-which-geographies-and-languages-is-sales-lines-suggestions-available"></a>In which geographies and languages is Sales lines suggestions available?
 
 With the exception of Canada, this feature is available to all environment country/region localisation and in all supported languages. Due to limited language support, the feature won't initially be available to Canadian customers due to regulatory language compliance. For this capability to be available for customer environments located in countries/regions where Azure OpenAI Service isn't deployed, administrators must first consent to allowing their data to move across boundaries for [!INCLUDE [prod_short](includes/prod_short.md)] to connect to Azure OpenAI service.  
 
-## What operational factors and settings allow for effective and responsible use of the feature?
+## <a name="what-operational-factors-and-settings-allow-for-effective-and-responsible-use-of-the-feature"></a>What operational factors and settings allow for effective and responsible use of the feature?
 
 AI-powered suggestions might sometimes be incorrect or incomplete. You should always review the accuracy of Copilot's suggestions before you choose whether to keep them. Copilot’s suggestions aren't saved to the [!INCLUDE [prod_short](includes/prod_short.md)] database until you choose the **Keep it** button and exit the Copilot window. You can edit and correct any suggestions before you choose to keep it, or after they're inserted in a sales document.
 
-### What is expected of administrators and end-users when using Sales lines suggestions?
+### <a name="what-is-expected-of-administrators-and-end-users-when-using-sales-lines-suggestions"></a>What is expected of administrators and end-users when using Sales lines suggestions?
 
 Each individual users chooses whether or not to use **Sales lines suggestions**. Even when the feature is enabled by administrators and available, you can choose to use it always, sometimes, or never.  
 
@@ -131,15 +131,15 @@ Administrators make the overall decision on whether to use Copilot capabilities 
 > - We don't support this feature in [!INCLUDE [prod_short](includes/prod_short.md)] on-premises or private cloud.
 > - Partner's can't extend this feature. That means partner developers can't modify, replace, or extend it.
 
-## Is Copilot the only means to create sales lines?  
+## <a name="is-copilot-the-only-means-to-create-sales-lines"></a>Is Copilot the only means to create sales lines?
 
 No, use of Copilot is optional. [!INCLUDE [prod_short](includes/prod_short.md)] offers non-AI-powered ways to insert sales lines or copy documents. Organisations can use both approaches at the same time.  
 
-## How do I give feedback about AI-generated content?  
+## <a name="how-do-i-give-feedback-about-ai-generated-content"></a>How do I give feedback about AI-generated content?
 
 Each time Copilot provides suggestions, you can provide feedback to Microsoft directly from the Copilot window, using the Like and Dislike buttons. Your feedback remains anonymous and we use this data to improve the quality of the service.  
 
-## See also
+## <a name="see-also"></a>See also
 
 [Suggest lines on sales orders with Copilot](sales-suggest-sales-lines-with-copilot.md)  
 [Configure Copilot and AI capabilities](enable-ai.md)  

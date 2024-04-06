@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Configure service management processes
+# <a name="configure-service-management-processes"></a>Configure service management processes
 
 The following are some examples of the settings you can apply to service management processes:  
   
@@ -21,12 +21,12 @@ The following are some examples of the settings you can apply to service managem
 * Settings for contracts, such as the maximum number of days that you can use for contract service orders, whether to use reason codes when a contract is cancelled, standard texts for descriptions, and contract values.  
 * The number sequences to use for service-related documents and items.  
 
-## To enter general and mandatory settings
+## <a name="to-enter-general-and-mandatory-settings"></a>To enter general and mandatory settings
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Management Setup**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## Set up service invoice posting policies for users
+## <a name="set-up-service-invoice-posting-policies-for-users"></a>Set up service invoice posting policies for users
 
 Companies often have unique processes for invoices and shipments. For example, processes can vary from one person posting everything on a service order to multiple employees, each working with their own pages.
 
@@ -55,7 +55,7 @@ The following table describes the effects on different documents.
 > [!NOTE]
 > When you post service invoices and credit memos, you don't have any posting options. The documents always post physical and financial transactions together. You can't partially post service invoices and credit memos.
 
-## See also  
+## <a name="see-also"></a>See also
 
 [Set Up Fault Reporting](service-how-setup-fault-reporting.md)  
 [Set Up Resource Allocation](service-how-setup-resource-allocation.md)  

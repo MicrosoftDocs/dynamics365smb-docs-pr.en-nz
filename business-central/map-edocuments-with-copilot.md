@@ -12,7 +12,7 @@ ms.date: 02/23/2024
 ms.custom: bap-template
 ---
 
-# Map e-documents to purchase order lines with Copilot (preview)
+# <a name="map-e-documents-to-purchase-order-lines-with-copilot-preview"></a>Map e-documents to purchase order lines with Copilot (preview)
 
 [!INCLUDE[preview-banner](includes/preview-banner.md)]
 
@@ -33,17 +33,17 @@ You can now update an existing purchase order in Business Central with the infor
 > - AI-generated content may be incorrect.-->
 
 
-## Identify purchase orders
+## <a name="identify-purchase-orders"></a>Identify purchase orders
 
 First, you can identify the purchase orders that you can automatically match.
 
-## Map lines
+## <a name="map-lines"></a>Map lines
 
 Copilot helps you automatically match e-invoice lines with purchase order lines, and offers extra matching intelligence to improve the matches.
 
 After they're matched and mapped, Business Central updates the matched purchase order with the relevant receipt information to ensure the right quantities are received on the order lines.
 
-## See also
+## <a name="see-also"></a>See also
 
 [E-Documents overview](finance-edocuments-overview.md)  
 [Use e-documents in sales and purchases](finance-how-use-edocuments.md)  
