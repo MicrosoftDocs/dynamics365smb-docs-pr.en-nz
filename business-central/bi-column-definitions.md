@@ -12,11 +12,11 @@ ms.search.form: '103, 104, 108, 195, 196, 197, 198, 489, 490, 764, 765, 766'
 ms.service: dynamics-365-business-central
 ---
 
-# Column definitions in Financial Reporting
+# <a name="column-definitions-in-financial-reporting"></a>Column definitions in Financial Reporting
 
 Use column definitions to specify the columns to include in a report. For example, you can design a report layout to compare net change and balance for the same period this year and last year. You can have up to 15 columns in a column definition. For example, multiple columns are useful for displaying budgets for 12 months with a column that shows the total.
 
-## Create or edit a column definition
+## <a name="create-or-edit-a-column-definition"></a>Create or edit a column definition
 
 To create or edit a column definition, follow these steps.
 
@@ -28,7 +28,7 @@ To create or edit a column definition, follow these steps.
 1. Choose **OK**.
 1. Open the **Financial Report** page from time to time to verify the new column definition works as intended.
 
-## Built-in column definitions
+## <a name="built-in-column-definitions"></a>Built-in column definitions
 
 [!INCLUDE[prod_short](includes/prod_short.md)] provides sample column definitions that can help you to quickly get started setting up finance reports that suit your needs.
 
@@ -41,7 +41,7 @@ To create or edit a column definition, follow these steps.
 | TBA 4 | TBA 4 | TBA 4 |
 -->
 
-## Example: Create a column definition to calculate percentages
+## <a name="example-create-a-column-definition-to-calculate-percentages"></a>Example: Create a column definition to calculate percentages
 
 You might want to include a column in a financial report to calculate percentages of a total. For example, if you have rows that break down sales by dimension, you might want a column to indicate the percentage of total sales in each row.
 
@@ -58,7 +58,7 @@ You might want to include a column in a financial report to calculate percentage
     1. In the **Formula** field, enter a formula for the amount you want to calculate a percentage for, followed by the percentage sign (%). So, if column number N contains the net change, enter **N%**.  
 1. Repeat steps 4 through 7 for each group of rows you want to break down by percentage.
 
-## Comparing accounting periods using period formulas
+## <a name="comparing-accounting-periods-using-period-formulas"></a>Comparing accounting periods using period formulas
 
 Your financial report can compare the results of different accounting periods, such as the past month versus the same month last year. To do that, open the **Column Definition** page, and personalise it by adding the **Comparison Period Formula** field as a column. Learn more at [Personalise Your Workspace](ui-personalization-user.md). You can then set that field to a period formula.  
 
@@ -94,7 +94,7 @@ Learn more at [Work with Calendar Dates and Times](ui-enter-date-ranges.md).
 
 [!INCLUDE [report-best-practices-column-defs](includes/report-best-practices-column-defs.md)]
 
-## Import or export financial report column definitions
+## <a name="import-or-export-financial-report-column-definitions"></a>Import or export financial report column definitions
 
 Starting with the 2024 release wave 1 (version 24.1), you can import and export financial report column definitions as RapidStart configuration packages. For example, configuration packages are useful for sharing information with other companies. The package is created in a .rapidstart file, which compresses the contents.
 
@@ -106,7 +106,7 @@ To import or export financial report column definitions, follow these steps:
 1. Choose the ![Lightbulb that opens the Tell Me feature 4.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Column Definitions**, and then choose the related link.
 1. Choose the row definition, and then choose the **Import Column Definition** or **Export Column Definition** action, depending on what you want to do.
 
-## See also
+## <a name="see-also"></a>See also
 
 [Row definitions in financial reporting](bi-row-definitions.md)  
 [Prepare financial reporting](bi-how-work-account-schedule.md)  
