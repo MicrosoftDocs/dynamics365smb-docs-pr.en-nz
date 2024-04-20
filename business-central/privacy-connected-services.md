@@ -5,13 +5,13 @@ author: jswymer
 ms.topic: overview
 ms.service: dynamics-365-business-central
 ms.search.keywords: 'privacy, trial, Microsoft services'
-ms.date: 12/12/2023
+ms.date: 04/14/2024
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.collection:
   - bap-ai-copilot
 ---
-# <a name="trial-features-that-connect-to-other-microsoft-services"></a>Trial features that connect to other Microsoft services
+# Trial features that connect to other Microsoft services 
 
 [!INCLUDE[prod_long](includes/prod_long.md)] is a comprehensive business management solution that is deeply integrated with Microsoft 365 productivity apps and Power Platform. Your free trial of Business Central can connect to many different Microsoft services that you must first configure and enable. To get the most out of your free trial, some of these features have been automatically enabled for you. Even though the connection from [!INCLUDE[prod_short](includes/prod_short.md)] is enabled, these services aren't included with your trial and must be purchased separately unless you have them already.
 
@@ -22,7 +22,7 @@ The following table indicates the connections to Microsoft services that are aut
 |Microsoft Teams|Yes|No|**Share to Teams** action on **Item** card |[Managing Teams Integration with Business Central](admin-teams-integration.md)|  
 |Microsoft OneDrive for Business|Yes|No|**Open in OneDrive** action on **Item** attachments |[Managing OneDrive Integration with Business Central](admin-onedrive-integration.md#configure-onedrive-using-onedrive-setup)|  
 | Microsoft Power Automate |Yes|No|**Automate** actions on **Item** card |[Set Up Power Automate Integration](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|
-| Microsoft Azure OpenAI Automate |Yes |No|**Copilot (preview)** |[Configure AI-powered item marketing text with Copilot](enable-ai.md)|
+| Microsoft Azure OpenAI Service |Yes |No|**Copilot** |[Configure AI-powered item marketing text with Copilot](enable-ai.md)|
 
 > [!NOTE]
 > By using features that connect to these services: 
