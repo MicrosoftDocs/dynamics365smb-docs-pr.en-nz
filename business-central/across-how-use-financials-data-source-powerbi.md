@@ -148,7 +148,7 @@ There are a couple ways to get reports to your coworkers and others:
 
 ## <a name="fixing-problems"></a>Fixing problems
 
-### <a name="cannot-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>"Cannot insert a record. Current connection intent is Read-Only." error connecting to custom API page
+### <a name="cant-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>"Cannot insert a record. Current connection intent is Read-Only." error connecting to custom API page
 
 > **APPLIES TO:** Business Central online
 
