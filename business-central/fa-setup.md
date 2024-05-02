@@ -11,7 +11,7 @@ ms.date: 03/25/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="setting-up-fixed-assets"></a>Setting up fixed assets
+# Setting up fixed assets
 
 Before you can work with fixed assets (FA), you need to define a few things:  
 
@@ -26,7 +26,7 @@ The sections in this article link to more information about how to set up fixed 
 
 When you enable a fixed asset activity in the **G/L Integration** section on the **Depreciation Book Card** page, use the **Fixed Asset G/L Journal** page to post transactions for the activity.
 
-## <a name="required-setup-tasks"></a>Required setup tasks
+## Required setup tasks
 
 The following table contains a sequence of tasks to set up fixed assets, and links to related articles.
 
@@ -35,7 +35,7 @@ The following table contains a sequence of tasks to set up fixed assets, and lin
 | Set-up default G/L accounts, allocation keys, journal templates and batches for fixed asset posting, and set up fixed asset classes and subclasses, such as Tangible and Intangible. |[Set Up General Fixed Assets Information](fa-how-setup-general.md) |
 | Create depreciation books, define various depreciation methods, integrate with the general ledger, and enable duplication of entries in several depreciation books. |[Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md) |
 
-## <a name="optional-setup-tasks-insurance-maintenance-and-user-defined-depreciation-methods"></a>Optional setup tasks (insurance, maintenance, and user-defined depreciation methods)
+## Optional setup tasks (insurance, maintenance, and user-defined depreciation methods)
 
 The following table contains a sequence of optional tasks to set up fixed assets, such as insurance, maintenance and depreciation methods, and links to related articles. 
 
@@ -45,7 +45,7 @@ The following table contains a sequence of optional tasks to set up fixed assets
 | Enable maintenance of fixed assets, set up general maintenance information, set up maintenance posting accounts, and define types of maintenance work. |[Set Up Fixed Asset Maintenance](fa-how-setup-maintenance.md) |
 | Learn about how to apply depreciation methods. |[Set Up User-Defined Depreciation Methods](fa-how-setup-user-defined-depreciation-method.md) |
 
-## <a name="see-also"></a>See also
+## See also
 
 [Fixed Assets overview](fa-manage.md)  
 [Finance](finance.md)  

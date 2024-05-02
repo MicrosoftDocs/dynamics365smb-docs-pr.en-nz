@@ -3,15 +3,15 @@ title: Count and Adjust Inventory
 description: Describes how to count physical inventory and use inventory documents to adjust on-hand inventory.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: 'adjustment, status, negative, positive, increase, decrease, inventory'
 ms.search.forms: '5895, 6561, 6562, 6563, 6564, 6565, 6566, 5892, 5891, 5879, 5880, 5893, 5897, 5882, 5881, 5899, 5875, 5878, 5877, 5876, 5896, 6567, 6568, 6569, 6570, 6571, 6572, 5883, 5886, 884, 5898, 5885, 5890, 5888, 5889, 5887, 5894, 6774, 6775, 6776, 6780, 6781, 6782, 6783'
-ms.date: 03/11/2024
+ms.date: 04/19/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="count-and-adjust-inventory-using-documents"></a>Count and adjust inventory using documents
+# Count and adjust inventory using documents
 
 You can take a physical inventory of your items by using physical inventory order and physical inventory recording documents. The **Physical Inventory Order** page is used to organise the complete inventory counting project, for example one per location. Use the **Phys. Inventory Recording** page capture and communicate the actual count of items. You can create multiple recordings for one order, for example, to distribute groups of items to different employees.
 
@@ -29,7 +29,7 @@ Counting inventory by using documents consists of the following overall steps:
 3. Enter the counted item quantities on the recordings, as captured on print-outs, for example, and set it to **Finished**.
 4. Complete and post the physical inventory order.
 
-## <a name="to-create-a-physical-inventory-order"></a>To create a physical inventory order
+## To create a physical inventory order
 
 A physical inventory order is a complete document that consists of a physical inventory order header and order lines. The information on a physical inventory header describes how to take the physical inventory. The order lines contain the information about the items and their locations.
 
@@ -58,7 +58,7 @@ You can now create one or more recordings, which are instructions to the employe
 >
 > After you choose **Finish** on the **Physical Inventory Order** page, [!INCLUDE [prod_short](includes/prod_short.md)] calculates differences with respect to the package and other item tracking details, and makes positive or negative adjustments.
 
-## <a name="to-create-a-physical-inventory-recording"></a>To create a physical inventory recording
+## To create a physical inventory recording
 
 For each physical inventory order, you can create one or more physical inventory recording documents on which employees enter the counted quantities. Employees can enter quantities either manually, or with a scanning device.
 
@@ -76,7 +76,7 @@ For manual counting, you can print the **Phys. Invt. Recording** report, which h
 8. For items that use item tracking, create an additional line for each lot number or serial number code by choosing the **Functions** action, and then the **Copy Line** action. To learn more, go to [Handle item tracking when counting inventory](#handle-item-tracking-when-counting-inventory).  
 9. Choose the **Print** action to prepare the physical document that employees can use to note the quantities they count.
 
-## <a name="to-finish-a-physical-inventory-recording"></a>To finish a physical inventory recording
+## To finish a physical inventory recording
 
 After employees count the quantities, record the quantities in [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -91,7 +91,7 @@ After employees count the quantities, record the quantities in [!INCLUDE [prod_s
     > 
     > If a matching physical inventory order line doesn't exist, and if the **Allow Recording Without Order** checkbox is selected, a new line is added and the **Recorded Without Order** checkbox on the related physical inventory order line is selected. Otherwise, an error message displays and the process is cancelled.> If more than one physical inventory recording lines match a physical inventory order line, then a message displays and the process is cancelled. If, for some reason, two identical physical inventory lines end up on the physical inventory order, you can use a action to resolve it. To learn more, go to [To find duplicate physical inventory order lines](#to-find-duplicate-physical-inventory-order-lines).
 
-## <a name="to-complete-a-physical-inventory-order"></a>To complete a physical inventory order
+## To complete a physical inventory order
 
 After you finish a physical inventory recording, the **Qty. Recorder (Base)** field on the related physical inventory order is updated with the counted (recorded) values, and the **On Recording** checkbox is selected. If a counted quantity differs from the expected quantity, the the **Pos Qty. (Base)** and **Neg Qty. (Base)** fields show the difference.
 
@@ -99,7 +99,7 @@ To access the expected quantities and any recorded differences for items with it
 
 You can also choose the **Phys. Inventory Order Diff.** action to view any differences between the expected quantity and the counted quantity.
 
-### <a name="to-find-duplicate-physical-inventory-order-lines"></a>To find duplicate physical inventory order lines
+### To find duplicate physical inventory order lines
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Physical Inventory Orders**, and then choose the related link.
 2. Open the physical inventory order to view duplicate lines for.
@@ -107,7 +107,7 @@ You can also choose the **Phys. Inventory Order Diff.** action to view any diffe
 
 Duplicate physical inventory order lines display so that you can delete them and keep only one line with a unique set of values in the **Item No.**, **Variant Code**, **Location Code**, and **Bin Code** fields.
 
-### <a name="to-post-a-physical-inventory-order"></a>To post a physical inventory order
+### To post a physical inventory order
 
 After you complete a physical inventory order and change its status to **Finished**, you can post it. You can only set the status of a physical inventory order to **Finished** under the following conditions:
 
@@ -128,7 +128,7 @@ After you complete a physical inventory order and change its status to **Finishe
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-### <a name="to-view-posted-physical-inventory-orders"></a>To view posted physical inventory orders
+### To view posted physical inventory orders
 
 After posting, the physical inventory order is deleted and you can view and evaluate the document as a posted physical inventory order. The posted order includes its physical inventory recordings and any comments made.
 
@@ -136,13 +136,13 @@ After posting, the physical inventory order is deleted and you can view and eval
 2. On the **Posted Phys. Invt. Orders** page, select the posted inventory order to view, and then choose the **View** action.
 3. To view a list of related physical inventory recordings, choose the **Recordings** action.
 
-## <a name="handle-item-tracking-when-counting-inventory"></a>Handle item tracking when counting inventory
+## Handle item tracking when counting inventory
 
 Item tracking relates to the serial or lot numbers that are assigned to items. When you count an item that's stored in inventory as, for example, 10 different lot numbers, employee must be able to record which and how many units of each lot number are on inventory. To learn more, go to [Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md).
 
 The **Use Item Tracking** checkbox on physical inventory order lines is automatically selected if an item tracking code is set up for the item. You can select or clear the checkbox manually.
 
-### <a name="example---prepare-a-physical-inventory-recording-for-an-item-tracked-item"></a>Example - Prepare a physical inventory recording for an item-tracked item
+### Example - Prepare a physical inventory recording for an item-tracked item
 
 Consider a physical inventory for Item A, which is stored in inventory as ten different serial numbers.
 
@@ -159,7 +159,7 @@ Consider a physical inventory for Item A, which is stored in inventory as ten di
 
 Notice that the **Phys. Invt. Recording** report contains ten lines for Item A, one for each serial number.
 
-### <a name="example---record-and-post-counted-lot-number-differences"></a>Example - Record and post counted lot number differences
+### Example - Record and post counted lot number differences
 
 A lot-tracked item is stored in inventory with the "LOT" number series.
 
@@ -194,7 +194,7 @@ A lot-tracked item is stored in inventory with the "LOT" number series.
 
 On the **Physical Inventory Order** page, the **Neg. Qty. (Base)** field contains **8**. For the order line, the **Phys. Invt. Item Track. List** page shows the positive or negative quantities for each lot number.
 
-## <a name="inventory-documents"></a>Inventory documents
+## Inventory documents
 
 The following types of documents are useful for managing your warehouse:
 
@@ -206,7 +206,7 @@ You can print these documents at any stage, release and reopen them, and assign 
 > [!NOTE]
 > Before you can use these documents, you must specify a number series to create their identifiers. To learn more, go to [To set up numbering for inventory documents](#to-set-up-numbering-for-inventory-documents).
 
-### <a name="to-set-up-numbering-for-inventory-documents"></a>To set up numbering for inventory documents
+### To set up numbering for inventory documents
 
 The following procedure shows how to set up numbering for inventory documents.
 
@@ -218,7 +218,7 @@ The following procedure shows how to set up numbering for inventory documents.
    - **Inventory Shipment Nos.**  
    - **Posted Inventory Shipment Nos.**  
 
-### <a name="to-create-and-post-an-inventory-document"></a>To create and post an inventory document
+### To create and post an inventory document
 
 The following procedure shows how to create, print, and post an inventory receipt. The steps are similar for inventory shipments.
 
@@ -234,7 +234,7 @@ The following functions are available on the **Inventory Receipt** page:
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="printing-inventory-documents"></a>Printing inventory documents
+## Printing inventory documents
 
 You can specify the reports that must be printed at different stages by choosing one of the following options in the **Usage** field the **Report Selection - Inventory** page:
 
@@ -246,7 +246,7 @@ You can specify the reports that must be printed at different stages by choosing
 > [!NOTE]
 > The available reports might vary based on the localisation for your country/region. The base application doesn't include any layouts.
 
-## <a name="see-also"></a>See also
+## See also
 
 [Count, Adjust, and Reclassify Inventory Using Journals](inventory-how-count-adjust-reclassify.md)  
 [Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)  
