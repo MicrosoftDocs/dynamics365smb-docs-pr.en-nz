@@ -9,7 +9,7 @@ ms.date: 07/13/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="accounts-payable-reports-and-analytics-in-business-central"></a>Accounts Payable Reports and Analytics in Business Central
+# <a name="accounts-payable-reports-and-analytics"></a>Accounts Payable Reports and Analytics in Business Central
 
 To help you manage your accounts payable in [!INCLUDE [prod_short](includes/prod_short.md)], standard reports and analytics are built in. It moves beyond traditional reporting constraints to help you efficiently design various types of reports.  
 

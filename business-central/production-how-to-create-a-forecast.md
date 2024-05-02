@@ -68,7 +68,7 @@ Then, you create a sales order with a quantity of 12 on location WEST. The plann
 > [!NOTE]  
 > If location-based forecasts are viewed in isolation, the overall forecast might not be representative.
 
-### <a name="do-not-use-forecast-by-locations"></a>Do not use forecast by locations
+### <a name="if-you-dont-use-forecast-by-locations"></a>Do not use forecast by locations
 
 If you turn off the **Use Forecast by Location** toggle, [!INCLUDE[prod_short](includes/prod_short.md)] will ignore the location codes that are specified for each demand forecast entry and aggregate the forecasts into a forecast for empty locations.  
 
