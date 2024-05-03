@@ -327,7 +327,7 @@ From [!INCLUDE[prod_short](../includes/prod_short.md)] perspective when you crea
 * use **Default Product Location** toggle to specify if this item will be fulfilled by Shopify fulfillment or by 3PL. There is always **Business Central Fulfillment Service**, but there can be more fulfillments services if more apps are installed. You can enable **Default Product Location** only in one record if you want to use fulfillment service. 
 * use **Default Product Location** toggle to specify which locations you want to use to track inventory. You can turn on **Default Product Location** for multiple locations where **Is Fulfillment Service** is disabled. Notice that inventory will be always tracked for primary location. 
  
-#### <a name="what-is-the-difference"></a>What is the difference?
+#### <a name="whats-the-difference"></a>What is the difference?
 
 Shopify fulfilment is useful when using Shopify POS and there are multiple physical stores. You want employee in physical store to know their current inventory. In this case you create multiple locations in Shopify, multiple locations in [!INCLUDE[prod_short](../includes/prod_short.md)], activate **Default Product Location** for all these locations.  
 

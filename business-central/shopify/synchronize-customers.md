@@ -154,7 +154,7 @@ You can export existing customers to Shopify in bulk as a company. In each case,
 |**Default Contact Permissions**| Specify which permissions must be assigned to main contact, you can choose between **None**, **Ordering only**, and **Location admin**.|
 |**Auto Create Catalogue**| Enable this option if you want to create a catalogue that includes all products. A catalogue is created for each exported company.|
 
-## <a name="export-b2b-company-to-shopify"></a>Export B2B company to Shopify
+## <a name="export-a-b2b-company-to-shopify"></a>Export B2B company to Shopify
 
 ### <a name="initial-sync-of-b2b-companies-from-business-central-to-shopify"></a>Initial sync of B2B companies from Business Central to Shopify
 

@@ -157,7 +157,7 @@ If you want to add some tolerance and allow the difference between lines in **E-
 3. This setup will apply to all the matching lines, but again considering tolerance for the total amount, as for **Direct Unit Cost** together with applied **Line Discount %**.  
 4. Close the page.   
 
-##### <a name="to-match-lines-from-e-document"></a>To match lines from e-document
+##### <a name="matching-lines-from-e-document"></a>To match lines from e-document
 
 You can match the lines on the **E-Document** page. To start with this, use the following steps:  
 
