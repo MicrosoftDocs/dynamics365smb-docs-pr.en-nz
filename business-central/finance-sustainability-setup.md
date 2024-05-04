@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Sustainability setup  
+# <a name="sustainability-setup"></a>Sustainability setup
 
 To have the Sustainability module working properly, you first need to set up some basic controls and instruction related to whole functionality.  
 
@@ -49,7 +49,7 @@ To set up a sustainability module, follow the next steps:
 >[!NOTE]
 > In version 24.0, [!INCLUDE[prod_short](includes/prod_short.md)] does not support reporting to any authority. So, field related to configuration on the **Reporting** FastTab, will be used for future reporting capabilities, but it can also be used by partners in localised versions.
 
-## See also  
+## <a name="see-also"></a>See also
 [Finance](finance.md)    
 [Sustainability management overview](finance-manage-sustainability.md)
 [Chart of Sustainability Accounts and Ledger](finance-sustainability-accounts-ledger.md)
