@@ -12,17 +12,17 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="manage-fixed-assets"></a>Manage fixed assets
+# Manage fixed assets
 
 The Fixed Assets functionality in [!INCLUDE[prod_short](includes/prod_short.md)] provides an overview of your fixed assets and ensures correct periodic depreciation. It also enables you to keep track of your maintenance costs, manage insurance policies, post fixed asset transactions, and generate various reports and statistics.
 
-## <a name="video-overview"></a>Video overview
+## Video overview
 
 The following video covers the basics of fixed assets:
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## <a name="fixed-assets-overview"></a>Fixed assets overview
+## Fixed assets overview
 
 For each fixed asset, you must set up a card containing information about the asset. You can set up buildings or production equipment as a main asset with a component list, and you can group them in various ways, such as by class, department, or location. Then you can begin to acquire, maintain, and sell the fixed assets. You can also set up budgeted assets. Budgeting lets you include any anticipated acquisitions and sales in reports.
 
@@ -46,7 +46,7 @@ You can attach each fixed asset to one or more insurance policies, and verify th
 > [!NOTE]  
 > You can record fixed asset transactions on the **Fixed Asset G/L Journal** page or on the **Fixed Asset Journal** page, depending on whether the transactions are for financial reporting or for internal management. Help for Fixed Assets only describes how to use the **Fixed Asset G/L Journal** page. For more information, see [Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md).
 
-## <a name="how-to-use-fixed-assets"></a>How to use fixed assets
+## How to use fixed assets
 
 The following table describes a sequence of tasks, with links to the articles that describe them.
 
@@ -64,7 +64,7 @@ The following table describes a sequence of tasks, with links to the articles th
 | Manage fixed asset budgets, budget acquisition costs, budget disposals of fixed assets, and budget depreciation. |[Manage Budgets for Fixed Assets](fa-how-manage-budgets.md) |
 | Learn more about built-in reporting and analytics capabilities for fixed assets. | [Fixed assets reports and analytics](fa-reports.md) |
 
-## <a name="see-also"></a>See also
+## See also
 
 [Setting Up Fixed Assets](fa-setup.md)  
 [Finance overview](finance.md)  

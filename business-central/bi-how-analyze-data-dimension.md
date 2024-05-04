@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="analyze-data-by-dimensions"></a>Analyse data by dimensions
+# Analyse data by dimensions
 
 In financial analysis, a dimension is data you add to an entry as a kind of marker to group entries with similar characteristics. For example, dimensions often group entries for customers, regions, products, and salespeople. The groups let you easily retrieve data about them for analysis. You can use dimensions on entries in journals, documents, and budgets.
 
@@ -24,7 +24,7 @@ Each dimension describes the focus of analysis. So, a two-dimensional analysis, 
 > [!NOTE]
 > If you discover that an incorrect dimension value was used on posted general ledger entries, you can correct it and update your analysis views. To learn more, go to [Troubleshooting and Correcting Dimensions](finance-troubleshooting-correcting-dimensions.md#changing-dimension-assignments-after-posting).
 
-## <a name="set-up-an-analysis-view"></a>Set up an analysis view
+## Set up an analysis view
 
 An analysis by dimensions uses a selected combination of dimensions. You store, retrieve, and update that dimension set by creating an **Analysis View** card.
 
@@ -34,7 +34,7 @@ An analysis by dimensions uses a selected combination of dimensions. You store, 
 4. To add other dimension codes in addition to the four on the **Dimensions** FastTab, choose the **Filter** action, fill in the fields, then choose the **OK** button.  
 5. To update the view, choose the **Update** action.
 
-## <a name="analyze-by-dimensions"></a>Analyse by dimensions
+## Analyse by dimensions
 
 Use analysis views you've already set up with the **Analysis by Dimensions** matrix to view the amounts in your general ledger.
 
@@ -56,7 +56,7 @@ Use analysis views you've already set up with the **Analysis by Dimensions** mat
 > [!TIP]  
 > You can also change the view by changing the contents of the **Show as Lines** and **Show as Columns** fields. To reverse a view setting, choose the **Reverse Lines and Columns** action.
 
-## <a name="update-an-analysis-view"></a>Update an analysis view
+## Update an analysis view
 
 The amounts on the **Analysis by Dimensions** page give you a picture of the company's state at the time of the last update. To get the current state, run the update action to update the analysis view.
 
@@ -74,7 +74,7 @@ Use the following procedure to update an analysis view from the **Analysis by Di
 > [!NOTE]  
 > To update some or all analysis views at the same time, use the **Update Analysis Views** batch job.  
 
-## <a name="see-also"></a>See also
+## See also
 
 [Financial Business Intelligence](bi.md)  
 [Finance](finance.md)  

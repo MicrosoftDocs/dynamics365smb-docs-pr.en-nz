@@ -9,14 +9,14 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="run-tasks-in-the-background"></a>Run tasks in the background
+# Run tasks in the background
 
 It's efficient to run some tasks simultaneously and in an automated manner. You can perform such tasks in the background and can also set a schedule when you want those tasks to run automatically. To run tasks in the background, two modes are supported:
 
 - Manually triggered tasks are scheduled immediately via **Job Queue Entries**.
 - Recurring tasks are scheduled in **Job Queue Entries**.
 
-## <a name="run-tasks-in-the-background-for-a-specific-shop"></a>Run tasks in the background for a specific shop
+## Run tasks in the background for a specific shop
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and choose the related link.
 2. Select the shop for which you want to run synchronisation in background to open the **Shopify Shop Card** page.
@@ -24,7 +24,7 @@ It's efficient to run some tasks simultaneously and in an automated manner. You 
 
 Now, when the sync action starts, instead of running a task in the foreground it asks you to wait. When it completes, you can proceed to the next action. The task is created as a **Job Queue Entry** and starts immediately.
 
-## <a name="to-schedule-recurring-tasks"></a>To schedule recurring tasks
+## To schedule recurring tasks
 
 You can schedule the following recurring activities to be performed in an automated manner. Learn more about scheduling tasks at [Job Queue](../admin-job-queues-schedule-tasks.md).
 
@@ -54,7 +54,7 @@ You can use the **Shopify Order No.** field to identify sales documents that wer
 
 To learn more about posting sales orders in a batch, go to [To create a job queue entry for batch posting of sales orders](../ui-batch-posting.md#to-create-a-job-queue-entry-for-batch-posting-of-sales-orders).
 
-## <a name="to-check-the-status-of-synchronization"></a>To check the status of synchronisation
+## To check the status of synchronisation
 
 On the **Business Manager** Role Centre, the **Shopify Activities** part offers several cues that can help you quickly identify whether there are issues with Shopify Connector.
 
@@ -65,6 +65,6 @@ On the **Business Manager** Role Centre, the **Shopify Activities** part offers 
 - **Shipments Errors** - Shopify Connector couldn't synchronise posted sales shipments with Shopify.
 - **Synchronisation Errors** - There are failed job queue entries related to synchronisation with Shopify.
 
-## <a name="see-also"></a>See also
+## See also
 
 [Get Started with the Connector for Shopify](get-started.md)  
