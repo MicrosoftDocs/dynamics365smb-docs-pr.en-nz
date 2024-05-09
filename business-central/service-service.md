@@ -10,7 +10,7 @@ ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Service Management
+# <a name="service-management"></a>Service Management
 
 > [!NOTE]
 > The functionality described in this topic and sub topics is only visible in the user interface if you have the **Premium** experience. For more information, see [Change Which Features are Displayed](ui-experiences.md).
@@ -34,7 +34,7 @@ The following table describes a sequence of tasks, with links to the articles th
 |Create and manage contractual agreements between you and your customers.|[Fulfilling Service Contracts](service-fulfill-service-contracts.md)|  
 |Provide service to customers, and invoice service orders.|[Delivering Service](service-deliver-service.md)|  
 
-## See also  
+## <a name="see-also"></a>See also
 
 [Managing Receivables](receivables-manage-receivables.md)  
 [Projects](projects-how-create-jobs.md)  
