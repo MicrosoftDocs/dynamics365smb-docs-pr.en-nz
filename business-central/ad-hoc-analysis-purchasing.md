@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="ad-hoc-analyses-in-purchasing"></a>Ad-hoc analyses in purchasing
+# Ad-hoc analyses in purchasing
 
 This article explains how to analyse purchasing data from list pages and queries using the **Data Analysis** feature. The feature lets you analyse data directly from the page, without having to run a report or open another application, such as Excel. Data Analysis provides an interactive and versatile way to calculate, summarise, and examine data. Instead of running reports using options and filters, you can add multiple tabs that represent different tasks or views on the data. Some examples are "My vendors," or "Purchasing statistics," or any other view you can imagine. To learn more about how to use the **Data Analysis** feature, go to [Analyse list and query data with analysis mode](analysis-mode.md).
 
@@ -24,7 +24,7 @@ Use the following list pages for ad-hoc analysis of purchase processes:
 - [Vendor Ledger Entries](https://businesscentral.dynamics.com/?page=29)
 - [General Ledger Entries](https://businesscentral.dynamics.com/?page=20)
 
-## <a name="ad-hoc-analysis-scenarios-for-purchasing"></a>Ad-hoc analysis scenarios for purchasing
+## Ad-hoc analysis scenarios for purchasing
 
 Use the **Data Analysis** feature for quick fact checking and ad-hoc analysis:
 
@@ -39,7 +39,7 @@ The following sections provide examples of purchasing scenarios in [!INCLUDE [pr
 | [GRNI overview](#example-goods-received-not-invoiced-grni-overview) | Get a Goods Received, Not Invoiced (GRNI) overview across vendors. | **Type**, **Amt. Rec. Not Invoiced (LCY)** (filter on these fields), **Vendor No.**, **Document No.**, **No.**, and **Amt. Rec. Not Invoiced (LCY)** <br> **NOTE:** You must personalise the page to add these fields. To learn more, go to [Personalise your workspace](ui-personalization-user.md). | 
 | [Finance (Accounts Payable)](#example-finance-accounts-payable) | See what you owe your vendors, maybe broken down into time intervals for when amounts are due. | [Vendor Ledger Entries](https://businesscentral.dynamics.com/?page=29) | **Vendor Name**, **Document Type**, **Document No.**, **Due Date Year**, **Due Date Month**, and **Remaining Amount**. |
 
-## <a name="example-goods-received-not-invoiced-grni-overview"></a>Example: Goods Received, Not Invoiced (GRNI) overview
+## Example: Goods Received, Not Invoiced (GRNI) overview
 
 To create a Goods Received, Not Invoiced (GRNI) overview across vendors, follow these steps:
  
@@ -55,7 +55,7 @@ To create a Goods Received, Not Invoiced (GRNI) overview across vendors, follow 
 1. To do the analysis for a given year or quarter, apply a filter in the **Additional Filters** menu. The menu is on the right of the page, just below the **Columns** menu.
 1. Rename your analysis tab to **Goods Received, Not Invoiced (GRNI)**, or something that describes this analysis for you.
 
-## <a name="example-finance-accounts-payable"></a>Example: Finance (Accounts Payable)
+## Example: Finance (Accounts Payable)
 
 To see what you owe your vendors, maybe broken down into time intervals for when amounts are due, follow these steps:
 
@@ -71,7 +71,7 @@ The following image shows the result of these steps.
 
 :::image type="content" source="media/data-analysis-vendor-ledger-entries.png" alt-text="Example of how to do data analysis on the Customer Ledger Entries page." lightbox="media/data-analysis-vendor-ledger-entries.png":::
 
-## <a name="data-foundation-for-ad-hoc-analysis-on-purchasing"></a>Data foundation for ad-hoc analysis on purchasing
+## Data foundation for ad-hoc analysis on purchasing
 
 When you post a purchase document, [!INCLUDE [prod_short](includes/prod_short.md)] updates the vendor's account, general ledger (G/L), item ledger entries, and resource ledger entries:
 
@@ -84,7 +84,7 @@ When you post a purchase document, [!INCLUDE [prod_short](includes/prod_short.md
 
 To learn more, go to [Posting purchases](purchasing-how-record-purchases.md#posting-purchases).
 
-## <a name="see-also"></a>See also
+## See also
 
 [Posting purchases](purchasing-how-record-purchases.md#posting-purchases)  
 [Analyse list and query data with analysis mode](analysis-mode.md)  
