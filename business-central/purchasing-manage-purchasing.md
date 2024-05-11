@@ -10,7 +10,7 @@ ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="purchasing"></a>Purchasing
+# Purchasing
 
 You create a purchase invoice or purchase order to record the cost of purchases and to track accounts payable. If you need to control an inventory, purchase invoices are also used to dynamically update inventory levels so that you can minimise your inventory costs and provide better customer service. The purchasing costs, including service expenses, and inventory values that result from posting purchase invoices contribute to profit figures and other financial KPIs on your Role Centre.
 
@@ -22,32 +22,77 @@ Products can be both inventory items and services. For more information, see [Re
 
 For all purchase processes, you can incorporate an approval workflow, for example, to require that large purchases are approved by the accounting manager. For more information, see [Use Approval Workflows](across-how-use-approval-workflows.md).
 
-The following table describes a sequence of tasks, with links to the articles that describe them.
+The following sections describe a sequence of tasks, with links to the articles that cover them.
+
+## Get started with purchase capabilities
+
+Before you to buy goods, specify how you want to manage your company's purchase processes.
+
+|To...| See |
+|---|---|
+| Configure the rules and values that define your company's purchase policies. | [Set up purchase](purchasing-setup-purchasing.md) |
+| Register each vendor you purchase from with a vendor card. | [Register new vendors](purchasing-how-register-new-vendors.md) |
+
+## Purchase analytics
+
+This section describes the analytical tools you can use to get insights into your purchase processes.
+
+| To... | See |
+| --- | --- |
+| Learn about capabilities for analysing purchase data. | [Purchasing analytics overview](purchasing-analytics-overview.md) |
+| Do ad-hoc analysis of purchase data directly on list pages and queries. | [Ad-hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md) |
+| Explore built-in purchase reports. | [Built-in purchasing reports](purchase-reports.md) |
+
+## Quote to order to purchase invoice
+
+The following table describes how to use simple purchase processes.
 
 | To | See |
 | --- | --- |
-| Create a purchase invoice to record your agreement with a vendor to purchase products on certain delivery and payment terms. |[Record Purchases](purchasing-how-record-purchases.md) |
 |Create a purchase quote to reflect a request for quote from your vendor, which you can later convert to a purchase order.|[Request Quotes](purchasing-how-request-quotes.md)|
 | Create a purchase invoice for all or selected lines on a sales invoice. |[Purchase Items for a Sale](purchasing-how-purchase-products-sale.md) |
+| Create a purchase invoice to record your agreement with a vendor to purchase products on certain delivery and payment terms. |[Record Purchases](purchasing-how-record-purchases.md) |
+| Learn how [!INCLUDE[prod_short](includes/prod_short.md)] calculates when you must order an item to receive it on a certain date.|[Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)|
 |Understand what happens when you post purchase documents.|[Posting Purchases](ui-post-purchases.md)|
+
+If you need more complex purchase processes, the following table lists articles that explain what you can do with [!INCLUDE[prod_short](includes/prod_short.md)].
+
+| To | See |
+| --- | --- |
 | Perform an action on an unpaid posted purchase invoice to automatically create a credit memo and either cancel the purchase invoice or recreate it so you can make corrections. |[Correct or Cancel Unpaid Sales Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md) |
 | Create a purchase credit memo to revert a specific posted purchase invoice to reflect which products you're returning to the vendor and which payment amount you'll collect. |[Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md) |
-|Prepare to invoice multiple receipts from the same vendor once by combining the receipts on one invoice.|[Combine Receipts on a Single Invoice](purchasing-how-to-combine-receipts.md)|
-|Convert, for example, electronic invoices from your vendors to purchase invoices inside Business Central.|[Receive and Convert Electronic Documents](purchasing-how-to-receive-and-convert-electronic-documents.md)|
-| Learn how [!INCLUDE[prod_short](includes/prod_short.md)] calculates when you must order an item to receive it on a certain date.|[Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)|
-|Resolve confusion when two or more records exist for the same vendor.|[Merge Duplicate Records](sales-how-merge-duplicate-records.md)|
 |Manage your commitment to a vendor to purchase large quantities delivered in several shipments over time.|[Work With Blanket Purchase Orders](sales-how-to-create-blanket-sales-orders.md)|
 
-## <a name="external-document-numbers"></a>External document numbers
+
+## Cancelled orders, refunds, and returns
+
+The following table describes how to deal with cancelled orders, refunds, and returns of goods that you purchase.
+
+| To | See |
+| --- | --- |
+|Prepare to invoice multiple receipts from the same vendor once by combining the receipts on one invoice.|[Combine Receipts on a Single Invoice](purchasing-how-to-combine-receipts.md)|
+|Convert, for example, electronic invoices from your vendors to purchase invoices inside Business Central.|[Receive and Convert Electronic Documents](purchasing-how-to-receive-and-convert-electronic-documents.md)|
+
+
+## Other processes in sales
+
+The following table describes how to deal with other purchase processes.
+
+| To | See |
+| --- | --- |
+|Resolve confusion when two or more records exist for the same vendor.|[Merge Duplicate Records](sales-how-merge-duplicate-records.md)|
+
+
+## External document numbers
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="see-also"></a>See also
+## See also
 
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  
 [Register New Vendors](purchasing-how-register-new-vendors.md)  
+[Purchasing analytics overview](purchasing-analytics-overview.md)   
 [Managing Payables](payables-manage-payables.md)  
-[Managing Projects](projects-manage-projects.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)
 

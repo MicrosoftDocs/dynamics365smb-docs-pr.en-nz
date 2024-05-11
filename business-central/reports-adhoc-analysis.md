@@ -21,6 +21,13 @@ Sometimes you need to analyse data in [!INCLUDE[prod_short](includes/prod_short.
 | View and analyse data from a report dataset in Excel | [Analysing Report Data with Excel and XML](report-analyze-excel.md) |
 | Analyse list data directly from a page |[Analyse list data using data analysis mode](analysis-mode.md)|
 
+## Ad-hoc data analysis by functional area
+
+The general content about ad-hoc data analysis is also available in special versions for many of the functional areas in [!INCLUDE[prod_short](includes/prod_short.md)]. 
+
+[!INCLUDE[ad-hoc-analysis-scenarios-table](includes/ad-hoc-analysis-scenarios-table.md)]
+
+
 ## See also
 
 [Business Intelligence and Reporting Overview](ui-work-report.md)

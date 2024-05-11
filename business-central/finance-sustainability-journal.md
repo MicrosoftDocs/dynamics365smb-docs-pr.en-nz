@@ -11,30 +11,30 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="record-sustainability-entries"></a>How to record sustainability entries
+# How to record sustainability entries  
 
 In this moment, the only way for recording GHG emissions to the **Sustainability Ledger** is using the **Sustainability Journals**.   
 
-## <a name="sustainability-journals"></a>Sustainability journal
+## Sustainability journal  
 
 **Sustainability Journals** are designed to track and record sustainability-related activities using the same user experience as other journals in Business Central. Within the journal, users have the option to input emissions manually if they possess the necessary information. Alternatively, if they lack this data, they can utilise built-in formulas to accurately calculate emissions based on specific known parameters corresponding to various types of sources and accounts. 
 
 The information that you enter in a journal is temporary and can be changed while it's in the journal. When you post the journal, the information is transferred to **Sustainability Ledger Entries** on individual **Sustainability Accounts**, where it can't be changed. You can, however, post reversing or correcting entries.  
 
-### <a name="use-journal-templates-and-batches"></a>Use journal templates and batches
+### Use journal templates and batches 
 
 There are two **Sustainability Journal Templates** by default, the standard and recurring one. For each journal template, you can set up your own personal journal as a journal batch. To do so, you need to choose the **Batches** action on the **Sustainability Journal Templates** page and create the new **Sustainability Journal Batch** on the new page. For example, you can define your own journal batch for each emission scope, using the **Emission Scope** option where you can choose between three existing scopes. You can also add or change the **Source Code** and **Reason Code** for each of the batches. 
 
 >[!TIP]
 >You can have one journal batch for each of emission types, if you have many lines as it can reduce the chance for making mistakes, but you can also use the common batch for all types of emissions.   
 
-### <a name="validate-sustainability-journals"></a>Validating sustainability journals
+### Validating sustainability journals 
 
 You can turn on a background check on the **Sustainability Setup** page that will help prevent delays when posting. The check will notify you when there's a mistake while working in the **Sustainability Journal**, and this will prevent you from posting the journal.  
 
 When you enable the validation, the **Journal Check** FactBox will show issues in the current line, and in the whole batch. Validation happens when you load a journal batch, and when you choose another journal line. The **Issues Total** tile in the FactBox shows the total number of issues that [!INCLUDE [prod_short](includes/prod_short.md)] found, and you can choose it to open an overview of the issues. 
 
-### <a name="work-with-sustainability-journals"></a>Work with sustainability journals
+### Work with sustainability journals 
 
 To start working with the **Sustainability Journals**, follow the steps:   
 
@@ -55,7 +55,7 @@ To start working with the **Sustainability Journals**, follow the steps:
 
 In the case your formula is based on the **Calculate from General Ledger** option in the **Sustainability Account Category**, you must use the **Collect Amount from G/L Entries** action before posting the journal to calculate emissions based on this data source. Also, if you'd made some changes in the emission factors after populating the journal lines, you must choose the **Recalculate** action to get the proper amount in the journal.  
 
-### <a name="recurring-journals"></a>Recurring journals
+### Recurring journals 
 
 A recurring journal is a **Sustainability Journal** with specific fields for managing transactions that you often post with few, or if any, changes. For example, sustainability transactions such as electricity, heat, or other similar transactions. Using recurring journals, lets you post fixed and variable amounts. With a recurring journal, you create entries that will be posted regularly only one time. For example, the accounts, dimensions, dimension values, and so on, stay in the journal after posting. If changes are needed, you can make them each time you post. 
 
@@ -65,7 +65,7 @@ You also need to configure the **Recurring Frequency** field, as this date formu
 
 The **Expiration Date** field determines the date on which the line will be posted for the last time. The line won't be posted after this date. The advantage of using the **Expiration Date** field is that the line won't be deleted from the journal immediately. You can enter a later date so that you can use the line in the future. If the field is blank, the line will be posted every time until it's deleted from the journal.  
 
-## <a name="see-also"></a>See also
+## See also  
 [Finance](finance.md)    
 [Sustainability management overview](finance-manage-sustainability.md)   
 [Sustainability Setup](finance-sustainability-setup.md)   

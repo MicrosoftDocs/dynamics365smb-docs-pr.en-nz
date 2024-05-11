@@ -7,12 +7,12 @@ ms.reviewer: bnielse
 ms.topic: conceptual
 ms.search.keywords: 'accounting, auditing, bookkeeping'
 ms.search.form: '1151, 1166, 9027, 9004'
-ms.date: 02/01/2024
+ms.date: 05/01/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="financial-management"></a>Financial Management
+# Financial Management
 
 [!INCLUDE[prod_short](includes/prod_short.md)] includes a standard configuration for most financial processes, but you can change it to suit your business needs. Learn more at [Setting Up Finance](finance-setup-finance.md).
 
@@ -20,13 +20,13 @@ The default configuration includes a chart of accounts and standard posting grou
 
 The following sections describe a sequence of tasks, with links to the topics that describe them.  
 
-## <a name="take-a-video-tour"></a>Take a video tour
+## Take a video tour
 
 This video introduces some of the key capabilities for managing finances. <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
-## <a name="get-started-with-finance-capabilities"></a>Get started with finance capabilities
+## Get started with finance capabilities
 
 Before you can begin to run your business, you must specify how you want to manage your company's financial processes.
 
@@ -35,7 +35,7 @@ Before you can begin to run your business, you must specify how you want to mana
 | Change the standard configuration of [!INCLUDE[prod_short](includes/prod_short.md)] for most financial processes to suit your business needs. | [Setting Up Finance](finance-setup-finance.md) | 
 | Learn about the general ledger and the chart of accounts (COA). |[Understanding the General Ledger and the COA](finance-general-ledger.md) |
 
-## <a name="accounting"></a>Accounting
+## Accounting
 
 This section describes some of the accounting tools that you use to register financial transactions so that they meet your registration, reporting, and managerial finance requirements.
 
@@ -49,7 +49,25 @@ This section describes some of the accounting tools that you use to register fin
 | Learn about the available options to automate sending subscription invoices to customers and register recurring revenue. |[Work with Recurring Revenue](finance-recurring-invoicing.md)|
 |Post employee expenses for work-related activities and make reimbursements directly to employee bank accounts.|[Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)|
 
-## <a name="vat-and-taxes"></a>GST and taxes
+## Financial analytics
+
+This section describes analytical tools you can use to get insights into your financial data.
+
+| To... | See |
+| --- | --- |
+| Learn about capabilities for analysing finance data. | [Financial analytics overview](bi.md) |
+| Set up financial reporting across business units or legal entities. | [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md) |
+| Set up and use financial reporting to produce statements and overviews. | [Prepare financial reporting](bi-how-work-account-schedule.md) |
+| Perform ad-hoc analysis of financial data directly on list pages and queries. | [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md) |
+| Analyse financial data from your chart of accounts. | [Analyse finance data from the chart of accounts](finance-general-ledger.md) |
+| Analyse actual amounts versus budgeted amounts. | [Analyse actual amounts versus budgeted amounts](bi-how-analyze-actual-versus-budget.md) |
+| Analyse cash flow. | [Analyse cash flow](finance-analyze-cash-flow.md) |
+| Explore built-in key financial reports. | [Built-in key finance reports](finance-reports.md) |
+| Explore built-in key fixed assets reports. | [Built-in fixed assets reports](fa-reports.md) |
+| Explore built-in key accounts receivable reports. | [Built-in accounts receivable reports](receivables-reports.md)
+| Explore built-in accounts payable reports. | [Built-in accounts payable reports](payables-reports.md)
+
+## GST and taxes
 
 Working with GST in [!INCLUDE[prod_short](includes/prod_short.md)] is easy, and you can either use a manual or an automatic setup. These articles provide information about how to meet your country/region-specific regulations.
 
@@ -59,7 +77,7 @@ Working with GST in [!INCLUDE[prod_short](includes/prod_short.md)] is easy, and 
 |Prepare a report that lists GST from sales, and submit the report to tax authorities in the European Union (EU). | [Report GST to Tax Authorities](finance-how-report-vat.md)|
 |Manually convert service contracts to change their GST rate.|[Convert Service Contracts that Include VAT Amounts](service-how-to-convert-service-contracts.md)|
 
-## <a name="manage-receivables-and-payables"></a>Manage receivables and payables
+## Manage receivables and payables
 
 The core of finance is centered around managing receivables and payables, registering transactions, reconciling banks accounts, paying vendors, receiving customer payments, reimbursing employees for expenses, and so on. This section provides links to the core concepts.
 
@@ -70,7 +88,7 @@ The core of finance is centered around managing receivables and payables, regist
 |Ask your customers to submit payment before you ship to them, or submit payment to your vendors before they ship to you.|[Invoicing Prepayments](finance-invoice-prepayments.md)|
 | Reconcile and transfer funds between bank accounts. |[Reconciling Bank Accounts](bank-manage-bank-accounts.md) |
 
-## <a name="manage-multiple-companies"></a>Manage multiple companies
+## Manage multiple companies
 
 [!INCLUDE [prod_short](includes/prod_short.md)] gives small and mid-sized businesses a business management solution that's easy-to-use and maintain at a low cost of ownership.
 
@@ -80,7 +98,7 @@ The core of finance is centered around managing receivables and payables, regist
 |Combine general ledger entries from multiple companies in one virtual consolidated company for financial analysis.|[Consolidating Financial Data from Multiple Companies](finance-consolidated-company-reporting.md)|
 | Work more closely with related companies that you have access to and to get information about key point of interest (KPI) data. | [Manage Work across Multiple Companies in the Company Hub](company-hub.md)|
 
-## <a name="period-end-reporting-and-related-tasks"></a>Period-end reporting and related tasks
+## Period-end reporting and related tasks
 
 At the end of each accounting period or at the end of the fiscal year, there are a number of administrative tasks to do. For example, you'll probably want to make sure all documents and journals are posted, ensure currency data is up to date, close the books, and so on. The actual tasks will depend your company.
 
@@ -90,7 +108,7 @@ At the end of each accounting period or at the end of the fiscal year, there are
 | Import salary transactions from your payroll provider into the general ledger. |[Import Payroll Transactions](finance-how-import-payroll-transactions.md)|
 |Learn how to use the Accountant Role Centre, engage an external accountant, and use the Company Hub to manage accounts of multiple clients.|[Accountant Experiences in Business Central](finance-accounting.md)| 
 
-## <a name="managerial-accounting"></a>Managerial accounting
+## Managerial accounting
 
 As a business manager or controller, it's important that you can prepare and analyse the business data you need to make informed decisions. The articles in the following table help you prepare data. To learn more about analytics, go to [Business Intelligence and Reporting Overview](reports-bi-reporting.md).
 
@@ -101,13 +119,13 @@ As a business manager or controller, it's important that you can prepare and ana
 |Follow an end-to-end process describing how to use financial reports to make cash flow forecasts.|[Walkthrough: Making Cash Flow Forecasts by Using Financial Reports](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
 | Work with financial statements and overviews in Microsoft Excel. |[Analyzing Financial Statements in Excel](finance-analyze-excel.md) |
 
-## <a name="free-e-learning-modules"></a>Free e-learning modules
+## Free e-learning modules
 
 Want to learn more about [!INCLUDE[prod_short](includes/prod_short.md)] on your own pace? 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
 
-## <a name="see-also"></a>See also
+## See also
 
 [Setting Up Finance](finance-setup-finance.md)  
 [Working with the Sales module](sales-manage-sales.md)  

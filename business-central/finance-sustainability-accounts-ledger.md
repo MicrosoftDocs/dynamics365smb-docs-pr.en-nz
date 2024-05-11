@@ -11,9 +11,9 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="chart-of-sustainability-accounts-and-ledger"></a>Chart of sustainability accounts and ledger
+# Chart of sustainability accounts and ledger 
 
-## <a name="chart-of-sustainability-accounts"></a>Chart of sustainability accounts
+## Chart of sustainability accounts  
 
 The **Chart of Sustainability Accounts** (CoSA) forms the foundational structured list used for recording all emissions data. It functions as a framework that categorises and organises sustainability accounts based on their attributes, such as scope or other groupings. Each account is typically assigned a unique code or number for easy reference and tracking, following the same structure as a traditional **Chart of Accounts** but customised specifically for monitoring sustainability-related data and metrics within an organisation. 
  
@@ -35,7 +35,7 @@ From the **Chart of Sustainability Accounts** (CoSA), you can do things like:
     
 You can add, change, or delete **Sustainability Accounts**. However, to prevent discrepancies, you can't delete a **Sustainability Account** if there are one or more ledger entries associated with this account.  
 
-### <a name="add-or-change-accounts"></a>Add or change accounts
+### Add or change accounts  
 
 1. Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Sustainability Accounts**, and then select the related link. 
 2. On the **Chart of Sustainability Accounts** (CoSA) page, you can open each **Sustainability Account**, and then add or change settings. Hover over a field to read a short description. 
@@ -45,11 +45,11 @@ For accounts of the **Total** account type, you must fill in the **Totalling** f
 >[!IMPORTANT]
 >If you have entered definitions in the **Totalling** fields for **End-Total** accounts before executing the indent function, you must enter them again because the function overwrites the values in all **End-Total** fields.  
 
-### <a name="delete-accounts"></a>Delete accounts
+### Delete accounts  
 
 You can delete a **Sustainability Account**. However, before you delete it, you must be sure that there are one or more ledger entries associated with this account, as Business Central will prevent you from deleting a **Sustainability Account** in this situation.  
 
-## <a name="account-categories"></a>Account categories
+## Account categories   
 
 Users need to add the **Sustainability Account Category** to each of **Sustainability Accounts**, to define how the system behaves, selecting emission scopes, dedicated emissions for tracking, formulas, and similar configurations.  
 
@@ -89,7 +89,7 @@ If you use the **Calculation Foundation** (formulas), there's an explanation, ho
 |  | Custom | Emission = Custom Amount * EF | _i.e., Custom Amount = Hotel stays..._ |
 |  | Fuel/Electricity | Emission = Fuel * EF | _i.e., Fuel = Amount of fuel spent in the company car, rental car..._ |
 
-## <a name="account-subcategories"></a>Account subcategories
+## Account subcategories  
 
 Users need to add the **Sustainability Account Subcategory** to each of **Sustainability Accounts** to define emission factors that will be used in the formulas, but it's based on the emission tracking choice in the **Sustainability Account Category**.  
 
@@ -109,7 +109,7 @@ To review **Sustainability Account Subcategories**, follow the steps:
 >[!NOTE]
 >**Import Data** and **Import From** fields are intended for potential integration with external systems that are used for collecting emission factors, but in **2024 release wave 1** they cannot be used as a feature by default.  
 
-## <a name="sustainability-ledger-entries"></a>Sustainability Ledger Entries
+## Sustainability Ledger Entries  
 
 **Sustainability Ledger** stores the history of all posted sustainability transactions, organising all emission data according to the **Chart of Sustainability Accounts**. When a user posts the **Sustainability Journal**, all crucial data will be recorded there. All active reports are generated based on the **Sustainability Ledger Entries**.   
 
@@ -118,7 +118,7 @@ User can open this ledger for one specific account using the **Ledger Entries** 
 >[!IMPORTANT]
 >Once you post your data into the Sustainability Ledger, you cannot delete them. In case you made a mistake, you can post the reverse trasaction using the same details, but using the negative sign for amount.  
 
-## <a name="see-also"></a>See also
+## See also  
 [Finance](finance.md)    
 [Sustainability management overview](finance-manage-sustainability.md)
 [Sustainability Setup](finance-sustainability-setup.md)

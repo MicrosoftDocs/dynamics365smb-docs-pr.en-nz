@@ -1,6 +1,6 @@
 ---
-title: Financial Analytics in Business Central
-description: 'Business Central contains many features to help you gather, analyse, and share valuable company data for business intelligence and decision-making.'
+title: Financial analytics
+description: 'Business Central helps you gather, analyse, and share company data for business intelligence.'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: kepontop
@@ -12,9 +12,9 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="financial-analytics"></a>Financial Analytics in Business Central
+# Financial analytics
 
-Businesses capture a tremendous amount of data during daily activities that's supports valuable business intelligence (BI) for decision makers: 
+Businesses capture a tremendous amount of data during daily activities that's supports valuable business intelligence (BI) for decision makers:
 
 - Sales figures
 - Purchases
@@ -33,7 +33,7 @@ Each of these features has its own advantages and disadvantages, depending on th
 
 This article introduces you can use these analytical features to provide financial insights.
 
-## <a name="analytics-needs-in-finance"></a>Analytics needs in finance
+## Analytics needs in finance
 
 When thinking of analytics needs in finance, it might help to use a mental model based on personas described on a high-level and their different analytics needs.
 
@@ -49,7 +49,7 @@ People in different roles have different needs when it comes to data, and they u
 |Finance Management | Trends, summaries | Built-in managerial reports <br> Ad-hoc analysis      | 
 |Bookkeeper         | Detailed data     | Built-in operational reports <br> On-screen task data |
 
-## <a name="finance-kpis"></a>Finance KPIs
+## Finance KPIs
 
 A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In finance, people often use the following KPIs to monitor their organisation's financial health:
 
@@ -67,11 +67,11 @@ A key performance indicator (KPI) is a measurable value that shows how effective
 For more information, see [Financial KPIs in Business Central](bi-finance-kpis.md) 
 -->
 
-## <a name="using-financial-reporting-to-produce-financial-statements-and-kpis"></a>Using financial reporting to produce financial statements and KPIs
+## Using financial reporting to produce financial statements and KPIs
 
 The **Financial Reports** feature gives you insights into the financial data shown on your chart of accounts (COA). You can set up financial reports to analyse figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. The results display in charts and reports on your home page, such as the Cash Flow chart, and the Income Statement and Balance Sheet reports.
 
-Dimensions play an important role in business intelligence. A dimension is data that you can add to an entry as a parameter. Dimensions let you group entries that have similar characteristics, such as customers, regions, products, and salesperson, and easily retrieve these groups for analysis. Among other purposes, you use dimensions when you define analysis views and create financial reports. Learn more at [Work with Dimensions](finance-dimensions.md).
+Dimensions play an important role in business intelligence. A dimension is data that you can add to an entry as a parameter. Dimensions let you group entries that have similar characteristics so they're easier to analyse. For example, customers, regions, products, and salespersons. Among other purposes, use dimensions when you define analysis views and create financial reports. Learn more at [Work with Dimensions](finance-dimensions.md).
 
 > [!TIP]
 > As a quick way to analyse transactional data, you can filter totals in the chart of accounts and all entries in **Entries** pages by dimensions. Look for the **Set Dimension Filter** action.  
@@ -81,19 +81,19 @@ The following table describes a sequence of tasks in financial reporting, with l
 | To | See |
 | --- | --- |
 | Create new financial reports to define financial statements for reporting or to display as charts.| [Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md)|
-| Use statistical accounts to supplement information in financial reports. Statistical accounts let you add metrics that are based on non-transactional data. You can add the non-transactional data as number-based units, such as employee headcount, square footage, or number of customers with overdue accounts. | [Analyse data with statistical accounts](bi-use-statistical-accounts.md) |
-| Learn how to setup a new financial report through examples. | [Walkthrough: Use financial reporting to make a cash flow forecasts](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md) |
+| Use statistical accounts to supplement information in financial reports. Statistical accounts let you add metrics that are based on nontransactional data. You can add the nontransactional data as number-based units, such as employee headcount, square footage, or number of customers with overdue accounts. | [Analyse data with statistical accounts](bi-use-statistical-accounts.md) |
+| Learn how to set up a new financial report through examples. | [Walkthrough: Use financial reporting to make a cash flow forecasts](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md) |
 | Analyse your financial performance by setting up key performance indicators (KPIs) based on financial reports, which you then publish as web services. The published financial reports KPIs can be viewed on a web site or imported to Microsoft Excel using OData web services. |[Set Up and Publish KPI Web Services Based on Financial Reports](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md) |
 | Set up views to analyse data using dimensions.|[Analyse Data by Dimensions](bi-how-analyze-data-dimension.md)|
 | Create new analysis reports for sales, purchases, and inventory, and set up analysis templates. |[Create Analysis Reports](bi-how-create-analysis-views-reports.md)|
 
-## <a name="finance-reporting-across-business-units-or-legal-entities"></a>Finance reporting across business units or legal entities
+## Finance reporting across business units or legal entities
 
 Some organisations use [!INCLUDE [prod_short](includes/prod_short.md)] in multiple business units or legal entities. Others use [!INCLUDE [prod_short](includes/prod_short.md)] in subsidiaries that must report into parent organisations. [!INCLUDE [prod_short](includes/prod_short.md)] gives accountants tools that help them transfer general ledger entries from two or more companies (subsidiaries) into a consolidated company.  
 
 To learn more, go to [Company consolidation](finance-consolidated-company-reporting.md).
 
-## <a name="ad-hoc-analysis-of-finance-data"></a>Ad-hoc analysis of finance data
+## Ad-hoc analysis of finance data
 
 Sometimes, you just need to check whether the numbers add up correctly, or quickly confirm a figure. The following features are great for ad-hoc analyses:
 
@@ -111,14 +111,14 @@ Similarly, you can use the **Open in Excel** action to open a list page for ledg
 > [!TIP]
 > If you configure OneDrive for system features, the Excel workbook opens in your browser by using Excel for the web. 
 
-<!-- Not ready yet
-For more information on how to do ad-hoc analysis on ledgers, see [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md). 
--->
-## <a name="built-in-reports-for-finance"></a>Built-in reports for finance
+
+For more information on how to do ad-hoc analysis on ledgers, see [Ad hoc analysis on finance data](ad-hoc-analysis-finance.md). 
+
+## Built-in reports for finance
 
 [!INCLUDE [prod_short](includes/prod_short.md)] includes several built-in reports, tracing functions, and tools to help auditors or controllers who are responsible for reporting to the finance department.
 
-To get an overview of available reports, you can click **All reports** on the top pane of your home page. This takes you to the Role explorer, which is filtered to the features in the **Report & Analysis** option. To learn more, go to [Finding Reports with the Role Explorer](ui-role-explorer.md).
+To get an overview of available reports, you can choose **All reports** on the top pane of your home page. This action opens the Role Explorer, which is filtered to the features in the **Report & Analysis** option. To learn more, go to [Finding Reports with the Role Explorer](ui-role-explorer.md).
 
 :::image type="content" source="media/report-explorer-finance.png" alt-text="Example of reports on the finance role centre." lightbox="media/report-explorer-finance.png":::
 
@@ -141,13 +141,13 @@ For more information, see these overviews for reports that are relevant for fina
 * [Built-in Tax and VAT reports](tax-and-vat-reports.md) 
 -->
 
-## <a name="on-screen-finance-task-pages"></a>On-screen finance task pages
+## On-screen finance task pages
 
-[!INCLUDE [prod_short](includes/prod_short.md)] has a number of pages that give you financial overviews and tasks to do.
+[!INCLUDE [prod_short](includes/prod_short.md)] has several pages that give you financial overviews and tasks to do.
 
-### <a name="show-general-ledger-entries-and-balances-from-the-chart-of-accounts-page"></a>Show general ledger entries and balances from the Chart of Accounts page
+### Show general ledger entries and balances from the Chart of Accounts page
 
-The Chart of Accounts page shows all general ledger accounts with aggregated numbers on what's posted to the general ledger. From this page, you can do things like:  
+The Chart of Accounts page shows all general ledger accounts with aggregated numbers posted to the general ledger. From this page, you can do things like:  
 
 - View reports that show general ledger entries and balances.  
 - Review a list of posting groups for that account.
@@ -157,13 +157,13 @@ The Chart of Accounts page shows all general ledger accounts with aggregated num
 
 To learn more, go to [Understand the Chart of Accounts](finance-general-ledger.md#the-chart-of-accounts).
 
-### <a name="view-actual-amounts-compared-to-budgeted-amounts-for-all-accounts-and-for-several-periods"></a>View actual amounts compared to budgeted amounts for all accounts and for several periods
+### View actual amounts compared to budgeted amounts for all accounts and for several periods
 
-As a part of gathering, analysing, and sharing your company data, you might want to view actual amounts compared to budgeted amounts for all accounts and for several periods. You can do this from the **Chart of Accounts** page, by choosing the **G/L Balance/Budget** action.
+As a part of gathering, analysing, and sharing your company data, you might want to view actual amounts compared to budgeted amounts for all accounts and for several periods. You can make this comparison from the **Chart of Accounts** page, by choosing the **G/L Balance/Budget** action.
 
 To learn more, go to [Analyse Actual Amounts Versus Budgeted Amounts](bi-how-analyze-actual-versus-budget.md).
 
-### <a name="analyze-data-by-dimensions"></a>Analyse data by dimensions
+### Analyse data by dimensions
 
 Dimensions are values that categorise entries so you can track and analyse them on documents, such as sales orders. Dimensions can, for example, indicate the project or department an entry came from.  
 
@@ -171,7 +171,7 @@ So, instead of setting up separate general ledger accounts for each department a
 
 In financial analysis, a dimension is data you add to a G/L entry as a kind of marker. This data is used to group G/L entries with similar characteristics, such as customers, regions, products, and salesperson, and easily retrieve these groups for analysis. You can use dimensions on entries in journals, documents, and budgets. For more information, see [Analyse Data by Dimensions](bi-how-analyze-data-dimension.md)
 
-### <a name="analyzing-cash-flow"></a>Analysing cash flow
+### Analysing cash flow
 
 On the Accountant home page, under **Finance Performance**, the Cash Cycle, Cash Flow, and Income & Expense charts offer ways to analyse cash flow:
 
@@ -189,12 +189,12 @@ To examine the forecast, in addition to forecast entries, you can also look at t
 
 To learn more, go to [Analysing Cash Flow in Your Company](finance-analyze-cash-flow.md).
 
-## <a name="see-also"></a>See also
+## See also
 
 [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)  
 <!-- [Financial KPIs in Business Central](bi-finance-kpis.md)    -->
 [Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md)  
-<!-- [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md)   -->
+[Ad hoc analysis on finance data](ad-hoc-analysis-finance.md)   
 [Understand the Chart of Accounts](finance-general-ledger.md#the-chart-of-accounts)  
 [Built-in finance Excel reports](finance-analyze-excel.md)  
 [Built-in key finance reports](finance-reports.md)  
