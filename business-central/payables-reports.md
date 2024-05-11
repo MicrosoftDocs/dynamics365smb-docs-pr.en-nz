@@ -10,19 +10,19 @@ ms.search.form: '347, Report_301, Report_304, Report_305, Report_312, Report_317
 ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ---
-# Accounts payable reports and analytics
+# <a name="accounts-payable-reports-and-analytics"></a>Accounts payable reports and analytics
 
 [!INCLUDE [prod_short](includes/prod_short.md)] has built-in reports and analytics that can help you manage your accounts payable. The tools go  beyond traditional reporting constraints, and make it easy to design various types of reports.  
 
-## Reports
+## <a name="reports"></a>Reports
 
 [!INCLUDE [payables_reports](includes/payables-reports-include.md)]
 
-## Explore finance reports with Report Explorer
+## <a name="explore-finance-reports-with-report-explorer"></a>Explore finance reports with Report Explorer
 
 [!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
 
-## See also
+## <a name="see-also"></a>See also
 
 [Ad hoc analysis on finance data](ad-hoc-analysis-finance.md)  
 [Financial analytics](bi.md)  

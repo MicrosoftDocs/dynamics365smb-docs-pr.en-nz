@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Ad-hoc analysis of finance data
+# <a name="ad-hoc-analysis-of-finance-data"></a>Ad-hoc analysis of finance data
 
 This article explains how to use the **Data Analysis** feature to analyse finance data directly from list pages and queries. You don't have to run a report or switch to another application, such as Excel. The feature provides an interactive and versatile way to calculate, summarise, and examine data. Instead of running reports using options and filters, you can add multiple tabs that represent different tasks or views on the data. Some examples are "Total assets over time", "Accounts Receivable", "Accounts Payable," or any other view you can imagine. To learn more about how to use the **Data Analysis** feature, go to [Analyse list and query data with analysis mode](analysis-mode.md).
 
@@ -22,7 +22,7 @@ Use the following list pages to start doing ad-hoc analysis of finance processes
 - [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25)
 - [Vendor Ledger Entries](https://businesscentral.dynamics.com/?page=29)
 
-## Finance ad-hoc analysis scenarios
+## <a name="finance-ad-hoc-analysis-scenarios"></a>Finance ad-hoc analysis scenarios
 
 Use the **Data Analysis** feature for quick fact checking and ad-hoc analysis:
 
@@ -39,7 +39,7 @@ The following sections provide examples of finance scenarios in [!INCLUDE [prod_
 | [Finance (Income statement)](#example-finance-income-statement) | See your income over the income accounts from the chart of accounts, for example, broken down into time intervals for when amounts were posted. | [General Ledger Entries](https://businesscentral.dynamics.com/?page=20) | **G/L Account No.**, **Posting Date**, and **Amount**. |
 | [Finance (total assets)](#example-finance-total-assets) | See your assets over the asset accounts from the chart of account, for example, broken down into time intervals for when amounts were posted. | [General Ledger Entries](https://businesscentral.dynamics.com/?page=20) | **G/L Account No.**, **Posting Date**, and **Amount**. |
 
-### Example: Finance (Accounts Receivables)
+### <a name="example-finance-accounts-receivables"></a>Example: Finance (Accounts Receivables)
 
 To see what your customers owe you, maybe broken down into time intervals for when amounts are due, follow these steps:
 
@@ -51,7 +51,7 @@ To see what your customers owe you, maybe broken down into time intervals for wh
 1. To do the analysis for a given year or quarter, apply a filter in the **Analysis Filters** menu (located below the **Columns** menu on the right).
 1. Rename your analysis tab to **Aged Accounts by Month**, or something that describes this analysis.
 
-### Example: Finance (Accounts Payable)
+### <a name="example-finance-accounts-payable"></a>Example: Finance (Accounts Payable)
 
 To see what you owe your vendors, maybe broken down into time intervals for when amounts are due, follow these steps:
 
@@ -67,7 +67,7 @@ The following image shows the result of these steps.
 
 :::image type="content" source="media/data-analysis-vendor-ledger-entries.png" alt-text="Example of how to do data analysis on the Customer Ledger Entries page." lightbox="media/data-analysis-vendor-ledger-entries.png":::
 
-### Example: Finance (Income statement)
+### <a name="example-finance-income-statement"></a>Example: Finance (Income statement)
 
 To see your income over the income accounts from the chart of account, broken down into time intervals for when amounts were posted, follow these steps:
 
@@ -83,7 +83,7 @@ To see your income over the income accounts from the chart of account, broken do
 
 1. Rename your analysis tab to **Income by Month**, or something that describes this analysis.
 
-### Example: Finance (total assets)
+### <a name="example-finance-total-assets"></a>Example: Finance (total assets)
 
 To see your assets over the asset accounts from the chart of account, broken down into time intervals for when amounts were posted, do as follows:
 
@@ -99,7 +99,7 @@ To see your assets over the asset accounts from the chart of account, broken dow
 
 1. Rename your analysis tab to **Income by Month**, or something that describes this analysis.
 
-## Data foundation for ad-hoc analysis on finance
+## <a name="data-foundation-for-ad-hoc-analysis-on-finance"></a>Data foundation for ad-hoc analysis on finance
 
 When you post journals, [!INCLUDE [prod_short](includes/prod_short.md)] creates entries in the **G/L Entry** table. Therefore, ad-hoc analysis on general finance is typically done on the [General Ledger Entries](https://businesscentral.dynamics.com/?page=20) page. For accounts receivable and payable, you can analyse [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25) and [Vendor Ledger Entries](https://businesscentral.dynamics.com/?page=29), respectively.
 
@@ -108,7 +108,7 @@ To learn more, go to the following articles:
 - [Data foundation for ad-hoc analysis on sales](ad-hoc-analysis-sales.md#data-foundation-for-ad-hoc-analysis-on-sales)
 - [Data foundation for ad-hoc analysis on purchasing](ad-hoc-analysis-purchasing.md#data-foundation-for-ad-hoc-analysis-on-purchasing)
 
-## See also
+## <a name="see-also"></a>See also
 
 [Analyse list and query data with analysis mode](analysis-mode.md)  
 [Financial analytics overview](bi.md)  

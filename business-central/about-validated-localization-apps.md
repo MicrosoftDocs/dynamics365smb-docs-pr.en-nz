@@ -10,11 +10,11 @@ ms.author: altotovi
 ---
 
 
-# Development of validated localisation apps
+# <a name="development-of-validated-localization-apps"></a>Development of validated localisation apps
 
 This article describes the requirements and guidelines for developing a Validated Localisation app for [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## What is a Validated Localisation app?
+## <a name="what-is-a-validated-localization-app"></a>What is a Validated Localisation app?
 
 [!INCLUDE[prod_short](includes/prod_short.md)] is available [globally in 170+ markets](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json). In a set of markets Microsoft works with ISV partners to localise [!INCLUDE[prod_short](includes/prod_short.md)] through localisation apps available on [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=2081646). For those regions, localisations can be available through preferred localisation app programme. Preferred Localisation apps programme recognises those apps, which are built according to Microsoft specific quality guidelines. ISV partners who comply with those programme requirements and guidelines can benefit technically and commercially to serve their resellers and customers.  
 
@@ -36,7 +36,7 @@ Apps in the validated localisation pilot programme contain a set of functionalit
 > [!NOTE]
 > Local functionality is beneficial to the productivity business processes in a country and thereby adding value to business but aren't required from a regulatory perspective, such as specific banking and payment formats, expense reports, HR features, payroll, and similar smaller or bigger, and nice-to-have features should be isolated into other apps. If apps contain these functionalities, they aren't approved as Validated Localisation apps.   
 
-## Validated Localisation app business requirements  
+## <a name="validated-localization-app-business-requirements"></a>Validated Localisation app business requirements
 
 - The Validated Localisation app provider complies with all requirements to be a CSP indirect provider.  
 - The Validated Localisation app provider brings to market a min. of offerings across five countries/regions, which bundle Dynamics 365 Business Central with a Validated Localisation app. 
@@ -49,9 +49,9 @@ Apps in the validated localisation pilot programme contain a set of functionalit
 - Validated Localisation apps are made available to all customers and partners who want to benefit from it.  
 - The Validated Localisation App provider engages in recurring workstreams with Microsoft.
 
-## Validated Localisation app functional and technical requirements  
+## <a name="validated-localization-app-functional-and-technical-requirements"></a>Validated Localisation app functional and technical requirements
 
-### Functionality requirements   
+### <a name="functionality-requirements"></a>Functionality requirements
 
 Apart from fulfilling the technical requirements for the preferred localisation app, the minimum viable product scope for preferred localisation app is:  
 
@@ -80,7 +80,7 @@ Apart from fulfilling the technical requirements for the preferred localisation 
 - Prepare setup guides (wizards) for areas that are complex to set up to help users enable, discover, and have good first experience using your localisation app.  
 - Partners must provide functional documentation for all aspects of their localisation.  
 
-### Technical requirements  
+### <a name="technical-requirements"></a>Technical requirements
 
 In the following, you find a list of requirements that you must meet before submitting the Validated Localisation app as an extension for validation. This list doesn’t change the [technical validation list](/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission) and only extends requirements from there.  
 
@@ -99,7 +99,7 @@ In the following, you find a list of requirements that you must meet before subm
 > [!NOTE]  
 > You can also create an integration if you find it beneficial to have some functionality placed outside the [!INCLUDE[prod_short](includes/prod_short.md)] environment and instead connect to [!INCLUDE[prod_short](includes/prod_short.md)] using for example APIs or web services.
 
-## See also
+## <a name="see-also"></a>See also
 
 [Technical validation](/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission)  
 [Development of a standard Localisation Solution](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  

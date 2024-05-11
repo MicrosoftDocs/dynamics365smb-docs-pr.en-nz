@@ -9,11 +9,11 @@ ms.date: 03/08/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-temeplate
 ---
-# Warnings and error messages
+# <a name="warnings-and-error-messages"></a>Warnings and error messages
 
 During your work day, you might see notifications in [!INCLUDE [prod_short](includes/prod_short.md)] that something went wrong, or that it wasn't possible to post something, for example. In many cases, the notification makes it easy to resolve the matter, or to roll back any changes that you made. In other cases, you might not have the information that you need to get unblocked. This article provides tips on how to make progress.  
 
-## In-product user assistance
+## <a name="in-product-user-assistance"></a>In-product user assistance
 
 The default version of [!INCLUDE [prod_short](includes/prod_short.md)] includes descriptions for most fields, columns, and actions that can be accessed when you choose the name. In combination with teaching tips for important pages, descriptive captions, and instructional text, these tooltips, or callouts, are our current implementation of *embedded user assistance*, which is an important principle in today's world of software design.  
 
@@ -21,15 +21,15 @@ If you have a question about a field or another element of the user interface, c
 
 For more information, see [Dynamics 365 Business Central User Assistance Model](/dynamics365/business-central/dev-itpro/user-assistance) in the administration content for [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-## Help and Support page
+## <a name="help-and-support-page"></a>Help and Support page
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], the Help menu item (the question mark in the top right corner) gives you access to the **Help and Support** page, where you can find links to resources that can help you find answers to your questions. For more information, see [Resources for Help and Support](product-help-and-support.md).  
 
-## Help others
+## <a name="help-others"></a>Help others
 
 If you're an administrator or superuser, you can help others by looking up error messages in the **Error Message Register** page or in the administration centre. In many cases, the warning or error message is about setup or lack of permission and similar issues that the superuser or administrator can easily help with. In other cases, you might have to inspect pages to identify the cause. For more information, see [Finding technical information](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information) in the administration content for [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-## Share error details for faster assistance
+## <a name="share-error-details-for-faster-assistance"></a>Share error details for faster assistance
 
 To overcome obstacles and minimise downtime, apply the expertise of colleagues or subject matter experts. When an error blocks you, you can easily share the error details when you get assistance.
 
@@ -47,7 +47,7 @@ You can also choose to share details by email by choosing **Share details via em
 * Copy the error details.
 * Open your default email editor, where you can paste the error details you copied and specify who you want to ask for help. [!INCLUDE [prod_short](includes/prod_short.md)] adds a link to the page where you experienced.
 
-## Help yourself
+## <a name="help-yourself"></a>Help yourself
 
 Error messages provide information and actions that make it easier to understand, go to, and resolve errors that come from the platform.
 
@@ -59,14 +59,14 @@ The following video shows how to use actionable error messages to get unblocked.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1l2sM]
 
-### Tip for developers
+### <a name="tip-for-developers"></a>Tip for developers
 
 If you're a developer, when you call the [TestField](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-testfield-joker-joker-errorinfo-method) method, but don't pass in the |`ErrorInfo` object, [!INCLUDE [prod_short](includes/prod_short.md)] automatically generates the link to a page where a user can correct the issue. [!INCLUDE [prod_short](includes/prod_short.md)] first gets the lookup or drill-down page for the record, and then finds the card page or lookup page and adds a navigation link to that card page. [!INCLUDE [prod_short](includes/prod_short.md)] doesn't add a link in the following situations:
 
 * If the error is on the page that's currently open.
 * If the user doesn't have permission to modify the underlying record.
 
-## See Also
+## <a name="see-also"></a>See Also
 
 [Resources for Help and Support](product-help-and-support.md)  
 [Frequently Asked Questions](across-faq.yml)  
