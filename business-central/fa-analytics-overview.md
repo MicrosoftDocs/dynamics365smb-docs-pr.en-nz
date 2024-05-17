@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="fixed-assets-analytics"></a>Fixed assets analytics
+# Fixed assets analytics
 
 Businesses with fixed assets capture a lot of data about them during daily activities. That data supports valuable business intelligence (BI) for fixed assets managers:
 
@@ -36,7 +36,7 @@ Each feature has its advantages and disadvantages, depending on the type of data
 
 This article describes ways use these analytical features to get insights into your fixed assets.
 
-## <a name="analytics-needs-in-asset-management"></a>Analytics needs in asset management
+## Analytics needs in asset management
 
 When thinking of analytics needs in asset management, it might help to use a persona-based model that describes their analytics needs at a high-level.
 
@@ -52,14 +52,14 @@ When it comes to data, people in different roles have different needs, and they 
 |Asset Management / Controller   | Trends, summaries | Built-in managerial reports <br> Ad-hoc analysis      | 
 |Bookkeeper                      | Detailed data     | Built-in operational reports <br> On-screen task data |
 
-## <a name="asset-management-kpis"></a>Asset Management KPIs
+## Asset Management KPIs
 
 A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In asset management, people often use the following KPIs to monitor their organisation's use of assets:
 
 - Total Asset Turnover
 - Return on Assets
 
-## <a name="use-financial-reporting-to-produce-financial-statements-and-kpis-related-to-fixed-assets"></a>Use financial reporting to produce financial statements and KPIs related to fixed assets
+## Use financial reporting to produce financial statements and KPIs related to fixed assets
 
 The **Financial Reporting** feature gives you insights into the financial data shown on your chart of accounts (COA). You can set up financial reports to analyse figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. Specifically for asset management, you can set up financial reports on the general ledger (G/L) accounts that you use to track fixed assets postings.
 
@@ -67,13 +67,13 @@ Dimensions play an important role in business intelligence. A dimension is data 
 
 To learn more about financial reporting, go to [Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md).
 
-## <a name="finance-reporting-across-business-units-or-legal-entities-related-to-fixed-assets"></a>Finance reporting across business units or legal entities (related to fixed assets)
+## Finance reporting across business units or legal entities (related to fixed assets)
 
 Some organisations use [!INCLUDE [prod_short](includes/prod_short.md)] in multiple business units or legal entities. Others use [!INCLUDE [prod_short](includes/prod_short.md)] in subsidiaries report to parent organisations. [!INCLUDE [prod_short](includes/prod_short.md)] gives accountants tools that help them transfer general ledger entries from two or more companies (subsidiaries) into a consolidated company. Specifically for asset management, you might want to consolidate general ledger entries for your fixed assets accounts to be able to track fixed assets KPIs across business units or legal entities.
 
 To learn more, go to [Company consolidation](finance-consolidated-company-reporting.md).
 
-## <a name="ad-hoc-analysis-of-fixed-assets-data"></a>Ad-hoc analysis of fixed assets data
+## Ad-hoc analysis of fixed assets data
 
 Sometimes, you just need to check whether the numbers add up correctly, or quickly confirm a figure. The following features are great for ad-hoc analyses:
 
@@ -94,7 +94,7 @@ Similarly, you can use the **Open in Excel** action to open a list page for ledg
 For more information on how to do ad-hoc analysis on Fixed Assets ledgers, see [Ad-hoc analysis of fixed assets data](ad-hoc-analysis-fa.md).
 
 
-## <a name="built-in-reports-for-fixed-assets"></a>Built-in reports for fixed assets
+## Built-in reports for fixed assets
 
 [!INCLUDE [prod_short](includes/prod_short.md)] includes several built-in reports, tracing functions, and tools to help auditors or controllers who report on fixed assets.
 
@@ -109,7 +109,7 @@ To get an overview of available reports, choose **All reports** at the top of yo
 
 For more information about reports that are relevant for fixed assets, see [Built-in fixed assets reports](fa-reports.md).
 
-## <a name="on-screen-fixed-assets-analytics"></a>On-screen fixed assets analytics
+## On-screen fixed assets analytics
 
 [!INCLUDE [prod_short](includes/prod_short.md)] has several pages that give you fixed assets overviews and tasks to do. Here are some examples to get you started:
 
@@ -120,7 +120,7 @@ For more information about reports that are relevant for fixed assets, see [Buil
 - [View disposal ledger entries](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
 - [View projected disposal values](fa-how-manage-budgets.md#to-view-projected-disposal-values)
 
-### <a name="show-fixed-asset-general-ledger-entries-and-balances-from-the-chart-of-accounts-page"></a>Show fixed asset general ledger entries and balances from the Chart of Accounts page
+### Show fixed asset general ledger entries and balances from the Chart of Accounts page
 
 The Chart of Accounts page shows all general ledger accounts with aggregated numbers in the general ledger. From this page, you can do things like:  
 
@@ -134,7 +134,7 @@ Specifically for fixed assets, you can create a view on the Chart of Accounts pa
 
 To learn more, go to [Understand the Chart of Accounts](finance-general-ledger.md#the-chart-of-accounts).
 
-### <a name="analyze-data-by-dimensions-related-to-fixed-assets"></a>Analyse data by dimensions (related to fixed assets)
+### Analyse data by dimensions (related to fixed assets)
 
 Dimensions are values that categorise entries so you can track and analyse them on documents, such as FA journals. Dimensions can, for example, indicate the department or location an entry came from.  
 
@@ -142,7 +142,7 @@ So, instead of setting up separate general ledger accounts for each department o
 
 To learn more, go to [Analyse Data by Dimensions](bi-how-analyze-data-dimension.md)
 
-## <a name="see-also"></a>See also
+## See also
 
 [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)  
 [Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md)  
