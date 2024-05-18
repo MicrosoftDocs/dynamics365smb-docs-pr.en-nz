@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="ad-hoc-analysis-of-inventory-data"></a>Ad-hoc analysis of inventory data
+# Ad-hoc analysis of inventory data
 
 This article explains how to use the **Data Analysis** feature to analyse inventory data directly from list pages and queries. You don't have to run a report or switch to another application, such as Excel. The feature provides an interactive and versatile way to calculate, summarise, and examine data. Instead of running reports using options and filters, you can add multiple tabs that represent different tasks or views on the data. Some examples are "expiring stock" or "top sellers," or any other view you can imagine. To learn more about how to use the **Data Analysis** feature, go to [Analyse list and query data with analysis mode](analysis-mode.md).
 
@@ -20,7 +20,7 @@ Use the following list pages for ad-hoc analysis of inventory processes:
 
 - [Item Ledger Entries](https://businesscentral.dynamics.com/?page=38)
 
-## <a name="inventory-ad-hoc-analysis-scenarios"></a>Inventory ad-hoc analysis scenarios
+## Inventory ad-hoc analysis scenarios
 
 Use the **Data Analysis** feature for quick fact checking and ad-hoc analysis:
 
@@ -38,7 +38,7 @@ The following sections provide examples of inventory scenarios in [!INCLUDE [pro
 | Inventory throughput | Get an overview of purchases and sales in your inventory by month or quarter. | [Item Ledger Entries](https://businesscentral.dynamics.com/?page=38) | **Posting Date Year**, **Posting Date Month**, **Item No.**, **Quantity**, **Sales Amount**, **Cost Amount (Actual)**, and **Posting Date Month** |
 | [Inventory movements] | Get an overview of how goods in your inventory move between locations. | [Item Ledger Entries](https://businesscentral.dynamics.com/?page=38) | **Location Code**, **Quantity**, **Posting Date**, **Item No.** |
 
-## <a name="example-inventory-on-hand"></a>Example: Inventory on-hand
+## Example: Inventory on-hand
 
 To analyse items in your inventory that are in stock, follow these steps:
 
@@ -54,7 +54,7 @@ The following image shows the result of these steps.
 
 :::image type="content" source="media/data-analysis-inventory-on-hand.png" alt-text="Example of how to do an inventory on-hand data analysis." lightbox="media/data-analysis-inventory-on-hand.png":::
 
-## <a name="example-track-expiring-or-old-stock"></a>Example: track expiring or old stock
+## Example: track expiring or old stock
 
 To analyse items in your inventory that have been on stock for a long time and aren't selling well, follow these steps:
 
@@ -69,7 +69,7 @@ The following image shows the result of these steps.
 
 :::image type="content" source="media/data-analysis-inventory-dead-stock.png" alt-text="Example of how to do a dead stock data analysis on the Item Ledger Entries page." lightbox="media/data-analysis-inventory-dead-stock.png":::
 
-## <a name="example-returned-items-by-return-reason"></a>Example: returned items by return reason
+## Example: returned items by return reason
 
 To analyse returned items sorted by the reasons for their return, follow these steps:
 
@@ -83,7 +83,7 @@ To analyse returned items sorted by the reasons for their return, follow these s
 1. Add any other fields that you want in the analysis, and enable them in the **Columns** area. For example, you might add the **Posting Date**, **Document Type**, **Item No.**, and  **Document No.** fields.
 1. Rename your analysis tab to **Returned items by return reason** or something that describes this analysis.  
 
-## <a name="example-inventory-throughput"></a>Example: inventory throughput
+## Example: inventory throughput
 
 1. Open the [Item Ledger Entries](https://businesscentral.dynamics.com/?page=38) list, and choose :::image type="content" source="media/analysis-mode-icon.png" alt-text="Enter analysis mode."::: to turn on analysis mode.
 1. Go to the **Columns** menu and remove all columns (select the box next to the **Search** field on the right).
@@ -93,7 +93,7 @@ To analyse returned items sorted by the reasons for their return, follow these s
 1. Drag the **Posting Date Month** field to the **Column Groups** area.
 1. Rename your analysis tab to **Inventory troughput by Month** or something that describes this analysis.  
 
-## <a name="inventory-movements"></a>Inventory movements
+## Inventory movements
 
 To track inventory movements between locations, follow these steps:
 
@@ -107,7 +107,7 @@ To track inventory movements between locations, follow these steps:
    > [!TIP]
    > If you add the Posting Date field, you can also track movements over time.
 
-## <a name="data-foundation-for-ad-hoc-analysis-on-inventory"></a>Data foundation for ad-hoc analysis on inventory
+## Data foundation for ad-hoc analysis on inventory
 
 When you post a sales order, [!INCLUDE [prod_short](includes/prod_short.md)] updates the customer's account, general ledger, and item ledger entries.
 
@@ -117,7 +117,7 @@ When you post a purchase document, [!INCLUDE [prod_short](includes/prod_short.md
 
 - For each purchase line, as applicable, entries are created in the **Item Ledger Entry** table (if the purchase line is of the Item type). In addition, purchase documents are always recorded in the **Purch. Recpt. Header** and **Purch. Inv. Header** tables. To learn more, go to [Posting purchases](purchasing-how-record-purchases.md#posting-purchases).
 
-## <a name="see-also"></a>See also
+## See also
 
 [Analyse list and query data with analysis mode](analysis-mode.md)  
 [Inventory analytics overview](inventory-analytics-overview.md)  
