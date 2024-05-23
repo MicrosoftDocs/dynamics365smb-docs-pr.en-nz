@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Use e-documents in the purchases process
+# <a name="use-e-documents-in-the-purchases-process"></a>Use e-documents in the purchases process
 
 You can use configured electronic documents (e-documents) with the purchase documents.
 
@@ -25,11 +25,11 @@ The following purchase documents can be used with e-documents functionality:
 > [!NOTE]
 > From [!INCLUDE[prod_short](includes/prod_short.md)] version 24.0, it's possible to connect **Purchase Orders** with the received **E-Documents**.  
 
-## E-documents in purchases
+## <a name="e-documents-in-purchases"></a>E-documents in purchases
 
 The receipt of purchase e-documents in Dynamics 365 Business Central can be done as a batch job or manually.  
 
-### How to set up vendors to work with different purchase documents  
+### <a name="how-to-set-up-vendors-to-work-with-different-purchase-documents"></a>How to set up vendors to work with different purchase documents
 
 Follow these steps to configure vendors to work properly with incoming electronic invoices: 
 
@@ -46,9 +46,9 @@ Follow these steps to configure vendors to work properly with incoming electroni
 4. Choose one of the options you want to use for the selected vendor. 
 5. Close the page.   
 
-### To work with purchase invoices  
+### <a name="to-work-with-purchase-invoices"></a>To work with purchase invoices
 
-#### Run the batch job  
+#### <a name="run-the-batch-job"></a>Run the batch job
 
 > [!NOTE]
 > This batch job is for automated collection of your incoming invoices. It can work only in a country or region where the functionality exists.  
@@ -76,7 +76,7 @@ There are two common errors:
 
 After you fix the errors and warnings, you can manually specify when the system should create a purchase invoice based on your setup by selecting **Create Document**.   
 
-#### Manually import invoices  
+#### <a name="manually-import-invoices"></a>Manually import invoices
 
 To manually import external e-documents, follow these steps:
 
@@ -87,9 +87,9 @@ To manually import external e-documents, follow these steps:
 5. When you've finished fixing the issues, in the **Import Manually** group, select **Create Document**.  
 6. After the document is created in [!INCLUDE[prod_short](includes/prod_short.md)], using a batch job doesn't change the way you view it. 
 
-### E-documents with purchase orders  
+### <a name="e-documents-with-purchase-orders"></a>E-documents with purchase orders
 
-#### To link purchase orders with the received e-documents
+#### <a name="to-link-purchase-orders-with-the-received-e-documents"></a>To link purchase orders with the received e-documents
 
 If your **Vendor** has configured the **Receive E-Document To** field to work with **Purchase Orders**, once an electronic document is created in [!INCLUDE[prod_short](includes/prod_short.md)] (manually or from external end point), [!INCLUDE[prod_short](includes/prod_short.md)] will do the following:  
 
@@ -99,7 +99,7 @@ If your **Vendor** has configured the **Receive E-Document To** field to work wi
 
 3. If the **Purchase Order** for this particular vendor doesn’t exist when a new **E-Document** is created, [!INCLUDE[prod_short](includes/prod_short.md)] will create a new **Purchase Order**, using the same model of creation that already exists for new **Purchase Invoices**. The **Document Status** of this **E-Document** will be **Processed**, and the **E-Document Status** in the **Service Status** subpage will be **Imported document created**. This link will be visible in the **Document** field on this specific **E-Document**.   
 
-#### Matching lines from received e-document with purchase order  
+#### <a name="matching-lines-from-received-e-document-with-purchase-order"></a>Matching lines from received e-document with purchase order
 
 You can match your received electronic documents with purchase orders’ lines from two different places: from the **E-Document** page or from the **Purchase Order** page. The easiest way to locate the already linked **Purchase Orders** is to use the **Linked Purchase Orders** tile as a part of **E-Document Activities**. All non-linked documents can be found using the tile **Waiting Purchase E-Invoices** where you have a list of **E-Documents** that you need to review.  
 
@@ -109,7 +109,7 @@ You can match your received electronic documents with purchase orders’ lines f
 > [!NOTE]
 > If the GST percentage differs between the incoming document and the company's GST percentage, matching documents can't be used in a multi-country environment.  
 
-##### Matching lines from purchase order  
+##### <a name="matching-lines-from-purchase-order"></a>Matching lines from purchase order
 
 You can match the lines from the **Purchase Orders** list or from one of the opened **Purchase Orders**. To begin this, use the following steps:  
 
@@ -159,7 +159,7 @@ If you want to add some tolerance and allow the difference between lines in **E-
 3. This setup will apply to all the matching lines, but again considering tolerance for the total amount, as for **Direct Unit Cost** together with applied **Line Discount %**.  
 4. Close the page.   
 
-##### Matching lines from e-document  
+##### <a name="matching-lines-from-e-document"></a>Matching lines from e-document
 
 You can match the lines on the **E-Document** page. To begin, use the following steps:  
 
@@ -168,7 +168,7 @@ You can match the lines on the **E-Document** page. To begin, use the following 
 3. Choose the **Match Purchase Order** action to open the **Purchase Order Matching** page.  
 4. Repeat the same steps that you used when you started matching from purchase orders.
 
-### E-document matching assistance copilot  
+### <a name="e-document-matching-assistance-copilot"></a>E-document matching assistance copilot
 
 > [!NOTE]
 > Currently, **E-Document Matching Assistance** copilot is in the production-ready preview stage, and is available globally except in Canada. It works in English only. 
@@ -176,7 +176,7 @@ You can match the lines on the **E-Document** page. To begin, use the following 
 > [!NOTE]
 > Copilot is the AI-powered assistant that helps people across your organisation unlock their creativity and automate tedious tasks. The **E-Document Matching Assistance** copilot helps users to easily match their received electronic invoices with existing purchase order lines, using LLM model for matching lines between two different documents. 
 
-#### To activate the copilot  
+#### <a name="to-activate-the-copilot"></a>To activate the copilot
 
 In case you didn't activate the **E-Document Matching Assistance** copilot, you need to do it manually. To enable the **E-Document Matching Assistance** copilot, follow these steps: 
 
@@ -185,7 +185,7 @@ In case you didn't activate the **E-Document Matching Assistance** copilot, you 
 
 Once the copilot is activated, you can begin using it.
 
-#### Use the e-document matching assistance copilot 
+#### <a name="use-the-e-document-matching-assistance-copilot"></a>Use the e-document matching assistance copilot
 
 If the copilot is activated, existing actions **Map E-Document Lines** on purchased orders and **Match Purchase Order** on the **E-Document** page will get different icons, symbolising AI capability. You can run these actions (the same as in previous examples from the list of purchase orders) from one of the **Purchase Orders**, or from **E-Document**. All steps for running are the same, but when you run this action, the result will be different, and you need to follow these steps:  
 
@@ -230,7 +230,7 @@ If the copilot is activated, existing actions **Map E-Document Lines** on purcha
 > [!NOTE]
 > Price/cost analysis and the available quantity check is part of the preprocessing activity.   
 
-## Overview of e-document statuses
+## <a name="overview-of-e-document-statuses"></a>Overview of e-document statuses
 
 To get a better overview of all e-documents in the company, you can select the **Accountant** role centre where e-document statuses exist. There, you can find e-document activities that have the following statuses:
 
@@ -241,7 +241,7 @@ To get a better overview of all e-documents in the company, you can select the *
     - Error
 
 
-## See also
+## <a name="see-also"></a>See also
 
 [Set up e-documents](finance-how-setup-edocuments.md)    
 [Use e-document in the sales process](finance-how-use-edocuments.md)   

@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="reconcile-customer-payments-with-the-cash-receipt-journal-or-from-customer-ledger-entries"></a>Reconcile Customer Payments with the Cash Receipt Journal or from Customer Ledger Entries
+# <a name="reconcile-customer-payments-with-a-cash-receipt-journal-or-from-customer-ledger-entries"></a>Reconcile Customer Payments with the Cash Receipt Journal or from Customer Ledger Entries
 
 When you receive a cash payment from a customer or give a cash refund you can apply the payment or refund to close open debits or credits. You can specify the amount to apply. For example, you can apply partial payments to customer ledger entries. Closing customer ledger entries keeps customer statistics, account statements, finance charges, and so on, up-to-date.
 

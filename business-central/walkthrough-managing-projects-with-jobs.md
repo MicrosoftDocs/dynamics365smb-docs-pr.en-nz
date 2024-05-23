@@ -36,7 +36,7 @@ This walkthrough introduces you to the project management features. Projects are
 - See how contract and invoice values are determined.  
 - Allow for extra work in the schedule that has not been invoiced.  
 
-### <a name="copying-a-job"></a>Copying a Job
+### <a name="copying-a-project"></a>Copying a Job
 
  This part of the walkthrough focuses on how to copy part or all of a project in order to reduce manual data entry and improve accuracy. It includes the following:  
 
@@ -223,11 +223,11 @@ In the next procedure, you create a project journal batch for Tricia in order to
 
 The lines are now posted.  
 
-## <a name="creating-and-posting-a-job-sales-invoice"></a>Creating and Posting a Job Sales Invoice
+## <a name="creating-and-posting-a-project-sales-invoice"></a>Creating and Posting a Job Sales Invoice
 
  Next, Tricia can create a new invoice for the whole job or for part of a job. Tricia can also attach the invoice to another invoice for the same customer for the same job. In this case, Tricia invoices for the whole job, because the project is now completed.  
 
-### <a name="to-create-a-job-sales-invoice"></a>To create a job sales invoice
+### <a name="to-create-a-project-sales-invoice"></a>To create a job sales invoice
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
 2.  Select the job that you created earlier, and then choose the **Create Job Sales Invoice** action.  
@@ -261,7 +261,7 @@ The lines are now posted.
 
  CRONUS has been contracted to set up conference rooms. As the project manager, Prakash wants a good overview of the tasks required for the job with the associated budgeted and incurred costs for each task. In addition, Prakash wants to know the total contracted price for the job and the amount that has been invoiced to this point. They have reached an agreement with the customer regarding fixed pricing for the job.  
 
-### <a name="to-manage-fixed-pricing-in-jobs"></a>To manage fixed pricing in jobs
+### <a name="to-manage-fixed-pricing-in-projects"></a>To manage fixed pricing in jobs
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
 2. Select the **Guildford** job number, and then choose the **Jobs Task Lines** action.  

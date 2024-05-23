@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.form: '42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349'
 ms.service: dynamics-365-business-central
 ---
-# Archive documents
+# <a name="archive-documents"></a>Archive documents
 
 You can archive sales and purchase orders, quotes, return orders, and blanket orders. If you're using Project Management features, you can also archive your projects. You can archive documents and projects several times, which saves a different archived version each time.
 
@@ -21,7 +21,7 @@ For sales documents, if the original still exists and isn't posted, you can use 
 
 For archived documents where the original is deleted, you can reuse the content by copying the data, for example, by using the **Copy from Document** action.  
 
-## To set up automatic document archiving
+## <a name="to-set-up-automatic-document-archiving"></a>To set up automatic document archiving
 
 You can automate archiving to create a new version of the archived document when someone does the following things:
 
@@ -43,7 +43,7 @@ The following table describes the options for the **Archive Quotes** field.
 |**Question**|Prompt the user to choose whether to archive sales quotes when they're deleted.|
 |**Always**|Archive sales quotes automatically when they're deleted.|
 
-## To manually archive a sales order
+## <a name="to-manually-archive-a-sales-order"></a>To manually archive a sales order
 
 The following procedure describes how to manually archive a sales order. The steps are similar for all documents and projects that you can archive.
 
@@ -53,7 +53,7 @@ The following procedure describes how to manually archive a sales order. The ste
 
 The sales order is archived. You can view it on the **Archived Sales Orders** page.
 
-## To restore a non-posted sales document or a project from the archive
+## <a name="to-restore-a-non-posted-sales-document-or-a-project-from-the-archive"></a>To restore a non-posted sales document or a project from the archive
 
 The following procedure describes how to restore an archived sales order to the original sales order. Restoring a document is only possible when the original document isn't posted. The steps are similar for all orders, blanket orders, return orders, and quotes, and also for projects.
 
@@ -62,7 +62,7 @@ The following procedure describes how to restore an archived sales order to the 
 
 The contents of the original sales order or project are replaced with the archived version.
 
-## To delete archived versions
+## <a name="to-delete-archived-versions"></a>To delete archived versions
 
 Use a retention policy to clean up archived versions that you no longer need. Retention policies let administrators define how long they want to store data. For example, they can set up a policy that deletes data after an expiration date. To learn more, go to [Define Retention Policies](admin-data-retention-policies.md).
 
@@ -72,7 +72,7 @@ There are a few things to note about creating retention policies for archived do
 * When you set up the retention policy, you can specify that you want the policy to delete all archived versions except the most recent. For example, you might have 10 versions and want to keep a copy of the latest. 
 * [!INCLUDE [prod_short](includes/prod_short.md)] calculates the expiration date for documents based on the date of the most recent archived version.
 
-## See Also
+## <a name="see-also"></a>See Also
 
 [Track Document Lines](across-how-to-track-document-lines.md)  
 [Sales](sales-manage-sales.md)  
