@@ -3,7 +3,7 @@ title: Set Up and Manage a Budget for a Project
 description: Describes how to plan resources and forecast and control the costs of a project by setting up a budget for each project.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'project budget, forecast'
 ms.search.form: '1002, 1007'
@@ -11,13 +11,13 @@ ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="manage-project-budgets"></a>Manage Project Budgets
+# Manage Project Budgets
 
 You can set up a budget for each project. The budget is used to plan the resources that you allocate to a project. The budget can be either general with few entries or it can contain more entries that are divided into activity levels. You can then compare the budgeted amounts with the actual usage as recorded in the project journal. By monitoring differences between actual usage and budgeted usage, you can control an ongoing project and improve the quality of future projects by reducing the risk of underestimating costs.
 
 The following procedure describes how to estimate budgeted costs during planning. For information about recording budgeted versus actual project prices and costs, see [Record Usage for Projects](projects-how-record-job-usage.md).  
 
-## <a name="to-estimate-the-budgeted-costs-for-a-project"></a><a name="JobBudgetCosts"></a>To estimate the budgeted costs for a project
+## <a name="JobBudgetCosts"></a> To estimate the budgeted costs for a project
 
 When a customer wants to know the price of a project that will be invoiced based on usage, you must determine the budgeted costs for the project. Use the **Project Task Lines** page to do that.
 
@@ -44,7 +44,7 @@ On the **Project Card** page, you can now see a summary of the total budgeted co
 
 For information about recording budgeted versus actual project prices and costs, see [Record Usage for Projects](projects-how-record-job-usage.md).
 
-## <a name="see-also"></a>See also
+## See also
 
 [Project Management](projects-manage-projects.md)  
 [Finance](finance.md)  

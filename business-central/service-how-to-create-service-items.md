@@ -3,25 +3,25 @@ title: How to Create Service Items
 description: 'Read about the different ways you can create service items in Business Central, for example within a service order or when shipping items.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: null
 ms.date: 03/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="create-service-items"></a>Create service items
+# Create service items
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], the term "service item" refers to equipment or items that require service. When you create a service order, you specify the items that need service. In the order, you can link a service item to an item in inventory or a service item group.
 
 When you receive an item that needs service, you can register it as a service item. There are several ways to do so. For example, you can create a service item on the **Service Items** page, or as part of another process, such as when working with a service order.
 
-## <a name="to-create-a-service-item"></a>To create a service item
+## To create a service item
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Items**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="to-create-service-items-within-a-service-order"></a>To create service items within a service order
+## To create service items within a service order
 
 When you receive items for service that you want to register as service items, you can create them as service items in the **Service Order** or **Service Quote** pages.  
 
@@ -31,7 +31,7 @@ When you receive items for service that you want to register as service items, y
 
     A number is assigned to the service item and a service item card is created. The **Service Item No.** field is filled in with the number of the new service item.
 
-## <a name="to-create-a-service-item-when-shipping-items"></a>To create a service item when shipping items
+## To create a service item when shipping items
 
 When you ship items by posting either sales orders or sales invoices, the shipped items are automatically registered as service items if the following condition is met. The items must belong to a service item group with the **Create Service Item** check box selected. If the items have serial numbers registered in the Item Tracking Lines page, this information is copied automatically to the **Serial No.** field on the service item card when creating service items.  
 
@@ -48,7 +48,7 @@ The following procedure shows how to create service items when you ship items on
 >
 > If an item is a BOM and you have not exploded the BOM, a service item is created for it based on the service item group condition and, optionally, the serial numbers condition.  
 
-## <a name="to-insert-a-starting-fee-for-a-service-item"></a>To insert a starting fee for a service item
+## To insert a starting fee for a service item
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Tasks**, and then choose the related link.
 2. Choose the **Item Worksheet** action.
@@ -56,7 +56,7 @@ The following procedure shows how to create service items when you ship items on
 
     A service line of type **Cost** is inserted with the starting fee. The starting fee applies to the selected service item.
 
-## <a name="block-items-item-variants-or-specific-service-items"></a>Block items, item variants, or specific service items
+## Block items, item variants, or specific service items
 
 You can prevent items, item variants, or service items from being used in service management transactions, such as service contracts, service orders, and service invoices. This can be useful if you want to restrict the availability of some items or service items for service purposes, for example, due to discontinued support, limited stock, or contractual agreements.
 
@@ -79,7 +79,7 @@ Additionally, if you have service contracts, service contract quotes, or service
 - **Release to Ship** or **Post** on the **Service Order** page.
 - **Post** in the **Service Invoice** page.
 
-### <a name="block-a-service-item"></a>Block a service item
+### Block a service item
 
 To block a service item from being used in service management transactions, on the **Service Item Card** page, in the **Blocked** field, choose one of the following options:
 
@@ -107,14 +107,14 @@ You can also view the blocked service items by applying a filter to the followin
 - Service Items Out of Warranty (report 5937)
 - Service Profit (Service Items) (report 5938)
 
-### <a name="data-upgrade"></a>Data upgrade
+### Data upgrade
 
 This feature doesn't require additional setup. However, if you upgrade your [!INCLUDE [prod_short](includes/prod_short.md)], be aware of the following:
 
 - If you have items, item variants, or item templates where the **Sales Blocked** toggle is turned on, the **Service Blocked** field is also turned on for those records during upgrade. This ensures that the existing sales blocked logic also applies to service management transactions.
 - Data upgrades only if you have at least one service item in your company, which means you're using the service management functionality and need the data upgrade. If you don't have service items, the data upgrade is skipped and the **Service Blocked** toggle is turned off by default for all items, item variants, and item templates.
 
-## <a name="see-also"></a>See also
+## See also
 
 [Set Up Service Items and Service Item Components](service-how-setup-service-items.md)  
 [Setting Up Service Management](service-setup-service.md)  

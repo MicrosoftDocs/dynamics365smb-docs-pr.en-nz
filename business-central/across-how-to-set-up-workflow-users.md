@@ -3,7 +3,7 @@ title: How to Set Up Workflow Users
 description: 'Before you can create workflows, you must set up the users who take part in them on the Approval User Setup page.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: ivkoleti
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: 'reject, delegate, request'
 ms.search.form: '1533,'
@@ -11,7 +11,7 @@ ms.date: 04/04/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="set-up-a-sequence-of-workflow-users"></a>Set up a sequence of workflow users
+# Set up a sequence of workflow users
 
 Before you can create approval workflows, you must set up the users who can submit requests and their approvers. For example, you can specify who receives a notification to act on a workflow step. You set up approval workflow participants on the **Approval User Setup** page. Learn more at [Set Up Approval Users](across-how-to-set-up-approval-users.md).
 
@@ -19,7 +19,7 @@ On the **Workflow User Groups** page, you can specify where a participant engage
 
 [!INCLUDE [workflow-requestor-approver](includes/workflow-requestor-approver.md)]
 
-## <a name="to-set-up-a-workflow-user-group"></a>To set up a workflow user group
+## To set up a workflow user group
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflow User Groups**, then choose the related link.  
 2. Choose the **New** action. The **Workflow User Group** page opens.  
@@ -36,7 +36,7 @@ On the **Workflow User Groups** page, you can specify where a participant engage
    > Typically, sequence numbers are sequential for users in a workflow user group. However, multiple users can have the same sequence number. When that's the case, only one of the users must approve a request before the workflow goes to the next step. For example, if user A and user B are both number two in the sequence, the workflow goes to the step three when when either user A or user B approves the request.
 6. Repeat step 5 to add more workflow users to the workflow user group.  
 
-## <a name="see-also"></a>See also
+## See also
 
 [Set Up Approval Users](across-how-to-set-up-approval-users.md)  
 [Setting Up Approval Workflows](across-set-up-workflows.md)  

@@ -3,20 +3,20 @@ title: Walkthrough - Calculating work in process for a project
 description: 'Learn how to track consumption of employee hours, machine hours, inventory items, and other types of usage as a project progresses.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: null
 ms.date: 12/13/2023
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="walkthrough-calculating-work-in-process-for-a-project"></a>Walkthrough: Calculating work in process for a project
+# Walkthrough: Calculating work in process for a project
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 With project, you can schedule the usage of your company's resources and keep track of the various costs associated with the usage of resources on a specific project. Project involve the consumption of employee hours, machine hours, inventory items, and other types of usage that have to be tracked as a project progresses. If a project runs over a long period, you might want to transfer these costs to a Work in Process (WIP) account on the balance sheet while the project is being completed. You can then recognise the costs and sales in your income statement accounts when it's appropriate.  
 
-## <a name="about-this-walkthrough"></a>About this walkthrough
+## About this walkthrough
 
  This walkthrough illustrates the following tasks:  
 
@@ -28,19 +28,19 @@ With project, you can schedule the usage of your company's resources and keep tr
 
  Each step of the process calculates the value and moves the project transactions to the general ledger. The calculation and posting steps are separated to help you review your data and to make modifications before posting to the general ledger. Therefore, you should make sure that all information is correct after you run the calculation batch jobs and before you run the posting batch jobs.  
 
-## <a name="roles"></a>Roles
+## Roles
 
  This walkthrough uses the project team member (Tricia) as the persona.  
 
-## <a name="prerequisites"></a>Prerequisites
+## Prerequisites
 
  Before you can perform the tasks in the walkthrough, the [!INCLUDE[prod_short](includes/prod_short.md)] must be installed on your computer.  
 
-## <a name="story"></a>Story
+## Story
 
  This walkthrough focuses on CRONUS International Ltd., a design and consultancy firm that designs and fits new infrastructures, such as conference halls and offices, with furniture, accessories, and storage units. Most of the work at CRONUS is project-oriented and Tricia, a project team member, uses project to have an overview of each ongoing project that CRONUS has started and also the project that are completed. Some of the project can be lengthy and can run over months. Tricia can use a WIP account to record the work in process and to track the costs throughout the project.  
 
-## <a name="calculating-wip"></a>Calculating WIP
+## Calculating WIP
 
  CRONUS has taken on a lengthy project that has now extended across reporting periods. Tricia, a project team member, calculates the work in process (WIP) to make sure that the financial statement of the company is accurate.  
 
@@ -56,7 +56,7 @@ With project, you can schedule the usage of your company's resources and keep tr
 
  In the following walkthrough, Tricia applies the Cost Value method, their company standard, to calculate WIP. Tricia specifies the part of the project to include in the WIP calculation by assigning WIP-Total values to various project task lines.  
 
-### <a name="to-calculate-wip"></a>To calculate WIP
+### To calculate WIP  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project**, and then choose the related link.  
 2. In the **Projects** list, select the **Deerfield** project, and then choose the **Edit** action. This opens the Project Card in edit mode.  
@@ -88,7 +88,7 @@ With project, you can schedule the usage of your company's resources and keep tr
 
  Notice that the value for **Recog. Costs Amount** is 215.60 in the **To Post** column. This reflects the total costs of two of the items in the group of project tasks 1110 – 1130. The third item was set to **Excluded**, and therefore isn't included in the WIP calculation.  
 
-### <a name="to-review-wip-warnings"></a>To review WIP warnings
+### To review WIP warnings  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project WIP Cockpit**, and then choose the related link.  
 2.  Select the **Deerfield** project, and then choose the **Show Warnings** action.  
@@ -96,7 +96,7 @@ With project, you can schedule the usage of your company's resources and keep tr
 
  After the accounting period ends, Tricia has to recalculate the WIP to include completed work to this point.  
 
-### <a name="to-recalculate-wip"></a>To recalculate WIP
+### To recalculate WIP  
 
 1. On the **Project Card** page, choose the **WIP Entries** action to view the WIP calculation.  
 
@@ -108,11 +108,11 @@ With project, you can schedule the usage of your company's resources and keep tr
 > [!NOTE]  
 > WIP and recognition are calculated but aren't posted to the general ledger. To do so, you must run **Post WIP to G/L** batch job after you calculate the WIP and recognition.
 
-## <a name="posting-wip-to-general-ledger"></a>Posting WIP to general ledger
+## Posting WIP to general ledger
 
  Now that Tricia has calculated WIP for this project, they can post it to the general ledger.  
 
-### <a name="to-post-wip-to-general-ledger"></a>To post WIP to general ledger
+### To post WIP to general ledger  
 
 1. From the **Projects** list, select the **Deerfield** project.  
 2. Choose the **WIP** action, and then choose the **Post WIP to G/L** action.  
@@ -132,11 +132,11 @@ With project, you can schedule the usage of your company's resources and keep tr
 10. On the **WIP and Recognition** FastTab, notice that in the **Posted** column, the **Recog. Costs G/L Amount** field is now filled in, which indicates that WIP was posted to the general ledger successfully.  
 11. Choose the **OK** button to close the card.  
 
-## <a name="reversing-a-wip-posting"></a>Reversing a WIP posting
+## Reversing a WIP posting
 
  Tricia determines that the project tasks that were excluded from the calculation of WIP should have been calculated in WIP. Tricia can reverse the incorrect postings without having to post new WIP postings.  
 
-### <a name="to-reverse-a-wip-posting"></a>To reverse a WIP posting
+### To reverse a WIP posting  
 
 1. From the **Projects** list, select the **Deerfield** project.  
 2. Choose the **WIP** action, and then choose the **Post WIP to G/L** action.  
@@ -155,11 +155,11 @@ With project, you can schedule the usage of your company's resources and keep tr
     > [!NOTE]  
     >  Suppose Tricia calculated and posted WIP for a project with incorrect dates. Following the method that was discussed earlier, Tricia can reverse the incorrect postings, correct the dates, and repost to the general ledger.  
 
-## <a name="next-steps"></a>Next steps
+## Next steps
 
  This walkthrough has taken you through the steps of calculating WIP in [!INCLUDE[prod_short](includes/prod_short.md)]. In larger projects, it might be useful to transfer the costs to a WIP account periodically while the project is being completed. This walkthrough has shown you how to exclude task lines from a calculation. It also shows you when you would have to recalculate. And finally, this walkthrough demonstrates how to post the WIP to the general ledger. An example of how to reverse a WIP posting to the general ledger is also included.  
 
-## <a name="see-also"></a>See also
+## See also
 
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  
  [Walkthrough: Managing Projects](walkthrough-managing-projects-with-jobs.md)  

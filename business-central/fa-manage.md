@@ -12,17 +12,17 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="manage-fixed-assets"></a>Manage fixed assets
+# Manage fixed assets
 
 The fixed assets functionality in [!INCLUDE[prod_short](includes/prod_short.md)] provides an overview of your fixed assets and helps ensure that their depreciation is correct. It also enables you to track maintenance costs, manage insurance policies, post fixed asset transactions, and generate various reports and statistics.
 
-## <a name="video-overview"></a>Video overview
+## Video overview
 
 The following video covers the basics of fixed assets:
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## <a name="initial-setup-of-fixed-assets"></a>Initial setup of fixed assets
+## Initial setup of fixed assets
 
 Before you can manage fixed assets, you must complete the following setups:
 
@@ -34,7 +34,7 @@ Before you can manage fixed assets, you must complete the following setups:
 
 To learn more, go to [Setting Up Fixed Assets](fa-setup.md).
 
-## <a name="fixed-assets-analytics"></a>Fixed assets analytics
+## Fixed assets analytics
 
 This section describes the analytical tools you can use to get insights into data about your fixed assets.
 
@@ -48,7 +48,7 @@ This section describes the analytical tools you can use to get insights into dat
 | View disposal ledger entries. | [View disposal ledger entries](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
 | View projected disposal values. | [View projected disposal values](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
 
-## <a name="register-fixed-assets"></a>Register fixed assets
+## Register fixed assets
 
 For each fixed asset, you must set up a card that contains information about them. For example, you can set up buildings or production equipment as main assets with a component list. You can group assets in various ways, such as by class, department, or location. Then you can acquire, maintain, and sell the fixed assets. You can also set up budgeted assets. Budgeting lets you include any anticipated acquisitions and sales in reports.
 
@@ -57,7 +57,7 @@ For each fixed asset, you must set up a card that contains information about the
 | Manage fixed asset budgets, budget acquisition costs, budget disposals of fixed assets, and budget depreciation. |[Manage Budgets for Fixed Assets](fa-how-manage-budgets.md) |
 | Create fixed assets, assign depreciation methods, post acquisitions, salvage values, and print fixed asset lists. |[Acquire Fixed Assets](fa-how-acquire.md) |
 
-## <a name="set-up-depreciations-for-your-fixed-assets"></a>Set up depreciations for your fixed assets
+## Set up depreciations for your fixed assets
 
 To track fixed asset depreciations and other financial transactions for fixed assets, set up one or more depreciation books for each one. There are a few steps to depreciate assets:
 
@@ -74,7 +74,7 @@ To track fixed asset depreciations and other financial transactions for fixed as
 | View changed depreciation book values. | [View changed depreciation book values](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification) |
 | Manually record fixed asset transactions on the **Fixed Asset G/L Journal** page or on the **Fixed Asset Journal** page, depending on whether the transactions are for financial reporting or for internal management. | [Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md) |
 
-## <a name="fixed-assets-maintenance-and-insurance"></a>Fixed assets maintenance and insurance
+## Fixed assets maintenance and insurance
 
 You can record maintenance costs and the next service date for each asset. Tracking maintenance expenses can be important for budgeting purposes and deciding whether to replace a fixed asset. You can attach each fixed asset to one or more insurance policies, and verify that policy premiums align with the value of the assets.
 
@@ -85,7 +85,7 @@ You can record maintenance costs and the next service date for each asset. Track
 | Update insurance information, post acquisition costs to insurance policies, modify insurance coverage, view insurance statistics, and list insurance policies. |[Insure Fixed Assets](fa-how-insure.md) |
 | Monitor insurance coverage. | [Monitor insurance coverage](fa-how-insure.md#to-monitor-insurance-coverage) |
 
-## <a name="reclassify-transfer-split-upcombine-adjust-value-write-down-and-dispose-fixed-assets"></a>Reclassify, transfer, split up/combine, adjust value, write-down, and dispose fixed assets
+## Reclassify, transfer, split up/combine, adjust value, write-down, and dispose fixed assets
 
 | To  | See |
 | --- | --- |
@@ -95,7 +95,7 @@ You can record maintenance costs and the next service date for each asset. Track
 | View disposal ledger entries. | [View disposal ledger entries](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
 | View projected disposal values. | [View projected disposal values](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
 
-## <a name="see-also"></a>See also
+## See also
 
 [Setting Up Fixed Assets](fa-setup.md)  
 [Fixed assets analytics overview](fa-analytics-overview.md)  

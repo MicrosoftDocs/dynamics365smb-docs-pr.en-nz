@@ -3,7 +3,7 @@ title: 'Set Up Projects, Prices, and Project Posting Groups'
 description: Describes how to set up general information about projects.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 02/22/2024
 ms.custom: bap-template
@@ -11,7 +11,7 @@ ms.search.keywords: project management
 ms.search.form: '211, 463, 1012'
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-projects-prices-and-project-posting-groups"></a>Set Up projects, prices, and project posting groups
+# Set Up projects, prices, and project posting groups
 
 As a project manager, you can set up projects that define each of the projects that you manage in [!INCLUDE[prod_short](includes/prod_short.md)]. Use the **Project Setup** page to define how you'll use project features.
 
@@ -22,7 +22,7 @@ For each project, specify various information:
 * Project G/L accounts
 * Project posting groups (required)
 
-## <a name="to-set-general-information-for-projects"></a>To set general information for projects
+## To set general information for projects
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project Setup**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -30,7 +30,7 @@ For each project, specify various information:
 > [!NOTE]
 > The **Apply Usage Link by Default** toggle on the **Projects Setup** page indicates whether project ledger entries are linked to project planning lines by default. Turn on the toggle to apply this setting to all new projects. You can enable or disable project usage tracking for a specific project by turning the **Apply Usage Link** toggle on or off on the **Project Card** page.
 
-### <a name="specify-a-default-location-for-project-items"></a>Specify a default location for project items
+### Specify a default location for project items
 
 You can save time on data entry by specifying a default location and bin for projects on the **Project Card** page. When you create project tasks, project planning lines, and project journal lines for the project, the default location and bin are automatically assigned. You can, however, change the location code and bin on tasks and lines if needed.
 
@@ -44,11 +44,11 @@ There are a few things to know about using default locations:
 * For project planning lines, the **Location Code** is based on the value selected on the project planning line when you select an item. If a bin code isn't defined for the project task, the bin from the default bin content is selected. You can change both values manually.
 * For project journal lines, the **Location Code** is based on the value selected on the job journal line when you select an item. If a bin code isn't defined for the project task, the bin from default bin content is selected. You can change both values manually.
 
-### <a name="invoice-multiple-customers-for-project-tasks"></a>Invoice multiple customers for project tasks
+### Invoice multiple customers for project tasks 
 
 When projects involve multiple customers, billing the right customers for the right tasks can be challenging. [!INCLUDE [prod_short](includes/prod_short.md)] makes billing less complex by letting you specify the bill-to and sell-to customers on each project task line, so you can automatically generate invoices for the correct customers. To learn more about invoicing multiple customers, go to [Invoice one or more customers for project tasks](projects-how-create-jobs.md#invoice-one-or-more-customers-for-project-tasks).
 
-### <a name="to-set-up-project-usage-tracking"></a>To set up project usage tracking
+### To set up project usage tracking
 
 When you're working on a project, you might want to know how your usage is tracking against your plan. To explore usage, you can create a link between your project planning lines and the actual usage. The link lets you track your costs and understand how much work remains. By default, the project planning line type is **Budget**, but using the line type **Both Budget and Billable** has similar effects.
 
@@ -62,7 +62,7 @@ After you set up usage tracking by turning on the **Apply Usage Link by Default*
 > [!IMPORTANT]
 > If you don't specify a value in the **Line Type** field on the project journal line or purchase line, project planning lines aren't created when you post the project journal or purchase document.
 
-## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-projects"></a>To set up prices for resources, items, and general ledger accounts for projects
+## To set up prices for resources, items, and general ledger accounts for projects
 
 > [!NOTE]
 > In 2020 release wave 2, we released new processes for setting up and managing prices and discounts. If you're a new customer, you're using the new experience. If you're an existing customer, whether you are using the new experience depends on whether your administrator has enabled the **New sales pricing experience** feature update in **Feature Management**. For more information, see [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
@@ -90,7 +90,7 @@ When you choose a resource, item, or general ledger account for a project, [!INC
 
 ---
 
-## <a name="to-set-up-project-posting-groups"></a>To set up project posting groups
+## To set up project posting groups
 
 One aspect of planning projects is deciding which posting accounts to use for project costing. To be able to post projects, you set up accounts for posting for each project posting group. A posting group represents a link between the project and how it should be treated in the general ledger. When you create a project, you specify a posting group, and by default, each task you create for the project is associated with that posting group. However, as you create tasks, you can override the default and select a posting group that is more appropriate.  
 
@@ -118,7 +118,7 @@ One aspect of planning projects is deciding which posting accounts to use for pr
 | **Recognised Costs Account** |The expense account that contains the recognised costs for the project. It is a debit expense account ordinarily. | Recognised Costs|
 | **Recognised Sales Account** |The income account that contains the recognised income for the project. It is a credit income account ordinarily. | Recognised Sales|
 
-## <a name="see-also"></a>See also
+## See also
 
 [Set Up Project Management](projects-setup-projects.md)  
 [Video: How to create a project in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
