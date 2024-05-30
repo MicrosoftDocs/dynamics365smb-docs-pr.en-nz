@@ -9,7 +9,7 @@ ms.date: 12/19/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="overview-of-tasks-to-set-up-"></a>Overview of Tasks to Set Up [!INCLUDE[prod_short](includes/prod_short.md)]
+# Overview of Tasks to Set Up [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] includes standard configurations for most business processes, but you can change the configuration to suit the needs of your organisation. The [Business Central quick start](quick-start-business-central.md) articles help you take the first steps into making [!INCLUDE [prod_short](includes/prod_short.md)] your own. This article provides an overview of how you can configure [!INCLUDE [prod_short](includes/prod_short.md)] for your organisation.
 
@@ -30,7 +30,7 @@ In addition to the assisted setup guides, some general functionality and specifi
 | Configure the rules and values that define your company's purchasing policies, register new vendors, and prioritise your vendors for payment processing. |[Setting Up Purchasing](purchasing-setup-purchasing.md) |
 | Configure the rules and values that define the company's inventory policies, set up locations if you keep inventory in multiple warehouses, and categorise your items to improve searching and sorting. |[Setting Up Inventory](inventory-setup-inventory.md) |
 |Specify default reports to use with different document types.|[Report Selection for Documents](across-report-selections.md)|
-| Set up resources, time sheets, and jobs to manage projects. |[Setting Up Project Management](projects-setup-projects.md) |
+| Set up resources, time sheets, and projects to manage projects. |[Setting Up Project Management](projects-setup-projects.md) |
 | Configure how to insure, maintain, and depreciate fixed assets and set up how you record the costs of fixed assets in your company books. |[Setting Up Fixed Assets](fa-setup.md) |
 |Define the general rules and values for warehouse processes and specific handling at each location.|[Setting Up Warehouse Management](warehouse-setup-warehouse.md)|
 |Prepare production bills of materials (BOMs) and routings to define how end items are produced, and prepare machine or work centres to perform the required operations.|[Setting Up Manufacturing](production-configure-production-processes.md)|
@@ -54,13 +54,13 @@ Some areas require you to be an administrator in your [!INCLUDE[prod_short](incl
 > [!NOTE]
 > As an administrator, you can set up a new company in [!INCLUDE[prod_short](includes/prod_short.md)] with RapidStart Services, which is a tool designed to shorten deployment times, improve quality of implementation, introduce a repeatable approach to implementations, and enhance productivity by automating and simplifying recurring tasks. Learn more at [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
-## <a name="set-up-apps"></a>Set up apps
+## Set up apps
 
 On top of the core capabilities in [!INCLUDE [prod_short](includes/prod_short.md)], Microsoft adds some aps that are listed in [the **Extension Management** page](https://businesscentral.dynamics.com/?page=2500). Starting in October 2022, each app provides a link to launch its setup page - just choose the **Set up** action.  
 
 You can also add capabilities to your [!INCLUDE [prod_short](includes/prod_short.md)] by adding AppSource apps. Learn more at [Customising Business Central Online Using Extensions](ui-extensions.md).  
 
-## <a name="see-also"></a>See also
+## See also
 
 [Company Information Overview](admin-company-information.md)  
 [Administration](admin-setup-and-administration.md)  

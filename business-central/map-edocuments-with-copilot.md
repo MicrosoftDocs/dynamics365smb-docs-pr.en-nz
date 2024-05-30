@@ -3,7 +3,7 @@ title: Map e-documents to purchase order lines with Copilot
 description: Learn about how to use Copilot to map e-documents to purchase order lines.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: altotovi
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.collection:
   - get-started
@@ -12,7 +12,7 @@ ms.date: 04/10/2024
 ms.custom: bap-template
 ---
 
-# <a name="map-e-documents-to-purchase-order-lines-with-copilot-preview"></a>Map e-documents to purchase order lines with Copilot (preview)
+# Map e-documents to purchase order lines with Copilot (preview)
 
 As procurement processes become more digital, the e-documents feature in Business Central plays a key role in automating the vendor invoice reception and processing. Copilot can help this process by improving the mapping and matching of vendor invoices to purchase orders. This reduces time-consuming tasks that would normally include extensive search, lookup, and data entry. The benefit is compounded by the fact that vendor invoices often don't relate exactly with purchase orders, in which case Copilot is better positioned to identify the corresponding purchase orders. Enhanced matching capabilities particularly benefit small and midsized organisations that need efficient document tracking for purchase order lines. Copilot is the AI-powered assistant for work that boosts creativity and improves productivity for Business Central users.
 
@@ -30,7 +30,7 @@ You can now update an existing purchase order in Business Central with the infor
 > - This feature is available as a production-ready preview for production and sandbox environments in any country localization, with the exception of Canada. Production-ready previews are subject to supplemental terms of use. For more information, see [Supplemental terms of use for Dynamics 365 preview](https://go.microsoft.com/fwlink/?linkid=2105274).
 > - AI-generated content may be incorrect.-->
 
-## <a name="to-activate-copilot"></a>To activate Copilot
+## To activate Copilot  
 
 If you didn't activate the **E-Document Matching Assistance** Copilot, you must do so manually. To enable the **E-Document Matching Assistance** copilot, follow these steps: 
 
@@ -39,7 +39,7 @@ If you didn't activate the **E-Document Matching Assistance** Copilot, you must 
 
 You can start using Copilot as soon as it's activated. 
 
-## <a name="identify-purchase-orders"></a>Identify purchase orders
+## Identify purchase orders
 
 First, you can identify the purchase orders that you can automatically match. If your **Vendor** has configured the **Receive E-Document To** field to work with **Purchase Orders**, once the electronic document is created in [!INCLUDE[prod_short](includes/prod_short.md)] (manually or from an external endpoint), [!INCLUDE[prod_short](includes/prod_short.md)] will do the following:
 
@@ -47,7 +47,7 @@ First, you can identify the purchase orders that you can automatically match. If
 This link will be visible in the **Document** field on this specific **E-Document**. If you need to change the **Purchase Order** linked automatically, you can do so by using the **Update Purchase Order Link** action and then manually choose one of the existing purchase orders for this vendor. You can only do so before matching the lines between **E-Document** and **Purchase Order**.  
 2. If the **Purchase Order** for this particular vendor *exists but there's no purchase order number* in the received **E-Document** file, if you uploaded this document manually, [!INCLUDE[prod_short](includes/prod_short.md)] allows you to choose from one of the existing purchase orders, opening the **Purchase Orders** list from the orders that you got from vendors containing only **E-Document**, where you need to select **Purchase Order** you want and select **OK**. If you don't select the right **Purchase Order**, or you got the **E-Document** automatically from an external endpoint using the **Job Queue**, the new **E-Document** won't be linked with any purchase document and the **Document Status** is shown as **Error** and the **E-Document Status** in the **Service Status** subpage is **Imported document processing error**. To finish linking the **Purchase Order**, choose the **Update Purchase Order Link** action, and then choose one of the existing purchase orders for this vendor.  
 
-## <a name="map-lines"></a>Map lines
+## Map lines
 
 Copilot helps you automatically match e-invoice lines with purchase order lines, and offers extra matching intelligence to improve the matches.
 
@@ -101,7 +101,7 @@ When you want to run matching from the purchase order, choose the **Map E-Docume
 > [!NOTE]
 > Price/Cost analyse, and the available quantity check is a part of preprocessing activity. 
 
-## <a name="see-also"></a>See also
+## See also
 
 [E-documents overview](finance-edocuments-overview.md)    
 [Use e-documents in sales](finance-how-use-edocuments.md)    

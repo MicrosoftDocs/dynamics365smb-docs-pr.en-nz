@@ -11,11 +11,11 @@ ms.author: kepontop
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="analytics-business-intelligence-and-reporting-overview"></a>Analytics, business intelligence, and reporting overview
+# Analytics, business intelligence, and reporting overview
 
 Small and mid-sized companies rely on built-in analytics and reporting capabilities they can use out-of-the-box to help keep track of their business. [!INCLUDE[prod_short](includes/prod_short.md)] provides reports and analytics tools that cover basic and complex business processes for such organisations. You can also do ad-hoc analyses directly from your home page.  
 
-## <a name="analytics-needs-in-organizations"></a>Analytics needs in organisations
+## Analytics needs in organisations
 
 When you think about analytics needs in organisations, it might help to use a mental model based on personas described on a high-level, and their different analytics needs.
 
@@ -34,7 +34,7 @@ Use the following sections to learn more about ways to consume data from [!INCLU
 - Ad-hoc analysis
 - Reports
 
-## <a name="using-financial-reports-to-produce-financial-statements-and-kpis"></a>Using Financial Reports to produce financial statements and KPIs
+## Using Financial Reports to produce financial statements and KPIs
 
 The Financial Reports feature gives you insight into the financial data stored in your chart of accounts (COA). You can set up financial reports to analyse figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries.
 
@@ -44,7 +44,7 @@ Dimensions play an important role in business intelligence. A dimension is data 
 
 To learn more about financial statements and KPIs, go to [Using Financial reporting to produce financial statements and KPIs](bi.md).
 
-## <a name="using-key-performance-indicators-to-meet-your-business-goals"></a>Using key performance indicators to meet your business goals
+## Using key performance indicators to meet your business goals
 
 A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. Think of KPIs as your company’s scorecard, a way to measure whether you’re delivering on your objectives.
 
@@ -59,7 +59,7 @@ Identifying and tracking KPIs lets you know whether your business is on the righ
 
 To learn more about KPIs, go to [Using key performance indicators to meet your business goals](./analytics-about-kpis.md)
 
-## <a name="ad-hoc-data-analysis"></a>Ad-hoc data analysis
+## Ad-hoc data analysis
 
 You might just want to check whether the numbers add up correctly, quickly confirm or debunk a hypothesis about the business, or maybe look for anomalies in your financial data. For ad-hoc analyses, you might not have a built-in report that helps answer your questions. For ad-hoc analyses, use these two features:
 
@@ -79,7 +79,7 @@ Similarly, you can use the **Open in Excel** action to open a list page, optiona
 
 To learn more about ad-how analyses, go to [Ad hoc data analysis](reports-adhoc-analysis.md).
 
-## <a name="reports"></a>Reports
+## Reports
 
 A report in [!INCLUDE[prod_short](includes/prod_short.md)] gathers information based on a specified set of criteria. Reports organise and present the information in an easy-to-read format you can use in Excel, print, or save as a file.  
 
@@ -105,7 +105,7 @@ The following table lists articles about how to use built-in reports in [!INCLUD
 | Learn about which built-in reports are available in [!INCLUDE[prod_short](includes/prod_short.md)]. |[Report Overview](reports-available-reports.md)| 
 | Use the Report Explorer to see all built-in reports. | [Exploring reports per Role](ui-role-explorer.md) |
 
-## <a name="external-business-intelligence-and-reporting-tools"></a>External business intelligence and reporting tools
+## External business intelligence and reporting tools
 
 If you prefer, you can use business intelligence tools that aren't embedded in [!INCLUDE[prod_short](includes/prod_short.md)]. The following table provides links to guidance and ways to use external tools.
 
@@ -117,7 +117,7 @@ If you prefer, you can use business intelligence tools that aren't embedded in [
 | Analyse Business Central data with Microsoft Fabric| [Introduction to Microsoft Fabric and Business Central](admin-fabric.md) |
 | Read data from Business Central using APIs | [Business Central API v2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/) |
 
-## <a name="analytics-by-functional-area"></a>Analytics by functional area
+## Analytics by functional area
 
 The content in this general article is also available in special versions for many functional areas in [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -129,7 +129,7 @@ The content in this general article is also available in special versions for ma
 | Fixed Assets Management | [Fixed assets analytics](fa-analytics-overview.md) |
 
 
-## <a name="see-also"></a>See also
+## See also
 
 [Using Financial reporting to produce financial statements and KPIs](bi.md)  
 [Using key performance indicators (KPIs) to meet your business goals](analytics-about-kpis.md)  

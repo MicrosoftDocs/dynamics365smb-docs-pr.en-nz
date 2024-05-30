@@ -1,21 +1,22 @@
 ---
-title: Basic Reports and Documents Output Quick Start
+title: Basic reports and documents output quick start
 description: 'Business Central offers built-in templates for reports and documents, with many customisation options to adapt them to your company''s needs.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: quickstart
 ms.search.form: null
-ms.date: 08/15/2022
-ms.author: bholtorf
+ms.date: 05/17/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
-# <a name="basic-reports-and-documents-output-quick-start"></a>Basic Reports and Documents Output Quick Start
+# Basic reports and documents output quick start
 
 To adapt [!INCLUDE[prod_short](includes/prod_short.md)] to your company needs, set and use reports and customised documents suited to your business' processes and visual identity.
 
-## <a name="add-your-company-logo-to-documents"></a>Add your company logo to documents
+## Add your company logo to documents
 
 [!INCLUDE[prod_short](includes/prod_short.md)] has templates set to use your company's logo to save you time customising documents such as invoices, orders, and statements.
 
@@ -23,9 +24,9 @@ To adapt [!INCLUDE[prod_short](includes/prod_short.md)] to your company needs, s
 2. Choose the **Picture** action and then select **Choose**.
 3. Select the picture file on your device.
 
-You can see the above instructions in [this YouTube video](https://www.youtube.com/watch?v=AatXbKF1NGg). Once the image is displayed in the **Picture** field, you can close the **Company Information** page.
+After the image displays in the **Picture** field, you can close the **Company Information** page.
 
-## <a name="run-reports"></a>Run reports
+## Run reports
 
 Reports organise information from different sources in [!INCLUDE[prod_short](includes/prod_short.md)] and present it in a readable way that can be easily printed or digitally shared. Reports can be found on the pages they're contextually associated with. For example, the **Items** page lists reports related to inventory levels, purchases, sales, and more.
 
@@ -37,7 +38,7 @@ Reports organise information from different sources in [!INCLUDE[prod_short](inc
 
 Learn more on filtering data, scheduling reports, and more at [Run and Print Reports](ui-work-report.md).
 
-## <a name="save-reports-as-pdf-excel-or-word-documents"></a>Save reports as PDF, Excel, or Word documents
+## Save reports as PDF, Excel, or Word documents
 
 To quickly share reports, you can save [!INCLUDE[prod_short](includes/prod_short.md)] reports directly to PDF, Microsoft Excel, or Microsoft Word documents.
 
@@ -46,7 +47,7 @@ To quickly share reports, you can save [!INCLUDE[prod_short](includes/prod_short
 3. Select the file type, then choose **OK**.
 r The generated report file is automatically saved to your browser's download folder.
 
-### <a name="change-report-and-document-layouts"></a>Change report and document layouts
+### Change report and document layouts
 
 [!INCLUDE[prod_short](includes/prod_short.md)] comes with many built-in layouts for your reports and other generated documents, such as sales invoices. You can use applications like Microsoft Word or Excel to edit the layout templates for documents and reports, as described in the following example:
 
@@ -63,7 +64,7 @@ r The generated report file is automatically saved to your browser's download fo
 
 Learn more about how to customise reports and documents to your business needs at [Report and Document Layouts](ui-manage-report-layouts.md).
 
-## <a name="see-also"></a>See also
+## See also
 
 [Use Reports in Daily Work](reports-use-reports.md)  
 [Available Reports in [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md)  

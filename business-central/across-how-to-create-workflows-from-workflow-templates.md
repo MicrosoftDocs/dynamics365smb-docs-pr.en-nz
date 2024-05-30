@@ -10,7 +10,7 @@ ms.date: 03/27/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="create-workflows-from-workflow-templates"></a>Create workflows from workflow templates
+# Create workflows from workflow templates
 
 On the **Workflow** page, you create a workflow by creating a series of workflow steps on the lines. Each step consists of a workflow event (When Event), moderated by event conditions (On Condition), and a workflow response (Then Response), moderated by response options. The fields on workflow lines provide fixed lists of event and response values that represent the scenarios that [!INCLUDE [prod_short](includes/prod_short.md)] supports. Learn more at [Create Workflows](across-how-to-create-workflows.md).
 
@@ -25,7 +25,7 @@ If you change a workflow template, but later regret the change, use the **Reset 
 
 Another way to quickly create a workflow is to import it, for example, if you exported it from another instance of [!INCLUDE[prod_short](includes/prod_short.md)]. Learn more at [Export and Import Workflows](across-how-to-export-and-import-workflows.md).  
 
-## <a name="to-create-a-workflow-from-a-workflow-template"></a>To create a workflow from a workflow template
+## To create a workflow from a workflow template
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, then choose the related link.  
 2. Choose the **New Workflow from Template** action. The **Workflow Templates** page opens.  
@@ -34,7 +34,7 @@ Another way to quickly create a workflow is to import it, for example, if you ex
    The **Workflow** page opens for a new workflow containing all the information of the selected template. The value in the **Code** field is extended with, for example, "-01" to indicate this is the first workflow created from the workflow template.  
 4. To customise the workflow, edit the workflow steps or add new steps. Learn more at [Create Workflows](across-how-to-create-workflows.md).  
 
-## <a name="see-also"></a>See also
+## See also
 
 [Create Approval Workflows](across-how-to-create-workflows.md)  
 [Export and Import Approval Workflows](across-how-to-export-and-import-workflows.md)  

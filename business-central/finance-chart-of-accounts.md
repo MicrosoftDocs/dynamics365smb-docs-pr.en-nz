@@ -11,7 +11,7 @@ ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="understanding-the-chart-of-accounts"></a>Understanding the Chart of Accounts
+# Understanding the Chart of Accounts
 
 A chart of accounts (COA) serves as a comprehensive directory of financial accounts and their corresponding reference numbers. A COA typically has of two main categories of accounts:
 
@@ -39,7 +39,7 @@ The composition of your company’s chart of accounts is a strategic decision ma
 * A technology company might focus on intangible assets like patents and software.
 * A manufacturing plant would track fixed assets and supplies.
 
-## <a name="the-chart-of-accounts-page"></a>The chart of accounts page
+## The chart of accounts page
 
 The chart of accounts shows all general ledger accounts. From the chart of accounts, you can do things like:  
 
@@ -51,11 +51,11 @@ The chart of accounts shows all general ledger accounts. From the chart of accou
 
 You can add, change, or delete general ledger accounts. However, to prevent discrepancies, you can't delete a general ledger account if its data is used in the chart of accounts. Also, you can block the accidental deletion of accounts in sensitive periods. To learn more about protecting accounts from deletion, go to [Deleting accounts](finance-setup-chart-accounts.md#delete-accounts).  
 
-## <a name="the-code-hierarchy-in-gl-accounts"></a>The code hierarchy in G/L accounts
+## The code hierarchy in G/L accounts
 
 Businesses typically create a hierarchical structure in G/L account codes to reflect where they belong in the chart of accounts. For instance, in some implementations, G/L account codes that start with **1** denotes asset accounts, whereas G/L account codes that start with 3 denotes equity accounts. In some regions, there are local regulations for using a standard chart of accounts. To help users understand this hierarchy without the need to know the internal code structure, you can define headers and subtotals in your chart of accounts that encapsulate these internal structures.
 
-## <a name="designing-your-chart-of-accounts"></a>Designing your chart of accounts
+## Designing your chart of accounts
 
 Each line in the chart of accounts is a G/L account of one of the types:
 
@@ -70,17 +70,17 @@ A minimalist chart of accounts can consist of only lines of posting accounts. Yo
 > [!TIP]
 > If you use account types other than **Posting** in your chart of accounts, you can define different views to show the "raw" posting accounts without the reporting-type account types for totalling and headings. For example, Show only posting accounts and Hide blocked accounts.
 
-## <a name="use-dimensions-to-simplify-your-chart-of-accounts"></a>Use dimensions to simplify your chart of accounts
+## Use dimensions to simplify your chart of accounts
 
 Dimensions are values that categorise entries so you can track and analyse them on documents, such as sales orders. Dimensions can, for example, indicate the project or department an entry came from. So, instead of setting up separate general ledger accounts for each department and project, you can use dimensions as a basis for analysis and avoid having to create a complicated chart of accounts.
 
 To learn more about dimensions, go to [Work with Dimensions](finance-dimensions.md).
 
-## <a name="get-a-quick-overview-of-your-finances"></a>Get a quick overview of your finances
+## Get a quick overview of your finances
 
 The **Chart of Accounts** page displays accounts in a hierarchical list that offers fast access to the key information for each account. However, the list is static, and if you have many accounts, you might have to scroll to view different accounts. If you just want a quick overview of the basics, such as net changes and balances, the **Chart of Accounts Overview** page is a useful alternative. The column layout on the page is the same as the **Chart of Accounts** page (though with fewer columns), so it's easy to understand. You can expand or collapse the hierarchical levels. To make it easy to switch between the pages, the **Chart of Accounts Overview** page is available from the **Chart of Accounts** page.
 
-## <a name="access-to-create-and-edit-the-chart-of-accounts"></a>Access to create and edit the chart of accounts
+## Access to create and edit the chart of accounts
 
 In a small organisation, such as the CRONUS demonstration company, most users can edit the chart of accounts, except those users with a TEAM MEMBER licence. However, larger organisations typically use roles and permissions to limit access to editing the chart of accounts. If you're an administrator, or have the Business Manager or Accountant role, you can control user permissions to give the right people access to the relevant tables. To learn more, go to [Get an overview of a user's permissions](ui-define-granular-permissions.md#get-an-overview-of-a-users-permissions).  
 
@@ -95,7 +95,7 @@ Here are some examples of such standards that have been implemented in localized
 * [Standard chart of accounts in Denmark](localfunctionality/denmark/how-to-set-up-standard-coa.md)
 -->
 
-## <a name="chart-of-accounts-best-practices"></a>Chart of accounts best practices
+## Chart of accounts best practices
 
 Here are some best practices that you might consider when you develop and maintaining your charts of accounts:
 
@@ -105,7 +105,7 @@ Here are some best practices that you might consider when you develop and mainta
 * Use dimensions to simplify your chart of accounts. Don't have specific G/L accounts for each product or department.
 * Add new G/L accounts as they come in, but remove accounts from your chart of accounts only during period-end of your finance period.
 
-## <a name="see-also"></a>See also
+## See also
 
 [Set Up or Changing the Chart of Accounts](finance-setup-chart-accounts.md)  
 [Understand the general ledger](finance-general-ledger.md)

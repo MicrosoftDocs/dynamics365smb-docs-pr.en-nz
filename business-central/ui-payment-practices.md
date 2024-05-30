@@ -10,7 +10,7 @@ ms.date: 04/23/2024
 ms.author: altotovi
 --- 
 
-# <a name="payment-practices-report"></a>Payment practices report
+# Payment practices report  
 
 Some countries/regions require that companies report payment times for their vendors as defined by local authorities. This reporting can be based on different sources and can sort vendors based on their size or defined payment terms, providing reporting for vendors for the following as required by local authorities:  
 
@@ -23,7 +23,7 @@ Users can select the period for which they want to run a calculation and to find
 > [!NOTE]
 > This reporting is so far required in some countries, but this is a global feature and can be used everywhere. Currently, each year Swedish companies with 250 and more employees must report to the Swedish Companies Registration Office what payment times they have for purchases from companies that are smaller than themselves. Similar acts exist in the United Kingdom, Australia, and New Zealand.  
 
-## <a name="generate-the-report"></a>Generate the report
+## Generate the report 
 
 To run the **Payment Practices** report, use the following steps:
 
@@ -47,7 +47,7 @@ To run the **Payment Practices** report, use the following steps:
 6. From all of calculated fields, you can go deeper to see how this result has been calculated, opening the **Payment Practice Data List** page.
 7. If you want to print the document, you can do it by running the **Print** action.
 
-## <a name="see-also"></a>See also
+## See also
 
 [Finance reports](finance-reports.md)  
 [Analysing Financial Statements in Microsoft Excel](finance-analyze-excel.md)  
