@@ -10,11 +10,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Send reminders of outstanding balances
+# <a name="send-reminders-of-outstanding-balances"></a>Send reminders of outstanding balances
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## See Also
+## <a name="see-also"></a>See Also
 
 [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)  
 [Set Up Multiple Interest Rates for Delayed Payment](finance-how-to-set-up-multiple-interest-rates.md)  

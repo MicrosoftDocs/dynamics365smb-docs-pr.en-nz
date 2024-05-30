@@ -11,7 +11,7 @@ ms.date: 05/15/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Acquire fixed assets
+# <a name="acquire-fixed-assets"></a>Acquire fixed assets
 
 Use the **Fixed Asset Card** page to enter information about an asset. You can set up buildings or production equipment as a main asset with a component list, and you can group them in various ways, such as by class, department, or location. You must set up and assign a depreciation book to each fixed asset before you can acquire it.
 
@@ -19,7 +19,7 @@ After you set up a fixed asset and assign a depreciation book, you must acquire 
 
 Use indexation to adjust values for general price-level changes. Use the **Index Fixed Assets** batch job to calculate the acquisition costs and replacement costs.
 
-## Add a fixed asset to your list of fixed assets
+## <a name="add-a-fixed-asset-to-your-list-of-fixed-assets"></a>Add a fixed asset to your list of fixed assets
 
 Before you can acquire a fixed asset, you must add it to your list of assets. There are several ways to add fixed assets to your list:
 
@@ -30,7 +30,7 @@ Before you can acquire a fixed asset, you must add it to your list of assets. Th
 
 After you add fixed assets to your list, the next step is to acquire them so you can use them in transactions. Learn more at [Acquire a fixed asset](#acquire-fixed-assets).
 
-### Add a fixed asset on the Fixed Asset Card page
+### <a name="add-a-fixed-asset-on-the-fixed-asset-card-page"></a>Add a fixed asset on the Fixed Asset Card page
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.  
 2. Choose the **New** action, and then fill in the fields on the **General** FastTab as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -39,7 +39,7 @@ After you add fixed assets to your list, the next step is to acquire them so you
 
     After you fill in the required fields, the **You are ready to acquire the fixed asset.** notification appears at the top of the page. If you're ready to acquire the asset now, choose the **Acquire** action. Follow the steps on the **Assisted Fixed Asset Acquisition** page to complete the acquisition. If you aren't ready, you can always acquire the asset later.
 
-### Use Edit in Excel to add assets
+### <a name="use-edit-in-excel-to-add-assets"></a>Use Edit in Excel to add assets
 
 If you want to add numerous fixed assets, Edit in Excel is a great tool to use. The tool downloads your current list of assets in a worksheet that includes most of the fields available on the Fixed Asset Card page. You can fill in some or all of fields on a row for each asset, and publish your changes to add them to your list in [!INCLUDE [prod_short](includes/prod_short.md)]. If you can't fill in all required field, that's ok. You can update them in [!INCLUDE [prod_short](includes/prod_short.md)] when you're ready.
 
@@ -55,7 +55,7 @@ If you want to add numerous fixed assets, Edit in Excel is a great tool to use. 
 
 4. To update [!INCLUDE [prod_short](includes/prod_short.md)], on the **Microsoft Dynamics** pane, choose **Publish**.
 
-### Add a fixed asset from a purchase order or invoice
+### <a name="add-a-fixed-asset-from-a-purchase-order-or-invoice"></a>Add a fixed asset from a purchase order or invoice
 
 The following steps describe how to add a fixed asset from a purchase order. The steps are similar for a purchase invoice.
 
@@ -66,7 +66,7 @@ The following steps describe how to add a fixed asset from a purchase order. The
 5. In the **No.** field, either choose an existing fixed asset to add an expense, or choose **New** to add a new asset.
 6. After you enter the information for the new asset and the purchase order, choose **Post**.
 
-## Acquire a fixed asset by using a fixed asset G/L journal
+## <a name="acquire-a-fixed-asset-by-using-a-fixed-asset-gl-journal"></a>Acquire a fixed asset by using a fixed asset G/L journal
 
 The following procedure describes how to acquire by creating and posting the required fixed asset G/L journal lines. You can also create and post the journal lines manually. To learn more, go to [Acquire a fixed asset by using a fixed asset G/L journal](#acquire-a-fixed-asset-by-using-a-fixed-asset-gl-journal).
 
@@ -79,7 +79,7 @@ The following procedure describes how to acquire by creating and posting the req
 
 When you choose **Finish**, the **Book Value** field on the **Fixed Asset Card** page is filled in, which indicates that the fixed asset was acquired at the specified acquisition cost.  
 
-## To post a fixed asset acquisition manually with a fixed asset G/L journal
+## <a name="to-post-a-fixed-asset-acquisition-manually-with-a-fixed-asset-gl-journal"></a>To post a fixed asset acquisition manually with a fixed asset G/L journal
 
 The following procedure describes how to acquire a fixed asset manually by creating and posting lines on the **Fixed Asset G/L Journal** page. You can also acquire a fixed asset automatically on the **Fixed Asset Card** page by choosing the **Acquire fixed asset** action. To learn more, go to [Acquire a fixed asset](#acquire-fixed-assets).
 
@@ -94,7 +94,7 @@ The following procedure describes how to acquire a fixed asset manually by creat
 > [!TIP]  
 > If you fill in the **Insurance No.** field, [!INCLUDE[prod_short](includes/prod_short.md)] also posts the acquisition cost of the fixed asset to the insurance coverage ledger. To learn more, go to [Insure Fixed Assets](fa-how-insure.md).
 
-## To set up a component list for a main asset
+## <a name="to-set-up-a-component-list-for-a-main-asset"></a>To set up a component list for a main asset
 
 You can group your fixed assets into main assets and their components. For example, you might have a production machine that consists of several parts that you want to group in this manner.  
 
@@ -108,7 +108,7 @@ You must set up the main asset and all its components as individual fixed asset.
 6. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset Setup**, and then choose the related link.
 7. Turn on the **Allow Posting to Main Assets** toggle.
 
-## To cancel an acquisition cost posting for one fixed asset
+## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>To cancel an acquisition cost posting for one fixed asset
 
 If you make an error when posting an acquisition cost, you can remove the entry with the **Cancel FA Entries** batch job and then post the correct acquisition entry. The erroneous entries are transferred to the **FA Error Ledger Entries** page.
 
@@ -124,7 +124,7 @@ For example, if you post an acquisition with the wrong date, you must correct it
 5. Choose the **OK** button to run the batch job.
 6. When the incorrect entry or entries are cancelled, proceed to post the correct acquisition cost.
 
-## To post the salvage value together with the acquisition cost
+## <a name="to-post-the-salvage-value-together-with-the-acquisition-cost"></a>To post the salvage value together with the acquisition cost
 
 The salvage value is the residual value of a fixed asset when it can no longer be used. You can post the salvage value at the same time as you post the acquisition cost. To learn more, go to [Depreciate or Amortize Fixed Assets](fa-how-depreciate-amortize.md).
 
@@ -141,7 +141,7 @@ You can post the salvage value together with the acquisition cost from a fixed a
 > [!NOTE]
 > If a salvage value exists for a fixed asset, that value is used in depreciation posting instead of the value in the **Ending Book Value** field on the **FA Depreciation Books** page. To learn more, go to [To manage the ending book value](fa-how-depreciate-amortize.md#to-manage-the-ending-book-value).
 
-## See also
+## <a name="see-also"></a>See also
 
 [Fixed Assets](fa-manage.md)  
 [Setting Up Fixed Assets](fa-setup.md)  

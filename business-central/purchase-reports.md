@@ -10,15 +10,15 @@ ms.search.form: 'Report_311, Report_312, Report_313, Report_320, Report_709, Rep
 ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ---
-# Purchase reporting and analytics
+# <a name="purchase-reporting-and-analytics"></a>Purchase reporting and analytics
 
 Purchase reporting gives procurement and business professionals insights and statistics about current and past purchase activities.  
 
-## Reports
+## <a name="reports"></a>Reports
 
 [!INCLUDE [purchase_reports](includes/purchase-reports-include.md)]
 
-## Tasks
+## <a name="tasks"></a>Tasks
 
 The following articles describe some of the key tasks for analysing the state of your purchasing:
 
@@ -26,7 +26,7 @@ The following articles describe some of the key tasks for analysing the state of
 - [Calculate Dates for purchases](purchasing-date-calculation-for-purchases.md)
 - [View purchase ledger entries](purchasing-how-record-purchases.md#viewing-ledger-entries)
 
-## Explore purchase reports with Report Explorer
+## <a name="explore-purchase-reports-with-report-explorer"></a>Explore purchase reports with Report Explorer
 
 To get an overview of the reports that are available for purchasing, choose **All Reports** on your Home page. This action opens the Role Explorer, which is filtered to the features in the **Report & Analysis** option. Under the **Purchasing** heading, choose **Explore**.
 
@@ -34,7 +34,7 @@ To get an overview of the reports that are available for purchasing, choose **Al
 
 To learn more, go to [Finding Reports with the Role Explorer](ui-role-explorer.md). 
 
-## See also
+## <a name="see-also"></a>See also
 
 [Ad-hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)  
 [Purchasing analytics overview](purchasing-analytics-overview.md)   

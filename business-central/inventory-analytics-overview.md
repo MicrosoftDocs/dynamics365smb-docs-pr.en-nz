@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Inventory analytics
+# <a name="inventory-analytics"></a>Inventory analytics
 
 Businesses capture lots of data during daily activities that supports business intelligence (BI) for inventory managers:
 
@@ -31,7 +31,7 @@ Each of these features has its advantages and disadvantages, depending on the ty
 
 This article introduces how you can use these analytical features to gain insights into your inventory.
 
-## Analytics needs in inventory
+## <a name="analytics-needs-in-inventory"></a>Analytics needs in inventory
 
 When you think about the analytics needs in inventory management, it might help to use a persona-based model that describes different analytics needs at a high-level.
 
@@ -48,14 +48,14 @@ People in different roles have different needs when it comes to data, and they u
 |Warehouse worker   | Detailed data     | Built-in operational reports, on-screen task data |
 
 <!-- 
-## Inventory KPIs
+## <a name="inventory-kpis"></a>Inventory KPIs
 
 A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In inventory management, people often use the following KPIs to monitor their organization's sales performance:
 
 - TODO  
 -->
 
-## Use financial reporting to produce financial statements and KPIs related to inventory
+## <a name="use-financial-reporting-to-produce-financial-statements-and-kpis-related-to-inventory"></a>Use financial reporting to produce financial statements and KPIs related to inventory
 
 The **Financial Reporting** feature gives you insights into the financial data shown on your chart of accounts (COA). You can set up financial reports to analyse figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. Specifically for inventory management, you can set up financial reports on the general ledger (G/L) accounts that you use to track inventory postings.
 
@@ -63,13 +63,13 @@ Dimensions play an important role in business intelligence. A dimension is data 
 
 To learn more about financial reports, go to [Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md).
 
-## Finance reporting across business units or legal entities (related to inventory)
+## <a name="finance-reporting-across-business-units-or-legal-entities-related-to-inventory"></a>Finance reporting across business units or legal entities (related to inventory)
 
 Some organisations use [!INCLUDE [prod_short](includes/prod_short.md)] in multiple business units or legal entities. Others use [!INCLUDE [prod_short](includes/prod_short.md)] in subsidiaries that report to parent organisations. [!INCLUDE [prod_short](includes/prod_short.md)] gives accountants tools that help them transfer general ledger entries from two or more companies (subsidiaries) into a consolidated company. Specifically for inventory management, you might want to consolidate general ledger entries for your inventory accounts to be able to track sales KPIs across business units or legal entities.
 
 To learn more, go to [Company consolidation](finance-consolidated-company-reporting.md).
 
-## Ad-hoc analysis of inventory data
+## <a name="ad-hoc-analysis-of-inventory-data"></a>Ad-hoc analysis of inventory data
 
 Sometimes, you just need to check whether the numbers add up correctly, or quickly confirm a figure. The following features are great for ad-hoc analyses:
 
@@ -89,7 +89,7 @@ Similarly, you can use the **Open in Excel** action to open a list page, optiona
 
 To learn more about how to do ad-hoc analysis on inventory data, go to [Ad hoc analysis of inventory data](ad-hoc-analysis-inventory.md).
 
-## Built-in reports for inventory
+## <a name="built-in-reports-for-inventory"></a>Built-in reports for inventory
 
 [!INCLUDE [prod_short](includes/prod_short.md)] includes several built-in reports, tracing functions, and tools to help inventory organisations report on their data.
 
@@ -104,7 +104,7 @@ To get an overview of available reports, choose **All Reports** on your Home pag
 
 To learn more about reports that are relevant for inventory, go to [Built-in inventory and warehouse reports](inventory-WMS-reports.md).
 
-## On-screen inventory analytics
+## <a name="on-screen-inventory-analytics"></a>On-screen inventory analytics
 
 [!INCLUDE [prod_short](includes/prod_short.md)] has several pages that give you inventory overviews and tasks to do. Here are some examples to get you started:
 
@@ -120,7 +120,7 @@ The sales module also include analytics pages related to inventory:
 - [Calculate delivery dates for sales orders](sales-date-calculation-for-sales.md)
 - [Track packages](sales-how-track-packages.md)
 
-### Show inventory-related general ledger entries and balances from the Chart of Accounts page
+### <a name="show-inventory-related-general-ledger-entries-and-balances-from-the-chart-of-accounts-page"></a>Show inventory-related general ledger entries and balances from the Chart of Accounts page
 
 The **Chart of Accounts** page shows all general ledger accounts with aggregated numbers posted to the general ledger. From this page, you can do things like:  
 
@@ -134,7 +134,7 @@ Specifically for inventory management, you can create a view on the Chart of Acc
 
 To learn more, go to [Understand the Chart of Accounts](finance-general-ledger.md#the-chart-of-accounts).
 
-### Analyse inventory data by dimensions
+### <a name="analyze-inventory-data-by-dimensions"></a>Analyse inventory data by dimensions
 
 Dimensions are values that categorise entries so you can track and analyse them on documents, such as sales orders. Dimensions can, for example, indicate the project or department an entry came from.  
 
@@ -142,7 +142,7 @@ So, instead of setting up separate general ledger accounts for each department o
 
 To learn more, go to [Analyse Data by Dimensions](bi-how-analyze-data-dimension.md).
 
-## See also
+## <a name="see-also"></a>See also
 
 [Company consolidation](finance-consolidated-company-reporting.md)   
 [Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md)  
