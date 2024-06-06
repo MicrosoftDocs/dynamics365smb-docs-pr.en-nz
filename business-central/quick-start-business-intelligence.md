@@ -11,7 +11,7 @@ ms.date: 05/15/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Business intelligence quick start
+# <a name="business-intelligence-quick-start"></a>Business intelligence quick start
 
 Being able to collect and analyse the ever-increasing amounts of data in an actionable way is an invaluable part of doing business these days. [!INCLUDE[prod_short](includes/prod_short.md)] offers many business intelligence (BI) tools&mdash;both built-in and integrated with other services&mdash;to help your company in the decision-making process.
 
@@ -28,7 +28,7 @@ Different roles in organizations often have preferred ways to consume and analyz
 
 To learn more about analytics, go to [Analytics overview](reports-bi-reporting.md).
 
-## Analytics by functional area
+## <a name="analytics-by-functional-area"></a>Analytics by functional area
 
 The following table provides links to articles that describe how to work with analytics in specific functional areas in [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -39,7 +39,7 @@ The following table provides links to articles that describe how to work with an
 | Purchasing | [Purchasing analytics](purchasing-analytics-overview.md) |
 | Fixed Assets Management | [Fixed assets analytics](fa-analytics-overview.md) |
 
-## See also
+## <a name="see-also"></a>See also
 
 [Analytics overview](reports-bi-reporting.md)  
 [Business Central Quick Starts](quick-start-business-central.md)  
