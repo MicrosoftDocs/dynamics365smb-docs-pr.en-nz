@@ -9,11 +9,11 @@ ms.date: 11/24/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="print-deposit-slip-reports-in-the-new-zealand-version"></a>Print deposit slip reports in the New Zealand version
+# Print deposit slip reports in the New Zealand version
 
 [!INCLUDE [print-deposit-slip-reports](../includes/AUNZ/print-deposit-slip-reports.md)]
 
-## <a name="see-also"></a>See also
+## See also
 
 [New Zealand Local Functionality](new-zealand-local-functionality.md)
 

@@ -10,7 +10,7 @@ ms.search.form: '1002, 1007,'
 ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="invoice-projects"></a>Invoice Projects
+# Invoice Projects
 
 During the project, project costs from resource usage, materials, and project-related purchases can accumulate. As the project progresses, these transactions get posted to the project journal. It is important that all costs get recorded in the project journal before you invoice the customer.
 
@@ -24,7 +24,7 @@ You can invoice the whole project from the **Project Task Lines** page or only i
 
 You can also invoice a company that is not the end customer. Sometimes the party that a project is for is different from the party that is paying the bill. On the **Projects** page, you can specify the customer who will benefit from the project in the **Sell-to** fields, and the party to invoice in the **Bill-to** fields.
 
-## <a name="to-create-multiple-project-sales-invoices"></a>To create multiple project sales invoices
+## To create multiple project sales invoices
 
 You can create an invoice for a project or for one or more project tasks for a customer when either the work to be invoiced is complete or the date for invoicing based on an invoicing schedule has been reached.
 
@@ -40,7 +40,7 @@ You can review and post created invoices in the **Sales Invoices** window.
 > [!NOTE]
 > Alternatively, invoice a customer by selecting the project, and then choosing the **Create Sales Invoice** action. 
 
-## <a name="to-create-and-post-project-sales-invoice-from-project-planning-lines"></a>To create and post project sales invoice from project planning lines
+## To create and post project sales invoice from project planning lines
 
 You can create an invoice from a project planning lines, and indicate at that time the quantity of the item, resource, or general ledger account that you want to invoice.
 
@@ -59,7 +59,7 @@ You can create an invoice from a project planning lines, and indicate at that ti
 > [!NOTE]  
 > The above procedure is similar for creating, reviewing, and posting a project-related sales credit memo.
 
-## <a name="see-also"></a>See also
+## See also
 
 [Managing Projects](projects-manage-projects.md)  
 [Finance](finance.md)  

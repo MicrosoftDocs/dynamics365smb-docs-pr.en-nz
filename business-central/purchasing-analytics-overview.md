@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="analytics-in-purchasing"></a>Analytics in purchasing
+# Analytics in purchasing
 
 Businesses capture lots of data during daily activities that supports business intelligence (BI) for purchasing managers:
 
@@ -30,7 +30,7 @@ Each of these features has advantages and disadvantages, depending on the type o
 
 This article introduces how you can use these analytical features to gain purchasing insights.
 
-## <a name="analytics-needs-in-purchasing"></a>Analytics needs in purchasing
+## Analytics needs in purchasing
 
 When you think about the analytics needs in purchasing, it might help to use a persona-based model that describes different analytics needs at a high-level.
 
@@ -47,14 +47,14 @@ People in different roles have different needs when it comes to data, and they u
 |Purchasing Officer / Purchasing Agent | Detailed data     | Built-in operational reports <br> On-screen task data |
 
 <!-- 
-## <a name="purchasing-kpis"></a>Purchasing KPIs
+## Purchasing KPIs
 
 A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In purchasing management, people often use the following KPIs to monitor their organization's purchasing performance:
 
 - TODO  
 -->
 
-## <a name="use-financial-reporting-to-produce-financial-statements-and-kpis-related-to-purchasing"></a>Use financial reporting to produce financial statements and KPIs (related to purchasing)
+## Use financial reporting to produce financial statements and KPIs (related to purchasing)
 
 The **Financial Reporting** feature gives you insights into the financial data shown on your chart of accounts (COA). You can set up financial reports to analyse figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. Specifically for purchasing, you can set up financial reports on the general ledger (G/L) accounts that you use to track purchase postings.
 
@@ -62,13 +62,13 @@ Dimensions play an important role in business intelligence. A dimension is data 
 
 To learn more about financial reports, go to [Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md).
 
-## <a name="finance-reporting-across-business-units-or-legal-entities-related-to-purchasing"></a>Finance reporting across business units or legal entities (related to purchasing)
+## Finance reporting across business units or legal entities (related to purchasing)
 
 Some organisations use [!INCLUDE [prod_short](includes/prod_short.md)] in multiple business units or legal entities. Others use [!INCLUDE [prod_short](includes/prod_short.md)] in subsidiaries that report to parent organisations. [!INCLUDE [prod_short](includes/prod_short.md)] gives accountants tools that help them transfer general ledger entries from two or more companies (subsidiaries) into a consolidated company. Specifically for purchasing management, you might want to consolidate general ledger entries for your purchasing accounts to track sales KPIs across business units or legal entities.
 
 To learn more, go to [Company consolidation](finance-consolidated-company-reporting.md).
 
-## <a name="ad-hoc-analysis-of-purchasing-data"></a>Ad-hoc analysis of purchasing data
+## Ad-hoc analysis of purchasing data
 
 Sometimes, you just need to check whether the numbers add up correctly, or quickly confirm a figure. The following features are great for ad-hoc analyses:
 
@@ -88,7 +88,7 @@ Similarly, you can use the **Open in Excel** action to open a list page, filter 
 
 To learn more about how to do ad-hoc analysis on purchasing data, go to [Ad hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md).
 
-## <a name="built-in-reports-for-purchasing"></a>Built-in reports for purchasing
+## Built-in reports for purchasing
 
 [!INCLUDE [prod_short](includes/prod_short.md)] includes several built-in reports, tracing functions, and tools to help purchasing organisations report on their data.
 
@@ -103,7 +103,7 @@ To get an overview of available reports, choose **All Reports** on the top of yo
 
 To learn more about reports that are relevant for purchasing, go to [Built-in purchasing reports](purchase-reports.md).
 
-## <a name="on-screen-purchasing-analytics"></a>On-screen purchasing analytics
+## On-screen purchasing analytics
 
 [!INCLUDE [prod_short](includes/prod_short.md)] has several pages that give you purchasing overviews and tasks to do. Here's an example to get you started:
 
@@ -112,7 +112,7 @@ To learn more about reports that are relevant for purchasing, go to [Built-in pu
 - [View purchase ledger entries](purchasing-how-record-purchases.md#viewing-ledger-entries)
 
 
-### <a name="show-purchasing-related-general-ledger-entries-and-balances-from-the-chart-of-accounts-page"></a>Show purchasing-related general ledger entries and balances from the Chart of Accounts page
+### Show purchasing-related general ledger entries and balances from the Chart of Accounts page
 
 The Chart of Accounts page shows all general ledger accounts with aggregated numbers posted to the general ledger. From this page, you can do things like:  
 
@@ -126,7 +126,7 @@ Specifically for purchasing, you can create a view on the Chart of Accounts page
 
 To learn more, go to [Understand the Chart of Accounts](finance-general-ledger.md#the-chart-of-accounts).
 
-### <a name="analyze-data-by-dimensions-related-to-purchasing"></a>Analyse data by dimensions (related to purchasing)
+### Analyse data by dimensions (related to purchasing)
 
 Dimensions are values that categorise entries so you can track and analyse them on documents, such as purchase orders. Dimensions can, for example, indicate the project or department an entry came from.  
 
@@ -134,7 +134,7 @@ So, instead of setting up separate general ledger accounts for each department o
 
 To learn more, go to [Analyse Data by Dimensions](bi-how-analyze-data-dimension.md).
 
-## <a name="see-also"></a>See also
+## See also
 
 [Company consolidation](finance-consolidated-company-reporting.md)  
 [Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md)  

@@ -10,7 +10,7 @@ ms.date: 02/13/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="posting-sales"></a>Posting sales
+# Posting sales
 
 Under the **Posting** menu in a sales document, you can choose between the following posting functions:
 
@@ -36,17 +36,17 @@ For each sales order line, an item ledger entry will be created in the **Item Le
 
 You can either post, or post and send. If you choose to post and send, a PDF file is generated that you can then send. You can also choose the **Post Batch** function, which lets you post several orders at the same time. For more information, see [Post Multiple Documents at the Same Time](ui-batch-posting.md).
 
-## <a name="viewing-ledger-entries"></a>Viewing ledger entries
+## Viewing ledger entries
 
 When the posting is completed, the posted sales lines are removed from the order. A message tells you when the posting is completed. After this, you'll be able to see the posted entries in the various pages that contain posted entries, such as the **Cust. Ledger Entries**, **G/L Entries**, **Item Ledger Entries**, **Posted Sales Shipments**, and **Posted Sales Invoices** pages.  
 
 In most cases, you can open ledger entries from the affected card or document. For example, on the **Customer Card** page, choose the **Ledger Entries** action.
 
-## <a name="editing-ledger-entries"></a>Editing ledger entries
+## Editing ledger entries
 
 You can edit certain fields on posted purchase documents, such as the **Package Tracking No.** field. For more information, see [Edit Posted Documents](across-edit-posted-document.md). For more critical fields that affect the auditing trail, you must reverse or undo posting. For more information, see [Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md).
 
-## <a name="see-also"></a>See also
+## See also
 
 [Sales](sales-manage-sales.md)  
 [Post Multiple Documents at the Same Time](ui-batch-posting.md)  
