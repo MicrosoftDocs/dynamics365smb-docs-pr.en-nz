@@ -11,7 +11,7 @@ ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="setting-up-project-management"></a>Setting up project management
+# Setting up project management
 
 Before you can use [!INCLUDE[prod_short](includes/prod_short.md)] to manage projects, you must set up resources, time sheets, and projects.
 
@@ -26,7 +26,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | Enable resources to report time usage for an individual or a machine and enable a manager to review the usage and its allocation. |[Set Up Time Sheets](projects-how-setup-time-sheets.md) |
 | Create project cards and prepare project tasks. Set up prices for project items and project resources and define project posting groups. |[Set Up Projects](projects-how-setup-jobs.md) |
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Managing Projects](projects-manage-projects.md)  
 [Video: How to create a project in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

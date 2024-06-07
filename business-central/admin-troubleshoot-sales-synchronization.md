@@ -11,7 +11,7 @@ ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="troubleshoot-synchronization-errors"></a>Troubleshoot synchronisation errors
+# Troubleshoot synchronisation errors
 
 There are lots of moving parts involved in integrating [!INCLUDE[prod_short](includes/prod_short.md)] with [!INCLUDE[prod_short](includes/cds_long_md.md)], and sometimes things go wrong. This article points out some of the typical errors that occur and gives some pointers for how to fix them.
 
@@ -33,7 +33,7 @@ The following are some tools on the Integration Synchronisation Errors page that
 * The **Delete Entries Older than 7 Days** and the **Delete All Entries** actions clean up the list. Typically, you use these actions after you resolve the cause of an error that affects many records. Use caution, however. These actions might delete errors that are still relevant.
 * The **Show Error Call Stack** action shows information that can help identify the cause of the error. If you can't resolve the error yourself and you decide to submit a support request, include the information in the support request.
 
-## <a name="see-also"></a>See also
+## See also
 
 [Integrating with Microsoft Dataverse](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Setting Up User Accounts for Integrating with Microsoft Dataverse](admin-setting-up-integration-with-dynamics-sales.md)  

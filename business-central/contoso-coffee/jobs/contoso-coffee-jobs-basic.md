@@ -8,7 +8,7 @@ ms.date: 05/31/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="walkthrough-of-basic-jobs"></a>Walkthrough of Basic Jobs
+# Walkthrough of Basic Jobs
 
 This walkthrough demonstrates several core processes:
 
@@ -16,13 +16,13 @@ This walkthrough demonstrates several core processes:
 - Record expenses for time and material to a project
 - Invoice a project
 
-## <a name="adding-a-project-task"></a>Adding a project task
+## Adding a project task
 
-### <a name="scenario"></a>Scenario
+### Scenario  
 
 Simon, the project manager, wants to be record time spent teaching the customer how to use the espresso machine product. Simon wants to use a separate task in the job for installing a commercial machine on-site.
 
-### <a name="steps"></a>Steps
+### Steps
 
 1. Create the Project Task.
 
@@ -38,17 +38,17 @@ Simon, the project manager, wants to be record time spent teaching the customer 
    1. In the Tasks area, locate the **Indent Project Tasks** action.
    2. Confirm your wish to indent tasks by selecting **Yes**.
 
-### <a name="results"></a>Results
+### Results
 
  - Now time and expenses can be recorded to the new project task
 
-## <a name="record-time-and-material-expenses-to-a-project"></a>Record time and material expenses to a project
+## Record time and material expenses to a project
 
-### <a name="scenario-1"></a>Scenario
+### Scenario  
 
 Edgin, the technician installing the machine, needs to record the time and the materials used during installation to the job for billing. Edgin already added the travel and materials, and now needs to add the time for teaching staff how to use the machine.
 
-### <a name="steps-1"></a>Steps
+### Steps
 
 1. Create the extra project journal lines.
 
@@ -64,20 +64,20 @@ Edgin, the technician installing the machine, needs to record the time and the m
    1. Choose the **Post** action.
    2. Confirm your wish to post the lines by selecting **Yes**.
 
-### <a name="results-1"></a>Results
+### Results
 
 - Project Ledger Entries and Resource Ledger Entries of type *Usage* are created.
 - Item Ledger Entries are created to negatively adjust the inventory.
 - On the Project Card, the Costs and Prices in the Tasks area reflect the new balances waiting to be invoiced.
 - On the Project Card, the Project Details FactBox reflects the totals of the prices.
 
-## <a name="creating-a-sales-invoice-for-a-project"></a>Creating a sales invoice for a project
+## Creating a sales invoice for a project
 
-### <a name="scenario-2"></a>Scenario
+### Scenario  
 
 Simon needs to create and post an invoice to be sent to the customer with the time and expenses from the project.
 
-### <a name="steps-2"></a>Steps
+### Steps
 
 1. Create the sales invoice.
 
@@ -92,7 +92,7 @@ Simon needs to create and post an invoice to be sent to the customer with the ti
    2. Select the last invoice to open it for review.
    3. Choose the **Post** action.
 
-### <a name="results-2"></a>Results
+### Results
 
 - Project Ledger Entries and Resource Ledger Entries of type *Sales* are created.
 - On the Project Card, the Costs and Prices in the Tasks area reflect the new invoiced balances.

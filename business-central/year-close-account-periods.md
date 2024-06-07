@@ -10,11 +10,11 @@ ms.search.form: '100,'
 ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="close-accounting-periods"></a>Close accounting periods
+# Close accounting periods
 
 When a fiscal year is over, you must close the periods that comprise it.
 
-## <a name="to-close-accounting-periods"></a>To close accounting periods
+## To close accounting periods
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Accounting Periods**, and then choose the related link.
 2. On the **Accounting Periods** page, choose the **Close Year** action.
@@ -31,7 +31,7 @@ Although a fiscal year is closed, you can still post general ledger entries to i
 
 After a fiscal year is closed, you must close the income statement accounts and transfer the year's results to an account in the balance sheet. You can repeat this every time that you post to the closed fiscal year.
 
-## <a name="see-also"></a>See also
+## See also
 
 [Closing Books](year-close-books.md)  
 [Post the Year-End Closing Entry](year-how-post-year-end-close-entry.md)  

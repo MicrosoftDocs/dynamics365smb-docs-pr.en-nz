@@ -11,14 +11,14 @@ ms.date: 04/23/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-or-change-the-chart-of-accounts"></a>Set up or change the Chart of Accounts
+# Set up or change the Chart of Accounts
 
 The chart of accounts (COA) shows the ledger accounts that store your financial data. [!INCLUDE[prod_short](includes/prod_short.md)] includes a standard COA that is ready to support your business. You can, however, change the default accounts, and you can add new accounts.
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-## <a name="add-or-change-accounts"></a>Add or change accounts
+## Add or change accounts
 
 From the COA, you can open each general ledger (G/L) account and add or change settings. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
 
@@ -29,7 +29,7 @@ For accounts of the **Total** account type, you must fill in the **Totalling** f
 > [!IMPORTANT]
 > If you have entered definitions in the **Totalling** fields for **End-Total** accounts before executing the indent function, you must enter them again because the function overwrites the values in all **End-Total** fields.
 
-## <a name="delete-accounts"></a>Delete accounts
+## Delete accounts
 
 You can delete a general ledger account. However, before you delete it, the following conditions must be true:  
 
@@ -43,17 +43,17 @@ You can also specify when to allow people to delete accounts. On the **General L
 
 Turning on the **Block Deletion of G/L Accounts** field is often a best practice, as is setting the date in the **Check G/L Acc. Deletion After** field, for example, to the date through which regulations require you to store finance data.  
 
-### <a name="video-guidance"></a>Video guidance
+### Video guidance
 
 This video shows how to specify whether, and when, people can delete G/L accounts.
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1g3oY]
 
-## <a name="learning-path-set-up-the-chart-of-accounts-in-dynamics-365-business-central"></a>Learning path: Set up the chart of accounts in Dynamics 365 Business Central
+## Learning path: Set up the chart of accounts in Dynamics 365 Business Central
 
 Want to learn how to set up the chart of accounts in [!INCLUDE [prod_short](includes/prod_short.md)]? Then start on the following learning path [Set up the chart of accounts in Dynamics 365 Business Central](/training/modules/chart-accounts-dynamics-365-business-central).
 
-## <a name="see-also"></a>See also
+## See also
 
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
 [Reconciling Bank Accounts](bank-manage-bank-accounts.md)  

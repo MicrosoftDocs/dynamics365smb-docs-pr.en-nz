@@ -11,7 +11,7 @@ ms.date: 08/03/2022
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="assemble-to-project"></a>Assemble to project
+# Assemble to project
 
 Assemble to project helps you improve inventory management by assembling to order only when it's required.
 
@@ -19,7 +19,7 @@ When you choose an assemble-to-order item on a project planning line, [!INCLUDE 
 
 Assembly orders are reserved for projects, and [!INCLUDE [prod_short](includes/prod_short.md)] synchronises item tracking between project planning lines and assembly order.
 
-## <a name="integrate-with-warehouse-management"></a>Integrate with warehouse management
+## Integrate with warehouse management
 
 Assemble to project integrates with warehouse management features to make assembly and shipping easier. The process also helps ensure that the flow from project assembly to delivery runs smoothly in internal warehouse processes. To learn more about internal warehouse flows for projects, go to [Flows for Production, Assembly, and Jobs](design-details-internal-warehouse-flows.md#flows-to-and-from-assembly-in-a-basic-warehouse-configuration).
 
@@ -31,7 +31,7 @@ The following table describes the warehouse configurations that assemble to orde
 |**Inventory pick**|Use an inventory pick to post full or partial usage. The output and consumption of components post automatically for the assembly order.          |
 |**Warehouse pick**|Create and register warehouse picks for components, and then use a project journal to post usage. [!INCLUDE [prod_short](includes/prod_short.md)] verifies whether the consumed assembly components were picked. The output and consumption of components post automatically for the assembly order.         |
 
-## <a name="known-limitations"></a>Known limitations
+## Known limitations
 
 This section describes known limitations for assemble to project.
 
@@ -42,7 +42,7 @@ This section describes known limitations for assemble to project.
 * You can't enter a negative quantity in the **Quantity to Assemble to Order** field.
 * You can't undo an assembly.
 
-## <a name="see-also"></a>See also
+## See also
 
 [Project Management](projects-manage-projects.md)  
 [Assembly Management](assembly-assemble-items.md)  

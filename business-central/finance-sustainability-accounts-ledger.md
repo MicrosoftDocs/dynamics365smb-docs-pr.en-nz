@@ -11,9 +11,9 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="chart-of-sustainability-accounts-and-ledger"></a>Chart of sustainability accounts and ledger
+# Chart of sustainability accounts and ledger
 
-## <a name="chart-of-sustainability-accounts"></a>Chart of sustainability accounts
+## Chart of sustainability accounts
 
 The chart of sustainability accounts (CoSA) forms the foundational structured list that is used to record all emissions data. It serves as a framework that categorises and organises sustainability accounts based on their attributes, such as the scope or other groupings. Each account is typically assigned a unique code or number for easy reference and tracking. It has the same structure as a traditional chart of accounts but is customised specifically to monitor sustainability-related data and metrics in an organisation.
 
@@ -36,7 +36,7 @@ From the CoSA, you can do things such as:
 
 You can add, change, or delete sustainability accounts. However, to prevent discrepancies, you can't delete a sustainability account if one or more ledger entries are associated with it.
 
-### <a name="add-or-change-accounts"></a>Add or change accounts
+### Add or change accounts
 
 1. Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Sustainability Accounts**, and then select the related link.
 2. On the **Chart of Sustainability Accounts** page, you can open each sustainability account, and then add or change settings. Hover over a field to read a short description.
@@ -48,11 +48,11 @@ For accounts of the **End-Total** type, the Indent function automatically sets t
 > [!IMPORTANT]
 > The Indent function overwrites the value of all fields for **End-Total** accounts. Therefore, if you entered definitions in the **Totalling** field for **End-Total** accounts before you ran the Indent function, you must enter them again after you run it.
 
-### <a name="delete-accounts"></a>Delete accounts
+### Delete accounts
 
 You can delete a sustainability account. However, you must first make sure that no ledger entries are associated with it. Business Central prevents you from deleting a sustainability account if one or more ledger entries are associated with it.
 
-## <a name="account-categories"></a>Account categories
+## Account categories
 
 Users must add a sustainability account category to each sustainability account to define how the system behaves. They can select emission scopes, dedicated emissions to track, formulas, and similar configurations.
 
@@ -93,7 +93,7 @@ If you set the **Calculation Foundation** field, the following table explains ho
 | | Custom | *Emission* = *Custom Amount* &times; *EF* | *Custom Amount* = Hotel stays |
 | | Fuel/Electricity | *Emission* = *Fuel* &times; *EF* | *Fuel* = Amount of fuel spent in the company car, rental car, and so on |
 
-## <a name="account-subcategories"></a>Account subcategories
+## Account subcategories
 
 Users must add a sustainability account subcategory to each sustainability account. This subcategory defines the emission factors that are used in the formulas, based on the emission tracking choice in the sustainability account category.
 
@@ -113,7 +113,7 @@ To review sustainability account subcategories, follow the steps:
 > [!NOTE]
 > The **Import Data** and **Import From** fields are intended for potential integration with external systems that are used to collect emission factors. However, in **2024 release wave 1**, these fields can't be used as a feature by default.
 
-## <a name="sustainability-ledger-entries"></a>Sustainability ledger entries
+## Sustainability ledger entries
 
 The sustainability ledger stores the history of all posted sustainability transactions and organises all emission data according to the CoSA. When a user posts the sustainability journal, all crucial data is recorded there. All active reports are generated based on the sustainability ledger entries.
 
@@ -122,7 +122,7 @@ To open this ledger for one specific account, use the **Ledger Entries** action 
 > [!IMPORTANT]
 > After you post your data to the sustainability ledger, you can't delete it. If you made a mistake, you can post a reverse transaction that has the same details but uses the negative sign for the amount.
 
-## <a name="see-also"></a>See also
+## See also
 
 [Finance](finance.md)  
 [Sustainability management overview](finance-manage-sustainability.md)  
