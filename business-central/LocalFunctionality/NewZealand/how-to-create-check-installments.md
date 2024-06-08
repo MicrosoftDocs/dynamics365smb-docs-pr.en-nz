@@ -10,11 +10,11 @@ ms.date: 11/15/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Create cheque instalments in the New Zealand version
+# <a name="create-check-installments-in-the-new-zealand-version"></a>Create cheque instalments in the New Zealand version
 
 [!INCLUDE [create-check-installments](../includes/AUNZ/create-check-installments.md)]
 
-## See also
+## <a name="see-also"></a>See also
 
 [New Zealand Local Functionality](new-zealand-local-functionality.md)
 

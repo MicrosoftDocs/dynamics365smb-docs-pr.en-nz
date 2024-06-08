@@ -9,7 +9,7 @@ ms.reviewer: bholtorf
 ms.custom: bap-template
 ---
 
-# Integrate with Microsoft Dynamics 365 Field Service
+# <a name="integrate-with-microsoft-dynamics-365-field-service"></a>Integrate with Microsoft Dynamics 365 Field Service
 
 Service organisations require a front-to-back application in which financials, inventory, and procurement are tightly coupled with service delivery. They generate financial data with every transaction. Every work order represents cost and revenue, and every resource generates profit and loss. Customer interactions add entries on the general ledger. The integration between [!INCLUDE [prod_short](includes/prod_short.md)] and [!INCLUDE [field-service-short](includes/field-service-short.md)] streamlines the end-to-end process of managing service operations and ensures a smooth flow of information between the two systems.  
 
@@ -19,27 +19,27 @@ The integration also facilitates the invoicing and fulfillment of work orders in
 
 By integrating [!INCLUDE [prod_short](includes/prod_short.md)] with [!INCLUDE [field-service-short](includes/field-service-short.md)], you don't have to enter data manually or duplicate efforts. Integration also provides a comprehensive view of service operations and financials, enabling better decision-making and operational efficiency.
 
-## Prerequisites
+## <a name="prerequisites"></a>Prerequisites
 
 Because [!INCLUDE [field-service-short](includes/field-service-short.md)] is built on top of Dynamics 365 Sales, you must [set up a connection to Dataverse](/dynamics365/business-central/admin-how-to-set-up-a-dynamics-crm-connection#to-use-the-dataverse-connection-setup-assisted-setup-guide) and [enable integration to Dynamics 365 Sales](/dynamics365/business-central/admin-prepare-dynamics-365-for-sales-for-integration#connection-settings-in-the-setup-guide).
 
-### Permissions and security roles for user accounts
+### <a name="permissions-and-security-roles-for-user-accounts"></a>Permissions and security roles for user accounts
 
 When you install the Integration Solution, permissions for the integration user account are configured. If those permissions change, you might need to reset them. To do that, reinstall the Integration Solution from the **Dynamics 365 Connection Setup** page by choosing **Redeploy Integration Solution**. The following sections list the permissions and security roles that the solution deploys for each app.
 
-#### Sales
+#### <a name="sales"></a>Sales
 
 * Dynamics 365 [!INCLUDE [prod_short](includes/prod_short.md)] Integration Administrator
 * Dynamics 365 [!INCLUDE [prod_short](includes/prod_short.md)] Integration User
 * Dynamics 365 [!INCLUDE [prod_short](includes/prod_short.md)] Product Availability User
 
-#### Business Central
+#### <a name="business-central"></a>Business Central
 
 Users who post project journals must have the following permission set:
 
 * Dynamics 365 Sales Integration
 
-#### Field Service
+#### <a name="field-service"></a>Field Service
 
 To use the integrated data, users must have the following security role:
 
@@ -60,7 +60,7 @@ For example, users must have this role to connect work orders to [!INCLUDE [prod
 > * You must have **Read** permissions for the **Dynamics 365 Business Central Connection** (nav_connection) table.
 > * You must have **Read**, **Write**, and **Delete** permissions for the **Default Dynamics 365 Business Central Connection** (nav_defaultconnection) table.
 
-### Other settings in Field Service
+### <a name="other-settings-in-field-service"></a>Other settings in Field Service
 
 On the **Field Service Setting** page, make the following changes:
 
@@ -70,7 +70,7 @@ On the **Field Service Setting** page, make the following changes:
 > [!NOTE]
 > Setting up a connection to [!INCLUDE [field-service-short](includes/field-service-short.md)] removes the coupling between resources and products. To make [!INCLUDE [prod_short](includes/prod_short.md)] items available in [!INCLUDE [field-service-short](includes/field-service-short.md)], update the **Field Service Product Type** field to match the **Type** field on the items in [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more, go to [Create a product or service](/dynamics365/field-service/create-product-or-service#create-a-product-or-service).
 
-## Set up the integration in Business Central
+## <a name="set-up-the-integration-in-business-central"></a>Set up the integration in Business Central
 
 After you have a connection to Dataverse and Sales, you can set up your integration to [!INCLUDE [field-service-short](includes/field-service-short.md)]. On the **Assisted Setup** page in [!INCLUDE [prod_short](includes/prod_short.md)], choose **Set up integration to Dynamics 365 Field Service** to run the assisted setup guide. This section describes the key settings in the guide.
 
@@ -91,7 +91,7 @@ After you finish the setup, run a full synchronisation from the **Dynamics 365 F
 * Resources that aren't blocked, don't have **Use Time Sheet** selected, and do have **Hours** specified as the unit of measure on the **Dynamics 365 Field Service Integration Setup** page.
 * Service items (requires that you're using the Premium experience in [!INCLUDE [prod_short](includes/prod_short.md)]).
 
-## Standard Field Service entity mapping for synchronisation
+## <a name="standard-field-service-entity-mapping-for-synchronization"></a>Standard Field Service entity mapping for synchronisation
 
 The basis of synchronising data is mapping the tables and fields in [!INCLUDE [prod_short](includes/prod_short.md)] with tables and columns in Dataverse, so they can exchange the data. Mapping happens through integration tables. To learn more about table mappings, go to [Mapping the Tables and Fields to Synchronise](/dynamics365/business-central/admin-how-to-modify-table-mappings-for-synchronization).
 
@@ -103,11 +103,11 @@ Integration with [!INCLUDE [field-service-short](includes/field-service-short.md
 * **RESOURCE-BOOKABLERSC** - Maps resources in [!INCLUDE [prod_short](includes/prod_short.md)] to bookable resources in [!INCLUDE [field-service-short](includes/field-service-short.md)].
 * **SVCITEM-CUSTASSET** - (Premium Experience only) Maps service items in [!INCLUDE [prod_short](includes/prod_short.md)] to customer assets in [!INCLUDE [field-service-short](includes/field-service-short.md)].
 
-## Use data in both applications
+## <a name="use-data-in-both-applications"></a>Use data in both applications
 
 The following sections describe the features where you can use the data that comes from [!INCLUDE [prod_short](includes/prod_short.md)] and [!INCLUDE [field-service-short](includes/field-service-short.md)].
 
-### Field Service
+### <a name="field-service-1"></a>Field Service
 
 You can [create work orders](/dynamics365/field-service/create-work-order) using the **Service Account** and **Billing Account** from [!INCLUDE [prod_short](includes/prod_short.md)]. On work orders, you must select the **Business Central Project Task** in the **External Project** field. Selecting a project lets you synchronise work order products and services to the appropriate project task in [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -120,7 +120,7 @@ You can add items of the type service as **Work Order Services**, and get costs 
 
 You can book a resource and relate the **Bookings** to work order services using a **Bookable Resource** from [!INCLUDE [prod_short](includes/prod_short.md)].
 
-### Business Central
+### <a name="business-central-1"></a>Business Central
 
 Depending on your settings on the **Field Service Integration Setup** page, when work orders include products and services, consumption information is transferred and posted using a **Project Journal** in [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -135,7 +135,7 @@ Use the **Project Planning Lines** page to track posting and invoicing of consum
 >
 > You can create an invoice for an item of the type **Service** from the billable project planning line, and use the budget project planning line to register cost with the resource.
 
-## See also
+## <a name="see-also"></a>See also
 
 [Integrate with Microsoft Dataverse via data sync](admin-common-data-service.md)  
 [Mapping the Tables and Fields to Synchronise](admin-how-to-modify-table-mappings-for-synchronization.md)

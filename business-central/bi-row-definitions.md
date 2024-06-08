@@ -12,11 +12,11 @@ ms.search.form: '103, 104, 108, 195, 196, 197, 198, 489, 490, 764, 765, 766'
 ms.service: dynamics-365-business-central
 ---
 
-# Row definitions in Financial Reporting
+# <a name="row-definitions-in-financial-reporting"></a>Row definitions in Financial Reporting
 
 Row definitions in financial reports provide a place for calculations that can't be made directly in the chart of accounts. For example, you can create subtotals for groups of accounts and then include that total in other totals. You can also calculate intermediate steps that aren't shown in the final report.
 
-## Create or edit a row definition
+## <a name="create-or-edit-a-row-definition"></a>Create or edit a row definition
 
 To create or edit a row definition, follow these steps:
 
@@ -29,7 +29,7 @@ To create or edit a row definition, follow these steps:
 > [!NOTE]
 > The columns you define on each line in the row definition represent columns three and up on the **Financial Report** page. The first two columns, **Row No.** and **Description**, are fixed.  
 
-## Built-in row definitions
+## <a name="built-in-row-definitions"></a>Built-in row definitions
 
 [!INCLUDE[prod_short](includes/prod_short.md)] provides sample row definitions that can help you quickly get started setting up finance reports that suit your needs.
 
@@ -45,7 +45,7 @@ To create or edit a row definition, follow these steps:
 > [!NOTE]
 > The sample finance reports in [!INCLUDE[prod_short](includes/prod_short.md)] aren't ready to use out of the box. Depending on how you set up your G/L accounts, dimensions, G/L account categories, and budgets, adjust the sample row and column definitions and the finance reports that use them to match your setup.
 
-## Use G/L account categories to change the layout of your financial statements
+## <a name="use-gl-account-categories-to-change-the-layout-of-your-financial-statements"></a>Use G/L account categories to change the layout of your financial statements
 
 You can use G/L account categories to change the layout of your financial statements. For example, after you set up your account categories on the **G/L Account Categories** page, you can choose the **Generate Financial Reports** action and update the underlying financial reports for the core financial reports. The next time you run one of these reports, such as the **Balance Statement** report, new totals, and subentries are added.
 
@@ -56,7 +56,7 @@ Another benefit of using G/L account categories over the raw G/L accounts in you
 >
 > You should create and structure your own lower-level G/L account categories from scratch, in a hierarchy if needed, rather than try to rearrange the existing ones. For example, you can restructure the **Liabilities** node to contain a new **Equity** node followed by the **Current Liabilities** and **Long Term Liabilities** nodes. Learn more at [Mapping general ledger accounts to account categories](finance-general-ledger.md#account-categories).
 
-## Best practices for working with row definitions
+## <a name="best-practices-for-working-with-row-definitions"></a>Best practices for working with row definitions
 
 Row definitions aren't versioned. When you change a row definition, the old version is replaced when your change saves to the database. The following list contains some best practices for working with row definitions:
 
@@ -64,7 +64,7 @@ Row definitions aren't versioned. When you change a row definition, the old vers
 - Before you change a row definition, consider taking a copy of it as a backup, just in case your change doesn't work as expected. You can either just copy the definition (give it a good name), or export it. To learn more, go to [Import or export row definitions](#import-or-export-financial-reporting-row-definitions).
 - If you need a fresh copy of a definition that [!INCLUDE[prod_short](includes/prod_short.md)] provides, an easy way to get one is to create a new company that only contains setup data. Then, export the definition and import it in the company where the definition needs a refresh.
 
-## Import or export financial reporting row definitions
+## <a name="import-or-export-financial-reporting-row-definitions"></a>Import or export financial reporting row definitions
 
 You can import and export financial row definitions as RapidStart configuration packages. For example, configuration packages are useful for sharing information with other companies. The package is created in a .rapidstart file, which compresses the contents.
 
@@ -76,7 +76,7 @@ To import or export financial report row definitions, follow these steps:
 1. Choose the ![Lightbulb that opens the Tell Me feature 4.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Row Definitions**, then choose the related link.
 1. Choose the row definition, then choose the **Import Row Definition** or **Export Row Definition** action, depending on what you want to do.
 
-## See also
+## <a name="see-also"></a>See also
 
 [Column definitions in financial reporting](bi-column-definitions.md)  
 [Prepare financial reporting](bi-how-work-account-schedule.md)  

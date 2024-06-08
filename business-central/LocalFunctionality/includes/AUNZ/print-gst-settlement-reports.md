@@ -7,7 +7,7 @@ ms.service: dynamics-365-business-central
 ---
 You must submit a periodic report of goods and services tax (GST) settlement. You can create this settlement from the **BAS Calc. Schedule List** page.  
 
-## To print a goods and service tax settlement
+## <a name="to-print-a-goods-and-service-tax-settlement"></a>To print a goods and service tax settlement
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Calculate GST Statement**, and then choose the related link.  
 2. On the **Options** FastTab, fill in the fields as described in the following table.  

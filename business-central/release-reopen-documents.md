@@ -10,11 +10,11 @@ ms.custom: bap-template
 author: jswymer
 ---
 
-# Release and reopen sales and purchase documents
+# <a name="release-and-reopen-sales-and-purchase-documents"></a>Release and reopen sales and purchase documents
 
 In this article, you learn how to release or reopen sales and purchase documents like an order, invoice, and quote. You release sales and purchase documents to move them to the next stage of processing before they're posted. When an order is released, it's included in all availability calculations from the expected receipt date of the items.
 
-## Release a sales or purchase document
+## <a name="release-a-sales-or-purchase-document"></a>Release a sales or purchase document
 
 1. Open the document that you want to release as follows:
 
@@ -25,7 +25,7 @@ In this article, you learn how to release or reopen sales and purchase documents
 
    The **Status** field changes to **Released**.
 
-## Reopen a sales or purchase document
+## <a name="reopen-a-sales-or-purchase-document"></a>Reopen a sales or purchase document
 
 You can make changes to a released sales and purchase document by reopening it.
 
@@ -43,7 +43,7 @@ You can now make changes to the document before you release it again.
 > [!NOTE]
 > On document lines that have already been handled in the warehouse, the only change you can make is to change the quantity.
 
-## See also
+## <a name="see-also"></a>See also
   
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  

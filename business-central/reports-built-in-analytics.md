@@ -10,7 +10,7 @@ ms.date: 04/30/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Built-in analytics
+# <a name="built-in-analytics"></a>Built-in analytics
 
 [!INCLUDE[prod_short](includes/prod_short.md)] comes with features that enable you to analyse data in an aggregated form. For example, you can use these features to track key performance indicators (KPIs) for your finances or analyse financial statements in Microsoft Excel. The following table provides links to articles that can help you learn how to use the built-in analytics.
 
@@ -19,7 +19,7 @@ ms.custom: bap-template
 |Analyse data with built-in Power BI reports. | [Work with Power BI Reports](across-working-with-powerbi.md) |
 |Get insight into which reports users use| [Report usage telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)|
 
-## See also
+## <a name="see-also"></a>See also
 
 [Analytics overview](reports-bi-reporting.md)
 

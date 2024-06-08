@@ -12,7 +12,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# Sales
+# <a name="sales"></a>Sales
 
 You create a sales invoice or sales order to record your agreement with a customer to sell certain products on certain delivery and payment terms.
 
@@ -34,7 +34,7 @@ For all sales processes, you can incorporate an approval workflow. For example, 
 
 The following sections describe a sequence of tasks, with links to the articles that cover them.
 
-## Get started with sales capabilities
+## <a name="get-started-with-sales-capabilities"></a>Get started with sales capabilities
 
 Before you to sell, specify how you want to manage your company's sales processes.
 
@@ -43,7 +43,7 @@ Before you to sell, specify how you want to manage your company's sales processe
 | Create a customer card for each customer you sell to.|[Register New Customers](sales-how-register-new-customers.md) |
 | Set up how you do sales, such as prices and discounts, customer price and discount groups, salespeople, shipment methods and agents. | [Set up sales](sales-setup-sales.md) |
 
-## Sales analytics
+## <a name="sales-analytics"></a>Sales analytics
 
 This section describes the analytical tools you can use to get insights into your sales data.
 
@@ -53,7 +53,7 @@ This section describes the analytical tools you can use to get insights into you
 | Do ad-hoc analysis of sales data directly on list pages and queries. | [Create sales analysis reports](bi-how-create-analysis-views-reports.md) |
 | Explore built-in sales reports. | [Built-in sales reports](sales-reports.md) |
 
-## Quote to order to sales invoice
+## <a name="quote-to-order-to-sales-invoice"></a>Quote to order to sales invoice
 
 The following table describes how to use simple sales processes.
 
@@ -74,7 +74,7 @@ If you need more complex sales processes, the following table lists articles tha
 |Invoice a customer once for multiple shipments by combining the shipments on one invoice.|[Combine Shipments on a Single Invoice](sales-how-to-combine-shipments-on-a-single-invoice.md)|
 |Sell assembly items that aren't currently available by creating a linked assembly order. The assembly order can supply the full or partial quantity on the sales order.|[Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md)|
 
-## Pick and ship
+## <a name="pick-and-ship"></a>Pick and ship
 
 The following table describes how to pick items for a sales order and ship them to the customer.
 
@@ -86,7 +86,7 @@ The following table describes how to pick items for a sales order and ship them 
 |Inform your customers of order delivery dates by calculating either the capable-to-promise date or the available-to-promise date.|[Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)|
 | Learn how to track a package from a posted sales shipment. | [Track packages](sales-how-track-packages.md) |
 
-## Cancelled orders, refunds, and returns
+## <a name="canceled-orders-refunds-and-returns"></a>Cancelled orders, refunds, and returns
 
 The following table describes how to deal with cancelled orders, refunds, and returns of goods.
 
@@ -95,7 +95,7 @@ The following table describes how to deal with cancelled orders, refunds, and re
 | Perform an action on an unpaid posted sales invoice to automatically create a credit memo and either cancel the sales invoice or recreate it so you can make corrections. |[Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md) |
 | Create a sales credit memo to revert a specific posted sales invoice to reflect the products the customer returns and the refund amount. |[Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md) |
 
-## Other processes in sales
+## <a name="other-processes-in-sales"></a>Other processes in sales
 
 The following table describes how to deal with other sales processes.
 
@@ -103,7 +103,7 @@ The following table describes how to deal with other sales processes.
 | --- | --- |
 |Resolve confusion when two or more records exist for the same customer.|[Merge Duplicate Records](sales-how-merge-duplicate-records.md)|
 
-## See also
+## <a name="see-also"></a>See also
 
 [Setting Up Sales](sales-setup-sales.md)  
 [Register New Customers](sales-how-register-new-customers.md)  
