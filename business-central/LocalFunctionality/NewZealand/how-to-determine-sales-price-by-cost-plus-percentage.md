@@ -8,12 +8,13 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="determine-sales-price-by-cost-plus-percentage-in-the-new-zealand-version"></a>Determine Sales Price by Cost Plus Percentage in the New Zealand Version
+# Determine Sales Price by Cost Plus Percentage in the New Zealand Version
 
 [!INCLUDE [determine-sales-price-cost-percentage](../includes/AUNZ/determine-sales-price-cost-percentage.md)]
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [New Zealand Local Functionality](new-zealand-local-functionality.md)
 

@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="analytics-by-functional-area"></a>Analytics by functional area
+# Analytics by functional area
 
 The general content about analytics is also available in special versions for many of the functional areas in [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
@@ -24,7 +24,7 @@ The general content about analytics is also available in special versions for ma
 | Fixed Assets Management | [Fixed assets analytics](fa-analytics-overview.md) |
 
 
-## <a name="see-also"></a>See also
+## See also
 
 [Analytics overview](reports-bi-reporting.md)  
 

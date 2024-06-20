@@ -3,7 +3,7 @@ title: Automate reminders in collections
 description: 'Save time in collections by automating the processes of creating, issuing, and sending reminders to customers.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: 'collection, remindes'
 ms.search.form: null
@@ -11,7 +11,7 @@ ms.date: 03/12/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="automate-reminders-in-collections"></a>Automate reminders in collections
+# Automate reminders in collections
 
 Make your collections more effective by automating the process of creating, issuing, and sending reminders to your customers. Automation can significantly reduce the time you spend on collections, provide a better overview of the process, and give you full control over each step.
 
@@ -19,7 +19,7 @@ On the **Reminder Automation** page, you define the individual actions (steps). 
 
 Automation happens through a job queue entry. When you set up an automation, use the **Cadence** field to specify how and when it runs. If you choose **Manual**, the automation runs one time when you use the **Start** action. You can also choose **Weekly**, **Monthly**, or choose **Custom** to set up a more detailed cadence. If you choose **Custom**, you must enter a date formula. To learn more about entering a date formula, go to [Use Date Formulas](ui-enter-date-ranges.md#use-date-formulas). When you choose an option other than **Manual**, the automation runs until you pause it to put it on hold. If you want to be even more specific about when it runs, use the **Job queue entries** action to open the **Job Queue Entries** page and adjust the recurrence, for example to daily or a specific weekday.
 
-## <a name="automate-the-reminders-flow"></a>Automate the reminders flow
+## Automate the reminders flow
 
 The following sections describe how to set up reminders to create, issue, and send automatically.
 
@@ -31,22 +31,22 @@ The following sections describe how to set up reminders to create, issue, and se
 1. Depending on the type of action the automation performs, fill in the fields as necessary on the setup page. To learn more about the settings, go to [Settings for reminder actions](#settings-for-reminder-actions).
 1. After you set up the actions for the automation, you can use the **Move up** and **Move down** actions to adjust the order in which they run.
 
-## <a name="settings-for-reminder-actions"></a>Settings for reminder actions
+## Settings for reminder actions
 
 The setup settings differ for the Create, Issue, and Send reminder actions. The following sections describe how to use them.
 
-### <a name="create"></a>Create
+### Create
 
 * Set the highest level on all reminder lines.  
 * Create reminders for entries that are on hold. For example, this setting is useful if you're in an ongoing dispute with a customer and want them to see the big picture.
 * Create reminders for all unpaid invoices, and not just invoices that are overdue. The report displays overdue invoices and invoices that are unpaid but not overdue in separate sections.
 * Set filters to make the reminder more specific.
 
-### <a name="issue"></a>Issue
+### Issue
 
 When you issue a reminder, you create entries in the customer ledger that contain the posting date and tax date. Use the settings on the **Issue Reminders Setup** page to specify whether to replace that information on the issued reminder with the information from the created reminder. For example, if you created the reminder yesterday, and issue it today, the due date moves one day.
 
-### <a name="send"></a>Send
+### Send
 
 > [!NOTE]
 > The Send automation requires that you've set up email in [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more about setting up email, go to [Set up email](admin-how-setup-email.md).
@@ -59,19 +59,19 @@ Use the settings on the **Send Reminders Setup** page control the following:
 * Settings for what to include in the reminder.
 * Settings for tracking the reminders you send by creating interactions, whether you print or send the reminder by email, and whether you want to attach overdue invoices only, all invoices, or no invoices. 
 
-## <a name="access-the-history-of-a-reminder"></a>Access the history of a reminder
+## Access the history of a reminder
 
 [!INCLUDE [prod_short](includes/prod_short.md)] keeps track of each time an automation runs. You can access the history by choosing the **Log entries** action. You can also use the **Issued Reminders** action to access a list of the reminders you've issued.
 
-## <a name="handle-errors"></a>Handle errors
+## Handle errors
 
 On the **Actions** FastTab, for each action you can specify whether you want the automation to stop if the action has an error. If you do, the automation won't process the actions that come afterward. To turn this feature on or off, use the **Set stop on error** or **Clear stop on error** actions.
 
-## <a name="change-action-settings-for-an-automation"></a>Change action settings for an automation
+## Change action settings for an automation
 
 You can change settings for an automation at any time. On the **Actions** FastTab, choose **Setup**, and then make your changes.
 
-## <a name="see-also"></a>See also
+## See also
 
 [Set Up Reminder Terms and Levels](finance-setup-reminders.md)  
 [Send Reminders of Outstanding Balances](receivables-send-reminders.md)  

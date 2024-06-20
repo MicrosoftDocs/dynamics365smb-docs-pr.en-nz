@@ -3,7 +3,7 @@ title: Revalue general ledger account balances
 description: Learn how to revalue general ledger account balances before you produce your financial statements.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 03/14/2024
 ms.custom: bap-template
@@ -11,11 +11,11 @@ ms.search.form: null
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="revalue-general-ledger-account-balances"></a>Revalue general ledger account balances
+# Revalue general ledger account balances
 
 If you use general ledger (G/L) accounts to register balance sheet items in foreign currencies, you should revaluate the account balances before you produce financial statements. Currency exchange rates often change, and revaluation helps make your financial statements more accurate.
 
-## <a name="set-up-revaluations"></a>Set up revaluations
+## Set up revaluations
 
 You set up each account that you want to include in revaluations on the **G/L Account Card** page. You can select whether to post revaluation adjustments to realised or unrealised gains/losses accounts. Posting gains and losses during a currency exchange rate adjustment follows the normal posting routine. For example, you do it for each setup on the **Currencies** page. To learn more about exchange rate adjustments, go to [Update currency exchange rates](finance-how-update-currencies.md).
 
@@ -26,7 +26,7 @@ To minimise errors, in the **Source Currency Posting** field, you can set up a v
 * Same currency
 * Local currency
 
-## <a name="run-a-revaluation"></a>Run a revaluation
+## Run a revaluation
 
 To revalue the foreign currency amounts in local currency for G/L account balances, on the **Chart of Accounts** page, use the **G/L Currency Revaluation** action to start a batch job. The batch job creates adjustment entries in the journal that you select. When you post the entries, you adjust the local currency (LCY) balance for the account. G/L account balances that always show in LCY now reflect changes to the currencies in which entries were posted. This revaluation enables you to produce a more accurate financial statement with less effort.
 
@@ -38,7 +38,7 @@ If you're using an additional reporting currency (ACY), the G/L revaluation entr
 > [!NOTE]
 > Revaluation doesn’t provide the ability to apply or unapply entries, like you can with customer and vendor ledger entries. Adjustments happen on a balance per currency basis.
 
-## <a name="revaluate-accounts-vs-customer-and-vendor-exchange-rate-adjustments"></a>Revaluate accounts vs. customer and vendor exchange rate adjustments
+## Revaluate accounts vs. customer and vendor exchange rate adjustments
 
 Revaluation simplifies the task of adjusting G/L account balances. The feature revaluates the balance per currency per G/L account much like you do for adjustments to G/L accounts that are linked to bank accounts. If you use a G/L account to track multiple assets, consider using a vendor or customer account instead.
 
@@ -56,7 +56,7 @@ This difference is important when you assess whether G/L revaluation is the righ
 > [!TIP]
 > We recommend that you ask your accountant or auditor which type of account is best for your business. Also, there might be an app for [!INCLUDE [prod_short](includes/prod_short.md)] on [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?page=1&product=dynamics-365-business-central) that's just right for your business scenarios.
 
-## <a name="see-also"></a>See also
+## See also
 
 [Review Amounts in General Ledger Accounts](finance-review-accounts.md)  
 [Understanding the General Ledger and Chart of Accounts](finance-general-ledger.md)  

@@ -9,9 +9,10 @@ ms.search.form: null
 ms.date: 05/08/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# <a name="sustainability-setup"></a>Sustainability setup
+# Sustainability setup
 
 Before the Sustainability module can work correctly, you must set up some basic controls and instructions that are related to the whole functionality.
 
@@ -52,7 +53,7 @@ To set up the Sustainability module, follow the steps:
     | **Emission Rounding Precision** | Specify the size of the interval that is used during rounding of emission amounts when you report to authorities. |
     | **Emission Rounding Type** | Specify how the program rounds emission amounts when you report to authorities. The following options are available: **Nearest**, **Up**, and **Down**. |
 
-## <a name="see-also"></a>See also
+## See also
 
 [Finance](finance.md)  
 [Sustainability management overview](finance-manage-sustainability.md)  

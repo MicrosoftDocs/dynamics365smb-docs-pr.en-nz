@@ -9,19 +9,20 @@ ms.search.form: '6216, 6219, 6220'
 ms.date: 05/07/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# <a name="record-sustainability-entries"></a>Record sustainability entries
+# Record sustainability entries
 
 Currently, the only way to record greenhouse gas (GHG) emissions in the sustainability ledger is to use sustainability journals.
 
-## <a name="sustainability-journals"></a>Sustainability journals
+## Sustainability journals
 
 Sustainability journals are designed to track and record sustainability-related activities by using the same user experience as other journals in Business Central. Users who have the necessary information can manually enter emissions in a journal. Alternatively, if they lack the information, they can use built-in formulas to accurately calculate emissions based on specific known parameters that correspond to various types of sources and accounts.
 
 The information that you enter in a journal is temporary and can be changed while it's in that journal. When you post the journal, the information is transferred to sustainability ledger entries on individual sustainability accounts, where it can't be changed. However, you can post reversing or correcting entries.
 
-### <a name="use-journal-templates-and-batches"></a>Use journal templates and batches
+### Use journal templates and batches
 
 By default, there are two sustainability journal templates: the standard template and the recurring template.
 
@@ -30,13 +31,13 @@ For each journal template, you can set up your own personal journal as a journal
 > [!TIP]
 > If you have many lines, you can help reduce the risk of mistakes by having one journal batch for each emission type. Alternatively, you can use the common batch for all emission types.
 
-### <a name="validate-sustainability-journals"></a>Validate sustainability journals
+### Validate sustainability journals
 
 On the **Sustainability Setup** page, you can turn on a background check to help prevent posting delays. If any mistakes that occur while you work in the sustainability journal, the validation notifies you and prevents you from posting the journal.
 
 When you enable the validation, the **Journal Check** FactBox shows issues on the current line and in the whole batch. Validation occurs when you load a journal batch and when you select another journal line. The **Issues Total** tile in the FactBox shows the total number of issues that [!INCLUDE [prod_short](includes/prod_short.md)] found. You can select the tile to open an overview of the issues.
 
-### <a name="work-with-sustainability-journals"></a>Work with sustainability journals
+### Work with sustainability journals
 
 To start to work with sustainability journals, follow these steps:
 
@@ -57,7 +58,7 @@ To start to work with sustainability journals, follow these steps:
 
 If your formula is based on the **Calculate from General Ledger** option in the sustainability account category, you must use the **Collect Amount from G/L Entries** action before you post the journal, to calculate emissions based on this data source. Additionally, if you made changes to the emission factors after the journal lines were populated, you must select the **Recalculate** action to get the proper amount in the journal.
 
-### <a name="recurring-journals"></a>Recurring journals
+### Recurring journals
 
 A recurring journal is a sustainability journal that has specific fields for managing transactions that you often post with few, if any, changes. Examples include sustainability transactions such as electricity or heat, or other similar transactions. You can use recurring journals to post fixed and variable amounts.
 
@@ -69,7 +70,7 @@ The **Recurring Frequency** field is also important and must be set. It's a date
 
 The **Expiration Date** field determines the date when the line will be posted for the last time. The line won't be posted after that date. The advantage of using the **Expiration Date** field is that the line isn't immediately deleted from the journal. You can enter a later date so that you can use the line in the future. If the field is blank, the line will be posted every time, until it's deleted from the journal.
 
-## <a name="see-also"></a>See also
+## See also
 
 [Finance](finance.md)  
 [Sustainability management overview](finance-manage-sustainability.md)  

@@ -11,7 +11,7 @@ ms.date: 02/26/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="register-new-customers"></a>Register new customers
+# Register new customers
 
 Customers are your source of income. You must register each customer you sell to as a customer card. Customer cards contain the information required to sell products to the customer. Learn more at [Invoice Sales](sales-how-invoice-sales.md) and [Register New Items](inventory-how-register-new-items.md).  
 
@@ -19,7 +19,7 @@ Before you can register new customers, you must set up various sales codes to ch
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
-## <a name="add-new-customers"></a>Add new customers
+## Add new customers
 
 You can add new customers manually by filling out the **Customer Card** page, or you can use templates that contain predefined information. For example, you can create a template for different types of customer profiles. Using templates saves time when adding new customers, and helps ensure the information is correct each time. 
 
@@ -34,7 +34,7 @@ After you create a template, you can use the **Apply Template** action to apply 
 
 You can also create a customer from a contact. Learn more in the [To create a customer, vendor, employee, or bank account from a contact](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact) section.  
 
-### <a name="to-create-a-new-customer-card"></a>To create a new customer card
+### To create a new customer card
 
 [!INCLUDE[create_new_customer](includes/create_new_customer.md)]
 
@@ -42,7 +42,7 @@ The **Prices & Discounts** action provides options for managing special prices o
 
 The customer is now registered, and the customer card is ready to be used on sales documents.  
 
-### <a name="to-save-the-customer-card-as-a-template"></a>To save the customer card as a template
+### To save the customer card as a template
 
 You can use a customer card as a template when you create new customer cards.
 
@@ -54,11 +54,11 @@ You can use a customer card as a template when you create new customer cards.
 
 The customer template is added to the list of customer templates, and you can use it to create new customer cards.
 
-## <a name="delete-customer-cards"></a>Delete customer cards
+## Delete customer cards
 
 If you post a transaction for a customer, you can't delete the customer card because the ledger entries might be needed for auditing. To delete customer cards with ledger entries, contact your Microsoft partner to do so through code.  
 
-## <a name="manage-credit-limits"></a>Manage credit limits
+## Manage credit limits
 
 Credit limits, balance amounts, and payment terms make it possible for [!INCLUDE [prod_short](includes/prod_short.md)] to issue a credit and an overdue balance warning when you enter a sales order. Furthermore, reminder term and finance charge term elements enable you to invoice interest and/or extra fees.  
 
@@ -68,7 +68,7 @@ You can post even if the credit limit exceeds. A blank field means there's no cr
 
 You can choose not to receive warnings when the customer's credit limit is exceeded, and you can specify which types of warnings you want to see.
 
-### <a name="to-specify-credit-limit-warnings"></a>To specify credit limit warnings
+### To specify credit limit warnings
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, then choose the related link.
 
@@ -81,7 +81,7 @@ You can choose not to receive warnings when the customer's credit limit is excee
     |**Overdue Balance**|The **Balance Due** field on the customer's card is checked, and a warning is shown if the customer has an overdue balance.|
     |**No Warning**|No credit warnings are shown regarding the customer's status.|
 
-## <a name="assign-a-salesperson"></a>Assign a salesperson
+## Assign a salesperson
 
 You can assign salespeople to customer ship-to address rather than their billing address so your sales reports reflect the true geographical distribution of your sales. Assigning a salesperson to a customer's ship-to address gives you more precise insights and optimises resource allocation.
 
@@ -89,7 +89,7 @@ Assign a salesperson on the **Customer** card page by choosing **Customer**, and
 
 When you choose the **Alternate Shipping Address** option as a **Ship-To** location on a sales document, the **Salesperson Code** updates to match the salesperson from the **Ship-to** rather than the **Bill-to** address. 
 
-## <a name="see-also"></a>See also
+## See also
 
 [Defining Payment Methods](finance-payment-methods.md)  
 [Merge Duplicate Records](sales-how-merge-duplicate-records.md)  

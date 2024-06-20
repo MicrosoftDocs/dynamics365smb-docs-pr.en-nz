@@ -4,10 +4,11 @@ ms.topic: include
 ms.date: 11/29/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 The **Deposit Slip** report displays cash and cheque details in a format required by the bank.  
 
-## <a name="to-a-print-deposit-slip-report"></a>To a print deposit slip report
+## To a print deposit slip report  
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Receipt Journals**, and then choose the related link.  
 2.  Select the **Bank** journal.  
 3.  Choose the **Edit Journal** action.  

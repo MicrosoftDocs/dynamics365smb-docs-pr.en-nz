@@ -9,9 +9,10 @@ ms.search.form: null
 ms.date: 05/08/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# <a name="sustainability-management-overview"></a>Sustainability management overview
+# Sustainability management overview
 
 > [!IMPORTANT]
 > This feature will be available in Business Central from **2024 release wave 1**. All reference links will be enabled after they are available.
@@ -42,7 +43,7 @@ To get started with sustainability management, use the following articles.
 | [Chart of sustainability accounts and ledger](finance-sustainability-accounts-ledger.md) | This article provides information about how to correctly set up chart of sustainability accounts (CoSA), account categories, and subcategories, and how to analyse information in sustainability ledger entries. |
 | [Record sustainability entries](finance-sustainability-journal.md) | Use this article to learn how to work with all types of sustainability journals. |
 
-## <a name="see-also"></a>See also
+## See also
 
 [Sustainability setup](finance-sustainability-setup.md)  
 [Chart of sustainability accounts and ledger](finance-sustainability-accounts-ledger.md)  

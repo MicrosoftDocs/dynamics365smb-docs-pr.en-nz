@@ -8,12 +8,13 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="print-goods-and-service-tax-settlement-reports-in-the-new-zealand-version"></a>Print Goods and Service Tax Settlement Reports in the New Zealand Version
+# Print Goods and Service Tax Settlement Reports in the New Zealand Version
 
 [!INCLUDE [print-gst-settlement-reports](../includes/AUNZ/print-gst-settlement-reports.md)]
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Set Up Goods and Service Tax Posting](how-to-set-up-goods-and-service-tax-posting.md)  
 

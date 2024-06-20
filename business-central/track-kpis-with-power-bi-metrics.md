@@ -3,7 +3,7 @@ title: Track your business KPIs with Power BI metrics
 description: Get an overview of using Power BI to get business intelligence and KPIs from your Business Central data.
 author: kennienp
 ms.author: kepontop
-ms.reviewer: jswymer
+ms.reviewer: bholtorf
 ms.topic: overview
 ms.search.keywords: 'account schedule, analysis, reporting, financial report, business intelligence, KPI'
 ms.search.form: '6316, 6317'
@@ -12,7 +12,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="track-your-business-kpis-with-power-bi-metrics"></a>Track your business KPIs with Power BI metrics
+# Track your business KPIs with Power BI metrics
 
 If you use Power BI on [!INCLUDE[prod_short](includes/prod_short.md)] data, it's easy to track KPIs or metrics that are important to you.
 
@@ -32,7 +32,7 @@ Learn more about Power BI metrics at [Get started with metrics in Power BI](/pow
 > [!NOTE]
 > Starting with Business Central 2023 release wave 2, it's possible to embed scorecards from Power BI metrics in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="see-also"></a>See also
+## See also
 
 [Using key performance indicators (KPIs) to meet your business goals](analytics-about-kpis.md)  
 [Introduction to Business Central and Power BI](admin-powerbi.md)  

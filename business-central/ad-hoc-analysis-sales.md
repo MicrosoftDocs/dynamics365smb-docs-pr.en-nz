@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="ad-hoc-analysis-of-sales-data"></a>Ad-hoc analysis of sales data
+# Ad-hoc analysis of sales data
 
 This article explains how to use the **Data Analysis** feature to analyse sales data directly from list pages and queries. You don't have to run a report or switch to another application, such as Excel. The feature provides an interactive and versatile way to calculate, summarise, and examine data. Instead of running reports using options and filters, you can add multiple tabs that represent different tasks or views on the data. Some examples are "My customers" or "Sales statistics," or any other view you can imagine. To learn more about how to use the **Data Analysis** feature, go to [Analyse list and query data with analysis mode](analysis-mode.md).
 
@@ -25,7 +25,7 @@ Use the following list pages for ad-hoc analysis of sales processes:
 - Posted Sales Invoices
 - Sales Return Orders
 
-## <a name="sales-ad-hoc-analysis-scenarios"></a>Sales ad-hoc analysis scenarios
+## Sales ad-hoc analysis scenarios
 
 Use the **Data Analysis** feature for quick fact checking and ad-hoc analysis:
 
@@ -41,7 +41,7 @@ The following sections provide examples of sales scenarios in [!INCLUDE [prod_sh
 | [Sales (Customer sales by volume)](#example-sales-customer-sales-by-volume) | Get an overview of the customers that purchase the most, or that owe the most. | [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25) | **Customer Name**, **Document No.**, **Amount**, and **Remaining Amount**. |
 | [Finance (Accounts Receivables)](#example-finance-accounts-receivables) | See what your customers owe you, for example, broken down into time intervals for when amounts are due. | [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25) | **Customer Name**, **Due Date**, and **Remaining Amount**. |
 
-## <a name="example-sales-expected-sales-volume"></a>Example: Sales (expected sales volume)
+## Example: Sales (expected sales volume)
 
 To analyse your expected sales volume and sales amounts for unshipped orders for each customer by year or month, follow these steps:
 
@@ -54,7 +54,7 @@ To analyse your expected sales volume and sales amounts for unshipped orders for
 1. To do the analysis for a given year or quarter, apply a filter in the **Additional Filters** menu. The menu is on the right of the page, just below the **Columns** menu.
 1. Rename your analysis tab to **Expected sales volume** or something that describes this analysis for you.
 
-## <a name="example-sales-customer-sales-by-volume"></a>Example: Sales (Customer sales by volume)
+## Example: Sales (Customer sales by volume)
 
 To produce an overview of the customers that purchase the most or that owe the most, follow these steps:
 
@@ -69,7 +69,7 @@ The following image shows the result of these steps.
 
 :::image type="content" source="media/data-analysis-customer-ledger-entries.png" alt-text="Example of how to do data analysis on the Customer Ledger Entries page." lightbox="media/data-analysis-customer-ledger-entries.png":::
 
-## <a name="example-finance-accounts-receivables"></a>Example: Finance (Accounts Receivables)
+## Example: Finance (Accounts Receivables)
 
 To see what your customers owe you, maybe broken down into time intervals for when amounts are due, follow these steps:
 
@@ -81,7 +81,7 @@ To see what your customers owe you, maybe broken down into time intervals for wh
 1. To do the analysis for a given year or quarter, apply a filter in the **Additional Filters** menu. The menu is on the right of the page, just below the **Columns** menu.
 1. Rename your analysis tab to **Aged Accounts by Month**, or something that describes this analysis for you.
 
-## <a name="data-foundation-for-ad-hoc-analysis-on-sales"></a>Data foundation for ad-hoc analysis on sales
+## Data foundation for ad-hoc analysis on sales
 
 After you enter information on a sales order and add all the sales order lines, you can post the order. Posting creates a shipment and an invoice. [!INCLUDE [prod_short](includes/prod_short.md)] updates the customer's account, general ledger, and item ledger entries:
 
@@ -90,7 +90,7 @@ After you enter information on a sales order and add all the sales order lines, 
 
 To learn more about posting sales, go to [Posting sales](ui-post-sales.md).
 
-## <a name="see-also"></a>See also
+## See also
 
 [Posting sales](ui-post-sales.md)  
 [Analyse list and query data with analysis mode](analysis-mode.md)  

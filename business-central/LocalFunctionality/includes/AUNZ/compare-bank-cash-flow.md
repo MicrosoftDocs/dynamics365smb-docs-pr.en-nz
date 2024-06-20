@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 11/09/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 You can use the **Bank Detail Cashflow Compare** report to compare the flow of cash in a particular bank for a specified period.  
 
@@ -18,7 +19,7 @@ You can use the **Bank Detail Cashflow Compare** report to compare the flow of c
 
 The debit and credit amounts are displayed in the local currency. You can also view the starting balance and ending balance for each bank.  
 
-## <a name="to-compare-bank-cash-flow"></a>To compare bank cash flow
+## To compare bank cash flow  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Detail Cashflow Compare**, and then choose the relevant link.  
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  

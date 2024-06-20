@@ -12,7 +12,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="built-in-finance-reports-in-business-central"></a>Built-in finance reports in Business Central
+# Built-in finance reports in Business Central
 
 [!INCLUDE [prod_short](includes/prod_short.md)] includes several built-in reports, tracing functions, and tools to help auditors or controllers who are responsible for reporting to the finance department.
 
@@ -20,11 +20,11 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
-## <a name="explore-finance-reports-with-report-explorer"></a>Explore finance reports with Report Explorer
+## Explore finance reports with Report Explorer
 
 [!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
 
-## <a name="see-also"></a>See also
+## See also
 
 [Accounts Receivable Reports and Analytics](receivables-reports.md)  
 [Accounts Payable Reports and Analytics](payables-reports.md)  

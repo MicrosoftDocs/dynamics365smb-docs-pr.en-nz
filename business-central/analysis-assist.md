@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311'
 ---
-# <a name="analyze-data-in-lists-with-help-from-copilot-preview"></a>Analyse data in lists with help from Copilot (preview)
+# Analyse data in lists with help from Copilot (preview)
 
 [!INCLUDE[preview-banner](includes/preview-banner.md)]
 
@@ -18,7 +18,7 @@ This article explains how to use the *analysis assist* to help you analyse data 
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
-## <a name="about-analysis-assist"></a>About analysis assist
+## About analysis assist
 
 Analysis assist is a Copilot for the [analysis mode](analysis-mode.md) on list pages in Business Central. The analysis mode provides an interactive and versatile way to calculate, summarise, and examine data. To analyse data in the analysis mode, you create an *analysis* tab where you transform the data to display the desired aggregations and summarisations. For example, you arrange fields in rows and columns, specify filters, sort columns, and pivot on fields. With analysis assist, instead of doing this task manually, you achieve much of the same&mdash;or least as a start&mdash;by using words. By expressing the structure you want in natural language, like "sort on quantity from smallest to largest" or "show average cost per category", analysis assist uses AI to generate a suggested layout on an analysis tab.
 
@@ -27,7 +27,7 @@ Analysis assist is a Copilot for the [analysis mode](analysis-mode.md) on list p
 
  However, the data analysis mode requires some understanding of how to structure fields to meet the desired aggregations and summarizations. It requires you to move fields around to the appropriate areas within analysis mode pane which data rows and columns to display, specify filters, sorting, grouping, pivoting and totals. Analysis assist minimizes these requirments by enabling you to express the desired layout in words. , like "group which data rows and columns to display, specify filters, sorting, grouping, pivoting and totals
 --> 
-## <a name="prerequisites"></a>Prerequisites
+## Prerequisites
 
 - Analysis assist capability is activated and you're granted permissions to use it. This task is typically done by an admin. [Learn more about configuring Copilot and AI capabilities](enable-ai.md).
 - The display language in Business Central is set to one the following English locales: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA. [Learn more about changing the language](ui-change-basic-settings.md#language).
@@ -37,7 +37,7 @@ Analysis assist is a Copilot for the [analysis mode](analysis-mode.md) on list p
 > [!NOTE]
 > You may notice some list pages that don't include the **Analyze** switch for changing to the analysis mode. The reason is that developers can disable analysis mode on specific pages by using the [AnalysisModeEnabled property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) in AL.-->
 
-## <a name="get-started"></a>Get started
+## Get started
 
 1. Open the list page you want to analyse.
 
@@ -69,7 +69,7 @@ Analysis assist is a Copilot for the [analysis mode](analysis-mode.md) on list p
 
 1. If you want to save the analysis tab, select **Keep it**. If you don't to save it, select **Discard**.
 
-## <a name="prompt-tips-and-examples"></a>Prompt tips and examples
+## Prompt tips and examples
 
 Creating effective prompts for Copilot is essential to get accurate and relevant analysis suggestions. There are also ways to minimise text you add in prompts to make it faster when typing. Here are some tips and guidelines followed by some examples:
 
@@ -81,7 +81,7 @@ Creating effective prompts for Copilot is essential to get accurate and relevant
 - Common abbreviations are acceptable.
 - Letter case isn't important.
 
-### <a name="examples"></a>Examples
+### Examples
 
 These following prompt examples use analysis assist on the **Items** list. The items page includes three summable fields for analysis: **Quantity on Hand**, **Unit Cost**, **Unit Price**.
 
@@ -97,7 +97,7 @@ Prompt: `Show total quantity per type per UoM`
 
 This prompt creates a pivot table on the **Quantity on Hand** field per **Base Unit of Measure** per **Type**.
 
-## <a name="see-also"></a>See also
+## See also
 
 [Responsible AI FAQ for analysis assist](faqs-analysis-assist.md)  
 [Ad hoc data analysis](reports-adhoc-analysis.md)  

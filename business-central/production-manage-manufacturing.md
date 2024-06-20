@@ -8,8 +8,9 @@ ms.search.form: '5406, 5407, 5728, 8903, 9011, 9012, 9013, 9041, 9044, 9047, 932
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="manufacturing"></a>Manufacturing
+# Manufacturing
 
 > [!NOTE]
 > Functionality described in this topic and sub topics is only visible in the user interface if you have the **Premium** experience. For more information, see [Change Which Features are Displayed](ui-experiences.md).
@@ -38,7 +39,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Use the **Capacity Journal** page to post consumed capacities that are not assigned to a production order, such as maintenance work.|[Post Capacities](production-how-to-post-capacities.md)|  
 |Calculate and adjust the cost of finished production items and consumed components for financial reconciliation.|[About Finished Production Order Costs](finance-about-finished-production-order-costs.md)|  
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Planning](production-planning.md)  
