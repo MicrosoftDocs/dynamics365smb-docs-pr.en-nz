@@ -7,7 +7,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-## Best practices for working with column definitions
+## <a name="best-practices-for-working-with-column-definitions"></a>Best practices for working with column definitions
 
 Column definitions aren't versioned. When you change a column definition, the old version is replaced when your change saves to the database. The following list contains some best practices for working with column definitions.
 

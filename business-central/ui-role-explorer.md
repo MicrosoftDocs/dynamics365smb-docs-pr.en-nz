@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 
-# Finding pages and reports with the role explorer
+# <a name="finding-pages-and-reports-with-the-role-explorer"></a>Finding pages and reports with the role explorer
 
 You can get an overview of all the business features that are available for your role, and for other roles if you go a step further. This article refers to the feature overview as the *role explorer*.
 
@@ -20,7 +20,7 @@ Each element on the role explorer is an action that opens a page or report. Acco
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## Open the role explorer
+## <a name="open-the-role-explorer"></a>Open the role explorer
 
 You can open the role explorer from the role centre and all list pages and from the **Tell Me** window.
 
@@ -29,14 +29,14 @@ You can open the role explorer from the role centre and all list pages and from 
 
 When you first open the role centre, it shows links to most features available for your role.
 
-## Open the role explorer filtered to show reports 
+## <a name="open-the-role-explorer-filtered-to-show-reports"></a>Open the role explorer filtered to show reports
 
 You can open the role explorer in a view that's filtered to show reports from the role centre and all list pages and from the **Tell Me** window:
 
 - On your Role Centre or any list page, choose the **All Reports** link to the right of the navigation bar.
 - In the **Tell Me** window, choose the **exploring reports** action at the bottom.
 
-## Navigate features
+## <a name="navigate-features"></a>Navigate features
 
 The actions that open pages or reports are organised under nodes named after the features or application areas. You can collapse or expand each node individually, or all nodes together.
 
@@ -44,11 +44,11 @@ The actions that open pages or reports are organised under nodes named after the
 - To expand/collapse all top-level nodes on the page, but leave the sub-nodes as they are, choose **...** at the top, then choose **Expand** or **Collapse**.
 - To expand/collapse all top-levels node and all sub nodes under it, choose **...** at the top, then choose the **Expand All** or **Collapse All** action.
 
-## Search for features
+## <a name="search-for-features"></a>Search for features
 
 To quickly locate features, select **Find**, then enter a word or phrase for the feature your trying to find. The role centre highlights any matching text. If a feature is hidden in a collapsed node, the collapsed node is marked with a dot. 
 
-## Explore other roles
+## <a name="explore-other-roles"></a>Explore other roles
 
 To explore roles other than your own, select **Explore more roles**. The role centre displays each role under its own heading, with links to its features. You can find and go to features just like you do when exploring your role.
 
@@ -64,7 +64,7 @@ When exploring other roles, you can also narrow down the exploration by using th
 > For developers, you categorise pages and reports by setting the [UsageCategory property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-usagecategory-property) in the object's AL code.
 <!--
  
-## Role explorer actions
+## <a name="role-explorer-actions"></a>Role explorer actions
 
 There a several actions along the top of the role explorer to help you locate features of your role and other roles.
 
@@ -87,7 +87,7 @@ Choose the **Explore more roles** action at the top of the role explorer to get 
 > Only Role Center actions for profiles where the **Show in Role Explorer** check box is selected will appear on the extended version of the role explorer (shown with the **Explore more roles** action). For more information, see [Manage Profiles](admin-users-profiles-roles.md).
 -->
 
-## Expand and collapse nodes on the role explorer
+## <a name="expand-and-collapse-nodes-on-the-role-explorer"></a>Expand and collapse nodes on the role explorer
 
 The actions that open pages are organised under nodes named after the features or application areas. Each node can be collapsed or expanded individually and you can collapse/expand all nodes together.
 
@@ -97,7 +97,7 @@ The actions that open pages are organised under nodes named after the features o
   - Select the <kbd>Ctrl</kbd>+<kbd>Shift</kbd> keys while you choose the **Expand** or **Collapse** action in the top-right corner.
   - Choose **...** in the top-right corner, then choose the **Expand All** or **Collapse All** action.
 
-## See Also
+## <a name="see-also"></a>See Also
 
 [Finding Pages and Information with Tell Me](ui-search.md)  
 [Manage Profiles](admin-users-profiles-roles.md)  

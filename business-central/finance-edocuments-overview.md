@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# E-documents overview
+# <a name="e-documents-overview"></a>E-documents overview
 
 Electronic documents (e-documents) are the backbone of modern business transactions. They encompass vital documents, such as invoices and receipts in both directions (delivery and receipt). They also add capabilities for document status–related messaging between access points.
 
@@ -35,7 +35,7 @@ The documentation explains e-documents in detail. It shows the capabilities of t
 | [Exchanging Data Electronically](across-data-exchange.md) | Learn how to use the Data Exchange Framework to manage the exchange of data in business documents such as bank files and currency exchange rates. | 
 | [Map e-documents to purchase order lines with Copilot (preview)](map-edocuments-with-copilot.md) | Learn how to use Copilot to improve your efficiency when working with e-documents. |
 
-## See also
+## <a name="see-also"></a>See also
 
 [Financial Management](finance.md)    
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

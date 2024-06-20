@@ -10,11 +10,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Calculating distribution amounts in the New Zealand version
+# <a name="calculating-distribution-amounts-in-the-new-zealand-version"></a>Calculating distribution amounts in the New Zealand version
 
 [!INCLUDE [calculating-distribution-amounts](../includes/AUNZ/calculating-distribution-amounts.md)]
 
-## See also
+## <a name="see-also"></a>See also
 
 [New Zealand Local Functionality](new-zealand-local-functionality.md)  
 
