@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ms.reviewer: bholtorf
 ---
-# Use resources for projects
+# <a name="use-resources-for-projects"></a>Use resources for projects
 
 You record the usage of resources in the project journal to keep track of costs, prices, and the work types that are linked to projects. For more information, see [Record Usage for Projects](projects-how-record-job-usage.md).
 
@@ -20,11 +20,11 @@ You record the usage of resources in the project journal to keep track of costs,
 
 You can also post the usage of a resource in a resource journal. Entries posted in a resource journal have no effect on the general ledger.
 
-## To assign resources to projects
+## <a name="to-assign-resources-to-projects"></a>To assign resources to projects
 
 You assign resources to projects by creating project planning lines for the project. For more information, see [Create Projects](projects-how-create-jobs.md).
 
-## To record resource usage for a project
+## <a name="to-record-resource-usage-for-a-project"></a>To record resource usage for a project
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project Journals**, and then choose the related link.
 2. Open a relevant project journal batch, and then fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -32,7 +32,7 @@ You assign resources to projects by creating project planning lines for the proj
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## To adjust resource prices
+## <a name="to-adjust-resource-prices"></a>To adjust resource prices
 
 If you want to change costs or prices for a large number of resources, you can use a batch job.  
 
@@ -42,7 +42,7 @@ If you want to change costs or prices for a large number of resources, you can u
 > [!NOTE]  
 > This batch job does not create or adjust alternate costs or prices for resources. It only changes the contents of the field on the resource card for the **Adjust Field** field that you selected in the batch job. The adjustment will take effect immediately for resources, so check your adjustment factors before you run the batch job.
 
-## To get resource price change suggestions based on existing alternate prices
+## <a name="to-get-resource-price-change-suggestions-based-on-existing-alternate-prices"></a>To get resource price change suggestions based on existing alternate prices
 
 If you have already set up alternate resource price for some resources, you can use a batch job to set up multiple alternate resource prices.
 
@@ -51,7 +51,7 @@ If you have already set up alternate resource price for some resources, you can 
 3. Choose the **OK** button.  
 4. When the batch job is finished, the **Resource Price Changes** page shows the results of the batch job.
 
-## To get resource price change suggestions based on standard prices
+## <a name="to-get-resource-price-change-suggestions-based-on-standard-prices"></a>To get resource price change suggestions based on standard prices
 
 If you want to set up multiple alternate resource prices based on the standard prices on the resource cards, you can use a batch job.  
 
@@ -60,7 +60,7 @@ If you want to set up multiple alternate resource prices based on the standard p
 3. Choose the **OK** button.  
 4. When the batch job is finished, open the **Resource Price Changes** page to see the results of the batch job.
 
-## To get resource price change suggestions based on alternate prices
+## <a name="to-get-resource-price-change-suggestions-based-on-alternate-prices"></a>To get resource price change suggestions based on alternate prices
 
 If you have already set up alternate resource price for some resources, you can use a batch job to set up multiple alternate resource prices.
 
@@ -69,7 +69,7 @@ If you have already set up alternate resource price for some resources, you can 
 3. Choose the **OK** button.  
 4. When the batch job is finished, open the **Resource Price Changes** page to see the results of the batch job.
 
-## See Also
+## <a name="see-also"></a>See Also
 
 [Project Management](projects-manage-projects.md)  
 [Finance](finance.md)  

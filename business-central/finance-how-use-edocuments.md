@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Use e-documents in the sales process
+# <a name="use-e-documents-in-the-sales-process"></a>Use e-documents in the sales process
 
 You can use configured electronic documents (e-documents) with the sales documents.
 
@@ -26,13 +26,13 @@ You can use the following sales documents with e-documents functionality:
 - Finance charge memos
 - Reminders
 
-## E-documents in sales  
+## <a name="e-documents-in-sales"></a>E-documents in sales
 
 To create and send an e-invoice to a customer, you must create and post the sales invoice. To learn more about the standard process, see [Invoice Sales](sales-how-invoice-sales.md).
 
 After you post the sales document, open the **Posted Sales Invoices** page to access the related **E-Documents** page.
 
-### View e-documents   
+### <a name="view-e-documents"></a>View e-documents
 
 To view existing e-documents, follow these steps.
 
@@ -41,7 +41,7 @@ To view existing e-documents, follow these steps.
 3. The **Record** field shows the document number of the posted sales invoice. Select the link to open the document.
 4. In the **Electronic Document Status** field, you can view the real-time status of the document and its location in the process pipeline. If the document is posted, the status is **Processed**.
 
-### E-document statuses and logs 
+### <a name="e-document-statuses-and-logs"></a>E-document statuses and logs
 
 For details about the service status level of your e-document, check the **E-Document Service Status** FastTab. On the lines, the system shows one or more services that the document used. In the most common scenario, each document uses only one service. However, a document can use multiple services.
 
@@ -65,7 +65,7 @@ If there's an issue with the service provider, and the document can't be sent, l
 
 After the issue is fixed, manually run the **Send Document** actions. If you need different actions, such as **Recreated Document**, **Cancel Document**, or **Get Approval**, you can run them.
 
-## Overview of e-document statuses
+## <a name="overview-of-e-document-statuses"></a>Overview of e-document statuses
 
 To get a better overview of all e-documents in the company, you can select the **Accountant** role centre where e-document statuses exist. There, you can find e-document activities that have the following statuses:
 
@@ -76,7 +76,7 @@ To get a better overview of all e-documents in the company, you can select the *
     - Error
 
 
-## See also
+## <a name="see-also"></a>See also
 
 [How to set up e-documents in [!INCLUDE[prod_short](includes/prod_short.md)]](finance-how-setup-edocuments.md)    
 [How to use e-documents in purchase](finance-how-use-edocuments-purchase.md)  

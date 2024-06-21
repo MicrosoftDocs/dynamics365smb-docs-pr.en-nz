@@ -10,13 +10,13 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# View posted tax invoices in the New Zealand version
+# <a name="view-posted-tax-invoices-in-the-new-zealand-version"></a>View posted tax invoices in the New Zealand version
 
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can use the **Posted GST Invoice** page and the **Posted Purchase Tax Invoice** page to view the details of posted GST invoices and posted purchase tax invoices.  
 
 The following procedure describes how to view the posted GST invoice, but the same steps also apply to viewing posted purchase tax invoices.  
 
-## To view a posted GST invoice  
+## <a name="to-view-a-posted-sales-tax-invoice"></a>To view a posted GST invoice
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted GST Invoice**, and then choose the related link.  
 2. View the FastTabs as described in the following table.  
 
@@ -30,7 +30,7 @@ The following procedure describes how to view the posted GST invoice, but the sa
 
 3.  Choose the **OK** button.  
 
-## See also  
+## <a name="see-also"></a>See also
 [View Posted Tax Credit Memos](how-to-view-posted-tax-credit-memos.md)
 
 
