@@ -10,11 +10,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="compare-bank-cash-flow-in-the-new-zealand-version"></a>Compare Bank Cash Flow in the New Zealand Version
+# Compare Bank Cash Flow in the New Zealand Version
 
 [!INCLUDE [compare-bank-cash-flow](../includes/AUNZ/compare-bank-cash-flow.md)]
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Create Cheque Instalments](how-to-create-check-installments.md)   
 [New Zealand Local Functionality](new-zealand-local-functionality.md)

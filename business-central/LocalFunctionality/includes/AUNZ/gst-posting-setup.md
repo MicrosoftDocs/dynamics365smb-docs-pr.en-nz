@@ -11,7 +11,7 @@ To set up posting details for GST, you must define the posting groups, rate of G
 
 You must set up GST posting before you generate the BAS report.  
 
-## <a name="to-set-up-goods-and-sales-tax-posting"></a>To set up goods and GST posting
+## To set up goods and GST posting  
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **GST Posting Setup**, and then choose the related link.  
 2. Fill in the fields as described in the following table.  
 

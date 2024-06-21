@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-## <a name="check-data-in-documents-and-journals-while-you-work"></a>Check data in documents and journals while you work
+## Check data in documents and journals while you work
 
 Your administrator can enable [!INCLUDE [prod_short](prod_short.md)] to validate the data you enter in documents and journals in real time.
 

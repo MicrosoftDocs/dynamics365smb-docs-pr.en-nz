@@ -10,13 +10,13 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="external-document-numbers-on-purchase-documents"></a>External document numbers on purchase documents
+# External document numbers on purchase documents
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
 You can also specify external document numbers on sales documents. For more information, see [External Document Numbers](sales-how-invoice-sales.md#external-document-numbers)
 
-## <a name="see-also"></a>See also
+## See also
 
 [Enter External Document Numbers](across-enter-external-document-numbers.md)  
 [Purchasing](purchasing-manage-purchasing.md)  

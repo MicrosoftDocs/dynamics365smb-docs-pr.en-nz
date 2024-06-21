@@ -12,7 +12,7 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# <a name="configure-copilot-and-ai-capabilities"></a>Configure Copilot and AI capabilities
+# Configure Copilot and AI capabilities 
 
 <!--[!INCLUDE[ai-preview](includes/ai-preview.md)]-->
 
@@ -37,12 +37,12 @@ This article explains how to control Copilot and other AI capabilities in Busine
 
 If any of these requirements aren't fulfilled, the feature isn't available for use.
 
-## <a name="prerequisites"></a>Prerequisites
+## Prerequisites
 
 - You're using Business Central online.
 - You're an [administrator](#requirements-for-being-an-administrator) in Business Central.
 
-## <a name="allow-data-movement-across-geographies"></a>Allow data movement across geographies
+## Allow data movement across geographies
 
 This task applies only if the **Allow data movement** switch appears near the top of the **Copilot & AI Capabilities** page. If the link **How do I govern my copilot data?** is shown instead of the **Allow data movement** switch, skip this step.
 
@@ -79,7 +79,7 @@ Meanwhile, customers with environments outside the United States can use Copilot
 
 The information in the following table outlines the Azure OpenAI service that's used by the Copilot services based on the geography of their Dynamics 365 environment when they opt-in to share data.-->
 
-## <a name="activate-features"></a>Activate features
+## Activate features
 
 All Copilot and AI capabilities are active by default when they're made available in preview or become generally available. Using the **Copilot & AI Capabilities** page, you can turn individual features off or on again for all users.
 
@@ -95,7 +95,7 @@ All Copilot and AI capabilities are active by default when they're made availabl
 <!-- don't review 
 
 <!-- For 2024 there are no AI features governed by **Feature Management**, so this section is not shown
-## <a name="enable-feature-in-feature-management"></a>Enable feature in Feature Management
+## Enable feature in Feature Management
 
 When individual Copilot capabilities are released in Business Central minor updates, these capabilities are optional until the next major update. **Feature Management** is used to turn on or off features that are in preview, like bank reconciliation, and some features that are generally available, like marketing text suggestions. [Learn more about feature management](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
@@ -108,7 +108,7 @@ When individual Copilot capabilities are released in Business Central minor upda
 
    For more information about feature management in general, go to [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).-->
 
-## <a name="granting-user-access"></a>Granting user access
+## Granting user access
 
 Copilot and AI capabilities can offer functionality intended for any users across your organisation or for specific user roles. Most Copilot and AI capabilities offer access control using permissions and permission sets in Business Central´s permission management system. [Learn more about permissions and permission sets](ui-define-granular-permissions.md).
 
@@ -125,7 +125,7 @@ The following table lists the permissions required to use Copilot features provi
 
 To grant or deny access to specific non-Microsoft copilot and AI capabilities, consult the feature's documentation or publisher to identify the required permissions.
 
-## <a name="requirements-for-being-an-administrator"></a>Requirements for being an administrator
+## Requirements for being an administrator
 
 You must have either SUPER permissions in Business Central user account or one of the following Business Central licences:
 
@@ -137,7 +137,7 @@ You must have either SUPER permissions in Business Central user account or one o
 
 Business Central doesn't yet offer granular, object-level permissions so that only specific administrators can configure Copilot.
 
-## <a name="next-steps"></a>Next steps
+## Next steps
 
 After you enable and consent to the features, you're ready to try them out. Go to:
 
@@ -148,7 +148,7 @@ After you enable and consent to the features, you're ready to try them out. Go t
 - [Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md)
 - [Suggest lines on sales orders with Copilot](sales-suggest-sales-lines-with-copilot.md)  
 
-## <a name="see-also"></a>See also
+## See also
 
 [Troubleshoot Copilot and AI capabilities](ai-copilot-troubleshooting.md)  
 [FAQ for analysis assist](faqs-analysis-assist.md)  

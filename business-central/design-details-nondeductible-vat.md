@@ -11,18 +11,18 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="design-details-non-deductible-vat"></a>Design details: Non-deductible GST
+# Design details: Non-deductible GST
 
 Non-deductible goods and services tax (GST) is the GST that's payable by a purchaser, but that isn't deductible from the purchaser's own GST liability. Because it can be difficult to know where and how an item is used, you must contact the local tax authorities in your country or region to determine whether a specified percentage of the GST is deductible. Even when you know that a specific percentage of the GST isn't deductible, there are different models for handling non-deductible amounts as they are related to **items** and **fixed assets**.
 
-## <a name="prerequisites-for-using-non-deductible-vat"></a>Prerequisites for using non-deductible GST
+## Prerequisites for using non-deductible GST
 
 To use and post non-deductible GST, follow these steps.
 
 1. On the **GST Setup** page, select **Enable Non-Deductible GST** to enable the feature.
 2. On the **GST Posting Setup** page, select which GST posting groups can use non-deductible GST.
 
-## <a name="examples"></a>Examples
+## Examples
 
 For the following examples, non-deductible GST is enabled, and the following setup is completed:
 
@@ -39,7 +39,7 @@ For the following examples, non-deductible GST is enabled, and the following set
 
 All the examples use items and fixed assets where the GST product posting group is **NDGST**.
 
-### <a name="items"></a>Items
+### Items
 
 A new item has **NDGST** set as the GST product posting group. In the purchase document, **Quantity** = **1** and **Direct Unit Cost Excl. GST** = **1,000.00**.
 
@@ -54,19 +54,19 @@ The details are shown in the **Value Entries**.
 > [!NOTE]
 > You can enable the **Use for Item Cost** field on the **GST Setup** page.
 
-#### <a name="use-for-item-cost-isnt-enabled"></a>Use for Item Cost isn't enabled
+#### Use for Item Cost isn't enabled
 
 | Item Ledger Entry Type | Entry Type | Cost Amount (Actual) | Item Ledger Entry Quantity |
 |---|---|---|---|
 | Purchase | Direct Cost | 1,000.00 | 1 |
 
-#### <a name="use-for-item-cost-is-enabled"></a>Use for Item Cost is enabled
+#### Use for Item Cost is enabled
 
 | Item Ledger Entry Type | Entry Type | Cost Amount (Actual) | Item Ledger Entry Quantity |
 |---|---|---|---|
 | Purchase | Direct Cost | 1,250.00 | 1 |
 
-### <a name="fixed-assets"></a>Fixed assets
+### Fixed assets
 
 A new fixed asset has the acquisition cost account set to use **NDGST** as the GST product posting group. In the purchase document, **Quantity** = **1** and **Direct Unit Cost Excl. GST** = **1,000.00**.
 
@@ -81,20 +81,20 @@ The details are shown in the **Fixed Asset Ledger Entries**.
 > [!NOTE]
 > You can enable the **Use for Fixed Asset Cost** field on the **GST Setup** page.
 
-#### <a name="use-for-fixed-asset-cost-isnt-enabled"></a>Use for Fixed Asset Cost isn't enabled
+#### Use for Fixed Asset Cost isn't enabled
 
 | Document Type | FA Posting Type | Amount | GST Amount |
 |---|---|---|---|
 | Invoice | Acquisition Cost | 1,000.00 | 250.00 |
 
-#### <a name="use-for-fixed-asset-cost-is-enabled"></a>Use for Fixed Asset Cost is enabled
+#### Use for Fixed Asset Cost is enabled
 
 | Document Type | FA Posting Type | Amount | GST Amount |
 |---|---|---|---|
 | Invoice | Acquisition Cost | 1,000.00 | 250.00 |
 | Invoice | Acquisition Cost | 250.00 | 0.00 |
 
-## <a name="see-also"></a>See also
+## See also
 
 [Set up non-deductible GST](finance-setup-nondeductible-vat.md)  
 [Finance](finance.md)  

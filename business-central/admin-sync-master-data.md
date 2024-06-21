@@ -10,7 +10,7 @@ ms.date: 04/05/2024
 ms.custom: bap-template
 ms.search.form: '7230, 7233, 5338, 7236, 672, 7234'
 ---
-# <a name="manage-master-data-synchronization"></a>Manage master data synchronisation
+# Manage master data synchronisation
 
 After you set up master data synchronisation and synchronise for the first time, records in the selected tables are coupled and a recurring job queue entry is created for each table. The job queue entries automatically synchronise data in the subsidiary companies when someone makes a change in the source company. Otherwise, you don't need to do anything.
 
@@ -21,29 +21,29 @@ However, sometimes things go wrong, and there might be situations that you need 
 
 This article describes the tools you can use to keep synchronisation running smoothly.
 
-## <a name="overwrite-local-changes"></a>Overwrite local changes
+## Overwrite local changes
 
 You can use the **Overwrite Local Change** checkbox on the fields and tables you synchronise to allow data from the source company to overwrite data in the subsidiary company.
 
 > [!NOTE]
 > You can't enable the synchronisation of a field and allow the subsidiary to write values in it independently from the source company. You must either disable synchronisation for the field, or allow the source company ot overwrite local changes.
 
-## <a name="update-table-schemas"></a>Update table schemas
+## Update table schemas
 
 If the source company changes a table, for example, by adding a field that you want to synchronise, subsidiaries must update their field mappings. On the **Synchronisation Fields** page, use the **Update Fields** action.
 
-## <a name="enable-or-disable-couplings-between-records"></a>Enable or disable couplings between records
+## Enable or disable couplings between records
 
 To start or stop coupling on specific records on a table, on the **Synchronisation Fields** page, choose the fields, and then use either the **Enable** or **Disable** actions.
 
 > [!TIP]
 > A fast way to enable or disable multiple fields at the same time is to select them in the list, and then use either the **Enable** or **Disable** actions.
 
-## <a name="run-a-full-synchronization"></a>Run a full synchronisation
+## Run a full synchronisation
 
 The **Run Full Synchronisation** action schedules a synchronisation for all of the table records in the source company, and resynchronises all records unconditionally. For example, resynchronisation is useful if you enable an extra field on a synchronisation table, or add an extra field by using the **Update Fields** action. The action retroactively synchronises the data in those fields.
 
-## <a name="synchronize-modified-records"></a>Synchronise modified records
+## Synchronise modified records
 
 If you change a setting for a table or field in a subsidiary, you must update the synchronisation. To update the synchronisation, use the **Synchronise Modified Records** action on the **Synchronisation Tables** page.
 
@@ -54,7 +54,7 @@ The **Synchronise Modified Records** action schedules a synchronisation of the f
 
 The action works in the same way as a scheduled synchronisation, and you can use it as a way to synchronise outside the schedule. For example, if you select the **Overwrite Local Change** checkbox on a field to allow data from the source company to overwrite local changes, the action updates that data. You can also just wait until the next scheduled synchronisation happens.
 
-## <a name="investigate-the-status-of-synchronization"></a>Investigate the status of synchronisation
+## Investigate the status of synchronisation
 
 There are two actions on the **Synchronisation Tables** page that can help you monitor your synchronisation:
 
@@ -71,14 +71,14 @@ The following table describes the actions.
 > [!NOTE]
 > If you find an error on the **Integration Synchronisation Jobs** page that you can't resolve yourself, if you contact your partner or Microsoft for support, it's helpful to provide the error message and callstack information.
 
-## <a name="clean-up-old-entries"></a>Clean up old entries
+## Clean up old entries
 
 Over time, the number of entries in the synchronisation log will become large, so you might want to do a little housekeeping to remove unneeded entries. To make it easier to clean up old entries, the **Integration Synchronisation Jobs** page offers the following actions:
 
 * **Delete Entries Older Than 7 Days**
 * **Delete All Entries**
 
-## <a name="adding-extensions"></a>Adding extensions
+## Adding extensions
 
 If the source company installs a new extension, the subsidiary must also install it if they want to synchronise data for it. The subsidiary can use the **Update Fields** action On the **Synchronisation Fields** page to add the tables from the extension to the list.
 
@@ -86,11 +86,11 @@ If the source company installs a new extension, the subsidiary must also install
 > Some tables get data from related tables. If you add an extension that doesn't include related tables, the fields on those tables won't be available. Verify that you've added all related tables.
 
 <!--
-## <a name="recreate-a-deleted-job-queue-entry"></a>Recreate a deleted job queue entry
+## Recreate a deleted job queue entry
 
 If the recurring job queue entry is deleted for a table, you can quickly recreate it. On the **Synchronization Tables** page, choose the **Use Default Synchronization Setup** action.
 -->
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Get ready to synchronise master data](admin-set-up-data-sync.md)

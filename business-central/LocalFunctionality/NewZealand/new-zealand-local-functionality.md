@@ -9,11 +9,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="new-zealand-local-functionality"></a>New Zealand local functionality
+# New Zealand local functionality
 
 The following articles describe local functionality that is unique to the New Zealand version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## <a name="feature-availability"></a>Feature availability
+## Feature availability
 
 * Tax  
     * [Withholding Tax](withholding-tax.md)
@@ -47,14 +47,14 @@ The following articles describe local functionality that is unique to the New Ze
     * [Enter New Zealand Business Numbers](how-to-enter-new-zealand-business-numbers.md) **Available Now**  
     * [New Zealand Inland Revenue Department Numbers and Adjustment Notes](new-zealand-business-numbers-and-adjustment-notes.md) **Available Now**  
 
-## <a name="future-legislation-requirements-being-investigated"></a>Future legislation requirements being investigated
+## Future legislation requirements being investigated
 
 * ANZ Peppol format for E-Documents **Planned for 2024 release wave 2**  
 * Payment Times Reporting Bill Compliance **Planned for 2024 release wave 2**  
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
-## <a name="see-also"></a>See also
+## See also
 
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

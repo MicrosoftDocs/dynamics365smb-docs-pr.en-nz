@@ -7,7 +7,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-## <a name="setting-up-electronic-funds-transfer"></a>Setting up Electronic Funds Transfer
+## Setting up Electronic Funds Transfer
 
 [!INCLUDE[prod_short](../../../includes/prod_short.md)] can export EFT files that you can then upload to your bank's website for additional processing. To submit EFT files, you must set up the following information:  
 

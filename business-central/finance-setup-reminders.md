@@ -11,21 +11,21 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="set-up-reminder-terms-and-levels"></a>Set up reminder terms and levels
+# Set up reminder terms and levels
 
 You can use reminders to inform customers about overdue amounts and to request payment. [!INCLUDE [reminder-terms](includes/reminder-terms.md)]
 
 > [!TIP]
 > After you set up reminder terms and levels, you can include them in automated processes for creating, issuing, and sending reminders. To learn more about the automated process, go to [Automate reminders in collections](finance-automate-reminders.md).
 
-## <a name="reminder-terms"></a>Reminder terms
+## Reminder terms
 
 If customers have overdue payments, you must decide when and how to send a reminder. In addition, you might want to debit their accounts for interest or fees. You can set up any number of reminder terms.  
 
 > [!NOTE]
 > If you want to calculate interest on overdue payments, you can do so when you create reminders. If, however, you just want to calculate interest and inform your customers about this without sending a reminder, use a [finance charge memo](finance-setup-finance-charges.md). For more information, see [Reminders](receivables-collect-outstanding-balances.md#reminders) or [Finance Charges](receivables-collect-outstanding-balances.md#finance-charges).
 
-### <a name="set-up-attachment-and-email-body-texts-for-communications"></a>Set up attachment and email body texts for communications
+### Set up attachment and email body texts for communications
 
 On the **Reminder Terms Setup** page, you can set up attachment texts and standard email messages to use either for all reminder levels, or create specific messages for each level. For example, the message you send for the first reminder level might have a different tone or content than the second or third. To create attachment and email message texts for all levels, choose **Customer Communication** at the top of the page. To create messages for specific lines, on the **Reminder Level** FastTab, choose a line and then choose the **Customer Communication** action on the FastTab.
 
@@ -36,19 +36,19 @@ When you send an email, the reminder is a report you attach to the email. You de
 > [!NOTE]
 > Communicating by email directly from [!INCLUDE [prod_short](includes/prod_short.md)] requires that you're set up to do that. To learn more about connecting email accounts with [!INCLUDE [prod_short](includes/prod_short.md)], go to [Set up email](admin-how-setup-email.md).
 
-### <a name="set-up-reminder-terms"></a>Set up reminder terms
+### Set up reminder terms
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reminder Terms**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 3. To use more than one combination of reminder terms, set up a code for each one.
 
-## <a name="reminder-levels"></a>Reminder levels
+## Reminder levels
 
 For each reminder term, you can define an unlimited number of reminder levels, though most companies use only two or three levels. The first time a reminder is created for a customer, the setting from level 1 is used. When the reminder is issued, the level number is registered on the reminder entries that are created and linked to the individual customer ledger entries. If it's necessary to remind the customer again, all reminder entries linked to open customer ledger entries are checked to locate the highest level number. The conditions from the next level number will then be used for the new reminder.
 
 If you create more reminders than you define levels for, the conditions for the highest level are used. You can create as many reminders as are allowed by the **Max. No of Reminders** field in the reminder terms.
 
-### <a name="to-set-up-reminder-levels"></a>To set up reminder levels
+### To set up reminder levels
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reminder Terms**, and then choose the related link.  
 2. On the **Reminder Terms** page, select the line with the terms you want to set up levels for, and then choose the **Levels** action.  
@@ -108,7 +108,7 @@ If you create more reminders than you define levels for, the conditions for the 
 
 After you set up the reminder terms, you can assign them to customers on Customer Card pages. For more information, see [Register New Customers](sales-how-register-new-customers.md).  
 
-## <a name="see-also"></a>See also
+## See also
 
 [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)  
 [Send Reminders of Outstanding Balances](receivables-send-reminders.md)  

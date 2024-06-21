@@ -12,9 +12,9 @@ ms.custom: bap-template
 ms.reviewer: jswymer
 ---
 
-# <a name="keyboard-quick-reference---pc-only"></a>Keyboard quick reference - PC only
+# Keyboard quick reference - PC only
 
-#### <a name="general"></a>General
+#### General
 
 |Select these keys|To do this|  
 |-|-|
@@ -41,7 +41,7 @@ ms.reviewer: jswymer
 |<kbd>Tab</kbd>/<kbd>Shift</kbd>+<kbd>Tab</kbd>|Move focus to the next/previous element|
 |<kbd>F6</kbd>/<kbd>Shift</kbd>+<kbd>F6</kbd>|Move to next FastTab/part|
 
-#### <a name="navigate--select-rows"></a>Navigate & select rows
+#### Navigate & select rows
 
 |Select these keys|To do this|
 |-|-|
@@ -55,14 +55,14 @@ ms.reviewer: jswymer
 |<kbd>Shift</kbd>+<kbd>Page Up</kbd>/<kbd>Down</kbd>|Select visible rows above/below|
 |<kbd>Ctrl</kbd>+<kbd>Enter</kbd>|Focus out of the list|
 
-#### <a name="copy--paste"></a>Copy & paste
+#### Copy & paste
 
 |Select these keys|To do this|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>C</kbd>/<kbd>V</kbd>|Copy/paste rows|
 |<kbd>F8</kbd>|Copy field above into current row|
 
-#### <a name="search-filter--sort"></a>Search, filter, & sort
+#### Search, filter, & sort
 
 |Select these keys|To do this|
 |-|-|
@@ -73,20 +73,20 @@ ms.reviewer: jswymer
 |<kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Add filter on selected field|
 |<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>F3</kbd>|Reset filters|
 
-#### <a name="quick-entry"></a>Quick entry
+#### Quick entry
 
 |Select these keys|To do this|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Enter</kbd>|Go to next Quick Entry field outside a list|
 |<kbd>Enter</kbd>/<kbd>Shift</kbd>+<kbd>Enter</kbd>|Go to next/previous Quick Entry field|
 
-##### <a name="report-preview"></a>Report preview
+##### Report preview
 
 |Select these keys|To do this|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>Home</kbd>/<kbd>End</kbd>|Go to the first/last page|
 
-#### <a name="numeric-keypad"></a>Numeric keypad
+#### Numeric keypad
 
 |Select these keys|To do this|  
 |-|-|

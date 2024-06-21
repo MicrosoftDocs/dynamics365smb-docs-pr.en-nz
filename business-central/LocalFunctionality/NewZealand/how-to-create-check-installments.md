@@ -11,11 +11,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="create-check-installments-in-the-new-zealand-version"></a>Create cheque instalments in the New Zealand version
+# Create cheque instalments in the New Zealand version
 
 [!INCLUDE [create-check-installments](../includes/AUNZ/create-check-installments.md)]
 
-## <a name="see-also"></a>See also
+## See also
 
 [New Zealand Local Functionality](new-zealand-local-functionality.md)
 

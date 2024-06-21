@@ -10,15 +10,15 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="sales-reports-and-analytics-in-business-central"></a>Sales reports and analytics in Business Central
+# Sales reports and analytics in Business Central
 
 Sales reporting gives sales and business professionals insights and statistics about current and past sales activities.  
 
-## <a name="reports"></a>Reports
+## Reports
 
 [!INCLUDE [sales_reports](includes/sales-reports-include.md)]
 
-## <a name="tasks"></a>Tasks
+## Tasks
 
 The following articles describe some of the key tasks for analysing the state of your sales:
 
@@ -28,7 +28,7 @@ The following articles describe some of the key tasks for analysing the state of
 * [Package tracking](sales-how-track-packages.md)
 * [View unposted and posted blanket sales order lines](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
 
-## <a name="explore-sales-reports-with-report-explorer"></a>Explore sales reports with Report Explorer
+## Explore sales reports with Report Explorer
 
 To get an overview of the reports that are available for sales, choose **All Reports** on your Home page. This action opens the Role Explorer, which is filtered to the features in the **Report & Analysis** option. Under the **Sales and Marketing** heading, choose **Explore**.
 
@@ -36,7 +36,7 @@ To get an overview of the reports that are available for sales, choose **All Rep
 
 To learn more, go to [Finding Reports with the Role Explorer](ui-role-explorer.md).
 
-## <a name="see-also"></a>See also
+## See also
 
 [Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md)    
 [Sales analytics overview](sales-analytics-overview.md)   

@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="addresses-in-the-new-zealand-version"></a>Addresses in the New Zealand version
+# Addresses in the New Zealand version
 
 A single postcode can include multiple cities in the same region.  
 
@@ -26,7 +26,7 @@ When you print an address that has a DPID, a bar code is printed together with t
 
 Contact your Microsoft partner for information on how to obtain AMAS software.  
 
-## <a name="see-also"></a>See also
+## See also  
  [New Zealand Local Functionality](new-zealand-local-functionality.md)
 
 
