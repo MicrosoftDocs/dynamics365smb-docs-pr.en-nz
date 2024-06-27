@@ -1,28 +1,28 @@
 ---
-title: Report Selection in Business Central
+title: Report selection in Business Central
 description: Learn about how to set up the reports that you use to print various types of documents in Business Central.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'setup, reporting'
 ms.search.form: '306, 307, 347, 385, 524, 865, 5932, 7401, 7355, 99000917'
-ms.date: 06/09/2022
-ms.author: bholtorf
+ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
 ---
-# <a name="report-selection-for-documents-in-business-central"></a>Report Selection for Documents in Business Central
+# Report selection for documents in Business Central
 
-You can set up default reports to use to print sales, purchases, and service documents, such as orders, quotes, and invoices. For example, if you have a specific layout for sales invoices, you can specify that report in the **Report Selections - Sales** page so that it will be used to send or print sales invoices.  
+You can set up default reports to use to print sales, purchases, and service documents, such as orders, quotes, and invoices. For example, if you have a specific layout for sales invoices, you can specify that report in the **Report Selections - Sales** page. You can then use the report when you send or print sales invoices.  
 
-## <a name="available-report-selections"></a>Available report selections
+## Available report selections
 
-The **Report Selections** pages specify which report will be printed in different situations. [!INCLUDE [prod_short](includes/prod_short.md)] provides default configurations, but you can change them if needed. You can also add reports to the **Report Selection** pages if you want to print more than one report per document type, for example. 
+The **Report Selections** pages specify the reports to print in different situations. [!INCLUDE [prod_short](includes/prod_short.md)] provides default configurations, but you can change them if needed. You can also add reports to the **Report Selection** pages if you want to print more than one report per document type, for example. 
 
 The following table describes where you can find information about the different pages.  
 
 |Area or task  |Learn more|
 |--------------|----------|
-|Example of how report selection works (sales)|[Report selection for sales documents](#example-report-selection-for-sales-documents) found below|
+|Example of how report selection works (sales)|[Report selection for sales documents](#example-report-selection-for-sales-documents)|
 |Default layout for emails with sales and purchase documents  |[Set Up Reusable Email Texts and Layouts for Sales and Purchase Documents](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts) |
 |Define cheque layouts     |[Select a Cheque Layout](finance-how-define-check-layouts.md) |
 |Define reports for value-added tax (VAT) reporting (Germany)|[Set Up Reports for GST and Intrastat](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md) |
@@ -33,21 +33,23 @@ The following table describes where you can find information about the different
 The default version of [!INCLUDE [prod_short](includes/prod_short.md)] includes the following **Report Selection** pages:
 
 * **Report Selection - Sales**  
+* **Report Selection - Project**  
+* **Report Selection - Service**
 * **Report Selection - Purchase**  
-* **Report Selection - Inventory**  
 * **Report Selection - Cash Flow**  
 * **Report Selection - Warehouse**  
+* **Report Selection - Inventory**  
 * **Report Selection - Bank Account**  
-* **Report Selection - Job**  
-* **Report Selection - Service**
+* **Report Selection - Production Order**  
+* **Report Selection - Reminder/Finance Charge**  
 
-## <a name="example-report-selection-for-sales-documents"></a>Example: Report selection for sales documents
+## Example: Report selection for sales documents
 
 The **Report Selection - Sales** page offers default reports to use in different scenarios for each related document type. Choose a document type in the **Usage** field, then add or review the report selection. You can set up more than one report and specify the sequence the reports must be sent or printed in.  
 
 [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-You can't send all document types as email attachments. For those you can, the **Report Selection** page contains extra fields.  
+You can't send all document types as email attachments. For the document types you can, the **Report Selection** page contains extra fields.  
 
 For example, on the **Report Selection - Sales** and **Report Selection - Purchase** pages, the following fields help you set up email:
 
@@ -57,7 +59,7 @@ For example, on the **Report Selection - Sales** and **Report Selection - Purcha
 |**Use for Email Attachment**| Attach the related document to the email.|
 |**Email Body Layout Description**|Specify the email body layout to use. Typically, it's a custom report layout. |
 
-## <a name="see-also"></a>See also
+## See also
 
 [Set Up Reusable Email Texts and Layouts](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts)  
 [Select a Cheque Layout](finance-how-define-check-layouts.md)  

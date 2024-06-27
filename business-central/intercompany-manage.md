@@ -3,28 +3,28 @@ title: Managing intercompany transactions
 description: 'With the Intercompany functionality, you can simplify business processes and transactions between companies within the same organisation.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bhielse
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.date: 02/06/2023
+ms.date: 05/24/2024
 ms.custom: bap-template
 ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
 ms.search.form: '605,'
 ms.service: dynamics-365-business-central
 ---
-# <a name="managing-intercompany-transactions"></a>Managing Intercompany Transactions
+# Managing intercompany transactions
 
 Businesses with more than one legal entity with separate accounting functions can benefit from intercompany transactions. For example, it's useful for businesses that have subsidiaries in multiple international markets or regions. Or, an organisation might have several companies but lack the equivalent number of accounting and administrative teams. Intercompany transactions simplify and streamline business processes and transactions between companies in the intercompany partnership.
 
-When you've specified the customer and vendor relationships for intercompany transactions, partners enter information one time in sales and purchase documents. A corresponding document is created at the other partner involved in the transaction. Mapping the chart of accounts and dimensions helps ensure that information appears in the right places.  
+After you specify the customer and vendor relationships for intercompany transactions, partners enter information one time in sales and purchase documents. A corresponding document is created at the other partner involved in the transaction. Mapping the chart of accounts and dimensions helps ensure that information appears in the right places.  
 
 There are four main benefits to the intercompany functionality:  
 
 * Increased productivity as a result of time saved and simplified transactions  
 * Minimised mistakes with one-time entry of information and system-wide, automated updates  
-* Complete audit trail and full visibility into business activities and transaction histories  
-* Efficient, cost-effective transactions with affiliate and subsidiary companies  
+* Transparent audit trail and full visibility into business activities and transaction histories  
+* Efficient transactions with affiliate and subsidiary companies  
 
-## <a name="streamline-the-flow-of-business-activities"></a>Streamline the flow of business activities
+## Streamline the flow of business activities  
 
 Intercompany transactions let you distribute sales and purchasing documents and general journal entries to all of your satellite offices, sales offices, or subsidiary companies. Distributing transactions saves time and increases efficiency throughout the organisation by reducing data entry. It cuts down on the need to send, receive, print, and archive sales and purchasing documents.  
 
@@ -34,7 +34,7 @@ When you enter a transaction, you don't need to specify the accounts to use. You
 
 Intercompany focuses on sales and purchase documents and general journal lines, and allows transactions between multiple [!INCLUDE [prod_short](includes/prod_short.md)] databases. For example:
 
-* In different countries/regions
+* Different countries/regions
 * Multiple currencies
 * Different charts of accounts
 * Different dimensions
@@ -69,7 +69,7 @@ The following table describes a sequence of tasks, with links to the articles th
 |Organise and process incoming and outgoing transactions that you exchange with your intercompany partners.|[Manage the Intercompany Inbox and Outbox](intercompany-how-manage-intercompany-inbox.md)|
 |Use intercompany transactions to distribute costs between partner companies.|[Allocate Costs to Intercompany Partners](intercompany-allocate-costs.md)|
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  

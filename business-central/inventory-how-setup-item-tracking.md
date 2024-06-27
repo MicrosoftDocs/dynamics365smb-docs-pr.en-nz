@@ -1,30 +1,28 @@
 ---
-title: 'Set Up Item Tracking with Serial, Lot, and Package Numbers'
+title: 'Set up item tracking with serial, lot, and package numbers'
 description: 'Set up item tracking with serial numbers, lot numbers, and package numbers'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 08/31/2021
-ms.author: bholtorf
+ms.date: 06/06/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-item-tracking-with-serial-lot-and-package-numbers"></a>Set Up Item Tracking with Serial, Lot, and Package Numbers
+# Set up item tracking with serial, lot, and package numbers
 
 Keep track of inventory items even in complex warehouse configurations with numbers that are specific to each item, either as an individual object, as a lot, or as a package. With item tracking, you can trace items across internal warehouse movements, and outbound and inbound documents.
 
 Items with serial and lot numbers can be traced both backwards and forward in the supply chain. This is useful for general quality assurance and for product recalls. For more information, see [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md).  
 
-> [!TIP]
-> In 2021 release wave 1 and later, switch on the *Use tracking by package number in reservation and tracking system* feature update if you want to work with package numbers as well as serial and lot numbers. For more information, see [Enabling Upcoming Features Ahead of Time](admin-feature-management.md). Once the feature is switched on, you can assign package numbers to outbound and inbound documents similar to how you can work with lot numbers.  
-
-## <a name="numbers-and-item-tracking"></a>Numbers and item tracking
+## Numbers and item tracking
 
 As part of your warehouse processes, you can bundle your stock in packages, boxes, containers, and so on. But in order to keep track of the items, you assign unique numbers as identification. For example, you manufacture and sell a chair that has the item number *1900-S*. Each individual chair has a serial number, *1001*, but you also bundle four chairs into a lot, *LOT0001*, and you ship the chairs in a container with the package number *CONTAINER010* that also includes other items, such as *LOT0100* with side tables, and *LOT200* with lamps.  
 
 Depending on your configuration, you use these different numbers to keep track of inventory in [!INCLUDE [prod_short](includes/prod_short.md)] at the various stages of purchasing, sales, warehouse operations, and so on.
 
-## <a name="to-set-up-item-tracking-codes"></a>To set up item tracking codes
+## To set up item tracking codes
 
 An item tracking code reflects the different considerations a company has regarding the use of serial and lot numbers for items moving through the inventory.  
 
@@ -34,14 +32,14 @@ An item tracking code reflects the different considerations a company has regard
 4. On the **Serial No.**, **Lot No.**, and the **Package No.** FastTabs, define policies of item tracking by serial, lot, and package numbers respectively.  
 
 > [!NOTE]  
-> If you want to track specific items or specific lots throughout their lifetime, you must choose the **SN Specific Tracking** and **Lot Specific Tracking** fields, respectively. As a result, when handling an outbound unit of an item with this item tracking code, you must always specify which existing serial number or which existing lot number to handle. This means that when selling a unit of the item, it must be applied against a specific pool of serial numbers or a specific lot number in inventory. Or in other words, a serial number or lot number assigned to the item when entering into inventory must follow that item type out of inventory.
+> If you want to track specific items or specific lots throughout their lifetime, you must choose the **SN Specific Tracking**, **Lot Specific Tracking** and **Package Specific Tracking** fields, respectively. As a result, when you handle an outbound unit of an item with this item tracking code, you must always specify which existing serial number or which existing lot number to handle. This means that when selling a unit of the item, it must be applied against a specific pool of serial numbers or a specific lot number in inventory. Or in other words, a serial, lot, or package number assigned to the item when entering into inventory must follow that item type out of inventory.
 
-As this particular setup field covers all possible transactions with the item, the individual inbound/outbound fields will also be selected. However, the individual inbound/outbound fields have nothing to do with application across inventory - they merely define your company's work flow concerning when to assign item tracking numbers.  
+Because these setup fields cover all possible transactions with the item, the individual inbound/outbound fields are selected. However, the individual inbound/outbound fields have nothing to do with application across inventory. They merely define your company's work flow concerning when to assign item tracking numbers.  
 
 > [!NOTE]  
 > To assign item tracking numbers in warehouse activities, the **SN Warehouse Tracking** and **Lot Warehouse Tracking** fields must be selected on the item's item tracking code card.  
 
-## <a name="to-set-up-expiration-rules-for-serial-or-lot-numbers"></a>To set up expiration rules for serial or lot numbers
+## To set up expiration rules for serial or lot numbers
 
 For some items you might want to set up specific expiration dates and rules in the item tracking code. This functionality allows you to keep track of when specific serial numbers and lot numbers expire.
 
@@ -52,10 +50,10 @@ For some items you might want to set up specific expiration dates and rules in t
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Strict Expiration Posting**|Specifies that an expiration date assigned to the item tracking number as it entered inventory must be respected when it exits inventory.|  
-    |**Require Expir. Date Entry**|Specifies that you must enter an expiration date on the item tracking line.|  
+    |**Require Expirration Date Entry**|Specifies that you must enter an expiration date on the item tracking line.|  
     |**Use Expiration Dates**|Specifies that you want to calculate expiration dates. |  
 
-## <a name="to-set-up-warranties-for-serial-or-lot-numbers"></a>To set up warranties for serial or lot numbers
+## To set up warranties for serial or lot numbers
 
 For some items, you might want to set up specific warranties in the item tracking code. This functionality allows you to keep track of when the warranties on specific serial or lot numbers in your inventory will run out.  
 
@@ -68,8 +66,7 @@ For some items, you might want to set up specific warranties in the item trackin
     |**Warranty Date Formula**|Specifies the last day of warranty for the item.|  
     |**Require Warranty Date Entry**|Specifies that you must manually enter a warranty date on the item tracking line.|  
 
-
-## <a name="to-set-up-items-for-tracking-with-the-correct-item-tracking-codes"></a>To set up items for tracking with the correct item tracking codes
+## To set up items for tracking with the correct item tracking codes
 
 To enable item tracking you first have to assign the item tracking codes to an item. There are two ways to add item tracking codes, by selecting the code from a predefined list or by assigning a new unique code. Hover over the fields to read a short description.
 
@@ -78,14 +75,14 @@ To enable item tracking you first have to assign the item tracking codes to an i
 3. On the **Item Tracking** FastTab, assign the appropriate item tracking codes and choose the **Item Tracking Code**, the **Serial Nos.**, and the **Lot Nos.**.
     1. Alternatively you can also create a new item tracking code by selecting the **New** action.
 
-## <a name="to-specify-opening-balances-for-the-items-you-track"></a>To specify opening balances for the items you track
+## To specify opening balances for the items you track
 
 You can create opening balances for the items you track. Because you can choose different warehouse configurations, there are two options:
 
 * Enable specific batches on the **Item Journal** page to let people enter serial, lot, and package data directly on journal lines.
 * For locations where the **Directed Put-away and Pick** toggle is turned on, use the **Warehouse Physical Inventory Journal** page to make all item tracking fields available. The fields that are available include the **Warranty Date** and **Expiration Date** fields.
 
-### <a name="item-journals"></a>Item journals
+### Item journals
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Journals**, and then choose the related link.
 2. Choose the **Name** field to open a list of item journal batches.
@@ -95,9 +92,9 @@ You can create opening balances for the items you track. Because you can choose 
 6. Choose the **Post** action to adjust inventory.
 
 > [!NOTE] 
-> [!INCLUDE [prod_short](includes/prod_short.md)] does a few minor validations when you enter or import data. A more comprehensive check happens when you post or transfer data from journal lines to the **Item Tracking Window**. The latter happens automatically when you open the **Item Tracking Window** page from the item journal line or if you choose the **Update Item Tracking Lines** action.
+> [!INCLUDE [prod_short](includes/prod_short.md)] does a few minor validations when you enter or import data. A more comprehensive check happens when you post or transfer data from journal lines to the **Item Tracking** page. The latter happens automatically when you open the **Item Tracking** page from the item journal line or if you choose the **Update Item Tracking Lines** action.
 
-### <a name="warehouse-physical-inventory-journal-for-locations-where-directed-pick-and-put-away-is-turned-on"></a>Warehouse physical inventory journal for locations where directed pick and put-away is turned on
+### Warehouse physical inventory journal for locations where directed pick and put-away is turned on  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Physical Inventory Journal**, and then choose the related link.
 2. Fill in the fields on the item journal line as necessary. Note that the **Lot No.**, **Serial No.**, **Expiration Date**, **Warranty Date**, and **Package No.** fields are available (if the feature is enabled).
@@ -108,7 +105,7 @@ For bulk imports, use configuration packages to import data to the journals.
 > [!NOTE]
 > You can't use **Edit in Excel** to create journal lines with tracking information.
 
-## <a name="see-also"></a>See also
+## See also
 
 [Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)  
 [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)  

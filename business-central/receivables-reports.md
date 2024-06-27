@@ -1,6 +1,6 @@
 ---
 title: Accounts receivable reports and analytics
-description: See which reports and analytics are available in the standard version of Business Central so that you can keep track of your accounts receivable.
+description: Explore the reports and analytics in the standard version of Business Central that can help you track your accounts receivable.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -10,22 +10,20 @@ ms.search.form: 'Report_33, Report_101, Report_104, Report_109, Report_112, Repo
 ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="accounts-receivable-reports-and-analytics"></a>Accounts receivable reports and analytics
+# Accounts receivable reports and analytics
 
-To help you manage your accounts receivable in [!INCLUDE [prod_short](includes/prod_short.md)], standard reports and analytics are built in. It moves beyond traditional reporting constraints to help you efficiently design various types of reports.  
+To help you manage your accounts receivable in [!INCLUDE [prod_short](includes/prod_short.md)], standard reports and analytics are built in. It goes beyond traditional reporting constraints to help you efficiently design various types of reports.  
 
-
-## <a name="reports"></a>Reports
+## Reports
 
 [!INCLUDE [receivable_reports](includes/receivable-reports-include.md)]
 
-
-## <a name="explore-finance-reports-with-report-explorer"></a>Explore finance reports with Report Explorer
+## Explore finance reports with Report Explorer
 
 [!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
 
 
-## <a name="see-also"></a>See also
+## See also
 
 [Key financial reports](finance-reports.md)  
 [Ad hoc analysis on finance data](ad-hoc-analysis-finance.md)   

@@ -1,7 +1,7 @@
 ---
 title: FAQs for analysis assist (preview)
 description: 'This FAQ provides information about the AI technology used for analysing data on pages in Business Central. It includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.'
-ms.date: 02/13/2024
+ms.date: 06/13/2024
 ms.custom:
   - responsible-ai-faqs
 ms.topic: article
@@ -13,76 +13,72 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# <a name="faq-for-analysis-assist-preview"></a>FAQ for analysis assist (preview)
+# FAQ for analysis assist (preview)
 
-[!INCLUDE[preview-banner](includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 These frequently asked questions (FAQ) describe the AI impact of the analysis assist feature in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## <a name="what-is-analysis-assist"></a>What is analysis assist?
+## What is analysis assist?
 
-Analysis assist is a Copilot that provides assistance for working with the [data analysis mode](analysis-mode.md) in Business Central. The data analysis mode enables you to organise, aggregate, and summarise data on pages and queries to make it more suitable for analysing and extracting meaningful insights. With analysis assist, you can automatically construct the view of the data you want to analyse by expressing your needs in simple, natural language, like "show vendors by location sorted by number of purchases." Analysis assist makes it easier to work with data without the need for complex technical skills.
+Analysis assist is a copilot that provides assistance for working with the [data analysis mode](analysis-mode.md) in Business Central. The data analysis mode enables you to organise, aggregate, and summarise data on pages and queries to make it more suitable for analysing and extracting meaningful insights. With analysis assist, you can automatically construct the view of the data you want to analyse by expressing your needs in simple, natural language, like "show vendors by location sorted by number of purchases." Analysis assist makes it easier to work with data without the need for complex technical skills.
 
-## <a name="what-are-capabilities-of-analysis-assist"></a>What are capabilities of analysis assist?
+## What are capabilities of analysis assist?
 
-Analysis assist is built on the developer tools for Copilot in Business Central. It uses Azure Open AI Azure OpenAI to convert unstructured instructions into a structured design for displaying data in the analysis mode, without creating, modifying, or updating customer business data itself.
+Analysis assist is built on the developer tools for Copilot in Business Central. It uses Azure OpenAI Service to convert unstructured instructions into a structured design for displaying data in the analysis mode, without creating, modifying, or updating customer business data itself.
 
-## <a name="what-is-the-intended-use-of-analysis-assist"></a>What is the intended use of analysis assist?
+## What is the intended use of analysis assist?
 
-The intended use of analysis assist is to help create analysis tabs in the data analysis mode to present data in a manner that makes it easier to draw conclusions. However, it's important to note that analysis assist doesn't provide direct insights or conclusions about the data. It's a tool to help users organise and view their data. However, it's up to the user to extract actionable information, discover trends, and make informed decisions to drive business value.
+Analysis assist helps create analysis tabs in the data analysis mode to present data in a manner that makes it easier to draw conclusions. However, it's important to note that analysis assist doesn't provide direct insights or conclusions about the data. It's a tool to help users organise and view their data. It's up to the user to extract actionable information, discover trends, and make informed decisions to drive business value.
 
-## <a name="how-was-analysis-assist-evaluated-what-metrics-are-used-to-measure-performance"></a>How was analysis assist evaluated? What metrics are used to measure performance?
+## How was analysis assist evaluated? What metrics are used to measure performance?
 
 - The feature underwent extensive testing based on [!INCLUDE[prod_short](includes/prod_short.md)]'s demonstration data and other fictitious product catalogues. Copilot was given numerous prompts in the supported English locales. The prompts covered a broad range of data analysis instructions and styles of expressing intent. The outcomes were evaluated against accuracy, relevance, and safety.
 
-- The feature is built in accordance with Microsoft's Responsible AI Standard. [Learn more about responsible AI from Microsoft](https://aka.ms/RAI).
+- The feature is built in accordance with Microsoft's Responsible AI Standard. [Learn more about responsible AI from Microsoft.](https://aka.ms/RAI)
 
-## <a name="how-does-microsoft-monitor-the-quality-of-generated-content"></a>How does Microsoft monitor the quality of generated content?
+## How does Microsoft monitor the quality of generated content?
 
 Microsoft has various systems in place to ensure that content generated by Copilot is of the highest quality, detect abuse, and ensure safety for our customers and their data.
 
 Users have the opportunity to provide feedback to every Copilot response and report inaccurate or inappropriate content to help Microsoft improve this feature.
 
-- If you encounter inappropriate generated content, report it to Microsoft by using this feedback form: [Report abuse](https://go.microsoft.com/fwlink/?linkid=2249810).
+- If you encounter inappropriate generated content, report it to Microsoft by using this feedback form: [Report abuse](https://go.microsoft.com/fwlink/?linkid=2249810)
 
-- We analyse and utilise user feedback on the feature to help us improve responses.
+- We analyse user feedback on the feature and use it to help us improve responses.
 
   You provide feedback by using the like (thumbs up) or dislike (thumbs down) icon on the **Copilot** pane in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 - Microsoft might disable the Copilot-driven features for selected customers if abuse of the functionality is detected.
 
-## <a name="what-are-the-limitations-of-analysis-assist-how-can-users-minimize-the-impact-of-the-analysis-assist-limitations-when-using-the-system"></a>What are the limitations of analysis assist? How can users minimise the impact of the analysis assist limitations when using the system?
+## What are the limitations of analysis assist? How can users minimise the impact of the analysis assist limitations when using the system?
 
-- General AI limitations
+- General AI limitations:
 
-  AI systems are valuable tools but they're nondeterministic. The content they generate might not be accurate. So, it's important to use your judgment to review and verify responses Copilot before making decisions that could affect stakeholders like customers and partners.
+  AI systems are valuable tools but they're nondeterministic. The content they generate might not be accurate. It's important to use your judgment to review and verify responses before making decisions that could affect stakeholders like customers and partners.
 
-- Language and geographical limitations:
+- Available languages
 
-  - Analysis assist is only supported in English for the following locales: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA.
+   [!INCLUDE[analysis-assist-language-support](includes/analysis-assist-language-support.md)]
 
-    If the display language in Business Central isn't one of the listed locales, the feature isn't available.
-
-  - The quality of answers can be lower if:
-    - The language locale in Business Central is something other than en-US.
-    - The language setting for the user in Business Central differs from the primary language of the business data in the [!INCLUDE[prod_short](includes/prod_short.md)] database.
+   The quality of answers can also be lower if the language setting for the user in Business Central differs from the primary language of the business data in the [!INCLUDE[prod_short](includes/prod_short.md)] database.
   
-  - Geographical limitation:
+- Geographical limitation:
   
-    The feature is available in all supported [Business Central countries/regions](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations) except for Canada, due to regulatory language compliance. However, the feature uses Microsoft Azure OpenAI Service, which is currently available for Business Central in some geographies. If your environment is located in a country/region where Azure OpenAI Service isn't available, administrators must allow data to move across geographies. [Learn more](/dynamics365/business-central/ai-copilot-data-movement).
+   The feature is available in all supported [Business Central countries/regions](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)<!-- except for Canada-->. However, the feature uses Microsoft Azure OpenAI Service, which is currently available for Business Central in some geographies. If your environment is located in a country/region where Azure OpenAI Service isn't available, administrators must allow data to move across geographies. [Learn more about Copilot data movement across geographies](/dynamics365/business-central/ai-copilot-data-movement).
 
 - Certain industry, product, and subject limitations:
 
   Organisations that operate in some business domains, such as medical, drugs, legal, and weapons, might experience lower quality of service.
 
-## <a name="what-data-does-analysis-collect-and-how-is-it-used"></a>What data does analysis collect and how is it used
+## What data does analysis collect and how is it used?
 
 The analysis assist capability collects the minimum data required by Business Central to offer the service. Microsoft doesn't use your company data, including the text you send to Copilot, to train the foundational models for the benefit of others. For more information, see [Dynamics 365 terms for Azure OpenAI-powered features](https://go.microsoft.com/fwlink/?linkid=2236010).
 
 It also collects data from the feedback users can provide using the like (thumbs up) or dislike (thumbs down) icons in the analysis assist **Copilot** page. The data is anonymous and includes the choice of like or dislike, the dislike reason if provided, and the Copilot feature the feedback applies to.
 
-## <a name="see-also"></a>See also
+## See also
 
 [Analyse data with Copilot (preview)](analysis-assist.md)

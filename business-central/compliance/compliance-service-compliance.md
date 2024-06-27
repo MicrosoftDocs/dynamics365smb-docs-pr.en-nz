@@ -6,25 +6,25 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
 ms.reviewer: bholtorf
-ms.date: 06/14/2021
+ms.date: 06/16/2024
 ms.author: soalex
 ms.service: dynamics-365-business-central
 ---
-# <a name="service-compliance"></a>Service Compliance
+# Service Compliance
 
-This content contains information about service compliance in relation to [!INCLUDE[prod_short](../includes/prod_short.md)] online  
+This content contains information about service compliance in relation to [!INCLUDE[prod_short](../includes/prod_short.md)] online.
 
-Business Central is a cloud service with a global reach and scale running on one of the world's largest hyper-scale infrastructures, Microsoft Azure, with data centres in regions all over the world. Running a cloud service also imposes the need to conform to certain standards in security and compliance, so from a service perspective Business Central lives up to the strict requirements in several ISO and industry specific certifications.
+Business Central is a cloud service with a global reach and scale running on one of the world's largest hyperscale infrastructures, Microsoft Azure, with datacenters in regions all over the world. Running a cloud service also imposes the need to conform to certain standards in security and compliance, so from a service perspective Business Central lives up to the strict requirements in several ISO and industry-specific certifications.
 
-Please find the detailed list of [Cloud compliance offerings for Business Central here](https://aka.ms/d365-compliance-list).
+For the detailed list of cloud compliance offerings for Business Central, [download the Microsoft Dynamics 365 Cloud Service Compliance Datasheet](https://aka.ms/d365-compliance-list).
 
-If you are interested in the complete list of compliance offerings from Microsoft, see [Microsoft Trust Centre](https://www.microsoft.com/trustcenter/compliance/complianceofferings).
+If you're interested in the complete list of compliance offerings from Microsoft, go to [Microsoft Trust Centre](https://www.microsoft.com/trustcenter/compliance/complianceofferings).
 
-## <a name="service-terms"></a>Service Terms
+## Service terms
 
-[!INCLUDE [service-terms](../includes/service-terms.md)]
+[!INCLUDE[service-terms](../includes/service-terms.md)]
 
-## <a name="see-also"></a>See Also
+## See also
 
 [Compliance](compliance-overview.md)  
 [Application Compliance](compliance-application-compliance.md)  
