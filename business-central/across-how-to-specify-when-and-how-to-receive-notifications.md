@@ -11,7 +11,7 @@ ms.search.form: '663, 1500, 1512, 1513,'
 ms.date: 06/10/2024
 ms.service: dynamics-365-business-central
 ---
-# Specify when and how to receive workflow notifications
+# <a name="specify-when-and-how-to-receive-workflow-notifications"></a>Specify when and how to receive workflow notifications
 
 In workflows that require that someone approves changes, you must set up the approval users who approve or reject changes. For example, you might want someone to approve new records. An important part of the approval user setup is to specify how and when the user is notified of the change. For example, you can specify that an approval user immediately receives an email when someone creates a new customer. You can also schedule notifications to be delivered, for example, on a weekly or monthly basis.
 
@@ -25,11 +25,11 @@ Before you can set up an approval user's notification preferences, you must set 
 > [!NOTE]
 > To use email as the notification method, you must set email up for both the sender and the receiver in [!INCLUDE [prod_short](includes/prod_short.md)]. Learn more at [Set up Email](admin-how-setup-email.md).
 
-## Steps in workflows
+## <a name="steps-in-workflows"></a>Steps in workflows
 
 Many approval workflow steps are about notifying users of an event they must act on. For example, on one workflow step, the event can be that User 1 requests approval of a new record. The related response is that a notification is sent to User 2, the approver. On the next workflow step, the event can be that User 2 approves the record. The related response is that a notification is sent to User 3 to start a process with the approved record. For workflow steps involving approvals, each notification is tied to an approval entry. Learn more at [Workflow](across-workflow.md).  
 
-## Specify when and how approval users receive notifications  
+## <a name="specify-when-and-how-approval-users-receive-notifications"></a>Specify when and how approval users receive notifications
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Approval User Setup**, then choose the related link.  
 2. Select the line for the user you want to set up notification preferences for, then choose the **Notification Setup** action.  
@@ -58,7 +58,7 @@ Many approval workflow steps are about notifying users of an event they must act
    |**Date of Month**|Specify if the user receives notifications on the first, last, or a specific date of the month.|
    |**Monthly Notification Date**|Specify the date of the month on which the user receives notifications when the value in the **Date of Month** field is **Custom**.|
 
-## Change when and how you receive notifications
+## <a name="change-when-and-how-you-receive-notifications"></a>Change when and how you receive notifications
 
 1. On one of the notifications you received, either as an email or a note, choose **Change Notification Settings**.  
 2. On the **Workflow Notification Setup** page, change your notification preferences as described in steps 3-5 above.
@@ -66,7 +66,7 @@ Many approval workflow steps are about notifying users of an event they must act
    2. Choose whether to receive an email or note notification under the  **Notification Method** field.
    3. Select the **Notification Schedule** to change the frequency and recurrence in which notifications are sent.
 
-## See also
+## <a name="see-also"></a>See also
 
 [Set Up Approval Users](across-how-to-set-up-approval-users.md)  
 [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)  

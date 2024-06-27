@@ -10,7 +10,7 @@ ms.date: 06/16/2024
 ms.author: soalex
 ms.service: dynamics-365-business-central
 ---
-# Service Compliance
+# <a name="service-compliance"></a>Service Compliance
 
 This content contains information about service compliance in relation to [!INCLUDE[prod_short](../includes/prod_short.md)] online.
 
@@ -20,11 +20,11 @@ For the detailed list of cloud compliance offerings for Business Central, [downl
 
 If you're interested in the complete list of compliance offerings from Microsoft, go to [Microsoft Trust Centre](https://www.microsoft.com/trustcenter/compliance/complianceofferings).
 
-## Service terms
+## <a name="service-terms"></a>Service terms
 
 [!INCLUDE[service-terms](../includes/service-terms.md)]
 
-## See also
+## <a name="see-also"></a>See also
 
 [Compliance](compliance-overview.md)  
 [Application Compliance](compliance-application-compliance.md)  

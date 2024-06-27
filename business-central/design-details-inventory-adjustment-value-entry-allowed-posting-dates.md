@@ -10,7 +10,7 @@ ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Error message: "Posting Date is not within your range of allowed posting dates…"
+# <a name="error-message-posting-date-is-not-within-your-range-of-allowed-posting-dates"></a>Error message: "Posting Date is not within your range of allowed posting dates…"
 
 When you use the **Adjust Cost - Item Entries** batch job, you might run into the following error message:
 
@@ -18,7 +18,7 @@ When you use the **Adjust Cost - Item Entries** batch job, you might run into th
 
 This message indicates that you aren't allowed to post entries for the date you entered. You can get around this issue by changing your user setup.
 
-## Change the user setup  
+## <a name="change-the-user-setup"></a>Change the user setup
 
 |User ID  |Allow Posting From  | Allow Posting To  |
 |---------|---------|--------|
@@ -26,9 +26,9 @@ This message indicates that you aren't allowed to post entries for the date you 
 
 In this case, you're allowed to post in the date range from September 11 to September 30. However, you aren't allowed to post the adjustment value entry with a September 10 posting date.  
 
-### Overview of the posting date setup
+### <a name="overview-of-the-posting-date-setup"></a>Overview of the posting date setup
 
-#### Inventory Periods
+#### <a name="inventory-periods"></a>Inventory Periods
 
 |Ending Date  |Name  |Closed  |
 |---------|---------|---------|
@@ -45,7 +45,7 @@ In this case, you're allowed to post in the date range from September 11 to Sept
 |2020-11-30     |November   2020   |         |
 |2020-12-31     |December   2020   |         |  
 
-#### General Ledger Setup
+#### <a name="general-ledger-setup"></a>General Ledger Setup
 
 |Field|Value|
 |---------|---------|
@@ -54,7 +54,7 @@ In this case, you're allowed to post in the date range from September 11 to Sept
 |Register Time:       |         |
 |Local Address Format:|   Post Code      |  
 
-#### User Setup
+#### <a name="user-setup"></a>User Setup
 
 |User ID  |Allow Posting From  | Allow Posting To  |
 |---------|---------|--------|
@@ -62,7 +62,7 @@ In this case, you're allowed to post in the date range from September 11 to Sept
 
 Assigning a wider date range where you allow posting on the **Inventory Period** or **General Ledger Setup** pages lets you avoid the conflict that causes the error message. For example, the wider range lets you post the adjustment value entry with a September 10 posting date.
   
-## See also  
+## <a name="see-also"></a>See also
 
 [Design Details: Posting Date on Adjustment Value Entry](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Design Details: Inventory Costing](design-details-inventory-costing.md)  

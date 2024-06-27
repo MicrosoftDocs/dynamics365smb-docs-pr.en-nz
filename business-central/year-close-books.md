@@ -11,12 +11,12 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# Closing the Books
+# <a name="closing-the-books"></a>Closing the Books
 After you ensure that all your accounts are up-to-date, and you allocate costs and income, then you can close the books for a fiscal year or period.
 
 You are not required to close a year, but doing so will make working in the system easier for you because you will be able to take advantage of the convenient filtering options provided. You also do not have to worry about losing details of transactions when you close because all details are retained, even after you close the year.
 
-## Closing Book Process
+## <a name="closing-book-process"></a>Closing Book Process
 The process for closing the book includes these main tasks:
 
 1. Closing the accounting period.
@@ -38,7 +38,7 @@ The process for closing the book includes these main tasks:
 
     For more information, see [Post Year-End Closing Entry](year-how-post-year-end-close-entry.md).
 
-## What happens when you close
+## <a name="what-happens-when-you-close"></a>What happens when you close
 
 When you close at the end of the year, the system moves your earnings from calculated earnings to the Retained Earnings account. The system also marks the fiscal year as "closed," and marks all subsequent entries for the closed year as "prior year entries."
 
@@ -46,7 +46,7 @@ The system then generates a closing entry, but it does not post the entry automa
 
 You can post in a previous fiscal year, even after the income statement accounts have been closed, if you run the Close Income Statement batch job again afterward.
 
-## See also
+## <a name="see-also"></a>See also
 
 [Work with accounting periods and fiscal years](finance-accounting-periods-and-fiscal-years.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

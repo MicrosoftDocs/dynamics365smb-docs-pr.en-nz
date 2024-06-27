@@ -10,21 +10,21 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Sustainability reports and analytics in Business Central
+# <a name="sustainability-reports-and-analytics-in-business-central"></a>Sustainability reports and analytics in Business Central
 
 Sustainability reporting gives finance professionals insights and statistics about current and past sustainability investments and emissions.  
 
-## Reports
+## <a name="reports"></a>Reports
 
 [!INCLUDE [sustainability_reports](includes/sustainability-reports-include.md)]
 
-## Tasks
+## <a name="tasks"></a>Tasks
 
 The following articles describe some of the key tasks for analysing the state of your sustainability efforts:
 
 * [Calculate Emission based on General Ledger](finance-sustainability-journal.md)
 
-## Explore sustainability reports with Report Explorer
+## <a name="explore-sustainability-reports-with-report-explorer"></a>Explore sustainability reports with Report Explorer
 
 To get an overview of the reports that are available for sustainability, choose **All Reports** on your Home page. This action opens the Role Explorer, which is filtered to the features in the **Report & Analysis** option. Under the **TODO** heading, choose **Explore**.
 
@@ -34,7 +34,7 @@ To get an overview of the reports that are available for sustainability, choose 
 
 To learn more, go to [Finding Reports with the Role Explorer](ui-role-explorer.md).
 
-## See also
+## <a name="see-also"></a>See also
 
 [Ad-hoc analysis of sustainability data](ad-hoc-analysis-sustainability.md)   
 [Sustainability management overview](finance-manage-sustainability.md)   

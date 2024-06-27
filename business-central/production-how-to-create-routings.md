@@ -9,7 +9,7 @@ ms.search.form: '99000764, 99000765, 99000766, 99000767, 99000794, 99000796, 990
 ms.date: 06/06/2024
 ms.service: dynamics-365-business-central
 ---
-# Create routings
+# <a name="create-routings"></a>Create routings
 
 Manufacturing companies use routings to visualize and direct the manufacturing process.
 
@@ -22,7 +22,7 @@ Before you can set up a routing, the following setups must be in place:
 - Item cards are created for parent items that take part in manufacturing. To learn more, go to [Register New Items](inventory-how-register-new-items.md).
 - Production resources are set up. To learn more, go to [Set Up Work Centres and Machine Centres](production-how-to-set-up-work-and-machine-centers.md).
 
-## To create a routing
+## <a name="to-create-a-routing"></a>To create a routing
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Routings**, and then choose the related link.  
 2. Choose the **New** action.  
@@ -51,7 +51,7 @@ Before you can set up a routing, the following setups must be in place:
 > [!NOTE]  
 > Remember to recalculate the item's standard cost from the **Item** card. Choose the **Manufacturing** action, the **Calc. Standard Cost** action, and then choose the **All Levels** action.  
 
-## To create routing links
+## <a name="to-create-routing-links"></a>To create routing links
 
 You can create routing links to connect components to specific operations to retain their relationship even though the production BOM or routing is modified. Routing links also facilitate just-in-time flushing of components, namely when the specific linked operation starts, not when the complete production order is released. To learn more, go to [Flush Components According to Operation Output](production-how-to-flush-components-according-to-operation-output.md).  
 
@@ -85,7 +85,7 @@ Another important benefit is that linked components and operations display in a 
 
 The selected components are now linked to the selected operations when you create or refresh a production order using the production BOM and routing. This link is visible on the **Prod. Order Components** page under the production order. You can remove and add the routing link codes at any time.
 
-## To assign personnel, tools, and quality measures to routing operations
+## <a name="to-assign-personnel-tools-and-quality-measures-to-routing-operations"></a>To assign personnel, tools, and quality measures to routing operations
 
 If you require personnel with qualifications, special knowledge, or special authorisation for an operation, you can assign these personnel to the operation. In addition, you can assign tools and quality requirements to the operation. This procedure describes how to assign personnel. The steps are similar for other types of operation information.
 
@@ -95,7 +95,7 @@ If you require personnel with qualifications, special knowledge, or special auth
 4. Fill in the fields on the **Routing Personnel** page.  
 5. Choose the **OK** button to exit the page. The entered values are copied and assigned to the operation.  
 
-## To create a new version of a routing
+## <a name="to-create-a-new-version-of-a-routing"></a>To create a new version of a routing
 
 The version principle enables you to manage several versions of a routing. The structure of the routing version corresponds to the structure of the routing consisting of the routing version header and the routing version lines. The starting date defines the basic difference.  
 
@@ -112,7 +112,7 @@ The version principle enables you to manage several versions of a routing. The s
 
 7. When you're done setting up the routing version, in the **Status** field, choose **Certified**.
 
-## See also
+## <a name="see-also"></a>See also
 
 [Create Production BOMs](production-how-to-create-production-boms.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  

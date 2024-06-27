@@ -10,7 +10,7 @@ ms.search.form: '911, 912, 917, 9287, 99000786, 99000787, 99000788, 99000789, 99
 ms.date: 05/29/2024
 ms.service: dynamics-365-business-central
 ---
-# Create production BOMs
+# <a name="create-production-boms"></a>Create production BOMs
 
 A production bill of material (BOM) holds master data that describes the components and subassemblies used in the production of an item. When you create a production order for an item, its production BOM governs the calculation of material requirements as represented on the **Prod. Order Components** page.
 
@@ -24,7 +24,7 @@ Before you can set up a routing, the following setups must be in place:
 - Item cards are created for parent items that take part in manufacturing. For more information, see [Register New Items](inventory-how-register-new-items.md).
 - Production resources are set up. For more information, see [Set Up Work Centres and Machine Centres](production-how-to-set-up-work-and-machine-centers.md).
 
-## To create a production BOM
+## <a name="to-create-a-production-bom"></a>To create a production BOM
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Production BOMs**, then choose the related link.  
 2. Choose the **New** action.  
@@ -48,7 +48,7 @@ Before you can set up a routing, the following setups must be in place:
 > [!NOTE]  
 > [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)] To recalculate the item's standard cost from the item card, choose the **Manufacturing** action, then choose the **Calc. Standard Cost** action.  
 
-## To create a new version of a production BOM
+## <a name="to-create-a-new-version-of-a-production-bom"></a>To create a new version of a production BOM
 
 For example, use new versions of production BOMs when an item is replaced, or when a customer requires a special version of a product. The version principle enables various versions of a production BOM to be managed. The structure of the production BOM version corresponds to the structure of the production BOM. The basic difference is in the time validity of the versions. The starting date defines the validity.  
 
@@ -72,7 +72,7 @@ The time validity of the version is specified by the **Starting Date** field.
 >
 > Phantom production BOMs serve for structuring products. This production BOM type never leads to a finished product but is used exclusively for determining the dependent demand. Phantom production BOMs do not have their own item master data.
 
-## Quantity calculation formula on production BOMs
+## <a name="quantity-calculation-formula-on-production-boms"></a>Quantity calculation formula on production BOMs
 
 The quantity is calculated taking into consideration different dimensions that are also entered on the production BOM lines. The dimensions refer to an order unit of the respective item. The length, width, depth, and weight can be entered as dimensions.  
 
@@ -90,13 +90,13 @@ The calculation formula defines the relation of the individual components. The f
 > [!NOTE]
 > The **Fixed Quantity** calculation formula ensures that the consumption of a component is the same, regardless of the scrap or output quantities. For production order components, when the **Calculation Formula** field is set to **Fixed Quantity**, the **Expected Quantity** field value is always equal to the **Quantity per** field. The scrap percentage that is defined on the same line is ignored. Fixed quantity is respected by the **Availability by BOM** report. The report will show the item as the bottleneck if the available quantity is less than the quantity in the **Quantity Per Parent** field. The **Able to Make Parent** and **Able to Make Top Item** fields are always blank, regardless of the available quantity. Fixed quantity is also included in calculations for standard costs. The lot size for the produced item impacts the cost that is allocated for one item.
 
-### Example
+### <a name="example"></a>Example
 
 A production BOM requires 70 metal parts with the dimensions length = 0.20 m and width = 0.15 m. Enter the values as follows: Calculation Formula = Length x Width, Length = 20, Width = 15, Quantity per = 70.
 
 Quantity per x Length * Width, that is, Quantity = 70 x 0.20 m x 0.15 m = 2.1 m2, gives the quantity.  
 
-## See also
+## <a name="see-also"></a>See also
 
 [Create Routings](production-how-to-create-routings.md)  
 [Manage Product Variants](inventory-item-variants.md)  

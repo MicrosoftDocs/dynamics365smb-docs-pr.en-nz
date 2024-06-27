@@ -10,11 +10,11 @@ ms.search.form: '306, 307, 347, 385, 524, 865, 5932, 7401, 7355, 99000917'
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# Report selection for documents in Business Central
+# <a name="report-selection-for-documents-in-business-central"></a>Report selection for documents in Business Central
 
 You can set up default reports to use to print sales, purchases, and service documents, such as orders, quotes, and invoices. For example, if you have a specific layout for sales invoices, you can specify that report in the **Report Selections - Sales** page. You can then use the report when you send or print sales invoices.  
 
-## Available report selections
+## <a name="available-report-selections"></a>Available report selections
 
 The **Report Selections** pages specify the reports to print in different situations. [!INCLUDE [prod_short](includes/prod_short.md)] provides default configurations, but you can change them if needed. You can also add reports to the **Report Selection** pages if you want to print more than one report per document type, for example. 
 
@@ -43,7 +43,7 @@ The default version of [!INCLUDE [prod_short](includes/prod_short.md)] includes 
 * **Report Selection - Production Order**  
 * **Report Selection - Reminder/Finance Charge**  
 
-## Example: Report selection for sales documents
+## <a name="example-report-selection-for-sales-documents"></a>Example: Report selection for sales documents
 
 The **Report Selection - Sales** page offers default reports to use in different scenarios for each related document type. Choose a document type in the **Usage** field, then add or review the report selection. You can set up more than one report and specify the sequence the reports must be sent or printed in.  
 
@@ -59,7 +59,7 @@ For example, on the **Report Selection - Sales** and **Report Selection - Purcha
 |**Use for Email Attachment**| Attach the related document to the email.|
 |**Email Body Layout Description**|Specify the email body layout to use. Typically, it's a custom report layout. |
 
-## See also
+## <a name="see-also"></a>See also
 
 [Set Up Reusable Email Texts and Layouts](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts)  
 [Select a Cheque Layout](finance-how-define-check-layouts.md)  

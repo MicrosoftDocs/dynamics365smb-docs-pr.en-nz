@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Walkthrough: managing projects
+# <a name="walkthrough-managing-projects"></a>Walkthrough: managing projects
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
@@ -23,11 +23,11 @@ This walkthrough covers the setup of a new project and related tasks:
 - Post invoices from projects
 - Copy projects
 
-## About this walkthrough
+## <a name="about-this-walkthrough"></a>About this walkthrough
 
  This walkthrough demonstrates the following tasks:  
 
-### Setting up a project
+### <a name="setting-up-a-project"></a>Setting up a project
 
 With the budget structure set up for projects, creating a project is straightforward. This walkthrough covers the following procedures:  
 
@@ -35,14 +35,14 @@ With the budget structure set up for projects, creating a project is straightfor
 - Create project-specific prices for items, resources, and general ledger accounts.  
 - Invoice customers for a project.  
 
-### Handling fixed prices
+### <a name="handling-fixed-prices"></a>Handling fixed prices
 
  You can handle fixed prices and the prices for services or goods that are agreed upon in advance with customers. In this walkthrough, you'll learn how to:  
 
 - See how contract and invoice values are determined.  
 - Allow for extra work in the schedule that isn't invoiced.  
 
-### Copying a Project
+### <a name="copying-a-project"></a>Copying a Project
 
  This part of the walkthrough focuses on how to copy part or all of a project in order to reduce manual data entry and improve accuracy.
 
@@ -50,7 +50,7 @@ With the budget structure set up for projects, creating a project is straightfor
 - Copy project-specific prices.  
 - Copy planning lines.  
 
-### Making Payment by Installment
+### <a name="making-payment-by-installment"></a>Making Payment by Installment
 
  When a large, expensive project lasts for a long period, the customer often makes an agreement with the company to pay by installments. This scenario shows how you set up payment by installments and covers:  
 
@@ -58,31 +58,31 @@ With the budget structure set up for projects, creating a project is straightfor
 - Invoice payments to customers.  
 - Account for usage in a project set up for payment by instalments.  
 
-## Roles
+## <a name="roles"></a>Roles
 
  This walkthrough includes tasks for the following roles:  
 
 - Project Manager  
 - Project Team Member  
 
-## Prerequisites
+## <a name="prerequisites"></a>Prerequisites
 
  Before you can perform the tasks in the walkthrough, you must:  
 
 - Install the CRONUS demonstration database.
 - Create sample data by using the steps in the following section.  
 
-## Story
+## <a name="story"></a>Story
 
 This walkthrough focuses on CRONUS, which is a fictional design and consultancy firm that designs and fits new infrastructures. For example, conference halls and offices with furniture, accessories, and storage units. Most of its work is project oriented. Prakash, a project manager at CRONUS uses project to get an overview of each ongoing task that CRONUS started and completed. Prakash is usually the one who sets up deals with customers and enters the core of the project, which is task and planning lines in addition to prices, into [!INCLUDE[prod_short](includes/prod_short.md)]. Prakash finds that creating, maintaining, and reviewing information is straightforward. Prakash also likes the way [!INCLUDE[prod_short](includes/prod_short.md)] enables copying projects and payment by instalments.
 
  Tricia, a project team member who reports to Prakash, is responsible for monitoring the project day-to-day. Tricia enters the work done by technicians on every task, records the items that they used, and the costs that they incurred.  
 
-## Preparing sample data
+## <a name="preparing-sample-data"></a>Preparing sample data
 
 To prepare for this walkthrough, you must add Tricia as a resource.  
 
-### To prepare the sample data  
+### <a name="to-prepare-the-sample-data"></a>To prepare the sample data
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Resources**, and then choose the related link.  
 2. Choose the **New** action to create a new resource card.  
@@ -105,7 +105,7 @@ To prepare for this walkthrough, you must add Tricia as a resource.
 
 In the next procedure, you create a project journal batch for Tricia in order to post their usage.  
 
-### To create a project journal batch  
+### <a name="to-create-a-project-journal-batch"></a>To create a project journal batch
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project Journals**, and then choose the related link.  
 2. On the **Project Journal** page, choose the **Batch Name** field. The **Project Journal Batches** page opens.  
@@ -117,11 +117,11 @@ In the next procedure, you create a project journal batch for Tricia in order to
 
 4. Choose the **OK** button to save the changes.
 
-## Setting up a project
+## <a name="setting-up-a-project-1"></a>Setting up a project
 
 In this scenario, CRONUS won a contract with a customer, Progressive Home Furnishings, to design a conference and dining hall. The customer is based in the United States and the project requires special software. The project manager reaches an agreement with the customer and creates a project that covers the agreement.  
 
-### To set up a project  
+### <a name="to-set-up-a-project"></a>To set up a project
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, and then choose the related link.  
 2. Choose the **New** action to create a new card.  
@@ -141,7 +141,7 @@ In this scenario, CRONUS won a contract with a customer, Progressive Home Furnis
 
  You can customise the pricing for customers on a per project basis, depending on the agreements you have. In the next procedure, the project manager specifies a cost for Tricia's time, sets the price for the required software, and adds in the travel costs that the customer agreed to pay.  
 
-### To customise pricing  
+### <a name="to-customize-pricing"></a>To customise pricing
 
 1. From the **Project Card**, choose the **Resource** action.  
 2. On the **Project Resource Prices** page, enter the following information:  
@@ -167,7 +167,7 @@ In this scenario, CRONUS won a contract with a customer, Progressive Home Furnis
 
  The final steps in setting up a project are adding the project tasks and the planning lines that are part of each task. The planning lines determine what is invoiced to the customer.  
 
-### To add project tasks  
+### <a name="to-add-project-tasks"></a>To add project tasks
 
 1. On the **Project** card for the new project, choose the **Project Task Lines** action.  
 2. The following table describes the information that you should enter in the fields.  
@@ -189,7 +189,7 @@ A planning line can be one of the following types:
 
 In this walkthrough, the project manager uses **Both Budget and Billable**. They create three planning lines for task 1010, and two planning lines for task 1020.  
 
-### To create planning lines  
+### <a name="to-create-planning-lines"></a>To create planning lines
 
 1. Select line 1010, and then choose the **Project Planning Lines** action.  
 2. Create planning lines with the following information:  
@@ -210,11 +210,11 @@ In this walkthrough, the project manager uses **Both Budget and Billable**. They
 
 4. Close the page. Totals are updated on the **Project Task Lines** page.  
 
-## Calculating remaining usage
+## <a name="calculating-remaining-usage"></a>Calculating remaining usage
 
 Tricia, the team project member, has been working on the project for a while and wants to register their hours and usage. Tricia didn't work more hours than was agreed upon with the customer in advance. Tricia uses the **Calculate Remaining Usage** batch job to calculate remaining usage in a project journal. For each task, the batch job calculates the difference between scheduled usage of items, resources, and general ledger expenses and the actual usage posted in project ledger entries. The remaining usage is then displayed in the project journal, and Tricia can post it.  
 
-### To calculate remaining usage  
+### <a name="to-calculate-remaining-usage"></a>To calculate remaining usage
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project Journals**, and then choose the related link.  
 2. On the **Project Journal** page, in the **Batch Name** field, open the **Project Journals Batches** list. Select the **Tricia** project journal batch.  
@@ -228,11 +228,11 @@ Tricia, the team project member, has been working on the project for a while and
 
 The lines are now posted.  
 
-## Creating and posting a project sales invoice
+## <a name="creating-and-posting-a-project-sales-invoice"></a>Creating and posting a project sales invoice
 
 Next, Tricia can create a new invoice for the whole project or for part of a project. Tricia can also attach the invoice to another invoice for the same customer for the same project. In this case, Tricia invoices for the whole project because the project is now completed.  
 
-### To create a project sales invoice  
+### <a name="to-create-a-project-sales-invoice"></a>To create a project sales invoice
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, and then choose the related link.  
 2. Select the project that you created earlier, and then choose the **Create project Sales Invoice** action.  
@@ -242,13 +242,13 @@ Next, Tricia can create a new invoice for the whole project or for part of a pro
 
 After Tricia creates the invoice, it's available from the **Sales Order Processor** Role Centre, for example.
 
-### To post a new sales invoice  
+### <a name="to-post-a-new-sales-invoice"></a>To post a new sales invoice
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
 2. Open the invoice for Customer No. 01445544. You can see the information that was entered from the planning lines.  
 3. Choose the **Post** action. Choose **Yes** to confirm the posting.  
 
-### To view the posted invoice  
+### <a name="to-view-the-posted-invoice"></a>To view the posted invoice
 
 1. Open the project, and then choose the **Project Planning Lines** action.  
 2. Select any of the planning lines that were invoiced, and then choose the **Sales Invoice/Credit Memo** action.
@@ -256,17 +256,17 @@ After Tricia creates the invoice, it's available from the **Sales Order Processo
 
 Tricia has a question about the prices, costs, and profits that are relevant to this particular project, so Tricia accesses that information on the **Statistics** page.  
 
-### To open the Statistics page  
+### <a name="to-open-the-statistics-page"></a>To open the Statistics page
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, and then choose the related link.  
 2. Choose the **Statistics** action. You can review detailed information about the project prices, costs, and profits in both local and foreign currencies.  
 3. Choose the **Close** button to close the **Project Statistics** page.  
 
-## Handling fixed prices
+## <a name="handling-fixed-prices-1"></a>Handling fixed prices
 
 CRONUS is contracted to set up conference rooms. As the project manager, Prakash wants a good overview of the tasks required for the project with the associated budgeted and incurred costs for each task. In addition, Prakash wants to know the total contracted price for the project and the amount that was invoiced to this point. They're in agreement with the customer regarding fixed pricing for the project.  
 
-### To manage fixed pricing in projects  
+### <a name="to-manage-fixed-pricing-in-projects"></a>To manage fixed pricing in projects
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, and then choose the related link.  
 2. Select the **Guildford** project number, and then choose the **Project Task Lines** action.  
@@ -286,7 +286,7 @@ CRONUS is contracted to set up conference rooms. As the project manager, Prakash
 
 After being added to the schedule for this task line, Tricia works 25 hours on the project, and enters these hours into the project journal.  
 
-### To enter hours in a project journal  
+### <a name="to-enter-hours-in-a-project-journal"></a>To enter hours in a project journal
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project Journals**, and then choose the related link.  
 2. On a new line, enter the following information:  
@@ -341,7 +341,7 @@ After being added to the schedule for this task line, Tricia works 25 hours on t
 
 In the total price for the contract, only the original contracted 30 hours are included, as agreed upon with the customer.  
 
-## Copying projects
+## <a name="copying-projects"></a>Copying projects
 
 Prakash reached an agreement with a customer, Selagorian Ltd, to set up 10 conference rooms. The agreement resembles an earlier project. Therefore, it saves time to copy that earlier project.  
 
@@ -352,7 +352,7 @@ On the **Copy Project** page, you can select the project and task lines that you
 
 You can then choose what planning line or ledger entry line type that you want to include, selecting only what is relevant to this new project. Finally, you can select the project that you want to copy to and define whether prices and quantities should be copied as well.  
 
-### To copy a project  
+### <a name="to-copy-a-project"></a>To copy a project
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, and then choose the related link.  
 2. Choose the **New** action to create a new project. Enter the following information:  
@@ -374,11 +374,11 @@ You can then choose what planning line or ledger entry line type that you want t
 
 By comparing prices, project task lines, and project planning lines for the two projects, you can see that the information was successfully copied.  
 
-## Making payments by instalments
+## <a name="making-payments-by-installments"></a>Making payments by instalments
 
 CRONUS just landed a large project that will take a year to complete. Because it requires many resources, the project manager sets up the contract so that the customer pays part of the price up front, part when the project is halfway completed, and the final payment upon completion.  
 
-### To set up a new account  
+### <a name="to-set-up-a-new-account"></a>To set up a new account
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
 2. On the **Chart of Accounts** page, choose the **New** action to create a new card.  
@@ -392,7 +392,7 @@ CRONUS just landed a large project that will take a year to complete. Because it
 
 The following procedures show how to create a new project, set pricing, and then set up payment by instalment. In the project task lines, you can create specific lines dedicated to the payment by instalments. All work completed on the project that is added to the schedule will be entered on the usage lines. For each payment task line on the planning lines, the line type is **Billable**, which means that the customer will be invoiced. Enter a new line for the down payment. On the usage task line, you can enter the information for the items and resources that have been used in this project, which will increase the schedule, such as employee hours and items used on the project.  
 
-### To make a payment by installment  
+### <a name="to-make-a-payment-by-installment"></a>To make a payment by installment
 
 1. Create a new project.  
 2. On the new **Project** card, fill in the following information:  
@@ -453,17 +453,17 @@ The following procedures show how to create a new project, set pricing, and then
 
  Now that the task and planning lines have been entered, Prakash creates an invoice for the first payment. Prakash does this from the project task lines to make sure that the invoice only contains the lines for the first payment. You can open the sales order from the planning lines or the task lines.  
 
-### To create an invoice  
+### <a name="to-create-an-invoice"></a>To create an invoice
 
 1. On the **Project Task Lines** page, select line 1000, and then choose the **Create Sales Invoice** action.  
 2. On the **Create Sales Invoice** page, set today's date as the posting date, specify **Per Task**, and choose the **OK** button to create an invoice with the default information. Choose the **OK** button to close the confirmation page.  
 3. Choose the **Sales Invoice/Credit Memo** action. On the sales invoice, you can see that only the down payment is included in the invoice. You can now send this to the customer as agreed.  
 
-## Summary
+## <a name="summary"></a>Summary
 
 This walkthrough has taken you through some of the basic steps of working with projects in [!INCLUDE[prod_short](includes/prod_short.md)]. You have learned about how to create a new project, how to copy a project, and how to handle payments. Also, you have seen a demonstration of how to track hours and create invoices.  
 
-## See also
+## <a name="see-also"></a>See also
 
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  
  [Setting Up Project Management](projects-setup-projects.md)  

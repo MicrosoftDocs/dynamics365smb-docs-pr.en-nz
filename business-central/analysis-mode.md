@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311'
 ---
-# Analyse list page and query data using data analysis feature
+# <a name="analyze-list-page-and-query-data-using-data-analysis-feature"></a>Analyse list page and query data using data analysis feature
 
 > **APPLIES TO:** Public preview in Business Central 2023 release wave 1 and later for analysing list pages; Generally available in Business Central 2023 release wave 2 for analysing data from list pages and queries.
 
@@ -19,7 +19,7 @@ This article explains how to use the data analysis feature from list pages and q
 > [!TIP]
 > A good thing about the data analysis feature is that it doesn't change the underlying data of a list page or query. It also doesn't change the layout of the page or query when it isn't in analysis mode. So the best way to learn about what you can do in analysis mode is to try things out.
 
-## Prerequisites
+## <a name="prerequisites"></a>Prerequisites
 
 - If you're using [!INCLUDE [prod_short](includes/prod_short.md)] version 22, the data analysis feature is in preview. So, an admin must enable it before you can use it. To enable it, go to the **Feature Management** page and switch on **Feature Update: Analysis mode, quickly analyse data directly in Business Central**. [Learn more about Feature Management.](/dynamics365/business-central/dev-itpro/administration/feature-management)
 - In version 23 and later, your account must be assigned the **DATA ANALYSIS - EXEC** permission set or include execute permission on the system object **9640 Allow Data Analysis mode**. As an admin, you can exclude these permissions for users who you don't want to access the analysis mode.
@@ -27,7 +27,7 @@ This article explains how to use the data analysis feature from list pages and q
 > [!NOTE]
 > Some list pages don't offer the **Enter analysis mode** toggle for turning on analysis mode. The reason is that developers can disable analysis mode on specific pages by using the [AnalysisModeEnabled property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) in AL.
 
-## Get started
+## <a name="get-started"></a>Get started
 
 Follow these steps to start using the analysis mode.
 
@@ -55,14 +55,14 @@ Follow these steps to start using the analysis mode.
 > [!NOTE]
 > The data shown in analysis mode is controlled by the filters or views set on the list page. This allows you to pre-filter data before entering analysis mode.
 
-## Work with analysis mode
+## <a name="work-with-analysis-mode"></a>Work with analysis mode
 
 In the analysis mode, the page is divided into two areas:
 
 - The main area, which consists of the data area (1), summary bar (2), and tabs bar (5).
 - The data manipulation area, which consists of two panes: columns (3) and analysis filters (4).
 
-### Data area (1)
+### <a name="data-area-1"></a>Data area (1)
 
 The data area is where the rows and columns of the list page query are shown and data is summarised. The data area provides a versatile way to control the layout of columns and a quick way to get a summary of the data. For columns that contain numeric values, the sum of all values in the column is shown in the last row, unless you define row groups. In this case, the sums appear as a subtotal for the groups.  
 
@@ -77,7 +77,7 @@ The data area is where the rows and columns of the list page query are shown and
 - Use the data area to interact with the data. For columns that contain numeric, summable values, you can get descriptive statistics on a set of fields by marking them. The statistics appear in the status bar (2) along the bottom of the page.
 - Export data in Excel or CSV format. Right-click on the data area or a selection of cells to export.
 
-### Summary bar (2)
+### <a name="summary-bar-2"></a>Summary bar (2)
 
 The summary bar is along the bottom of the page and displays statistics about the data in the list page or query. As you interact with columns whose values can be summed, like selecting multiple rows in a column that displays amounts, the data updates.
 
@@ -96,7 +96,7 @@ The following table describes the different numbers that are shown in the totals
 |Max|The maximum value in all the selected summable fields.|
 |Sum|The sum total of all the values in the selected summable fields.|
 
-### Columns (3)
+### <a name="columns-3"></a>Columns (3)
 
 The **Columns** pane is one of two panes that work together to define your analysis. The other area is the **Analysis filters** pane. The **Columns** pane is used to summarise the data. Use the **Columns** pane to define which columns should be included in the analysis.
 
@@ -111,7 +111,7 @@ The **Columns** pane is one of two panes that work together to define your analy
 
 To move a field from one area to another, select the grab icon ![Shows the button for grabbing a field in the analysis mode](media/column-grab-icon.png) next to the column in the list and drag it into the target area. You're prevented from moving a field to an area where it isn't allowed.
 
-### Analysis filters (4)
+### <a name="analysis-filters-4"></a>Analysis filters (4)
 
 The **Analysis filters** pane lets you set further data filters on columns to limit the entries in the list. Set filters on columns to limit the entries in the list and subsequent sums to only those entries you're interested in based on a criteria you define. For example, suppose you're only interested in data for a specific customer or sales orders that exceed a specific amount. To set a filter, select the column, choose the comparison operation from the list (like **Equals** or **Starts with**), and then enter the value.
 
@@ -120,7 +120,7 @@ The **Analysis filters** pane lets you set further data filters on columns to li
 > [!NOTE]
 > The additional filters only apply to the current analysis tab. This allows you to define exactly the extra data filters that are needed for a specific analysis.
 
-### Tabs (5)
+### <a name="tabs-5"></a>Tabs (5)
 
 The tabs area at the top lets you create different configurations (columns and analysis filters) on separate tabs, where you can manipulate data on the tabs independently of each other. There's always at least one tab, called **Analysis 1** by default. Adding more tabs is beneficial for saving frequently used analysis configurations on a dataset. For example, you might have tabs for analysing data in the pivot mode, and other tabs that filter to a subset of rows. Some tabs might show a detailed view with many columns, and others only display a few key columns.
 
@@ -138,7 +138,7 @@ Here are some pointers on working with multiple analysis tabs:
    > The tabs that you set up are only visible to you. Other users will only see tabs they've set up.
 - You can copy analysis tabs. Copying can be useful, for example, for experimenting with changing a tab without changing the original. Copying is also useful if you want to create different variations of the same analysis.
 
-## Date hierarchies
+## <a name="date-hierarchies"></a>Date hierarchies
 
 In analysis mode, date fields of the dataset are generated in a Year-Quarter-Month hierarchy of three separate fields. This hierarchy is based on the normal calendar, not any fiscal calendars defined in Business Central.
 
@@ -147,7 +147,7 @@ The extra fields are named *\<field name\> Year*, *\<field name\> Quarter*, and 
 > [!NOTE]
 > The date hierarchy currently only applies to fields of type date, not for fields of type datetime.
 
-## Pivot mode
+## <a name="pivot-mode"></a>Pivot mode
 
 You can use pivot mode to analyse large amount of numerical data, subtotaling data by categories and subcategories. The pivot mode is like [pivot tables in Microsoft Excel](https://support.microsoft.com/office/create-a-pivottable-to-analyze-worksheet-data-a9a84538-bfe9-40a9-a8e9-f99134456576).
 
@@ -167,7 +167,7 @@ Building out the data analysis in pivot mode involves moving fields into the thr
 > [!TIP]
 > Columns that only have a few possible values are the best candidates for using in column **Values**.
 
-## Analyse large amounts of data
+## <a name="analyze-large-amounts-of-data"></a>Analyse large amounts of data
 
 If the dataset you want to analyse exceeds 100,000 rows, we suggest you enter an analysis mode that's optimised for large datasets. There are currently two limitations if you switch to this mode: 
 
@@ -181,7 +181,7 @@ If the dataset you want to analyse exceeds 100,000 rows, we suggest you enter an
 
    If you enable pivot mode and drag a field into the **Column labels** area, where the underlying data for that field has too many distinct values, your browser tab might become unresponsive. The browser eventually closes, requiring you to start over in a new session. In this case, either don't pivot on that field or set a filter on the field before you add it to the **Column labels** area.
 
-## Share data analysis
+## <a name="share-data-analysis"></a>Share data analysis
 
 After you prepare an analysis on a tab, you can share it as a link with coworkers and others in your organisation directly from the client. Only recipients who have permission to the company and the data can use the link.
 
@@ -199,7 +199,7 @@ After you prepare an analysis on a tab, you can share it as a link with coworker
 1. Paste the link into the communication media of your choice, like Word, Outlook, Teams, OneNote, and so on.
 1. Recipients can select the link and open the analysis for the page or query in [!INCLUDE [prod_short](includes/prod_short.md)]. They're prompted to specify a name for the new analysis tab that they create.  
 
-## Examples of how to analyse data
+## <a name="examples-of-how-to-analyze-data"></a>Examples of how to analyse data
 
 Use the **Data Analysis** feature for quick fact checking and ad hoc analysis:
 
@@ -209,7 +209,7 @@ Use the **Data Analysis** feature for quick fact checking and ad hoc analysis:
 
 The following sections provide examples of scenarios for many of the functional areas in [!INCLUDE [prod_short](includes/prod_short.md)].
 
-### Example: Finance (Accounts Receivables)
+### <a name="example-finance-accounts-receivables"></a>Example: Finance (Accounts Receivables)
 
 To see what your customers owe you, maybe broken down into time intervals for when amounts are due, follow these steps:
 
@@ -221,13 +221,13 @@ To see what your customers owe you, maybe broken down into time intervals for wh
 1. To do the analysis for a given year or quarter, apply a filter in the **Analysis Filters** menu (located below the **Columns** menu on the right).
 1. Rename your analysis tab to **Aged Accounts by Month**, or something that describes this analysis.
 
-### Ad hoc data analysis examples by functional area
+### <a name="ad-hoc-data-analysis-examples-by-functional-area"></a>Ad hoc data analysis examples by functional area
 
 Many of the functional areas in [!INCLUDE[prod_short](includes/prod_short.md)] have articles with ad hoc data analysis examples.
 
 [!INCLUDE[ad-hoc-analysis-scenarios-table](includes/ad-hoc-analysis-scenarios-table.md)]
 
-## Limitations in 2023 release wave 1 (preview)
+## <a name="limitations-in-2023-release-wave-1-preview"></a>Limitations in 2023 release wave 1 (preview)
 
 The public preview of this feature has the following limitations:
 
@@ -235,7 +235,7 @@ The public preview of this feature has the following limitations:
 - The share data analysis feature isn't available.
 - The ability to save preferred data analysis choices on list pages and save analysis menus per analysis tab are currently not available.
 
-## See also
+## <a name="see-also"></a>See also
 
 [Ad-hoc data analysis by functional area](ad-hoc-data-analysis-by-functional-area.md)   
 [Ad hoc data analysis](reports-adhoc-analysis.md)  

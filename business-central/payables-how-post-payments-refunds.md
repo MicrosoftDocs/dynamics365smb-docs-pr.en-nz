@@ -11,7 +11,7 @@ ms.search.form: '256, 233, 624, 1228'
 ms.date: 06/06/2024
 ms.service: dynamics-365-business-central
 ---
-# Record payments and refunds in the payment journal
+# <a name="record-payments-and-refunds-in-the-payment-journal"></a>Record payments and refunds in the payment journal
 
 On the **Payment Journal** page, you record payments that you make to vendors and refunds that you make to customers. When you post a payment journal line, the paid amount is recorded on the specified bank account. You must then take steps to perform the actual money transfer from the related bank account.  
 
@@ -29,7 +29,7 @@ Payment journals are general journals that are optimised for making payments. Yo
 
     In addition to recording that the payment is made, you can also use the **Payment Journal** page to output the payment for further processing by your bank. To learn more, go to [Make Cheque Payments](payables-how-work-checks.md) and [Make Electronic Payments](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).  
 
-## To make payments in the payment journal
+## <a name="to-make-payments-in-the-payment-journal"></a>To make payments in the payment journal
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.
 2. Open the journal batch that you use for payments.
@@ -40,7 +40,7 @@ Payment journals are general journals that are optimised for making payments. Yo
 5. Alternatively, use the **Suggest Vendor Payments** action. All the applies-to information and amounts are also entered on the journal lines. To learn more, go to [Suggest Vendor Payments](payables-how-suggest-vendor-payments.md).
 6. After you complete all payment journal lines, choose the **Post** action.
 
-## To issue a refund cheque
+## <a name="to-issue-a-refund-check"></a>To issue a refund cheque
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.
 2. In the **Document Type** field, select **Refund**.  
@@ -53,7 +53,7 @@ Payment journals are general journals that are optimised for making payments. Yo
 9. In the **Applies To Doc. No.** field, select the documents that require a refund.  
 10. After you complete all payment journal lines, choose the **Post/Print** action, choose the **Post and Print** action, and then choose **Yes**.  
   
-## See also
+## <a name="see-also"></a>See also
 
 [Make Cheque Payments](payables-how-work-checks.md)  
 [Make Electronic Payments](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  

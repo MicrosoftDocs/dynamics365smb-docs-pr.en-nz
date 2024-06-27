@@ -11,7 +11,7 @@ ms.search.form: '36, 5870, 5872, 5874'
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# Work with assembly BOMs
+# <a name="work-with-assembly-boms"></a>Work with assembly BOMs
 
 You use assembly bills of materials (BOMs) to structure parent items that must be assembled from components with little to no resource use. An assembly BOM can be used, for example, to sell a parent item as a kit consisting of component items.
 
@@ -21,7 +21,7 @@ An assembly BOM is the master data that defines which component items go into an
 
 [!INCLUDE[prod_short](includes/prod_short.md)] also supports production BOMs. Production BOMs differ from assembly BOMs because they involve more complex procedures, such as resource usage, production routing, and work or machine centres. Learn more about the differences at [Work with Bills of Material](inventory-how-work-BOMs.md) and [Create Production BOMs](production-how-to-create-production-boms.md).
 
-## To create an assembly BOM
+## <a name="to-create-an-assembly-bom"></a>To create an assembly BOM
 
 To define an item that consists of other items, and perhaps the resources that assemble the item, you must create an assembly BOM.  
 
@@ -43,7 +43,7 @@ There are two parts to creating an assembly BOM:
 > [!TIP]
 > Assembly items can have variants, just like any other item, which helps you keep your list of products shorter. Learn more about the feature at [Manage Product Variants](inventory-item-variants.md).
 
-## To edit assembly BOMs
+## <a name="to-edit-assembly-boms"></a>To edit assembly BOMs
 
 You can edit the lines on an assembly BOM at any time. However, the BOM might be in use by ongoing sales or assemblies of the parent. Changing the BOM might affect those activities. Choose the **Where-Used** action to explore the items that use it and whether sales or assembly orders might be affected.
 
@@ -51,7 +51,7 @@ You can edit the lines on an assembly BOM at any time. However, the BOM might be
 2. Choose the **Yes** value in the **Assembly BOM** column.
 3. On the **Assembly BOM** page, choose the **Edit List** action, then change any field as needed.
 
-## To view components and resources indented according to the BOM structure
+## <a name="to-view-components-and-resources-indented-according-to-the-bom-structure"></a>To view components and resources indented according to the BOM structure
 
 From the **Assembly BOM** page, you can open a separate page that shows the components and any resources indented according to their BOM position under the assembly item.
 
@@ -60,7 +60,7 @@ From the **Assembly BOM** page, you can open a separate page that shows the comp
 3. On the **Item Card** page, choose the **Assembly** action, then choose the **Assembly BOM** action.
 4. On the **Assembly BOM** page, choose the **Show BOM** action.
 
-## To replace the assembly item with its components on document lines
+## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>To replace the assembly item with its components on document lines
 
 From any sales and purchase document that contains an assembly item, you can use a special action to replace the line for the assembly item with new lines for its components. This action is useful, for example, if you want to sell the components as a kit that represents the assembly item.
 
@@ -80,7 +80,7 @@ All fields on the sales invoice line for the assembly item are cleared except fo
 > [!NOTE]
 > The **Picking List by Order** report is also changed to show the components only. This means that a warehouse worker picking the parent item, the assembly item, will not see it in the picking list. Learn more at [Print the Picking List](sales-how-print-picking-list.md).
 
-## To calculate the standard cost of an assembly item
+## <a name="to-calculate-the-standard-cost-of-an-assembly-item"></a>To calculate the standard cost of an assembly item
 
 You calculate the unit cost of an assembly item by rolling up the unit cost of each component and resource in the item's assembly BOM.
 
@@ -104,7 +104,7 @@ The unit cost of an assembly BOM always equals the total of the unit costs of it
 
 The costs of the items that make up the assembly BOM are copied from the component item cards. The cost of each item is multiplied by the quantity, and the total cost is shown in the **Unit Cost** field on the item card.
 
-## See also
+## <a name="see-also"></a>See also
 
 [Register New Items](inventory-how-register-new-items.md)  
 [Manage Product Variants](inventory-item-variants.md)  

@@ -10,7 +10,7 @@ ms.search.form: '5, 16, 118, 459, 460, 495'
 ms.date: 06/10/2024
 ms.service: dynamics-365-business-central
 ---
-# Set up invoice rounding
+# <a name="set-up-invoice-rounding"></a>Set up invoice rounding
 
 If you need to round invoice amounts when you create invoices, you can use the automatic rounding function. When an invoice is rounded, an extra line is added with the rounding amount and posted with the other invoice lines.
 
@@ -26,11 +26,11 @@ To use automatic invoice rounding, you must:
 > [!NOTE]  
 >  In addition to the invoice rounding features, you can round amounts on invoices by the unit-amount rounding feature and the amount rounding feature.  
 
-## Set up general ledger accounts for invoice rounding differences
+## <a name="set-up-general-ledger-accounts-for-invoice-rounding-differences"></a>Set up general ledger accounts for invoice rounding differences
 
 To use automatic invoice rounding, you must set up the general ledger account or accounts where rounding differences are posted. Before you can do so, you must set up GST product posting groups. For more information, see [Set up GST](finance-setup-vat.md).  
 
-### To set up general ledger accounts for invoice rounding differences  
+### <a name="to-set-up-general-ledger-accounts-for-invoice-rounding-differences"></a>To set up general ledger accounts for invoice rounding differences
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
 2. On the **Chart of Accounts** page, set up the account and name it **Invoice Rounding** or something similar. [!INCLUDE[prod_short](includes/prod_short.md)] uses the account name as text for invoices that are rounded.  
 3. Depending on whether you use VAT or GST, in the **Tax Prod. Posting Group** or **VAT Prod. Posting Group** fields, choose a posting group for rounded amounts. You might want to set up a new group code to use for invoice rounding.
@@ -38,24 +38,24 @@ To use automatic invoice rounding, you must set up the general ledger account or
 
 Now you can assign the invoice rounding account to posting groups on the **Vendor Posting Groups** page.  <!-- Why only the vendor posting groups? -->
 
-## Set up rounding for foreign and local currencies
+## <a name="set-up-rounding-for-foreign-and-local-currencies"></a>Set up rounding for foreign and local currencies
 Before you can use the automatic invoice rounding function, you must set up rounding rules for foreign and local currencies.
 
-### To set up rounding for foreign currencies  
+### <a name="to-set-up-rounding-for-foreign-currencies"></a>To set up rounding for foreign currencies
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Currencies**, and then choose the related link.  
 2. On the **Currencies** page, choose the foreign currency to open the **Currency Card**, and then fill in the **Amount Rounding Precision**, **Unit-Amount Rounding Precision**, **Invoice Rounding Precision** and **Invoice Rounding Type** fields.
 
-### To set up rounding for your local currency
+### <a name="to-set-up-rounding-for-your-local-currency"></a>To set up rounding for your local currency
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
 2. On the **General Ledger Setup** page, on the **General** FastTab, fill in the **Inv. Rounding Precision** and **Inv. Rounding Type** fields.  
 
-## Activate the invoice rounding function  
+## <a name="activate-the-invoice-rounding-function"></a>Activate the invoice rounding function
 To ensure that sales and purchase invoices are rounded automatically, you must activate the invoice rounding function. You activate invoice rounding separately for sales and purchase invoices.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup** or **Purchases & Payables Setup**, and then choose the related link.  
 2. On the **General** FastTab, choose the **Invoice Rounding** check box.  
 
-## See Also  
+## <a name="see-also"></a>See Also
 [Invoice Sales](sales-how-invoice-sales.md)  
 [Record Purchases](purchasing-how-record-purchases.md)
 

@@ -10,19 +10,19 @@ ms.search.form: 'Report_5600, Report_5601, Report_5603, Report_5604, Report_5605
 ms.date: 06/06/2024
 ms.service: dynamics-365-business-central
 ---
-# Fixed assets reports and analytics in Business Central
+# <a name="fixed-assets-reports-and-analytics-in-business-central"></a>Fixed assets reports and analytics in Business Central
 
 To help you manage your fixed assets in [!INCLUDE [prod_short](includes/prod_short.md)], standard reports and analytics are built in. It moves beyond traditional reporting constraints to help you efficiently design various types of reports.  
 
-## Reports
+## <a name="reports"></a>Reports
 
 [!INCLUDE [fa_reports](includes/fa-reports-include.md)]
 
-## Explore finance reports with Report Explorer
+## <a name="explore-finance-reports-with-report-explorer"></a>Explore finance reports with Report Explorer
 
 [!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
 
-## See also
+## <a name="see-also"></a>See also
 
 [Ad-hoc analysis of fixed assets data](ad-hoc-analysis-fa.md)  
 [Fixed assets analytics overview](fa-analytics-overview.md)  

@@ -10,11 +10,11 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Certifications
+# <a name="certifications"></a>Certifications
 
 This content contains information about certifications in relation to [!INCLUDE[prod_short](../includes/prod_short.md)].  
 
-## Country/region-specific certifications and accreditations
+## <a name="countryregion-specific-certifications-and-accreditations"></a>Country/region-specific certifications and accreditations
 
 In some countries or regions, accounting software must be certified to comply with local tax regulation and financial requirements. Some countries exercise this as a yearly recurring requirement and others as a one-off requirement to comply with. Below is a list of the current countries or regions where Business Central has achieved certifications.
 
@@ -29,11 +29,11 @@ In some countries or regions, accounting software must be certified to comply wi
 > [!NOTE]  
 > In countries or regions where Microsoft doesn't release a local version, it's usually up to partners to achieve certification of the Business Central base product that includes the partner's localisation and regulatory features.
 
-## Other certifications
+## <a name="other-certifications"></a>Other certifications
 
 Business Central as a cloud service also has achieved certifications, such as ISO 27001. For a complete list of these certifications, [download the Microsoft Dynamics 365 Cloud Service Compliance Datasheet](https://aka.ms/d365-compliance-list).
 
-## See also
+## <a name="see-also"></a>See also
 
 [Compliance](compliance-overview.md)  
 [Application Compliance](compliance-application-compliance.md)  

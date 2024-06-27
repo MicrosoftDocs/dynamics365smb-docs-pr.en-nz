@@ -11,7 +11,7 @@ ms.search.form: '30, 461'
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# Setting up inventory
+# <a name="setting-up-inventory"></a>Setting up inventory
 
 Before you can manage warehouse activities and inventory costing, you must configure the rules and values that define the company's inventory policies.
 
@@ -33,7 +33,7 @@ After you set up your inventory, you can manage various processes related to ite
 |Import multiple item pictures in one go from a zip file where the files are named according to item numbers.|[Import Multiple Item Pictures](inventory-how-import-item-pictures.md)|
 |Specify default reports to be used for different document types.|[Report Selection in Business Central](across-report-selections.md)|
 
-## See also
+## <a name="see-also"></a>See also
 
 [Managing Inventory](inventory-manage-inventory.md)  
 [Managing Purchasing](purchasing-manage-purchasing.md)  

@@ -12,7 +12,7 @@ ms.collection:
   - get-started
 ---
 
-# Chat with Copilot (preview)
+# <a name="chat-with-copilot-preview"></a>Chat with Copilot (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -20,7 +20,7 @@ This article explains how to chat with Copilot to get answers about your company
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## About chat with Copilot
+## <a name="about-chat-with-copilot"></a>About chat with Copilot
 
 Microsoft Copilot is the AI-powered assistant that helps spark creativity, boost productivity, and eliminate tedious tasks. By chatting with Copilot in Business Central, you can ask questions and find business data using natural language. Here's what you can do:
 
@@ -34,13 +34,13 @@ Using chat with Copilot streamlines your workflow by bypassing traditional navig
   
 > [Watch video](https://go.microsoft.com/fwlink/?linkid=2250609)
 
-## Prerequisites
+## <a name="prerequisites"></a>Prerequisites
 
 - Ensure that chat with Copilot capability is activated by an administrator. [Learn more about configuring Copilot and AI capabilities](enable-ai.md).
 - Set your display language in Business Central to one the following English locales: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA. [Learn more about changing the language](ui-change-basic-settings.md#language).
 - Ensure your Business Central environment is in any country/region except Canada (this feature isn't yet available in Canada).
 
-## Get started using chat with Copilot
+## <a name="get-started-using-chat-with-copilot"></a>Get started using chat with Copilot
 
 1. In the upper-right corner of the screen, select the ![Shows the icon for chat with Copilot](media/chat-copilot-icon.png) **Copilot** icon ![Shows cllour number 1](media/callout-number-1.svg).
 
@@ -65,13 +65,13 @@ Using chat with Copilot streamlines your workflow by bypassing traditional navig
 
    Chat remembers the context, which means that you don't have to repeat key points from the original question.
 
-## Clear chat to start over
+## <a name="clear-chat-to-start-over"></a>Clear chat to start over
 
 If you want to switch to a different topic of conversation with Copilot, select the ![Shows the clear chat icon](media/clear-chat-icon.png) **Start a new Copilot chat session**  icon at the bottom of the Copilot pane above the question box. This action clears Copilot's memory of your last few messages. Starting over is often helpful after a lengthy conversation with many messages, and it can help Copilot deliver more accurate answers.
 
 The chat also clears if you close or sign out of Business Central.
 
-## Tips for better questions
+## <a name="tips-for-better-questions"></a>Tips for better questions
 
 Here are some ways you can improve the answers you get from Copilot:
 
@@ -83,7 +83,7 @@ Here are some ways you can improve the answers you get from Copilot:
 - If the initial response doesn't fully answer your questions, ask follow-up questions or rephrase the last question.
 - If you're asking a question on a different subject matter than previous question, clear the current chat session to start over.
 
-## Example prompts
+## <a name="example-prompts"></a>Example prompts
 
 Your questions to Copilot vary depending on your role, current task, the processes that your organisation follows, and how you express yourself in words. The following are examples that show different ways of asking questions in the chat pane that can inspire you to write your own questions based on your situation.
 
@@ -103,7 +103,7 @@ Prompt: `How does I save my filterrings for later?`
 
 In this example, you ask Copilot for guidance on how to perform some task in Business Central. Copilot can usually understand the intent of your question, even if there are a few grammatical errors, spelling mistakes or abbreviations.
 
-## Provide feedback on answers
+## <a name="provide-feedback-on-answers"></a>Provide feedback on answers
 
 You can rate the answers you get from Copilot by using the like (thumbs up) button for good rating or the dislike (thumbs down) button for a poor rating. When you select the dislike button, you can choose a reason, including inaccurate, inappropriate, or other. This information can help us improve suggestions.
 
@@ -112,7 +112,7 @@ You can rate the answers you get from Copilot by using the like (thumbs up) butt
 
    Prompts are predefined short phrases that start a question. Apart from saving you time, they're designed to target responses to specific categories. They also help you undestand how you can phrase questions to get the responses.-->
    
-## See also
+## <a name="see-also"></a>See also
 
 - [Troubleshoot Copilot and AI capabilities](ai-copilot-troubleshooting.md)  
 - [Configure Copilot and AI capabilities](enable-ai.md)  

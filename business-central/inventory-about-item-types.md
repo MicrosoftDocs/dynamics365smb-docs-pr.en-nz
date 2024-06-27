@@ -11,7 +11,7 @@ ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# About item types
+# <a name="about-item-types"></a>About item types
 
 In the **Type** field on the **Item Card** page, you can select what the item is used for in your business, which affects the degree to which you can manage the item in inventory. The following table lists and describes the three types of items that are available.
 
@@ -30,7 +30,7 @@ In the **Type** field on the **Item Card** page, you can select what the item is
 |Non-Inventory|Yes|Yes|Yes|Yes|Yes|Yes|No|No|No|No|No|No|No|No|No|No|Yes|
 |Service|Yes|Yes|Yes|No|No|No|No|No|No|No|No|No|No|No|No|No|Yes|
 
-## Costing methods for types of items
+## <a name="costing-methods-for-types-of-items"></a>Costing methods for types of items
 
 When you post inventory transactions, the quantity and value changes to the inventory are recorded in the item ledger entries and the value entries, respectively.
 
@@ -38,13 +38,13 @@ You record the cost of inventory items in the **Cost Amount (Actual)** field on 
 
 For noninventory and service items, cost is recorded in the **Cost Amount (Non-Invtbl.)** field on the **Value Entries** page. For noninventory and service items, specify cost on sales, assembly, and production documents and journals. Specify the default cost in the **Unit Cost** field on the **Item Card** and **Stockkeeping Unit** pages. Costs for these types of items aren't reconciled to the general ledger.
 
-## Catalogue and service items
+## <a name="catalog-and-service-items"></a>Catalogue and service items
 
 You can set up items that you offer to your customers but you don't manage in until you sell them as catalogue items. Although catalogue items are similar to regular items of the type **Non-Inventory** in this respect, don't confuse the two because there are differences. To learn more, go to [Work with Catalogue Items](inventory-how-work-nonstock-items.md).
 
 Customer items that you service, such as a printer, are called service items. Service items have nothing to do with regular or catalogue items. However, service components can be regular items. To learn more, go to [Set Up Service Items and Service Item Components](service-how-setup-service-items.md).
 
-## See also
+## <a name="see-also"></a>See also
 
 [Register New Items](inventory-how-register-new-items.md)  
 [Setting Up Inventory](inventory-setup-inventory.md)  
