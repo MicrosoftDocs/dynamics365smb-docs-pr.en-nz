@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Sustainability management overview
+# <a name="sustainability-management-overview"></a>Sustainability management overview
 
 > [!IMPORTANT]
 > This feature will be available in Business Central from **2024 release wave 1**. All reference links will be enabled after they are available.
@@ -49,7 +49,7 @@ To get started with sustainability management, use the following articles.
 | **Integrations** |             |
 | [Sustainability API](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json) | Use this article to learn how to create connected apps that establish a point-to-point connection between Business Central and non-Microsoft sustainability solutions or services using APIs. |
 
-## See also
+## <a name="see-also"></a>See also
 
 [Sustainability setup](finance-sustainability-setup.md)    
 [Chart of sustainability accounts and ledger](finance-sustainability-accounts-ledger.md)    
