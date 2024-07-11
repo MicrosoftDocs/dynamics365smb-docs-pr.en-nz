@@ -25,7 +25,7 @@ When payments are successfully processed, as communicated by your bank, you can 
 > [!NOTE]  
 > To collect payments using SEPA Direct Debit, the currency on the sales invoice must be EURO.  
 
-## <a name="setting-up-sepa-direct-debit"></a>Setting Up SEPA Direct Debit
+## <a name="how-to-set-up-sepa-direct-debit"></a>Setting Up SEPA Direct Debit
 
 From the **Direct Debit Collections** page, you can export instructions to your electronic bank to perform a direct debit collection from the customer's bank account to your bank account according to the SEPA Direct Debit format.
 

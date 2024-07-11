@@ -37,7 +37,7 @@ If you haven't already created a custom report layout for the type of document, 
 3. On the **Document Layouts** page, on the line for a report layout that you want to use a custom layout for, choose the **Custom Layout Description** field.
 4. On the **Custom Report Layouts** page, select the document layout that you want to use for the type of sales document. For more information, see [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md).
 
-## <a name="to-specify-which-contact-will-receive-which-document-layout-for-a-customer"></a>To specify which contact will receive which document layout for a customer
+## <a name="to-specify-which-contact-receives-which-document-layout-for-a-customer"></a>To specify which contact will receive which document layout for a customer
 
 To save time when you send documents to customer and vendor contacts by email, specify their email addresses on document layouts. For example, you can always send customer statements to their accountant contacts and sales orders to their purchasers, or purchase orders to vendor salespeople.
 
