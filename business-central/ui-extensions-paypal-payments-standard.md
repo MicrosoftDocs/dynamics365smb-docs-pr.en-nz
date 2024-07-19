@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# The PayPal Payments Standard extension
+# <a name="the-paypal-payments-standard-extension"></a>The PayPal Payments Standard extension
 
 The PayPal Payments Standard extension can help you increase your customer service levels by making it easier for your customers to pay their bills.
 
@@ -29,7 +29,7 @@ The PayPal Payments Standard service provides the following benefits:
 
 To learn more about how to set up the extension, go to [Enable Customer Payment Through PayPal](sales-how-enable-payment-service-extensions.md).
 
-## Register payments automatically for business accounts
+## <a name="register-payments-automatically-for-business-accounts"></a>Register payments automatically for business accounts
 
 [!INCLUDE [prod_short](includes/prod_short.md)] can register payments automatically if you have a Business Merchant account for the PayPal Commerce Platform. When your customers use the PayPal link to pay an invoice, [!INCLUDE [prod_short](includes/prod_short.md)] posts the entries and close the document.
 
@@ -38,7 +38,7 @@ To use this capability, on the **Payment Registration Setup** page in [!INCLUDE 
 > [!TIP]
 > Developers can use sandbox accounts to test the setup. To do that, change the PayPal URL to **sandbox.paypal.com**. [!INCLUDE [prod_short](includes/prod_short.md)] uses the PayPals Instant Payment Notification (IPN) through notify_url.
 
-## See also
+## <a name="see-also"></a>See also
 
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
 [Setting Up Sales](sales-setup-sales.md)  
