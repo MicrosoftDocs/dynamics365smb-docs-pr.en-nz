@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# Manage AppSource apps
+# <a name="manage-appsource-apps"></a>Manage AppSource apps
  
 From inside [!INCLUDE[prod_short](includes/prod_short.md)], you can discover, view, sort, and filter available AppSource apps that integrate with [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -27,6 +27,6 @@ On the page, you find the following actions:
  
 As with other list pages, you get support for Analysis Mode, for example, so that you can group apps by publisher. Use Copilot to design an **Analysis Mode** view for you.
 
-## See also
+## <a name="see-also"></a>See also
 
 [Customising Business Central online using apps](ui-extensions.md)  
