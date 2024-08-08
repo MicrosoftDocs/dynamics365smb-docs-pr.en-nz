@@ -50,7 +50,7 @@ Fully applied vendor ledger entries and bank ledger entries are created.
 > [!NOTE]  
 > If you want to print and pay cheques in more than one currency from different bank accounts, you must run the **Print Cheque** batch job separately for each currency and specify the appropriate bank account.
 
-## <a name="to-cancel-printed-checks-that-are-not-posted"></a>To cancel printed cheques that are not posted
+## <a name="to-cancel-printed-checks-that-arent-posted"></a>To cancel printed cheques that are not posted
 
 You can cancel non-posted cheques after they have been printed by using the **Void Cheque** action on the **Payment Journal** page.
 

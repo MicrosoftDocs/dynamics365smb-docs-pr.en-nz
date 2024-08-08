@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="letting--suggest-values"></a>Letting [!INCLUDE[prod_short](includes/prod_short.md)] Suggest Values
+# <a name="let--suggest-values"></a>Letting [!INCLUDE[prod_short](includes/prod_short.md)] Suggest Values
 [!INCLUDE[prod_short](includes/prod_short.md)] can help you complete tasks quicker and more correctly by prefilling fields or complete lines with data that you would otherwise have to calculate and enter yourself. Although such automatic data entry is always correct, you can change it afterwards if you want to.
 
 Functionality that enters field values for you is typically offered for tasks where you enter large volumes of transactional data and want to avoid errors and save time. This topic contains a selection of such functionality. More sections will be added in future updates of [!INCLUDE[prod_short](includes/prod_short.md)].

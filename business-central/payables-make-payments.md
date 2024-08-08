@@ -11,7 +11,7 @@ ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="making-payments"></a>Making payments
+# <a name="make-payments"></a>Making payments
 
 You pay vendors or customers, or reimburse your employees, by posting payment lines on the **Payment Journal** page. The payment journal is a general journal that's optimised for making payments, and offers lots of powerful actions. For example, the **Suggest Vendor Payments** action that finds vendor payments that are due, and the **Vendor - Summary Ageing** report that shows an overview of due vendor payments.  
 
