@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="setting-up-cost-accounting"></a>Setting Up Cost Accounting
+# <a name="set-up-cost-accounting"></a>Setting Up Cost Accounting
 
 Before you start working with cost accounting, you must perform setup tasks.
 
@@ -24,7 +24,7 @@ By doing this, you create the following accounting equation:
 
 When you print the chart of cost type, the chart of cost centres, and the chart of cost objects reports, you can analyse this relationship.
 
-## <a name="setting-up-cost-types"></a>Setting Up Cost Types
+## <a name="set-up-cost-types"></a>Setting Up Cost Types
 
 The chart of cost types is similar to the chart of accounts in the general ledger. You can set up the chart of cost types in the following ways:  
 

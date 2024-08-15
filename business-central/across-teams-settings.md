@@ -27,7 +27,7 @@ There are two ways to open the **Settings** page: 1) from the message compose bo
 
    ![Settings for Business Central from message box.](media/teams-settings-command-box.png)
 
-## <a name="see-also"></a>See Also
+## <a name="related-information"></a>See Also
 
 [Business Central and Microsoft Teams Integration Overview](across-teams-overview.md)  
 [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md)  

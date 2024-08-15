@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Sales tax in the default version of Business Central
+# <a name="sales-tax-in-the-default-version-of-business-central"></a>Sales tax in the default version of Business Central
 
 A **sales tax** is a tax that applies to the purchase of goods and services for consumers and to the sale of goods and services for businesses. Sales tax, ideally, should apply to all final consumption with few exemptions. Exemptions in final consumptions depend on local authorities but, generally speaking, business-to-business transactions are exempted from sales tax.  
 
@@ -23,7 +23,7 @@ Typically, sales taxes apply to the retail sale of goods and services and are a 
 > [!IMPORTANT]
 > Although sales tax is available in the default version, Microsoft supports the use of sales tax in New Zealand only.
 
-## See also
+## <a name="see-also"></a>See also
 
 [Report Sales Tax in the US](localfunctionality/UnitedStates/us-sales-tax.md)    
 [Report Sales Tax in Canada](localfunctionality/canada/ca-sales-tax.md)    

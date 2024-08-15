@@ -10,7 +10,7 @@ ms.date: 12/16/2022
 ms.custom: bap-template
 ms.search.forms: '9330, 931, 990008, 89, 900, 902'
 ---
-# <a name="pick-for-production-assembly-or-jobs-in-basic-warehouse-configurations"></a>Pick for Production, Assembly, or Jobs in Basic Warehouse Configurations
+# <a name="pick-for-production-assembly-or-projects-in-basic-warehouse-configurations"></a>Pick for Production, Assembly, or Jobs in Basic Warehouse Configurations
 
 How you pick components for production, jobs, or assembly orders depends on how your warehouse is set up as a location. Learn more at [Setting Up Warehouse Management](warehouse-setup-warehouse.md).
 

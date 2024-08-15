@@ -22,7 +22,7 @@ Standard costs can be maintained for items that are replenished through purchase
 |**Assembly**|Direct material cost, direct or fixed labour cost, and overhead cost.|  
 |**Prod. Order**|Direct material cost, labour cost, subcontractor cost, and overhead cost.|  
 
-## <a name="setting-up-standard-costs"></a>Setting Up standard costs
+## <a name="set-up-standard-costs"></a>Setting Up standard costs
 
 Because the standard cost of a produced or assembled item can consist of multiple cost elements, including material, capacity (labour) and direct and overhead subcontractor costs, standard costs must be established for each of these elements.  
 
@@ -88,7 +88,7 @@ Subcontractor costs are the costs that are associated with services that are pro
 
 Because subcontracting is an outsourced capacity, you set up the cost of both direct and indirect subcontracting services on the work centre card that represents the subcontracting operation.  
 
-## <a name="updating-standard-costs"></a>Updating standard costs
+## <a name="update-standard-costs"></a>Updating standard costs
 
 To update or calculate the standard cost of assembly items, use the function from the item card.  
 

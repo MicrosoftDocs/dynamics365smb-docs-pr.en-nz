@@ -11,23 +11,23 @@ ms.reviewer: bholtorf
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Accountant experiences in [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="accountant-experiences-in-"></a>Accountant experiences in [!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Any business must do its books and sign off on the accounting. Some businesses employ an external accountant, and others have an accountant on staff. No matter what type of accountant you are, you can use the **Accountant** Role Centre as your Home in [!INCLUDE[prod_short](includes/prod_short.md)]. From here, you can access all pages that you need in your work.  
 
-## Accountant Role Centre
+## <a name="accountant-role-center"></a>Accountant Role Centre
 
 The Role Centre is a dashboard with activity tiles that show you real-time key figures and give you quick access to data. The ribbon at the top of the page gives you access to more actions. For example, to open financial reports and statements in Excel. In the navigation bar at the top, you can quickly switch between the lists you use most often. Here, you see other areas, such as **Posted Documents** with the various types of documents that the company posted.  
 
 If you're new to [!INCLUDE[prod_short](includes/prod_short.md)], you can launch a list of videos right from your Role Centre. You can also launch a **Getting Started** tour that points out key areas.  
 
-## Company Hub
+## <a name="company-hub"></a>Company Hub
 
 If you work in multiple [!INCLUDE [prod_short](includes/prod_short.md)] companies, you might find it useful to use the **Company Hub** page to keep track of work. For more information, see [Manage Work across Multiple Companies in the Company Hub](company-hub.md).  
 
-## <a name="inviteaccountant"></a>Inviting Your External Accountant to Your [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="inviting-your-external-accountant-to-your-"></a><a name="inviteaccountant"></a>Inviting Your External Accountant to Your [!INCLUDE[prod_short](includes/prod_short.md)]
 
 If you use an external accountant to manage your books and financial reporting, your administrator can invite them to your [!INCLUDE[prod_short](includes/prod_short.md)] so they can work with you on your fiscal data. [!INCLUDE[prod_short](includes/prod_short.md)] includes three licences of type External Accountant. For more information about licensing, download the [Microsoft Dynamics 365 Business Central Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
@@ -47,11 +47,11 @@ It's easy to invite your external accountant. Open the **Users** page, and then 
 >
 > This task requires access to managing users and licences in Microsoft Entra ID. The user who sends this invitation must be assigned at least the [User Administrator](/entra/identity/role-based-access-control/permissions-reference#user-administrator) role in the Microsoft 365 admin center. For more information, see [About admin roles](/microsoft-365/admin/add-users/about-admin-roles) in the Microsoft 365 admin content.  
 
-### Add your accountant to your Microsoft 365 in the Azure portal
+### <a name="add-your-accountant-to-your-microsoft-365-in-the-azure-portal"></a>Add your accountant to your Microsoft 365 in the Azure portal
 
 If your administrator or reselling partner don't want to use the **Invite External Accountant** guide, they can add an external user in the Azure portal and assign this user the *External Accountant* licence. For more information, see [Quickstart: Add guest users to your directory in the Azure portal](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
 
-#### To add your accountant as a guest user
+#### <a name="to-add-your-accountant-as-a-guest-user"></a>To add your accountant as a guest user
 
 1. Open the [Azure portal](https://portal.azure.com/).
 2. In the left pane, select **Microsoft Entra ID**.
@@ -66,7 +66,7 @@ If your administrator or reselling partner don't want to use the **Invite Extern
 
 Next, you must assign the new guest user a licence to [!INCLUDE[prod_short](includes/prod_short.md)].
 
-#### To give your accountant access to your [!INCLUDE[prod_short](includes/prod_short.md)]
+#### <a name="to-give-your-accountant-access-to-your-"></a>To give your accountant access to your [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. In the Azure portal, on the newly added user, choose **Profile**, and then choose **Edit**
 2. Update the **Usage Location** field to the relevant country/region, and then choose **Save**.
@@ -80,11 +80,11 @@ Next, you must assign the new guest user a licence to [!INCLUDE[prod_short](incl
 
 If successful, the licence is assigned to the guest user, and the guest account is created.
 
-### Import the new user into [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="import-the-new-user-into-"></a>Import the new user into [!INCLUDE[prod_short](includes/prod_short.md)]
 
 The accountant receives an email that notifies them that they have access to your Microsoft Entra ID. Next, you must give them access to the right company in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-#### To add the accountant to the right company
+#### <a name="to-add-the-accountant-to-the-right-company"></a>To add the accountant to the right company
 
 1. Open the [!INCLUDE[prod_short](includes/prod_short.md)] company that you want to give the accountant access to at [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
 2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then chose the related link.  
@@ -94,7 +94,7 @@ This action imports the user account that you created in the Azure portal to the
 
 If you want to give access to multiple companies, then you must log into each company and repeat this process. Alternatively, you can update the permission groups for the accountant's user profile in [!INCLUDE[prod_short](includes/prod_short.md)], such as assigning them the *D365 Bus Premium* user group. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).  
 
-## See also
+## <a name="see-also"></a>See also
 
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  

@@ -10,7 +10,7 @@ ms.search.keywords: 'customer payment, debtor, balance due, AR'
 ms.date: 07/08/2024
 ms.service: dynamics-365-business-central
 ---
-# Managing receivables
+# <a name="managing-receivables"></a>Managing receivables
 
 A regular step in any financial rhythm is to reconcile bank accounts. To close sales invoices and purchase credit memos as paid, you apply incoming payments to customer or vendor ledger entries.
 
@@ -41,7 +41,7 @@ The following table describes a sequence of tasks, with links to the articles th
 |Set up a tolerance by which the system closes an invoice even though the payment, including any discount, doesn't fully cover the amount on the invoice.|[Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Predict when payments will be late for sales documents. | [The Late Payment Prediction Extension](ui-extensions-late-payment-prediction.md) |
 
-## See also
+## <a name="see-also"></a>See also
 [Sales](sales-manage-sales.md)  
 [Managing Payables](payables-manage-payables.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

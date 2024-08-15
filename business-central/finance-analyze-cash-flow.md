@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="analyzing-cash-flow-in-your-company"></a>Analysing Cash Flow in Your Company
+# <a name="analyze-cash-flow-in-your-company"></a>Analysing Cash Flow in Your Company
 The charts on the Accountant Role Centre provide insights that can help you make solid decisions about what to do with your cash.  
 
 | To answer questions like these | Use this chart |

@@ -9,7 +9,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="setting-up-inventory-valuation-and-costing"></a>Setting Up Inventory Valuation and Costing
+# <a name="set-up-inventory-valuation-and-costing"></a>Setting Up Inventory Valuation and Costing
 
 To make sure that inventory costs are recorded correctly, you must set up various fields and pages before you begin to make item transactions. Typically, businesses choose a specific costing method and apply that to inventory items, for example, to help them track the value of items on stock.  
 

@@ -28,7 +28,7 @@ When you create the connection between the apps, [!INCLUDE[prod_short](includes/
 >
 > To avoid slow performance, on the **Integration Table Mappings** page, you can enable or disable event-based data synchronisation for any table. By default, event-based synchronisation is turned on so that existing integrations aren’t affected. Your administrator can turn it on or off for specific tables.
 
-### <a name="additional-mappings"></a>Additional mappings
+### <a name="add-table-and-field-mappings-to-existing-integration-tables"></a>Additional mappings
 
 Payment terms, shipment methods, and shipping agents can change, and it can be important to be able to adjust them. If you enable the **Feature Update: Map to option sets in Dataverse without code** feature on the [Feature Management](https://businesscentral.dynamics.com/?page=2610) page, you can manually add integration table mappings for payment terms (PAYMENT TERMS), shipment methods (SHIPMENT METHOD), and shipping agents (SHIPPING AGENT). This mapping can help ensure that your policies are the same for these setups in [!INCLUDE[prod_short](includes/cds_long_md.md)] and [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 

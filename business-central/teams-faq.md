@@ -441,7 +441,7 @@ At this time, Share to Teams is available in the desktop web client, in the deta
 The **Share to Teams action** can be found in the **Share** menu on all pages, such as card and document pages, list or worksheet pages, including custom pages. The action isn't available on dialogue boxes or pages shown as dialogue boxes, such as lookup pages or wizards.
 
 ---
-## <a name="see-also"></a>See Also
+## <a name="related-information"></a>See Also
 
 [[!INCLUDE [prod_short](includes/prod_short.md)] and Microsoft Teams Integration Overview](across-teams-overview.md)  
 [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md)  

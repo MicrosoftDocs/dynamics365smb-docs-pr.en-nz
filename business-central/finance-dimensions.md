@@ -24,7 +24,7 @@ Another example is to set up a dimension called *Department*, then use that dime
 * Who sold it.
 * Which customer bought it.
 
-## <a name="analyzing-by-dimensions"></a>Analysing by dimensions
+## <a name="analyze-by-dimensions"></a>Analysing by dimensions
 
 Dimensions play an important role in business intelligence, such as when defining analysis views. Learn more at [Analyse Data by Dimensions](bi-how-analyze-data-dimension.md).
 
@@ -40,7 +40,7 @@ A dimension set is a unique combination of dimension values. They are stored as 
 
 When you create a journal line, document header, or document line, you can specify a combination of dimension values. Instead of explicitly storing each dimension value in the database, a dimension set ID is assigned to the journal line, document header, or document line to specify the dimension set.  
 
-## <a name="setting-up-dimensions"></a>Setting up dimensions
+## <a name="set-up-dimensions"></a>Setting up dimensions
 
 You can define dimensions and dimension values to categorise journals and documents, such as sales orders and purchase orders. You set up dimensions on the **Dimensions** page, where you create one line for each dimension, such as *Project*, *Department*, *Area*, and *Salesperson*.
 

@@ -28,7 +28,7 @@ For each allocation target, you define an allocation base. The allocation base c
 
 The following table describes a sequence of tasks, with links to the topics that describe them.
 
-## <a name="setting-up-allocation-source-and-targets"></a>Setting Up Allocation Source and Targets
+## <a name="set-up-allocation-source-and-targets"></a>Setting Up Allocation Source and Targets
 
 Each allocation consists of an allocation source and one or more allocation targets. The allocation source defines which costs will be allocated. The allocation targets determine where the costs will be allocated.  
 
@@ -50,11 +50,11 @@ Each allocation consists of an allocation source and one or more allocation targ
 > [!NOTE]  
 > Select the **Blocked** check box to deactivate the allocation setup.
 
-## <a name="setting-filters-for-dynamic-allocation-bases"></a>Setting Filters for Dynamic Allocation Bases
+## <a name="to-set-filters-for-dynamic-allocation-bases"></a>Setting Filters for Dynamic Allocation Bases
 
 The dynamic allocation method is based on changeable values. For example, the number of employees in a cost centre or the items sold of a cost object in a specific time period. There are nine pre-defined allocation bases and twelve dynamic date ranges. You set different filters based on the allocation base.  
 
-### <a name="setting-filters"></a>Setting Filters
+### <a name="set-filters"></a>Setting Filters
 
 The following table shows which filters are possible for different allocation keys and which values are valid in the **No. Filter** and **Group Filter** fields. Select <kbd>F1</kbd> in the **Date Filter Code** field to read detailed descriptions.  
 

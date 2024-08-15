@@ -27,7 +27,7 @@ You can make various changes, such as move or hide fields, columns, actions, and
 > Administrators can make the same layout changes as users by customising profile (role) that multiple users are assigned. To learn more about pages for Roles, go to [Customise Pages for Roles](ui-personalization-manage.md)<br /><br />
 Administrators can also override or disable users' personalisation, and they can define which features are even available for users to see in all or specific companies. For more information, see [Customising Business Central](ui-customizing-overview.md).
 
-## <a name="video"></a>Video
+## <a name="video-and-training"></a>Video
 
 The following video shows some of the ways in which you can personalise your Role Centre.
 

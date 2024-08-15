@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="pick-for-production-assembly-or-jobs-in-advanced-warehouse-configurations"></a>Pick for production, assembly, or jobs in advanced warehouse configurations
+# <a name="pick-for-production-assembly-or-projects-in-advanced-warehouse-configurations"></a>Pick for production, assembly, or jobs in advanced warehouse configurations
 
 How you pick components for production, jobs, or assembly orders depend on how your warehouse is set up as a location. Learn more at [Setting Up Warehouse Management](warehouse-setup-warehouse.md).
 
@@ -113,7 +113,7 @@ Use **Warehouse Pick** documents to pick job components in the flow to project m
 
 8. Choose the **OK** button.  
 
-## <a name="to-pick-items-for-a-productions-order-assembly-order-job"></a>To pick items for a productions order, assembly order, job
+## <a name="to-pick-items-for-a-production-order-assembly-order-or-project"></a>To pick items for a productions order, assembly order, job
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Picks**, and then choose the related link.  
 

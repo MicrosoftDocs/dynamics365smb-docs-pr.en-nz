@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="understanding-the-general-ledger-and-chart-of-accounts"></a>Understanding the General Ledger and Chart of Accounts
+# <a name="understand-the-general-ledger-and-chart-of-accounts"></a>Understanding the General Ledger and Chart of Accounts
 
 The general ledger (G/L) stores your financial data, and the chart of accounts (COA) shows the accounts that you post general ledger entries to. [!INCLUDE[prod_short](includes/prod_short.md)] includes a standard chart of accounts that's ready to support your business.
 

@@ -11,7 +11,7 @@ ms.search.form: '103, 104, 108, 488, 489, 490'
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="walkthrough-making-cash-flow-forecasts-using-financial-reports"></a>Walkthrough: Making Cash Flow Forecasts Using Financial Reports
+# <a name="walkthrough-make-cash-flow-forecasts-using-financial-reports"></a>Walkthrough: Making Cash Flow Forecasts Using Financial Reports
 
 This walkthrough describes how you can use the financial reports feature to make cash flow forecasts. Financial reports perform calculations that cannot be done directly in the chart of cash flow accounts. In the financial reports, you can set up subtotals for cash flow receipts and disbursements. These subtotals can be included in new totals that can then be used to make cash flow forecasts.  
 
@@ -42,11 +42,11 @@ This walkthrough demonstrates tasks that are performed by the following user rol
 
 Ken is a controller at CRONUS who makes monthly cash flow forecasts. Ken includes finance, sales, purchase, and fixed assets in the forecasts, and presents to CFO Sara for business insight.  
 
-## <a name="setting-up-a-new-financial-report-name"></a>Setting up a new financial report name
+## <a name="set-up-a-new-financial-report-name"></a>Setting up a new financial report name
 
 The financial report name is the name you give the cash flow forecast that includes a series of defined lines and a column definition.  
 
-### <a name="set-up-a-new-financial-report-name"></a>Set up a new financial report name
+### <a name="set-up-a-new-financial-report-name-1"></a>Set up a new financial report name
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Financial Reports**, and then choose the related link.  
 2. On the **Financial Reports** page, choose **New** to create a new cash flow financial report name.  
@@ -54,11 +54,11 @@ The financial report name is the name you give the cash flow forecast that inclu
 4. In the **Description** field, enter **Cash Flow Forecast**.  
 5. Leave the **Row Definition** and **Column Definition** fields blank.
 
-## <a name="setting-up-row-definition-lines"></a>Setting up row definition lines
+## <a name="set-up-row-definition-lines"></a>Setting up row definition lines
 
 After a financial report name is set up, Ken defines each line in the cash flow financial report. Ken defines lines to be shown in reports in addition to lines that are only for calculation purposes.  
 
-### <a name="set-up-row-definition-lines"></a>Set up row definition lines
+### <a name="set-up-row-definition-lines-1"></a>Set up row definition lines
 
 1. On the **Financial Reports** page, select the new **Forecast** financial report you created, then choose the **Edit Row Definition** action.  
 2. On the **Row Definition** page, enter each line as shown in the following table.  
@@ -94,7 +94,7 @@ After a financial report name is set up, Ken defines each line in the cash flow 
     > [!NOTE]
     > The row number R10 is used to capture the account totals for receivables. The row number R20 is used to calculate the sum of all cash receipts. The row number R30 is used to capture the account totals for payables. The row number R40 is used to calculate the sum of all cash disbursements. The row number R50 is used to capture the sum of cash surplus. The row number R60 is used to capture the liquid funds. The row number R70 is used to calculate the forecasted cash flow.
 
-## <a name="setting-up-a-new-column-definition"></a>Setting up a new column definition
+## <a name="set-up-a-new-column-definition"></a>Setting up a new column definition
 
 Before printing the cash flow forecast, Ken needs to create the column definition for the numerical information. In the columns, Ken defines the information needed to use from the lines.
 
@@ -103,7 +103,7 @@ Before printing the cash flow forecast, Ken needs to create the column definitio
 - The third column has the number *C30* with the title **Entire Year** and contains the net change in the balances for the entire fiscal year.  
 - Finally, Ken assigns the column definition as the default option for the **Forecast** financial report.  
 
-### <a name="set-up-a-new-column-definition"></a>Set up a new column definition
+### <a name="set-up-a-new-column-definition-1"></a>Set up a new column definition
 
 1. On the **Financial Reports** page, select the new **Forecast** financial report name you created. On the **Home** tab, in the **Process** group, choose **Edit Column Definition**.
 
@@ -119,7 +119,7 @@ Before printing the cash flow forecast, Ken needs to create the column definitio
     |C20|Amount Until Date|Balance at Date|Entries|Net Amount|Always|  
     |C30|Entire Fiscal Year|Entire Fiscal Year|Entries|Net Amount|Always|
 
-## <a name="assigning-the-column-definition-to-the-financial-report-name"></a>Assigning the column definition to the financial report name
+## <a name="assig-the-column-definition-to-the-financial-report-name"></a>Assigning the column definition to the financial report name
 
 Ken is now ready to assign the column definition to the financial report name.  
 

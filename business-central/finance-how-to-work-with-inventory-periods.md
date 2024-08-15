@@ -28,7 +28,7 @@ The following sections describe how to:
 3. In the **Ending Date** field, enter the last date in the inventory period that you want to define. When the period is closed, you will not be able to post inventory changes before this date.  
 4. Enter a descriptive name in the **Name** field. Choose the **OK** button.  
 
-## <a name="closing-inventory-periods"></a>Closing Inventory Periods
+## <a name="to-close-inventory-periods"></a>Closing Inventory Periods
 
 The **Closed** field indicates whether or not the inventory period is closed to inventory value changes. You cannot edit this field.  
 

@@ -174,7 +174,7 @@ This problem is because you don’t have the BC app for Teams installed. Only th
 This problem is likely because you shared a list view that is a personal view. In this case, work with your administrator to create either role-specific list views that covers the different roles in the channel/chat, or create this view for the whole organisation so that everyone can get a consistent view.
 
 
-## <a name="see-also"></a>See also
+## <a name="related-information"></a>See also
 
 [[!INCLUDE [prod_short](includes/prod_short.md)] and Microsoft Teams Integration Overview](across-teams-overview.md)  
 [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md)  

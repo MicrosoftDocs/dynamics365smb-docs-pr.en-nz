@@ -76,7 +76,7 @@ For more information, see [Add a Business Central tab in Teams](across-teams-tab
 3. Install [!INCLUDE [prod_short](includes/prod_short.md)] app in Teams. See [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md).
 4. Once the app is installed, you're ready to go. See [Searching for Customers, Vendors, and Other Contacts from Microsoft Teams](across-search-contacts-teams.md) and [Share Records in Microsoft Teams](across-working-with-teams.md).
 
-## <a name="see-also"></a>See Also
+## <a name="related-information"></a>See Also
 
 [Teams FAQ](teams-faq.md)  
 [Troubleshooting Teams](admin-teams-troubleshooting.md)  

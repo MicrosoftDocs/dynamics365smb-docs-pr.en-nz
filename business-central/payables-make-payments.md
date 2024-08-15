@@ -11,7 +11,7 @@ ms.date: 07/15/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Make payments
+# <a name="make-payments"></a>Make payments
 
 You pay vendors or customers, or reimburse your employees, by posting payment lines on the **Payment Journal** page. The payment journal is a general journal that's optimised for making payments, and offers lots of powerful actions. For example, the **Suggest Vendor Payments** action that finds vendor payments that are due, and the **Vendor - Summary Ageing** report that shows an overview of due vendor payments.  
 
@@ -35,7 +35,7 @@ The following table describes a sequence of tasks, with links to the articles th
 | Pay a vendor by cash or cheque, and post the payment when you post the invoice. |[Settle Purchase Invoices Promptly](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Make sure that your bank only clears validated cheques and amounts by sending them a file that contains vendor, cheque, and payment information. |[Export a Positive Pay file](finance-how-positive-pay.md) |
 
-## See also
+## <a name="see-also"></a>See also
 
 [Managing Payables](payables-manage-payables.md)  
 [Purchasing](purchasing-manage-purchasing.md)  

@@ -33,7 +33,7 @@ The first step to put away output is to create the inbound warehouse request. Th
 > [!NOTE]  
 > You can also create the inbound warehouse request by choosing the **Create Inbound Request** field when you refresh the production order. Learn more at [Refresh or Replan Production Orders](production-how-to-replan-refresh-production-orders.md).  
 
-### <a name="to-put-output-away-with-an-inventory-put-away"></a>To put output away with an inventory put-away
+### <a name="to-put-away-output-with-an-inventory-put-away"></a>To put output away with an inventory put-away
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Put-away**, and then choose the related link.  
 2. Create a new inventory put-away. Learn more at [Put Items Away with Inventory Put-aways](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
@@ -49,7 +49,7 @@ When you post an inventory put-away, it's assumed that all the operations are po
 
 If you only need to post set up or run time on the last operation, set the output quantity on the last operation to 0. You can choose not to post the last line at all by simply deleting it.
 
-## <a name="to-put-assembly-and-production-output-away-in-advanced-warehouse-configurations"></a>To put assembly and production output away in advanced warehouse configurations
+## <a name="to-put-away-assembly-and-production-output-in-advanced-warehouse-configurations"></a>To put assembly and production output away in advanced warehouse configurations
 
 When you post the output of production or assembly order in a warehouse that uses directed put-away and pick, the output is placed in the bin defined in the production or assembly order. Learn more about different ways to move items in the warehouse with advanced configurations, go to [Move Items in Advanced Warehouse Configurations](warehouse-how-to-move-items-in-advanced-warehousing.md#to-move-items-with-the-warehouse-movement-worksheet).
 

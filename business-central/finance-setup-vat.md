@@ -62,7 +62,7 @@ To set up a default value for a GST date, follow these steps:
 > [!NOTE]
 > By default, the **Default GST Date** is the **Posting Date**.
 
-### <a name="enabling-or-disabling-the-vat-date-feature"></a>Enabling or disabling the GST Date feature
+### <a name="enable-or-disable-the-vat-date-feature"></a>Enabling or disabling the GST Date feature
 
 Some countries/regions require that businesses use a specific VAT date, but other countries/regions don't. Some countries/regions also require businesses to change the GST date in specific situations after they post documents, but other countries/regions don't allow changes to GST dates. To allow for different contexts, you can choose whether you want to use this functionality and, if so, to what degree.
 
