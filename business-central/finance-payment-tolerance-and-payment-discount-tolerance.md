@@ -5,12 +5,12 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: '118, 314, 395'
-ms.date: 06/10/2024
+ms.date: 07/05/2024
 ms.service: dynamics-365-business-central
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ---
-# <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Work with payment tolerances and payment discount tolerances
+# Work with payment tolerances and payment discount tolerances
 
 You can set up a payment tolerance to close an invoice when the payment doesn't fully cover the amount on the invoice. For example, payment tolerances are typically for small amounts that would cost more to correct than to just accept. You can set up a payment discount tolerance to grant a payment discount after the payment discount date.  
 
@@ -18,7 +18,7 @@ Use payment tolerances so that every outstanding amount has a set maximum allowe
 
 You can set up payment discount tolerances so that if you accept a discount after the payment discount date, it always posts to a payment discount or payment tolerance account.
 
-## <a name="applying-payment-tolerance-to-multiple-documents"></a>Applying payment tolerance to multiple documents
+## Applying payment tolerance to multiple documents
 
 A single document has the same payment tolerance, regardless of whether you apply it on its own or with other documents. Acceptance of a late payment discount when you're applying payment tolerance to multiple documents automatically occurs for each document where the following rule is true:  
 
@@ -36,7 +36,7 @@ You can choose to display a warning that is based on different tolerance situati
 
 For more information, see [To enable or disable payment tolerance warning](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings). 
 
-## <a name="to-set-up-tolerances"></a>To set up tolerances
+## To set up tolerances
 
 Tolerance on days and amounts allows you to close an invoice even though the payment doesn't fully cover the amount on the invoice. For example, because the due date for the payment discount has past, goods were deducted, or because of a minor error. This principle also applies to refunds and credit memos.  
 
@@ -49,13 +49,13 @@ To set up tolerance you have to set up various tolerance accounts, specify both 
 6. On the **Vendor Posting Groups** page, set up a debit and a credit payment tolerance account.  
 7. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
 8. Open the **General Ledger Setup** page.  
-9. On the **Application** FastTab, fill in the **Payment Discount Tolerance Posting**, **Payment Discount Grace Period** and **Payment Tolerance Posting** fields.   
+9. On the **Application** FastTab, fill in the **Payment Disc. Tolerance Posting**, **Payment Discount Grace Period** and **Payment Tolerance Posting** fields.   
 10. Choose the **Change Payment Tolerance** action.
 
     > [!NOTE]
     > When you choose **Apply to Oldest** in the **Application Method** field on a **Customer Card** page, [!INCLUDE[prod_short](includes/prod_short.md)] will not automatically post payment tolerances, even when they're within the thresholds set on the **General Ledger Setup** page. [!INCLUDE[prod_short](includes/prod_short.md)] assumes that  the Apply to Oldest setting indicates that the customer (or you as a customer of your vendor) has an account with you where they regularly pay the balance. Therefore, remaining amounts shouldn't be removed by posting a payment tolerance entry.
 
-11. On the **Change Payment Tolerance** page, fill in the **Payment Tolerance %** and **Max Payment Tolerance Amount** fields, and then choose the **OK** button.
+11. On the **Change Payment Tolerance** page, fill in the **Payment Tolerance %** and **Max Pmt. Tolerance Amount** fields, and then choose the **OK** button.
 
 > [!IMPORTANT]  
 > You have now set up tolerance for local currency only. If you want [!INCLUDE[prod_short](includes/prod_short.md)] to handle tolerance on payments, credit memos, and refunds in a foreign currency, you must run the **Change Payment Tolerance** batch job with a value in the **Currency Code** field.  
@@ -70,7 +70,7 @@ To set up tolerance you have to set up various tolerance accounts, specify both 
 > [!IMPORTANT]  
 > When you enable the **Adjust for Payment Discount** field on the **GST Posting Setup** page, the GST amount is considered as it relates to the **Payment Tolerances** and **Payment Discounts** amounts, and GST will be reduced for both of transaction amounts if they exist. The system can't be configured to use GST reducing only for one type of transaction.  
 
-## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>To enable or disable payment tolerance warnings
+## To enable or disable payment tolerance warnings
 
 The payment tolerance warning appears when you post an application that has a balance in the allowed tolerance. You can then choose how you want to post and document the balance.
 
@@ -80,7 +80,7 @@ The payment tolerance warning appears when you post an application that has a ba
 > [!NOTE]  
 > The default option for the **Payment Tolerance Warning** page is **Leave the Balance as Remaining Amount**. The default option for the **Payment Discount Tolerance Warning** page the is **Do Not Accept the Late Payment Discount**.
 
-## <a name="to-block-payment-tolerance-for-customers"></a>To block payment tolerance for customers
+## To block payment tolerance for customers
 
 The default setting for payment tolerance is allowed. To disallow a certain customer or vendor payment tolerance, block the tolerance on the respective customer or vendor card. The following steps describe how to do it for a customer. The steps are similar for a vendor.
 
@@ -90,7 +90,7 @@ The default setting for payment tolerance is allowed. To disallow a certain cust
 > [!NOTE]  
 > If the customer or vendor has open entries, you must first remove payment tolerance from entries that are currently open.
 
-## <a name="example-1---tolerance-calculations-for-a-single-document"></a>Example 1 - Tolerance calculations for a single document
+## Example 1 - Tolerance calculations for a single document
 
 The following are some example scenarios showing the expected tolerance calculations and postings occurring in different situations.  
 
@@ -125,11 +125,11 @@ Scenarios with alternative A or B represent:
 |14|1,000|20|5|01/15/03|01/20/03|>01/20/03|980|None|No, 20 on the invoice|0|0|  
 |15|1,000|20|5|01/15/03|01/20/03|>01/20/03|975|None|No, 25 on the invoice|0|0|  
 
-### <a name="payment-range-diagrams"></a>Payment Range Diagrams
+### Payment Range Diagrams
 
 In relation to the scenario, the diagrams of payment ranges are as follows:  
 
-#### <a name="1-payment-date-011503-scenarios-1-3"></a>(1) Payment Date <=01/15/03 (Scenarios 1-3)
+#### (1) Payment Date <=01/15/03 (Scenarios 1-3)
 
 Remaining Amount per  
 
@@ -141,7 +141,7 @@ Normal Application Rules
 
 (2) If payment falls in these ranges, all application entries can't be closed, even with tolerance.  
 
-#### <a name="2-payment-date-is-between-011603-and-012003-scenarios-4-9"></a>(2) Payment Date is between 01/16/03 and 01/20/03 (Scenarios 4-9)
+#### (2) Payment Date is between 01/16/03 and 01/20/03 (Scenarios 4-9)
 
 Remaining Amount per  
 
@@ -153,7 +153,7 @@ Normal Application Rules
 
 (2) If payment falls in these ranges, all application entries can't be closed, even with tolerance.  
 
-#### <a name="3-payment-date-is-after-012003-scenarios-10-15"></a>(3) Payment Date is after 01/20/03 (Scenarios 10-15)
+#### (3) Payment Date is after 01/20/03 (Scenarios 10-15)
 
 Remaining Amount per  
 
@@ -165,7 +165,7 @@ Normal Application Rules
 
 (2) If payment falls in these ranges, all application entries can't be closed even with tolerance.  
 
-## <a name="example-2---tolerance-calculations-for-multiple-documents"></a>Example 2 - Tolerance calculations for multiple documents
+## Example 2 - Tolerance calculations for multiple documents
 
 The following are some example scenarios showing the expected tolerance calculations and postings occurring in different situations. The examples are limited to scenarios that result in all entries in the application being closed.  
 
@@ -213,11 +213,11 @@ Scenarios with alternative A, B, C, or D represent the following:
 |**29**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**01/15/03** <br />**01/17/03**|**01/20/03** <br />**01/22/03**|**>01/22/03**|**2000**|**None**|**Yes**|**0**|**0**|  
 |30|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|>01/22/03|1990|PaymentTolerance|Yes|0|5|  
 
-### <a name="payment-range-diagrams-1"></a>Payment range diagrams
+### Payment range diagrams
 
 In relation to the scenario, the diagrams of payment ranges are as follows:  
 
-#### <a name="1-payment-date-011503-scenarios-1-3-1"></a>(1) Payment Date <=01/15/03 (Scenarios 1-3)
+#### (1) Payment Date <=01/15/03 (Scenarios 1-3)
 
 Remaining Amount per  
 
@@ -229,7 +229,7 @@ Normal Application Rules
 
 (2) If payment falls in these ranges, all application entries can't be closed even with tolerance.  
 
-#### <a name="2-payment-date-is-between-011603-and-011703-scenarios-4-9"></a>(2) Payment Date is between 01/16/03 and 01/17/03 (Scenarios 4-9)
+#### (2) Payment Date is between 01/16/03 and 01/17/03 (Scenarios 4-9)
 
 Remaining Amount per  
 
@@ -241,7 +241,7 @@ Normal Application Rules
 
 (2) If payment falls in these ranges, all application entries can't be closed even with tolerance.  
 
-#### <a name="3-payment-date-is-between-011803-and-012003-scenarios-10-21"></a>(3) Payment Date is between 01/18/03 and 01/20/03 (Scenarios 10-21)
+#### (3) Payment Date is between 01/18/03 and 01/20/03 (Scenarios 10-21)
 
 Remaining Amount per  
 
@@ -253,7 +253,7 @@ Normal Application Rules
 
 (2) If payment falls in these ranges, all application entries can't be closed even with tolerance.  
 
-#### <a name="4-payment-date-is-between-012103-and-012203-scenarios-22-27"></a>(4) Payment Date is between 01/21/03 and 01/22/03 (Scenarios 22-27)
+#### (4) Payment Date is between 01/21/03 and 01/22/03 (Scenarios 22-27)
 
 Remaining Amount per  
 
@@ -265,7 +265,7 @@ Normal Application Rules
 
 (2) If payment falls in these ranges, all application entries can't be closed even with tolerance.  
 
-#### <a name="5-payment-date-is-after-012203-scenarios-28-30"></a>(5) Payment Date is after 01/22/03 (Scenarios 28-30)
+#### (5) Payment Date is after 01/22/03 (Scenarios 28-30)
 
 Remaining Amount per  
 
@@ -277,7 +277,7 @@ Normal Application Rules
 
 (2) If payment falls in these ranges, all application entries can't be closed even with tolerance.
 
-## <a name="see-also"></a>See also
+## See also
 
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  

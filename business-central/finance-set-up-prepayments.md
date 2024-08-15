@@ -10,7 +10,8 @@ ms.search.form: '314, 459, 460, 664'
 ms.date: 06/10/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-prepayments"></a>Set up prepayments
+
+# Set up prepayments
 
 You use prepayments when:
 
@@ -35,7 +36,7 @@ The prepaid amount belongs to the buyer until they receive the goods or services
 
 [!INCLUDE[local-func-setup-link](includes/local-func-setup-link.md)]
 
-## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>To add prepayment accounts to the general posting setup
+## To add prepayment accounts to the general posting setup  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Posting Setup**, and then choose the related link.
 2. On the **General Posting Setup** page, for the relevant lines, fill in the following fields:  
@@ -45,7 +46,7 @@ The prepaid amount belongs to the buyer until they receive the goods or services
 
 If you don't already have general ledger accounts for prepayments, you can open the **G/L Account List** page from the relevant account field.  
 
-## <a name="to-set-up-number-series-for-prepayment-documents"></a>To set up number series for prepayment documents
+## To set up number series for prepayment documents  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.
 2. On the **Sales & Receivables Setup** page, on the **Number Series** FastTab, fill in the following fields:  
@@ -62,25 +63,25 @@ If you don't already have general ledger accounts for prepayments, you can open 
 > [!NOTE]  
 > You can use the same number series for prepayment invoices and regular invoices, or you can use different number series. If you use different series, they must not overlap because there must not be any numbers that exist in both series.  
 
-## <a name="to-set-up-prepayment-percentages-for-items-customers-and-vendors"></a>To set up prepayment percentages for items, customers, and vendors
+## To set up prepayment percentages for items, customers, and vendors
 
 For an item, you can set up a default prepayment percentage for all customers, a specific customer, or a customer price group. If you don't want to apply the same prepayment percentage to all customers, you must specify which customers or which customer price groups the prepayment percentage applies to.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
-2. Select an item, and then choose the **Prepayment Percentages** action.  
+2. Select an item, and then choose the **Sales Prepayment Percentages** action.  
 3. On the **Sales Prepayment Percentages** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 For a customer or vendor, you can set up one default prepayment percentage for all items and all types of sales lines. You enter the percentage on the customer or vendor card. The following procedure shows how to specify a prepayment percentage for a customer, but similar steps apply to vendors.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Open the card for a customer.
-3. Fill in the **Prepayment %** field.
+3. On the **Payments** FastTab, fill in the **Prepayment %** field.
 4. Repeat the steps for other customers or for vendors.  
 
 > [!TIP]
 > You can also access the **Sales Prepayment Percentages** page from the customer or vendor card.
 
-### <a name="to-determine-which-prepayment-percentage-has-first-priority"></a>To determine which prepayment percentage has first priority
+### To determine which prepayment percentage has first priority  
 
 An order might have a prepayment percentage on the sales header, and a different percentage for the items on the lines. To determine which prepayment percentage applies to each sale line, [!INCLUDE [prod_short](includes/prod_short.md)] looks for and applies the first default percentage in the following order:  
 
@@ -91,7 +92,7 @@ An order might have a prepayment percentage on the sales header, and a different
 
 In other words, the prepayment percentage on the customer card only applies if no prepayment percentage is set for the item. However, if you change the contents of the **Prepayment Percentage** field on the sales or purchase header after you create the lines, the prepayment percentage on all of the lines update. The update makes it easy to create an order with a fixed prepayment percentage, regardless of the percentage set on items.
 
-## <a name="to-automatically-release-sales-orders-when-prepayments-are-applied"></a>To automatically release sales orders when prepayments are applied
+## To automatically release sales orders when prepayments are applied
 
 You can save time by setting up a job queue entry that will automatically release sales orders that require prepayment after payments are applied. Automating the process saves you the step of releasing the sales order.
 
@@ -104,7 +105,7 @@ You can save time by setting up a job queue entry that will automatically releas
 3. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Queue Entries**, and then choose the related link.
 4. Set up the **Upd. Pending Prepmt. Sales** job queue entry, for example, by using the settings on the **Recurrence** FastTab to schedule how often you want it to run. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
 
-## <a name="see-also"></a>See also
+## See also  
 
 [Invoicing Prepayments](finance-invoice-prepayments.md)  
 [Walkthrough: Setting Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

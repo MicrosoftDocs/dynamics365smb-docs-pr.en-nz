@@ -4,14 +4,14 @@ description: Describes how to add users to Business Central online or on-premise
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: 'access, right, security'
-ms.search.form: '119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173'
+ms.search.form: '119, 6300, 6301, 6302, 8930, 9800_Primary, 9807_Primary, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173, 774_Primary'
 ms.date: 05/03/2024
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="create-users-according-to-licenses"></a>Create users according to licences
+# Create users according to licences
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -26,7 +26,7 @@ For more information about the different types of licences and how licensing wor
 > [!NOTE]
 > The process of managing users and licences varies depending on whether [!INCLUDE[prod_short](includes/prod_short.md)] is deployed online or on-premises. For [!INCLUDE [prod_short](includes/prod_short.md)] online, you must add users from Microsoft 365. In on-premises deployments, you can create, edit, and delete users directly.  
 
-## <a name="manage-users-and-licenses-in-online-tenants"></a>Manage users and licences in online tenants
+## Manage users and licences in online tenants
 
 User accounts in [!INCLUDE[prod_short](includes/prod_short.md)] must be first created in the Microsoft 365 admin centre. These user accounts aren't exclusive to [!INCLUDE [prod_short](includes/prod_short.md)]. If you subscribe to other plans, they can be used to sign in to other applications, such as Power BI. For information about creating users in the Microsoft 365 admin centre, go to [Add users in Microsoft admin centre](/microsoft-365/admin/add-users/add-users).
 
@@ -61,7 +61,7 @@ Both approaches have their own advantages, and you can use them simultaneously. 
 
 For more information, see [Delegated administrator access to Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
-### <a name="configure-permissions-based-on-licenses"></a><a name="licensespermissions"></a>Configure permissions based on licences
+### <a name="licensespermissions"></a>Configure permissions based on licences
 
 [!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
 
@@ -91,7 +91,7 @@ If this default configuration isn't the right setup for a particular environment
 > [!IMPORTANT]
 > This customisation of permissions only takes effect for new users that you assign the relevant licence. Existing users are not updated. We recommend that you customise permissions before you start assigning users licences in the Microsoft 365 admin centre.
 
-### <a name="to-add-users-or-update-user-information-and-license-assignments-in-business-central"></a><a name="adduser"></a>To add users or update user information and licence assignments in Business Central
+### <a name="adduser"></a>To add users or update user information and licence assignments in Business Central
 
 After you add users or change user information in the Microsoft 365 Admin Centre, you can quickly import the user information to [!INCLUDE[prod_short](includes/prod_short.md)]. The import includes licence assignments.  
 
@@ -106,7 +106,7 @@ After you add users or change user information in the Microsoft 365 Admin Centre
 > Running the synchronisation of users from Microsoft 365 using the **Update Users from Microsoft 365** guide, requires the SUPER permission set.
 
 > [!NOTE]
-> The **Update Users from Microsoft 365** guide doesn't update users that are not assigned a licence, such as someone who is Global Admin and Dynamics 365 Admin. Those users will update the next time they sign in to the environment.
+> The **Update Users from Microsoft 365** guide doesn't update users that are not assigned a license, such as someone who is a [Dynamics 365 administrator](/entra/identity/role-based-access-control/permissions-reference#dynamics-365-administrator). Those users will update the next time they sign in to the environment.
 
 The next step for newly created users is to assign user groups and permissions. Go to [Assign Permissions to Users and Groups](ui-define-granular-permissions.md) for information. If you update a user with a licence change, [!INCLUDE [prod_short](includes/prod_short.md)] assigns users to the appropriate user group and updates their permission sets. For more information, see [To manage permissions through user groups](ui-define-granular-permissions.md).  
 
@@ -120,7 +120,7 @@ For more information about synchronising user information with Microsoft 365, go
 > [!NOTE]
 > If you use an external accountant to manage your books and financial reporting, you can invite them to your [!INCLUDE[prod_short](includes/prod_short.md)] so they can work with you on your fiscal data. For more information, see [Inviting Your External Accountant to Your Business Central](finance-accounting.md#inviteaccountant).
 
-### <a name="to-remove-a-users-access-to-the-system"></a>To remove a user's access to the system
+### To remove a user's access to the system
 
 You can remove a user's access to [!INCLUDE[prod_short](includes/prod_short.md)] online. All references to the user are kept. However, the user can't sign in and active sessions for the user are stopped.
 
@@ -130,7 +130,7 @@ You can remove a user's access to [!INCLUDE[prod_short](includes/prod_short.md)]
 
 You can also remove the licence from a user in the Microsoft 365 Admin Centre. The user is then unable to sign in. For more information, see [Remove licences from users](/microsoft-365/admin/manage/remove-licenses-from-users).
 
-### <a name="synchronization-with-microsoft-365"></a><a name="m365"></a>Synchronisation with Microsoft 365
+### <a name="m365"></a>Synchronisation with Microsoft 365
 
 When you assign a licence for [!INCLUDE[prod_short](includes/prod_short.md)] to a user in Microsoft 365, there are two ways to create the user in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -155,13 +155,13 @@ Learn about securing access to environments using security groups at [Manage acc
 
 Get an overview of accessing [!INCLUDE[prod_short](includes/prod_short.md)] in Teams with Microsoft 365 licences at [admin-access-with-m365-licence](admin-access-with-m365-license.md).
 
-## <a name="manage-users-and-licenses-in-on-premises-deployments"></a>Manage users and licences in on-premises deployments
+## Manage users and licences in on-premises deployments
 
 For on-premises deployments, the number of user licences is specified in the licence file (.bclicense or .flf). When an administrator or Microsoft partner uploads the licence file, they can specify which users can sign in to [!INCLUDE[prod_short](includes/prod_short.md)].
 
 For on-premises deployments, the administrator creates, edits, and deletes users directly from the **Users** page.
 
-### <a name="to-edit-or-delete-a-user-in-an-on-premises-deployment"></a>To edit or delete a user in an on-premises deployment
+### To edit or delete a user in an on-premises deployment
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
 2. Select the user that you want to edit, and then choose the **Edit** action.
@@ -173,11 +173,11 @@ For on-premises deployments, the administrator creates, edits, and deletes users
 >
 > For more information, see the [Authentication and Credential Types](/dynamics365/business-central/dev-itpro/administration/users-credential-types) in the administration Help for [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="analyze-user-status-by-license-type"></a>Analyse user status by licence type
+## Analyse user status by licence type
 
 You can use the **Data Analysis** feature to analyse data on the [Users](https://businesscentral.dynamics.com/?page=9800) page. You don't have to run a report or open another application, such as Excel. The feature provides an interactive and versatile way to calculate, summarise, and examine data. Instead of running reports using options and filters, you can add multiple tabs that represent different tasks or views on the data. Some examples are "Users by status" or "Users by licence type," or any other view you can imagine. To learn more about how to use the **Data Analysis** feature, go to [Analyse list and query data with analysis mode](analysis-mode.md).
 
-### <a name="user-analysis-scenarios"></a>User analysis scenarios
+### User analysis scenarios
 
 The following sections provide examples of scenarios where analysing the user list can help you monitor the status of your users.
 
@@ -186,7 +186,7 @@ The following sections provide examples of scenarios where analysing the user li
 | [Users by status](#example-users-by-status) | See a list of users based on their status (enabled/disabled). | [Users](https://businesscentral.dynamics.com/?page=9800) | **Status**, **User Name**, **Full Name**, **Authorisation email**, and **Licence Type**. |
 | [Users by licence type](#example-users-by-license-type) | See a list of users based on their licence type. | [Users](https://businesscentral.dynamics.com/?page=9800) | **Licence Type**, **Status**,  **User Name**, **Full Name**, and **Authorisation email**. |
 
-### <a name="example-users-by-status"></a>Example: Users by status
+### Example: Users by status
 
 To analyse users by status, follow these steps:
 
@@ -200,7 +200,7 @@ The following image shows the result of these steps.
 
 :::image type="content" source=" media/data-analysis-users.png" alt-text="Example of how to do data analysis on the Change Log Entries page (Who changed What data When)." lightbox="media/data-analysis-users.png":::
 
-### <a name="example-users-by-license-type"></a>Example: Users by licence type
+### Example: Users by licence type
 
 To analyse users by licence type, follow these steps:
 
@@ -210,7 +210,7 @@ To analyse users by licence type, follow these steps:
 1. Choose the **User Name**, **Full Name**, and **Authorisation email** fields.
 1. Rename your analysis tab to **Users by licence type**, or something that describes this analysis.
 
-## <a name="see-also"></a>See also
+## See also
 
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
 [Manage Profiles](admin-users-profiles-roles.md)  
