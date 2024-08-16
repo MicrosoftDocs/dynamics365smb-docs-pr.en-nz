@@ -11,11 +11,11 @@ ms.date: 08/12/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Register new items
+# <a name="register-new-items"></a>Register new items
 
 Items, among other products, are the basis of your business, the goods, or services that you trade in. Each item must be registered as an item card.
 
-## To create a new item card
+## <a name="to-create-a-new-item-card"></a>To create a new item card
 
 The following video shows how to set up an item on the Item Card page. However, you can also set up new items by copying existing ones. To learn more, go to [Copy Existing Items to Create New Items](inventory-how-copy-items.md).  
 
@@ -23,11 +23,11 @@ The following video shows how to set up an item on the Item Card page. However, 
 
 [!INCLUDE[create_new_item](includes/create_new_item.md)]
 
-## Use item templates
+## <a name="use-item-templates"></a>Use item templates
 
 To reuse settings for different types of items when you create new items, you can save items as item templates. Item templates help speed-up the process of adding new items, and increase consistency in your item data. When you register a new item, a page appears that lets you choose a template. After you choose a template, its settings are filled in for you on the item you're creating. If you only have one item template, new items always use that template. 
 
-### Save an item card as an item template
+### <a name="save-an-item-card-as-an-item-template"></a>Save an item card as an item template
 
 1. On the **Item Card** page, choose the **Save as Template** action. The **Item Template** page shows the item card as a template.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -37,7 +37,7 @@ To reuse settings for different types of items when you create new items, you ca
 
 The item template is added to the list of item templates, so that you can use it to create new item cards.
 
-## Types of items
+## <a name="types-of-items"></a>Types of items
 
 In the **Type** field on the **Item Card** page, you can select what the item is used for in your business, which affects the degree to which you can manage the item in inventory.
 
@@ -50,24 +50,24 @@ To learn more about these types of items, go to [About Item Types](inventory-abo
 > [!TIP]
 > There are also catalogue items, which are similar to non-inventory items in that they're items that you offer to customers but don't manage until you sell them. To learn more, go to [Work with Catalogue Items](inventory-how-work-nonstock-items.md).  
 
-## Inventory costing
+## <a name="inventory-costing"></a>Inventory costing
 
 In the **Costing Method** field, you set up how the item's unit cost is calculated by making assumptions about the flow of physical items through your company. Five costing methods are available, depending on the type of item. To learn more about costing, go to [Design Details: Costing Methods](design-details-costing-methods.md).
 
 > [!NOTE]
 > If you select **Average**, the item's unit cost is calculated as the average unit cost at each point in time after a purchase. Inventory is valuated with the assumption that all inventories are sold simultaneously. With this setting, you can choose the **Unit Cost** field on the **Average Cost Calc. Overview** page to view the transactions that were used to calculate the average cost.
 
-## Categories, attributes, and variants
+## <a name="categories-attributes-and-variants"></a>Categories, attributes, and variants
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
 Learn more about variants at [Manage Product Variants](inventory-item-variants.md).  
 
-## Set up item substitutions
+## <a name="set-up-item-substitutions"></a>Set up item substitutions
 
 You can set up items to have replacements, such as other items that can be used in place of the original item.
 
-### To make an item substitution
+### <a name="to-make-an-item-substitution"></a>To make an item substitution
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 2. Find the relevant item, and then choose the **No.** to open the Item Card.  
@@ -80,11 +80,11 @@ When the requested quantity exceeds the quantity that is available in inventory,
 > [!NOTE]  
 > Be aware that item substitutions will not automatically cause an item to be replaced by another item, for example when creating a sales order or in a BOM. Instead, you will be alerted to the fact that a substitution is available to you.
 
-## Prices and discounts
+## <a name="prices-and-discounts"></a>Prices and discounts
 
 You can use special prices or discounts that you grant for the item based on certain criteria. For example, criteria include the customer, minimum order quantity, or ending date. You set up special prices by choosing the **Set Special Prices** or **Set Special Discounts** actions. Each row on, for example, the **Sales Prices** page represents a special price. Each column represents a criterion that must apply to grant a customer the special price that you enter in the **Unit Price** field on the **Sales Prices** page. To learn more about pricing, go to [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).
 
-## Replenishment
+## <a name="replenishment"></a>Replenishment
 
 You can specify how items are supplied:
 
@@ -93,15 +93,15 @@ You can specify how items are supplied:
 
 There are other settings that compliment these selections.
 
-### Include items in bills of materials
+### <a name="include-items-in-bills-of-materials"></a>Include items in bills of materials
 
 You can structure hierarchies that have a main item with underlying component items in assembly and production bills of materials (BOM). To learn more about BOMs, go to [Work with Bills of Material](inventory-how-work-BOMs.md).
 
-### Items used in production orders
+### <a name="items-used-in-production-orders"></a>Items used in production orders
 
 To register items that you use in production orders, specify the replenishment system as **Prod. order** on the **Replenishment** FastTab. For more information, see [About Production Orders](production-about-production-orders.md).  
 
-### Primary and alternate vendors
+### <a name="primary-and-alternate-vendors"></a>Primary and alternate vendors
 
 If you purchase the same item from more than one vendor, you can connect those vendors to the item. Use the **Vendors** action on the **Item Card** page to open the **Item Vendor Catalogue** page. 
 
@@ -116,23 +116,23 @@ The vendors appear on the **Item Vendor Catalogue** page, which you open from th
 
 If you purchase the same item from more than one vendor additionally you can set up prices and discounts discounts.  For more information, see [Record Special Purchase Prices and Discounts](purchasing-how-record-purchase-price-discount-payment-agreements.md).
 
-## Manage inventory in warehouses
+## <a name="manage-inventory-in-warehouses"></a>Manage inventory in warehouses
 
 When you register a new item, you see fields that are related to warehouse management, especially on the **Warehouse** FastTab. If your organisation doesn't use the warehouse management capabilities in [!INCLUDE [prod_short](includes/prod_short.md)], then you can ignore those fields.  
 
 If your organisation later sets up warehouse management, we recommend that you make sure that each existing item has the right information in the various fields. This way, the warehouse processes can run as expected. The information can includes fields such as **Warehouse Class Code** or **Put-away Template Code**. For more information, see [Setting Up Warehouse Management](warehouse-setup-warehouse.md).  
 
-## Planning
+## <a name="planning"></a>Planning
 
 When your company uses the supply planning processes in [!INCLUDE [prod_short](includes/prod_short.md)], you must fill in the relevant fields on the **Planning** FastTab. For an introduction to the planning area, see [Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md).  
 
 For examples of how you can use the fields on the **Planning** FastTab, see [Setup Best Practices: Planning Parameters](setup-best-practices-planning-parameters.md).  
 
-## Delete item cards
+## <a name="delete-item-cards"></a>Delete item cards
 
 If you post a transaction for an item, you can't delete the card because the ledger entries might be needed for inventory valuation or auditing. To delete item cards with ledger entries, contact to Microsoft partner to do so through code.  
 
-## See also
+## <a name="see-also"></a>See also
 
 [Inventory](inventory-manage-inventory.md)    
 [Set Up Units of Measure](inventory-how-setup-units-of-measure.md)    

@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Managing inventory costs
+# <a name="managing-inventory-costs"></a>Managing inventory costs
 Cost management, also referred to as 'costing,' is concerned with recording and reporting business operating costs. It includes the reporting of manufacturing costs and inventory costs, that is, the value of items.   
 
 Central principles to understand are that costing methods define how items are valued when they leave inventory, that cost adjustment updates the cost of goods sold with related purchase costs posted after the sale, and that inventory values must be posted to dedicated G/L accounts at regular intervals.
@@ -34,7 +34,7 @@ The following table describes a sequence of tasks, with links to the articles th
 |Perform period-end control and reporting tasks, such as calculate the value of inventory and post costs to the general ledger.|[Reporting Costs and Reconciling with the General Ledger](/dynamics365/business-central/finance-how-to-post-inventory-costs-to-the-general-ledger)|
 |Learn how you can use the job queue to move the tasks for adjusting inventory cost or reconciling it with the general ledger to the background.|[Adjust and Reconcile Inventory Cost with General Ledger with Job Queue](finance-manage-inventory-costs.md)|
 
-## See also  
+## <a name="see-also"></a>See also
  [Finance](finance.md)  
  [Inventory](inventory-manage-inventory.md)   
  [Sales](sales-manage-sales.md)   

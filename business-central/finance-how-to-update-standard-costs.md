@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Update standard costs
+# <a name="update-standard-costs"></a>Update standard costs
 You must periodically update the standard costs of components and roll the new costs up to the parent item. The process typically consists of the following four steps:  
 
 1.  Update costs at the component and capacity levels. For more information, see the **Suggest Item Standard Cost** batch job.  
@@ -21,7 +21,7 @@ You must periodically update the standard costs of components and roll the new c
 
 For more information, see [About Calculating Standard Cost](finance-about-calculating-standard-cost.md).
   
-## To update standard costs
+## <a name="to-update-standard-costs"></a>To update standard costs
 
 1.  Run the **Adjust Cost-Item Entries** batch job. To start the batch job, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Adjust Cost - Item Entries**, and then choose the related link. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Review the results and make changes as necessary.  
 2.  Run the **Post Inventory Cost to G/L** batch job. To start the batch job, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Post Inventory Cost to G/L**, and then choose the related link. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Review the results and make changes as necessary.  
@@ -36,7 +36,7 @@ For more information, see [About Calculating Standard Cost](finance-about-calcul
     7.  Run the **Implement Standard Cost Changes** batch job.  
 4.  Review and post the **Item Revaluation Journals** page, which has been populated with entries from the previous steps in this process.  
 
-## See also
+## <a name="see-also"></a>See also
 
  [About Calculating Standard Cost](finance-about-calculating-standard-cost.md)   
  [Managing Inventory Costs](finance-manage-inventory-costs.md)   

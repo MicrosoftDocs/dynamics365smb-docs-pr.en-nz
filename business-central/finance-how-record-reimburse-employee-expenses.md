@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Record and reimburse employees' expenses
+# <a name="record-and-reimburse-employees-expenses"></a>Record and reimburse employees' expenses
 
 [!INCLUDE[prod_short](includes/prod_short.md)] supports transactions for employees in a similar way as for vendors. Accordingly, employee posting groups exist to make sure that employee ledger entries are posted to the relevant accounts in the general ledger.
 
@@ -29,7 +29,7 @@ You can use general journals for employee accounts to register employee expenses
 
 To ensure that the exchange rate for the amounts is up to date, you can adjust employee balances when you run the currency exchange rate batch job. If you want to use the exchange rate table, but settle employee balances in your local currency, you can exclude employee accounts when you adjust exchange rates.
 
-## To record an employee's expense
+## <a name="to-record-an-employees-expense"></a>To record an employee's expense
 
 You post employees' expenses on the **General Journal** page.
 
@@ -45,7 +45,7 @@ You post employees' expenses on the **General Journal** page.
     > If you want to enter multiple expense lines above one balance-account line for the employee's bank account, then select the **Suggest Balancing Amount** check box on the line for your batch on the **General Journal Batches** page. Then the **Amount** field on the balance-account line is automatically prefilled with the value that is required to balance the expenses.
 5. Choose the **Post** action to record the expenses on the employee's account.
 
-## To reimburse an employee
+## <a name="to-reimburse-an-employee"></a>To reimburse an employee
 
 You reimburse employees by posting payments to their bank account on the **Payment Journal** page.  
 
@@ -55,11 +55,11 @@ You reimburse employees by posting payments to their bank account on the **Payme
 4. Alternatively, choose the **Suggest Employee Payment** action to automatically insert journal lines for pending employee reimbursements.
 5. Choose the **Post** action to register the reimbursement.  
 
-## To reconcile reimbursements with employee ledger entries
+## <a name="to-reconcile-reimbursements-with-employee-ledger-entries"></a>To reconcile reimbursements with employee ledger entries
 
 You apply employee payments to their related open employee ledger entries in the same way as you do for vendor payments, for example on the **Payment Reconciliation Journals** page, based on the related bank statement entries. For more information, see [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md). Alternatively, you can apply manually on the **Employee Ledger Entries** page. For more information, see the related [Reconcile Vendor Payments with the Payment Journal or from Vendor Ledger Entries](payables-how-apply-purchase-transactions-manually.md).  
 
-## See also
+## <a name="see-also"></a>See also
 
 [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)    
 [Work with General Journals](ui-work-general-journals.md)    

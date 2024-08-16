@@ -11,13 +11,13 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Delete cost budget entries
+# <a name="delete-cost-budget-entries"></a>Delete cost budget entries
 
 You use the **Delete Cost Budget Entries** batch job to cancel cost budget entries from the cost budget register.  
 
 To prevent any gaps in the cost budget entries and cost register entries, you can't delete a single entry or a batch of entries in the middle of the list of register entries.  
 
-## To delete a cost budget entry  
+## <a name="to-delete-a-cost-budget-entry"></a>To delete a cost budget entry
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete Cost Budget Entries**, and then choose the related link.  
 
@@ -29,7 +29,7 @@ To prevent any gaps in the cost budget entries and cost register entries, you ca
 > [!NOTE]  
 > To avoid an accidental deletion of cost budget entries, you can close register entries by marking the lines as **Closed** in the **Closed** field on the **Cost Budget Registers** page.  
 
-## See also
+## <a name="see-also"></a>See also
 
 [Accounting for Costs](finance-manage-cost-accounting.md)    
 [Creating Cost Budgets](finance-create-cost-budgets.md)    
