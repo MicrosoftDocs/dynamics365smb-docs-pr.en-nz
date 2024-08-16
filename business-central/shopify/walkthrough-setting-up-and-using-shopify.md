@@ -1,7 +1,7 @@
 ---
 title: Set up and use the Shopify Connector
 description: Various integration scenarios for demonstrating workflow between Shopify and Business Central
-ms.date: 06/21/2022
+ms.date: 08/01/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
 ms.search.form: '30101, 30102, 30106, 30107, 30113, 30115, 30126, 30156, 30157'
@@ -10,13 +10,13 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-set-up-and-use-the-shopify-connector"></a>Walkthrough: Set up and use the Shopify Connector
+# Walkthrough: Set up and use the Shopify Connector
 
 This section demonstrates some typical scenarios and takes you through the steps to test or train users on the workflow of the integrated [!INCLUDE[prod_short](../includes/prod_short.md)] and the Shopify store.
 
-## <a name="prerequisites"></a>Prerequisites
+## Prerequisites 
 
-### <a name="shopify"></a>Shopify
+### Shopify
 
 You must have:
 
@@ -25,13 +25,13 @@ You must have:
 
 Learn more about how to create Shopify trials and recommended settings at [Create and Set Up a Shopify Account](shopify-account.md).
 
-### <a name="business-central"></a>Business Central
+### Business Central
 
 You must have a [!INCLUDE[prod_short](../includes/prod_short.md)] account. 
 
 For example, you can create a demo account or start a trial. Learn more at [Prepare Demonstration Environments of Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/administration/demo-environment) and [Sign up for the trial](../trial-signup.md). 
 
-## <a name="connect-business-central-to-the-shopify-shop"></a>Connect Business Central to the Shopify shop
+## Connect Business Central to the Shopify shop
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)], do the following:
 
@@ -62,13 +62,13 @@ Configure location mapping:
 3. In the **Location Filter**, enter `''|EAST|MAIN`.
 4. Select *Projected Available Balance at Today* in the **Stock Calculation** field to enable an inventory sync for a selected Shopify location.
 
-## <a name="walkthrough-start-selling-products-online"></a>Walkthrough: Start selling products online
+## Walkthrough: Start selling products online
 
-### <a name="scenario"></a>Scenario
+### Scenario
 
 Let's say that you want to try Shopify as an online store without spending much time on setup, especially because you already maintain your items in [!INCLUDE[prod_short](../includes/prod_short.md)] properly. After you launch your Shopify online store, you immediately get new customers who are happy with your shop and their buying experience. So, they decide to leave tips at checkout.
 
-### <a name="steps"></a>Steps
+### Steps
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)], follow these steps:
 
@@ -78,7 +78,7 @@ In [!INCLUDE[prod_short](../includes/prod_short.md)], follow these steps:
 4. Set the filter `CHAIR` on the **Item Category Code** field .
 5. Turn on the **Sync Product Images** toggle.
 6. Turn on the **Sync Inventory** toggle.
-7. Select **OK** and wait until initial synchronisation of items, prices, images and inventory is completed.
+7. Select **OK** and wait until initial synchronization of items, prices, images, and inventory is completed.
 
 In the **Shopify online store**:
 > [!Tip]  
@@ -115,7 +115,7 @@ The imported order is ready for processing.
 
 1. Select the imported order to open the **Shopify Order** window.
 2. Notice that the new customer and sales orders are created.
-3. Explore the **Risk** and **Shipping Cost** actions.
+3. Explore the **Risks** and **Shipping Cost** actions.
 4. Select **Sales Order** to open the **Sales Order** window. Sales order is a demand that, if necessary, can be covered with assembly, production, or by purchase with the help of the planning engine. It also supports various warehouse handling processes with complete separation of duties.
 6. In the **Agent** field, enter `DHL`. Reopen order if needed by choosing **Reopen** action.
 7. In the **Package Tracking No.**, enter `123456789`.
@@ -128,13 +128,13 @@ Now physical and financial data is registered in [!INCLUDE[prod_short](../includ
 
 In **Shopify Admin**, notice that the order is now marked as *Fulfilled*. You can also review shipment details and see the tracking URL there. If you run **Sync Orders From Shopify** again, the order will be archived in both systems.
 
-## <a name="walkthrough-add-your-customers-to-your-new-online-store"></a>Walkthrough: Add your customers to your new online store
+## Walkthrough: Add your customers to your new online store
 
-### <a name="scenario-1"></a>Scenario
+### Scenario
 
 After a successful quick launch of your new online store, you want your current customers to visit it and start placing orders. Depending on your Shopify plan and process you can try B2B and DTC flows.
 
-### <a name="dtc-steps"></a>DTC Steps
+### DTC Steps
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)], do the following:
 
@@ -144,9 +144,9 @@ In [!INCLUDE[prod_short](../includes/prod_short.md)], do the following:
 4. Set the filter `20000` on the **No.** field.
 5. Select **OK** and wait until initial synchronisation of customers is completed.
 
-In **Shopify Admin**, notice that the customer was imported. Open the customers and notice that the first and last names of the customer are coming from the **Contact Name** field of the **Customer Card**. The company name can be found in the default address, linked to the customer. If you use *Classic customer accounts*, then you can select **Send account invite** to invite the customer. With *New customer accounts* a password isn't required for customers to log in, instead Shopify lets your customers log in using a one-time 6-digit verification code sent by email. 
+In **Shopify Admin**, notice that the customer was imported. Open the customers and notice that the first and last names of the customer are coming from the **Contact Name** field of the **Customer Card**. The company name can be found in the default address, linked to the customer. If you use *Classic customer accounts*, then you can select **Send account invite** to invite the customer. With *New customer accounts* a password isn't required for customers to sign in, instead Shopify lets your customers sign in using a one-time 6-digit verification code sent by email. 
 
-### <a name="b2b-steps"></a>B2B Steps
+### B2B steps
 
 [!INCLUDE [shopify-preview](../includes/shopify-preview.md)]
 
@@ -154,19 +154,19 @@ In [!INCLUDE[prod_short](../includes/prod_short.md)], do the following:
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Companies**, and select the related link.
 2. Select **Add Company**.
-3. In the **Shop Code** field, enter `DEMO1`.
+3. In the Shop **Code** field, enter `DEMO1`.
 4. Set the filter `30000` on the **No.** field.
 5. Select **OK** and wait until initial synchronisation of customers is completed.
 
-In **Shopify Admin**, notice that both the Company and the customer was imported. Open the customers and notice the Company fact box with link to Company, location and assigned permissions. Select **[...]** in the **Copmany fact box, then select **Send B2B access email** to invite the customer.
+In **Shopify Admin**, notice that both the Company and the customer were imported. Open the customers and notice the Company fact box with link to Company, location and assigned permissions. Select **[...]** in the **Company fact box, then select **Send B2B access email** to invite the customer.
 
-## <a name="walkthrough-fine-tuning-of-item-management"></a>Walkthrough: Fine-tuning of item management
+## Walkthrough: Fine-tuning of item management
 
-### <a name="scenario-2"></a>Scenario
+### Scenario 
 
 You'd like to add more flexibility and control to your processes around items management. You want to improve product descriptions and would like to add more review steps before products become available to all customers.
 
-### <a name="steps-1"></a>Steps
+### Steps
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)], do the following:
 
@@ -179,7 +179,7 @@ Prepare data.
 5. Select item *1896-S, Athens Desk* and then follow these steps:
 
 6. Select the **Variants** action and then add two variants: `PREMIUM, Athens Desk, Premium edition` and `ESSENTIAL, Athens Desk, Essential edition`.
-7. Select the **Marketing Text** action and use the **Draft with Copilot**  to get creative and engaging text. If marketing text suggestion is not enabled, just enter: '**Simple stylish design** blends with any ensemble. *Available in two editions.*'. 
+7. Select the **Marketing Text** action and use the **Draft with Copilot**  to get creative and engaging text. If marketing text suggestion isn't enabled, just enter: '**Simple stylish design** blends with any ensemble. *Available in two editions.*'. 
 8. Select the **Sales Prices** action and add new prices as shown in the following table:
 
    |Line|Sales Type|Sales Code|Type|Code|Variant Code<br>(add the field via personalisation)|Unit Price|
@@ -228,7 +228,7 @@ Run the synchronisation.
 5. Set the filter *TABLE|DESK* on the **Item Category Code** field.
 6. Turn on the **Sync Product Images** toggle.
 7. Turn on the **Sync Inventory** toggle.
-8. Select **OK** and wait until initial synchronisation of items, prices, images and inventory is completed.
+8. Select **OK** and wait until initial synchronization of items, prices, images, and inventory is completed.
 
 Products are added. Notice that the status is set to *Draft*, and therefore items aren't visible in the Shopify online store.
 
@@ -251,7 +251,7 @@ Notice that Inventory for ANTWERP Conference Table is 100, because we configured
 
 In the **Shopify online store**, open the product catalogue and find the *ATHENS Desk* product. Notice that different options are available. For different options, prices are different. Pay attention to discount information.
 
-### <a name="additional-steps-for-b2b"></a>Additional steps for B2B
+### Additional steps for B2B
 
 [!INCLUDE [shopify-preview](../includes/shopify-preview.md)]
 
@@ -296,13 +296,13 @@ In **Shopify Admin**, explore prices for *B2B* catalogue.
 
 In the **Shopify online store**, open the product catalogue and find the *ATHENS Desk* product. Note prices are discount information.
 
-## <a name="walkthrough-check-out-and-order-synchronization-for-individual-buyer-and-company-representative"></a>Walkthrough: Check out and order synchronisation for Individual buyer and Company representative
+## Walkthrough: Check out and order synchronisation for Individual buyer and Company representative
 This is a continuation of [Walkthrough: Start selling products online](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online). You can also try with your own data—for example, your Shopify store or sandbox.
 
 Individual buyer
 
 1. In the **Shopify online store**. Choose **Account** icon. Enter email you have access to.
-2. Log in using a one-time 6-digit verification code sent by email you entered.
+2. Sign in using a one-time 6-digit verification code sent by email you entered.
 3. Explore product catalogue, you should be able to see all products with retail prices.
 4. Select Essential variant and select **Buy it now** and proceed to checkout.
 5. Fill in the **First name** and **Last name** fields.
@@ -321,14 +321,14 @@ Company representative
 1. In **Shopify Admin**.
 2. Select **Customers** and then **Companies** in the sidebar of **Shopify admin**.
 3. Open *School of Fine Art* entry.
-4. Choose **[...]** in the **Shcool of Fine Art** faxt box and then **Edit payment terms** and select *Due on fulfillment*.
-5. Choose **[...]** in the **Customers** faxt box and then **Add customer** and add one with email you used to log in to the store earlier.
+4. Choose **[...]** in the **School of Fine Art** fact box and then **Edit payment terms** and select *Due on fulfillment*.
+5. Choose **[...]** in the **Customers** fact box and then **Add customer** and add one with email you used to sign in to the store earlier.
 6. In the **Shopify online store**. Choose **Account** icon. Enter email you have access to.
-7. Log in using a one-time 6-digit verification code sent by email you entered.
+7. Sign in using a one-time 6-digit verification code sent by email you entered.
 8. Explore product catalogue, you should be able to see only product added to the *B2B* catalogue with retail special prices.
 9. Select Essential variant and select **Buy it now** and proceed to checkout.
 10. Notice that account, Ship to, payment method are populated.
-11. Fill in the **PO Number** fied with `PO-12345`.
+11. Fill in the **PO Number** field with `PO-12345`.
 12. Select **Submit order**.
  
 In [!INCLUDE[prod_short](../includes/prod_short.md)], do the next steps:
@@ -340,23 +340,23 @@ In [!INCLUDE[prod_short](../includes/prod_short.md)], do the next steps:
 The imported order is ready for processing.
 
 1. Select the imported order to open the **Shopify Order** window.
-2. Notice that the though both orders were submitted by same person, they are linked to two different customers. 
+2. Notice that both the orders were submitted by same person, they're linked to two different customers. 
 3. In the order submitted on behalf of company you can see value in **PO Number** field, which is also transferred to the **External Document No.** field of created sales document.
-4. Because we configured B2B Company to handle payments outside of Shopify the **Financial Status** is set to *Pending*. Once you received paiment, select the **Mark as Paid** action. Financial status will be updated in Shopify. 
+4. Because we configured B2B Company to handle payments outside of Shopify the **Financial Status** is set to *Pending*. Once you received the payment, select the **Mark as Paid** action. Financial status will be updated in Shopify. 
 
-## <a name="walkthrough-import-items-customers-companies-from-shopify"></a>Walkthrough: Import items, customers, companies from Shopify
+## Walkthrough: Import items, customers, companies from Shopify
 
-### <a name="scenario-3"></a>Scenario
+### Scenario 
 
 You already have a successful online store and would like to start using [!INCLUDE[prod_short](../includes/prod_short.md)] as business management software. You would like to import as much data from Shopify as possible. 
 
-### <a name="steps-2"></a>Steps
+### Steps
 
 This is a continuation of [Walkthrough: Start selling products online](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online) and [Walkthrough: Add your customers to your new online store](walkthrough-setting-up-and-using-shopify.md#walkthrough-add-your-customers-to-your-new-online-store). You can also try with your own data—for example, your Shopify store or sandbox.
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)], follow the steps listed next.
 
-#### <a name="prepare-data"></a>Prepare data
+#### Prepare data
 
 1. Switch to a free 30-day trial without sample data. For more information, see [Add your own data to an empty trial](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions#add-your-own-data-to-an-empty-trial-company).
 2. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and then select the related link.
@@ -374,12 +374,12 @@ Configure the Shopify shop as described here:
 5. Select *From Shopify* in the **Sync Item Images** field.
 6. Select *Item No.+ Variant Code* in the **SKU Mapping** field.
 7. Select *All Customers* in **Customer Import from Shopify**.
-8. Enable the **Auto Create Unknown Customer** toggle.
+8. Enable the **Auto Create Unknown Customers** toggle.
 9. Fill in the **Customer/Company Template Code** field with the appropriate template.
 10. Select *All Customers* in **Company Import from Shopify**.
 11. Enable the **Auto Create Unknown Company** toggle.
 
-#### <a name="run-the-synchronization"></a>Run the synchronisation
+#### Run the synchronisation
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and select the related link.
 2. Select the *DEMO2* shop for which you want to synchronise data to open the **Shopify Shop Card** page.
@@ -388,7 +388,7 @@ Configure the Shopify shop as described here:
 5. Select **Sync Customers**.
 6. Select **Sync Companies**
 
-### <a name="results"></a>Results
+### Results
 
 * Shopify Products are imported. To verify, select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Products**, and select the related link.
 * Items with images are created. To verify, select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item**, and select the related link.
@@ -397,6 +397,6 @@ Configure the Shopify shop as described here:
 * Customers are created. To verify, select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and select the related link.
 
 
-## <a name="see-also"></a>See also
+## See also
 
 [Get Started with the Shopify Connector](get-started.md)  

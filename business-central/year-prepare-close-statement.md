@@ -5,12 +5,13 @@ author: jswymer
 ms.topic: overview
 ms.devlang: al
 ms.search.keywords: 'year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI'
-ms.date: 07/05/2024
+ms.date: 08/05/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# <a name="preparing-closing-statements"></a>Preparing closing statements
+
+# Preparing closing statements
 
 [!INCLUDE [prod_short](includes/prod_short.md)] offers standard reports that can help you gather the information you need to prepare your company's closing statements. The following table describes the reports.  
 
@@ -26,11 +27,11 @@ ms.reviewer: jswymer
 
 To find a report, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, type the name as it appears in the table, and then choose the related link.
 
-## <a name="see-also"></a>See also
+## See also
 
-[Closing Years and Periods](year-close-years-periods.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Business Intelligence](bi.md)
+[Closing Years and Periods](year-close-years-periods.md)    
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
+[Business Intelligence](bi.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

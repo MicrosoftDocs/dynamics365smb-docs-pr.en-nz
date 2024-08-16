@@ -7,20 +7,21 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'year closing, close accounting period, close fiscal year, bank account detailed trial balance'
 ms.search.form: '100,'
-ms.date: 05/07/2024
+ms.date: 08/02/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="closing-years-and-periods"></a>Closing years and periods
 
-At the end of a fiscal year, there are a number of administrative tasks you must perform, such as making sure all documents and journals are posted, ensuring currency data are up to date, closing the books, and more. The actual tasks will depend your company.
+# Closing years and periods
+
+At the end of a fiscal year, there are many administrative tasks you must perform, such as making sure all documents and journals are posted, ensuring currency data are up to date, closing the books, and more. The actual tasks will depend your company.
 
 The following table provides an overview of tasks that you typically perform to close a year and period.
 
 | To | See |
 | --- | --- |
 | Define your fiscal year and divide it into time periods for reporting financial performance. | [Work with Accounting Periods and Financial Years](finance-accounting-periods-and-fiscal-years.md)|
-| Specify system-wide and user-specific posting date ranges. Depending on your business needs, you may want to restrict user posting date ranges at the start of the period-end process or after it. |[Specify Posting Periods](finance-how-specify-posting-periods.md) |
+| Specify system-wide and user-specific posting date ranges. Depending on your business needs, you might want to restrict user posting date ranges at the start of the period-end process or after it. |[Specify Posting Periods](finance-how-specify-posting-periods.md) |
 | Prepare to report goods and services tax (GST) amounts collected for sales to the tax authority's web service. |[Report VAT to Tax Authorities](finance-how-report-vat.md)|
 | Get an overview of activities commonly performed at the end of a period, such as posting all documents and journals or running financial reports. |[Closing Periods](year-how-complete-period-end-processes.md) |
 | Update currency exchange rates and adjust the exchange rates of posted customer, vendor, and bank account entries. |[Update Currency Exchange Rates](finance-how-update-currencies.md) |
@@ -29,7 +30,7 @@ The following table provides an overview of tasks that you typically perform to 
 | Print reports that can assist you in creating financial statements. |[Preparing Closing Statements](year-prepare-close-statement.md) |
 | Close accounting periods and fiscal year, transfer income statement balances to balance sheet accounts, and post the year-end closing entry. |[Closing Books](year-close-books.md) |
 
-## <a name="see-also"></a>See also
+## See also
 
 [Work with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

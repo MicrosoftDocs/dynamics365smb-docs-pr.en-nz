@@ -7,16 +7,16 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: null
 ms.search.form: null
-ms.date: 03/08/2024
+ms.date: 07/30/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="track-item-cost-adjustments"></a>Track item cost adjustments
+# Track item cost adjustments
 
 It's important to keep item costs accurate and shorten the time between when you post an entry and when the general ledger reflects its cost. You can track the performance of the cost adjustments for individual adjustment runs and items. If errors happen, you can identify the problematic items and make corrections. For example, you can exclude the items from calculations to ensure adjustments aren't interrupted for other items. You can adjust costs for individual items, or create batches of items and adjust them all at the same time.
 
-## <a name="start-tracking-cost-adjustments"></a>Start tracking cost adjustments
+## Start tracking cost adjustments
 
 It's easy to get started. On the **Inventory Setup** page, the **Cost Adjustment Logging** field offers a few options:
 
@@ -29,11 +29,11 @@ It's easy to get started. On the **Inventory Setup** page, the **Cost Adjustment
 
 You must also set up the **Post Inventory Cost to G/L (1002)** job queue entry. This job queue entry automatically adjusts costs according to a schedule. To learn more about job queue entries, go to [Use job queues to schedule tasks](admin-job-queues-schedule-tasks.md).
 
-## <a name="manage-cost-adjustments"></a>Manage cost adjustments
+## Manage cost adjustments
 
 Use the **Inventory Cost Adjustment** page to manage and monitor the cost adjustment process. This page displays items along with their costing parameters and cost adjustment status. You can filter the list to focus on items that require adjustment or that are excluded from the cost adjustment process.
 
-### <a name="about-item-batches"></a>About item batches
+### About item batches
 
 You can run cost adjustment for several items by grouping them in batches. Batches make it easy to adjust some items separately, for example, because they take longer to adjust. Batches can also help identify items that have issues.
 
@@ -54,7 +54,7 @@ When a run for a batch finishes, the batch has one of the following status on th
 
 > [TIP!] Each batch runs in a separate session. To monitor progress, use the **Refresh** action.
 
-### <a name="run-cost-adjustment"></a>Run cost adjustment
+### Run cost adjustment
 
 Use the **Inventory Cost Adjustment** page to make adjustments.
 
@@ -69,7 +69,7 @@ Use the **Inventory Cost Adjustment** page to make adjustments.
     
     To learn more about batches, go to [About item batches](#about-item-batches).
 
-### <a name="explore-item-details"></a>Explore item details
+### Explore item details
 
 Use the **Item** menu to access information about cost adjustments for a selected item.
 
@@ -78,34 +78,34 @@ Use the **Item** menu to access information about cost adjustments for a selecte
 * **Cost Adjmt. Entry Points**: Open the **Avg. Cost Adjmt. Entry Point** page, which you primarily use to calculate average cost. The page displays combinations of items, locations, variants, and valuation dates for which cost adjustments are, or must be, run.
 * **Cost Adjmt. Orders**: Open the **Inventory Adjmt. Entry (Order)** page, where you adjust production and assembly orders. It shows the orders are adjusted, or require adjustment.
 
-### <a name="view-the-outcome"></a>View the outcome
+### View the outcome
 
 Use the **Log per** menu to view the outcome of cost adjustments:
 
 * **Run**: Show cost adjustment logs for each run. The log includes data about the item filter, status (Success/Failed/Timed out), start and end date/time, duration, and the cost differences produced by the run.
 * **Item**: Show detailed information about the adjustment process for the selected item.
 
-### <a name="include-or-exclude-items-from-adjustments"></a>Include or exclude items from adjustments
+### Include or exclude items from adjustments
 
 If one or more items fail, you can exclude the items from the adjustment run, and then include them in later runs. On the **Functions** menu, choose one of the following:
 
-* **Exclude Item from Adjustment** and **Include Item in Adjustment**: Temporarily disable and then re-enable cost adjustment for a selected item. Cost adjustment continues to keep costs accurate for other items while you investigate an issue with a specific item.
+* **Exclude item from adjustment** and **Include item in adjustment**: Temporarily disable and then re-enable cost adjustment for a selected item. Cost adjustment continues to keep costs accurate for other items while you investigate an issue with a specific item.
 
-## <a name="post-adjusted-costs-to-the-general-ledger"></a>Post adjusted costs to the general ledger
+## Post adjusted costs to the general ledger
 
 Typically, new value entries are posted to the general ledger according to the schedule for the **Post Inventory Cost to G/L (1002)** job queue entry. However, you can post adjustments to the general ledger immediately from the **Inventory Cost Adjustment** page. On the **Functions** menu, choose **Post Inventory Cost to G/L**.
 
-## <a name="troubleshoot-cost-adjustments"></a>Troubleshoot cost adjustments
+## Troubleshoot cost adjustments
 
 Use the following options on the **Diagnostics** menu to troubleshoot cost adjustment runs.
 
-* **Export Item Data**: Export item-related data to a text file. You can use the file for further analysis in a sandbox environment or attach it to a support request when investigating costing calculation issues.
-* **Import Item Data**: Import the previously exported text file back into the database. This action is only enabled in sandbox environments or evaluation companies.
+* **Export item data**: Export item-related data to a text file. You can use the file for further analysis in a sandbox environment or attach it to a support request when investigating costing calculation issues.
+* **Import item data**: Import the previously exported text file back into the database. This action is only enabled in sandbox environments or evaluation companies.
 * **Reset Cost Is Adjusted**: Reset the **Cost Is Adjusted** toggle on items, production orders, or assembly orders. This setting allows you to force the rerun of the cost adjustment for them.
-* **Costing Issues Detection Report**: Diagnose typical data issues cause calculation errors in costing. It checks whether the item ledger entries, value entries, item application entries, and capacity ledger entries are correct.
-* **Delete Item Data**: Clear all item-related tables in the database. This action is only available in sandbox environments or evaluation companies.
+* **Costing Issues Detection report**: Diagnose typical data issues cause calculation errors in costing. It checks whether the item ledger entries, value entries, item application entries, and capacity ledger entries are correct.
+* **Delete item data**: Clear all item-related tables in the database. This action is only available in sandbox environments or evaluation companies.
 
-## <a name="see-also"></a>See also
+## See also
 
 [Adjust item costs](inventory-how-adjust-item-costs.md)  
 [Design Details: Cost Adjustment](design-details-cost-adjustment.md)  

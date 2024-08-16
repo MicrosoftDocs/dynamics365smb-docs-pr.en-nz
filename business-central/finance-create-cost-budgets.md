@@ -1,16 +1,17 @@
 ---
-title: Creating Cost Budgets
-description: This topic provides an overview of where to create and analyse cost budgets. Budgeting in cost accounting resembles budgeting in the general ledger.
+title: Creating cost budgets
+description: This article provides an overview of where to create and analyze cost budgets. Budgeting in cost accounting resembles budgeting in the general ledger.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: '1115, 1116, 1117, 1118, 1119, 1120, 1121, 1131, 1132, 1133'
-ms.date: 06/16/2021
+ms.date: 07/26/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="creating-cost-budgets"></a>Creating Cost Budgets
+
+# Creating cost budgets
 
 Budgeting in cost accounting resembles budgeting in the general ledger. A cost budget is created based on cost types just as a budget for the general ledger is created based on general ledger accounts.  
 
@@ -26,7 +27,7 @@ You use the following pages to create and analyse cost budgets. Choose the ![Lig
 |See cost budget registers and cost budget entries.|**Cost Budget Registers** page|  
 |Print cost budget comparisons using various reports.|**Cost Acctg. Balance-Budget** report<br /><br /> **Cost Acctg. Statement-Budget** report<br /><br /> **Cost Budget by Cost Centre** report<br /><br /> **Cost Budget by Cost Object** report|  
 
-## <a name="see-also"></a>See also
+## See also
 
 [Accounting for Costs](finance-manage-cost-accounting.md)  
 [Create G/L Budgets](finance-how-create-budgets.md)  

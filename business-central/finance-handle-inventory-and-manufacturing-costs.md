@@ -1,22 +1,23 @@
 ---
-title: Handle Inventory and Manufacturing Costs
-description: 'Learn how a number of fields, pages, and reports are aimed at users who directly or indirectly manage the cost of items or operations.'
+title: Handle inventory and manufacturing costs
+description: 'Learn how many fields, pages, and reports are aimed at users who directly or indirectly manage the cost of items or operations.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 06/16/2021
+ms.date: 07/30/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="handling-inventory-and-manufacturing-costs"></a>Handling Inventory and Manufacturing Costs
 
-Although much of the cost accounting functionality is expressed in underlying processes with no user interaction, such as entry application and automatic cost adjustment, a number of fields, pages, and reports are aimed at users who directly or indirectly manage the cost of items or operations.  
+# Handling inventory and manufacturing costs
+
+Although much of the cost accounting functionality is expressed in underlying processes with no user interaction, such as entry application and automatic cost adjustment, many fields, pages, and reports are aimed at users who directly or indirectly manage the cost of items or operations.  
 
  Assigning item charges to purchase documents is an example of an indirect cost accounting task. Updating the unit cost of assembly or production BOM item is an example of a more direct cost accounting task.  
 
- The following table describes a sequence of tasks, with links to the topics that describe them.   
+ The following table describes a sequence of tasks, with links to the articles that describe them.   
 
 |**To**|**See**|  
 |------------|-------------|  
@@ -29,10 +30,10 @@ Although much of the cost accounting functionality is expressed in underlying pr
 |Manually undo an item application or reapply item ledger entries created by application.|[Remove and Reapply Item Ledger Entries](finance-how-to-remove-and-reapply-item-entries.md)|  
 |Use the **Applies-from Entry** field in the item journal to manually create a fixed application between an inbound transaction and the original outbound transaction.|[Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
 
-## <a name="see-also"></a>See also
+## See also
 
-[Manage Inventory Costs](finance-manage-inventory-costs.md)
-[Design Details: Inventory Costing](design-details-inventory-costing.md)
+[Manage Inventory Costs](finance-manage-inventory-costs.md)    
+[Design Details: Inventory Costing](design-details-inventory-costing.md)    
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
