@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Design details: reservation, order tracking, and action messaging
+# Design details: reservation, order tracking, and action messaging
 
 The comprehensive reservation system includes the interrelated and parallel features of Order Tracking and Action Messaging.  
 
@@ -30,13 +30,13 @@ The reservation system interacts with the planning system by creating action mes
 > [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 -->
 
-## <a name="reservation"></a>Reservation
+## Reservation  
 
  A reservation is a firm link that connects a specific demand and a specific supply to each other. This link directly affects the subsequent inventory transaction and ensures the proper application of item entries for costing purposes. A reservation overrides the default costing method of an item. For more information, go to [Design Details: Item Tracking](design-details-item-tracking.md).  
 
  The **Reservation** page is accessible from all order lines of both demand and supply types. On this page, the user can specify which demand or supply entry to create a reservation link towards. The reservation consists of a pair of records that share the same entry number. One record has a negative sign and points to the demand. The other record has a positive sign and points to the supply. These records are stored in the *Reservation Entry* table with the status value *Reservation*. The user can view all reservations on the **Reservation Entries** page.  
 
-### <a name="offsetting-in-reservations"></a>Offsetting in reservations
+### Offsetting in reservations  
 
  Reservations are made against available item quantities. Item availability is calculated in basic terms as follows:  
 
@@ -59,7 +59,7 @@ The reservation system interacts with the planning system by creating action mes
 
  For more information, go to [Design Details: Availability in the Warehouse](design-details-availability-in-the-warehouse.md).  
 
-### <a name="manual-reservation"></a>Manual reservation
+### Manual reservation  
 
 When a user intentionally creates a reservation, the user gains full ownership of and responsibility for these items. This means that the user must also manually change or cancel a reservation. Such manual changes might cause automatic modification of the involved reservations.  
 
@@ -75,7 +75,7 @@ The following table shows when and which modifications might occur:
 > [!NOTE]  
 > The Late Binding functionality may also change reservations without informing the user, by reshuffling nonspecific reservations of serial or lot numbers. For more information, go to [Design Details: Item Tracking and Reservations](design-details-item-tracking-and-reservations.md).  
 
-### <a name="automatic-reservations"></a>Automatic reservations
+### Automatic reservations  
 
 The item card can be set up to automatically reserve items based on demand, such as sales orders. In that case, reservation is made against inventory, purchase orders, assembly orders, and production orders. A warning is issued if the supply is insufficient.  
 
@@ -97,7 +97,7 @@ Automatic reservations created during the planned run are handled in the followi
 
 - They're included and potentially changed in subsequent planning runs, unlike manually reserved items.  
 
-## <a name="order-tracking"></a>Order tracking
+## Order tracking  
 
 Order Tracking helps the planner maintain a valid supply plan by providing an overview of the offsetting between demand and supply in the order network. The order tracking records serve as the foundation for creating dynamic action messages and planning line suggestions during planning runs.  
 
@@ -107,7 +107,7 @@ Order Tracking helps the planner maintain a valid supply plan by providing an ov
 > [!NOTE]  
 > Order tracking policy and the Get Action Messages function are not integrated with Projects. That means that demand related to a project is not automatically tracked. Because it is not tracked, it could cause the use of an existing replenishment with project information to be tracked to another demand, for example, a sales order. Consequently, you may encounter a situation in which your information about available inventory is out of sync.  
 
-### <a name="the-order-network"></a>The order network
+### The order network  
 
 The order tracking system is based on the principle that the order network must always remain balanced, ensuring every demand that enters the system is offset by a corresponding supply and vice versa. The system provides this by identifying logical links between all demand and supply entries in the order network.  
 
@@ -115,7 +115,7 @@ This principle implies that a change in demand results in a corresponding imbala
 
 To increase the transparency of calculations in the planning system, the **Untracked Planning Elements** page displays untracked quantities, which represent the difference in quantity between known demand and suggested supply. Each line on the page refers to the cause of the excess quantity, such as **Blanket Order**, **Safety Stock Level**, **Fixed Reorder Quantity**, **Minimum Order Qty.**, **Rounding**, or **Dampener**.  
 
-### <a name="offsetting-in-order-tracking"></a>Offsetting in order tracking
+### Offsetting in order tracking  
 
 In contrast to reservations, which can only be made against available item quantities, order tracking is possible against all order network entities that are part of  the net requirements calculation of the planning system. The net requirements are calculated as follows:  
 
@@ -124,7 +124,7 @@ In contrast to reservations, which can only be made against available item quant
 > [!NOTE]  
 > Demand that is related to forecasts or planning parameters is not order tracked.  
 
-### <a name="example-order-tracking-in-sales-production-and-transfers"></a>Example: Order tracking in sales, production, and transfers
+### Example: Order tracking in sales, production, and transfers  
 
 The following scenario shows which order tracking entries are created in the *Reservation Entry* table as results of various order network changes.  
 
@@ -156,14 +156,14 @@ The following order tracking entries exist in the *Reservation Entry* table base
 |10|Yes|PRODUCED ITEM|WEST|100|Reservation|Produced Item|-|5406|101004|Order-to-Order|
 
 
-#### <a name="entry-numbers-8-and-9"></a>Entry numbers 8 and 9
+#### Entry numbers 8 and 9  
 
 For the component need for LOTA and LOTB respectively, order tracking links are created from the demand in table 5407, *Prod. Order Component*, to the supply in table 32, *Item Ledger Entry*. The **Reservation Status** field contains *Tracking* to indicate that these entries are dynamic order tracking links between supply and demand.  
 
 > [!NOTE]  
 > The **Lot No.** field is empty on the demand lines because the lot numbers are not specified on the component lines of the released production order.  
 
-#### <a name="entry-number-10"></a>Entry number 10
+#### Entry number 10  
 
 From the sales demand in table 37, *Sales Lines*, an order tracking link is created to the supply in table 5406, *Prod. Order Line*. The **Reservation Status** field contains *Reservation*, and the **Binding** field contains *Order-to-Order*. This is because the released production order was generated specifically for the sales order and must remain linked, unlike order tracking links with a reservation status of Tracking, which is created and changed dynamically. For more information, go to the [Automatic Reservations](#automatic-reservations) section in this article.  
 
@@ -187,13 +187,13 @@ From the sales demand in table 37, *Sales Lines*, an order tracking link is crea
 |15|Yes|COMPONENT|OUT.LOG.|70|Surplus|Component|LOTB|32|-|-| 
 |16|Yes|COMPONENT|OUT.LOG.|30|Surplus|Component|LOTA|32|-|-| 
 
-#### <a name="entry-numbers-8-and-9-1"></a>Entry numbers 8 and 9
+#### Entry numbers 8 and 9  
 
 Order tracking entries for the two lots of the component reflecting demand in table 5407 are changed from a reservation status of *Tracking* to *Surplus*. The reason is that the supplies that were linked to before, in table 32, are used by the shipment of the transfer order.  
 
 Genuine surplus, as in this case, reflects excess supply or demand that remains untracked. It's an indication of an imbalance in the order network, which generates an action message by the planning system unless it's resolved dynamically.  
 
-#### <a name="entry-numbers-12-to-16"></a>Entry numbers 12 to 16
+#### Entry numbers 12 to 16  
 
 Because the two lots of the component are posted on the transfer order as shipped but not received, all related positive order tracking entries are of reservation type *Surplus*, indicating that they aren't allocated to any demands. For each lot number, one entry relates to table 5741, *Transfer Line*, and one entry relates to the item ledger entry at the in-transit location where the items now exist.  
 
@@ -231,13 +231,13 @@ Now the following order tracking entries exist in the *Reservation Entry* table.
 |22|-|COMPONENT|WEST|-30|Tracking|Component|LOTA|5407|1001004|-| 
 |22|Yes|COMPONENT|WEST|30|Tracking|Component|LOTA|32|-|-| 
 
-#### <a name="entry-numbers-21-and-22"></a>Entry numbers 21 and 22
+#### Entry numbers 21 and 22  
 
 Since the component need changed to *WEST* location, and the supply is available as item ledger entries at *WEST* location, all order tracking entries for the two lot numbers are now fully tracked, indicated by the reservation status of *Tracking*.  
 
 The **Lot No.** field is now filled in the order tracking entry for table 5407 because the lot numbers were assigned to the production order component lines.  
 
-## <a name="action-messaging"></a>Action messaging
+## Action messaging  
 
 When the order tracking system detects an imbalance in the order network, it automatically creates an action message to notify the user. Action messages are system-generated calls for user action that specify the details of the imbalance and suggestions on how to restore balance to the order network. They display as planning lines on the **Planning Worksheets** page when you choose **Get Action Messages** action. In addition, action messages on planning lines are generated during the planning run to reflect the planning system's suggestions to restore balance to the order network. In both cases, the suggestions are run on the order network, when you choose **Carry Out Action Message** action.  
 
@@ -265,11 +265,11 @@ An open demand passes through the list and offsets the available supply at each 
 
 If a decrease in demand quantity occurs, the order tracking system attempts to resolve the imbalance by performing the previous checks in reverse order. This means that existing action messages could be modified or even deleted, if necessary. The order tracking system always presents the net result of its calculations to the user.  
 
-## <a name="order-tracking-and-planning"></a>Order tracking and planning
+## Order tracking and planning  
 
 When the planning system runs, it deletes all existing order tracking records and action message entries and recreates them as planning line suggestions according to supply/demand pairs and priorities. When the planning run finishes, the order network is in balance.  
 
-### <a name="planning-system-versus-order-tracking-and-action-messaging"></a>Planning system versus order tracking and action messaging
+### Planning system versus order tracking and action messaging  
 
  The following comparison shows the differences between the methods that are used by the planning system to create planning line suggestions and the methods that are used by the order tracking system to create order tracking records and action messages.  
 
@@ -283,7 +283,7 @@ When the planning system runs, it deletes all existing order tracking records an
 
 - The planning system creates links in a user-activated batch mode when it balances demand and supply, whereas order tracking creates the links automatically and dynamically as the user enters orders.  
 
-## <a name="see-also"></a>See also
+## See also  
 
 [Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md)  
 [Design Details: Supply Planning](design-details-supply-planning.md)

@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="defining-and-allocating-costs"></a>Defining and allocating costs
+# Defining and allocating costs
 
 Cost allocations move costs and revenues between cost types, cost centres, and cost objects. You can define as many allocations as you need. Each allocation consists of:  
 
@@ -29,11 +29,11 @@ For each allocation target, you define an allocation base. The allocation base c
 
 The following table describes a sequence of tasks, with links to the articles that describe them.
 
-## <a name="set-up-allocation-source-and-targets"></a>Set up allocation source and targets
+## Set up allocation source and targets
 
 Each allocation consists of an allocation source and one or more allocation targets. The allocation source defines which costs will be allocated. The allocation targets determine where the costs will be allocated.  
 
-### <a name="to-set-up-cost-allocations"></a>To set up cost allocations
+### To set up cost allocations
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cost Allocation**, and then chose the related link.  
 2. On the **Cost Allocation** page, choose the **Edit** action.  
@@ -51,11 +51,11 @@ Each allocation consists of an allocation source and one or more allocation targ
 > [!NOTE]  
 > Select the **Blocked** check box to deactivate the allocation setup.
 
-## <a name="to-set-filters-for-dynamic-allocation-bases"></a>To set filters for dynamic allocation bases
+## To set filters for dynamic allocation bases
 
 The dynamic allocation method is based on changeable values. For example, the number of employees in a cost centre or the items sold of a cost object in a specific time period. There are nine pre-defined allocation bases and twelve dynamic date ranges. You set different filters based on the allocation base.  
 
-### <a name="set-filters"></a>Set filters
+### Set filters
 
 The following table shows which filters are possible for different allocation keys and which values are valid in the **No. Filter** and **Group Filter** fields. Select <kbd>F1</kbd> in the **Date Filter Code** field to read detailed descriptions.  
 
@@ -71,7 +71,7 @@ The following table shows which filters are possible for different allocation ke
 |Items Sold (Amount)|Item No.|Yes|Yes|Yes|Inventory Posting Group|  
 |Items Purchased (Amount)|Item No.|Yes|Yes|Yes|Inventory Posting Group|
 
-## <a name="scenario-1-defining-static-allocations-based-on-allocation-ratio"></a>Scenario 1: Defining static allocations based on allocation ratio
+## Scenario 1: Defining static allocations based on allocation ratio
 
 Static allocation method is based on a definite value, such as square meters used, or an established allocation ratio such as 5:2:4.  
 
@@ -80,7 +80,7 @@ This article describes how to define three new allocation target cost objects fo
 > [!NOTE]  
 > The example uses the demo data in the [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-### <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>To define the allocation source PROD cost centre on the General FastTab
+### To define the allocation source PROD cost centre on the General FastTab  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cost Allocation**, and then choose the related link.  
 2. On the **Cost Allocation** page, choose the **New** action.  
@@ -90,7 +90,7 @@ This article describes how to define three new allocation target cost objects fo
 6. In the **Cost Centre Code** field, enter **PROD**.  
 7. In the **Credit to Cost Type** field, enter the cost type **9903**.  
 
-### <a name="to-define-the-allocation-target-cost-objects-on-the-lines-fasttab"></a>To define the allocation target cost objects on the Lines FastTab
+### To define the allocation target cost objects on the Lines FastTab  
 
 1. On the first line, in the **Target Cost Type** field, enter **9903**.  
 2. On the first line, in the **Target Cost Object** field, select **ACCESSO**.  
@@ -111,14 +111,14 @@ This article describes how to define three new allocation target cost objects fo
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] automatically calculates the **Percent** field using a percentage rate that is dependent on all three allocation ratios that are entered in the **Share** field for all three lines.
 
-## <a name="scenario-2-defining-dynamic-allocations-based-on-items-sold"></a>Scenario 2: Defining dynamic allocations based on Items sold
+## Scenario 2: Defining dynamic allocations based on Items sold
 
 This topic shows an example of how to define allocations by using the dynamic allocation method. In the example, you change the dynamic allocation of the costs for the SALES cost centre to support the new cost object IT EQUIPMENT. IT EQUIPMENT packages have item numbers in the range from 8904-W to 8924-W. You use the previous year’s sales figures to calculate the share. The allocation is posted to the helping cost type 9903.  
 
 > [!NOTE]  
 > The example uses the demo data in the [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-### <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>To define dynamic allocations based on items sold in the previous year
+### To define dynamic allocations based on items sold in the previous year  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cost Allocation**, and then choose the related link.  
 2. On the **Cost Allocation** page, choose the **New** action.  
@@ -138,7 +138,7 @@ This topic shows an example of how to define allocations by using the dynamic al
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] uses the previous years’ sales figures to calculate a share of 1596.50 LCY with 100 percent for the IT EQUIPMENT packages. This means that all of the items sold last year will be allocated to the cost object IT EQUIPMENT.
 
-## <a name="see-also"></a>See also
+## See also
 
  [Setting Up Cost Accounting](finance-set-up-cost-accounting.md)  
  [Transferring and Posting Cost Entries](finance-transfer-and-post-cost-entries.md)  

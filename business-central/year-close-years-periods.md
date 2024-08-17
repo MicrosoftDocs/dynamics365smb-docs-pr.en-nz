@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="closing-years-and-periods"></a>Closing years and periods
+# Closing years and periods
 
 At the end of a fiscal year, there are many administrative tasks you must perform, such as making sure all documents and journals are posted, ensuring currency data are up to date, closing the books, and more. The actual tasks will depend your company.
 
@@ -30,7 +30,7 @@ The following table provides an overview of tasks that you typically perform to 
 | Print reports that can assist you in creating financial statements. |[Preparing Closing Statements](year-prepare-close-statement.md) |
 | Close accounting periods and fiscal year, transfer income statement balances to balance sheet accounts, and post the year-end closing entry. |[Closing Books](year-close-books.md) |
 
-## <a name="see-also"></a>See also
+## See also
 
 [Work with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

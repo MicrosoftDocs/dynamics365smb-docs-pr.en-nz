@@ -12,13 +12,13 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="design-details-inventory-costing"></a>Design details: Inventory costing
+# Design details: Inventory costing
 
 This documentation provides detailed technical insight to the concepts and principles that are used within the Inventory Costing features in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Inventory costing, also referred to as cost management, is concerned with recording and reporting business operating costs.  
 
-## <a name="in-this-section"></a>In this section
+## In this section
 
 [Design Details: Costing Methods](design-details-costing-methods.md)  
 [Design Details: Item Application](design-details-item-application.md)  

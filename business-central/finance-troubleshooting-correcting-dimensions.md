@@ -12,11 +12,11 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="troubleshoot-and-correct-dimensions"></a>Troubleshoot and correct dimensions
+# Troubleshoot and correct dimensions
 
 Financial reporting and analysis views often rely on data from dimensions. Despite the safeguards that are available, sometimes a mistake happens that can lead to inaccuracies. This article describes some of the typical errors, and explains how to correct dimension assignments on posted transactions so that financial reports are accurate.
 
-## <a name="troubleshooting-dimensions-errors"></a>Troubleshooting dimensions errors
+## Troubleshooting dimensions errors
 
 When you post documents or journal lines that contain dimensions, various errors might occur. However, they're typically related to an incorrect dimension setup or assignment.
 
@@ -38,21 +38,21 @@ When you post documents or journal lines that contain dimensions, various errors
 |Unexpected dimension value for default dimension where the **Value Posting** field contains **No Code**|-%1 %2 must not be mentioned.<br />-%1 %2 must not be mentioned for %3 %4|-Change the **Value Posting** field on the **Default Dimension** page.<br />-Remove the conflicting line from the dimension set.|
 |A dimension correction doesn't complete correctly.||-Choose **Reset** to revert the correction to a draft state. This resets the changes, and you can run the correction again.|
 
-## <a name="changing-dimension-assignments-after-posting"></a>Changing dimension assignments after posting
+## Changing dimension assignments after posting
 
 If you discover an incorrect dimension on posted general ledger entries, you can correct the dimension values and update your analysis views. The correction helps keep your financial reports and analyses accurate.
 
 > [!IMPORTANT]
 > The features for correcting dimensions are intended only to help make financial reporting accurate. Dimension corrections apply only to the G/L entries. They do not change the dimensions assigned to the entries in other ledgers for the same transaction. There will be a mismatch between the dimensions assigned in the general ledger and the sub-ledgers.
 
-### <a name="set-up-dimension-corrections"></a>Set up dimension corrections
+### Set up dimension corrections
 
 There are two things to consider when setting up dimension corrections:
 
 * Are there dimensions that you don't want to allow people to change? On the **Dimension Correction Settings** page, specify the dimensions that you want to block for changes.
 * Who can change dimensions? To allow people to make changes, assign the **D365 DIM CORRECTION** permission to the users. The permissions allow them to create dimension corrections, run them, and undo them if needed. They can also specify blocked dimensions. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md). 
 
-### <a name="correct-a-dimension"></a>Correct a dimension
+### Correct a dimension
 
 You can manually select one or more general ledger entries, or use filters to select sets of entries. If needed, you can also add or delete dimensions. 
 
@@ -82,38 +82,38 @@ You can manually select one or more general ledger entries, or use filters to se
 5. To validate that the correction, choose **Validate Dimension Changes**. For more information, see [Validating Dimension Corrections](finance-troubleshooting-correcting-dimensions.md#validating-dimension-corrections).
 6. Choose **Run**.
 
-### <a name="validate-dimension-corrections"></a>Validate dimension corrections
+### Validate dimension corrections
 
 Before you run a correction, it's a good idea to validate it first. Validation checks for restrictions on value posting for the G/L accounts, restrictions for dimensions, and whether the dimension values are blocked. During validation, the status of the correction is set to **Validation in Progress**. After you validate a correction, the result is shown in the **Validation Status** field. If errors were found, you can use the **View Errors** action to investigate them. After you correct an error, you must use the **Reopen** action to run the correction or a new validation.
 
 You can either run a correction immediately, or schedule it to run a later time. If you're running corrections on a large data set, we recommend that you schedule it to run outside business hours. For more information, see [Dimension Corrections on Large Data Sets](finance-troubleshooting-correcting-dimensions.md#dimension-corrections-on-large-data-sets).
 
-### <a name="undo-a-correction"></a>Undo a correction
+### Undo a correction
 
 After you correct a dimension, if you don't like what you see you can use the **Undo** action to reset the previous value. However, you can only undo the most recent correction. Before you undo a correction, you can validate the changes that result from the undo action. For example, validation is useful if dimension restrictions changed after the correction was made.
 
 If the Undo action isn't available, for example because you have many corrections, you can use the **Copy to Draft** action to start a new correction for the same entries.
 
-### <a name="dimension-corrections-on-large-data-sets"></a>Dimension corrections on large data sets
+### Dimension corrections on large data sets
 
 Use caution when correcting large sets of entries, for example, sets that include more than 10,000 entries. If you can, we recommend that you use the filters to run the corrections on smaller sets of data. It's also a good idea to run corrections outside the normal business hours. 
 
-### <a name="use-analysis-views-with-dimension-corrections"></a>Use analysis views with dimension corrections
+### Use analysis views with dimension corrections
 
 If **Update on Posting** is enabled for an analysis view, [!INCLUDE[prod_short](includes/prod_short.md)] can update the view when documents and journals are posted. You can also update views with this setting enabled with results of dimension corrections. To do so, turn on the **Update Analysis Views** toggle. Updating analysis views can affect performance, especially for large data sets, so we recommend that you update analysis views only for small data sets.  
 
-### <a name="view-historical-dimension-corrections"></a>View historical dimension corrections
+### View historical dimension corrections
 
 If a general ledger entry was corrected, you can investigate the change by using the **History of Dimension Corrections** action.
 
-### <a name="handle-incomplete-corrections"></a>Handle incomplete corrections
+### Handle incomplete corrections
 
 If a correction doesn't complete, a warning displays on the correction card. If that happens, you can use the **Reset** action to revert the correction to a draft status and undo the changes. You can then run the correction again.
 
 > [!NOTE]
 > Resetting an incomplete correction will not affect updates to analysis views because those happen at the end of the correction process.
 
-### <a name="use-cost-accounting-with-corrected-gl-entries"></a>Use cost accounting with corrected G/L entries
+### Use cost accounting with corrected G/L entries
 
 After you correct dimensions, your data for cost accounting is out of sync. Cost accounting uses dimensions to aggregate amounts for cost centres and cost objects, and to run cost allocations. Changing dimensions for G/L entries probably means that you should rerun your cost accounting models. Depending on the data that was updated and how your cost accounting capabilities are set up, you might need to:
 
@@ -122,7 +122,7 @@ After you correct dimensions, your data for cost accounting is out of sync. Cost
 
 You must manually identify where dimension corrections affect cost accounting, and where updates are needed. [!INCLUDE[prod_short](includes/prod_short.md)] doesn't currently provide an automated way to do that.
 
-## <a name="see-also"></a>See also
+## See also
 
 [Work with Dimensions](finance-dimensions.md)    
 [Analyse Data by Dimensions](bi-how-analyze-data-dimension.md)    

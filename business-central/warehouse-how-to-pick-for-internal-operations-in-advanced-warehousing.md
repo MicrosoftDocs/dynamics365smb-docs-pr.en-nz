@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="pick-for-production-assembly-or-projects-in-advanced-warehouse-configurations"></a>Pick for production, assembly, or projects in advanced warehouse configurations
+# Pick for production, assembly, or projects in advanced warehouse configurations
 
 How you pick components for production, projects, or assembly orders depend on how your warehouse is set up as a location. Learn more at [Setting Up Warehouse Management](warehouse-setup-warehouse.md).
 
@@ -36,7 +36,7 @@ To pick or move components for source documents in a pull fashion, you must rele
 |Assembly Order|Change status to Released.|
 |Projects | Change status to Open or create project with status Open right away.|  
 
-## <a name="production"></a>Production
+## Production
 
 Use **Warehouse Pick** documents for picking production components in the flow to production.
 
@@ -45,24 +45,24 @@ For a location that uses bins to move items to open shop floor bins, you can use
 * For a location that uses directed put-away and pick, follow the steps in the [Move Items in advanced warehouse configurations](warehouse-how-to-move-items-in-advanced-warehousing.md) article.
 * For other locations, follow the steps in the [Move Items Internally in Basic Warehouse Configurations](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md) article.
 
-## <a name="assembly"></a>Assembly
+## Assembly  
 
 Use **Warehouse Pick** documents to move assembly components to the assembly area.
 
 [!INCLUDE [prod_short](includes/prod_short.md)] supports assemble-to-stock and assemble-to-order types of assembly flows. To learn more about assemble-to-order in the outbound warehouse flow, go to [Handling Assemble-to-Order Items in Warehouse Shipments](warehouse-how-ship-items.md#handling-assemble-to-order-items-in-warehouse-shipments).
 
-## <a name="project-management"></a>Project management
+## Project management  
 
 Use **Warehouse Pick** documents to pick project components in the flow to project management.
 
 > [!NOTE]
 > Project don't support advanced configurations where the **Directed pick and Put-away** toggle is turned on.
 
-## <a name="check-whether-items-are-available-for-picking"></a>Check whether items are available for picking
+## Check whether items are available for picking
 
 [!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
-## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>To create pick documents in bulk with the pick worksheet
+## To create pick documents in bulk with the pick worksheet
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Pick Worksheet**, and then choose the related link.  
 2. Choose the **Get Warehouse Documents** action.  
@@ -114,7 +114,7 @@ Use **Warehouse Pick** documents to pick project components in the flow to proje
 
 8. Choose the **OK** button.  
 
-## <a name="to-pick-items-for-a-production-order-assembly-order-or-project"></a>To pick items for a production order, assembly order, or project
+## To pick items for a production order, assembly order, or project
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Picks**, and then choose the related link.  
 
@@ -150,7 +150,7 @@ Use **Warehouse Pick** documents to pick project components in the flow to proje
     * [Assemble Items](assembly-how-to-assemble-items.md)
     * [Record Consumption or Usage for Projects](projects-how-record-job-usage.md)
 
-## <a name="flushing-production-components-in-an-advanced-warehouse-configuration"></a>Flushing production components in an advanced warehouse configuration
+## Flushing production components in an advanced warehouse configuration
 
 Flushing methods affect the flow of components in production. Learn more at [Flush Components According to Operation Output](production-how-to-flush-components-according-to-operation-output.md). Depending on the selected flushing method, you can pick components for production om the following ways:
 
@@ -158,7 +158,7 @@ Flushing methods affect the flow of components in production. Learn more at [Flu
 * Use a **Warehouse Pick** document to record the pick for items that use the **Pick + Forward**, **Pick + Backward** flushing method. Consumption of the components happens automatically either when you change the status of the production order or by starting or ending an operation. All required components must be available. Otherwise, posting flushed consumption stop for that component.
 * Use a **Warehouse Movement** document without a reference to a source document or other ways to record the movement of components that use the **Forward** or **Backward** flushing method. Components are automatically consumed either when you change of status of the production order or start or end an operation. All required components must be available. Otherwise, posting flushed consumption stops for that component. Learn more at [Move Items](warehouse-move-items.md).
 
-### <a name="example"></a>Example
+### Example
 
 You have a production order for 15 PCS of item SP-SCM1004. Some of the items on the component list must be flushed manually in a consumption journal. Other items can be picked and flushed automatically using the **Pick + Backward** flushing method.  
 
@@ -181,7 +181,7 @@ The following illustration shows when the **Bin Code** field on the component li
 
 :::image type="content" source="media/binflow.png" alt-text="Overview of when and how the Bin Code field is filled in.":::
 
-## <a name="make-to-order-mto-production-components-in-an-advanced-warehouse-configuration"></a>Make-to-Order (MTO) production components in an advanced warehouse configuration
+## Make-to-Order (MTO) production components in an advanced warehouse configuration
 
 In scenarios where a produced item consists of raw materials and semi-finished items with the manufacturing policy set to **Make-to-order**, the warehouse pick for those semi-finished components is added to the same production order with the **Planning Level Code** field filled in. It's expected that the semi-finished items are available for consumption immediately and won't require pick so they aren't included in the warehouse pick document. The created warehouse picks only include raw materials for produced item and for semi-finished items.
 
@@ -189,7 +189,7 @@ However, if semi-finished items are available on stock, the planning system sugg
 Such a setup isn't compatible with warehouse picks and, depending on frequency, you must either change the manufacturing policy for such semi-finished items to **Make-to-stock** or manually split the production order component line when you need to pick the semi-finished items produced earlier.
 
 
-## <a name="see-also"></a>See also
+## See also
 
 - [Manage Inventory](inventory-manage-inventory.md)  
 - [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  

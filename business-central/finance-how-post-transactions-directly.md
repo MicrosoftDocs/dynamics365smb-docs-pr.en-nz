@@ -12,7 +12,7 @@ ms.date: 08/06/2024
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="post-transactions-directly-to-the-general-ledger"></a>Post transactions directly to the general ledger
+# Post transactions directly to the general ledger
 
 You use general journals to post financial transactions directly to general ledger accounts and other accounts, such as bank, customer, vendor, and employee accounts.  
 
@@ -22,7 +22,7 @@ General journals post financial transactions directly to general ledger accounts
 
 Entries that you post with documents require a credit memo process. However, you can reverse entries that you post with the general journal. For more information, see [Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md).
 
-## <a name="to-post-a-transaction-directly-to-a-general-ledger-account"></a>To post a transaction directly to a general ledger account
+## To post a transaction directly to a general ledger account
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and then choose the related link.
 2. Open the general journal batch. For more information, see [Work with General Journals](ui-work-general-journals.md).
@@ -36,7 +36,7 @@ Entries that you post with documents require a credit memo process. However, you
     > If you want to enter multiple transaction lines before a balance-account line, for example for one bank account, select the **Suggest Balancing Amount** checkbox on the line for your batch on the **General Journal Batches** page. The **Amount** field on the balance-account line is automatically prefilled with the value that is required to balance the transactions.
 5. Choose the **Post** action to record the transactions on the specified G/L accounts.
 
-## <a name="see-also"></a>See also
+## See also
 
 [Work with General Journals](ui-work-general-journals.md)    
 [Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)    
