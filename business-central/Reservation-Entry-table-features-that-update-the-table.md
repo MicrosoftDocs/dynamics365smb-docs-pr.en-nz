@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Reservation Entry table - Introduction
+# <a name="reservation-entry-table---introduction"></a>Reservation Entry table - Introduction
 
 This technical whitepaper provides guidance to help you understand and troubleshoot data inconsistency issues in the *Reservation Entry* table (Table 337) in [!INCLUDE[prod_short](includes/prod_short.md)]. The first part is an introduction to the features that generate or modify data in this table. It also covers several fields in the *Reservation Entry* table that are worth pointing out in relation to these features. The second part demonstrates through examples how entries in the *Reservation Entry* table are generated, deleted, or modified when transfer orders are processed or planning features are executed.
 
@@ -28,9 +28,9 @@ In general terms, the data generated in the *Reservation Entry* table depends on
 - Planning parameters on the item or stockkeeping unit card
 - Item Tracking Code
 
-## Features that update the Reservation Entry table
+## <a name="features-that-update-the-reservation-entry-table"></a>Features that update the Reservation Entry table
 
-### Order Tracking policy
+### <a name="order-tracking-policy"></a>Order Tracking policy
 
 If the **Order Tracking Policy** field on an item is set to None, [!INCLUDE[prod_short](includes/prod_short.md)] will never create reservation entries in the *Reservation Entry* table, unless the Net Change Plan or Regenerative Plan, Reservation, or Item Tracking is executed. Additionally, without order tracking enabled, you can have reservation entries when using the Manufacturing-to-Order or Assembly-to-Order policies.
 
@@ -51,7 +51,7 @@ By setting the **Order Tracking Policy** field on the item to Tracking Only, an 
 > [!NOTE]  
 > Tracking functionality does not replace planning functionality, which considers all items, demands, and supplies together to provide the optimal planning proposals to optimize customer service levels and balance inventory levels.
 
-### Reservation policy
+### <a name="reservation-policy"></a>Reservation policy
 
 A reservation consists of a pair of records in the *Reservation Entry* table with a **Reservation Status** of Reservation, which shares the same entry number. One record has the Positive field enabled and points to the supply. The other record has the **Positive** field not enabled and points to the demand. The fields **Source Type**, **Source Ref. No.**, and **Source ID** highlight the reservation link between the demand and supply.
 
@@ -122,7 +122,7 @@ Suppose, due to business reasons, the item is needed more urgently on the releas
 
 This concludes the demonstration of the interaction between using automatic reservations and order tracking. The examples also show what happens when you modify due dates and the error message that is triggered when there's a reservation conflict.
 
-### Planning calculated
+### <a name="planning-calculated"></a>Planning calculated
 
 Planning done using order planning, the requisition worksheet, or the planning worksheet will generate entries in the *Reservation Entry* table with the **Reservation Status** field set to Tracking, Reservation, or Surplus. There should always be a matching pair with same Entry No. of positive and negative value in the **Quantity (Base)** field when the status is Tracking or Reservation. The **Source Type** field will be the demand type, that is, table 37 for the negative quantity and a planning table, for example, table 246, for the positive quantity. The **Source ID** field will be PLANNING.
 
@@ -145,7 +145,7 @@ These entries are generated during the planning run and explain where the untrac
 
 In the *Reservation Entry* table, as on the Purchase, Transfer and Production orders, there's a **Planning Flexibility** field. This option field defines if the supply represented by these supply orders is considered by the planning system when calculating Action Messages. If the field contains the option Unlimited, then the planning system includes the line when calculating Action Messages. If the field contains the option None, then the line is firm and unchangeable, and the planning system doesn't include the line when calculating Action Messages. The feature is managed in the *Reservation Entry* table by the field with the same name.
 
-### Reordering and manufacturing policy
+### <a name="reordering-and-manufacturing-policy"></a>Reordering and manufacturing policy
 
 If a planning feature is executed for an item set with the Reordering Policy set to Order, [!INCLUDE[prod_short](includes/prod_short.md)] will create entries in the *Reservation Entry* table with the reservation status of type Reservation instead of Tracking.
 
@@ -153,7 +153,7 @@ The **Source Type** and **Source ID** fields will have the equivalent treatment 
 
 The **Binding** field is filled in to control supply orders that are bound to specific demand, for example, production orders that are created directly from a sales order. The field displays Order-to-Order when the entry is tied specifically to a demand or a supply (Automatic Reservation). The demand can be related to sales or component need.
 
-### Item tracking and prospect reservation entry
+### <a name="item-tracking-and-prospect-reservation-entry"></a>Item tracking and prospect reservation entry
 
 The Prospect reservation status can be created by [!INCLUDE[prod_short](includes/prod_short.md)] in the *Reservation Entry* table when you aren't using any order network entities, that is, Order Tracking. For example, on a consumption journal line you assign Item tracking to the component. However, if the item is already order tracked, [!INCLUDE[prod_short](includes/prod_short.md)] might create more Prospect reservation entries. This is demonstrated in theEXAMPLE 2 related to transfer orders in the second part of this document.
 
@@ -167,15 +167,15 @@ Since the item ledger entries carry the item tracking information, the reservati
 
 For further information, review the [!INCLUDE[prod_short](includes/prod_short.md)] Technical Whitepapers listed in the Additional Resources at the end of this document.
 
-### Source Subtype, Suppressed Action Msg., Action Message Adjustment, and Disallow Cancellation fields
+### <a name="source-subtype-suppressed-action-msg-action-message-adjustment-and-disallow-cancellation-fields"></a>Source Subtype, Suppressed Action Msg., Action Message Adjustment, and Disallow Cancellation fields
 
 The **Source Subtype**, **Suppressed Action Msg.**, **Action Message Adjustment**, and **Disallow Cancellation** fields in the *Reservation Entry* table are described in this section. Scenarios are provided to demonstrate the use of the **Suppressed Action Msg.**, **Action Message Adjustment** and **Disallow Cancellation** fields. The **Action Message Adjustment** field is used for the order tracking policy feature Tracking and Action Message. The **Disallow Cancellation** field is used for the Assembly-to-Order feature in [!INCLUDE[prod_short](includes/prod_short.md)] 2013.
 
-#### Source Subtype
+#### <a name="source-subtype"></a>Source Subtype
 
 The **Source Subtype** field indicates which Source Subtype the reservation entry is related to. If the entry is related to a purchase or sales line, the field is copied from the **Document Type** field on the line. If it is related to a journal line, the field is copied from the **Entry Type** field on the journal line.
 
-#### Suppressed Action Msg.
+#### <a name="suppressed-action-msg"></a>Suppressed Action Msg.
 
 The **Suppressed Action Msg.** field records when an existing supply has already been partially processed, for example, when a purchase order has already been partially received or a production order has consumptions posted against it.
 
@@ -208,7 +208,7 @@ Entry No. 28 in table 337 has reservation status Tracking to match the existing 
 
 Entry No. 30 is the existing purchase order that has been partially received with quantity 2. As a result, the **Reservation Status** field is Surplus, and [!INCLUDE[prod_short](includes/prod_short.md)] sets the **Quantity (Base)** field to *8* (remaining balance) and the **Suppressed Action Msg.** field is enabled.
 
-#### Action Message Adjustment
+#### <a name="action-message-adjustment"></a>Action Message Adjustment
 
 The **Action Message Adjustment** field displays the change in the supply side of the order tracking that results when you accept the related action messages. A value appears here only when the facilities for both order tracking and action messages are active (Order Tracking policy set to Tracking & Action Msg.). The value is calculated based on the data in the *Action Message Entry* table (Table 99000849). The following example serves as an illustration:
 1. Open item 80002. Set the following field:
@@ -224,7 +224,7 @@ The status information in table 337 is shown in the following illustration.
 6. Entry No. 34 has the field **Action Message Adjustment** in table 337 enabled for 5 units with reservation status Surplus. As the sales order was increased at Step 5, [!INCLUDE[prod_short](includes/prod_short.md)] created this reservation because more supply is required.
 7. Open the **Planning Worksheets** page and on the **Home** tab, in the **Process** group, choose **Get Action Messages**. [!INCLUDE[prod_short](includes/prod_short.md)] will suggest increasing the Purchase Order quantity from 100 to 105.
 
-#### Disallow Cancellation
+#### <a name="disallow-cancellation"></a>Disallow Cancellation
 
 The **Disallow Cancellation** field indicates that the reservation entry represents the link between a sales order line and an assembly order. You can't delete this reservation because it's required to maintain the synchronization that occurs when an item is assembled to order. The following example serves as an illustration:
 
@@ -253,7 +253,7 @@ Entry No. 82 has Reservation Status Surplus as 9 units of the Assemble Comp on i
 
 Entry No. 86 has Binding Order-to-Order with Reservation Status Reservation. Additionally the **Disallow Cancellation** field is enabled as the assembly policy is set as Assemble to Order for item Assembly FG. Finally, the **Planning Flexibility** field is set to None, as [!INCLUDE[prod_short](includes/prod_short.md)] doesn't permit the planning logic to delete the reservation.
 
-#### Quantity available to pick and reservations
+#### <a name="quantity-available-to-pick-and-reservations"></a>Quantity available to pick and reservations
 
 The **Reserved Pick & Ship Qty.** field in table 337 that exists in versions prior to [!INCLUDE[prod_short](includes/prod_short.md)] 2013 controls item availability within a managed warehouse. In any installation of [!INCLUDE[prod_short](includes/prod_short.md)] warehouse management, item quantities exist both as warehouse entries and as item ledger entries. These two entry types contain different information about where items exist and whether they're available. Warehouse entries define an item’s availability by bin and bin type, which is called bin content. Item ledger entries define an item’s availability by its reservation to outbound documents. Special functionality exists in the picking algorithm to calculate the quantity that is available to pick when bin content is coupled with reservations. The picking algorithm subtracts quantities that are reserved for other outbound documents, quantities on existing pick documents, and quantities that are picked but not yet shipped or consumed. The result is displayed in the **Available Qty. to Pick** field in the **Pick Worksheet** page, where the field is calculated dynamically. The value is also calculated when a user creates warehouse picks directly from outbound documents such as sales orders, production consumption, or outbound transfers.
 
@@ -301,9 +301,9 @@ When the warehouse put-away is registered in Step 7, that enables the creation o
 
 The following illustration is taken from [!INCLUDE[prod_short](includes/prod_short.md)] 2009 R2.
 
-## Illustrations using transfer orders and planning
+## <a name="illustrations-using-transfer-orders-and-planning"></a>Illustrations using transfer orders and planning
 
-### Transfer orders
+### <a name="transfer-orders"></a>Transfer orders
 
 When using transfer orders and the item is shipped but not fully received, in the *Reservation Entry* table you get a reservation status Surplus. The location code will be the Transfer-to Location.
 
@@ -313,7 +313,7 @@ When order tracking is activated and there's no demand (sales order or consumpti
 
 This is demonstrated in the first example.
 
-#### Example 1
+#### <a name="example-1"></a>Example 1
 
 1. Open items 80003 and 80004 and set the field **Tracking Policy** to *Tracking Only*. Leave the other fields as default.
 2. Open an Item journal and increase the inventory of these items to quantity 10 each against location RED and post the journal lines.
@@ -342,7 +342,7 @@ The explanation for the following fields against Reservation Entry 43 is as foll
 |**Source Type**|Item Ledger Entry table 32.|  
 |**Source Ref. No.**|The open Item Ledger Entry number 322.|
 
-#### Example 2
+#### <a name="example-2"></a>Example 2
 
 The next example illustrates what happens when a component is transferred between locations, but at the same time is tracked between a demand need and available supply. The components will be transferred from location RED to BLUE, which is to be consumed on a released production order. The component uses Order Tracking, Order Planning, and Item Tracking.
 
@@ -378,7 +378,7 @@ The Item Produced will get the output against location BLUE.
 
 The status information in table 337 is shown in the following illustration.
 
-##### Reservation Entries with numbers 55 and 56
+##### <a name="reservation-entries-with-numbers-55-and-56"></a>Reservation Entries with numbers 55 and 56
 
 For the component need for Lot A and Lot B, respectively, order tracking links are created from the demand in table 5407, Prod. Order Component, to the supply in table 32, Item Ledger Entry. The **Reservation Status** field contains Tracking for all four entries to indicate that these dynamic order tracking links between supply and demand.
 
@@ -387,7 +387,7 @@ The demand in table 5407, Prod. Order Component, is linked to the Source ID of t
 > [!NOTE]  
 > The **Lot No.** field is empty on the demand lines, because the lot numbers are not specified on the component lines of the released production order.
 
-##### Reservation Entry with number 57
+##### <a name="reservation-entry-with-number-57"></a>Reservation Entry with number 57
 
 From the sales demand in table 37, Sales Line, an order tracking link is created to the supply in table 5406, Prod. Order Line. The **Reservation Status** field contains Reservation, and the **Binding** field contains Order-to-Order. This is because the released production order was generated specifically for the sales order and must remain linked unlike order tracking links with reservation status of Tracking, which are created and changed dynamically.
 
@@ -405,11 +405,11 @@ Post the total outstanding quantity as Shipped ONLY.
 
 The status information in the table 337 is shown in the following illustration.
 
-##### Reservation Entries with number 55 and 56
+##### <a name="reservation-entries-with-number-55-and-56"></a>Reservation Entries with number 55 and 56
 
 Order tracking entries for the two lots of the component reflecting demand in table 5407 are changed from a reservation status of Tracking to Surplus. The reason is that the supplies that they were linked to before, in table 32, have been used by the shipment of the transfer order. Genuine surplus, as in this case, reflects excess supply or demand that remains untracked. It's an indication of imbalance in the order network, which will generate an action message by the planning system unless it's resolved dynamically.
 
-##### Reservation Entry Numbers 59 to 63
+##### <a name="reservation-entry-numbers-59-to-63"></a>Reservation Entry Numbers 59 to 63
 
 Because the two lots of the component are posted on the transfer order as shipped but not received, all related positive order tracking entries are of reservation type Surplus, indicating that they aren't allocated to any demands. For each lot number, one entry relates to table 5741, Transfer Line, and one entry relates to the item ledger entry at the in-transit location where the items now exist.
 
@@ -434,21 +434,21 @@ Close the Item tracking form.
 
 The status information in the table 337 is shown in the following illustration.
 
-##### Reservation Entries with numbers 68 and 69
+##### <a name="reservation-entries-with-numbers-68-and-69"></a>Reservation Entries with numbers 68 and 69
 
 Since the component need has been changed to BLUE location, and the supply is available as item ledger entries at the BLUE location, all order tracking entries for the two lot numbers are now fully tracked, indicated by the reservation status of Tracking. The lot numbers aren't populated on the **Lot No.** field against the demand on table 5406, **Prod. Order Line**, as we did not specify lot numbers for the component on the released production order.
 
-##### Reservation Entries with numbers 70 and 71
+##### <a name="reservation-entries-with-numbers-70-and-71"></a>Reservation Entries with numbers 70 and 71
 
 Entries with reservation status Prospect are generated in table 337. The reason is that both lot numbers are assigned against the component on the consumption journal, but the journal hasn't been posted.
 
 This completes the section how order tracking entries in the **Reservation Entry** table are generated, modified, and deleted when using multiple features in combination with transfer orders.
 
-### Planning calculated
+### <a name="planning-calculated-1"></a>Planning calculated
 
 When using planning features, that is, the **Requisition Worksheet**, **Planning Worksheet**, or **Order Planning**, then reservation entries on **Reservation Entry** table 337 might be modified or added depending on the planning suggestion given by the logic in [!INCLUDE[prod_short](includes/prod_short.md)]. Example 3 will use **Reordering Policy** Order with **Manufacturing Policy** Make-to Order for a produced Item. The component will use **Reordering Policy** Fixed Reorder Quantity.
 
-#### Example 3
+#### <a name="example-3"></a>Example 3
 
 1. In the **Manufacturing Setup** card, **Component at Location** is RED from the previous example.
 2. Create new Parent Item 70061. Set the following fields:
@@ -497,17 +497,17 @@ The **Reservation Status** field is Reservation and an Order-to-Order Binding is
 
 The demand of 40 units against the field **Source ID** is the sales order number 1005 and the Source Type is *Sales Line* table 37. The reservation entry is aligned with the planning suggestion, Source Ref. No. 10000, Source ID is PLANNING, and Source Type is *Requisition Line* table 246. So there's a balance between the demand from the sales order and its supply suggested by the planning engine.
 
-##### Reservation Entry numbers 73 and 74
+##### <a name="reservation-entry-numbers-73-and-74"></a>Reservation Entry numbers 73 and 74
 
 By running the Calculate Plan batch job, the next four entries are generated with a reservation status Tracking due to the setting of reordering policy Fixed Reorder Quantity for the component. The required supply for component Item 70062 is replenished by the planning suggestions given, Source Ref. No. 20000 and 30000, with Source ID set to PLANNING and Source Type from *Requisition Line* table 246. The component need is created to fulfill the demand against the Parent Item 70061 for total Quantity (Base) 40. As a result of this demand, the field **Source Prod. Order Line** is 10000, with Source Type the *Component Need* table 99000829.
 
 The reservation status isn't Surplus, as order tracking exists between the demand of Parent Item 70061 and the supply of Component Item 70062.
 
-##### Reservation Entry numbers 75 and 76
+##### <a name="reservation-entry-numbers-75-and-76"></a>Reservation Entry numbers 75 and 76
 
 The last two entries have a reservation status Surplus, as these are Untracked Quantities generated on the planning worksheet related to reordering parameters Reorder Point and Reorder Quantity.
 
-## See also  
+## <a name="see-also"></a>See also
 [Design Details: Item Tracking Design](design-details-item-tracking-design.md)  
 [Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md)  
 [Design Details: Reservation, Order Tracking, and Action Messaging](design-details-reservation-order-tracking-and-action-messaging.md)   

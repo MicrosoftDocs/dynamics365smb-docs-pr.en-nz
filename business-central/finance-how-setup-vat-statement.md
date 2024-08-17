@@ -12,11 +12,11 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Set up VAT statement templates and VAT statement names
+# <a name="set-up-vat-statement-templates-and-vat-statement-names"></a>Set up VAT statement templates and VAT statement names
 
 Tax authorities can, and do, change their requirements for posting GST. GST Statement templates and GST statement names can help you prepare for upcoming changes and make a smooth transition to the new requirements. You can use VAT statement templates to set up different Reports when choosing to print the statement. Each VAT Statement Template can have multiple Vat Statement names, which in turn define the calculations, and you can create a new VAT statement name when requirements change. For example, one name might calculate GST for this year based on the current requirements, and another might calculate GST based on requirements for next year. Names are also a way to keep a history of GST statement formats, for example, so that you can look back to see how you calculated GST in previous years.
 
-## To define a GST statement
+## <a name="to-define-a-vat-statement"></a>To define a GST statement
 
 GST statements let you calculate your GST settlement amount for a certain period, for example, a quarter.
 
@@ -28,7 +28,7 @@ GST statements let you calculate your GST settlement amount for a certain period
 > You can filter the information that the statement will include, depending on what you choose in the **Type** field. **Account Totalling** is useful when you want the GST from a specific account.
 **GST Entry Totalling** gets GST from the accounts assigned to the selections in the **Gen. Posting Type**, **GST Bus. Posting Group**, and/or the **GST Prod. Posting Group** fields. **Row Totalling** lets you enter a value or quick filter criteria in the **Row Totalling** field. For more information, see [Searching, filtering, and Sorting Data](ui-enter-criteria-filters.md). **Description** is often used to add a note to the statement. For example, you could use it as a heading when you've used row totalling.
 
-## To preview the GST statement
+## <a name="to-preview-the-vat-statement"></a>To preview the GST statement
 
 After you define a GST statement, you can preview it to make sure it meets your needs.
 > [!Tip]
@@ -40,7 +40,7 @@ After you define a GST statement, you can preview it to make sure it meets your 
 4. On the lines where the **Type** field contains **GST Entry Totalling** you can see a list of GST entries by choosing the amount in the **Column Amount** field.
 5. You can use personalisation to show more fields in the lines. For example the Unrealized Base Amount and Unrealized VAT Amount, if you're using unrealized VAT.
 
-## See also
+## <a name="see-also"></a>See also
 
 [Set Up Value-Added Tax](finance-setup-vat.md)    
 [Setting Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md)    

@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 
-# Use pre-closing reports
+# <a name="use-pre-closing-reports"></a>Use pre-closing reports
 
 There are many standard reports that you can use to verify the accuracy of the accounts before closing the books at the end of a year or period. For example, you can use the **Customer - Trial Balance** report to verify that the balance for a customer posting group is equal to the balance on the corresponding general ledger account on a certain date.
 
@@ -31,7 +31,7 @@ The following table describes a number of reports that might be useful in this p
 
 To see a report, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, type the name as it appears in the table, and then choose the related link.
 
-## See also
+## <a name="see-also"></a>See also
 
 [Closing Years and Periods](year-close-years-periods.md)    
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

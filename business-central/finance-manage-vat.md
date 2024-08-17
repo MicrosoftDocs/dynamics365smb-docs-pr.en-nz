@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# GST management overview
+# <a name="vat-management-overview"></a>GST management overview
 Value Added Tax (VAT) is an indirect tax on the consumption of goods and services. GST is levied at each stage of the supply chain where value is added from initial production to the point of sale. To get started with VAT management, see the following articles.  
 
 |  Article  |  Description  |  
@@ -30,7 +30,7 @@ Value Added Tax (VAT) is an indirect tax on the consumption of goods and service
 | [Validate VAT Registration Numbers](finance-how-validate-vat-registration-number.md) | This article explains how to use Business Central validation for VAT registration numbers for your contacts, customers, and vendors based on the EU VIES VAT Number Validation service.|
 
 
-## See also  
+## <a name="see-also"></a>See also
 [Finance](finance.md)    
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
