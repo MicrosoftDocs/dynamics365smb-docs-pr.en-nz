@@ -4,6 +4,7 @@ description: 'Responsible AI FAQs provide information about the AI technology us
 ms.date: 06/06/2024
 ms.custom:
   - responsible-ai-faqs
+  - copilot-learning-hub
 ms.topic: article
 author: jswymer
 ms.author: jswymer
@@ -12,7 +13,7 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# <a name="responsible-ai-faqs-for-dynamics-365-business-central"></a>Responsible AI FAQs for Dynamics 365 Business Central
+# Responsible AI FAQs for Dynamics 365 Business Central
 
 [!INCLUDE[responsible-ai-features-intro](includes/responsible-ai-intro.md)]
 
