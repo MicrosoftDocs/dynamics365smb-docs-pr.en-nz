@@ -12,11 +12,11 @@ ms.service: dynamics-365-business-central
 ms.reviewer: solsen
 ---
 
-# Sustainability scorecards and goals overview
+# <a name="sustainability-scorecards-and-goals-overview"></a>Sustainability scorecards and goals overview
 
 This article offers guidance on creating how to create scorecards and goals, and how to update the status of goals. Scorecards and goals allow organizations to curate sustainability metrics and track them against key business objectives. Goals can be created based on current and target values, so users can keep track of the progress of current emissions compared to previous periods.  
 
-## Create a scorecard  
+## <a name="create-a-scorecard"></a>Create a scorecard
 
 To create new a *Sustainability Scorecard*, follow the steps:
 
@@ -26,7 +26,7 @@ To create new a *Sustainability Scorecard*, follow the steps:
 
 > [NOTE!] In the **Owner** field, you can only choose users who have selected the **Sustainability Manager** field in the **User Setup** table. 
 
-## Create goals  
+## <a name="create-goals"></a>Create goals
 
 To create new a *Sustainability Goal*, follow the steps:
 
@@ -49,7 +49,7 @@ If you have many goals on the page, you can use **Show My Goals** action to show
 > [!NOTE]
 > Users can set up different combinations of goals for the whole company, specific countries or regions, and a responsibility center for one *Sustainability Scorecard*. Users can also use different periods for the same model of tracking. 
 
-## See also
+## <a name="see-also"></a>See also
 
 [Sustainability setup](finance-sustainability-setup.md)    
 [Chart of sustainability accounts and ledger](finance-sustainability-accounts-ledger.md)    

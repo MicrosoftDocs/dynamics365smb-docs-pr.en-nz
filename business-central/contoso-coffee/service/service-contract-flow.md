@@ -21,7 +21,7 @@ This walkthrough demonstrates several core processes:
 - Complete the time entry for the Service Order
 - Post and Invoice the Contract Service Order
 
-## <a name="creation-of-service-items"></a>Creation of service items
+## <a name="create-service-items"></a>Creation of service items
 
 ### <a name="scenario"></a>Scenario
 
@@ -45,7 +45,7 @@ Susan, the order processor, posts a sales order selling an Item configured to ge
 
 - A Service Item is created for Customer 10000
 
-## <a name="invoicing-a-service-contract"></a>Invoicing a service contract
+## <a name="invoice-a-service-contract"></a>Invoicing a service contract
 
 ### <a name="scenario-1"></a>Scenario
 

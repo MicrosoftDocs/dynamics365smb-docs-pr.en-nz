@@ -62,7 +62,7 @@ After you fill in the **Intrastat Report**, you can run the **Checklist Report**
 
 Run the **Intrastat Report Checklist** report to check Intrastat lines before they're exported to the required format. The check is run inside the **Intrastat Report**.
 
-## <a name="recalculating-weight-or-supplementary-unit-of-measure"></a>Recalculating weight or supplementary unit of measure
+## <a name="recalculate-weight-or-supplementary-unit-of-measure"></a>Recalculating weight or supplementary unit of measure
 
 If you got the error message *'Total Weight' in Intrastat Report Line must not be blank*, it's probably because you didn't set the **Net Weight** field on the used source, item, or fixed asset. In this case, search for the item or fixed asset card and add the required value. After that, you just need to reopen the **Intrastat Report** and follow these steps:
 

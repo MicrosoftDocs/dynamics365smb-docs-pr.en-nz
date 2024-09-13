@@ -11,14 +11,14 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Multiple VAT registration numbers 
+# <a name="multiple-vat-registration-numbers"></a>Multiple VAT registration numbers
 
 For businesses with warehouses in multiple EU countries, managing VAT (Value Added Tax) can be challenging, as each warehouse location requires a different VAT number to comply with the specific regulations of each country. This article provides information about this requirement and it explains the functionality for multiple value-added tax (VAT) registration numbers. This functionality allows users to set up tax registration numbers for its customers in different countries/regions.  
 
 > [!NOTE]
 > The *Multiple VAT numbers for customers* functionality is available only from Business Central 2024 release wave 2 (version 25).
 
-## How to set up the alternative VAT registration numbers  
+## <a name="how-to-set-up-the-alternative-vat-registration-numbers"></a>How to set up the alternative VAT registration numbers
 
 To set up the alternative VAT registration numbers for different countries/regions, follow these steps: 
 
@@ -40,11 +40,11 @@ To create alternative address to your customer, follow the steps:
 8. A notification appears as a warning that you should add new VAT number. To do so, you need to choose the **Add** action on the notification and the **Alternative Customer VAT Registration** page opens. 
 9. This page populates your **Customer No.** and the **VAT Country/Region Code**. So, you just need to add setup that you want to use. 
 
-## Work with the sales documents   
+## <a name="work-with-the-sales-documents"></a>Work with the sales documents
 
 You can create new [sales invoice](sales-how-invoice-sales.md) or [sales order](sales-how-sell-products.md) in [!INCLUDE[prod_short](includes/prod_short.md)]. If you need to use a ship-to address that differs from the customer's address and is located in a different country, follow the steps:  
 
-### Alternate shipping address  
+### <a name="alternate-shipping-address"></a>Alternate shipping address
 
 1. Expand the **Shipping and Billing** FastTab.   
 2. In the Ship-to field, choose the **Alternate Shipping Address** option. 
@@ -59,7 +59,7 @@ You can create new [sales invoice](sales-how-invoice-sales.md) or [sales order](
 7. Once you confirm, the values are overwritten with the values from the **Alternative Customer VAT Registration** setup. You can check all the VAT related fields that are under the **Invoice Details** FastTab.  
 8. Post the document.  
 
-### Custom address  
+### <a name="custom-address"></a>Custom address
 
 In case you don't have the ship-to address configured but still want to use a different address for shipping, you can use this option.  
 
@@ -69,7 +69,7 @@ In case you don't have the ship-to address configured but still want to use a di
 4. Once you change the country/region code to match the **VAT Country/Region Code** of the **Alternative Customer VAT Registration**, the **Confirm Alternative Customer VAT Registration** dialog page appears with a list of fields that have been changed. 
 5. [!INCLUDE[prod_short](includes/prod_short.md)] will also change all the VAT related fields that are under the **Invoice Details** FastTab.  
 
-### Work with no shipment 
+### <a name="work-with-no-shipment"></a>Work with no shipment
 
 If there's no shipment as a process, you still can leverage from the **Alternative Customer VAT Registration** setup.
 
@@ -77,11 +77,11 @@ In the sales order or invoice you can find the **VAT Country/Region Code** under
 
 In this situation you can post sales invoice with the proper **VAT Registration No.** for your customer even if you don't ship items with this document. 
 
-### Work with the sales credit memo  
+### <a name="work-with-the-sales-credit-memo"></a>Work with the sales credit memo
 
 Once you post the invoice with a **Ship-to address** or **VAT Country/Region Code** that has different posting data, the corrective **Sales credit memo** takes the values from the **Posted sales invoice** header where these values are taken from the **Alternative customer VAT registration**, so no other actions required. 
 
-## See also
+## <a name="see-also"></a>See also
 
 [VAT Management Overview](finance-manage-vat.md)    
 [Set Up Value-Added Tax](finance-setup-vat.md)    

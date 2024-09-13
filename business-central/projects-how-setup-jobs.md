@@ -30,7 +30,7 @@ For each project, specify various information:
 > [!NOTE]
 > The **Apply Usage Link by Default** toggle on the **Projects Setup** page indicates whether project ledger entries are linked to project planning lines by default. Turn on the toggle to apply this setting to all new projects. You can enable or disable project usage tracking for a specific project by turning the **Apply Usage Link** toggle on or off on the **Project Card** page.
 
-### <a name="specify-a-default-location-for-project-items"></a>Specify a default location for project items
+### <a name="to-set-up-project-usage-tracking"></a>Specify a default location for project items
 
 You can save time on data entry by specifying a default location and bin for projects on the **Project Card** page. When you create project tasks, project planning lines, and project journal lines for the project, the default location and bin are automatically assigned. You can, however, change the location code and bin on tasks and lines if needed.
 
@@ -48,7 +48,7 @@ There are a few things to know about using default locations:
 
 When projects involve multiple customers, billing the right customers for the right tasks can be challenging. [!INCLUDE [prod_short](includes/prod_short.md)] makes billing less complex by letting you specify the bill-to and sell-to customers on each project task line, so you can automatically generate invoices for the correct customers. To learn more about invoicing multiple customers, go to [Invoice one or more customers for project tasks](projects-how-create-jobs.md#invoice-one-or-more-customers-for-project-tasks).
 
-### <a name="to-set-up-project-usage-tracking"></a>To set up project usage tracking
+### <a name="synchronize-the-cost-of-used-items"></a>To set up project usage tracking
 
 When you're working on a project, you might want to know how your usage is tracking against your plan. To explore usage, you can create a link between your project planning lines and the actual usage. The link lets you track your costs and understand how much work remains. By default, the project planning line type is **Budget**, but using the line type **Both Budget and Billable** has similar effects.
 
